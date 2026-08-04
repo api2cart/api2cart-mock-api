@@ -1,0 +1,142 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "4132060218",
+        "order_id": "4132060218",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "345372341",
+            "email": "user19550@example.com",
+            "first_name": "Riley",
+            "last_name": "Clark",
+            "phone": null
+        },
+        "create_at": {
+            "value": "2026-08-01T06:16:28-0500",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "EUR",
+            "name": "Euro",
+            "iso3": "EUR",
+            "symbol_left": "€",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": false
+        },
+        "shipping_address": {
+            "id": 1,
+            "type": "shipping",
+            "first_name": "Riley",
+            "last_name": "Clark",
+            "postcode": "01861",
+            "address1": "804 Example St",
+            "address2": null,
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Bristol",
+            "country": {
+                "code2": "SK",
+                "code3": "SVK",
+                "name": "Slovakia"
+            },
+            "state": null,
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": true,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "billing_address": null,
+        "payment_method": {
+            "name": "cc"
+        },
+        "shipping_method": null,
+        "shipping_methods": [],
+        "status": {
+            "id": "completed",
+            "name": "Completed",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 83.49,
+            "subtotal": 67.49,
+            "shipping": 16,
+            "tax": 0,
+            "discount": 7.5
+        },
+        "total": {
+            "subtotal_ex_tax": 67.49,
+            "wrapping_ex_tax": 0,
+            "shipping_ex_tax": 16,
+            "total_discount": 7.5,
+            "total_tax": 0,
+            "total": 83.49,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": null,
+                "subtotal_discount_ex_tax": null,
+                "tax_discount": null,
+                "subtotal_tax": null,
+                "wrapping_tax": null,
+                "shipping_tax": null
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "4499899018",
+                "order_product_id": "5165920227",
+                "model": "",
+                "name": "Vintage BOHEMIA Crystal Glass Coasters 12 Pieces in Original Box Cassette Coasters",
+                "price": 74.99,
+                "price_inc_tax": null,
+                "quantity": 1,
+                "discount_amount": null,
+                "total_price": 74.99,
+                "tax_percent": null,
+                "tax_value": null,
+                "tax_value_after_discount": null,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_digital": false,
+                    "shipping_cost": 0,
+                    "shipping_profile_id": 312207722484
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": {
+            "value": "2026-08-01T15:16:23-0500",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "finished_time": null,
+        "comment": null,
+        "store_id": 9881820,
+        "warehouses_ids": [],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "additional_fields": {
+            "financial_status": "paid",
+            "fulfillment_status": "delivered",
+            "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+            "is_shipped": true,
+            "is_paid": true,
+            "is_gift": false
+        }
+    }
+}

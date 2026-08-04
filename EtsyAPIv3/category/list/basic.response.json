@@ -1,0 +1,31 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2BoBxnKOR7ygdkGkUONNZyRkzYnU8us7Jz1FNSPsaXXDQW0GLyZZbIeXoiFGzkQ%2Bro4zakOlPi0ZEa887UCSGzWW1iBR6C3oIBgElwv1qTVwz2amyvvSg%2B8tocTB3buRD904lJ%2Bn9boykKkes9%2FF8zjDwR8%3D"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "1",
+                "parent_id": "0",
+                "name": "Accessories",
+                "description": null
+            },
+            {
+                "id": "2",
+                "parent_id": "1",
+                "name": "Belts & Suspenders",
+                "description": null
+            },
+            {
+                "id": "3",
+                "parent_id": "2",
+                "name": "Belt Buckles",
+                "description": null
+            }
+        ]
+    }
+}

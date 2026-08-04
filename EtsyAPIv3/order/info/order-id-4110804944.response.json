@@ -1,0 +1,93 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "order_id": "4110804944",
+        "customer": {
+            "id": "1263014965",
+            "email": "user82808@example.com",
+            "first_name": "Taylor",
+            "last_name": "Moore",
+            "phone": null
+        },
+        "shipping_address": {
+            "id": 1,
+            "type": "shipping",
+            "first_name": "Taylor",
+            "last_name": "Moore",
+            "postcode": "02012",
+            "address1": "808 Example St",
+            "address2": null,
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Bristol",
+            "country": {
+                "code2": "NL",
+                "code3": "NLD",
+                "name": "Netherlands"
+            },
+            "state": null,
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": true,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "billing_address": null,
+        "status": {
+            "id": "completed",
+            "name": "Completed",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 1,
+            "subtotal": 1,
+            "shipping": 0,
+            "tax": 0,
+            "discount": 0
+        },
+        "order_products": [
+            {
+                "product_id": "1227563359",
+                "order_product_id": "5134184458",
+                "model": "Thijs",
+                "name": "Test listing met variaties (allemaal gelijke voorraad)",
+                "price": 0.25,
+                "price_inc_tax": null,
+                "quantity": 4,
+                "discount_amount": null,
+                "total_price": 1,
+                "tax_percent": null,
+                "tax_value": null,
+                "tax_value_after_discount": null,
+                "options": [
+                    {
+                        "option_id": "513",
+                        "name": "Test Variaties",
+                        "value": "Nummer 1",
+                        "price": 0,
+                        "weight": 0,
+                        "type": null,
+                        "product_option_value_id": 427551596272
+                    }
+                ],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_digital": false,
+                    "shipping_cost": 0,
+                    "shipping_profile_id": 310750553483
+                }
+            }
+        ],
+        "bundles": []
+    }
+}

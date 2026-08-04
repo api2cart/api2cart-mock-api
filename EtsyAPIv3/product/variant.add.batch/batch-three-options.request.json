@@ -1,0 +1,57 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "product_id": "123450003",
+                "combination": [
+                    {
+                        "option_name": "Gem color",
+                        "option_value_name": "Blue"
+                    },
+                    {
+                        "option_name": "Gemstone",
+                        "option_value_name": "Agate"
+                    }
+                ],
+                "sku": "SKU01-batch4",
+                "quantity": 1,
+                "available_for_sale": true
+            },
+            {
+                "product_id": "123450003",
+                "combination": [
+                    {
+                        "option_name": "Gem color",
+                        "option_value_name": "Red"
+                    },
+                    {
+                        "option_name": "Gemstone",
+                        "option_value_name": "Amber"
+                    }
+                ],
+                "sku": "SKU02-batch4",
+                "quantity": 1,
+                "available_for_sale": true
+            },
+            {
+                "product_id": "123450003",
+                "combination": [
+                    {
+                        "option_name": "Gem color",
+                        "option_value_name": "Yellow"
+                    },
+                    {
+                        "option_name": "Gemstone",
+                        "option_value_name": "Almandine"
+                    }
+                ],
+                "sku": "SKU03-batch4",
+                "quantity": 1,
+                "available_for_sale": true
+            }
+        ]
+    }
+}

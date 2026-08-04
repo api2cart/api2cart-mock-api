@@ -1,0 +1,55 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FKhTXHJI6ghlY2pxOSttAtx2UJG2dd3ji9%2B5BuU%2B3TmzJ4nYSRQK2rH3IIX9aZsMg5cvuObrYgCMhtUNJW5YDYHVLHu7cr7NC2pfcS1SJra6mORD%2F3Bx1nqFpA0iwOVGCN4Jar3ieZEyUVCjer9SG8A%2FgE%3D"
+    },
+    "result": {
+        "products_count": 6,
+        "product": [
+            {
+                "id": "888814018",
+                "name": "Test product",
+                "description": "test description",
+                "price": 0.2,
+                "categories_ids": "1062"
+            },
+            {
+                "id": "1346608500",
+                "name": "QAtestvariantprod",
+                "description": "QAtestprod%for%variantmethod",
+                "price": 0.2,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1131260945",
+                "name": "QAtestpro",
+                "description": "Desc QAprod",
+                "price": 2499.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1131865629",
+                "name": "QAtestprod",
+                "description": "QAtestprod%for­dmethod",
+                "price": 2599.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1476216040",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "price": 10,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1490409345",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "price": 10,
+                "categories_ids": "1"
+            }
+        ]
+    }
+}

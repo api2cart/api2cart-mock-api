@@ -1,0 +1,71 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 6,
+        "children": [
+            {
+                "id": "18100279055",
+                "parent_id": "888814018",
+                "sku": "test_sku_4",
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": 2,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Test product",
+                "short_description": null,
+                "full_description": "test description",
+                "images": [],
+                "combination": [
+                    {
+                        "option_id": "200",
+                        "option_value_id": "54179769226"
+                    }
+                ],
+                "default_price": 20,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": false,
+                "allow_backorders": null,
+                "in_stock": true,
+                "on_sale": null,
+                "manage_stock": null,
+                "inventory_level": 1,
+                "inventory": [],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "readiness_state_id": 1402408090577
+                }
+            }
+        ]
+    }
+}

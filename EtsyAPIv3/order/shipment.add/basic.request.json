@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": 1001,
+        "tracking_numbers": "TRK123456789",
+        "carrier": "usps"
+    }
+}

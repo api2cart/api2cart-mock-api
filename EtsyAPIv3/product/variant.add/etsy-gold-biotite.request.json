@@ -1,0 +1,18 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "123450003",
+        "attributes": {
+            "Gem color": {
+                "Gold": 0
+            },
+            "Gemstone": {
+                "Biotite": 0
+            }
+        },
+        "sku": "SKUaddGoldBiotite",
+        "quantity": 1
+    }
+}

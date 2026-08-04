@@ -1,0 +1,1556 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FJB8LLGgw8pzoWkmXmZb5WgzjEpJcSv75yweUMytepwR9DGpS19rPAH3BBqlfJE5cTZeZ7zSHJakRbSe3%2BkP4Iaf7UMsK56YEXNYV5uxBWL1y9VaA3QnrF3yTambTNKQx8mOyVdzFdHA2QcMEslDH9CVkRJJ%2FVXyHqfkpXWab1DLF%2BsCII%2F"
+    },
+    "result": {
+        "orders_count": 10,
+        "order": [
+            {
+                "id": "4132060218",
+                "order_id": "4132060218",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "345372341",
+                    "email": "user19550@example.com",
+                    "first_name": "Riley",
+                    "last_name": "Clark",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-08-01T06:16:28-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Riley",
+                    "last_name": "Clark",
+                    "postcode": "01861",
+                    "address1": "804 Example St",
+                    "address2": null,
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Bristol",
+                    "country": {
+                        "code2": "SK",
+                        "code3": "SVK",
+                        "name": "Slovakia"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 83.49,
+                    "subtotal": 67.49,
+                    "shipping": 16,
+                    "tax": 0,
+                    "discount": 7.5
+                },
+                "total": {
+                    "subtotal_ex_tax": 67.49,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 16,
+                    "total_discount": 7.5,
+                    "total_tax": 0,
+                    "total": 83.49,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4499899018",
+                        "order_product_id": "5165920227",
+                        "model": "",
+                        "name": "Vintage BOHEMIA Crystal Glass Coasters 12 Pieces in Original Box Cassette Coasters",
+                        "price": 74.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 74.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 312207722484
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-08-01T15:16:23-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4130541658",
+                "order_id": "4130541658",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1271116608",
+                    "email": "user10186@example.com",
+                    "first_name": "Taylor",
+                    "last_name": "Wilson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-30T14:10:50-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Wilson",
+                    "postcode": "62089",
+                    "address1": "285 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "CA",
+                        "code3": "CAN",
+                        "name": "Canada"
+                    },
+                    "state": {
+                        "code": "ON",
+                        "name": "Ontario"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 44.64,
+                    "subtotal": 20.69,
+                    "shipping": 23.95,
+                    "tax": 0,
+                    "discount": 2.3
+                },
+                "total": {
+                    "subtotal_ex_tax": 20.69,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 23.95,
+                    "total_discount": 2.3,
+                    "total_tax": 0,
+                    "total": 44.64,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4509207766",
+                        "order_product_id": "5159748406",
+                        "model": "",
+                        "name": "Vintage TUPPERWARE Butter Dish Cheese Keeper Box Storage Bin yellow 2",
+                        "price": 22.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 22.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 312072659310
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-31T08:14:16-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4130358936",
+                "order_id": "4130358936",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "98315171",
+                    "email": "user8334@example.com",
+                    "first_name": "Taylor",
+                    "last_name": "Wilson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-30T10:59:59-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Wilson",
+                    "postcode": "00417",
+                    "address1": "247 Example St",
+                    "address2": null,
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "NL",
+                        "code3": "NLD",
+                        "name": "Netherlands"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 24.94,
+                    "subtotal": 17.99,
+                    "shipping": 6.95,
+                    "tax": 0,
+                    "discount": 2
+                },
+                "total": {
+                    "subtotal_ex_tax": 17.99,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 6.95,
+                    "total_discount": 2,
+                    "total_tax": 0,
+                    "total": 24.94,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4406656428",
+                        "order_product_id": "5159513568",
+                        "model": "",
+                        "name": "Vintage Droste Cacao Chocolate Tin Canister Jar Storage Metal box",
+                        "price": 19.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 19.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 312128464559
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-31T08:08:43-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Bedankt voor uw aankoop in mijn Etsy winkel.\r\nIk zal het door u gekochte item zo goed mogelijk verpakken en zo snel mogelijk verzenden.\r\nIk hoop je weer te zien in mijn Etsy winkel!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4130825825",
+                "order_id": "4130825825",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1009738198",
+                    "email": "",
+                    "first_name": "Robin",
+                    "last_name": "Brown",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-30T07:52:09-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Robin",
+                    "last_name": "Brown",
+                    "postcode": "26803",
+                    "address1": "563 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "IT",
+                        "code3": "ITA",
+                        "name": "Italy"
+                    },
+                    "state": {
+                        "code": "VT",
+                        "name": "Viterbo"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 195.49,
+                    "subtotal": 175.5,
+                    "shipping": 19.99,
+                    "tax": 0,
+                    "discount": 19.5
+                },
+                "total": {
+                    "subtotal_ex_tax": 175.5,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 19.99,
+                    "total_discount": 19.5,
+                    "total_tax": 0,
+                    "total": 195.49,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1302128151",
+                        "order_product_id": "5159309518",
+                        "model": "",
+                        "name": "Antique black forest style wood carved design hunting barometer thermometer",
+                        "price": 195,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 195,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 21587522409
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-31T08:05:28-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Grazie per l&#39;acquisto nel mio negozio.\nLo spedirò ben imballato e al più presto possibile.\nSpero di rivederti nel mio negozio Etsy!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4127699155",
+                "order_id": "4127699155",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "71538237",
+                    "email": "user66532@example.com",
+                    "first_name": "Taylor",
+                    "last_name": "Miller",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-26T18:33:02-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Miller",
+                    "postcode": "09178",
+                    "address1": "934 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "WA",
+                        "name": "Washington"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 151.84,
+                    "subtotal": 89.1,
+                    "shipping": 49.95,
+                    "tax": 12.79,
+                    "discount": 9.9
+                },
+                "total": {
+                    "subtotal_ex_tax": 89.1,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 49.95,
+                    "total_discount": 9.9,
+                    "total_tax": 12.79,
+                    "total": 151.84,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4406749284",
+                        "order_product_id": "5155039978",
+                        "model": "",
+                        "name": "Vintage Rocking Wooden Foot Stool Foot Rest Foldable Upholstered Padded FLORAL c1950 Footstool",
+                        "price": 99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 311759983920
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-28T09:07:02-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4126913474",
+                "order_id": "4126913474",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "21781555",
+                    "email": "user83922@example.com",
+                    "first_name": "Casey",
+                    "last_name": "Johnson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-26T17:54:40-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Casey",
+                    "last_name": "Johnson",
+                    "postcode": "90788",
+                    "address1": "669 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Springfield",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "FL",
+                        "name": "Florida"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 168.38,
+                    "subtotal": 108.9,
+                    "shipping": 49.95,
+                    "tax": 9.53,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 108.9,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 49.95,
+                    "total_discount": 0,
+                    "total_tax": 9.53,
+                    "total": 168.38,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4460322946",
+                        "order_product_id": "5159799137",
+                        "model": "",
+                        "name": "Vintage Hindeloopen Umbrella Stand Holder Hand Crafted Basket Wood Painted Barrel Folk Art Floral",
+                        "price": 108.9,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 108.9,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 311758461246
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-28T09:12:14-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4123927869",
+                "order_id": "4123927869",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1268023787",
+                    "email": "",
+                    "first_name": "Taylor",
+                    "last_name": "Davis",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-07-22T11:36:38-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Davis",
+                    "postcode": "65664",
+                    "address1": "133 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "BE",
+                        "code3": "BEL",
+                        "name": "Belgium"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 38.99,
+                    "subtotal": 24.99,
+                    "shipping": 14,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 24.99,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 14,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 38.99,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4405973212",
+                        "order_product_id": "5155078555",
+                        "model": "",
+                        "name": "8 Vintage Tupperware Stacking Tumblers 16 oz Pastel Cup Glasses Mugs",
+                        "price": 24.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 24.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 311441235532
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-07-23T09:45:25-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Merci pour l&#39;achat dans ma boutique.\nJe vais l&#39;expédier bien emballé et dès que possible.\nJ&#39;espère vous revoir dans ma boutique Etsy!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4048695852",
+                "order_id": "4048695852",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "226229654",
+                    "email": "user9687@example.com",
+                    "first_name": "Jamie",
+                    "last_name": "Smith",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-05-05T08:18:57-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Jamie",
+                    "last_name": "Smith",
+                    "postcode": "90932",
+                    "address1": "643 Example St",
+                    "address2": "478 Example St",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "NL",
+                        "code3": "NLD",
+                        "name": "Netherlands"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 54.15,
+                    "subtotal": 43.2,
+                    "shipping": 10.95,
+                    "tax": 0,
+                    "discount": 4.8
+                },
+                "total": {
+                    "subtotal_ex_tax": 43.2,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 10.95,
+                    "total_discount": 4.8,
+                    "total_tax": 0,
+                    "total": 54.15,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4453512846",
+                        "order_product_id": "5053879808",
+                        "model": "",
+                        "name": "Vtg. Tupperware Jadeite Green Crisper Celery Vegetable Keeper w insert Bread Box Lunch Bin",
+                        "price": 24,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 24,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 305351427584
+                        }
+                    },
+                    {
+                        "product_id": "4453512221",
+                        "order_product_id": "5053879806",
+                        "model": "",
+                        "name": "Vtg. Tupperware Jadeite Green Crisper Celery Vegetable Keeper w insert Bread Box Lunch box 1",
+                        "price": 24,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 24,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 305351428188
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-05-05T08:37:25-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Bedankt voor uw aankoop in mijn Etsy winkel.\r\nIk zal het door u gekochte item zo goed mogelijk verpakken en zo snel mogelijk verzenden.\r\nIk hoop je weer te zien in mijn Etsy winkel!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4029486993",
+                "order_id": "4029486993",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "104961924",
+                    "email": "user10769@example.com",
+                    "first_name": "Jamie",
+                    "last_name": "Brown",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-04-11T15:46:33-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Jamie",
+                    "last_name": "Brown",
+                    "postcode": "72964",
+                    "address1": "426 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "NL",
+                        "code3": "NLD",
+                        "name": "Netherlands"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "partially refunded",
+                    "name": "Partially Refunded",
+                    "history": [],
+                    "refund_info": {
+                        "shipping": null,
+                        "fee": null,
+                        "tax": null,
+                        "total_refunded": 12,
+                        "time": null,
+                        "comment": "",
+                        "refunded_items": []
+                    }
+                },
+                "totals": {
+                    "total": 210.72,
+                    "subtotal": 190.77,
+                    "shipping": 19.95,
+                    "tax": 0,
+                    "discount": 21.2
+                },
+                "total": {
+                    "subtotal_ex_tax": 190.77,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 19.95,
+                    "total_discount": 21.2,
+                    "total_tax": 0,
+                    "total": 210.72,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4445815128",
+                        "order_product_id": "5035049419",
+                        "model": "",
+                        "name": "Vintage TUPPERWARE blue pitcher Creamer Milk Flip Top Lid Pour jug",
+                        "price": 22.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 22.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 304171908299
+                        }
+                    },
+                    {
+                        "product_id": "4429799013",
+                        "order_product_id": "5035049417",
+                        "model": "",
+                        "name": "Vintage Wood Serving Tray Decor Floral Hand Made Art Serving Tray",
+                        "price": 45,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 45,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 304171908327
+                        }
+                    },
+                    {
+                        "product_id": "826537840",
+                        "order_product_id": "5035049413",
+                        "model": "",
+                        "name": "Old Box Bin Jar Canister Metal Tin Gorgeous Decor Romantic Scene Shabby Chic",
+                        "price": 29.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 29.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 248028586135
+                        }
+                    },
+                    {
+                        "product_id": "4323457741",
+                        "order_product_id": "5035049411",
+                        "model": "",
+                        "name": "Vintage 5 Ltr. Dutch Petroleum (Kerosene) Can Paraffin Pitcher Enamelware Jug Petroleum Canister barrel",
+                        "price": 69,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 69,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 304171908473
+                        }
+                    },
+                    {
+                        "product_id": "1827416307",
+                        "order_product_id": "5024472286",
+                        "model": "",
+                        "name": "Vintage Hand Made Art Trinket Jewelry Cigarettes Box Storage Bin Chest RARE jewelry box storage box",
+                        "price": 44.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 44.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 246987409370
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-04-12T08:14:26-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [
+                    {
+                        "id": null,
+                        "shipping": null,
+                        "fee": null,
+                        "tax": null,
+                        "total": 12,
+                        "modified_time": {
+                            "value": "2026-04-12T08:14:26+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "comment": "Shop owner refunding shipping overages",
+                        "items": [],
+                        "additional_fields": {
+                            "note_from_issuer": "",
+                            "status": "SUCCESS"
+                        }
+                    }
+                ],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Bedankt voor uw aankoop in mijn Etsy winkel.\r\nIk zal het door u gekochte item zo goed mogelijk verpakken en zo snel mogelijk verzenden.\r\nIk hoop je weer te zien in mijn Etsy winkel!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "4021316008",
+                "order_id": "4021316008",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "229958792",
+                    "email": "user15041@example.com",
+                    "first_name": "Jamie",
+                    "last_name": "Wilson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2026-04-06T08:22:33-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Jamie",
+                    "last_name": "Wilson",
+                    "postcode": "42496",
+                    "address1": "614 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "NL",
+                        "code3": "NLD",
+                        "name": "Netherlands"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 34.05,
+                    "subtotal": 26.1,
+                    "shipping": 7.95,
+                    "tax": 0,
+                    "discount": 2.9
+                },
+                "total": {
+                    "subtotal_ex_tax": 26.1,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 7.95,
+                    "total_discount": 2.9,
+                    "total_tax": 0,
+                    "total": 34.05,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1733963818",
+                        "order_product_id": "5018022816",
+                        "model": "",
+                        "name": "Set of 6 Egg Cup stand 60s Flower Plastic DBGM Vintage Pearl Egg Rack Egg Cups camping",
+                        "price": 29,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 29,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 248028586135
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2026-04-07T02:45:20-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "paid",
+                    "fulfillment_status": "delivered",
+                    "message_from_seller": "Bedankt voor uw aankoop in mijn Etsy winkel.\r\nIk zal het door u gekochte item zo goed mogelijk verpakken en zo snel mogelijk verzenden.\r\nIk hoop je weer te zien in mijn Etsy winkel!",
+                    "is_shipped": true,
+                    "is_paid": true,
+                    "is_gift": false
+                }
+            }
+        ]
+    }
+}

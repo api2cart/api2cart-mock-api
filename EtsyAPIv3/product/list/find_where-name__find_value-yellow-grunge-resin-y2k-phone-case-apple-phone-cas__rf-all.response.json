@@ -1,0 +1,275 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "1867047859",
+                "type": "configurable",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Yellow grunge resin y2k phone case, apple phone case, samsung & android phone case, urban punk phone case, industrial gothic aesthetic case",
+                "description": "Gothic aesthetic yellow edition resin phone case by beadsandbeauty ଘo(∗ ❛ั ᵕ ❛ั )੭່\n\n✨ Important Note for Our 3D Charm Cases ✨\n\nEach case is uniquely handcrafted using a variety of 3D charms and real embedded objects including stainless steel, metal, alloy, and plastic with silver/gold spray painted materials. Please note that some metal parts may naturally darken or show signs of corrosion over time due to oxidation and daily wear.\n(I will replace the silver razor with black if the stock runs out, but I will make sure the design and the vibes are still same and cool) \n\n💡 Maintenance Tip:\nTo help preserve your case, you may apply a thin layer of UV resin or transparent UV nail gel and cure it under a UV lamp for a few minutes. This optional step can help seal the surface and protect the details longer.\n\n\n♡ ̆̈ phone types \n– available for iphone types only\n\n♡ ̆̈ colors\n– the color of this product might not be 100% the same due the lighting (no customize sorry) \n\n♡ ̆̈ processing time \n– all of our products are made to order, please allow 4-7 days for this product before shipping\n\n♡ ̆̈ shipping\n– I ship worldwide from Jakarta, Indonesia and it may take 1-3 weeks to arrive\n\n♡ ̆̈ policies\n– no cancellations accepted\n– refund, return & exchanges are not accepted \n– no address changes via chat, please make sure your address is correct\n– please provide me your phone number for the shimpent process\n– please note that any lost packages, damage, or delays are beyond my control and capacity as a seller\n\n♡ ̆̈ freebie\n– choose your freebie! now you&#39;ll get one unique and collectible free Indonesian traditional magnetic trinket / keychain / postcard in every purchase! If you like journaling you can choose postcard or if you want to know what Indonesian trinket look like you can choose either it&#39;s traditional keychain / magnetic trinket as your freebie to put on your fridge or use it as your new favorite keychain that you can&#39;t never find in other shops! 😉🫶✨",
+                "short_description": "",
+                "price": 540000,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 10,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": [
+                    "873"
+                ],
+                "stores_ids": [
+                    "54397694"
+                ],
+                "url": "https://store-19779cba.example.com/",
+                "seo_url": "https://store-19779cba.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-01-30T21:09:13+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-04-10T04:51:12+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7051110330",
+                        "http_path": "https://picsum.photos/seed/49674181/600/600",
+                        "file_name": "il_fullxfull.7051110330_f7hn.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-07-25T11:05:28+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Grunge resin phone case with bold yellow accents, industrial-style pop tabs, cigarette, and an edgy street punk aesthetic. Handmade yellow resin phone case with a raw and distressed grunge design featuring metallic and alternative gothic details.",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "7051111634",
+                        "http_path": "https://picsum.photos/seed/a3e90c89/600/600",
+                        "file_name": "il_fullxfull.7051111634_fyvr.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-07-25T11:06:07+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Bold and edgy resin phone case rugged texture with vibrant yellow tones, distressed metallic accents, and an urban gothic streetwear look. Handcrafted alternative phone case with a grunge aesthetic, pop tab embellishments, and a dark industrial feel.",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7051112010",
+                        "http_path": "https://picsum.photos/seed/84b42f39/600/600",
+                        "file_name": "il_fullxfull.7051112010_7bjt.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-07-25T11:06:19+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Alternative aesthetic phone case with real object collage, Nirvana silver mini disc, red carabiner, gold vintage key, cigarette miniature, and recycled bottle cap. Clear resin embedded for a bold, edgy vibe. Retro grunge punk resin phone case with embedded holo Nirvana CD, safety pin, pull tab, keychain, and vintage anime bottle cap art. Perfect unique phone case for rock music lovers and alternative fashion fans.",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7051111664",
+                        "http_path": "https://picsum.photos/seed/fc178cfb/600/600",
+                        "file_name": "il_fullxfull.7051111664_sbhy.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-07-25T11:06:08+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Grunge aesthetic phone case with real metal trinkets, hologram miniature CD, safety pin, vintage key, bottle cap art, and carabiner charm embedded in clear resin for iPhone and Samsung models. Edgy Y2K punk rock style phone cover. Unique punk streetwear iPhone and Android case gift.",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "513",
+                        "product_option_id": null,
+                        "name": "phone types (pls note ur detail phone type)",
+                        "description": null,
+                        "sort_order": 513,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "1420427511153",
+                                "product_option_item_id": null,
+                                "name": "samsung z flip type",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1399945511663",
+                                "product_option_item_id": null,
+                                "name": "phone type in note",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "514",
+                        "product_option_id": null,
+                        "name": "freebie (pick yours!)",
+                        "description": null,
+                        "sort_order": 514,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "1358212264181",
+                                "product_option_item_id": null,
+                                "name": "keychain trinket",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1358212264135",
+                                "product_option_item_id": null,
+                                "name": "magnetic trinket",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1358212264229",
+                                "product_option_item_id": null,
+                                "name": "Indonesian post card",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "IDR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "en-US",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "54",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "14",
+                    "processing_min": "7",
+                    "production_partners": [],
+                    "readiness_state_id": "",
+                    "return_policy_id": "1296166927203",
+                    "shipping_profile_id": "242370823804",
+                    "shop_section_id": "51049729",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "resin phone case",
+                        "samsung phone case",
+                        "android phone case",
+                        "y2k phone case",
+                        "personalized",
+                        "iphone resin case",
+                        "phone case",
+                        "iphone 15 case",
+                        "gothic phone case",
+                        "gothic style",
+                        "decoden resin case",
+                        "grunge phone case",
+                        "alternative case"
+                    ],
+                    "when_made": "made_to_order",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            }
+        ]
+    }
+}

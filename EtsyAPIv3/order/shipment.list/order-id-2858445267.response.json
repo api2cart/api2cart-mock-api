@@ -1,0 +1,24 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "shipment_count": 1,
+        "shipment": [
+            {
+                "id": "1144374647770",
+                "order_id": "2858445267",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "DHL Express",
+                        "tracking_number": "LE794167350DE"
+                    }
+                ],
+                "items": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "DcjbDoIgAADQT0KhdD1KVuA1LNF4o2WbggPHHNnX13k8pwLzKqnU9O6ugI%2BvtdEt%2FWazOMcH6Ea8HlluYR8L4S44iNA%2BF2wLKYBeoiV6lMPgyKTrp51WqT0w%2Bt9LEdiahQ54PpqAphm9zYhs5KPIzqSgvs9dW8qkp041Pw%3D%3D",
+        "next": "BcHBDoIgAADQD%2FKAUkYcMWNTzMgNdNxMwzRtTYFNvr73rkUiS1J%2BJl1zIMfeVrPIfL4oijDcxsReHuwHG6SUDVwUh4VDA9VZ9MWtYyA1m15W15%2FZ0L1h%2BnyBwUWrl7bPqZj0bkhotAlutDmsM6%2FEkXsi4%2BzEAN3vHQO4%2FgM%3D"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "4",
+                "parent_id": "2",
+                "name": "Belts",
+                "description": null
+            },
+            {
+                "id": "5",
+                "parent_id": "2",
+                "name": "Suspenders",
+                "description": null
+            },
+            {
+                "id": "6",
+                "parent_id": "1",
+                "name": "Costume Accessories",
+                "description": null
+            }
+        ]
+    }
+}

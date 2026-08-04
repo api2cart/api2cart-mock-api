@@ -1,0 +1,2292 @@
+{
+    "platform": "EtsyAPIv3",
+    "generated_at": "2026-08-04T18:12:38Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "info by "
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "basic-2",
+                    "request": "cart/info/basic-2.request.json",
+                    "response": "cart/info/basic-2.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-all__exclude-name-stores-info",
+                    "request": "cart/info/rf-all__exclude-name-stores-info.request.json",
+                    "response": "cart/info/rf-all__exclude-name-stores-info.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, exclude=name,stores_info"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-name",
+                    "request": "cart/info/rf-name.request.json",
+                    "response": "cart/info/rf-name.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={result{name}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-stores-info",
+                    "request": "cart/info/rf-stores-info.request.json",
+                    "response": "cart/info/rf-stores-info.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={result{stores_info}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-test",
+                    "request": "cart/info/rf-test.request.json",
+                    "response": "cart/info/rf-test.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={result{test}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-url",
+                    "request": "cart/info/rf-url.request.json",
+                    "response": "cart/info/rf-url.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={result{url}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.count",
+            "path": "category/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/count/basic.request.json",
+                    "response": "category/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/count/error-invalid-param.request.json",
+                    "response": "category/count/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "find-name",
+                    "request": "category/count/find-name.request.json",
+                    "response": "category/count/find-name.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Accessories"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "find-name-2",
+                    "request": "category/count/find-name-2.request.json",
+                    "response": "category/count/find-name-2.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Belts & Suspenders"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "find-name-3",
+                    "request": "category/count/find-name-3.request.json",
+                    "response": "category/count/find-name-3.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Belt Buckles"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-men",
+                    "request": "category/count/find_where-name__find_value-men.request.json",
+                    "response": "category/count/find_where-name__find_value-men.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=men"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "parent-id-0",
+                    "request": "category/count/parent-id-0.request.json",
+                    "response": "category/count/parent-id-0.response.json",
+                    "covers": {
+                        "description": "filter: parent_id=0"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-1",
+                    "request": "category/count/parent-id-1.request.json",
+                    "response": "category/count/parent-id-1.response.json",
+                    "covers": {
+                        "description": "filter: parent_id=1"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-2",
+                    "request": "category/count/parent-id-2.request.json",
+                    "response": "category/count/parent-id-2.response.json",
+                    "covers": {
+                        "description": "filter: parent_id=2"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent_id-0",
+                    "request": "category/count/parent_id-0.request.json",
+                    "response": "category/count/parent_id-0.response.json",
+                    "covers": {
+                        "description": "filter: parent_id=0"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "parent_id-2",
+                    "request": "category/count/parent_id-2.request.json",
+                    "response": "category/count/parent_id-2.response.json",
+                    "covers": {
+                        "description": "filter: parent_id=2"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required id => 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "id-1",
+                    "request": "category/info/id-1.request.json",
+                    "response": "category/info/id-1.response.json",
+                    "covers": {
+                        "description": "info by id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-2",
+                    "request": "category/info/id-2.request.json",
+                    "response": "category/info/id-2.response.json",
+                    "covers": {
+                        "description": "info by id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-3",
+                    "request": "category/info/id-3.request.json",
+                    "response": "category/info/id-3.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=3"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "id-4",
+                    "request": "category/info/id-4.request.json",
+                    "response": "category/info/id-4.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=4"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "id-5",
+                    "request": "category/info/id-5.request.json",
+                    "response": "category/info/id-5.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=5"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/list/basic.request.json",
+                    "response": "category/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "find-name",
+                    "request": "category/list/find-name.request.json",
+                    "response": "category/list/find-name.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Accessories, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "find-name-2",
+                    "request": "category/list/find-name-2.request.json",
+                    "response": "category/list/find-name-2.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Belts & Suspenders, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "find-name-3",
+                    "request": "category/list/find-name-3.request.json",
+                    "response": "category/list/find-name-3.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Belt Buckles, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "category/list/page-2.request.json",
+                    "response": "category/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "category/list/page-3.request.json",
+                    "response": "category/list/page-3.response.json",
+                    "covers": {
+                        "description": "filter: page_cursor=BcHbDoIgAADQD+IhnEvhkVl4GSoZpT4iWIZtTGKlfn3nxEdGCoXqVJwA2osY3mNNcOYlR4wT4PpkSVJ9jVS1zeG25nmwd32HrWgtlrylchAurxvlAksvHNbhQJF62o/R8P34RQz45ZDdqsDPapsxW7tX+S3M5EZTTurc6D8="
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-0",
+                    "request": "category/list/parent-id-0.request.json",
+                    "response": "category/list/parent-id-0.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, parent_id=0, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-1",
+                    "request": "category/list/parent-id-1.request.json",
+                    "response": "category/list/parent-id-1.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, parent_id=1, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-2",
+                    "request": "category/list/parent-id-2.request.json",
+                    "response": "category/list/parent-id-2.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, parent_id=2, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "category/list/start-10.request.json",
+                    "response": "category/list/start-10.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, start=10, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.count",
+            "path": "order/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/count/basic.request.json",
+                    "response": "order/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "created-from-2010-07-29-13-45-52",
+                    "request": "order/count/created-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/count/created-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_from=2010-07-29 13:45:52"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-to-2100-08-29-13-45-52",
+                    "request": "order/count/created-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/count/created-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_to=2100-08-29 13:45:52"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/count/error-invalid-param.request.json",
+                    "response": "order/count/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "financial-status-paid",
+                    "request": "order/count/financial-status-paid.request.json",
+                    "response": "order/count/financial-status-paid.response.json",
+                    "covers": {
+                        "description": "filter: financial_status=paid"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-from-2010-07-29-13-45-52",
+                    "request": "order/count/modified-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/count/modified-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_from=2010-07-29 13:45:52"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-to-2100-08-29-13-45-52",
+                    "request": "order/count/modified-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/count/modified-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_to=2100-08-29 13:45:52"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "order-id-2858445267",
+                    "request": "order/info/order-id-2858445267.request.json",
+                    "response": "order/info/order-id-2858445267.response.json",
+                    "covers": {
+                        "description": "info by order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4110804944",
+                    "request": "order/info/order-id-4110804944.request.json",
+                    "response": "order/info/order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4127699155",
+                    "request": "order/info/order-id-4127699155.request.json",
+                    "response": "order/info/order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4127699155"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130358936",
+                    "request": "order/info/order-id-4130358936.request.json",
+                    "response": "order/info/order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130358936"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130541658",
+                    "request": "order/info/order-id-4130541658.request.json",
+                    "response": "order/info/order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130541658"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130825825",
+                    "request": "order/info/order-id-4130825825.request.json",
+                    "response": "order/info/order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130825825"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4132060218",
+                    "request": "order/info/order-id-4132060218.request.json",
+                    "response": "order/info/order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4132060218"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "created-from-2010-07-29-13-45-52",
+                    "request": "order/list/created-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/list/created-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, created_from=2010-07-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-modified-range",
+                    "request": "order/list/created-modified-range.request.json",
+                    "response": "order/list/created-modified-range.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, modified_from=2010-07-29 13:45:52, modified_to=2100-08-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-range",
+                    "request": "order/list/created-range.request.json",
+                    "response": "order/list/created-range.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-to-2100-08-29-13-45-52",
+                    "request": "order/list/created-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/list/created-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, created_to=2100-08-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/list/error-invalid-param.request.json",
+                    "response": "order/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "financial-fulfillment-paid-not-shipped",
+                    "request": "order/list/financial-fulfillment-paid-not-shipped.request.json",
+                    "response": "order/list/financial-fulfillment-paid-not-shipped.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, financial_status=paid, fulfillment_status=not_shipped, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "financial-status-not-paid",
+                    "request": "order/list/financial-status-not-paid.request.json",
+                    "response": "order/list/financial-status-not-paid.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, financial_status=not_paid, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "financial-status-paid",
+                    "request": "order/list/financial-status-paid.request.json",
+                    "response": "order/list/financial-status-paid.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, financial_status=paid, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-delivered",
+                    "request": "order/list/fulfillment-status-delivered.request.json",
+                    "response": "order/list/fulfillment-status-delivered.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, fulfillment_status=delivered, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-not-shipped",
+                    "request": "order/list/fulfillment-status-not-shipped.request.json",
+                    "response": "order/list/fulfillment-status-not-shipped.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, fulfillment_status=not_shipped, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-shipped-and-not-delivered",
+                    "request": "order/list/fulfillment-status-shipped-and-not-delivered.request.json",
+                    "response": "order/list/fulfillment-status-shipped-and-not-delivered.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, fulfillment_status=shipped_and_not_delivered, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-from-2010-07-29-13-45-52",
+                    "request": "order/list/modified-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/list/modified-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, modified_from=2010-07-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "order/list/modified-range.request.json",
+                    "response": "order/list/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, modified_from=2010-07-29 13:45:52, modified_to=2100-08-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-to-2100-08-29-13-45-52",
+                    "request": "order/list/modified-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/list/modified-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, modified_to=2100-08-29 13:45:52, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-status-open",
+                    "request": "order/list/order-status-open.request.json",
+                    "response": "order/list/order-status-open.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_status=open, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "order/list/page-2.request.json",
+                    "response": "order/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "order/list/page-3.request.json",
+                    "response": "order/list/page-3.response.json",
+                    "covers": {
+                        "description": "filter: page_cursor=0872d00OLHZJyQzP88jOMU9PMjQodnYy9Y2oijIqNzIz8vDUzytLczT0zUgO0w9xzbVINPJNzzEI9kg2ykjMLQUA"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "order/list/start-10.request.json",
+                    "response": "order/list/start-10.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, start=10, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "status-financial-open-paid",
+                    "request": "order/list/status-financial-open-paid.request.json",
+                    "response": "order/list/status-financial-open-paid.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_status=open, financial_status=paid, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.add",
+            "path": "order/shipment.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.add/basic.request.json",
+                    "response": "order/shipment.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add order shipment (tracking)"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.add/error-no-params.request.json",
+                    "response": "order/shipment.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.info",
+            "path": "order/shipment.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.info/error-no-params.request.json",
+                    "response": "order/shipment.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required id => 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.info/error-not-found.request.json",
+                    "response": "order/shipment.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "id-1501657741180-order-id-4110804944",
+                    "request": "order/shipment.info/id-1501657741180-order-id-4110804944.request.json",
+                    "response": "order/shipment.info/id-1501657741180-order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by id+order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-1502849844791-order-id-4110804944",
+                    "request": "order/shipment.info/id-1502849844791-order-id-4110804944.request.json",
+                    "response": "order/shipment.info/id-1502849844791-order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by id+order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-1503531248668-order-id-4130358936",
+                    "request": "order/shipment.info/id-1503531248668-order-id-4130358936.request.json",
+                    "response": "order/shipment.info/id-1503531248668-order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=1503531248668, order_id=4130358936"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503532257636-order-id-4130541658",
+                    "request": "order/shipment.info/id-1503532257636-order-id-4130541658.request.json",
+                    "response": "order/shipment.info/id-1503532257636-order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=1503532257636, order_id=4130541658"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503892164614-order-id-4132060218",
+                    "request": "order/shipment.info/id-1503892164614-order-id-4132060218.request.json",
+                    "response": "order/shipment.info/id-1503892164614-order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=1503892164614, order_id=4132060218"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503989778593-order-id-4127699155",
+                    "request": "order/shipment.info/id-1503989778593-order-id-4127699155.request.json",
+                    "response": "order/shipment.info/id-1503989778593-order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=1503989778593, order_id=4127699155"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1504715324125-order-id-4130825825",
+                    "request": "order/shipment.info/id-1504715324125-order-id-4130825825.request.json",
+                    "response": "order/shipment.info/id-1504715324125-order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, id=1504715324125, order_id=4130825825"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "order-id-2858445267",
+                    "request": "order/shipment.list/order-id-2858445267.request.json",
+                    "response": "order/shipment.list/order-id-2858445267.response.json",
+                    "covers": {
+                        "description": "sub-list first page for order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4110804944",
+                    "request": "order/shipment.list/order-id-4110804944.request.json",
+                    "response": "order/shipment.list/order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "sub-list first page for order_id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4127699155",
+                    "request": "order/shipment.list/order-id-4127699155.request.json",
+                    "response": "order/shipment.list/order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4127699155, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130358936",
+                    "request": "order/shipment.list/order-id-4130358936.request.json",
+                    "response": "order/shipment.list/order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130358936, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130541658",
+                    "request": "order/shipment.list/order-id-4130541658.request.json",
+                    "response": "order/shipment.list/order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130541658, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130825825",
+                    "request": "order/shipment.list/order-id-4130825825.request.json",
+                    "response": "order/shipment.list/order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4130825825, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4132060218",
+                    "request": "order/shipment.list/order-id-4132060218.request.json",
+                    "response": "order/shipment.list/order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, order_id=4132060218, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/status.list/error-invalid-param.request.json",
+                    "response": "order/status.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.update",
+            "path": "order/update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/update/error-no-params.request.json",
+                    "response": "order/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/update/error-not-found.request.json",
+                    "response": "order/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: order_id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "set-status",
+                    "request": "order/update/set-status.request.json",
+                    "response": "order/update/set-status.response.json",
+                    "covers": {
+                        "description": "happy path: update order status"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: create product (name, model, description, price)"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-already-exists",
+                    "request": "product/add/error-already-exists.request.json",
+                    "response": "product/add/error-already-exists.response.json",
+                    "covers": {
+                        "description": "entity already exists (duplicate)"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-empty-description",
+                    "request": "product/add/error-empty-description.request.json",
+                    "response": "product/add/error-empty-description.response.json",
+                    "covers": {
+                        "description": "validation: empty description"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-empty-model",
+                    "request": "product/add/error-empty-model.request.json",
+                    "response": "product/add/error-empty-model.response.json",
+                    "covers": {
+                        "description": "validation: empty model"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-empty-name",
+                    "request": "product/add/error-empty-name.request.json",
+                    "response": "product/add/error-empty-name.response.json",
+                    "covers": {
+                        "description": "validation: empty name"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/add/error-invalid-price.request.json",
+                    "response": "product/add/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> required parameter missing"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-only-name",
+                    "request": "product/add/error-only-name.request.json",
+                    "response": "product/add/error-only-name.response.json",
+                    "covers": {
+                        "description": "validation: only name -> model required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-enabled-status",
+                    "request": "product/add/etsy-enabled-status.request.json",
+                    "response": "product/add/etsy-enabled-status.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC3: status with localized shipping and image fields"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-listing-specifics",
+                    "request": "product/add/etsy-listing-specifics.request.json",
+                    "response": "product/add/etsy-listing-specifics.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC4: listing flags, materials, specifics and personalization details"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-personalization-question",
+                    "request": "product/add/etsy-personalization-question.request.json",
+                    "response": "product/add/etsy-personalization-question.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC5: personalization question payload"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-polish-category",
+                    "request": "product/add/etsy-polish-category.request.json",
+                    "response": "product/add/etsy-polish-category.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC2: localized category and shipping profile"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-shipping-tags",
+                    "request": "product/add/etsy-shipping-tags.request.json",
+                    "response": "product/add/etsy-shipping-tags.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC1: shipping, tags, image and processing profile"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "with-special-price",
+                    "request": "product/add/with-special-price.request.json",
+                    "response": "product/add/with-special-price.response.json",
+                    "covers": {
+                        "description": "create product with special_price"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.info",
+            "path": "product/child_item.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/child_item.info/error-no-params.request.json",
+                    "response": "product/child_item.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required id => 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/child_item.info/error-not-found.request.json",
+                    "response": "product/child_item.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "product_id-1360559503__id-12877039520",
+                    "request": "product/child_item.info/product_id-1360559503__id-12877039520.request.json",
+                    "response": "product/child_item.info/product_id-1360559503__id-12877039520.response.json",
+                    "covers": {
+                        "description": "filter: product_id=1360559503, id=12877039520"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip",
+                    "request": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.request.json",
+                    "response": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.response.json",
+                    "covers": {
+                        "description": "filter: product_id=1360559503, id=12877039522, response_fields={result{id,parent_id,name,full_description}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-888814018__id-18444733522__rf-all",
+                    "request": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.request.json",
+                    "response": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: product_id=888814018, id=18444733522, response_fields={*}"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.list",
+            "path": "product/child_item.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/child_item.list/error-invalid-param.request.json",
+                    "response": "product/child_item.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "page_cursor-q0h3ivdxrwrxtcw3knwz",
+                    "request": "product/child_item.list/page_cursor-q0h3ivdxrwrxtcw3knwz.request.json",
+                    "response": "product/child_item.list/page_cursor-q0h3ivdxrwrxtcw3knwz.response.json",
+                    "covers": {
+                        "description": "filter: page_cursor=q0h3ivDxrwrxtCw3KnWzdEkKyTNxNExLCc5IyrGoiKwoyjFIyzNN9TLP1zbOdAs1NHN1NXa09MvKCHFySvOLMPC28AkJSDXy1DYKCPRM9o%2F0SbLIzHQN0q9wNNGucncvNw00ijBx1fcNyAq1BQA%3D"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-1360559503__count-2",
+                    "request": "product/child_item.list/product_id-1360559503__count-2.request.json",
+                    "response": "product/child_item.list/product_id-1360559503__count-2.response.json",
+                    "covers": {
+                        "description": "filter: product_id=1360559503, count=2"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-708818923__rf-all__find_where-sku__find_value-qaautotest",
+                    "request": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest.request.json",
+                    "response": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest.response.json",
+                    "covers": {
+                        "description": "filter: product_id=708818923, response_fields={*}, find_where=sku, find_value=QAautotest"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889",
+                    "request": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889.request.json",
+                    "response": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889.response.json",
+                    "covers": {
+                        "description": "filter: product_id=708818923, response_fields={*}, find_where=sku, find_value=test_variant8889"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-888814018",
+                    "request": "product/child_item.list/product_id-888814018.request.json",
+                    "response": "product/child_item.list/product_id-888814018.response.json",
+                    "covers": {
+                        "description": "filter: product_id=888814018"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_id-888814018__rf-all__start-2__count-1",
+                    "request": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.request.json",
+                    "response": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.response.json",
+                    "covers": {
+                        "description": "filter: product_id=888814018, response_fields={*}, start=2, count=1"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin",
+                    "request": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
+                    "response": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
+                    "covers": {
+                        "description": "filter: product_ids=888814018,1360559503, response_fields={*}, exclude=upc,ean,mpn,gtin"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product_ids-888814018__rf-all__currency_id-usd",
+                    "request": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.request.json",
+                    "response": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.response.json",
+                    "covers": {
+                        "description": "filter: product_ids=888814018, response_fields={*}, currency_id=USD"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "avail_view-false",
+                    "request": "product/count/avail_view-false.request.json",
+                    "response": "product/count/avail_view-false.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=false"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "avail_view-true",
+                    "request": "product/count/avail_view-true.request.json",
+                    "response": "product/count/avail_view-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=true"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/count/error-invalid-param.request.json",
+                    "response": "product/count/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-qatestvariantprod__rf-all",
+                    "request": "product/count/find_where-name__find_value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/count/find_where-name__find_value-qatestvariantprod__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=QAtestvariantprod, response_fields={*}"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-test3",
+                    "request": "product/count/find_where-name__find_value-test3.request.json",
+                    "response": "product/count/find_where-name__find_value-test3.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Test3"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.delete",
+            "path": "product/delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/delete/by-id.request.json",
+                    "response": "product/delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: delete product by id"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/delete/error-no-params.request.json",
+                    "response": "product/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/delete/error-not-found.request.json",
+                    "response": "product/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "id-123450101",
+                    "request": "product/delete/id-123450101.request.json",
+                    "response": "product/delete/id-123450101.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteSmallTC1: delete first added product"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "id-123450102",
+                    "request": "product/delete/id-123450102.request.json",
+                    "response": "product/delete/id-123450102.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteSmallTC2: delete second added product"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "id-123450103",
+                    "request": "product/delete/id-123450103.request.json",
+                    "response": "product/delete/id-123450103.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteSmallTC3: delete third added product"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.find",
+            "path": "product/find",
+            "cases": [
+                {
+                    "slug": "error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112",
+                    "request": "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112.request.json",
+                    "response": "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112.response.json",
+                    "covers": {
+                        "description": "error: find by real name=Test listing met variaties (allemaal gelijke voorraad) (return_code=112)"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-no-find-value",
+                    "request": "product/find/error-no-find-value.request.json",
+                    "response": "product/find/error-no-find-value.response.json",
+                    "covers": {
+                        "description": "error: missing find_value => 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/find/error-not-found.request.json",
+                    "response": "product/find/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt",
+                    "request": "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.request.json",
+                    "response": "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Enchanted Garden Fairy Arm Cuff, Handmade Flower & Butterfly Beaded Arm Jewelry, Elven Festival Armlet, Whimsical Cottagecore Jewelry"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel",
+                    "request": "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.request.json",
+                    "response": "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Rainbow Smiley Beaded Necklace: Y2K Indie Kandi Jewelry"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas",
+                    "request": "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.request.json",
+                    "response": "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=Yellow grunge resin y2k phone case, apple phone case, samsung & android phone case, urban punk phone case, industrial gothic aesthetic case"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.add",
+            "path": "product/image.add",
+            "cases": [
+                {
+                    "slug": "by-url",
+                    "request": "product/image.add/by-url.request.json",
+                    "response": "product/image.add/by-url.response.json",
+                    "covers": {
+                        "description": "happy path: add product image by url"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.add/error-no-params.request.json",
+                    "response": "product/image.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-only-product-id",
+                    "request": "product/image.add/error-only-product-id.request.json",
+                    "response": "product/image.add/error-only-product-id.response.json",
+                    "covers": {
+                        "description": "validation: only product_id -> image source required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-content-upload",
+                    "request": "product/image.add/etsy-content-upload.request.json",
+                    "response": "product/image.add/etsy-content-upload.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addImageSmallTC3: add image by content upload"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-footer-image-url",
+                    "request": "product/image.add/etsy-footer-image-url.request.json",
+                    "response": "product/image.add/etsy-footer-image-url.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addImageSmallTC1: add image by url with first position"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-watch-image-url",
+                    "request": "product/image.add/etsy-watch-image-url.request.json",
+                    "response": "product/image.add/etsy-watch-image-url.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addImageSmallTC2: add image by url with second position"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.delete",
+            "path": "product/image.delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/image.delete/by-id.request.json",
+                    "response": "product/image.delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: delete product image"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.delete/error-no-params.request.json",
+                    "response": "product/image.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/image.delete/error-not-found.request.json",
+                    "response": "product/image.delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: image id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "product-id-123450101__id-223450201",
+                    "request": "product/image.delete/product-id-123450101__id-223450201.request.json",
+                    "response": "product/image.delete/product-id-123450101__id-223450201.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteImageSmallTC1: delete first added image"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "product-id-123450102__id-223450202",
+                    "request": "product/image.delete/product-id-123450102__id-223450202.request.json",
+                    "response": "product/image.delete/product-id-123450102__id-223450202.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteImageSmallTC2: delete second added image"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "product-id-123450102__id-223450203",
+                    "request": "product/image.delete/product-id-123450102__id-223450203.request.json",
+                    "response": "product/image.delete/product-id-123450102__id-223450203.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit deleteImageSmallTC3: delete content-uploaded image"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required id => 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "id-1227563359",
+                    "request": "product/info/id-1227563359.request.json",
+                    "response": "product/info/id-1227563359.response.json",
+                    "covers": {
+                        "description": "info by id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "avail_view-true",
+                    "request": "product/list/avail_view-true.request.json",
+                    "response": "product/list/avail_view-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=true"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all",
+                    "request": "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.request.json",
+                    "response": "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Enchanted Garden Fairy Arm Cuff, Handmade Flower & Butterfly Beaded Arm Jewelry, Elven Festival Armlet, Whimsical Cottagecore Jewelry, count=3"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-qatestpro",
+                    "request": "product/list/find_where-name__find_value-qatestpro.request.json",
+                    "response": "product/list/find_where-name__find_value-qatestpro.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=QAtestpro"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-qatestvariantprod__rf-all",
+                    "request": "product/list/find_where-name__find_value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/list/find_where-name__find_value-qatestvariantprod__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: find_where=name, find_value=QAtestvariantprod, response_fields={*}"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all",
+                    "request": "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.request.json",
+                    "response": "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Rainbow Smiley Beaded Necklace: Y2K Indie Kandi Jewelry, count=3"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all",
+                    "request": "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.request.json",
+                    "response": "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, find_where=name, find_value=Yellow grunge resin y2k phone case, apple phone case, samsung & android phone case, urban punk phone case, industrial gothic aesthetic case, count=3"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/list/page-2.request.json",
+                    "response": "product/list/page-2.response.json",
+                    "covers": {
+                        "description": "filter: page_cursor=BcHBDoIgAADQD+qQBa1xjFlKWDDDmdyEkSAWiVuWX9978Wit06EmZ9ZP8Ra/GWTDxQjxDEWCvaAOF6pXOqht5KtqzDio6v2SN9NrlnTsWgMolXfLl2G9PBzTxHeAlGiz803bZPMBpkSWH0Akqn4WYpRfk3efglxJdlKG/gE="
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "product/list/page-3.request.json",
+                    "response": "product/list/page-3.response.json",
+                    "covers": {
+                        "description": "filter: page_cursor=BcHRDoIgFADQT9IprPmsoOHM8rapj6YrBSS8DTO+vnOQzfMyvtuzqOUHAY+c1Dpb0GrDY3Z0JiW8Gmh2he8apM7ufV6XCbgpCuBXFC8fqpVUKHI5cOJP3LpHRxRlW5D5vYS7LHviEmzCxoDYlHZiGZ/UDJe4TbyJbn8="
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "rf-all__avail_view-false",
+                    "request": "product/list/rf-all__avail_view-false.request.json",
+                    "response": "product/list/rf-all__avail_view-false.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, avail_view=false"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__exclude-price-url-create-at-",
+                    "request": "product/list/rf-all__exclude-price-url-create-at-.request.json",
+                    "response": "product/list/rf-all__exclude-price-url-create-at-.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, exclude=price,url,create_at,type"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__page_cursor-bchbdoigaadqd-2fkhtx",
+                    "request": "product/list/rf-all__page_cursor-bchbdoigaadqd-2fkhtx.request.json",
+                    "response": "product/list/rf-all__page_cursor-bchbdoigaadqd-2fkhtx.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, page_cursor=BcHbDoIgAADQD%2FKhTXHJI6ghlY2pxOSttAtx2UJG2dd3ji9%2B5BuU%2B3TmzJ4nYSRQK2rH3IIX9aZsMg5cvuObrYgCMhtUNJW5YDYHVLHu7cr7NC2pfcS1SJra6mORD%2F3Bx1nqFpA0iwOVGCN4Jar3ieZEyUVCjer9SG8A%2FgE%3D"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__product_ids-888814018-qqq-136055",
+                    "request": "product/list/rf-all__product_ids-888814018-qqq-136055.request.json",
+                    "response": "product/list/rf-all__product_ids-888814018-qqq-136055.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, product_ids=888814018,qqq,1360559503"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__sku-test-sku-2",
+                    "request": "product/list/rf-all__sku-test-sku-2.request.json",
+                    "response": "product/list/rf-all__sku-test-sku-2.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, sku=test_sku_2"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-product-id-u-model-price",
+                    "request": "product/list/rf-product-id-u-model-price.request.json",
+                    "response": "product/list/rf-product-id-u-model-price.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={result{product{id,u_model,price}}}"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "sku-bag-01",
+                    "request": "product/list/sku-bag-01.request.json",
+                    "response": "product/list/sku-bag-01.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, sku=bag_01, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-create-at-asc",
+                    "request": "product/list/sort-create-at-asc.request.json",
+                    "response": "product/list/sort-create-at-asc.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, sort_by=create_at, sort_direction=asc, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-create-at-desc",
+                    "request": "product/list/sort-create-at-desc.request.json",
+                    "response": "product/list/sort-create-at-desc.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, sort_by=create_at, sort_direction=desc, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-price-asc",
+                    "request": "product/list/sort-price-asc.request.json",
+                    "response": "product/list/sort-price-asc.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, sort_by=price, sort_direction=asc, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort_by-modified-at__sort_direction-asc",
+                    "request": "product/list/sort_by-modified-at__sort_direction-asc.request.json",
+                    "response": "product/list/sort_by-modified-at__sort_direction-asc.response.json",
+                    "covers": {
+                        "description": "filter: sort_by=modified_at, sort_direction=asc"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "sort_by-modified-at__sort_direction-desc",
+                    "request": "product/list/sort_by-modified-at__sort_direction-desc.request.json",
+                    "response": "product/list/sort_by-modified-at__sort_direction-desc.response.json",
+                    "covers": {
+                        "description": "filter: sort_by=modified_at, sort_direction=desc"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort_by-price",
+                    "request": "product/list/sort_by-price.request.json",
+                    "response": "product/list/sort_by-price.response.json",
+                    "covers": {
+                        "description": "filter: sort_by=price"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort_by-price__sort_direction-desc",
+                    "request": "product/list/sort_by-price__sort_direction-desc.request.json",
+                    "response": "product/list/sort_by-price__sort_direction-desc.response.json",
+                    "covers": {
+                        "description": "filter: sort_by=price, sort_direction=desc"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "start-0__count-6",
+                    "request": "product/list/start-0__count-6.request.json",
+                    "response": "product/list/start-0__count-6.response.json",
+                    "covers": {
+                        "description": "filter: start=0, count=6"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "product/list/start-10.request.json",
+                    "response": "product/list/start-10.response.json",
+                    "covers": {
+                        "description": "filter: response_fields={*}, start=10, count=10"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/update/by-id.request.json",
+                    "response": "product/update/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: update product by id"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/update/error-empty-id.request.json",
+                    "response": "product/update/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-invalid-id",
+                    "request": "product/update/error-invalid-id.request.json",
+                    "response": "product/update/error-invalid-id.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric id"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/update/error-invalid-price.request.json",
+                    "response": "product/update/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-disable-status",
+                    "request": "product/update/etsy-disable-status.request.json",
+                    "response": "product/update/etsy-disable-status.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC4: disable product status"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-increase-price-dimensions",
+                    "request": "product/update/etsy-increase-price-dimensions.request.json",
+                    "response": "product/update/etsy-increase-price-dimensions.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC2: increase quantity with price and dimensions"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-name-question-update",
+                    "request": "product/update/etsy-name-question-update.request.json",
+                    "response": "product/update/etsy-name-question-update.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC9: update Name personalization question with force_all"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-personalization-details-off",
+                    "request": "product/update/etsy-personalization-details-off.request.json",
+                    "response": "product/update/etsy-personalization-details-off.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC5: quantity, specifics and personalization details"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-personalization-question-update",
+                    "request": "product/update/etsy-personalization-question-update.request.json",
+                    "response": "product/update/etsy-personalization-question-update.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC8: update personalization question with force_all"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-polish-localized-update",
+                    "request": "product/update/etsy-polish-localized-update.request.json",
+                    "response": "product/update/etsy-polish-localized-update.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC3: localized sku, description and category update"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-reduce-materials-renewal",
+                    "request": "product/update/etsy-reduce-materials-renewal.request.json",
+                    "response": "product/update/etsy-reduce-materials-renewal.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC6: reduce quantity, materials and personalization update"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-sku-category-description",
+                    "request": "product/update/etsy-sku-category-description.request.json",
+                    "response": "product/update/etsy-sku-category-description.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC1: sku, categories, description and processing profile"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-virtual-downloadable-tags",
+                    "request": "product/update/etsy-virtual-downloadable-tags.request.json",
+                    "response": "product/update/etsy-virtual-downloadable-tags.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit updateMediumTC7: virtual, downloadable and tags update"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/update/update-price.request.json",
+                    "response": "product/update/update-price.response.json",
+                    "covers": {
+                        "description": "update product price"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "update-quantity",
+                    "request": "product/update/update-quantity.request.json",
+                    "response": "product/update/update-quantity.response.json",
+                    "covers": {
+                        "description": "update product quantity"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.add",
+            "path": "product/variant.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/variant.add/basic.request.json",
+                    "response": "product/variant.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add product variant"
+                    },
+                    "captured_at": "2026-08-04T13:18:49Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.add/error-no-params.request.json",
+                    "response": "product/variant.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.add/error-not-found.request.json",
+                    "response": "product/variant.add/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-gold-aquamarine",
+                    "request": "product/variant.add/etsy-gold-aquamarine.request.json",
+                    "response": "product/variant.add/etsy-gold-aquamarine.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC1: add variant with Gem color and Gemstone combination"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "etsy-gold-biotite",
+                    "request": "product/variant.add/etsy-gold-biotite.request.json",
+                    "response": "product/variant.add/etsy-gold-biotite.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit addMediumTC2: add variant with second gemstone combination"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.add.batch",
+            "path": "product/variant.add.batch",
+            "cases": [
+                {
+                    "slug": "batch-combination-availability",
+                    "request": "product/variant.add.batch/batch-combination-availability.request.json",
+                    "response": "product/variant.add.batch/batch-combination-availability.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit productVariantAddBatchMediumTC1: multiple products, combinations, prices and availability"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "batch-custom-occasion",
+                    "request": "product/variant.add.batch/batch-custom-occasion.request.json",
+                    "response": "product/variant.add.batch/batch-custom-occasion.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit productVariantAddBatchMediumTC2: custom attributes and one-option combination"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "batch-single-option",
+                    "request": "product/variant.add.batch/batch-single-option.request.json",
+                    "response": "product/variant.add.batch/batch-single-option.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit productVariantAddBatchMediumTC3: single product and single option"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "batch-three-options",
+                    "request": "product/variant.add.batch/batch-three-options.request.json",
+                    "response": "product/variant.add.batch/batch-three-options.response.json",
+                    "covers": {
+                        "description": "Etsy PHPUnit productVariantAddBatchMediumTC4: three gemstone combinations"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.add.batch/error-no-params.request.json",
+                    "response": "product/variant.add.batch/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.update",
+            "path": "product/variant.update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.update/error-no-params.request.json",
+                    "response": "product/variant.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.update/error-not-found.request.json",
+                    "response": "product/variant.update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: variant id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/variant.update/update-price.request.json",
+                    "response": "product/variant.update/update-price.response.json",
+                    "covers": {
+                        "description": "happy path: update variant price"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.count",
+            "path": "webhook/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "webhook/count/basic.request.json",
+                    "response": "webhook/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T17:54:25Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "webhook/count/error-invalid-param.request.json",
+                    "response": "webhook/count/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.create",
+            "path": "webhook/create",
+            "cases": [
+                {
+                    "slug": "error-empty-filtering-conditions",
+                    "request": "webhook/create/error-empty-filtering-conditions.request.json",
+                    "response": "webhook/create/error-empty-filtering-conditions.response.json",
+                    "covers": {
+                        "description": "validation: empty filtering_conditions in request body"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "webhook/create/error-no-params.request.json",
+                    "response": "webhook/create/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: entity, action and callback required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-only-entity",
+                    "request": "webhook/create/error-only-entity.request.json",
+                    "response": "webhook/create/error-only-entity.response.json",
+                    "covers": {
+                        "description": "validation: action and callback required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "order-add-filtered",
+                    "request": "webhook/create/order-add-filtered.request.json",
+                    "response": "webhook/create/order-add-filtered.response.json",
+                    "covers": {
+                        "description": "live success: create order.add webhook with fields=force_all and filtering_conditions"
+                    },
+                    "captured_at": "2026-08-04T18:00:00Z"
+                },
+                {
+                    "slug": "order-update-filtered",
+                    "request": "webhook/create/order-update-filtered.request.json",
+                    "response": "webhook/create/order-update-filtered.response.json",
+                    "covers": {
+                        "description": "live success: create order.update webhook with response_fields and filtering_conditions"
+                    },
+                    "captured_at": "2026-08-04T17:59:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.delete",
+            "path": "webhook/delete",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "webhook/delete/error-no-params.request.json",
+                    "response": "webhook/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: webhook id required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "webhook/delete/error-not-found.request.json",
+                    "response": "webhook/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: webhook id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "id-322",
+                    "request": "webhook/delete/id-322.request.json",
+                    "response": "webhook/delete/id-322.response.json",
+                    "covers": {
+                        "description": "live success: delete existing webhook by id"
+                    },
+                    "captured_at": "2026-08-04T17:58:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.events",
+            "path": "webhook/events",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "webhook/events/basic.request.json",
+                    "response": "webhook/events/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.list",
+            "path": "webhook/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "webhook/list/basic.request.json",
+                    "response": "webhook/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T17:54:25Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "webhook/list/error-invalid-param.request.json",
+                    "response": "webhook/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid param value => 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-04T13:02:03Z"
+                }
+            ]
+        },
+        {
+            "entity": "webhook",
+            "method": "webhook.update",
+            "path": "webhook/update",
+            "cases": [
+                {
+                    "slug": "error-empty-filtering-conditions",
+                    "request": "webhook/update/error-empty-filtering-conditions.request.json",
+                    "response": "webhook/update/error-empty-filtering-conditions.response.json",
+                    "covers": {
+                        "description": "validation: empty filtering_conditions in request body"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "webhook/update/error-no-params.request.json",
+                    "response": "webhook/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: webhook id required"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "webhook/update/error-not-found.request.json",
+                    "response": "webhook/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: webhook id does not exist"
+                    },
+                    "captured_at": "2026-08-04T18:12:33Z"
+                },
+                {
+                    "slug": "order-add-filtered-updated",
+                    "request": "webhook/update/order-add-filtered-updated.request.json",
+                    "response": "webhook/update/order-add-filtered-updated.response.json",
+                    "covers": {
+                        "description": "live success: update webhook callback, response_fields and filtering_conditions"
+                    },
+                    "captured_at": "2026-08-04T18:01:00Z"
+                }
+            ]
+        }
+    ]
+}

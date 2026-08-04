@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test name_2",
+        "model": "Test model_new",
+        "description": "Test description",
+        "price": 99.9,
+        "special_price": 13
+    }
+}

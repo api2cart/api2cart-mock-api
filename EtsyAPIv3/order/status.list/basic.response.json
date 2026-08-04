@@ -1,0 +1,40 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "cart_order_statuses": [
+            {
+                "id": "paid",
+                "name": "Paid"
+            },
+            {
+                "id": "completed",
+                "name": "Completed"
+            },
+            {
+                "id": "open",
+                "name": "Open"
+            },
+            {
+                "id": "payment processing",
+                "name": "Payment processing"
+            },
+            {
+                "id": "canceled",
+                "name": "Canceled"
+            },
+            {
+                "id": "fully refunded",
+                "name": "Fully Refunded"
+            },
+            {
+                "id": "partially refunded",
+                "name": "Partially Refunded"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-04T18:01:00Z",
+    "method": "PUT",
+    "endpoint": "webhook.update.json",
+    "body": {
+        "id": 324,
+        "callback": "https://example.com/webhook/order-add-updated",
+        "label": "order.add filtered updated",
+        "response_fields": "{result}",
+        "active": true,
+        "filtering_conditions": {
+            "and": [
+                {
+                    "field": "totals.total",
+                    "operator": "gt",
+                    "value": "50"
+                }
+            ]
+        }
+    }
+}

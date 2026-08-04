@@ -1,0 +1,145 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "4130825825",
+        "order_id": "4130825825",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "1009738198",
+            "email": "",
+            "first_name": "Robin",
+            "last_name": "Brown",
+            "phone": null
+        },
+        "create_at": {
+            "value": "2026-07-30T07:52:09-0500",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "EUR",
+            "name": "Euro",
+            "iso3": "EUR",
+            "symbol_left": "€",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": false
+        },
+        "shipping_address": {
+            "id": 1,
+            "type": "shipping",
+            "first_name": "Robin",
+            "last_name": "Brown",
+            "postcode": "26803",
+            "address1": "563 Example St",
+            "address2": "",
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Fairview",
+            "country": {
+                "code2": "IT",
+                "code3": "ITA",
+                "name": "Italy"
+            },
+            "state": {
+                "code": "VT",
+                "name": "Viterbo"
+            },
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": true,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "billing_address": null,
+        "payment_method": {
+            "name": "cc"
+        },
+        "shipping_method": null,
+        "shipping_methods": [],
+        "status": {
+            "id": "completed",
+            "name": "Completed",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 195.49,
+            "subtotal": 175.5,
+            "shipping": 19.99,
+            "tax": 0,
+            "discount": 19.5
+        },
+        "total": {
+            "subtotal_ex_tax": 175.5,
+            "wrapping_ex_tax": 0,
+            "shipping_ex_tax": 19.99,
+            "total_discount": 19.5,
+            "total_tax": 0,
+            "total": 195.49,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": null,
+                "subtotal_discount_ex_tax": null,
+                "tax_discount": null,
+                "subtotal_tax": null,
+                "wrapping_tax": null,
+                "shipping_tax": null
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "1302128151",
+                "order_product_id": "5159309518",
+                "model": "",
+                "name": "Antique black forest style wood carved design hunting barometer thermometer",
+                "price": 195,
+                "price_inc_tax": null,
+                "quantity": 1,
+                "discount_amount": null,
+                "total_price": 195,
+                "tax_percent": null,
+                "tax_value": null,
+                "tax_value_after_discount": null,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_digital": false,
+                    "shipping_cost": 0,
+                    "shipping_profile_id": 21587522409
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": {
+            "value": "2026-07-31T08:05:28-0500",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "finished_time": null,
+        "comment": null,
+        "store_id": 9881820,
+        "warehouses_ids": [],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "additional_fields": {
+            "financial_status": "paid",
+            "fulfillment_status": "delivered",
+            "message_from_seller": "Grazie per l&#39;acquisto nel mio negozio.\nLo spedirò ben imballato e al più presto possibile.\nSpero di rivederti nel mio negozio Etsy!",
+            "is_shipped": true,
+            "is_paid": true,
+            "is_gift": false
+        }
+    }
+}

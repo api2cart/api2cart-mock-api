@@ -1,0 +1,22 @@
+{
+    "captured_at": "2026-08-04T17:59:00Z",
+    "method": "POST",
+    "endpoint": "webhook.create.json",
+    "body": {
+        "entity": "order",
+        "action": "update",
+        "callback": "https://example.com/webhook/order-update",
+        "label": "order.update filtered",
+        "response_fields": "{result}",
+        "active": true,
+        "filtering_conditions": {
+            "and": [
+                {
+                    "field": "totals.total",
+                    "operator": "gt",
+                    "value": "10"
+                }
+            ]
+        }
+    }
+}

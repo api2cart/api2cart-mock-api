@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T13:18:49Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": 40,
+        "model": "VARIANT-SKU-1",
+        "price": 12.5,
+        "quantity": 10
+    }
+}

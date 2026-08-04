@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T17:44:16Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "find_where": "name",
+        "find_value": "Yellow grunge resin y2k phone case, apple phone case, samsung & android phone case, urban punk phone case, industrial gothic aesthetic case",
+        "count": 3
+    }
+}

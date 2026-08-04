@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "123450101",
+        "sku": "test_sdvs",
+        "categories_ids": "3",
+        "description": "Test update mediumm EN",
+        "processing_profile_id": "1402408090581"
+    }
+}

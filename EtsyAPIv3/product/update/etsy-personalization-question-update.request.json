@@ -1,0 +1,18 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "888814018",
+        "params": "force_all",
+        "personalization_questions": [
+            {
+                "question_text": "Personalization",
+                "instructions": "Updated instructions2",
+                "question_type": "text_input",
+                "required": false,
+                "max_allowed_characters": 45
+            }
+        ]
+    }
+}

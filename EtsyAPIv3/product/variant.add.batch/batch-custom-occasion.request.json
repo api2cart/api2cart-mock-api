@@ -1,0 +1,53 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New Value"
+                    },
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Bachelor party"
+                    }
+                ],
+                "sku": "batch21311111",
+                "price": 19.91,
+                "quantity": 2,
+                "available_for_sale": false
+            },
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Custom value2"
+                    },
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New Value"
+                    }
+                ],
+                "sku": "batch22111111111",
+                "quantity": 1
+            },
+            {
+                "product_id": "123450002",
+                "combination": [
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Occasion"
+                    }
+                ],
+                "sku": "batch23",
+                "quantity": 1,
+                "available_for_sale": false
+            }
+        ]
+    }
+}

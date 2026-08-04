@@ -1,0 +1,103 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Custom value2"
+                    },
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New Value"
+                    }
+                ],
+                "sku": "batch111",
+                "price": 19.91,
+                "quantity": 2,
+                "available_for_sale": false
+            },
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New Value25"
+                    },
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "1st birthday"
+                    }
+                ],
+                "sku": "batch2111",
+                "quantity": 1
+            },
+            {
+                "product_id": "123450002",
+                "combination": [
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Anniversary"
+                    },
+                    {
+                        "option_name": "Custom",
+                        "option_value_name": "CustomNew"
+                    }
+                ],
+                "sku": "batch3",
+                "quantity": 1,
+                "available_for_sale": false
+            },
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New 1"
+                    },
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "1st birthday"
+                    }
+                ],
+                "sku": "new_variant_1",
+                "quantity": 1
+            },
+            {
+                "product_id": "123450001",
+                "combination": [
+                    {
+                        "option_name": "New Custom Attribute",
+                        "option_value_name": "New Value"
+                    },
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "1st birthday"
+                    }
+                ],
+                "sku": "batch51111111",
+                "quantity": 1
+            },
+            {
+                "product_id": "123450002",
+                "combination": [
+                    {
+                        "option_name": "Custom",
+                        "option_value_name": "New Value"
+                    },
+                    {
+                        "option_name": "Occasion",
+                        "option_value_name": "Anniversary"
+                    }
+                ],
+                "sku": "batch71111111",
+                "quantity": 1,
+                "available_for_sale": true
+            }
+        ]
+    }
+}

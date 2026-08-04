@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T17:44:16Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "find_where": "name",
+        "find_value": "Enchanted Garden Fairy Arm Cuff, Handmade Flower & Butterfly Beaded Arm Jewelry, Elven Festival Armlet, Whimsical Cottagecore Jewelry",
+        "count": 3
+    }
+}

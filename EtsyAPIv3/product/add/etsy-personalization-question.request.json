@@ -1,0 +1,29 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "UnittestProductAdd 5",
+        "description": "test personalization questions",
+        "price": 3,
+        "categories_ids": "1857",
+        "is_supply": "true",
+        "available_for_view": "false",
+        "quantity": 5,
+        "weight": 2,
+        "weight_unit": "oz",
+        "image_name": "logo.png",
+        "image_url": "https://picsum.photos/seed/etsy-add-5/800",
+        "shipping_template_id": "150486311896",
+        "processing_profile_id": "1402408090577",
+        "personalization_questions": [
+            {
+                "question_text": "Personalization",
+                "instructions": "Enter your name",
+                "question_type": "text_input",
+                "required": true,
+                "max_allowed_characters": 30
+            }
+        ]
+    }
+}

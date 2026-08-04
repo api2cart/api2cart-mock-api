@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": 64
+    }
+}

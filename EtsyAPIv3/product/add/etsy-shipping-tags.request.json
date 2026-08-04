@@ -1,0 +1,22 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "UnittestProductAdd",
+        "description": "Unittest Product Add",
+        "price": 10,
+        "weight": 15,
+        "weight_unit": "kg",
+        "quantity": 10,
+        "manufacturer": "someone_else",
+        "available_for_view": "true",
+        "shipping_template_id": 150486311896,
+        "tags": "add1,add2,add3",
+        "lang_id": "en",
+        "categories_ids": "1",
+        "image_name": "test image.jpg",
+        "image_url": "https://picsum.photos/seed/etsy-add-1/800",
+        "processing_profile_id": "1402408090577"
+    }
+}

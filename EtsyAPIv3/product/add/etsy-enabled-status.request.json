@@ -1,0 +1,23 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "UnittestProductAdd 3",
+        "description": "Unittest Product Add 3",
+        "price": 99,
+        "weight": 10,
+        "weight_unit": "kg",
+        "quantity": 14,
+        "manufacturer": "i_did",
+        "available_for_view": "false",
+        "status": "enabled",
+        "shipping_template_id": 155784447487,
+        "tags": "add11,add21,add31",
+        "lang_id": "pl",
+        "categories_ids": "66",
+        "image_name": "logo.png",
+        "image_url": "https://picsum.photos/seed/etsy-add-3/800",
+        "processing_profile_id": "1402408090577"
+    }
+}

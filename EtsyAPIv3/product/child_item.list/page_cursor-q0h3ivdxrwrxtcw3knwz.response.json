@@ -1,0 +1,75 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "q0h3ivDxrwrxtCw3KnWzdEkKyTNxNA5x9DDL8s7NdfHJDvaMskj2zSsPdSxP9S3Mzc%2BuTPWqNPXxqSrUNnDLd%2FdJKTfyDbFw8c9JzQoIzTQo8zepcNGPzM8OKA%2BK9HbxMwnRznIrKktyD%2FS1BQA%3D",
+        "next": null
+    },
+    "result": {
+        "total_count": 3,
+        "children": [
+            {
+                "id": "12877165046",
+                "parent_id": "1360559503",
+                "sku": "test_sku_4",
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": 2,
+                "created_time": null,
+                "modified_time": null,
+                "name": "QAtestvariantprod",
+                "short_description": null,
+                "full_description": "QAtestprod%for%variantmethod",
+                "images": [],
+                "combination": [
+                    {
+                        "option_id": "200",
+                        "option_value_id": "52041490705"
+                    },
+                    {
+                        "option_id": "513",
+                        "option_value_id": "2852300169"
+                    }
+                ],
+                "default_price": 77.9,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": true,
+                "allow_backorders": null,
+                "in_stock": true,
+                "on_sale": null,
+                "manage_stock": null,
+                "inventory_level": 70,
+                "inventory": [],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "readiness_state_id": 1402408090577
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T17:44:16Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "find_where": "name",
+        "find_value": "Rainbow Smiley Beaded Necklace: Y2K Indie Kandi Jewelry",
+        "count": 3
+    }
+}

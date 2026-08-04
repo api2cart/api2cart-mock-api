@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcFLEoIgAADQA7kxFaElYiKMipN91B2IpE1Oo%2Fmr0%2FceBAnmDRL0Elrox6F9gxof41nmKMmxNVVkJFQXfpN9l3vJvF4Whk4vOQPn6tqjUH6UFZ3upbtvp%2FqZgj0%2Bf9bO5KHI6NA%2ByIKHSDhvFeADYN6qTAp4JZks25psQfIH",
+        "next": "BcHBDoIgAADQD%2BIg6Qw5IhpplDDI1VGEmWuLLIvF1%2Fceyjlpx6JjugJFbBHskSV4vw6i4IKA15UulFm1HU8%2FMx2CK6vBBeXrCLTp46zPeMo%2Bza2yZlcfNc0eifwmGA2BXUruXZrfPQZkxiLKd7ALlMkmbXL17KRzcp3hHw%3D%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "43",
+                "parent_id": "42",
+                "name": "Bandanas",
+                "description": null
+            },
+            {
+                "id": "45",
+                "parent_id": "42",
+                "name": "Handkerchiefs",
+                "description": null
+            },
+            {
+                "id": "46",
+                "parent_id": "42",
+                "name": "Scarves",
+                "description": null
+            },
+            {
+                "id": "47",
+                "parent_id": "42",
+                "name": "Shawls & Wraps",
+                "description": null
+            },
+            {
+                "id": "48",
+                "parent_id": "1",
+                "name": "Suit & Tie Accessories",
+                "description": null
+            },
+            {
+                "id": "49",
+                "parent_id": "48",
+                "name": "Ascots",
+                "description": null
+            },
+            {
+                "id": "50",
+                "parent_id": "48",
+                "name": "Bolo Ties",
+                "description": null
+            },
+            {
+                "id": "51",
+                "parent_id": "48",
+                "name": "Bow Ties",
+                "description": null
+            },
+            {
+                "id": "52",
+                "parent_id": "57",
+                "name": "Cuff Links",
+                "description": null
+            },
+            {
+                "id": "53",
+                "parent_id": "48",
+                "name": "Cummerbunds",
+                "description": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T13:14:09Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "sort_by": "create_at",
+        "sort_direction": "asc",
+        "count": 10
+    }
+}

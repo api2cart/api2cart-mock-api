@@ -1,0 +1,10 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1",
+        "parent_id": "0",
+        "name": "Accessories",
+        "description": null
+    }
+}

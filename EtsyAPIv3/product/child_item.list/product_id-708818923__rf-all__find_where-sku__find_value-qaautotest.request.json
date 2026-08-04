@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-07-23T11:23:40Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "product_id": "708818923",
+        "response_fields": "{*}",
+        "find_where": "sku",
+        "find_value": "QAautotest"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": "123450101",
+        "image_name": "footer_center_bg2.jpg",
+        "position": "1",
+        "url": "https://picsum.photos/seed/etsy-image-add-1/800"
+    }
+}

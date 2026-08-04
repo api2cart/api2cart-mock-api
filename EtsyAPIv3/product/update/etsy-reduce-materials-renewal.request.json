@@ -1,0 +1,28 @@
+{
+    "captured_at": "2026-08-04T17:54:10Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "123450104",
+        "reduce_quantity": 1,
+        "description": "Test Product ahmet",
+        "shop_section_id": "54235001",
+        "return_policy_id": "1371690296221",
+        "width": "12",
+        "auto_renew": "false",
+        "materials": [
+            "materials"
+        ],
+        "when_made": "2020_2025",
+        "manufacturer": "i_did",
+        "name": "newName",
+        "shipping_profile_id": "155784447487",
+        "production_partner_ids": "1686933",
+        "personalization_details": {
+            "is_personalizable": true,
+            "personalization_is_required": false,
+            "personalization_char_count_max": 23,
+            "personalization_instructions": "instructions2"
+        }
+    }
+}
