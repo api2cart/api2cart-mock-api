@@ -4,7 +4,7 @@
     "endpoint": "product.child_item.list.json",
     "query": {
         "product_ids": "888814018,1360559503",
-        "response_fields": "{*}",
+        "params": "force_all",
         "exclude": "upc,ean,mpn,gtin"
     }
 }

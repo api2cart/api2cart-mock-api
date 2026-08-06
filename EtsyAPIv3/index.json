@@ -1,6 +1,6 @@
 {
     "platform": "EtsyAPIv3",
-    "generated_at": "2026-08-04T18:12:38Z",
+    "generated_at": "2026-08-06T07:53:08Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -40,7 +40,7 @@
                     "request": "cart/info/rf-all__exclude-name-stores-info.request.json",
                     "response": "cart/info/rf-all__exclude-name-stores-info.response.json",
                     "covers": {
-                        "description": "filter: response_fields={*}, exclude=name,stores_info"
+                        "description": "filter: params=force_all, exclude=name,stores_info"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 },
@@ -1200,7 +1200,7 @@
                     "request": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
                     "response": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
                     "covers": {
-                        "description": "filter: product_ids=888814018,1360559503, response_fields={*}, exclude=upc,ean,mpn,gtin"
+                        "description": "filter: product_ids=888814018,1360559503, params=force_all, exclude=upc,ean,mpn,gtin"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1663,7 +1663,7 @@
                     "request": "product/list/rf-all__exclude-price-url-create-at-.request.json",
                     "response": "product/list/rf-all__exclude-price-url-create-at-.response.json",
                     "covers": {
-                        "description": "filter: response_fields={*}, exclude=price,url,create_at,type"
+                        "description": "filter: params=force_all, exclude=price,url,create_at,type"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },

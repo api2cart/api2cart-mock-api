@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "response_fields": "{*}",
+        "params": "force_all",
         "exclude": "price,url,create_at,type"
     }
 }

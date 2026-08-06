@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "cart.info.json",
     "query": {
-        "response_fields": "{*}",
+        "params": "force_all",
         "exclude": "name,stores_info"
     }
 }
