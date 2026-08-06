@@ -340,8 +340,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "FL",
-                        "name": "Florida"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,
@@ -619,8 +619,8 @@
                         "name": "Italy"
                     },
                     "state": {
-                        "code": "FI",
-                        "name": "Firenze"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,
@@ -770,8 +770,8 @@
                         "name": "Italy"
                     },
                     "state": {
-                        "code": "FI",
-                        "name": "Firenze"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,
@@ -1059,8 +1059,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "MA",
-                        "name": "Massachusetts"
+                        "code": "NY",
+                        "name": "New York"
                     },
                     "company": null,
                     "fax": null,

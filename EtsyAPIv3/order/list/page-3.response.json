@@ -192,8 +192,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "IL",
-                        "name": "Illinois"
+                        "code": "WA",
+                        "name": "Washington"
                     },
                     "company": null,
                     "fax": null,
@@ -274,8 +274,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "VA",
-                        "name": "Virginia"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,
@@ -672,8 +672,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "NM",
-                        "name": "New Mexico"
+                        "code": "NY",
+                        "name": "New York"
                     },
                     "company": null,
                     "fax": null,

@@ -51,8 +51,8 @@
                         "name": "Italy"
                     },
                     "state": {
-                        "code": "LE",
-                        "name": "Lecce"
+                        "code": "WA",
+                        "name": "Washington"
                     },
                     "company": null,
                     "fax": null,
@@ -218,8 +218,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "LA",
-                        "name": "Louisiana"
+                        "code": "IL",
+                        "name": "Illinois"
                     },
                     "company": null,
                     "fax": null,
@@ -385,8 +385,8 @@
                         "name": "Germany"
                     },
                     "state": {
-                        "code": "RP",
-                        "name": "Rhineland-Palatinate"
+                        "code": "IL",
+                        "name": "Illinois"
                     },
                     "company": null,
                     "fax": null,
@@ -716,8 +716,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "CA",
-                        "name": "California"
+                        "code": "NY",
+                        "name": "New York"
                     },
                     "company": null,
                     "fax": null,
@@ -1047,8 +1047,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "CA",
-                        "name": "California"
+                        "code": "NY",
+                        "name": "New York"
                     },
                     "company": null,
                     "fax": null,
@@ -1503,8 +1503,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "FL",
-                        "name": "Florida"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,

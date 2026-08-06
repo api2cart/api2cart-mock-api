@@ -189,8 +189,8 @@
                         "name": "Canada"
                     },
                     "state": {
-                        "code": "ON",
-                        "name": "Ontario"
+                        "code": "WA",
+                        "name": "Washington"
                     },
                     "company": null,
                     "fax": null,
@@ -468,8 +468,8 @@
                         "name": "Italy"
                     },
                     "state": {
-                        "code": "VT",
-                        "name": "Viterbo"
+                        "code": "IL",
+                        "name": "Illinois"
                     },
                     "company": null,
                     "fax": null,
@@ -750,8 +750,8 @@
                         "name": "United States of America"
                     },
                     "state": {
-                        "code": "FL",
-                        "name": "Florida"
+                        "code": "CA",
+                        "name": "California"
                     },
                     "company": null,
                     "fax": null,
