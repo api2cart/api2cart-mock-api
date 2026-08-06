@@ -1,4 +1,7 @@
 {
+  "return_code": 0,
+  "return_message": "",
+  "result": {
     "id": "18444733522",
     "parent_id": "888814018",
     "sku": "test_sku_3",
@@ -17,10 +20,10 @@
     "full_description": "test description",
     "images": [],
     "combination": [
-        {
-            "option_id": "200",
-            "option_value_id": "1109098633738"
-        }
+      {
+        "option_id": "200",
+        "option_value_id": "1109098633738"
+      }
     ],
     "default_price": 33.33,
     "cost_price": null,
@@ -53,6 +56,7 @@
     "discounts": [],
     "is_virtual": null,
     "additional_fields": {
-        "readiness_state_id": 1402408090577
+      "readiness_state_id": 1402408090577
     }
+  }
 }

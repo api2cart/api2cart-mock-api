@@ -1,8 +1,0 @@
-{
-    "captured_at": "2026-08-04T18:12:33Z",
-    "method": "PUT",
-    "endpoint": "webhook.update.json",
-    "body": {
-        "id": 999999999
-    }
-}

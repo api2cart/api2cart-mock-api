@@ -1,8 +1,0 @@
-{
-    "captured_at": "2026-08-04T17:58:00Z",
-    "method": "DELETE",
-    "endpoint": "webhook.delete.json",
-    "query": {
-        "id": 322
-    }
-}

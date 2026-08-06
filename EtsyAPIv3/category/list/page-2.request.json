@@ -1,8 +1,8 @@
 {
-    "captured_at": "2026-08-04T13:02:04Z",
+    "captured_at": "2026-08-06T13:29:18Z",
     "method": "GET",
     "endpoint": "category.list.json",
     "query": {
-        "page_cursor": "BcHbDoIgAADQD+oBxnKOR7ygdkGkUONNZyRkzYnU8us7Jz1FNSPsaXXDQW0GLyZZbIeXoiFGzkQ+ro4zakOlPi0ZEa887UCSGzWW1iBR6C3oIBgElwv1qTVwz2amyvvSg+8tocTB3buRD904lJ+n9boykKkes9/F8zjDwR8="
+        "page_cursor": "BcHbDoIgAADQD/IhLwvokcBAs0BQG70Zzo22dFC05td3Dtw3uLZIsI4maKthOsAJH/hnlKiROAmGeMImDex1ezbDTsDcXyhR90eMXX5TfcFxBtRsRgGWaMIr1bxcqOenbK4cx9vxTWUPHPppx9q10OeudRWebAh+RV+A/g=="
     }
 }

@@ -1,8 +1,9 @@
 {
-    "captured_at": "2026-08-04T13:02:04Z",
+    "captured_at": "2026-08-06T13:29:18Z",
     "method": "GET",
     "endpoint": "category.info.json",
     "query": {
+        "response_fields": "{*}",
         "id": "2"
     }
 }

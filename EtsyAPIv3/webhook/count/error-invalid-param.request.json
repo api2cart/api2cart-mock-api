@@ -1,8 +1,0 @@
-{
-    "captured_at": "2026-08-04T13:02:03Z",
-    "method": "GET",
-    "endpoint": "webhook.count.json",
-    "query": {
-        "count": "-1"
-    }
-}

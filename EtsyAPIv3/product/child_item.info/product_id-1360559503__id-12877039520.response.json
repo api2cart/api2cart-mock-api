@@ -1,4 +1,7 @@
 {
+  "return_code": 0,
+  "return_message": "",
+  "result": {
     "id": "12877039520",
     "parent_id": "1360559503",
     "sku": "test_sku_2",
@@ -17,14 +20,14 @@
     "full_description": "QAtestprod%for%variantmethod",
     "images": [],
     "combination": [
-        {
-            "option_id": "200",
-            "option_value_id": "51991371529"
-        },
-        {
-            "option_id": "513",
-            "option_value_id": "2852300169"
-        }
+      {
+        "option_id": "200",
+        "option_value_id": "51991371529"
+      },
+      {
+        "option_id": "513",
+        "option_value_id": "2852300169"
+      }
     ],
     "default_price": 2621.56,
     "cost_price": null,
@@ -57,6 +60,7 @@
     "discounts": [],
     "is_virtual": null,
     "additional_fields": {
-        "readiness_state_id": 1402408090577
+      "readiness_state_id": 1402408090577
     }
+  }
 }

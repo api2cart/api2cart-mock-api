@@ -4,6 +4,7 @@
     "endpoint": "category.list.json",
     "query": {
         "response_fields": "{*}",
+        "start": 2,
         "count": 2
     }
 }
