@@ -1,0 +1,381 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "DczbkkMwAADQD%2BqDWMHso6QjEqJk2rq8Bdm2QVkU4%2Bt3zwcczRl01FABzJroJXKP13WrU5sepy9WYh8sEQF5UvpMssnUsrD2YpYdFTdiyeCgOSHiHIScV%2BT5bXY0dmwnWH8FnNhl2R77tpgxydexbOsOGSwb7q6HszCl%2B1ZcW%2BihS8O2DsykiYBn%2FOfxBGTrVO8MV8LN%2BGIplxLoDrf9IRHcLPHjG66%2BOnPvm6ujcdvsxmcP05geVlCc7TeD0cv4IKHNsRkUJ9Vi%2Bm5cyV61GJ7uyZOqIwFoPY%2Bqz9Ef"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "13820",
+                "parent_id": "13809",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Systems",
+                "short_description": null,
+                "description": "Telephone Systems Engineering",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-e97f5bf4.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "tec041000",
+                        "telephone_systems"
+                    ],
+                    "browse_path_by_name": [
+                        "Books,Engineering & Transportation,Engineering,Telecommunications & Sensors,Telephone Systems"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,173507,173515,13809,13820"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "13809"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            },
+            {
+                "id": "172607",
+                "parent_id": "172606",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Accessories",
+                "short_description": null,
+                "description": "Telephone Accessories",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-4db2eda4.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607",
+                        "172282,493964,172574,172606,172607",
+                        "1064954,1084128,172574,172606,172607"
+                    ],
+                    "children_ids": [
+                        "172608",
+                        "172612",
+                        "229193",
+                        "172622",
+                        "689974011",
+                        "281505"
+                    ],
+                    "parent_ids": [
+                        "281407",
+                        "172606"
+                    ],
+                    "product_types": "CONSUMER_ELECTRONICS"
+                }
+            },
+            {
+                "id": "689974011",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Cords",
+                "short_description": null,
+                "description": "Telephone Wires",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-b2e27b4e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-wires"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Telephone Cords",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Telephone Cords",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Telephone Cords"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,689974011",
+                        "172282,493964,172574,172606,172607,689974011",
+                        "1064954,1084128,172574,172606,172607,689974011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "ELECTRONIC_CABLE"
+                }
+            },
+            {
+                "id": "172606",
+                "parent_id": "172574",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephones & Accessories",
+                "short_description": null,
+                "description": "Telephones",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-3ab5dd32.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephones"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Office Electronics,Telephones & Accessories",
+                        "Office Products,Office Electronics,Telephones & Accessories"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,172574,172606",
+                        "1064954,1084128,172574,172606"
+                    ],
+                    "children_ids": [
+                        "172611",
+                        "11038701",
+                        "5728050011",
+                        "172621",
+                        "11038691",
+                        "172607",
+                        "13431611"
+                    ],
+                    "parent_ids": [
+                        "172574"
+                    ],
+                    "product_types": "PHONE"
+                }
+            },
+            {
+                "id": "8626583011",
+                "parent_id": "8624314011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Signalers & Ringers",
+                "short_description": null,
+                "description": "Telephone Signalers & Ringers",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-f46c6f16.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-signalers-and-ringers"
+                    ],
+                    "browse_path_by_name": [
+                        "Health & Household,Medical Supplies & Equipment,Mobility & Daily Living Aids,Telephone Signalers & Ringers"
+                    ],
+                    "browse_path_by_id": [
+                        "3760901,3760931,3775161,8624314011,8626583011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "8624314011"
+                    ],
+                    "product_types": "HEALTH_PERSONAL_CARE"
+                }
+            },
+            {
+                "id": "3776321",
+                "parent_id": "3776241",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Big Button & Amplified Telephones",
+                "short_description": null,
+                "description": "Big Button & Amplified Telephones",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-7264eeee.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "big-button-and-amplified-telephones"
+                    ],
+                    "browse_path_by_name": [
+                        "Health & Household,Medical Supplies & Equipment,Mobility & Daily Living Aids,Visual Impairment Aids,Big Button & Amplified Telephones"
+                    ],
+                    "browse_path_by_id": [
+                        "3760901,3760931,3775161,8624314011,3776241,3776321"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3776241"
+                    ],
+                    "product_types": "LANDLINE_PHONE"
+                }
+            },
+            {
+                "id": "16924817011",
+                "parent_id": "680098011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Tables",
+                "short_description": null,
+                "description": "Telephone Tables",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-4a0c9271.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-tables"
+                    ],
+                    "browse_path_by_name": [
+                        "Home & Kitchen,Furniture,Living Room Furniture,Tables,Telephone Tables"
+                    ],
+                    "browse_path_by_id": [
+                        "1055398,1063498,1063306,1063318,680098011,16924817011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "680098011"
+                    ],
+                    "product_types": "TABLE"
+                }
+            },
+            {
+                "id": "16183927011",
+                "parent_id": "3295676011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Decorative Telephones",
+                "short_description": null,
+                "description": "Decorative Telephones",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-294fbb5a.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "decorative-telephones"
+                    ],
+                    "browse_path_by_name": [
+                        "Home & Kitchen,Home Décor Products,Home Décor Accents,Decorative Accessories,Decorative Telephones"
+                    ],
+                    "browse_path_by_id": [
+                        "1055398,1063498,1063278,3735061,3295676011,16183927011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3295676011"
+                    ],
+                    "product_types": "HOME_FURNITURE_AND_DECOR"
+                }
+            },
+            {
+                "id": "157749011",
+                "parent_id": "157745011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Systems",
+                "short_description": null,
+                "description": "Telephone Systems",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-9279bb76.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "tec041000",
+                        "telephone_systems"
+                    ],
+                    "browse_path_by_name": [
+                        "Kindle Store,Kindle eBooks,Engineering & Transportation,Engineering,Telecommunications,Telephone Systems",
+                        "Kindle Store,Kindle eBooks,Nonfiction,Engineering & Transportation,Engineering,Telecommunications,Telephone Systems"
+                    ],
+                    "browse_path_by_id": [
+                        "133140011,133141011,154606011,157626011,157666011,157745011,157749011",
+                        "133140011,133141011,154606011,157325011,157626011,157666011,157745011,157749011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "157745011"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "490627011",
+                "parent_id": "490597011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Stands",
+                "short_description": null,
+                "description": "Telephone Stands",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-ee2584ce.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-stands"
+                    ],
+                    "browse_path_by_name": [
+                        "Office Products,Office & School Supplies,Desk Accessories & Workspace Organizers,Platforms, Stands & Shelves,Telephone Stands"
+                    ],
+                    "browse_path_by_id": [
+                        "1064954,1084128,1069242,1069514,490597011,490627011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "490597011"
+                    ],
+                    "product_types": "PORTABLE_ELECTRONIC_DEVICE_STAND"
+                }
+            }
+        ]
+    }
+}

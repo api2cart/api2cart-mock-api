@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-23T11:26:02Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "keyword": "Hydro Flask 32 OZ Wide Flex Straw Cap Pacific, Cold 24,Dishwasher Safe,Leakproof",
+        "response_fields": "{result{marketplace_product{id}}}",
+        "count": 20
+    }
+}

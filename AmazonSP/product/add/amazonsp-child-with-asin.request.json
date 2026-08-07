@@ -1,0 +1,131 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "category_id": "116011811011",
+        "asin": "B076822H3J",
+        "marketplace_item_properties": {
+            "item_name": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": " Tasty Salmon Soft Treats Small (10pc)"
+                }
+            ],
+            "product_description": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "<div id='feature-bullets' class='a-section a-spacing-medium a-spacing-top-small'>                             <hr>                            <h1 class='a-size-base-plus a-text-bold'> About this item </h1>               <ul class='a-unordered-list a-vertical a-spacing-mini'>  <li class='a-spacing-mini'><span class='a-list-item'> Grain Free: Delicious Grain Free Soft Dog Treats Made With Two Kinds Of Fresh Meat, Like Lamb &amp; Salmon  </span></li>  <li class='a-spacing-mini'><span class='a-list-item'> Treating Or Training: Soft, Delicious Dog Treats Great For Everyday Treating Or Training  </span></li>  <li class='a-spacing-mini'><span class='a-list-item'> All Natural: Contains Only Premium, All Natural Ingredients With No Corn, Soy, Artificial Colors Or Flavors  </span></li>  <li class='a-spacing-mini'><span class='a-list-item'> Made In Usa: Backed By Our Wellness Guarantee And Quality Assured Made In The Usa With The Finest Globally-Sourced Ingredients  </span></li>  <li class='a-spacing-mini'><span class='a-list-item'> Have You Switched Your Dog To Wellness Natural Dry And Wet Dog Food Yet?  </span></li>  </ul>                <span class='edp-feature-declaration' data-edp-feature-name='featurebullets' data-edp-asin='B076822H3J' data-data-hash='294652857' data-defects='[{&quot;id&quot;:&quot;defect-mismatch-info&quot;,&quot;value&quot;:&quot;Different from product&quot;},{&quot;id&quot;:&quot;defect-missing-information&quot;,&quot;value&quot;:&quot;Missing information&quot;},{&quot;id&quot;:&quot;defect-unessential-info&quot;,&quot;value&quot;:&quot;Unimportant information&quot;},{&quot;id&quot;:&quot;defect-other-productinfo-issue&quot;,&quot;value&quot;:&quot;Other&quot;}]' data-metadata='CATALOG' data-feature-container-id='' data-custom-event-handler='' data-display-name='Bullet Points' data-edit-data-state='featureBulletsEDPEditData' data-position='' data-resolver='CQResolver'></span>             </div>"
+                }
+            ],
+            "size": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "big"
+                }
+            ],
+            "number_of_items": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": 10
+                }
+            ],
+            "item_form": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Stick, Pellet, Liquid"
+                }
+            ],
+            "unit_count": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "type": {
+                        "language_tag": "en_US",
+                        "value": "Count"
+                    },
+                    "value": 1
+                }
+            ],
+            "contains_liquid_contents": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": false
+                }
+            ],
+            "specific_uses_for_product": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Hairball Control"
+                }
+            ],
+            "age_range_description": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Baby"
+                }
+            ],
+            "manufacturer": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "BRUNIA"
+                }
+            ],
+            "breed_recommendation": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "beagle, sphynx"
+                }
+            ],
+            "ingredients": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Dark Chocolate, Sugar, Almonds"
+                }
+            ],
+            "directions": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Adults 18 Years and older: This product is to be used once a day (every 24 hours), every day for 14 days. It may take 1 to 4 days for full effect, although some people get complete relief of symptoms within 24 hours"
+                }
+            ],
+            "country_of_origin": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "AS"
+                }
+            ],
+            "parentage_level": [
+                {
+                    "value": "child",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "child_parent_sku_relationship": [
+                {
+                    "child_relationship_type": "variation",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "parent_sku": "SWYTE-2-BBGD112980121-PARENT"
+                }
+            ],
+            "variation_theme": [
+                {
+                    "name": "SIZE/NUMBER_OF_ITEMS"
+                }
+            ]
+        },
+        "price": 11,
+        "quantity": 0,
+        "sku": "SWYTE-2-BBGD112980121-big-11",
+        "store_id": "ATVPDKIKX0DER"
+    }
+}

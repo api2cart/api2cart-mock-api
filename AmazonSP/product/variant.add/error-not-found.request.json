@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "no_such_parent_sku",
+        "sku": "test_add_child_orphan",
+        "quantity": 1
+    }
+}

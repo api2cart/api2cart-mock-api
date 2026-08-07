@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-23T11:26:02Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "upc": "753575955151",
+        "response_fields": "{*}"
+    }
+}

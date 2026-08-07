@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-06T11:40:35Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "keyword": "DEWALT",
+        "count": 2,
+        "response_fields": "{*}"
+    }
+}

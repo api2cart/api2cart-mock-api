@@ -1,0 +1,44 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "cart_order_statuses": [
+            {
+                "id": "Pending",
+                "name": "Pending"
+            },
+            {
+                "id": "Unshipped",
+                "name": "Unshipped"
+            },
+            {
+                "id": "PartiallyShipped",
+                "name": "PartiallyShipped"
+            },
+            {
+                "id": "Shipped",
+                "name": "Shipped"
+            },
+            {
+                "id": "Canceled",
+                "name": "Canceled"
+            },
+            {
+                "id": "Unfulfillable",
+                "name": "Unfulfillable"
+            },
+            {
+                "id": "InvoiceUnconfirmed",
+                "name": "InvoiceUnconfirmed"
+            },
+            {
+                "id": "PendingAvailability",
+                "name": "PendingAvailability"
+            }
+        ]
+    }
+}

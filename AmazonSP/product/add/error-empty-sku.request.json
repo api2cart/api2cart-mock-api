@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "",
+        "price": 99.9,
+        "quantity": 1
+    }
+}

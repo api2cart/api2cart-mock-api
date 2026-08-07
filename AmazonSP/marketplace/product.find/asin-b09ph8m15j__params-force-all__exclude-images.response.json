@@ -1,0 +1,164 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B09PH8M15J",
+                "type": "simple",
+                "u_asin": "B09PH8M15J",
+                "u_ean": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "10-Years Purity 60:1 Ratio Pure Moxibustion Sticks/Moxa Burner Tank Cloth Bag",
+                "description": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                "url": "https://store-bbc6cfda.example.com/",
+                "price": null,
+                "product_options": [],
+                "manufacturer": "Uloveido",
+                "brand": "Uloveido",
+                "weight": 0.0220462262,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 1.968503935,
+                "height": 1.968503935,
+                "length": 3.93700787,
+                "additional_fields": {
+                    "child_asins": [],
+                    "parent_asin": "",
+                    "model_number": "",
+                    "part_number": "",
+                    "product_type": "HEALTH_PERSONAL_CARE",
+                    "raw_attributes": {
+                        "variation_theme": [
+                            {
+                                "name": "FLAVOR_NAME",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "grams",
+                                "value": 10,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Uloveido",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Package includes: 1 box 54 Moxibustion rolls only. Burner Box excluded; Ten years purity 60:1 ratio. Roll size 18mm*27mm.Basic knowledge of moxibustion: 60:1 means we will get 1 kgs of moxibustion velvet from 60kgs of raw moxibustion plant. The longer the time, the moxibustion will have better the curative effect.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Acupuncture before and after ,drink a cup of warm water, after Acupuncture ,diet should be light. Applicable to the abdomen waist and shoulder",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "We only focus on high quality real& pure moxa rolls for mild moxibustion.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Temperature (and how fast the stick burns) can be controled by opening or closing the \"windows\". If I leave them half opened, one stick will last about 1 hour.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Uloveido",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_expiration_dated_product": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_heat_sensitive": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "10-Years Purity 60:1 Ratio Pure Moxibustion Sticks/Moxa Burner Tank Cloth Bag",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "acupuncture-products",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2021-12-31T06:31:58.346Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 10
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 5
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 5
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "unit_count": [
+                            {
+                                "type": {
+                                    "language_tag": "en_US",
+                                    "value": "Count"
+                                },
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

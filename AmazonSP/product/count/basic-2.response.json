@@ -1,0 +1,34 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 3,
+        "product": [
+            {
+                "id": "B000JOE224-CHILD-001",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsLarge - Flavour (Mango)",
+                "description": "Feline Pill Pockets for Cats Natural Soft Cat TreatsLarge - Flavour (Mango)",
+                "price": 10,
+                "categories_ids": ""
+            },
+            {
+                "id": "B000JOE224-PARENT-APP",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat Treats",
+                "description": "Take the stress and the mess out of giving your cat medicine: Vet-recommended FELINE Pill Pockets Treats for Cats in Salmon Flavor easily hide tablets from your cat in a tasty little pill pouch treat. With fewer calories and less fat and sodium, these cat treats are made with natural ingredients plus trace nutrients, which make them a healthier alternative to using human foods to disguise your kitty’s meds. The delectable salmon flavor masks the taste and smell-your furball will never know the difference. Just drop your cat’s pill or liquid medicine into the pouch, pinch it closed, and share with your cat. Just like that, the treat (and medicine) disappears. When it comes to taking meds, your cat is smart. But you’re smarter because you’ve got FELINE Pill Pockets. * Data on file at Mars Petcare US, 2017",
+                "price": 11,
+                "categories_ids": ""
+            },
+            {
+                "id": "test-var-QA05",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsGiant - Flavour (Coconut)",
+                "description": "Feline Pill Pockets for Cats Natural Soft Cat Treats Giant - Flavour (Coconut)",
+                "price": 10,
+                "categories_ids": ""
+            }
+        ]
+    }
+}

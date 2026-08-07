@@ -1,0 +1,48 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 1,
+        "category": [
+            {
+                "id": "16261641",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Amazon Instant Video",
+                "short_description": null,
+                "description": "",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a0f44d4e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video"
+                    ],
+                    "browse_path_by_id": [
+                        "16261641"
+                    ],
+                    "children_ids": [
+                        "16386761",
+                        "16262841"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": ""
+                }
+            }
+        ]
+    }
+}

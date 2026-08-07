@@ -1,0 +1,743 @@
+{
+    "batch/job.list/basic": {
+        "description": "happy path: list batch jobs (only processed/in_progress ever observed in real batch_job_queue data for this store; pending is reachable in code but has no confirmed example)"
+    },
+    "batch/job.list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "batch/job.result/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "batch/job.result/error-not-found": {
+        "description": "error: job id does not exist => 112 ENTITY_NOT_FOUND"
+    },
+    "batch/job.result/id-1142144705-processed": {
+        "description": "happy path: batch fully processed, every item succeeded with its own entity_id (job_id from product.add.batch amazonsp-variation-family)"
+    },
+    "batch/job.result/id-1142144706-partial": {
+        "description": "real error text captured from batch_job_queue: duplicate SKU on add fails with entity_id=null and a populated errors[] (job_id from product.add.batch amazonsp-standalone-products)"
+    },
+    "batch/job.result/id-1142144707-processed": {
+        "description": "happy path: variant batch fully processed and succeeded (job_id from product.variant.add.batch amazonsp-sweater-variants)"
+    },
+    "batch/job.result/id-1142144822-in-progress": {
+        "description": "error: job is still in_progress, no result yet => 12"
+    },
+    "batch/job.result/id-149-update-not-found": {
+        "description": "real capture (batch_job_queue job 149): every item fails update with the platforms real not-found wording"
+    },
+    "batch/job.result/id-165-update-mixed-statuses": {
+        "description": "real capture (batch_job_queue job 165): all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a real validation message"
+    },
+    "cart/info/basic": {
+        "description": "happy path: entity information without filters"
+    },
+    "cart/info/params-force-all__exclude-warehouses-db-prefix": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-all": {
+        "description": "field selection: {*}"
+    },
+    "cart/info/rf-stores-info": {
+        "description": "field selection: {result{stores_info}}"
+    },
+    "cart/info/rf-url": {
+        "description": "field selection: {result{url}}"
+    },
+    "category/count/basic": {
+        "description": "happy path (no filters)"
+    },
+    "category/count/find-name": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-name-2": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-name-3": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-value-telephone__find-where-description": {
+        "description": "search: matching description value"
+    },
+    "category/count/find-value-telephone__find-where-name": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-value-telephone__find-where-name-description": {
+        "description": "search: matching name,description value"
+    },
+    "category/count/parent-id-0": {
+        "description": "categories under a parent"
+    },
+    "category/count/parent-id-16261641": {
+        "description": "categories under a parent"
+    },
+    "category/count/parent-id-16386761": {
+        "description": "categories under a parent"
+    },
+    "category/count/parent-id-493964": {
+        "description": "categories under a parent"
+    },
+    "category/count/product-type-bicycle": {
+        "description": "filter: product_type=BICYCLE"
+    },
+    "category/count/product-type-consumer-electronics": {
+        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+    },
+    "category/count/report-request-id-105245017661": {
+        "description": "async report_request_id reused to avoid starting a new report"
+    },
+    "category/find/error-no-find-value": {
+        "description": "error: missing find_value => 114 NO_PARAM"
+    },
+    "category/find/error-not-found": {
+        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+    },
+    "category/find/find-name-2": {
+        "description": "search: matching name value"
+    },
+    "category/find/find-name-3": {
+        "description": "search: matching name value"
+    },
+    "category/find/find-name-amazon-instant-video": {
+        "description": "find by real name=Amazon Instant Video"
+    },
+    "category/find/find-value-cell-phones__find-where-description-name": {
+        "description": "search: matching description,name value"
+    },
+    "category/find/find-value-children-s-electrici__find-where-description__find-params-case-sensitive-whole": {
+        "description": "search: matching description value"
+    },
+    "category/find/find-value-smartphones__find-where-name": {
+        "description": "search: matching name value"
+    },
+    "category/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "category/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "category/info/full-properties": {
+        "description": "reference: full platform-specific properties (large response)"
+    },
+    "category/info/id-16261641": {
+        "description": "info by id"
+    },
+    "category/info/id-16261641__params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "category/info/id-16262851": {
+        "description": "info by id"
+    },
+    "category/info/id-16386761": {
+        "description": "info by id"
+    },
+    "category/info/id-3009141__rf-all__schema-type-listing-offer-only": {
+        "description": "field selection: {*}"
+    },
+    "category/info/id-7072561011__rf-notexisting": {
+        "description": "field selection: {result{notExisting}}"
+    },
+    "category/list/basic": {
+        "description": "happy path: first page"
+    },
+    "category/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "category/list/find-name": {
+        "description": "search: matching name value"
+    },
+    "category/list/find-name-2": {
+        "description": "search: matching name value"
+    },
+    "category/list/find-name-3": {
+        "description": "search: matching name value"
+    },
+    "category/list/find-value-telephone__find-where-description__rf-all": {
+        "description": "search: matching description value"
+    },
+    "category/list/find-value-telephone__find-where-name-description__rf-all": {
+        "description": "search: matching name,description value"
+    },
+    "category/list/find-value-telephone__find-where-name__rf-all": {
+        "description": "search: matching name value"
+    },
+    "category/list/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "category/list/params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "category/list/parent-id-0": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-16261641": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-16386761": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-377557011": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-493964": {
+        "description": "categories under a parent"
+    },
+    "category/list/product-type-bicycle": {
+        "description": "filter: product_type=BICYCLE"
+    },
+    "category/list/product-type-consumer-electronics__count-15": {
+        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+    },
+    "category/list/product-type-consumer-electronics__count-2": {
+        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+    },
+    "category/list/report-request-id-105245017661": {
+        "description": "async report_request_id reused to avoid starting a new report"
+    },
+    "category/list/start-5": {
+        "description": "pagination: start/count offset"
+    },
+    "category/list/store-id-atvpdkikx0der": {
+        "description": "filter: store_id (multi-store account)"
+    },
+    "marketplace/product.find/asin-b09ph8m15j": {
+        "description": "search: matching asin identifier"
+    },
+    "marketplace/product.find/asin-b09ph8m15j__params-force-all__exclude-images": {
+        "description": "search: matching asin identifier"
+    },
+    "marketplace/product.find/asin-b09ph8m15j__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "marketplace/product.find/asin-b0ckhyc1n2__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "marketplace/product.find/ean-8809452230605__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "marketplace/product.find/error-conflicting-identifiers": {
+        "description": "error: keyword conflicts with asin/ean/gtin/upc/isbn/mpn -- only one identifier param allowed per call => 109 PARAM_ERROR"
+    },
+    "marketplace/product.find/error-no-identifier": {
+        "description": "error: no search identifier given (need one of keyword/asin/ean/gtin/upc/isbn) => 114 NO_PARAM"
+    },
+    "marketplace/product.find/gtin-00041594229415__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "marketplace/product.find/isbn-8817105643__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "marketplace/product.find/keyword-dewalt": {
+        "description": "search: matching keyword"
+    },
+    "marketplace/product.find/keyword-dewalt__count-2": {
+        "description": "pagination: page 1 (keyword=DEWALT, count=2), produces pagination.next for page-2"
+    },
+    "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20": {
+        "description": "field selection: {result{marketplace_product{id}}}"
+    },
+    "marketplace/product.find/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "marketplace/product.find/page-3": {
+        "description": "pagination: cursor page"
+    },
+    "marketplace/product.find/page-4": {
+        "description": "pagination: cursor page"
+    },
+    "marketplace/product.find/upc-753575955151__rf-all": {
+        "description": "field selection: {*}"
+    },
+    "order/count/basic": {
+        "description": "happy path (no filters)"
+    },
+    "order/count/created-from-2022-02-03t10-57-08": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "order/count/created-to-2022-08-18t13-07-22": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "order/count/customer-email-user59396-example-co": {
+        "description": "filter: matching customer_email"
+    },
+    "order/count/modified-from-2024-03-02t10-20-03": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "order/count/modified-to-2024-03-02t10-20-03": {
+        "description": "filter: modified_to (upper bound)"
+    },
+    "order/count/order-status-ids": {
+        "description": "filter: order_status_ids (multi-status)"
+    },
+    "order/count/order-status-shipped": {
+        "description": "filter: order_status=Shipped"
+    },
+    "order/count/store-id-atvpdkikx0der": {
+        "description": "filter: store_id (multi-store account)"
+    },
+    "order/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "order/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "order/info/order-id-111-2392565-0194613": {
+        "description": "happy path: info by order_id"
+    },
+    "order/info/order-id-111-2392565-0194613__rounding-precision-2": {
+        "description": "selected response fields"
+    },
+    "order/info/use-latest-api-version-true": {
+        "description": "use latest API version"
+    },
+    "order/list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "order/list/count-1": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/created-from-2022-02-03t10-57-07__order-status-shipped": {
+        "description": "filter: order_status=Shipped"
+    },
+    "order/list/created-from-2022-02-03t10-57-08": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "order/list/created-to-2022-08-18t13-07-22": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "order/list/customer-email-user59396-example-co": {
+        "description": "filter: matching customer_email"
+    },
+    "order/list/enable-cache-false": {
+        "description": "filter: enable_cache=false"
+    },
+    "order/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "order/list/fulfillment-channel-afn": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/modified-from-2024-03-02t10-20-03": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "order/list/modified-to-2024-03-02t10-20-03": {
+        "description": "filter: modified_to (upper bound)"
+    },
+    "order/list/order-ids-multi": {
+        "description": "selected response fields"
+    },
+    "order/list/order-status-ids": {
+        "description": "filter: order_status_ids (multi-status)"
+    },
+    "order/list/order-status-ids__modified-from-2022-10-05t08-56-11": {
+        "description": "filter: order_status_ids (multi-status)"
+    },
+    "order/list/order-status-shipped": {
+        "description": "filter: order_status=Shipped"
+    },
+    "order/list/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "order/list/params-force-all__exclude-status-address": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11": {
+        "description": "field selection: {result{order{id,order_id,create_at}}}"
+    },
+    "order/list/rf-order-id-order-id-total-order-__rounding-precision-1": {
+        "description": "field selection: {result{order{id,order_id,total,order_products,additional_fields}}}"
+    },
+    "order/list/rf-order-id-order-products-shippi": {
+        "description": "field selection: {result{order{id,order_products,shipping_address,billing_address}}}"
+    },
+    "order/list/start-0": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/store-id-atvpdkikx0der": {
+        "description": "filter: store_id (multi-store account)"
+    },
+    "order/list/use-latest-api-version-true": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.add/basic": {
+        "description": "happy path: add order shipment with tracking number and shipped items"
+    },
+    "order/shipment.add/error-no-params": {
+        "description": "validation: order_id required"
+    },
+    "order/status.list/basic": {
+        "description": "happy path: live cart order statuses"
+    },
+    "product/add.batch/amazonsp-standalone-products": {
+        "description": "two standalone (non-variation) products in one batch"
+    },
+    "product/add.batch/amazonsp-variation-family": {
+        "description": "one variation family in a single batch (parent + 2 children linked by parent_sku)"
+    },
+    "product/add.batch/basic": {
+        "description": "happy path: enqueue async batch product add (returns job_id)"
+    },
+    "product/add.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/add/amazonsp-child-with-asin": {
+        "description": "child variation identified by an existing asin instead of an exemption"
+    },
+    "product/add/amazonsp-condition-type": {
+        "description": "add product with marketplace condition_type"
+    },
+    "product/add/amazonsp-parent-phone-json-properties": {
+        "description": "add parent product with marketplace_item_properties as a pre-encoded JSON string (variation parent)"
+    },
+    "product/add/amazonsp-sweater-variation-child": {
+        "description": "SWEATER child bound to its parent via child_parent_sku_relationship.parent_sku"
+    },
+    "product/add/amazonsp-sweater-variation-parent": {
+        "description": "SWEATER variation parent (parentage_level=parent, variation_theme=SIZE/COLOR)"
+    },
+    "product/add/amazonsp-tablet-standalone": {
+        "description": "standalone (non-variation) product with a full electronics attribute set"
+    },
+    "product/add/error-already-exists": {
+        "description": "entity already exists (sku duplicate)"
+    },
+    "product/add/error-empty-sku": {
+        "description": "validation: empty sku"
+    },
+    "product/add/error-invalid-asin": {
+        "description": "validation: asin not matching the 10-char ASIN pattern"
+    },
+    "product/add/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: no params -> required parameter missing"
+    },
+    "product/add/error-only-sku": {
+        "description": "validation: sku alone -> price/quantity still required"
+    },
+    "product/child_item.list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "product/child_item.list/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "product/child_item.list/page-3": {
+        "description": "pagination: cursor page"
+    },
+    "product/child_item.list/page-4": {
+        "description": "pagination: cursor page"
+    },
+    "product/child_item.list/page-5": {
+        "description": "pagination: cursor page"
+    },
+    "product/child_item.list/params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/child_item.list/product-id-b000joe224-parent-ap": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-b000joe224-parent-ap-4": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-2": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-3": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-4": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-5": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-6": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast-7": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-swyte-2-sweater-mast__count-20__rf-children-id-parent-id-sku-name": {
+        "description": "field selection: {result{children{id,parent_id,sku,name,url}}}"
+    },
+    "product/child_item.list/product-ids-b000joe224-parent-ap__find-value-feline__find-where-name__count-1__rf-children-id-parent-id-sku-name": {
+        "description": "search: matching name value"
+    },
+    "product/child_item.list/start-1__count-2": {
+        "description": "pagination: start/count offset within one parent"
+    },
+    "product/count/avail-view-false": {
+        "description": "filter: avail_view=false"
+    },
+    "product/count/avail-view-true": {
+        "description": "filter: avail_view=true"
+    },
+    "product/count/basic": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-2": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-3": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-4": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-5": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-6": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-7": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-8": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-9": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/basic-live": {
+        "description": "happy path: total count (live)"
+    },
+    "product/count/created-from-2009-02-03-21-07-48": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "product/count/created-to-2009-02-03-21-07-38": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "product/count/find-where-sku": {
+        "description": "search: matching sku value"
+    },
+    "product/count/product-ids__report-request-id": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/delete.batch/basic": {
+        "description": "happy path: enqueue async batch product delete (returns job_id)"
+    },
+    "product/delete.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/delete/by-id": {
+        "description": "happy path: delete product by id"
+    },
+    "product/delete/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/delete/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/find/error-no-find-value": {
+        "description": "error: missing find_value => 114 NO_PARAM"
+    },
+    "product/find/error-not-found": {
+        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+    },
+    "product/find/find-params-case-sensitive": {
+        "description": "search: find_params=case_sensitive modifier"
+    },
+    "product/find/find-where-sku": {
+        "description": "search: find_where=sku with a real sku (note: product.find declares no response_fields)"
+    },
+    "product/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "product/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "product/info/id-t3-az75-ldqb": {
+        "description": "happy path: info by id (sku-style)"
+    },
+    "product/info/id-t3-az75-ldqb__params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/info/id-t3-az75-ldqb__rf-id-name-price-quantity": {
+        "description": "selected response fields"
+    },
+    "product/info/id-t3-az75-ldqb__store-id": {
+        "description": "filter: store_id (multi-store account)"
+    },
+    "product/list/avail-view-true": {
+        "description": "filter: avail_view=true"
+    },
+    "product/list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "product/list/basic-2": {
+        "description": "happy path (no filters)"
+    },
+    "product/list/basic-3": {
+        "description": "happy path (no filters)"
+    },
+    "product/list/basic-live": {
+        "description": "happy path: first page, full response_fields (live)"
+    },
+    "product/list/count-20": {
+        "description": "pagination: start/count offset"
+    },
+    "product/list/created-range": {
+        "description": "filter: date range (created/modified from-to)"
+    },
+    "product/list/disable-report-cache-false": {
+        "description": "async report_request_id reused to avoid starting a new report"
+    },
+    "product/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "product/list/error-report-not-ready": {
+        "description": "error: async Amazon Reports export not ready yet => 107. First call for a given filter combination kicks off report generation; retry later (optionally with the returned report_request_id to reuse the same report instead of starting a new one)."
+    },
+    "product/list/find-where-sku": {
+        "description": "search: matching sku value"
+    },
+    "product/list/page-2": {
+        "description": "pagination: page 2 via page_cursor from basic-live (live, real connected chain)"
+    },
+    "product/list/params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/product-ids": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/list/report-request-id-reuse": {
+        "description": "async report_request_id reused from a prior 107 response to fetch the now-ready report instead of starting a new async export"
+    },
+    "product/list/start-0__count-0": {
+        "description": "pagination: start/count offset"
+    },
+    "product/list/start-0__count-13__rf-product-id-u-model-name-price-__created-to-2009-02-03-18-07-54": {
+        "description": "field selection: {result{product{id,u_model,name,price,url,create_at,modified_at}}}"
+    },
+    "product/list/start-0__count-13__rf-product-id-u-model-name-price-__created-to-2009-02-03-18-07-54__avail-view-true": {
+        "description": "field selection: {result{product{id,u_model,name,price,url,create_at,modified_at}}}"
+    },
+    "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54": {
+        "description": "field selection: {result{product{id,u_model,name,price,url,create_at}}}"
+    },
+    "product/list/start-100__count-13": {
+        "description": "pagination: start/count offset"
+    },
+    "product/list/store-id-atvpdkikx0der": {
+        "description": "filter: store_id (multi-store account)"
+    },
+    "product/update.batch/basic": {
+        "description": "happy path: enqueue async batch product update (returns job_id)"
+    },
+    "product/update.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/update/amazonsp-id-only": {
+        "description": "update by sku-style id with no other field (no-op update)"
+    },
+    "product/update/amazonsp-price": {
+        "description": "update price by sku-style id"
+    },
+    "product/update/amazonsp-price-increase-quantity": {
+        "description": "update price and increase_quantity"
+    },
+    "product/update/amazonsp-price-quantity": {
+        "description": "update price and quantity together"
+    },
+    "product/update/amazonsp-quantity": {
+        "description": "update quantity by sku-style id"
+    },
+    "product/update/amazonsp-special-price-window": {
+        "description": "special_price with sprice_create/sprice_expire window"
+    },
+    "product/update/amazonsp-status-disable": {
+        "description": "disable status with params selector"
+    },
+    "product/update/amazonsp-status-enable-with-price": {
+        "description": "enable status together with price update and params selector"
+    },
+    "product/update/amazonsp-status-enabled-simple": {
+        "description": "enable status by id (no fixture, generic result)"
+    },
+    "product/update/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/update/error-invalid-id": {
+        "description": "validation: non-numeric id"
+    },
+    "product/update/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/variant.add.batch/amazonsp-sweater-variants": {
+        "description": "two variants attached to an existing parent via product_id"
+    },
+    "product/variant.add.batch/basic": {
+        "description": "happy path: enqueue async batch variant add (returns job_id)"
+    },
+    "product/variant.add.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.add/amazonsp-iphone-full-properties": {
+        "description": "variant with the full phone property set (display, battery, storage, ...)"
+    },
+    "product/variant.add/amazonsp-iphone-size-color": {
+        "description": "variant with the minimal size/color property set used for variations"
+    },
+    "product/variant.add/amazonsp-size-color": {
+        "description": "add child variant with size/color marketplace properties"
+    },
+    "product/variant.add/amazonsp-size-color-graphite": {
+        "description": "add second child variant (Graphite)"
+    },
+    "product/variant.add/amazonsp-size-color-sierra-blue": {
+        "description": "add third child variant (Sierra Blue)"
+    },
+    "product/variant.add/error-no-params": {
+        "description": "validation: no params -> product_id/sku required"
+    },
+    "product/variant.add/error-not-found": {
+        "description": "not found: parent product_id does not exist"
+    },
+    "product/variant.delete.batch/basic": {
+        "description": "happy path: enqueue async batch variant delete (returns job_id)"
+    },
+    "product/variant.delete.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.update.batch/basic": {
+        "description": "happy path: enqueue async batch variant update (returns job_id)"
+    },
+    "product/variant.update.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.update/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.update/error-not-found": {
+        "description": "not found: variant id does not exist"
+    },
+    "product/variant.update/update-price": {
+        "description": "happy path: update variant price"
+    },
+    "return/count/return_type-mfn__created-range-60d": {
+        "description": "happy path: MFN returns count over a 60-day window"
+    },
+    "return/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "return/list/page-2": {
+        "description": "pagination: page via page_cursor (cursor lives in request.json)"
+    },
+    "return/list/return_type-mfn__created-range-60d": {
+        "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
+    },
+    "return/list/start-2": {
+        "description": "pagination: start/count offset"
+    }
+}

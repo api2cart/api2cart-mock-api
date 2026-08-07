@@ -1,0 +1,19 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.variant.update.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": "100",
+                "product_id": "40",
+                "price": 15
+            },
+            {
+                "id": "101",
+                "product_id": "40",
+                "quantity": 8
+            }
+        ]
+    }
+}

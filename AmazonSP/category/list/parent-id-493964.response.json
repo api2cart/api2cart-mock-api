@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJEoIgAADQD%2BqAlpodPKDjAoYpNS7HNMbIrREx8et770OwYbGp1jz8unJaQtI0XbujAaOkKRABt%2B%2FDGyFq7ETtlqTTqfArkcYLx%2Fdt00vDPrqiyy9nIvc5J25xwKCSfWiykW1ilnphzryHUZzYijDNkwKyQIFloGHOf34gaA%2Bp30Vrmq19ttRP8NZU6zh%2F"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "24046923011",
+                "parent_id": "493964",
+                "name": "Headphones, Earbuds & Accessories",
+                "description": "Headphones, Earbuds & Accessories"
+            },
+            {
+                "id": "281407",
+                "parent_id": "493964",
+                "name": "Accessories & Supplies",
+                "description": "Electronics Accessories & Supplies"
+            },
+            {
+                "id": "502394",
+                "parent_id": "493964",
+                "name": "Camera & Photo",
+                "description": "Camera & Photo"
+            },
+            {
+                "id": "300334",
+                "parent_id": "172574",
+                "name": "Projectors",
+                "description": "Video Projectors"
+            },
+            {
+                "id": "3248684011",
+                "parent_id": "493964",
+                "name": "Car & Vehicle Electronics",
+                "description": "Vehicle Electronics"
+            },
+            {
+                "id": "2811119011",
+                "parent_id": "493964",
+                "name": "Cell Phones & Accessories",
+                "description": "Cell Phones & Accessories"
+            },
+            {
+                "id": "541966",
+                "parent_id": "493964",
+                "name": "Computers & Accessories",
+                "description": "Computers & Accessories"
+            },
+            {
+                "id": "1232597011",
+                "parent_id": "493964",
+                "name": "Tablets",
+                "description": "Computer Tablets"
+            },
+            {
+                "id": "2642125011",
+                "parent_id": "493964",
+                "name": "eBook Readers & Accessories",
+                "description": "eBook Readers & Accessories"
+            },
+            {
+                "id": "172526",
+                "parent_id": "493964",
+                "name": "GPS, Finders & Accessories",
+                "description": "GPS, Finders & Accessories"
+            }
+        ]
+    }
+}

@@ -303,19 +303,19 @@
         "description": "validation: only name -> model required"
     },
     "product/add/etsy-enabled-status": {
-        "description": "Etsy PHPUnit addMediumTC3: status with localized shipping and image fields"
+        "description": "status with localized shipping and image fields"
     },
     "product/add/etsy-listing-specifics": {
-        "description": "Etsy PHPUnit addMediumTC4: listing flags, materials, specifics and personalization details"
+        "description": "listing flags, materials, specifics and personalization details"
     },
     "product/add/etsy-personalization-question": {
-        "description": "Etsy PHPUnit addMediumTC5: personalization question payload"
+        "description": "personalization question payload"
     },
     "product/add/etsy-polish-category": {
-        "description": "Etsy PHPUnit addMediumTC2: localized category and shipping profile"
+        "description": "localized category and shipping profile"
     },
     "product/add/etsy-shipping-tags": {
-        "description": "Etsy PHPUnit addMediumTC1: shipping, tags, image and processing profile"
+        "description": "shipping, tags, image and processing profile"
     },
     "product/add/with-special-price": {
         "description": "create product with special_price"
@@ -390,13 +390,13 @@
         "description": "not found: id does not exist"
     },
     "product/delete/id-123450101": {
-        "description": "Etsy PHPUnit deleteSmallTC1: delete first added product"
+        "description": "delete first added product"
     },
     "product/delete/id-123450102": {
-        "description": "Etsy PHPUnit deleteSmallTC2: delete second added product"
+        "description": "delete second added product"
     },
     "product/delete/id-123450103": {
-        "description": "Etsy PHPUnit deleteSmallTC3: delete third added product"
+        "description": "delete third added product"
     },
     "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112": {
         "description": "error: find by real name=Test listing met variaties (allemaal gelijke voorraad) (return_code=112)"
@@ -426,13 +426,13 @@
         "description": "validation: only product_id -> image source required"
     },
     "product/image.add/etsy-content-upload": {
-        "description": "Etsy PHPUnit addImageSmallTC3: add image by content upload"
+        "description": "add image by content upload"
     },
     "product/image.add/etsy-footer-image-url": {
-        "description": "Etsy PHPUnit addImageSmallTC1: add image by url with first position"
+        "description": "add image by url with first position"
     },
     "product/image.add/etsy-watch-image-url": {
-        "description": "Etsy PHPUnit addImageSmallTC2: add image by url with second position"
+        "description": "add image by url with second position"
     },
     "product/image.delete/by-id": {
         "description": "happy path: delete product image"
@@ -444,13 +444,13 @@
         "description": "not found: image id does not exist"
     },
     "product/image.delete/product-id-123450101__id-223450201": {
-        "description": "Etsy PHPUnit deleteImageSmallTC1: delete first added image"
+        "description": "delete first added image"
     },
     "product/image.delete/product-id-123450102__id-223450202": {
-        "description": "Etsy PHPUnit deleteImageSmallTC2: delete second added image"
+        "description": "delete second added image"
     },
     "product/image.delete/product-id-123450102__id-223450203": {
-        "description": "Etsy PHPUnit deleteImageSmallTC3: delete content-uploaded image"
+        "description": "delete content-uploaded image"
     },
     "product/info/error-no-params": {
         "description": "error: missing required id => 114 NO_PARAM"
@@ -558,31 +558,31 @@
         "description": "not found: id does not exist"
     },
     "product/update/etsy-disable-status": {
-        "description": "Etsy PHPUnit updateMediumTC4: disable product status"
+        "description": "disable product status"
     },
     "product/update/etsy-increase-price-dimensions": {
-        "description": "Etsy PHPUnit updateMediumTC2: increase quantity with price and dimensions"
+        "description": "increase quantity with price and dimensions"
     },
     "product/update/etsy-name-question-update": {
-        "description": "Etsy PHPUnit updateMediumTC9: update Name personalization question with force_all"
+        "description": "update Name personalization question with force_all"
     },
     "product/update/etsy-personalization-details-off": {
-        "description": "Etsy PHPUnit updateMediumTC5: quantity, specifics and personalization details"
+        "description": "quantity, specifics and personalization details"
     },
     "product/update/etsy-personalization-question-update": {
-        "description": "Etsy PHPUnit updateMediumTC8: update personalization question with force_all"
+        "description": "update personalization question with force_all"
     },
     "product/update/etsy-polish-localized-update": {
-        "description": "Etsy PHPUnit updateMediumTC3: localized sku, description and category update"
+        "description": "localized sku, description and category update"
     },
     "product/update/etsy-reduce-materials-renewal": {
-        "description": "Etsy PHPUnit updateMediumTC6: reduce quantity, materials and personalization update"
+        "description": "reduce quantity, materials and personalization update"
     },
     "product/update/etsy-sku-category-description": {
-        "description": "Etsy PHPUnit updateMediumTC1: sku, categories, description and processing profile"
+        "description": "sku, categories, description and processing profile"
     },
     "product/update/etsy-virtual-downloadable-tags": {
-        "description": "Etsy PHPUnit updateMediumTC7: virtual, downloadable and tags update"
+        "description": "virtual, downloadable and tags update"
     },
     "product/update/update-price": {
         "description": "update product price"
@@ -600,22 +600,22 @@
         "description": "not found: product_id does not exist"
     },
     "product/variant.add/etsy-gold-aquamarine": {
-        "description": "Etsy PHPUnit addMediumTC1: add variant with Gem color and Gemstone combination"
+        "description": "add variant with Gem color and Gemstone combination"
     },
     "product/variant.add/etsy-gold-biotite": {
-        "description": "Etsy PHPUnit addMediumTC2: add variant with second gemstone combination"
+        "description": "add variant with second gemstone combination"
     },
     "product/variant.add.batch/batch-combination-availability": {
-        "description": "Etsy PHPUnit productVariantAddBatchMediumTC1: multiple products, combinations, prices and availability"
+        "description": "multiple products, combinations, prices and availability"
     },
     "product/variant.add.batch/batch-custom-occasion": {
-        "description": "Etsy PHPUnit productVariantAddBatchMediumTC2: custom attributes and one-option combination"
+        "description": "custom attributes and one-option combination"
     },
     "product/variant.add.batch/batch-single-option": {
-        "description": "Etsy PHPUnit productVariantAddBatchMediumTC3: single product and single option"
+        "description": "single product and single option"
     },
     "product/variant.add.batch/batch-three-options": {
-        "description": "Etsy PHPUnit productVariantAddBatchMediumTC4: three gemstone combinations"
+        "description": "three gemstone combinations"
     },
     "product/variant.add.batch/error-no-params": {
         "description": "validation: no params"

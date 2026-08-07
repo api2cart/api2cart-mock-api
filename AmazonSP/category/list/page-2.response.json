@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "DczbDoIgAADQD%2BoBV67RI8pGMMBkcpE3JWfpUqbTLb%2B%2BzgecQbD02s1tkrMnfyuHRAhjf9APozJYKkARq3xCNMCHLnfVZSs3M79IM64eGBOalpNyI1%2BFvb7jw7v4n2BeZH2CXosFRA8ibjbukhSNV9XUcXfGaY1qBtlyuv0A",
+        "next": "BcHbDoIgAADQT%2FI6okdky0DNULust0RRQZGa0vTrO0dmNATtXLuYNulQPFHGuep2MlFy4Q%2BSObmpsEaEw%2BshmS1uN185sQbBNsYFpv2vYr0JPfQW3%2Bbk2jSC5epFFZP%2B0vW3fQQK2i75AGHSfCX1Yl6RGfCZ3cvjJIUO%2Fg%3D%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "16263941",
+                "parent_id": "16262901",
+                "name": "African American Comedy",
+                "description": "African American Comedy Movies"
+            },
+            {
+                "id": "16263731",
+                "parent_id": "16262901",
+                "name": "Animation",
+                "description": "Animated Comedy Movies"
+            },
+            {
+                "id": "16263521",
+                "parent_id": "16262901",
+                "name": "Black Comedy",
+                "description": "Black Comedy Movies"
+            },
+            {
+                "id": "16263311",
+                "parent_id": "16262901",
+                "name": "British",
+                "description": "British Comedy Movies"
+            },
+            {
+                "id": "16263101",
+                "parent_id": "16262901",
+                "name": "Campy",
+                "description": "Camp Comedy Movies"
+            },
+            {
+                "id": "44098011",
+                "parent_id": "16262901",
+                "name": "Classic Comedies",
+                "description": "Classic Comedy Movies"
+            },
+            {
+                "id": "44099011",
+                "parent_id": "16262901",
+                "name": "Documentaries & Mockumentaries",
+                "description": "Documentaries & Mockumentaries"
+            },
+            {
+                "id": "44100011",
+                "parent_id": "16262901",
+                "name": "Domestic Comedies",
+                "description": "Domestic Comedy Movies"
+            },
+            {
+                "id": "44101011",
+                "parent_id": "16262901",
+                "name": "Farce",
+                "description": "Farces"
+            },
+            {
+                "id": "44102011",
+                "parent_id": "16262901",
+                "name": "Gay & Lesbian",
+                "description": "Gay & Lesbian Comedies"
+            }
+        ]
+    }
+}

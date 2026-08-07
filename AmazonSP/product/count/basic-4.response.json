@@ -1,0 +1,27 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 2,
+        "product": [
+            {
+                "id": "A2C-B0BX59ZCKX",
+                "name": "USB B to USB C Printer Cable 4 Feet (3 Pack), USB C to USB B Printer Cable, Flexible Cord for MacBook Pro/Air, USB C MIDI Cable Compatible with Yamaha Piano MIDI Keyboard, DAC, DJ Controller and More",
+                "description": "USB C to USB B Printer Cable",
+                "price": 8,
+                "categories_ids": "464394"
+            },
+            {
+                "id": "A2C-B0BX5BZMX7",
+                "name": "USB B to USB C Printer Cable 10 Feet, USB C to USB B Printer Cable, Flexible Cord for MacBook Pro/Air, USB C MIDI Cable Compatible with Yamaha Piano MIDI Keyboard, DAC, DJ Controller and More",
+                "description": "USB C to USB B Printer Cable",
+                "price": 0.35,
+                "categories_ids": "464394"
+            }
+        ]
+    }
+}

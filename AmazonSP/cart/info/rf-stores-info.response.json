@@ -1,0 +1,2655 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "stores_info": [
+            {
+                "store_info": [
+                    {
+                        "additional_fields": null,
+                        "store_id": "A1AM78C64UM0Y8",
+                        "name": "a2c_dev",
+                        "language": "es",
+                        "currency": [
+                            {
+                                "name": "Mexican Peso",
+                                "iso3": "MXN",
+                                "symbol": "MX$"
+                            }
+                        ],
+                        "timezone": "UTC",
+                        "country": "Mexico",
+                        "root_category_id": null,
+                        "multi_store_url": "https://store-ea48cb1a.example.com/",
+                        "active": "True",
+                        "weight_unit": null,
+                        "dimension_unit": null,
+                        "prices_include_tax": "False",
+                        "carrier_info": [
+                            {
+                                "id": "USPS",
+                                "name": "USPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "USPS Bound Printed Matter",
+                                        "code": "USPS Bound Printed Matter"
+                                    },
+                                    {
+                                        "name": "USPS First Class",
+                                        "code": "USPS First Class"
+                                    },
+                                    {
+                                        "name": "USPS First Class International",
+                                        "code": "USPS First Class International"
+                                    },
+                                    {
+                                        "name": "USPS First Class Mail Envelopes",
+                                        "code": "USPS First Class Mail Envelopes"
+                                    },
+                                    {
+                                        "name": "USPS Media Mail",
+                                        "code": "USPS Media Mail"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Post",
+                                        "code": "USPS Parcel Post"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Select",
+                                        "code": "USPS Parcel Select"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail",
+                                        "code": "USPS Priority Mail"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Cubic",
+                                        "code": "USPS Priority Mail Cubic"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express",
+                                        "code": "USPS Priority Mail Express"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express International",
+                                        "code": "USPS Priority Mail Express International"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail International",
+                                        "code": "USPS Priority Mail International"
+                                    },
+                                    {
+                                        "name": "USPS Standard Mail Envelopes",
+                                        "code": "USPS Standard Mail Envelopes"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "FedEx",
+                                "name": "FedEx",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "FedEx 2Day",
+                                        "code": "FedEx 2Day"
+                                    },
+                                    {
+                                        "name": "FedEx 2Day A.M.",
+                                        "code": "FedEx 2Day A.M."
+                                    },
+                                    {
+                                        "name": "FedEx Express Saver",
+                                        "code": "FedEx Express Saver"
+                                    },
+                                    {
+                                        "name": "FedEx Ground",
+                                        "code": "FedEx Ground"
+                                    },
+                                    {
+                                        "name": "FedEx Home Delivery",
+                                        "code": "FedEx Home Delivery"
+                                    },
+                                    {
+                                        "name": "FedEx Priority Overnight",
+                                        "code": "FedEx Priority Overnight"
+                                    },
+                                    {
+                                        "name": "FedEx Standard Overnight",
+                                        "code": "FedEx Standard Overnight"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "UPS",
+                                "name": "UPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "UPS 2nd Day Air",
+                                        "code": "UPS 2nd Day Air"
+                                    },
+                                    {
+                                        "name": "UPS 3 Day Select",
+                                        "code": "UPS 3 Day Select"
+                                    },
+                                    {
+                                        "name": "UPS Ground",
+                                        "code": "UPS Ground"
+                                    },
+                                    {
+                                        "name": "UPS i-parcel International Select",
+                                        "code": "UPS i-parcel International Select"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air",
+                                        "code": "UPS Next Day Air"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air Saver",
+                                        "code": "UPS Next Day Air Saver"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4PX",
+                                "name": "4PX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "4PX-Global Express",
+                                        "code": "4PX-Global Express"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Economy Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy SRM Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy SRM Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-Li",
+                                        "code": "4PX-PostLink priority Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-NOLi",
+                                        "code": "4PX-PostLink priority Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Standard Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "ED-4PX-PostLink Economy2 Registered",
+                                        "code": "ED-4PX-PostLink Economy2 Registered"
+                                    },
+                                    {
+                                        "name": "NX-4PX-PostLink Standard Ordinary",
+                                        "code": "NX-4PX-PostLink Standard Ordinary"
+                                    },
+                                    {
+                                        "name": "PY/PX-4PX-PostLink priority Registered",
+                                        "code": "PY/PX-4PX-PostLink priority Registered"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "A-1",
+                                "name": "A-1",
+                                "active": true
+                            },
+                            {
+                                "id": "AAA Cooper",
+                                "name": "AAA Cooper",
+                                "active": true
+                            },
+                            {
+                                "id": "ABF",
+                                "name": "ABF",
+                                "active": true
+                            },
+                            {
+                                "id": "APC Postal Logistics",
+                                "name": "APC Postal Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "Asendia",
+                                "name": "Asendia",
+                                "active": true
+                            },
+                            {
+                                "id": "BOMBINO EXPRESS",
+                                "name": "BOMBINO EXPRESS",
+                                "active": true
+                            },
+                            {
+                                "id": "Best Buy",
+                                "name": "Best Buy",
+                                "active": true
+                            },
+                            {
+                                "id": "Blue Package",
+                                "name": "Blue Package",
+                                "active": true
+                            },
+                            {
+                                "id": "CEVA",
+                                "name": "CEVA",
+                                "active": true
+                            },
+                            {
+                                "id": "CNE",
+                                "name": "CNE",
+                                "active": true
+                            },
+                            {
+                                "id": "Canada Post",
+                                "name": "Canada Post",
+                                "active": true
+                            },
+                            {
+                                "id": "China Post",
+                                "name": "China Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "China Post e-Courier Packet",
+                                        "code": "China Post e-Courier Packet"
+                                    },
+                                    {
+                                        "name": "China Post e-Courier Priority",
+                                        "code": "China Post e-Courier Priority"
+                                    },
+                                    {
+                                        "name": "China Post e-EMS",
+                                        "code": "China Post e-EMS"
+                                    },
+                                    {
+                                        "name": "China Post ePacket",
+                                        "code": "China Post ePacket"
+                                    },
+                                    {
+                                        "name": "China Post Ordinary Airmail",
+                                        "code": "China Post Ordinary Airmail"
+                                    },
+                                    {
+                                        "name": "China Post Registered Airmail",
+                                        "code": "China Post Registered Airmail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Chukou1",
+                                "name": "Chukou1",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CK1 Clothing Line",
+                                        "code": "CK1 Clothing Line"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (built-in battery)",
+                                        "code": "CK1 Economy Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (general cargo)",
+                                        "code": "CK1 Economy Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Large Item Line",
+                                        "code": "CK1 Large Item Line"
+                                    },
+                                    {
+                                        "name": "CK1 Special Line with Sea Freight Service",
+                                        "code": "CK1 Special Line with Sea Freight Service"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)",
+                                        "code": "CK1 Standard Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)-Untrack",
+                                        "code": "CK1 Standard Line (built-in battery)-Untrack"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (general cargo)",
+                                        "code": "CK1 Standard Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (built-in battery)",
+                                        "code": "CK1 Super Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (general cargo)",
+                                        "code": "CK1 Super Line (general cargo)"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Conway",
+                                "name": "Conway",
+                                "active": true
+                            },
+                            {
+                                "id": "DHL",
+                                "name": "DHL",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "DHL Express",
+                                        "code": "DHL Express"
+                                    },
+                                    {
+                                        "name": "International Mail",
+                                        "code": "International Mail"
+                                    },
+                                    {
+                                        "name": "Parcel",
+                                        "code": "Parcel"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "DHL eCommerce",
+                                "name": "DHL eCommerce",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Packet International Standard",
+                                        "code": "Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PKD-Packet International Standard",
+                                        "code": "PKD-Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PLG-Parcel International Direct Goods",
+                                        "code": "PLG-Parcel International Direct Goods"
+                                    },
+                                    {
+                                        "name": "PLT-Parcel International Direct-Standard",
+                                        "code": "PLT-Parcel International Direct-Standard"
+                                    },
+                                    {
+                                        "name": "PPS-Packet Plus International",
+                                        "code": "PPS-Packet Plus International"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Ecom Shipping Solutions Pvt Ltd",
+                                "name": "Ecom Shipping Solutions Pvt Ltd",
+                                "active": true
+                            },
+                            {
+                                "id": "Equick",
+                                "name": "Equick",
+                                "active": true
+                            },
+                            {
+                                "id": "Estes",
+                                "name": "Estes",
+                                "active": true
+                            },
+                            {
+                                "id": "FedEx SmartPost",
+                                "name": "FedEx SmartPost",
+                                "active": true
+                            },
+                            {
+                                "id": "Fedex Freight",
+                                "name": "Fedex Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "First Mile",
+                                "name": "First Mile",
+                                "active": true
+                            },
+                            {
+                                "id": "Hongkong Post",
+                                "name": "Hongkong Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Air-Parcel",
+                                        "code": "Air-Parcel"
+                                    },
+                                    {
+                                        "name": "SpeedPost",
+                                        "code": "SpeedPost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Hunter Logistics",
+                                "name": "Hunter Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "India Post",
+                                "name": "India Post",
+                                "active": true
+                            },
+                            {
+                                "id": "JCEX",
+                                "name": "JCEX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CA International Express",
+                                        "code": "CA International Express"
+                                    },
+                                    {
+                                        "name": "EUB",
+                                        "code": "EUB"
+                                    },
+                                    {
+                                        "name": "Europe-DHL",
+                                        "code": "Europe-DHL"
+                                    },
+                                    {
+                                        "name": "Europe-DPD",
+                                        "code": "Europe-DPD"
+                                    },
+                                    {
+                                        "name": "Europe-UPS",
+                                        "code": "Europe-UPS"
+                                    },
+                                    {
+                                        "name": "Fedex IE",
+                                        "code": "Fedex IE"
+                                    },
+                                    {
+                                        "name": "Fedex IP",
+                                        "code": "Fedex IP"
+                                    },
+                                    {
+                                        "name": "Jia-Packet",
+                                        "code": "Jia-Packet"
+                                    },
+                                    {
+                                        "name": "JP International Express",
+                                        "code": "JP International Express"
+                                    },
+                                    {
+                                        "name": "TNT",
+                                        "code": "TNT"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Expedited",
+                                        "code": "UPS Worldwide Expedited"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Saver",
+                                        "code": "UPS Worldwide Saver"
+                                    },
+                                    {
+                                        "name": "US International Express",
+                                        "code": "US International Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Lasership",
+                                "name": "Lasership",
+                                "active": true
+                            },
+                            {
+                                "id": "Newgistics",
+                                "name": "Newgistics",
+                                "active": true
+                            },
+                            {
+                                "id": "OSM",
+                                "name": "OSM",
+                                "active": true
+                            },
+                            {
+                                "id": "Old Dominion",
+                                "name": "Old Dominion",
+                                "active": true
+                            },
+                            {
+                                "id": "OnTrac",
+                                "name": "OnTrac",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "OnTrac Ground",
+                                        "code": "OnTrac Ground"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Pilot Freight",
+                                "name": "Pilot Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "R+L",
+                                "name": "R+L",
+                                "active": true
+                            },
+                            {
+                                "id": "Roadrunner",
+                                "name": "Roadrunner",
+                                "active": true
+                            },
+                            {
+                                "id": "Royal Mail",
+                                "name": "Royal Mail",
+                                "active": true
+                            },
+                            {
+                                "id": "SF Express",
+                                "name": "SF Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "E-Commerce Express CD",
+                                        "code": "E-Commerce Express CD"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Priority",
+                                        "code": "E-Commerce Express Priority"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Standard",
+                                        "code": "E-Commerce Express Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-BPost",
+                                        "code": "E-Commerce Ordinary Parcel-BPost"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Economy",
+                                        "code": "E-Commerce Ordinary Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Special Line",
+                                        "code": "E-Commerce Ordinary Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Standard",
+                                        "code": "E-Commerce Ordinary Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Economy",
+                                        "code": "E-Commerce Registered Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LA",
+                                        "code": "E-Commerce Registered Parcel-LA"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LU Post",
+                                        "code": "E-Commerce Registered Parcel-LU Post"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Special Line",
+                                        "code": "E-Commerce Registered Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Standard",
+                                        "code": "E-Commerce Registered Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "Economy Express",
+                                        "code": "Economy Express"
+                                    },
+                                    {
+                                        "name": "Standard Express",
+                                        "code": "Standard Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "SFC",
+                                "name": "SFC",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "SFC Global Line-no battery",
+                                        "code": "SFC Global Line-no battery"
+                                    },
+                                    {
+                                        "name": "SFC Global Line-with battery",
+                                        "code": "SFC Global Line-with battery"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Saia",
+                                "name": "Saia",
+                                "active": true
+                            },
+                            {
+                                "id": "Singapore Post",
+                                "name": "Singapore Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "EMS",
+                                        "code": "EMS"
+                                    },
+                                    {
+                                        "name": "Ordinary Mail",
+                                        "code": "Ordinary Mail"
+                                    },
+                                    {
+                                        "name": "Registered Mail",
+                                        "code": "Registered Mail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "South Eastern Freight Lines",
+                                "name": "South Eastern Freight Lines",
+                                "active": true
+                            },
+                            {
+                                "id": "StreamLite",
+                                "name": "StreamLite",
+                                "active": true
+                            },
+                            {
+                                "id": "Sunyou",
+                                "name": "Sunyou",
+                                "active": true
+                            },
+                            {
+                                "id": "UBI",
+                                "name": "UBI",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Freight",
+                                "name": "UPS Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Mail Innovations",
+                                "name": "UPS Mail Innovations",
+                                "active": true
+                            },
+                            {
+                                "id": "Urban Express",
+                                "name": "Urban Express",
+                                "active": true
+                            },
+                            {
+                                "id": "WanbExpress",
+                                "name": "WanbExpress",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "WANB EXPRESS",
+                                        "code": "WANB EXPRESS"
+                                    },
+                                    {
+                                        "name": "WANB Post Economy",
+                                        "code": "WANB Post Economy"
+                                    },
+                                    {
+                                        "name": "WANB Post Smart",
+                                        "code": "WANB Post Smart"
+                                    },
+                                    {
+                                        "name": "WANB Semi Track",
+                                        "code": "WANB Semi Track"
+                                    },
+                                    {
+                                        "name": "WANB Smart Track",
+                                        "code": "WANB Smart Track"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Watkins and Shepard",
+                                "name": "Watkins and Shepard",
+                                "active": true
+                            },
+                            {
+                                "id": "XPO HB",
+                                "name": "XPO HB",
+                                "active": true
+                            },
+                            {
+                                "id": "YDH",
+                                "name": "YDH",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YDH Economy Service",
+                                        "code": "YDH Economy Service"
+                                    },
+                                    {
+                                        "name": "YDH Express Service",
+                                        "code": "YDH Express Service"
+                                    },
+                                    {
+                                        "name": "YDH Standard Service",
+                                        "code": "YDH Standard Service"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yanwen",
+                                "name": "Yanwen",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Yanwen Air Economy Mail General",
+                                        "code": "Yanwen Air Economy Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Economy Mail Special ",
+                                        "code": "Yanwen Air Economy Mail Special "
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail General",
+                                        "code": "Yanwen Air Register Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail Special",
+                                        "code": "Yanwen Air Register Mail Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet General",
+                                        "code": "Yanwen Air Track Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet Special",
+                                        "code": "Yanwen Air Track Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet General",
+                                        "code": "Yanwen Air Untrack Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet Special",
+                                        "code": "Yanwen Air Untrack Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express General",
+                                        "code": "Yanwen Direct Line Express General"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express Special",
+                                        "code": "Yanwen Direct Line Express Special"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yellow Freight",
+                                "name": "Yellow Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "Yun Express",
+                                "name": "Yun Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YunExpress DE SRM Direct Line",
+                                        "code": "YunExpress DE SRM Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard )-Tracked",
+                                        "code": "YunExpress Global Direct line (standard )-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard)-Untracked",
+                                        "code": "YunExpress Global Direct line (standard)-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Tracked",
+                                        "code": "YunExpress Global Direct line non Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Untracked",
+                                        "code": "YunExpress Global Direct line non Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Tracked",
+                                        "code": "YunExpress Global Direct line with Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Untracked",
+                                        "code": "YunExpress Global Direct line with Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress JP Direct Line",
+                                        "code": "YunExpress JP Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct Line",
+                                        "code": "YunExpress ME Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct line-DDP",
+                                        "code": "YunExpress ME Direct line-DDP"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ePost Global",
+                                "name": "ePost Global",
+                                "active": true
+                            },
+                            {
+                                "id": "uShip",
+                                "name": "uShip",
+                                "active": true
+                            },
+                            {
+                                "id": "Other",
+                                "name": "Other",
+                                "active": true
+                            }
+                        ],
+                        "store_owner_info": null,
+                        "default_warehouse_id": null
+                    },
+                    {
+                        "additional_fields": null,
+                        "store_id": "A2EUQ1WTGCTBG2",
+                        "name": "a2c_dev",
+                        "language": "en",
+                        "currency": [
+                            {
+                                "name": "Canadian Dollar",
+                                "iso3": "CAD",
+                                "symbol": "CA$"
+                            }
+                        ],
+                        "timezone": "UTC",
+                        "country": "Canada",
+                        "root_category_id": null,
+                        "multi_store_url": "https://store-b2fe4fcc.example.com/",
+                        "active": "True",
+                        "weight_unit": null,
+                        "dimension_unit": null,
+                        "prices_include_tax": "False",
+                        "carrier_info": [
+                            {
+                                "id": "USPS",
+                                "name": "USPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "USPS Bound Printed Matter",
+                                        "code": "USPS Bound Printed Matter"
+                                    },
+                                    {
+                                        "name": "USPS First Class",
+                                        "code": "USPS First Class"
+                                    },
+                                    {
+                                        "name": "USPS First Class International",
+                                        "code": "USPS First Class International"
+                                    },
+                                    {
+                                        "name": "USPS First Class Mail Envelopes",
+                                        "code": "USPS First Class Mail Envelopes"
+                                    },
+                                    {
+                                        "name": "USPS Media Mail",
+                                        "code": "USPS Media Mail"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Post",
+                                        "code": "USPS Parcel Post"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Select",
+                                        "code": "USPS Parcel Select"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail",
+                                        "code": "USPS Priority Mail"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Cubic",
+                                        "code": "USPS Priority Mail Cubic"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express",
+                                        "code": "USPS Priority Mail Express"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express International",
+                                        "code": "USPS Priority Mail Express International"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail International",
+                                        "code": "USPS Priority Mail International"
+                                    },
+                                    {
+                                        "name": "USPS Standard Mail Envelopes",
+                                        "code": "USPS Standard Mail Envelopes"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "FedEx",
+                                "name": "FedEx",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "FedEx 2Day",
+                                        "code": "FedEx 2Day"
+                                    },
+                                    {
+                                        "name": "FedEx 2Day A.M.",
+                                        "code": "FedEx 2Day A.M."
+                                    },
+                                    {
+                                        "name": "FedEx Express Saver",
+                                        "code": "FedEx Express Saver"
+                                    },
+                                    {
+                                        "name": "FedEx Ground",
+                                        "code": "FedEx Ground"
+                                    },
+                                    {
+                                        "name": "FedEx Home Delivery",
+                                        "code": "FedEx Home Delivery"
+                                    },
+                                    {
+                                        "name": "FedEx Priority Overnight",
+                                        "code": "FedEx Priority Overnight"
+                                    },
+                                    {
+                                        "name": "FedEx Standard Overnight",
+                                        "code": "FedEx Standard Overnight"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "UPS",
+                                "name": "UPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "UPS 2nd Day Air",
+                                        "code": "UPS 2nd Day Air"
+                                    },
+                                    {
+                                        "name": "UPS 3 Day Select",
+                                        "code": "UPS 3 Day Select"
+                                    },
+                                    {
+                                        "name": "UPS Ground",
+                                        "code": "UPS Ground"
+                                    },
+                                    {
+                                        "name": "UPS i-parcel International Select",
+                                        "code": "UPS i-parcel International Select"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air",
+                                        "code": "UPS Next Day Air"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air Saver",
+                                        "code": "UPS Next Day Air Saver"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4PX",
+                                "name": "4PX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "4PX-Global Express",
+                                        "code": "4PX-Global Express"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Economy Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy SRM Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy SRM Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-Li",
+                                        "code": "4PX-PostLink priority Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-NOLi",
+                                        "code": "4PX-PostLink priority Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Standard Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "ED-4PX-PostLink Economy2 Registered",
+                                        "code": "ED-4PX-PostLink Economy2 Registered"
+                                    },
+                                    {
+                                        "name": "NX-4PX-PostLink Standard Ordinary",
+                                        "code": "NX-4PX-PostLink Standard Ordinary"
+                                    },
+                                    {
+                                        "name": "PY/PX-4PX-PostLink priority Registered",
+                                        "code": "PY/PX-4PX-PostLink priority Registered"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "A-1",
+                                "name": "A-1",
+                                "active": true
+                            },
+                            {
+                                "id": "AAA Cooper",
+                                "name": "AAA Cooper",
+                                "active": true
+                            },
+                            {
+                                "id": "ABF",
+                                "name": "ABF",
+                                "active": true
+                            },
+                            {
+                                "id": "APC Postal Logistics",
+                                "name": "APC Postal Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "Asendia",
+                                "name": "Asendia",
+                                "active": true
+                            },
+                            {
+                                "id": "BOMBINO EXPRESS",
+                                "name": "BOMBINO EXPRESS",
+                                "active": true
+                            },
+                            {
+                                "id": "Best Buy",
+                                "name": "Best Buy",
+                                "active": true
+                            },
+                            {
+                                "id": "Blue Package",
+                                "name": "Blue Package",
+                                "active": true
+                            },
+                            {
+                                "id": "CEVA",
+                                "name": "CEVA",
+                                "active": true
+                            },
+                            {
+                                "id": "CNE",
+                                "name": "CNE",
+                                "active": true
+                            },
+                            {
+                                "id": "Canada Post",
+                                "name": "Canada Post",
+                                "active": true
+                            },
+                            {
+                                "id": "China Post",
+                                "name": "China Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "China Post e-Courier Packet",
+                                        "code": "China Post e-Courier Packet"
+                                    },
+                                    {
+                                        "name": "China Post e-Courier Priority",
+                                        "code": "China Post e-Courier Priority"
+                                    },
+                                    {
+                                        "name": "China Post e-EMS",
+                                        "code": "China Post e-EMS"
+                                    },
+                                    {
+                                        "name": "China Post ePacket",
+                                        "code": "China Post ePacket"
+                                    },
+                                    {
+                                        "name": "China Post Ordinary Airmail",
+                                        "code": "China Post Ordinary Airmail"
+                                    },
+                                    {
+                                        "name": "China Post Registered Airmail",
+                                        "code": "China Post Registered Airmail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Chukou1",
+                                "name": "Chukou1",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CK1 Clothing Line",
+                                        "code": "CK1 Clothing Line"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (built-in battery)",
+                                        "code": "CK1 Economy Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (general cargo)",
+                                        "code": "CK1 Economy Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Large Item Line",
+                                        "code": "CK1 Large Item Line"
+                                    },
+                                    {
+                                        "name": "CK1 Special Line with Sea Freight Service",
+                                        "code": "CK1 Special Line with Sea Freight Service"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)",
+                                        "code": "CK1 Standard Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)-Untrack",
+                                        "code": "CK1 Standard Line (built-in battery)-Untrack"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (general cargo)",
+                                        "code": "CK1 Standard Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (built-in battery)",
+                                        "code": "CK1 Super Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (general cargo)",
+                                        "code": "CK1 Super Line (general cargo)"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Conway",
+                                "name": "Conway",
+                                "active": true
+                            },
+                            {
+                                "id": "DHL",
+                                "name": "DHL",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "DHL Express",
+                                        "code": "DHL Express"
+                                    },
+                                    {
+                                        "name": "International Mail",
+                                        "code": "International Mail"
+                                    },
+                                    {
+                                        "name": "Parcel",
+                                        "code": "Parcel"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "DHL eCommerce",
+                                "name": "DHL eCommerce",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Packet International Standard",
+                                        "code": "Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PKD-Packet International Standard",
+                                        "code": "PKD-Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PLG-Parcel International Direct Goods",
+                                        "code": "PLG-Parcel International Direct Goods"
+                                    },
+                                    {
+                                        "name": "PLT-Parcel International Direct-Standard",
+                                        "code": "PLT-Parcel International Direct-Standard"
+                                    },
+                                    {
+                                        "name": "PPS-Packet Plus International",
+                                        "code": "PPS-Packet Plus International"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Ecom Shipping Solutions Pvt Ltd",
+                                "name": "Ecom Shipping Solutions Pvt Ltd",
+                                "active": true
+                            },
+                            {
+                                "id": "Equick",
+                                "name": "Equick",
+                                "active": true
+                            },
+                            {
+                                "id": "Estes",
+                                "name": "Estes",
+                                "active": true
+                            },
+                            {
+                                "id": "FedEx SmartPost",
+                                "name": "FedEx SmartPost",
+                                "active": true
+                            },
+                            {
+                                "id": "Fedex Freight",
+                                "name": "Fedex Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "First Mile",
+                                "name": "First Mile",
+                                "active": true
+                            },
+                            {
+                                "id": "Hongkong Post",
+                                "name": "Hongkong Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Air-Parcel",
+                                        "code": "Air-Parcel"
+                                    },
+                                    {
+                                        "name": "SpeedPost",
+                                        "code": "SpeedPost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Hunter Logistics",
+                                "name": "Hunter Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "India Post",
+                                "name": "India Post",
+                                "active": true
+                            },
+                            {
+                                "id": "JCEX",
+                                "name": "JCEX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CA International Express",
+                                        "code": "CA International Express"
+                                    },
+                                    {
+                                        "name": "EUB",
+                                        "code": "EUB"
+                                    },
+                                    {
+                                        "name": "Europe-DHL",
+                                        "code": "Europe-DHL"
+                                    },
+                                    {
+                                        "name": "Europe-DPD",
+                                        "code": "Europe-DPD"
+                                    },
+                                    {
+                                        "name": "Europe-UPS",
+                                        "code": "Europe-UPS"
+                                    },
+                                    {
+                                        "name": "Fedex IE",
+                                        "code": "Fedex IE"
+                                    },
+                                    {
+                                        "name": "Fedex IP",
+                                        "code": "Fedex IP"
+                                    },
+                                    {
+                                        "name": "Jia-Packet",
+                                        "code": "Jia-Packet"
+                                    },
+                                    {
+                                        "name": "JP International Express",
+                                        "code": "JP International Express"
+                                    },
+                                    {
+                                        "name": "TNT",
+                                        "code": "TNT"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Expedited",
+                                        "code": "UPS Worldwide Expedited"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Saver",
+                                        "code": "UPS Worldwide Saver"
+                                    },
+                                    {
+                                        "name": "US International Express",
+                                        "code": "US International Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Lasership",
+                                "name": "Lasership",
+                                "active": true
+                            },
+                            {
+                                "id": "Newgistics",
+                                "name": "Newgistics",
+                                "active": true
+                            },
+                            {
+                                "id": "OSM",
+                                "name": "OSM",
+                                "active": true
+                            },
+                            {
+                                "id": "Old Dominion",
+                                "name": "Old Dominion",
+                                "active": true
+                            },
+                            {
+                                "id": "OnTrac",
+                                "name": "OnTrac",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "OnTrac Ground",
+                                        "code": "OnTrac Ground"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Pilot Freight",
+                                "name": "Pilot Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "R+L",
+                                "name": "R+L",
+                                "active": true
+                            },
+                            {
+                                "id": "Roadrunner",
+                                "name": "Roadrunner",
+                                "active": true
+                            },
+                            {
+                                "id": "Royal Mail",
+                                "name": "Royal Mail",
+                                "active": true
+                            },
+                            {
+                                "id": "SF Express",
+                                "name": "SF Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "E-Commerce Express CD",
+                                        "code": "E-Commerce Express CD"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Priority",
+                                        "code": "E-Commerce Express Priority"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Standard",
+                                        "code": "E-Commerce Express Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-BPost",
+                                        "code": "E-Commerce Ordinary Parcel-BPost"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Economy",
+                                        "code": "E-Commerce Ordinary Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Special Line",
+                                        "code": "E-Commerce Ordinary Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Standard",
+                                        "code": "E-Commerce Ordinary Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Economy",
+                                        "code": "E-Commerce Registered Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LA",
+                                        "code": "E-Commerce Registered Parcel-LA"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LU Post",
+                                        "code": "E-Commerce Registered Parcel-LU Post"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Special Line",
+                                        "code": "E-Commerce Registered Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Standard",
+                                        "code": "E-Commerce Registered Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "Economy Express",
+                                        "code": "Economy Express"
+                                    },
+                                    {
+                                        "name": "Standard Express",
+                                        "code": "Standard Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "SFC",
+                                "name": "SFC",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "SFC Global Line-no battery",
+                                        "code": "SFC Global Line-no battery"
+                                    },
+                                    {
+                                        "name": "SFC Global Line-with battery",
+                                        "code": "SFC Global Line-with battery"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Saia",
+                                "name": "Saia",
+                                "active": true
+                            },
+                            {
+                                "id": "Singapore Post",
+                                "name": "Singapore Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "EMS",
+                                        "code": "EMS"
+                                    },
+                                    {
+                                        "name": "Ordinary Mail",
+                                        "code": "Ordinary Mail"
+                                    },
+                                    {
+                                        "name": "Registered Mail",
+                                        "code": "Registered Mail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "South Eastern Freight Lines",
+                                "name": "South Eastern Freight Lines",
+                                "active": true
+                            },
+                            {
+                                "id": "StreamLite",
+                                "name": "StreamLite",
+                                "active": true
+                            },
+                            {
+                                "id": "Sunyou",
+                                "name": "Sunyou",
+                                "active": true
+                            },
+                            {
+                                "id": "UBI",
+                                "name": "UBI",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Freight",
+                                "name": "UPS Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Mail Innovations",
+                                "name": "UPS Mail Innovations",
+                                "active": true
+                            },
+                            {
+                                "id": "Urban Express",
+                                "name": "Urban Express",
+                                "active": true
+                            },
+                            {
+                                "id": "WanbExpress",
+                                "name": "WanbExpress",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "WANB EXPRESS",
+                                        "code": "WANB EXPRESS"
+                                    },
+                                    {
+                                        "name": "WANB Post Economy",
+                                        "code": "WANB Post Economy"
+                                    },
+                                    {
+                                        "name": "WANB Post Smart",
+                                        "code": "WANB Post Smart"
+                                    },
+                                    {
+                                        "name": "WANB Semi Track",
+                                        "code": "WANB Semi Track"
+                                    },
+                                    {
+                                        "name": "WANB Smart Track",
+                                        "code": "WANB Smart Track"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Watkins and Shepard",
+                                "name": "Watkins and Shepard",
+                                "active": true
+                            },
+                            {
+                                "id": "XPO HB",
+                                "name": "XPO HB",
+                                "active": true
+                            },
+                            {
+                                "id": "YDH",
+                                "name": "YDH",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YDH Economy Service",
+                                        "code": "YDH Economy Service"
+                                    },
+                                    {
+                                        "name": "YDH Express Service",
+                                        "code": "YDH Express Service"
+                                    },
+                                    {
+                                        "name": "YDH Standard Service",
+                                        "code": "YDH Standard Service"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yanwen",
+                                "name": "Yanwen",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Yanwen Air Economy Mail General",
+                                        "code": "Yanwen Air Economy Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Economy Mail Special ",
+                                        "code": "Yanwen Air Economy Mail Special "
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail General",
+                                        "code": "Yanwen Air Register Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail Special",
+                                        "code": "Yanwen Air Register Mail Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet General",
+                                        "code": "Yanwen Air Track Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet Special",
+                                        "code": "Yanwen Air Track Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet General",
+                                        "code": "Yanwen Air Untrack Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet Special",
+                                        "code": "Yanwen Air Untrack Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express General",
+                                        "code": "Yanwen Direct Line Express General"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express Special",
+                                        "code": "Yanwen Direct Line Express Special"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yellow Freight",
+                                "name": "Yellow Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "Yun Express",
+                                "name": "Yun Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YunExpress DE SRM Direct Line",
+                                        "code": "YunExpress DE SRM Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard )-Tracked",
+                                        "code": "YunExpress Global Direct line (standard )-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard)-Untracked",
+                                        "code": "YunExpress Global Direct line (standard)-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Tracked",
+                                        "code": "YunExpress Global Direct line non Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Untracked",
+                                        "code": "YunExpress Global Direct line non Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Tracked",
+                                        "code": "YunExpress Global Direct line with Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Untracked",
+                                        "code": "YunExpress Global Direct line with Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress JP Direct Line",
+                                        "code": "YunExpress JP Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct Line",
+                                        "code": "YunExpress ME Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct line-DDP",
+                                        "code": "YunExpress ME Direct line-DDP"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ePost Global",
+                                "name": "ePost Global",
+                                "active": true
+                            },
+                            {
+                                "id": "uShip",
+                                "name": "uShip",
+                                "active": true
+                            },
+                            {
+                                "id": "Other",
+                                "name": "Other",
+                                "active": true
+                            }
+                        ],
+                        "store_owner_info": null,
+                        "default_warehouse_id": null
+                    },
+                    {
+                        "additional_fields": null,
+                        "store_id": "ATVPDKIKX0DER",
+                        "name": "a2c_dev",
+                        "language": "en",
+                        "currency": [
+                            {
+                                "name": "US Dollar",
+                                "iso3": "USD",
+                                "symbol": "$"
+                            }
+                        ],
+                        "timezone": "UTC",
+                        "country": "United States of America",
+                        "root_category_id": null,
+                        "multi_store_url": "https://store-e1baaf94.example.com/",
+                        "active": "True",
+                        "weight_unit": null,
+                        "dimension_unit": null,
+                        "prices_include_tax": "False",
+                        "carrier_info": [
+                            {
+                                "id": "USPS",
+                                "name": "USPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "USPS Bound Printed Matter",
+                                        "code": "USPS Bound Printed Matter"
+                                    },
+                                    {
+                                        "name": "USPS First Class",
+                                        "code": "USPS First Class"
+                                    },
+                                    {
+                                        "name": "USPS First Class International",
+                                        "code": "USPS First Class International"
+                                    },
+                                    {
+                                        "name": "USPS First Class Mail Envelopes",
+                                        "code": "USPS First Class Mail Envelopes"
+                                    },
+                                    {
+                                        "name": "USPS Media Mail",
+                                        "code": "USPS Media Mail"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Post",
+                                        "code": "USPS Parcel Post"
+                                    },
+                                    {
+                                        "name": "USPS Parcel Select",
+                                        "code": "USPS Parcel Select"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail",
+                                        "code": "USPS Priority Mail"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Cubic",
+                                        "code": "USPS Priority Mail Cubic"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express",
+                                        "code": "USPS Priority Mail Express"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail Express International",
+                                        "code": "USPS Priority Mail Express International"
+                                    },
+                                    {
+                                        "name": "USPS Priority Mail International",
+                                        "code": "USPS Priority Mail International"
+                                    },
+                                    {
+                                        "name": "USPS Standard Mail Envelopes",
+                                        "code": "USPS Standard Mail Envelopes"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "FedEx",
+                                "name": "FedEx",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "FedEx 2Day",
+                                        "code": "FedEx 2Day"
+                                    },
+                                    {
+                                        "name": "FedEx 2Day A.M.",
+                                        "code": "FedEx 2Day A.M."
+                                    },
+                                    {
+                                        "name": "FedEx Express Saver",
+                                        "code": "FedEx Express Saver"
+                                    },
+                                    {
+                                        "name": "FedEx Ground",
+                                        "code": "FedEx Ground"
+                                    },
+                                    {
+                                        "name": "FedEx Home Delivery",
+                                        "code": "FedEx Home Delivery"
+                                    },
+                                    {
+                                        "name": "FedEx Priority Overnight",
+                                        "code": "FedEx Priority Overnight"
+                                    },
+                                    {
+                                        "name": "FedEx Standard Overnight",
+                                        "code": "FedEx Standard Overnight"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "UPS",
+                                "name": "UPS",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "UPS 2nd Day Air",
+                                        "code": "UPS 2nd Day Air"
+                                    },
+                                    {
+                                        "name": "UPS 3 Day Select",
+                                        "code": "UPS 3 Day Select"
+                                    },
+                                    {
+                                        "name": "UPS Ground",
+                                        "code": "UPS Ground"
+                                    },
+                                    {
+                                        "name": "UPS i-parcel International Select",
+                                        "code": "UPS i-parcel International Select"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air",
+                                        "code": "UPS Next Day Air"
+                                    },
+                                    {
+                                        "name": "UPS Next Day Air Saver",
+                                        "code": "UPS Next Day Air Saver"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4PX",
+                                "name": "4PX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "4PX-Global Express",
+                                        "code": "4PX-Global Express"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Economy Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy SRM Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy SRM Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Economy2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Economy2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-Li",
+                                        "code": "4PX-PostLink priority Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink priority Registered Mail-NOLi",
+                                        "code": "4PX-PostLink priority Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard large letter Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard large letter Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Ordinary Mail-Li",
+                                        "code": "4PX-PostLink Standard Ordinary Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard Registered Mail-NOLi",
+                                        "code": "4PX-PostLink Standard Registered Mail-NOLi"
+                                    },
+                                    {
+                                        "name": "4PX-PostLink Standard2 Registered Mail-Li",
+                                        "code": "4PX-PostLink Standard2 Registered Mail-Li"
+                                    },
+                                    {
+                                        "name": "ED-4PX-PostLink Economy2 Registered",
+                                        "code": "ED-4PX-PostLink Economy2 Registered"
+                                    },
+                                    {
+                                        "name": "NX-4PX-PostLink Standard Ordinary",
+                                        "code": "NX-4PX-PostLink Standard Ordinary"
+                                    },
+                                    {
+                                        "name": "PY/PX-4PX-PostLink priority Registered",
+                                        "code": "PY/PX-4PX-PostLink priority Registered"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "A-1",
+                                "name": "A-1",
+                                "active": true
+                            },
+                            {
+                                "id": "AAA Cooper",
+                                "name": "AAA Cooper",
+                                "active": true
+                            },
+                            {
+                                "id": "ABF",
+                                "name": "ABF",
+                                "active": true
+                            },
+                            {
+                                "id": "APC Postal Logistics",
+                                "name": "APC Postal Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "Asendia",
+                                "name": "Asendia",
+                                "active": true
+                            },
+                            {
+                                "id": "BOMBINO EXPRESS",
+                                "name": "BOMBINO EXPRESS",
+                                "active": true
+                            },
+                            {
+                                "id": "Best Buy",
+                                "name": "Best Buy",
+                                "active": true
+                            },
+                            {
+                                "id": "Blue Package",
+                                "name": "Blue Package",
+                                "active": true
+                            },
+                            {
+                                "id": "CEVA",
+                                "name": "CEVA",
+                                "active": true
+                            },
+                            {
+                                "id": "CNE",
+                                "name": "CNE",
+                                "active": true
+                            },
+                            {
+                                "id": "Canada Post",
+                                "name": "Canada Post",
+                                "active": true
+                            },
+                            {
+                                "id": "China Post",
+                                "name": "China Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "China Post e-Courier Packet",
+                                        "code": "China Post e-Courier Packet"
+                                    },
+                                    {
+                                        "name": "China Post e-Courier Priority",
+                                        "code": "China Post e-Courier Priority"
+                                    },
+                                    {
+                                        "name": "China Post e-EMS",
+                                        "code": "China Post e-EMS"
+                                    },
+                                    {
+                                        "name": "China Post ePacket",
+                                        "code": "China Post ePacket"
+                                    },
+                                    {
+                                        "name": "China Post Ordinary Airmail",
+                                        "code": "China Post Ordinary Airmail"
+                                    },
+                                    {
+                                        "name": "China Post Registered Airmail",
+                                        "code": "China Post Registered Airmail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Chukou1",
+                                "name": "Chukou1",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CK1 Clothing Line",
+                                        "code": "CK1 Clothing Line"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (built-in battery)",
+                                        "code": "CK1 Economy Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Economy Line (general cargo)",
+                                        "code": "CK1 Economy Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Large Item Line",
+                                        "code": "CK1 Large Item Line"
+                                    },
+                                    {
+                                        "name": "CK1 Special Line with Sea Freight Service",
+                                        "code": "CK1 Special Line with Sea Freight Service"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)",
+                                        "code": "CK1 Standard Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (built-in battery)-Untrack",
+                                        "code": "CK1 Standard Line (built-in battery)-Untrack"
+                                    },
+                                    {
+                                        "name": "CK1 Standard Line (general cargo)",
+                                        "code": "CK1 Standard Line (general cargo)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (built-in battery)",
+                                        "code": "CK1 Super Line (built-in battery)"
+                                    },
+                                    {
+                                        "name": "CK1 Super Line (general cargo)",
+                                        "code": "CK1 Super Line (general cargo)"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Conway",
+                                "name": "Conway",
+                                "active": true
+                            },
+                            {
+                                "id": "DHL",
+                                "name": "DHL",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "DHL Express",
+                                        "code": "DHL Express"
+                                    },
+                                    {
+                                        "name": "International Mail",
+                                        "code": "International Mail"
+                                    },
+                                    {
+                                        "name": "Parcel",
+                                        "code": "Parcel"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "DHL eCommerce",
+                                "name": "DHL eCommerce",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Packet International Standard",
+                                        "code": "Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PKD-Packet International Standard",
+                                        "code": "PKD-Packet International Standard"
+                                    },
+                                    {
+                                        "name": "PLG-Parcel International Direct Goods",
+                                        "code": "PLG-Parcel International Direct Goods"
+                                    },
+                                    {
+                                        "name": "PLT-Parcel International Direct-Standard",
+                                        "code": "PLT-Parcel International Direct-Standard"
+                                    },
+                                    {
+                                        "name": "PPS-Packet Plus International",
+                                        "code": "PPS-Packet Plus International"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Ecom Shipping Solutions Pvt Ltd",
+                                "name": "Ecom Shipping Solutions Pvt Ltd",
+                                "active": true
+                            },
+                            {
+                                "id": "Equick",
+                                "name": "Equick",
+                                "active": true
+                            },
+                            {
+                                "id": "Estes",
+                                "name": "Estes",
+                                "active": true
+                            },
+                            {
+                                "id": "FedEx SmartPost",
+                                "name": "FedEx SmartPost",
+                                "active": true
+                            },
+                            {
+                                "id": "Fedex Freight",
+                                "name": "Fedex Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "First Mile",
+                                "name": "First Mile",
+                                "active": true
+                            },
+                            {
+                                "id": "Hongkong Post",
+                                "name": "Hongkong Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Air-Parcel",
+                                        "code": "Air-Parcel"
+                                    },
+                                    {
+                                        "name": "SpeedPost",
+                                        "code": "SpeedPost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Hunter Logistics",
+                                "name": "Hunter Logistics",
+                                "active": true
+                            },
+                            {
+                                "id": "India Post",
+                                "name": "India Post",
+                                "active": true
+                            },
+                            {
+                                "id": "JCEX",
+                                "name": "JCEX",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "CA International Express",
+                                        "code": "CA International Express"
+                                    },
+                                    {
+                                        "name": "EUB",
+                                        "code": "EUB"
+                                    },
+                                    {
+                                        "name": "Europe-DHL",
+                                        "code": "Europe-DHL"
+                                    },
+                                    {
+                                        "name": "Europe-DPD",
+                                        "code": "Europe-DPD"
+                                    },
+                                    {
+                                        "name": "Europe-UPS",
+                                        "code": "Europe-UPS"
+                                    },
+                                    {
+                                        "name": "Fedex IE",
+                                        "code": "Fedex IE"
+                                    },
+                                    {
+                                        "name": "Fedex IP",
+                                        "code": "Fedex IP"
+                                    },
+                                    {
+                                        "name": "Jia-Packet",
+                                        "code": "Jia-Packet"
+                                    },
+                                    {
+                                        "name": "JP International Express",
+                                        "code": "JP International Express"
+                                    },
+                                    {
+                                        "name": "TNT",
+                                        "code": "TNT"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Expedited",
+                                        "code": "UPS Worldwide Expedited"
+                                    },
+                                    {
+                                        "name": "UPS Worldwide Saver",
+                                        "code": "UPS Worldwide Saver"
+                                    },
+                                    {
+                                        "name": "US International Express",
+                                        "code": "US International Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Lasership",
+                                "name": "Lasership",
+                                "active": true
+                            },
+                            {
+                                "id": "Newgistics",
+                                "name": "Newgistics",
+                                "active": true
+                            },
+                            {
+                                "id": "OSM",
+                                "name": "OSM",
+                                "active": true
+                            },
+                            {
+                                "id": "Old Dominion",
+                                "name": "Old Dominion",
+                                "active": true
+                            },
+                            {
+                                "id": "OnTrac",
+                                "name": "OnTrac",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "OnTrac Ground",
+                                        "code": "OnTrac Ground"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Pilot Freight",
+                                "name": "Pilot Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "R+L",
+                                "name": "R+L",
+                                "active": true
+                            },
+                            {
+                                "id": "Roadrunner",
+                                "name": "Roadrunner",
+                                "active": true
+                            },
+                            {
+                                "id": "Royal Mail",
+                                "name": "Royal Mail",
+                                "active": true
+                            },
+                            {
+                                "id": "SF Express",
+                                "name": "SF Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "E-Commerce Express CD",
+                                        "code": "E-Commerce Express CD"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Priority",
+                                        "code": "E-Commerce Express Priority"
+                                    },
+                                    {
+                                        "name": "E-Commerce Express Standard",
+                                        "code": "E-Commerce Express Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-BPost",
+                                        "code": "E-Commerce Ordinary Parcel-BPost"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Economy",
+                                        "code": "E-Commerce Ordinary Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Special Line",
+                                        "code": "E-Commerce Ordinary Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Ordinary Parcel-Standard",
+                                        "code": "E-Commerce Ordinary Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Economy",
+                                        "code": "E-Commerce Registered Parcel-Economy"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LA",
+                                        "code": "E-Commerce Registered Parcel-LA"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-LU Post",
+                                        "code": "E-Commerce Registered Parcel-LU Post"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Special Line",
+                                        "code": "E-Commerce Registered Parcel-Special Line"
+                                    },
+                                    {
+                                        "name": "E-Commerce Registered Parcel-Standard",
+                                        "code": "E-Commerce Registered Parcel-Standard"
+                                    },
+                                    {
+                                        "name": "Economy Express",
+                                        "code": "Economy Express"
+                                    },
+                                    {
+                                        "name": "Standard Express",
+                                        "code": "Standard Express"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "SFC",
+                                "name": "SFC",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "SFC Global Line-no battery",
+                                        "code": "SFC Global Line-no battery"
+                                    },
+                                    {
+                                        "name": "SFC Global Line-with battery",
+                                        "code": "SFC Global Line-with battery"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Saia",
+                                "name": "Saia",
+                                "active": true
+                            },
+                            {
+                                "id": "Singapore Post",
+                                "name": "Singapore Post",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "EMS",
+                                        "code": "EMS"
+                                    },
+                                    {
+                                        "name": "Ordinary Mail",
+                                        "code": "Ordinary Mail"
+                                    },
+                                    {
+                                        "name": "Registered Mail",
+                                        "code": "Registered Mail"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "South Eastern Freight Lines",
+                                "name": "South Eastern Freight Lines",
+                                "active": true
+                            },
+                            {
+                                "id": "StreamLite",
+                                "name": "StreamLite",
+                                "active": true
+                            },
+                            {
+                                "id": "Sunyou",
+                                "name": "Sunyou",
+                                "active": true
+                            },
+                            {
+                                "id": "UBI",
+                                "name": "UBI",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Freight",
+                                "name": "UPS Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "UPS Mail Innovations",
+                                "name": "UPS Mail Innovations",
+                                "active": true
+                            },
+                            {
+                                "id": "Urban Express",
+                                "name": "Urban Express",
+                                "active": true
+                            },
+                            {
+                                "id": "WanbExpress",
+                                "name": "WanbExpress",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "WANB EXPRESS",
+                                        "code": "WANB EXPRESS"
+                                    },
+                                    {
+                                        "name": "WANB Post Economy",
+                                        "code": "WANB Post Economy"
+                                    },
+                                    {
+                                        "name": "WANB Post Smart",
+                                        "code": "WANB Post Smart"
+                                    },
+                                    {
+                                        "name": "WANB Semi Track",
+                                        "code": "WANB Semi Track"
+                                    },
+                                    {
+                                        "name": "WANB Smart Track",
+                                        "code": "WANB Smart Track"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Watkins and Shepard",
+                                "name": "Watkins and Shepard",
+                                "active": true
+                            },
+                            {
+                                "id": "XPO HB",
+                                "name": "XPO HB",
+                                "active": true
+                            },
+                            {
+                                "id": "YDH",
+                                "name": "YDH",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YDH Economy Service",
+                                        "code": "YDH Economy Service"
+                                    },
+                                    {
+                                        "name": "YDH Express Service",
+                                        "code": "YDH Express Service"
+                                    },
+                                    {
+                                        "name": "YDH Standard Service",
+                                        "code": "YDH Standard Service"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yanwen",
+                                "name": "Yanwen",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "Yanwen Air Economy Mail General",
+                                        "code": "Yanwen Air Economy Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Economy Mail Special ",
+                                        "code": "Yanwen Air Economy Mail Special "
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail General",
+                                        "code": "Yanwen Air Register Mail General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Register Mail Special",
+                                        "code": "Yanwen Air Register Mail Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet General",
+                                        "code": "Yanwen Air Track Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Track Packet Special",
+                                        "code": "Yanwen Air Track Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet General",
+                                        "code": "Yanwen Air Untrack Packet General"
+                                    },
+                                    {
+                                        "name": "Yanwen Air Untrack Packet Special",
+                                        "code": "Yanwen Air Untrack Packet Special"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express General",
+                                        "code": "Yanwen Direct Line Express General"
+                                    },
+                                    {
+                                        "name": "Yanwen Direct Line Express Special",
+                                        "code": "Yanwen Direct Line Express Special"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Yellow Freight",
+                                "name": "Yellow Freight",
+                                "active": true
+                            },
+                            {
+                                "id": "Yun Express",
+                                "name": "Yun Express",
+                                "active": true,
+                                "shipping_methods": [
+                                    {
+                                        "name": "YunExpress DE SRM Direct Line",
+                                        "code": "YunExpress DE SRM Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard )-Tracked",
+                                        "code": "YunExpress Global Direct line (standard )-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line (standard)-Untracked",
+                                        "code": "YunExpress Global Direct line (standard)-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Tracked",
+                                        "code": "YunExpress Global Direct line non Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line non Battery-Untracked",
+                                        "code": "YunExpress Global Direct line non Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Tracked",
+                                        "code": "YunExpress Global Direct line with Battery-Tracked"
+                                    },
+                                    {
+                                        "name": "YunExpress Global Direct line with Battery-Untracked",
+                                        "code": "YunExpress Global Direct line with Battery-Untracked"
+                                    },
+                                    {
+                                        "name": "YunExpress JP Direct Line",
+                                        "code": "YunExpress JP Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct Line",
+                                        "code": "YunExpress ME Direct Line"
+                                    },
+                                    {
+                                        "name": "YunExpress ME Direct line-DDP",
+                                        "code": "YunExpress ME Direct line-DDP"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ePost Global",
+                                "name": "ePost Global",
+                                "active": true
+                            },
+                            {
+                                "id": "uShip",
+                                "name": "uShip",
+                                "active": true
+                            },
+                            {
+                                "id": "Other",
+                                "name": "Other",
+                                "active": true
+                            }
+                        ],
+                        "store_owner_info": null,
+                        "default_warehouse_id": null
+                    }
+                ]
+            }
+        ]
+    }
+}

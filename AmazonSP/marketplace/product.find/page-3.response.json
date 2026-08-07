@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "Dc3RonIwAADgB3KRMcPFubBjllVCKc6dhFRDmMzT%2F%2F%2F3Ap8L1N7ZCUUdDxeO5aNmps6SV51XEm71pgJnkm5QD311ws%2FZeco%2BDVMl%2Bb7N5YOZeddaifQrSD0CILmdIjQgWFq79%2BJF3DQzLl9xe2ZV%2BHwhSrWebb%2FNWMxXlHSny8lYvm7uQpHJ7i8R4oj5Zom8VSfGg9yy1govN3ObRlAC0VgVvQUsl%2FC%2B4lw%2FvobfznfjWz3mV3XO%2Fh8Nr%2BuDN8pwLRgIunJQGDzc%2BnuvpJs8tsXOv0xUvQ5ovKOFDyPQ8myvv%2FcVrYDfAXk5xrylLD8L59JIsxMAiQQfsakZsnrsvGaKnNQfmrIWn05P1A8vXiPWxXhPgBpyggJ1slRoveuBcmMfmbRl%2Bu6A%2Bzm4dhU2lII6I11qumpWaPzuP3oHF9PlvAKY4EyWVrBRPudfYdtkmuzYda3i5ESt%2FUDROqa9e5ifdmKJOdwgzeX2m6yFT7a%2Bt0EWJ3X5LR5L%2FnH%2Bir2aekM5BVAx0ISuzEgoBXAPwOS%2BFWfSZoe4GWMRjpdH17p59w2r1sTHuDoObQBNUtY%2FP%2F8A",
+        "next": "Dc5JgqIwAADAB%2BUAASV4mEOQHcTIbt%2FYZe0gCMTX99QLSoU8xc4H8MstHhX2amwk2lHfZDU7mWJbw1BLOYmeLH5Vug13jKYkBdE%2BoGNWbFTuKOQSbyo4vZ3DYEFpbsMJ5lmfENeT90pAzLWPgJg7tdZcRcyPmp%2F7Kq99X%2FLtKzVutIphoECvodMHUbzS0Ed3qRWv0Qu06sdls2zOiNOE%2FnZwR7JazsJLmXQZrgNnQ189e99Zj%2FlH79EzBfwKOEg8Yq4Ejk7i%2FQ4su7TOTg4yWOp9N5A1Y6XsWEyBYFZGgPvH%2BhZOG8aj2a%2FzbYiLOP7unaqWl8us1e%2FQfHlhpj7ZOgrDNmUsrCG7VQUfDNmTjyqg25uf%2BbFouc5bGXxu9gqSew%2F86MWQ5DsSGqtWCkXeC3Pdknqrnsf5pyOL5PToeZUSpPfa2Lj%2FX7ESWsvT4e57SrYoB05parimGbzs0ckxiOy2Wn2XgpRZ5%2BihS5aJSER9SZ9oKkgkxF%2B9NJIrmDgYvXFLOWosJWKt27zHsfw6RxQCRUaVK7FQ4KlPqXgwsge%2FwJMaNW%2Bdz2SfXv6CtB8RdHDAZb3pOPKbA7ib9u8P"
+    },
+    "result": {
+        "marketplace_products_count": 20,
+        "marketplace_product": [
+            {
+                "id": "B09D8R8K93"
+            },
+            {
+                "id": "B07YXLZPNT"
+            },
+            {
+                "id": "B09CC8PSG4"
+            },
+            {
+                "id": "B08RL95QP6"
+            },
+            {
+                "id": "B09D8TC97S"
+            },
+            {
+                "id": "B0CQKKP2HS"
+            },
+            {
+                "id": "B08WX1Z5ZS"
+            },
+            {
+                "id": "B09D8S3593"
+            },
+            {
+                "id": "B07YXM2GWL"
+            },
+            {
+                "id": "B09D8T7TBG"
+            },
+            {
+                "id": "B083GBV7M5"
+            },
+            {
+                "id": "B09PMJT5X8"
+            },
+            {
+                "id": "B09PMKFD8M"
+            },
+            {
+                "id": "B077DMLJZC"
+            },
+            {
+                "id": "B01KXHF34W"
+            },
+            {
+                "id": "B08WWTG2JS"
+            },
+            {
+                "id": "B09D8VT6W3"
+            },
+            {
+                "id": "B08TM827JK"
+            },
+            {
+                "id": "B083GC9BP3"
+            },
+            {
+                "id": "B0BNLYFHCJ"
+            }
+        ]
+    }
+}

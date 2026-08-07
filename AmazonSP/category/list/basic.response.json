@@ -1,0 +1,196 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FIhMHH0mC5NwXReB48WopRTN8HJ13dOJdLjusgc%2BaKwDjIfz6qStK4GRchWydzoCV8B7h2sQD20MgBpZiFNTp4NfLfH7aLvspv98TE3NYlr3eYj%2FE0RQY5plFGs2qigHeAElrv0YLydkwhX8U629bt4%2BA8%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16261641",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Amazon Instant Video",
+                "short_description": null,
+                "description": "",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a0f44d4e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video"
+                    ],
+                    "browse_path_by_id": [
+                        "16261641"
+                    ],
+                    "children_ids": [
+                        "16386761",
+                        "16262841"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16386761",
+                "parent_id": "16261641",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies",
+                "short_description": null,
+                "description": "Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-7abb1086.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761"
+                    ],
+                    "children_ids": [
+                        "16262851",
+                        "16262901",
+                        "16262921",
+                        "16262931",
+                        "16262951",
+                        "16262961",
+                        "51932011",
+                        "16262971",
+                        "44155011",
+                        "16263001",
+                        "16263031",
+                        "16263041"
+                    ],
+                    "parent_ids": [
+                        "16261641"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262851",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Action & Adventure",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a1c4feeb.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851"
+                    ],
+                    "children_ids": [
+                        "16263051",
+                        "16263261",
+                        "16263471",
+                        "44067011",
+                        "44069011",
+                        "44070011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16263051",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Classics",
+                "short_description": null,
+                "description": "Classic Action & Adventure Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-176bc836.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Classics"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,16263051"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16263261",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Comic Action",
+                "short_description": null,
+                "description": "Comic Action & Adventure Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-3fc24f9b.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Comic Action"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,16263261"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            }
+        ]
+    }
+}

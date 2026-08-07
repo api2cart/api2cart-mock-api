@@ -1,0 +1,123 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 1,
+        "children": [
+            {
+                "id": "test-var-QA05",
+                "parent_id": "B000JOE224-PARENT-APP",
+                "sku": "test-var-QA05",
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": "https://store-ddb037b0.example.com/",
+                "seo_url": null,
+                "sort_order": null,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsGiant - Flavour (Coconut)",
+                "short_description": null,
+                "full_description": "Feline Pill Pockets for Cats Natural Soft Cat Treats Giant - Flavour (Coconut)",
+                "images": [
+                    {
+                        "id": "4cfaada8c15709d492752bbd76a011ee",
+                        "http_path": "https://picsum.photos/seed/d944f77a/600/600",
+                        "file_name": "51gk48v-e5L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "combination": [
+                    {
+                        "option_id": "flavor",
+                        "option_value_id": "Coconut"
+                    },
+                    {
+                        "option_id": "size",
+                        "option_value_id": "Giant"
+                    }
+                ],
+                "default_price": 10,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": false,
+                "allow_backorders": false,
+                "in_stock": null,
+                "on_sale": null,
+                "manage_stock": true,
+                "inventory_level": 0,
+                "inventory": [],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": 0,
+                "dimensions_unit": "cm",
+                "width": 11,
+                "height": 11,
+                "length": 11,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "asin1": "B0CYJJQ2MH",
+                    "asin2": null,
+                    "asin3": null,
+                    "fulfillment_channel": "DEFAULT",
+                    "listing_id": "",
+                    "product_id": "B0CYJJQ2MH",
+                    "ItemCondition": null,
+                    "ItemSubCondition": null,
+                    "condition_type": "new_new",
+                    "product_type": "PET_FOOD"
+                },
+                "custom_fields": {
+                    "contains_liquid_contents": false,
+                    "item_package_weight": 1,
+                    "manufacturer": "Pedigree",
+                    "age_range_description": "Baby",
+                    "bullet_point": "Made with premium-quality salmon for a rich and juicy flavor.\nHigh protein content supports muscle health in cats.\nContains unsaturated fatty acids for promoting healthy fur and skin.\nIdeal as a daily reward or treat for cats.\n",
+                    "breed_recommendation": "beagle, sphynx",
+                    "ingredients": "Dark Chocolate, Sugar, Almonds",
+                    "brand": "Generic",
+                    "is_expiration_dated_product": false,
+                    "supplier_declared_has_product_identifier_exemption": true,
+                    "country_of_origin": "US",
+                    "merchant_shipping_group": "legacy-template-id",
+                    "item_form": "Stick, Pellet, Liquid",
+                    "list_price": 10,
+                    "flavor": "Coconut",
+                    "item_type_keyword": "pet-food, edible-pet-treats",
+                    "number_of_items": 1,
+                    "condition_type": "new_new",
+                    "directions": "Adults 18 Years and older: This product is to be used once a day (every 24 hours), every day for 14 days. It may take 1 to 4 days for full effect, although some people get complete relief of symptoms within 24 hours",
+                    "size": "Giant",
+                    "specific_uses_for_product": "Hairball Control",
+                    "unit_count": 1,
+                    "parentage_level": "child"
+                }
+            }
+        ]
+    }
+}

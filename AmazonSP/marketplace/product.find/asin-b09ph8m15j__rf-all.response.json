@@ -1,0 +1,313 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B09PH8M15J",
+                "type": "configurable",
+                "u_asin": "B09PH8M15J",
+                "u_ean": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "10-Years Purity 60:1 Ratio Pure Moxibustion Sticks/Moxa Burner Tank Cloth Bag Portable Moxibustion Treatment Tool Therapy Bag",
+                "description": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                "url": "https://store-bbc6cfda.example.com/",
+                "price": null,
+                "images": [
+                    {
+                        "id": "256317faf77a0683fc8871c8293bd90b",
+                        "http_path": "https://picsum.photos/seed/feeaf3f8/600/600",
+                        "file_name": "81tMSy3nhYL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "b758939f2c70e93e77870a6f626c843b",
+                        "http_path": "https://picsum.photos/seed/436f3d3b/600/600",
+                        "file_name": "81SqeInAS8L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "71421b165800bd3528dedbc8ebad2a9e",
+                        "http_path": "https://picsum.photos/seed/20ec3a60/600/600",
+                        "file_name": "81jRhCyvwAL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "8e87e47a7bc3b7d51491abc396e26d49",
+                        "http_path": "https://picsum.photos/seed/ff708def/600/600",
+                        "file_name": "71+XAiPNglL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "a7ecf85958fdbb18a191a7d06d6175c2",
+                        "http_path": "https://picsum.photos/seed/5350ec58/600/600",
+                        "file_name": "61bU7dDrx4L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "70dda5dfb8053dc6d1c492574bce9bfd",
+                        "product_option_id": null,
+                        "name": "color",
+                        "description": null,
+                        "sort_order": null,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "79b3ad088c846725dd668e3f485273bd",
+                                "product_option_item_id": null,
+                                "name": "10 Years Moxa Stick",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "cd7d16c46b3e93e5b3d99adbc7212420",
+                                "product_option_item_id": null,
+                                "name": "Blue Cloth Bag",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "b2f83b7d2c0f8cbfd643b3e2dc917956",
+                                "product_option_item_id": null,
+                                "name": "Burner Tank&cloth Bag",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "ccfea9fb07c5ecb0481bb62f9f202cea",
+                                "product_option_item_id": null,
+                                "name": "Copper Burner Tank",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "451f2a1dc2e866e6b309b8dfba63facc",
+                                "product_option_item_id": null,
+                                "name": "Moxa Sticks and Patches",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    }
+                ],
+                "manufacturer": "Uloveido",
+                "brand": "Uloveido",
+                "weight": 0.0220462262,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 1.968503935,
+                "height": 1.968503935,
+                "length": 3.93700787,
+                "additional_fields": {
+                    "child_asins": [
+                        "B085XVL8S6",
+                        "B0C1VJ7Q5L",
+                        "B0C1VKMW3J",
+                        "B0CMT7W3F7",
+                        "B09P86XNY3",
+                        "B09P87TWVW",
+                        "B09M7WQQ68"
+                    ],
+                    "parent_asin": "",
+                    "model_number": "",
+                    "part_number": "",
+                    "product_type": "HEALTH_PERSONAL_CARE",
+                    "raw_attributes": {
+                        "variation_theme": [
+                            {
+                                "name": "COLOR",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "grams",
+                                "value": 10,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Uloveido",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Package includes: 1 box 54 Moxibustion rolls only. Burner Box excluded; Ten years purity 60:1 ratio. Roll size 18mm*27mm.Basic knowledge of moxibustion: 60:1 means we will get 1 kgs of moxibustion velvet from 60kgs of raw moxibustion plant. The longer the time, the moxibustion will have better the curative effect.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Acupuncture before and after ,drink a cup of warm water, after Acupuncture ,diet should be light. Applicable to the abdomen waist and shoulder",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "We only focus on high quality real& pure moxa rolls for mild moxibustion.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Temperature (and how fast the stick burns) can be controled by opening or closing the \"windows\". If I leave them half opened, one stick will last about 1 hour.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Traditional moxibustion bar for heat treatment,Use moxa rolls to warm the meridians, increase circulation, boost immunity.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Uloveido",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_expiration_dated_product": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_heat_sensitive": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "10-Years Purity 60:1 Ratio Pure Moxibustion Sticks/Moxa Burner Tank Cloth Bag Portable Moxibustion Treatment Tool Therapy Bag",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "acupuncture-products",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2021-12-31T06:31:58.346Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 10
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 5
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 5
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "unit_count": [
+                            {
+                                "type": {
+                                    "language_tag": "en_US",
+                                    "value": "Count"
+                                },
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

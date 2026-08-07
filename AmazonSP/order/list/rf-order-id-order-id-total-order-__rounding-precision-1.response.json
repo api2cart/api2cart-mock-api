@@ -1,0 +1,126 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "orders_count": 1,
+        "order": [
+            {
+                "id": "",
+                "order_id": "111-6066540-4417003",
+                "total": {
+                    "subtotal_ex_tax": 0.3,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 0.5,
+                    "total_discount": 0,
+                    "total_tax": 0.1,
+                    "total": 0.9,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": 0,
+                        "subtotal_discount_ex_tax": 0,
+                        "tax_discount": null,
+                        "subtotal_tax": 0,
+                        "wrapping_tax": 0,
+                        "shipping_tax": 0
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": "8L-IAZE-42MI",
+                        "order_product_id": "26443508669490",
+                        "model": "8L-IAZE-42MI",
+                        "name": "Compact Gadget 466",
+                        "price": 0.3,
+                        "price_inc_tax": 0.3,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 0.3,
+                        "tax_percent": null,
+                        "tax_value": 0,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": "lb",
+                        "weight": 0.82893810512,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "asin": "B085HBT3R8",
+                            "gift_message_text": null,
+                            "gift_wrap_level": null,
+                            "condition": "Used",
+                            "condition_subtype_id": "Acceptable",
+                            "condition_note": null,
+                            "price_designation": null,
+                            "height": 1.6535433054,
+                            "length": 11.889763767,
+                            "width": 5.4724409393,
+                            "dimmension_unit": "in",
+                            "is_gift": false,
+                            "gift_wrap_price": null,
+                            "cod_fee_price": null,
+                            "cod_fee_discount": null,
+                            "quantity_shipped": 1,
+                            "buyer_requested_cancel": {
+                                "is_buyer_requested_cancel": false,
+                                "buyer_cancel_reason": ""
+                            },
+                            "scheduled_delivery_start_date": null,
+                            "scheduled_delivery_end_date": null,
+                            "shipping_price": 0.5,
+                            "shipping_tax": 0,
+                            "shipping_discount": 0,
+                            "shipping_discount_tax": 0,
+                            "promotion_discount": 0,
+                            "promotion_discount_tax": 0,
+                            "amazon_programs": []
+                        }
+                    }
+                ],
+                "additional_fields": {
+                    "order_type": "StandardOrder",
+                    "shipment_service_level_category": "Standard",
+                    "fulfillment_channel": "MFN",
+                    "sales_channel": "Amazon.com",
+                    "ship_service_level": "Std US D2D Dom",
+                    "cba_displayable_shipping_label": null,
+                    "replace_order_id": null,
+                    "payment_method_details": "Standard",
+                    "earliest_delivery_date": {
+                        "value": "2022-09-09T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "earliest_ship_date": {
+                        "value": "2022-08-19T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "latest_delivery_date": {
+                        "value": "2022-09-30T06:59:59+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "latest_ship_date": {
+                        "value": "2022-08-20T06:59:59+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "is_business_order": false,
+                    "is_premium_order": false,
+                    "is_prime": false,
+                    "is_sold_by_a_b": false,
+                    "is_replacements_order": false,
+                    "is_global_express_enabled": false,
+                    "has_regulated_items": false,
+                    "default_ship_from_addr_state_or_region": "Ternopilska",
+                    "default_ship_from_addr_address_line1": "null",
+                    "default_ship_from_addr_postal_code": "46000",
+                    "default_ship_from_addr_city": "Ternopil",
+                    "default_ship_from_addr_country_code": "UA",
+                    "default_ship_from_addr_name": "null"
+                }
+            }
+        ]
+    }
+}

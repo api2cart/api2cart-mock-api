@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-06T13:17:48Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "response_fields": "{*}"
+    }
+}

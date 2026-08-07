@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-06T11:25:26Z",
+    "method": "GET",
+    "endpoint": "category.find.json",
+    "query": {
+        "find_value": "Amazon Instant Video",
+        "find_where": "name"
+    }
+}

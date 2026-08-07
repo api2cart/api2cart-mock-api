@@ -1,0 +1,218 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcFRE0IwAADgH7QHG%2BN48NAKZUS1cfbYNWNxqTOOX9%2F3PWS6Oh9VuJ4sd%2BAuL7zrO61sA8tjM6nGjs%2FoSvwn8DVkbaUITPMdZZdN5K2Y9zWwzEHVo9dFI2c0YaYqOjT0MXXBwvWim8c3k1kNBUWCgFuK%2FSkwJXOkhWY%2B%2FLh5Q7LNiiBMadKfhD3gaFVh%2BAc%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16262851",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Action & Adventure",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a1c4feeb.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851"
+                    ],
+                    "children_ids": [
+                        "16263051",
+                        "16263261",
+                        "16263471",
+                        "44067011",
+                        "44069011",
+                        "44070011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262901",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Comedy",
+                "short_description": null,
+                "description": "Comedy",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-dd716099.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Comedy"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262901"
+                    ],
+                    "children_ids": [
+                        "16263941",
+                        "16263731",
+                        "16263521",
+                        "16263311",
+                        "16263101",
+                        "44098011",
+                        "44099011",
+                        "44100011",
+                        "44101011",
+                        "44102011",
+                        "44103011",
+                        "44104011",
+                        "44105011",
+                        "44106011",
+                        "44107011",
+                        "44108011",
+                        "44109011",
+                        "44110011",
+                        "44111011",
+                        "44112011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262921",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Documentary",
+                "short_description": null,
+                "description": "Documentary Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-ef47021b.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Documentary"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262921"
+                    ],
+                    "children_ids": [
+                        "16263541",
+                        "44118011",
+                        "44120011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262931",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Drama",
+                "short_description": null,
+                "description": "Dramas",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-f65c335a.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Drama"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262931"
+                    ],
+                    "children_ids": [
+                        "16263131",
+                        "106241011",
+                        "16263341",
+                        "16263551",
+                        "16263761",
+                        "16263971",
+                        "44125011",
+                        "44127011",
+                        "44128011",
+                        "44129011",
+                        "44130011",
+                        "44131011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262951",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Gay & Lesbian",
+                "short_description": null,
+                "description": "Gay & Lesbian Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a00694dc.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Gay & Lesbian"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262951"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            }
+        ]
+    }
+}
