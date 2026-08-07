@@ -1,6 +1,6 @@
 {
     "platform": "EtsyAPIv3",
-    "generated_at": "2026-08-06T13:47:00Z",
+    "generated_at": "2026-08-07T09:00:53Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -13,18 +13,9 @@
                     "request": "cart/info/basic.request.json",
                     "response": "cart/info/basic.response.json",
                     "covers": {
-                        "description": "happy path: store information from the primary sanitized snapshot"
+                        "description": "happy path: store information"
                     },
                     "captured_at": "2026-08-04T13:02:04Z"
-                },
-                {
-                    "slug": "basic-2",
-                    "request": "cart/info/basic-2.request.json",
-                    "response": "cart/info/basic-2.response.json",
-                    "covers": {
-                        "description": "happy path: store information from a second sanitized snapshot"
-                    },
-                    "captured_at": "2026-07-23T11:23:37Z"
                 },
                 {
                     "slug": "rf-all",
@@ -40,7 +31,7 @@
                     "request": "cart/info/rf-all__exclude-name-stores-info.request.json",
                     "response": "cart/info/rf-all__exclude-name-stores-info.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 },
@@ -110,7 +101,7 @@
                     "request": "category/count/find-name.request.json",
                     "response": "category/count/find-name.response.json",
                     "covers": {
-                        "description": "rich export parameters: find_where,find_value"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -119,7 +110,7 @@
                     "request": "category/count/find-name-2.request.json",
                     "response": "category/count/find-name-2.response.json",
                     "covers": {
-                        "description": "rich export parameters: find_where,find_value"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -128,7 +119,7 @@
                     "request": "category/count/find-name-3.request.json",
                     "response": "category/count/find-name-3.response.json",
                     "covers": {
-                        "description": "rich export parameters: find_where,find_value"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -146,7 +137,7 @@
                     "request": "category/count/parent-id-0.request.json",
                     "response": "category/count/parent-id-0.response.json",
                     "covers": {
-                        "description": "rich export parameters: parent_id"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -155,7 +146,7 @@
                     "request": "category/count/parent-id-1.request.json",
                     "response": "category/count/parent-id-1.response.json",
                     "covers": {
-                        "description": "rich export parameters: parent_id"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -164,7 +155,7 @@
                     "request": "category/count/parent-id-2.request.json",
                     "response": "category/count/parent-id-2.response.json",
                     "covers": {
-                        "description": "rich export parameters: parent_id"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 }
@@ -268,7 +259,7 @@
                     "request": "category/list/find-name.request.json",
                     "response": "category/list/find-name.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,find_where,find_value,count"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -277,7 +268,7 @@
                     "request": "category/list/find-name-2.request.json",
                     "response": "category/list/find-name-2.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,find_where,find_value,count"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -286,7 +277,7 @@
                     "request": "category/list/find-name-3.request.json",
                     "response": "category/list/find-name-3.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,find_where,find_value,count"
+                        "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -313,7 +304,7 @@
                     "request": "category/list/parent-id-0.request.json",
                     "response": "category/list/parent-id-0.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,parent_id,count"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -322,7 +313,7 @@
                     "request": "category/list/parent-id-1.request.json",
                     "response": "category/list/parent-id-1.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,parent_id,count"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -331,7 +322,7 @@
                     "request": "category/list/parent-id-2.request.json",
                     "response": "category/list/parent-id-2.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,parent_id,count"
+                        "description": "categories under a parent"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
@@ -349,7 +340,7 @@
                     "request": "category/list/start-2.request.json",
                     "response": "category/list/start-2.response.json",
                     "covers": {
-                        "description": "rich export parameters: response_fields,start,count"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-06T13:29:18Z"
                 }
@@ -374,7 +365,7 @@
                     "request": "order/count/created-from-2010-07-29-13-45-52.request.json",
                     "response": "order/count/created-from-2010-07-29-13-45-52.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: created_from (lower bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -383,7 +374,7 @@
                     "request": "order/count/created-to-2100-08-29-13-45-52.request.json",
                     "response": "order/count/created-to-2100-08-29-13-45-52.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: created_to (upper bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -410,7 +401,7 @@
                     "request": "order/count/modified-from-2010-07-29-13-45-52.request.json",
                     "response": "order/count/modified-from-2010-07-29-13-45-52.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: modified_from (lower bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -419,7 +410,7 @@
                     "request": "order/count/modified-to-2100-08-29-13-45-52.request.json",
                     "response": "order/count/modified-to-2100-08-29-13-45-52.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: modified_to (upper bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 }
@@ -514,7 +505,7 @@
                     "request": "order/list/created-from-2010-07-29-13-45-52.request.json",
                     "response": "order/list/created-from-2010-07-29-13-45-52.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: created_from (lower bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -523,7 +514,7 @@
                     "request": "order/list/created-modified-range.request.json",
                     "response": "order/list/created-modified-range.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: date range (created/modified from-to)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -532,7 +523,7 @@
                     "request": "order/list/created-range.request.json",
                     "response": "order/list/created-range.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: date range (created/modified from-to)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -541,7 +532,7 @@
                     "request": "order/list/created-to-2100-08-29-13-45-52.request.json",
                     "response": "order/list/created-to-2100-08-29-13-45-52.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: created_to (upper bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -559,7 +550,7 @@
                     "request": "order/list/financial-fulfillment-paid-not-shipped.request.json",
                     "response": "order/list/financial-fulfillment-paid-not-shipped.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -568,7 +559,7 @@
                     "request": "order/list/financial-status-not-paid.request.json",
                     "response": "order/list/financial-status-not-paid.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -577,7 +568,7 @@
                     "request": "order/list/financial-status-paid.request.json",
                     "response": "order/list/financial-status-paid.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -586,7 +577,7 @@
                     "request": "order/list/fulfillment-status-delivered.request.json",
                     "response": "order/list/fulfillment-status-delivered.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -595,7 +586,7 @@
                     "request": "order/list/fulfillment-status-not-shipped.request.json",
                     "response": "order/list/fulfillment-status-not-shipped.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -604,7 +595,7 @@
                     "request": "order/list/fulfillment-status-shipped-and-not-delivered.request.json",
                     "response": "order/list/fulfillment-status-shipped-and-not-delivered.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -613,7 +604,7 @@
                     "request": "order/list/modified-from-2010-07-29-13-45-52.request.json",
                     "response": "order/list/modified-from-2010-07-29-13-45-52.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: modified_from (lower bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -622,7 +613,7 @@
                     "request": "order/list/modified-range.request.json",
                     "response": "order/list/modified-range.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: date range (created/modified from-to)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -631,7 +622,7 @@
                     "request": "order/list/modified-to-2100-08-29-13-45-52.request.json",
                     "response": "order/list/modified-to-2100-08-29-13-45-52.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: modified_to (upper bound)"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -640,7 +631,7 @@
                     "request": "order/list/order-status-open.request.json",
                     "response": "order/list/order-status-open.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: order_status=open"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -667,7 +658,7 @@
                     "request": "order/list/start-10.request.json",
                     "response": "order/list/start-10.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -676,7 +667,7 @@
                     "request": "order/list/status-financial-open-paid.request.json",
                     "response": "order/list/status-financial-open-paid.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: order_status=open"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 }
@@ -832,7 +823,7 @@
                     "request": "order/shipment.list/order-id-4127699155.request.json",
                     "response": "order/shipment.list/order-id-4127699155.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -841,7 +832,7 @@
                     "request": "order/shipment.list/order-id-4130358936.request.json",
                     "response": "order/shipment.list/order-id-4130358936.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -850,7 +841,7 @@
                     "request": "order/shipment.list/order-id-4130541658.request.json",
                     "response": "order/shipment.list/order-id-4130541658.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -859,7 +850,7 @@
                     "request": "order/shipment.list/order-id-4130825825.request.json",
                     "response": "order/shipment.list/order-id-4130825825.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -868,7 +859,7 @@
                     "request": "order/shipment.list/order-id-4132060218.request.json",
                     "response": "order/shipment.list/order-id-4132060218.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 }
@@ -1094,7 +1085,7 @@
                     "request": "product/child_item.info/product_id-1360559503__id-12877039520.request.json",
                     "response": "product/child_item.info/product_id-1360559503__id-12877039520.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1103,7 +1094,7 @@
                     "request": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.request.json",
                     "response": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1112,7 +1103,7 @@
                     "request": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.request.json",
                     "response": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 }
@@ -1146,7 +1137,7 @@
                     "request": "product/child_item.list/product_id-1360559503__count-2.request.json",
                     "response": "product/child_item.list/product_id-1360559503__count-2.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1173,7 +1164,7 @@
                     "request": "product/child_item.list/product_id-888814018.request.json",
                     "response": "product/child_item.list/product_id-888814018.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1182,7 +1173,7 @@
                     "request": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.request.json",
                     "response": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1191,7 +1182,7 @@
                     "request": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
                     "response": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1200,7 +1191,7 @@
                     "request": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.request.json",
                     "response": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 }
@@ -1216,7 +1207,7 @@
                     "request": "product/count/avail_view-false.request.json",
                     "response": "product/count/avail_view-false.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: avail_view=false"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1225,7 +1216,7 @@
                     "request": "product/count/avail_view-true.request.json",
                     "response": "product/count/avail_view-true.response.json",
                     "covers": {
-                        "description": "filtered total count"
+                        "description": "filter: avail_view=true"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1555,7 +1546,7 @@
                     "request": "product/list/avail_view-true.request.json",
                     "response": "product/list/avail_view-true.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "filter: avail_view=true"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
@@ -1654,7 +1645,7 @@
                     "request": "product/list/rf-all__avail_view-false.request.json",
                     "response": "product/list/rf-all__avail_view-false.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: avail_view=false"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1663,7 +1654,7 @@
                     "request": "product/list/rf-all__exclude-price-url-create-at-.request.json",
                     "response": "product/list/rf-all__exclude-price-url-create-at-.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1672,7 +1663,7 @@
                     "request": "product/list/rf-all__product_ids-888814018-qqq-136055.request.json",
                     "response": "product/list/rf-all__product_ids-888814018-qqq-136055.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1699,7 +1690,7 @@
                     "request": "product/list/sku-bag-01.request.json",
                     "response": "product/list/sku-bag-01.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:14:09Z"
                 },
@@ -1771,7 +1762,7 @@
                     "request": "product/list/start-0__count-6.request.json",
                     "response": "product/list/start-0__count-6.response.json",
                     "covers": {
-                        "description": "filtered export"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
@@ -1780,7 +1771,7 @@
                     "request": "product/list/start-10.request.json",
                     "response": "product/list/start-10.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "pagination: start/count offset"
                     },
                     "captured_at": "2026-08-04T13:14:09Z"
                 }

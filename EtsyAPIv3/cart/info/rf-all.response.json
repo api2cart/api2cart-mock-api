@@ -2,7 +2,7 @@
   "return_code": 0,
   "return_message": "",
   "result": {
-    "name": "testShopAPIMetods",
+    "name": "Test Store",
     "url": "https://store-bae6ac0d.example.com/",
     "version": null,
     "bridge_version": null,
