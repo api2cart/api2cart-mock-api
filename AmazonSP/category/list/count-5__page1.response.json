@@ -1,0 +1,43 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FIhMHH0mC5NwXReB48WopRTN8HJ13dOJdLjusgc%2BaKwDjIfz6qStK4GRchWydzoCV8B7h2sQD20MgBpZiFNTp4NfLfH7aLvspv98TE3NYlr3eYj%2FE0RQY5plFGs2qigHeAElrv0YLydkwhX8U629bt4%2BA8%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16261641",
+                "parent_id": "0",
+                "name": "Amazon Instant Video",
+                "description": ""
+            },
+            {
+                "id": "16386761",
+                "parent_id": "16261641",
+                "name": "Movies",
+                "description": "Movies"
+            },
+            {
+                "id": "16262851",
+                "parent_id": "16386761",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure"
+            },
+            {
+                "id": "16263051",
+                "parent_id": "16262851",
+                "name": "Classics",
+                "description": "Classic Action & Adventure Movies"
+            },
+            {
+                "id": "16263261",
+                "parent_id": "16262851",
+                "name": "Comic Action",
+                "description": "Comic Action & Adventure Movies"
+            }
+        ]
+    }
+}

@@ -3,10 +3,10 @@
     "return_message": "",
     "pagination": {
         "previous": null,
-        "next": null
+        "next": "BcFHgoIwAADAB3GgyFIOHkLoIGIWQ7nRi2QxRFR4%2Fc6YovAEwcYJ7IKJsQ%2B9r558jC2dfkneFsGrCssocfLs3kuaHmR6CNA8xqZyA9tYn7YZik3bTV0DtM4hBdX0KxzLjzxQiqRUG97wBb3t6b4bJJVHTc04pszod5kB3lwDUjXqVY4E9tsipAGJCfnPVye3qIP1VKDliFPrM4TkysNyeI4PzBV%2FWX0AYbWjO8IXKEl2WOGqDHNjnR7dYq6NuvFM4SBIY9WrB5fCKOGLSYVoXjDp2SoizZr9Wc%2FMbsXMI4mYV3uOHWMuFOOmbrYLzud%2F"
     },
     "result": {
-        "total_count": 7,
+        "total_count": 2,
         "children": [
             {
                 "id": "SWYTE-2-SWEATER-CHILD2-RRIGHT-YELLOW",
@@ -21,41 +21,6 @@
                 "sku": "SWYTE-2-SWEATER-CHILD2-BLACK",
                 "url": "https://store-b3fd2c2b.example.com/",
                 "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops"
-            },
-            {
-                "id": "SWYTE-2-SWEATER-CHILD1",
-                "parent_id": "SWYTE-2-SWEATER-MASTER",
-                "sku": "SWYTE-2-SWEATER-CHILD1",
-                "url": "https://store-bb9c5594.example.com/",
-                "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops"
-            },
-            {
-                "id": "CURTAIN-CHILD",
-                "parent_id": "CURTAIN-MASTER",
-                "sku": "CURTAIN-CHILD",
-                "url": "https://store-2af48601.example.com/",
-                "name": "Easter Shower Curtain Funny Eggs Highland Cow Pig Cute Bunny Farm Animals Green Grass Rustic Bathroom Decor Curtaisn Set with Hooks 70X70 Inch"
-            },
-            {
-                "id": "BEAUTY-CHILD",
-                "parent_id": "BEAUTY-MASTER",
-                "sku": "BEAUTY-CHILD",
-                "url": "https://store-99da7883.example.com/",
-                "name": "Precision Weave Removal Tool (Teal)"
-            },
-            {
-                "id": "B000JOE224-CHILD-001",
-                "parent_id": "B000JOE224-PARENT-APP",
-                "sku": "B000JOE224-CHILD-001",
-                "url": "https://store-ed7e2ef2.example.com/",
-                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsLarge - Flavour (Mango)"
-            },
-            {
-                "id": "test-var-QA05",
-                "parent_id": "B000JOE224-PARENT-APP",
-                "sku": "test-var-QA05",
-                "url": "https://store-ddb037b0.example.com/",
-                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsGiant - Flavour (Coconut)"
             }
         ]
     }

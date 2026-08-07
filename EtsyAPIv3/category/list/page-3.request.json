@@ -3,6 +3,6 @@
     "method": "GET",
     "endpoint": "category.list.json",
     "query": {
-        "page_cursor": "BcHbDoIgAADQD+IhnEvhkVl4GSoZpT4iWIZtTGKlfn3nxEdGCoXqVJwA2osY3mNNcOYlR4wT4PpkSVJ9jVS1zeG25nmwd32HrWgtlrylchAurxvlAksvHNbhQJF62o/R8P34RQz45ZDdqsDPapsxW7tX+S3M5EZTTurc6D8="
+        "page_cursor": "BcHBDoIgAADQD+KAhQgekQJGLHSmDW4kW2knLObs63uPYMP0RK28nQD9aVKMJLJafUNLTcvA6njiMvbVdN0xKdlcLbErUMZgKPp0pmhb0atTR09muGSgGm11Fs0gP2nLdidJvEdeiqeGTPFL/TBQMy99OHiHbLgn9wc="
     }
 }

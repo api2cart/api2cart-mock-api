@@ -1,9 +1,0 @@
-{
-    "captured_at": "2026-07-27T10:01:54Z",
-    "method": "GET",
-    "endpoint": "product.child_item.list.json",
-    "query": {
-        "page_cursor": "DcTNYkMwAADgB8qBIlGHHVJSlBixYW5lqJ9oihZ9%2Bu07fOsPkM9%2BO2z90ZBiv%2BGjN%2Badm6IS7WHnCKw6b0LIAKhoTMqW4KkeNv6YCBYwBRyGWCRzG31ZQUURgso1RvFq1zfDUsAlNl0JDxODOtReWsse491a82v6n0ldnuCnbh%2BibtL3ILMT4lwKkc0k%2FnXbyu0XZNxnEdKicvK8Osnf%2FWYgrS6bzPMDWZ1wORc5LdgLHhfpVBOr3%2BUJojMzjdD7TJXoXczSrWxAyHruNZ728Qc%3D",
-        "response_fields": "{*}"
-    }
-}

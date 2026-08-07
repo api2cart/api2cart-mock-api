@@ -1,9 +1,12 @@
 {
     "batch/job.list/basic": {
-        "description": "happy path: list batch jobs (only processed/in_progress ever observed in real batch_job_queue data for this store; pending is reachable in code but has no confirmed example)"
+        "description": "happy path: list batch jobs (observed statuses: processed, in_progress; pending exists as a status value but has no confirmed real example yet)"
     },
     "batch/job.list/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "batch/job.result/error-job-in-progress": {
+        "description": "job still running, no result yet -- return_code 12"
     },
     "batch/job.result/error-no-params": {
         "description": "error: missing required id => 114 NO_PARAM"
@@ -15,19 +18,16 @@
         "description": "happy path: batch fully processed, every item succeeded with its own entity_id (job_id from product.add.batch amazonsp-variation-family)"
     },
     "batch/job.result/id-1142144706-partial": {
-        "description": "real error text captured from batch_job_queue: duplicate SKU on add fails with entity_id=null and a populated errors[] (job_id from product.add.batch amazonsp-standalone-products)"
+        "description": "batch job result: one item succeeds, one fails on a duplicate SKU with a populated errors[] and entity_id=null"
     },
     "batch/job.result/id-1142144707-processed": {
         "description": "happy path: variant batch fully processed and succeeded (job_id from product.variant.add.batch amazonsp-sweater-variants)"
     },
-    "batch/job.result/id-1142144822-in-progress": {
-        "description": "error: job is still in_progress, no result yet => 12"
-    },
     "batch/job.result/id-149-update-not-found": {
-        "description": "real capture (batch_job_queue job 149): every item fails update with the platforms real not-found wording"
+        "description": "batch job result: every item fails update with the platform's not-found message"
     },
     "batch/job.result/id-165-update-mixed-statuses": {
-        "description": "real capture (batch_job_queue job 165): all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a real validation message"
+        "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a real validation message"
     },
     "cart/info/basic": {
         "description": "happy path: entity information without filters"
@@ -48,34 +48,34 @@
         "description": "happy path (no filters)"
     },
     "category/count/find-name": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Amazon Instant Video\""
     },
     "category/count/find-name-2": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Movies\""
     },
     "category/count/find-name-3": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Action & Adventure\""
     },
     "category/count/find-value-telephone__find-where-description": {
         "description": "search: matching description value"
     },
     "category/count/find-value-telephone__find-where-name": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Telephone\""
     },
     "category/count/find-value-telephone__find-where-name-description": {
         "description": "search: matching name,description value"
     },
     "category/count/parent-id-0": {
-        "description": "categories under a parent"
+        "description": "categories directly under the root category (parent_id=0): 39"
     },
     "category/count/parent-id-16261641": {
-        "description": "categories under a parent"
+        "description": "categories under \"Amazon Instant Video\": 2"
     },
     "category/count/parent-id-16386761": {
-        "description": "categories under a parent"
+        "description": "categories under \"Movies\": 12"
     },
     "category/count/parent-id-493964": {
-        "description": "categories under a parent"
+        "description": "categories under a mid-tree electronics-accessories category: 18"
     },
     "category/count/product-type-bicycle": {
         "description": "filter: product_type=BICYCLE"
@@ -93,10 +93,10 @@
         "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
     },
     "category/find/find-name-2": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Movies\""
     },
     "category/find/find-name-3": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Action & Adventure\""
     },
     "category/find/find-name-amazon-instant-video": {
         "description": "find by real name=Amazon Instant Video"
@@ -108,7 +108,7 @@
         "description": "search: matching description value"
     },
     "category/find/find-value-smartphones__find-where-name": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Smartphones\""
     },
     "category/info/error-no-params": {
         "description": "error: missing required id => 114 NO_PARAM"
@@ -120,16 +120,16 @@
         "description": "reference: full platform-specific properties (large response)"
     },
     "category/info/id-16261641": {
-        "description": "info by id"
+        "description": "info by id: \"Amazon Instant Video\""
     },
     "category/info/id-16261641__params-force-all__exclude-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "category/info/id-16262851": {
-        "description": "info by id"
+        "description": "info by id: \"Action & Adventure\""
     },
     "category/info/id-16386761": {
-        "description": "info by id"
+        "description": "info by id: \"Movies\""
     },
     "category/info/id-3009141__rf-all__schema-type-listing-offer-only": {
         "description": "field selection: {*}"
@@ -140,17 +140,20 @@
     "category/list/basic": {
         "description": "happy path: first page"
     },
+    "category/list/count-5__page1": {
+        "description": "pagination: page 1, count=5; its pagination.next is the page_cursor consumed by page-2 below"
+    },
     "category/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "category/list/find-name": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Amazon Instant Video\", full field selection"
     },
     "category/list/find-name-2": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Movies\", full field selection"
     },
     "category/list/find-name-3": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Action & Adventure\", full field selection"
     },
     "category/list/find-value-telephone__find-where-description__rf-all": {
         "description": "search: matching description value"
@@ -159,37 +162,37 @@
         "description": "search: matching name,description value"
     },
     "category/list/find-value-telephone__find-where-name__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching category name \"Telephone\", full field selection"
     },
     "category/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from count-5__page1 (verified real chain)"
     },
     "category/list/params-force-all__exclude-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "category/list/parent-id-0": {
-        "description": "categories under a parent"
+        "description": "children of the root category (parent_id=0), e.g. \"Amazon Instant Video\", \"Appliances\""
     },
     "category/list/parent-id-16261641": {
-        "description": "categories under a parent"
+        "description": "children of \"Amazon Instant Video\", e.g. \"Movies\", \"TV\""
     },
     "category/list/parent-id-16386761": {
-        "description": "categories under a parent"
+        "description": "children of \"Movies\", e.g. \"Action & Adventure\", \"Comedy\""
     },
     "category/list/parent-id-377557011": {
-        "description": "categories under a parent"
+        "description": "children of an electronics category, e.g. \"E-Readers\", \"General\""
     },
     "category/list/parent-id-493964": {
-        "description": "categories under a parent"
+        "description": "children of an accessories category, e.g. \"Headphones, Earbuds & Accessories\""
     },
     "category/list/product-type-bicycle": {
         "description": "filter: product_type=BICYCLE"
     },
     "category/list/product-type-consumer-electronics__count-15": {
-        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+        "description": "filter: product_type=CONSUMER_ELECTRONICS, count=15 (larger page)"
     },
     "category/list/product-type-consumer-electronics__count-2": {
-        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+        "description": "filter: product_type=CONSUMER_ELECTRONICS, count=2 (smaller page, same filter)"
     },
     "category/list/report-request-id-105245017661": {
         "description": "async report_request_id reused to avoid starting a new report"
@@ -201,19 +204,19 @@
         "description": "filter: store_id (multi-store account)"
     },
     "marketplace/product.find/asin-b09ph8m15j": {
-        "description": "search: matching asin identifier"
+        "description": "search by ASIN (default field selection)"
     },
     "marketplace/product.find/asin-b09ph8m15j__params-force-all__exclude-images": {
-        "description": "search: matching asin identifier"
+        "description": "search by ASIN, params=force_all combined with exclude=images (deprecated selector pair)"
     },
     "marketplace/product.find/asin-b09ph8m15j__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by ASIN (Amazon Standard Identification Number), full field selection"
     },
     "marketplace/product.find/asin-b0ckhyc1n2__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by ASIN, a second real example, full field selection"
     },
     "marketplace/product.find/ean-8809452230605__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by EAN (European Article Number / GS1 barcode), full field selection"
     },
     "marketplace/product.find/error-conflicting-identifiers": {
         "description": "error: keyword conflicts with asin/ean/gtin/upc/isbn/mpn -- only one identifier param allowed per call => 109 PARAM_ERROR"
@@ -222,31 +225,25 @@
         "description": "error: no search identifier given (need one of keyword/asin/ean/gtin/upc/isbn) => 114 NO_PARAM"
     },
     "marketplace/product.find/gtin-00041594229415__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by GTIN (Global Trade Item Number), full field selection"
     },
     "marketplace/product.find/isbn-8817105643__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by ISBN (books), full field selection"
     },
     "marketplace/product.find/keyword-dewalt": {
         "description": "search: matching keyword"
     },
     "marketplace/product.find/keyword-dewalt__count-2": {
-        "description": "pagination: page 1 (keyword=DEWALT, count=2), produces pagination.next for page-2"
+        "description": "pagination: page 1 of a real chain (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
     },
     "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20": {
         "description": "field selection: {result{marketplace_product{id}}}"
     },
     "marketplace/product.find/page-2": {
-        "description": "pagination: cursor page"
-    },
-    "marketplace/product.find/page-3": {
-        "description": "pagination: cursor page"
-    },
-    "marketplace/product.find/page-4": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2 (verified real chain, not a synthesized cursor)"
     },
     "marketplace/product.find/upc-753575955151__rf-all": {
-        "description": "field selection: {*}"
+        "description": "search by UPC (Universal Product Code), full field selection"
     },
     "order/count/basic": {
         "description": "happy path (no filters)"
@@ -294,10 +291,13 @@
         "description": "happy path (no filters)"
     },
     "order/list/count-1": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: count=1 (single-item page)"
+    },
+    "order/list/count-2__page1": {
+        "description": "pagination: page 1, count=2; its pagination.next is the page_cursor consumed by page-2 below"
     },
     "order/list/created-from-2022-02-03t10-57-07__order-status-shipped": {
-        "description": "filter: order_status=Shipped"
+        "description": "filter: order_status=Shipped combined with created_from lower bound"
     },
     "order/list/created-from-2022-02-03t10-57-08": {
         "description": "filter: created_from (lower bound)"
@@ -315,7 +315,7 @@
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "order/list/fulfillment-channel-afn": {
-        "description": "pagination: start/count offset"
+        "description": "filter: fulfillment_channel=AFN (Fulfilled by Amazon), narrowed response_fields"
     },
     "order/list/modified-from-2024-03-02t10-20-03": {
         "description": "filter: modified_from (lower bound)"
@@ -327,16 +327,16 @@
         "description": "selected response fields"
     },
     "order/list/order-status-ids": {
-        "description": "filter: order_status_ids (multi-status)"
+        "description": "order_status_ids=[Shipped,Unshipped]: multi-status filter, no date bound"
     },
     "order/list/order-status-ids__modified-from-2022-10-05t08-56-11": {
-        "description": "filter: order_status_ids (multi-status)"
+        "description": "filter: order_status_ids=[Shipped,Unshipped] combined with modified_from lower bound"
     },
     "order/list/order-status-shipped": {
-        "description": "filter: order_status=Shipped"
+        "description": "order_status=Shipped: single status, no date bound"
     },
     "order/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from count-2__page1 (verified real chain)"
     },
     "order/list/params-force-all__exclude-status-address": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -351,13 +351,13 @@
         "description": "field selection: {result{order{id,order_products,shipping_address,billing_address}}}"
     },
     "order/list/start-0": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start=0 (explicit first-page offset)"
     },
     "order/list/store-id-atvpdkikx0der": {
         "description": "filter: store_id (multi-store account)"
     },
     "order/list/use-latest-api-version-true": {
-        "description": "pagination: start/count offset"
+        "description": "filter: use_latest_api_version=true, narrowed response_fields"
     },
     "order/shipment.add/basic": {
         "description": "happy path: add order shipment with tracking number and shipped items"
@@ -419,53 +419,26 @@
     "product/child_item.list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
-    "product/child_item.list/page-2": {
-        "description": "pagination: cursor page"
+    "product/child_item.list/page-2-feline-search": {
+        "description": "pagination: page 2 via page_cursor from product-ids-b000joe224-parent-ap__find-value-feline__find-where-name__count-1__rf-children-id-parent-id-sku-name; last page (pagination.next is null)"
     },
-    "product/child_item.list/page-3": {
-        "description": "pagination: cursor page"
-    },
-    "product/child_item.list/page-4": {
-        "description": "pagination: cursor page"
-    },
-    "product/child_item.list/page-5": {
-        "description": "pagination: cursor page"
+    "product/child_item.list/page-2-sweater-children": {
+        "description": "pagination: page 2 via page_cursor from product-id-swyte-2-sweater-mast. Note the returned children are NOT all from that parent (one belongs to CURTAIN-MASTER): the cursor encodes a position, not the product_id filter, so a second page can cross into other parents. Re-send product_id instead of the cursor if you need children of one parent only."
     },
     "product/child_item.list/params-force-all__exclude-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/child_item.list/product-id-b000joe224-parent-ap": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-b000joe224-parent-ap-4": {
-        "description": "filter: specific product id(s)"
+        "description": "children of a different variation parent (2 children) -- contrast with the sweater parent above"
     },
     "product/child_item.list/product-id-swyte-2-sweater-mast": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-2": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-3": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-4": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-5": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-6": {
-        "description": "filter: specific product id(s)"
-    },
-    "product/child_item.list/product-id-swyte-2-sweater-mast-7": {
-        "description": "filter: specific product id(s)"
+        "description": "children of a variation parent: 2 child variants, each with its own sku/name/url"
     },
     "product/child_item.list/product-id-swyte-2-sweater-mast__count-20__rf-children-id-parent-id-sku-name": {
-        "description": "field selection: {result{children{id,parent_id,sku,name,url}}}"
+        "description": "same parent as above, with count and a narrowed response_fields selection on the children array"
     },
     "product/child_item.list/product-ids-b000joe224-parent-ap__find-value-feline__find-where-name__count-1__rf-children-id-parent-id-sku-name": {
-        "description": "search: matching name value"
+        "description": "search children by name (\"Feline\") within one parent, count=1; its pagination.next is the page_cursor consumed by page-2-feline-search"
     },
     "product/child_item.list/start-1__count-2": {
         "description": "pagination: start/count offset within one parent"
@@ -477,34 +450,7 @@
         "description": "filter: avail_view=true"
     },
     "product/count/basic": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-2": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-3": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-4": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-5": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-6": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-7": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-8": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-9": {
-        "description": "happy path (no filters)"
-    },
-    "product/count/basic-live": {
-        "description": "happy path: total count (live)"
+        "description": "happy path: no filters, large catalog"
     },
     "product/count/created-from-2009-02-03-21-07-48": {
         "description": "filter: created_from (lower bound)"
@@ -512,11 +458,17 @@
     "product/count/created-to-2009-02-03-21-07-38": {
         "description": "filter: created_to (upper bound)"
     },
+    "product/count/disable-report-cache-true": {
+        "description": "disable_report_cache=true is accepted and returns the same count as the cached call -- the flag alone does not visibly change the result"
+    },
     "product/count/find-where-sku": {
         "description": "search: matching sku value"
     },
     "product/count/product-ids__report-request-id": {
         "description": "filter: specific product id(s)"
+    },
+    "product/count/store-id-atvpdkikx0der": {
+        "description": "store_id explicitly selected on a multi-store (multi-marketplace) account"
     },
     "product/delete.batch/basic": {
         "description": "happy path: enqueue async batch product delete (returns job_id)"
@@ -567,25 +519,19 @@
         "description": "filter: avail_view=true"
     },
     "product/list/basic": {
-        "description": "happy path (no filters)"
-    },
-    "product/list/basic-2": {
-        "description": "happy path (no filters)"
-    },
-    "product/list/basic-3": {
-        "description": "happy path (no filters)"
-    },
-    "product/list/basic-live": {
-        "description": "happy path: first page, full response_fields (live)"
+        "description": "happy path: no filters, first page (10 products, has a next cursor -- not itself used as a pagination source in this dataset)"
     },
     "product/list/count-20": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: count=20 page size (5 products returned)"
+    },
+    "product/list/count-5__rf-all": {
+        "description": "count=5 page size with full field selection ({*}); source for page-2 below"
     },
     "product/list/created-range": {
         "description": "filter: date range (created/modified from-to)"
     },
     "product/list/disable-report-cache-false": {
-        "description": "async report_request_id reused to avoid starting a new report"
+        "description": "disable_report_cache=false together with a known report_request_id: explicitly opts into the cached report instead of starting a new async export"
     },
     "product/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
@@ -597,7 +543,7 @@
         "description": "search: matching sku value"
     },
     "product/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from basic-live (live, real connected chain)"
+        "description": "pagination: page 2 via page_cursor from count-5__rf-all"
     },
     "product/list/params-force-all__exclude-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -609,19 +555,19 @@
         "description": "async report_request_id reused from a prior 107 response to fetch the now-ready report instead of starting a new async export"
     },
     "product/list/start-0__count-0": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: count=0 (page-size edge case, still returns default-size results)"
     },
     "product/list/start-0__count-13__rf-product-id-u-model-name-price-__created-to-2009-02-03-18-07-54": {
-        "description": "field selection: {result{product{id,u_model,name,price,url,create_at,modified_at}}}"
+        "description": "field selection: {result{product{id,u_model,name,price,url,create_at,modified_at}}} combined with created_to"
     },
     "product/list/start-0__count-13__rf-product-id-u-model-name-price-__created-to-2009-02-03-18-07-54__avail-view-true": {
-        "description": "field selection: {result{product{id,u_model,name,price,url,create_at,modified_at}}}"
+        "description": "same field selection and created_to as above, plus avail_view=true"
     },
     "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54": {
         "description": "field selection: {result{product{id,u_model,name,price,url,create_at}}}"
     },
     "product/list/start-100__count-13": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start=100 offset with count=13 (deep into the catalog)"
     },
     "product/list/store-id-atvpdkikx0der": {
         "description": "filter: store_id (multi-store account)"
@@ -732,12 +678,15 @@
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "return/list/page-2": {
-        "description": "pagination: page via page_cursor (cursor lives in request.json)"
+        "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2 (verified real chain)"
+    },
+    "return/list/return-type-mfn__created-range-60d__count-2": {
+        "description": "pagination: page 1, return_type=MFN + created range + count=2; its pagination.next is the page_cursor consumed by page-2 below"
     },
     "return/list/return_type-mfn__created-range-60d": {
         "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
     },
     "return/list/start-2": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start=2 / count=2 offset (the numeric-offset alternative to page_cursor) on the same MFN + created-range filter"
     }
 }

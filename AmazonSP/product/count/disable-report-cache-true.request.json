@@ -2,5 +2,7 @@
     "captured_at": "2026-08-07T14:53:56Z",
     "method": "GET",
     "endpoint": "product.count.json",
-    "query": []
+    "query": {
+        "disable_report_cache": "true"
+    }
 }

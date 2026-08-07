@@ -1,9 +1,0 @@
-{
-    "captured_at": "2026-07-23T11:26:02Z",
-    "method": "GET",
-    "endpoint": "marketplace.product.find.json",
-    "query": {
-        "response_fields": "{result{marketplace_product{id}}}",
-        "page_cursor": "BcHJomswAADQD7KQoIbFW6AURY2p2sVYFzFTvv6dc4dglJ8bBRYH9cr5rS2BteK2xtXJGWxTwUhLaH7kTLAqf7v8d46Jl1Dx0Qm%2FSbGE4hAi%2Bu2SnNabKQoXIcksSGCG27dnu%2BJRMsJpW7%2FQM47RXLO7cAZxnb5WcW3bAjTf5OGMJYKhAt16JJswyusYBYJI0qc2VlRspVfr9IPJnsZ3bKPF9P7WZSoPZtbY81lVElR65zJcQW7zyJsy9FHgc3s2AroBAUhc6FHDJjohNwfAQJ8yWcL48cMGuyiLX1GvWrMOetu4lDr3FOj44a6I9Q01aYplcD8FufUq%2FbH0XUJ%2BAo%2BCxEZTg5TUUtGcesbARR8hDxbSDemmvcOV3gmcaWKP2a8MzfO6PBwouHRNzaVEfx%2Fgzr4eRgPpM%2BD4Sk3vSPIxZpbG1rkYrxxmGnMqgNyt3ZaTe7ABsc7K%2FsiHvNjRL3Y4%2B8bcis1RrZqngiMIua%2BShcjrVSxBU%2Fw2eZzq0zzMjA3Ylk6TDr2wNNPcB0nVVctLWFhkE3foi1QREcbRuxZBsTV4fXZWzFzli5MLR51cU%2Fod1sqbuM%2F2Rqqcf%2F8B"
-    }
-}
