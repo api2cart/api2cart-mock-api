@@ -1,0 +1,83 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHNDkMwAADgB3IoQnBwIELDhoqf1pEoGjG1mtbT7%2FtO90mkWPe72tpyybutt1YVds9XCo%2Fsh2EmXnBBmKmzUFNj0rniJIgtuw0e5Ah76LU5j%2BpT8xicwCgPJrAaSfpKpXZOcaZjBN79wEN9AdcPGoSOCMdFF3HGGdZuWCr3k1K9oU4jKiZAeYWovn3%2FDw%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "1131865629",
+                "name": "QAtestprod",
+                "description": "QAtestprod%for­dmethod",
+                "price": 2599.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1449128771",
+                "name": "just test,please don&#39;t order3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜",
+                "description": "QAtestprod for variantmethod",
+                "price": 2599.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1845272683",
+                "name": "QAtestprod44",
+                "description": "QAtestprod for variantmethod",
+                "price": 2599.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1849211198",
+                "name": "QAtestprod58",
+                "description": "Test Product ahmet 👨‍🚀👨🏻‍⚖️👩🏻‍🦯‍➡️ ĞĞĞĞĞĞ ÇÇÇÇÇÇÇÇÇÇ çççççç şşşşşş ıııııı",
+                "price": 2599.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1525591589",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "price": 2515.16,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1131260945",
+                "name": "QAtestpro",
+                "description": "Desc QAprod",
+                "price": 2499.36,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1821465159",
+                "name": "Women&#39;s frock",
+                "description": "Full frill, designer one piece elegant frock",
+                "price": 500,
+                "categories_ids": "504"
+            },
+            {
+                "id": "4392418723",
+                "name": "testQA 01 heart ornament",
+                "description": "testQA 01 heart ornament",
+                "price": 99.99,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "4461911408",
+                "name": "UnittestProductAdd 5",
+                "description": "test personalization questions",
+                "price": 99.99,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "1876690137",
+                "name": "do not buy test1",
+                "description": "twest",
+                "price": 12,
+                "categories_ids": "449"
+            }
+        ]
+    }
+}

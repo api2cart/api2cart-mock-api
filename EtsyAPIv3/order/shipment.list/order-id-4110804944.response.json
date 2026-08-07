@@ -1,0 +1,46 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "qyj0dc4wK0t2CshNyzYxj8gsyE43DjI38ErPK8gqLixI80zNcczwtkz1r3CqDC7LqHCPyHdNcUs2LM4MMjHJckzJLXXPDnAzKEwMycsKTU7yN%2FGw9PfMdM%2F3Ldc2ijAp0Deu8E0zSUl3y3a0BQA%3D"
+    },
+    "result": {
+        "shipment_count": 3,
+        "shipment": [
+            {
+                "id": "1502849844791",
+                "order_id": "4110804944",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "USPS",
+                        "tracking_number": "qa84001118992230123456"
+                    }
+                ],
+                "items": []
+            },
+            {
+                "id": "1501657741180",
+                "order_id": "4110804944",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "USPS",
+                        "tracking_number": "qa94001118992230123456"
+                    }
+                ],
+                "items": []
+            },
+            {
+                "id": "1501396208076",
+                "order_id": "4110804944",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "USPS",
+                        "tracking_number": "9400111899223012345679"
+                    }
+                ],
+                "items": []
+            }
+        ]
+    }
+}

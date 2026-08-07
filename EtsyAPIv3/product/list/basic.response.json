@@ -1,0 +1,22 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "1227563359",
+                "name": "Test listing met variaties (allemaal gelijke voorraad)",
+                "description": "Test met variaties",
+                "price": 0.25,
+                "categories_ids": [
+                    "993"
+                ]
+            }
+        ]
+    }
+}

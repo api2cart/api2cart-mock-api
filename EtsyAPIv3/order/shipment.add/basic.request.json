@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-06T13:30:48Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": "1001",
+        "shipment_provider": "usps",
+        "items": [
+            {
+                "order_product_id": "5134184458",
+                "quantity": 2
+            }
+        ],
+        "tracking_numbers": [
+            {
+                "carrier_id": "usps",
+                "tracking_number": "TRK123456789"
+            }
+        ]
+    }
+}

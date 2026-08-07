@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-23T11:23:40Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "product_ids": "888814018",
+        "response_fields": "{*}",
+        "currency_id": "USD"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "captured_at": "2026-08-06T13:30:48Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1346608500",
+        "params": "force_all",
+        "personalization_questions": [
+            {
+                "question_text": "Name",
+                "instructions": "Enter name to engrave",
+                "question_type": "text_input",
+                "required": true,
+                "max_allowed_characters": 20
+            }
+        ]
+    }
+}

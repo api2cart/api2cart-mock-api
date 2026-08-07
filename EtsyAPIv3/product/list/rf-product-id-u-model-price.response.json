@@ -1,0 +1,63 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FIJpksflRRWmeIFR4%2ByTCd5QVLh6ztH%2BRafepiOQrK8fzby5Q4maux26oBPC4A4CH%2BE3I3KzLuG3adYeZi4HgstvWivBeXWampHJuyyZCkiogap8yXVDG9J1I3gOjt%2Bjg6276fEJcyEIivh%2FYNW8Zii%2BA8%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "888814018",
+                "u_model": "test_skuuuuu",
+                "price": 0.2
+            },
+            {
+                "id": "1346608500",
+                "u_model": "sku_sku",
+                "price": 0.2
+            },
+            {
+                "id": "1131260945",
+                "u_model": "QAautotest variant",
+                "price": 2499.36
+            },
+            {
+                "id": "1131865629",
+                "u_model": "new_variant_1",
+                "price": 2599.36
+            },
+            {
+                "id": "1476216040",
+                "u_model": "test_variant_add_batch3",
+                "price": 10
+            },
+            {
+                "id": "1490409345",
+                "u_model": "batch5",
+                "price": 10
+            },
+            {
+                "id": "1525591589",
+                "u_model": "batch5",
+                "price": 2515.16
+            },
+            {
+                "id": "708818923",
+                "u_model": "new_test_profile",
+                "price": 0.2
+            },
+            {
+                "id": "1449128771",
+                "u_model": "batch7",
+                "price": 2599.36
+            },
+            {
+                "id": "1821465159",
+                "u_model": "batch7",
+                "price": 500
+            }
+        ]
+    }
+}

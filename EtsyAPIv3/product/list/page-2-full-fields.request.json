@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-27T10:01:56Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "page_cursor": "BcHbDoIgAADQD%2FKhTXHJI6ghlY2pxOSttAtx2UJG2dd3ji9%2B5BuU%2B3TmzJ4nYSRQK2rH3IIX9aZsMg5cvuObrYgCMhtUNJW5YDYHVLHu7cr7NC2pfcS1SJra6mORD%2F3Bx1nqFpA0iwOVGCN4Jar3ieZEyUVCjer9SG8A%2FgE%3D"
+    }
+}

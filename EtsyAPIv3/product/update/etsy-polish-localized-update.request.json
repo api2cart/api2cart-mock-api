@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-06T13:30:48Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "123450102",
+        "sku": "upd_skuu",
+        "description": "Test update mediumm PL",
+        "weight": 45,
+        "categories_ids": "1",
+        "lang_id": "pl"
+    }
+}

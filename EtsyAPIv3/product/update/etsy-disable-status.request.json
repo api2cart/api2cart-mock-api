@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-06T13:30:48Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "123450103",
+        "status": "disabled"
+    }
+}

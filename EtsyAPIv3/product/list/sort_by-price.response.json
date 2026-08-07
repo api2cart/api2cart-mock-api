@@ -1,0 +1,83 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJEkMwAADQD8rBMgw5OEQ7KEWTqS23MmqpMaRRSb6%2B7zFXhYJP60mW8jFm1UKtSfqV%2BgoOm3UzzBCiI4oSyXLZF%2BZ7IHuDAssukcIOt1sKhuz6ZADOUa91Ypt5LbsmvscCsD5I9BprKW13Xx8hbXHqAD8%2FQnc0ZF6dNnoVRnc5to3ciKjoR%2F7UVU7Bjj3vDw%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "708818923",
+                "name": "test3",
+                "description": "QAsupertest",
+                "price": 0.2,
+                "categories_ids": "15"
+            },
+            {
+                "id": "888814018",
+                "name": "Test product",
+                "description": "test description",
+                "price": 0.2,
+                "categories_ids": "1062"
+            },
+            {
+                "id": "1346608500",
+                "name": "QAtestvariantprod",
+                "description": "QAtestprod%for%variantmethod",
+                "price": 0.2,
+                "categories_ids": "1"
+            },
+            {
+                "id": "4308569578",
+                "name": "test",
+                "description": "test",
+                "price": 1,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "1862502382",
+                "name": "Test Product 2825 18.01.2625 111",
+                "description": "Test Product ahmet ð¨âðð¨ð»ââï¸ð©ð»âð¦¯ââ¡ï¸ ÄÄÄÄÄÄ ÃÃÃÃÃÃÃÃÃÃ Ã§Ã§Ã§Ã§Ã§Ã§ ÅÅÅÅÅÅ Ä±Ä±Ä±Ä±Ä±Ä±",
+                "price": 2,
+                "categories_ids": "1"
+            },
+            {
+                "id": "1876694767",
+                "name": "Test Product 2825 18.02.2625 111",
+                "description": "Test Product ahmet 👨‍🚀👨🏻‍⚖️👩🏻‍🦯‍➡️ ĞĞĞĞĞĞ ÇÇÇÇÇÇÇÇÇÇ çççççç şşşşşş ıııııı",
+                "price": 2,
+                "categories_ids": "1"
+            },
+            {
+                "id": "4312439493",
+                "name": "newName",
+                "description": "Test Product ahmet",
+                "price": 2,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "4391394713",
+                "name": "newName",
+                "description": "Test Product ahmet",
+                "price": 2,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "4461907669",
+                "name": "newName",
+                "description": "Test Product ahmet",
+                "price": 2,
+                "categories_ids": "1857"
+            },
+            {
+                "id": "4460443048",
+                "name": "UnittestProductAdd 5",
+                "description": "test personalization questions",
+                "price": 3,
+                "categories_ids": "1857"
+            }
+        ]
+    }
+}

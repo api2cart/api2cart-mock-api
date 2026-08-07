@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1504715324125",
+        "order_id": "4130825825",
+        "name": null,
+        "warehouse_id": null,
+        "shipment_provider": null,
+        "tracking_numbers": [
+            {
+                "carrier_id": "PostNL Domestic",
+                "tracking_number": "3SOPKD9489539"
+            }
+        ],
+        "created_at": {
+            "value": "2026-07-31T11:00:00+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_time": null,
+        "items": [],
+        "is_shipped": true,
+        "delivered_at": null
+    }
+}

@@ -1,0 +1,1162 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "orders_count": 8,
+        "order": [
+            {
+                "id": "3902160280",
+                "order_id": "3902160280",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "74195456",
+                    "email": "user62473@example.com",
+                    "first_name": "Jordan",
+                    "last_name": "Miller",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2025-12-09T19:27:07-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Jordan",
+                    "last_name": "Miller",
+                    "postcode": "84985",
+                    "address1": "579 Example St",
+                    "address2": "448 Example St",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "WA",
+                        "name": "Washington"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 172.26,
+                    "subtotal": 101.15,
+                    "shipping": 49.95,
+                    "tax": 16.16,
+                    "discount": 17.85
+                },
+                "total": {
+                    "subtotal_ex_tax": 101.15,
+                    "wrapping_ex_tax": 5,
+                    "shipping_ex_tax": 49.95,
+                    "total_discount": 17.85,
+                    "total_tax": 16.16,
+                    "total": 172.26,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4417450211",
+                        "order_product_id": "4866822174",
+                        "model": "",
+                        "name": "Portable Product 93",
+                        "price": 119,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 119,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 292793709749
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2025-12-09T19:34:41-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": true
+                }
+            },
+            {
+                "id": "3880219662",
+                "order_id": "3880219662",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1170494292",
+                    "email": "user76766@example.com",
+                    "first_name": "Jordan",
+                    "last_name": "Davis",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2025-11-28T22:48:30-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Jordan",
+                    "last_name": "Davis",
+                    "postcode": "32007",
+                    "address1": "129 Example St",
+                    "address2": "946 Example St",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "SA",
+                        "code3": "SAU",
+                        "name": "Saudi Arabia"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 76.44,
+                    "subtotal": 48.44,
+                    "shipping": 28,
+                    "tax": 0,
+                    "discount": 8.55
+                },
+                "total": {
+                    "subtotal_ex_tax": 48.44,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 28,
+                    "total_discount": 8.55,
+                    "total_tax": 0,
+                    "total": 76.44,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4409367634",
+                        "order_product_id": "4839284856",
+                        "model": "",
+                        "name": "Portable Sample Item 549",
+                        "price": 56.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 56.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [
+                            {
+                                "option_id": "513",
+                                "name": "with or without a wick",
+                                "value": "with a wick",
+                                "price": 0,
+                                "weight": 0,
+                                "type": null,
+                                "product_option_value_id": 1312735195720
+                            }
+                        ],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 289874061142
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2025-11-28T22:48:38-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "3855958956",
+                "order_id": "3855958956",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1138330179",
+                    "email": "user82760@example.com",
+                    "first_name": "Casey",
+                    "last_name": "Clark",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2025-11-11T12:10:24-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Casey",
+                    "last_name": "Clark",
+                    "postcode": "94160",
+                    "address1": "724 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 79.98,
+                    "subtotal": 46.75,
+                    "shipping": 28,
+                    "tax": 5.23,
+                    "discount": 8.25
+                },
+                "total": {
+                    "subtotal_ex_tax": 46.75,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 28,
+                    "total_discount": 8.25,
+                    "total_tax": 5.23,
+                    "total": 79.98,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "4307653541",
+                        "order_product_id": "4808029246",
+                        "model": "",
+                        "name": "Deluxe Component 819",
+                        "price": 55,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 55,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 288667775693
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2025-11-12T10:52:23-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "3713551747",
+                "order_id": "3713551747",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "852484911",
+                    "email": "user2547@example.com",
+                    "first_name": "Robin",
+                    "last_name": "Moore",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2025-06-11T04:25:09-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Robin",
+                    "last_name": "Moore",
+                    "postcode": "56866",
+                    "address1": "847 Example St",
+                    "address2": "908 Example St",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "IN",
+                        "code3": "IND",
+                        "name": "India"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 139.98,
+                    "subtotal": 99.99,
+                    "shipping": 39.99,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 99.99,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 39.99,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 139.98,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1867734363",
+                        "order_product_id": "4614195932",
+                        "model": "",
+                        "name": "Premium Tool Kit 713",
+                        "price": 99.99,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 99.99,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 21587522409
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2025-06-11T06:50:22-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "3470240569",
+                "order_id": "3470240569",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1000622711",
+                    "email": "user30322@example.com",
+                    "first_name": "Taylor",
+                    "last_name": "Johnson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2024-11-05T03:07:14-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Johnson",
+                    "postcode": "31877",
+                    "address1": "684 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "IT",
+                        "code3": "ITA",
+                        "name": "Italy"
+                    },
+                    "state": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 85,
+                    "subtotal": 66,
+                    "shipping": 19,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 66,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 19,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 85,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1376366534",
+                        "order_product_id": "4312527226",
+                        "model": "",
+                        "name": "Deluxe Tool Kit 667",
+                        "price": 66,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 66,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [
+                            {
+                                "option_id": "513",
+                                "name": "with or without a wick",
+                                "value": "with a wick",
+                                "price": 0,
+                                "weight": 0,
+                                "type": null,
+                                "product_option_value_id": 1312735195720
+                            }
+                        ],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 21587522409
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2024-11-05T03:07:19-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Grazie per l&#39;acquisto nel mio negozio.\nLo spedirò ben imballato e al più presto possibile.\nSpero di rivederti nel mio negozio Etsy!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "3469049533",
+                "order_id": "3469049533",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "1000619561",
+                    "email": "user30322@example.com",
+                    "first_name": "Taylor",
+                    "last_name": "Johnson",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2024-11-04T03:41:15-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Taylor",
+                    "last_name": "Johnson",
+                    "postcode": "31877",
+                    "address1": "684 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "IT",
+                        "code3": "ITA",
+                        "name": "Italy"
+                    },
+                    "state": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 85,
+                    "subtotal": 66,
+                    "shipping": 19,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 66,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 19,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 85,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1376366534",
+                        "order_product_id": "4311031530",
+                        "model": "",
+                        "name": "Deluxe Tool Kit 667",
+                        "price": 66,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 66,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [
+                            {
+                                "option_id": "513",
+                                "name": "with or without a wick",
+                                "value": "with a wick",
+                                "price": 0,
+                                "weight": 0,
+                                "type": null,
+                                "product_option_value_id": 1312735195720
+                            }
+                        ],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 21587522409
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2024-11-05T02:44:53-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Grazie per l&#39;acquisto nel mio negozio.\nLo spedirò ben imballato e al più presto possibile.\nSpero di rivederti nel mio negozio Etsy!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "3238209522",
+                "order_id": "3238209522",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "907932923",
+                    "email": "user35634@example.com",
+                    "first_name": "Riley",
+                    "last_name": "Moore",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2024-03-10T12:11:02-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Riley",
+                    "last_name": "Moore",
+                    "postcode": "19813",
+                    "address1": "363 Example St",
+                    "address2": "277 Example St",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Fairview",
+                    "country": {
+                        "code2": "SA",
+                        "code3": "SAU",
+                        "name": "Saudi Arabia"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 124,
+                    "subtotal": 85,
+                    "shipping": 39,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 85,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 39,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 124,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1598390864",
+                        "order_product_id": "4008295350",
+                        "model": "",
+                        "name": "Heavy-Duty Accessory Set 854",
+                        "price": 85,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 85,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 246987797494
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2024-03-10T12:11:09-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop.\nI will ship it well packed and as soon as possible.\nI hope to see you again in my Etsy shop!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            },
+            {
+                "id": "1214257658",
+                "order_id": "1214257658",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "37895553",
+                    "email": "user55449@example.com",
+                    "first_name": "Riley",
+                    "last_name": "Miller",
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2017-07-25T14:59:57-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": 1,
+                    "type": "shipping",
+                    "first_name": "Riley",
+                    "last_name": "Miller",
+                    "postcode": "84721",
+                    "address1": "743 Example St",
+                    "address2": null,
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "cc"
+                },
+                "shipping_method": null,
+                "shipping_methods": [],
+                "status": {
+                    "id": "canceled",
+                    "name": "Canceled",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 120,
+                    "subtotal": 85,
+                    "shipping": 35,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 85,
+                    "wrapping_ex_tax": 0,
+                    "shipping_ex_tax": 35,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 120,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": null,
+                        "wrapping_tax": null,
+                        "shipping_tax": null
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "519921073",
+                        "order_product_id": "1299607602",
+                        "model": "",
+                        "name": "Compact Widget 242",
+                        "price": 85,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 85,
+                        "tax_percent": null,
+                        "tax_value": null,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_digital": false,
+                            "shipping_cost": 0,
+                            "shipping_profile_id": 21587522409
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2017-07-25T15:06:09-0500",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": 9881820,
+                "warehouses_ids": [],
+                "refunds": [],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "financial_status": "not_paid",
+                    "fulfillment_status": "not_shipped",
+                    "message_from_seller": "Thank you for the purchase in my shop, hope to see you again!",
+                    "is_shipped": false,
+                    "is_paid": false,
+                    "is_gift": false
+                }
+            }
+        ]
+    }
+}

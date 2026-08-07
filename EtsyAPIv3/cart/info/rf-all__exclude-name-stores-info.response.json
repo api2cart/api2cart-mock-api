@@ -1,0 +1,31 @@
+{
+  "return_code": 0,
+  "return_message": "",
+  "result": {
+    "url": "https://store-bae6ac0d.example.com/",
+    "version": null,
+    "bridge_version": null,
+    "db_prefix": null,
+    "warehouses": [],
+    "shipping_zones": [
+      {
+        "shipping_zone": [
+          {
+            "id": "150486311896",
+            "code": null,
+            "name": "US shipping profile",
+            "country": "US",
+            "processing_days_display_label": null
+          },
+          {
+            "id": "155784447487",
+            "code": null,
+            "name": "USPS",
+            "country": "US",
+            "processing_days_display_label": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,632 @@
+{
+    "cart/info/basic": {
+        "description": "happy path: store information"
+    },
+    "cart/info/rf-all": {
+        "description": "full response fields"
+    },
+    "cart/info/rf-all__exclude-name-stores-info": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-name": {
+        "description": "selected response fields"
+    },
+    "cart/info/rf-stores-info": {
+        "description": "selected response fields"
+    },
+    "cart/info/rf-test": {
+        "description": "selected response fields"
+    },
+    "cart/info/rf-url": {
+        "description": "selected response fields"
+    },
+    "category/count/basic": {
+        "description": "happy path: total count"
+    },
+    "category/count/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "category/count/find-name": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-name-2": {
+        "description": "search: matching name value"
+    },
+    "category/count/find-name-3": {
+        "description": "search: matching name value"
+    },
+    "category/count/find_where-name__find_value-men": {
+        "description": "search: matching name value"
+    },
+    "category/count/parent-id-0": {
+        "description": "categories under a parent"
+    },
+    "category/count/parent-id-1": {
+        "description": "categories under a parent"
+    },
+    "category/count/parent-id-2": {
+        "description": "categories under a parent"
+    },
+    "category/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "category/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "category/info/id-1": {
+        "description": "info by id"
+    },
+    "category/info/id-2": {
+        "description": "info by id"
+    },
+    "category/info/id-3": {
+        "description": "info by id"
+    },
+    "category/info/id-4": {
+        "description": "full response fields"
+    },
+    "category/info/id-5": {
+        "description": "full response fields"
+    },
+    "category/list/basic": {
+        "description": "happy path: first page"
+    },
+    "category/list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "category/list/find-name": {
+        "description": "search: matching name value"
+    },
+    "category/list/find-name-2": {
+        "description": "search: matching name value"
+    },
+    "category/list/find-name-3": {
+        "description": "search: matching name value"
+    },
+    "category/list/page-2": {
+        "description": "pagination: page 2 via page_cursor"
+    },
+    "category/list/page-3": {
+        "description": "pagination: cursor page"
+    },
+    "category/list/parent-id-0": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-1": {
+        "description": "categories under a parent"
+    },
+    "category/list/parent-id-2": {
+        "description": "categories under a parent"
+    },
+    "category/list/start-10": {
+        "description": "pagination: offset start 10"
+    },
+    "category/list/start-2": {
+        "description": "pagination: start/count offset"
+    },
+    "order/count/basic": {
+        "description": "happy path: total count"
+    },
+    "order/count/created-from-2010-07-29-13-45-52": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "order/count/created-to-2100-08-29-13-45-52": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "order/count/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "order/count/financial-status-paid": {
+        "description": "filtered total count"
+    },
+    "order/count/modified-from-2010-07-29-13-45-52": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "order/count/modified-to-2100-08-29-13-45-52": {
+        "description": "filter: modified_to (upper bound)"
+    },
+    "order/info/order-id-2858445267": {
+        "description": "info by order_id"
+    },
+    "order/info/order-id-4110804944": {
+        "description": "info by order_id"
+    },
+    "order/info/order-id-4127699155": {
+        "description": "full response fields"
+    },
+    "order/info/order-id-4130358936": {
+        "description": "full response fields"
+    },
+    "order/info/order-id-4130541658": {
+        "description": "full response fields"
+    },
+    "order/info/order-id-4130825825": {
+        "description": "full response fields"
+    },
+    "order/info/order-id-4132060218": {
+        "description": "full response fields"
+    },
+    "order/list/basic": {
+        "description": "happy path: first page"
+    },
+    "order/list/created-from-2010-07-29-13-45-52": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "order/list/created-modified-range": {
+        "description": "filter: date range (created/modified from-to)"
+    },
+    "order/list/created-range": {
+        "description": "filter: date range (created/modified from-to)"
+    },
+    "order/list/created-to-2100-08-29-13-45-52": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "order/list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "order/list/financial-fulfillment-paid-not-shipped": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/financial-status-not-paid": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/financial-status-paid": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/fulfillment-status-delivered": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/fulfillment-status-not-shipped": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/fulfillment-status-shipped-and-not-delivered": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/modified-from-2010-07-29-13-45-52": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "order/list/modified-range": {
+        "description": "filter: date range (created/modified from-to)"
+    },
+    "order/list/modified-to-2100-08-29-13-45-52": {
+        "description": "filter: modified_to (upper bound)"
+    },
+    "order/list/order-status-open": {
+        "description": "filter: order_status=open"
+    },
+    "order/list/page-2": {
+        "description": "pagination: page 2 via page_cursor"
+    },
+    "order/list/page-3": {
+        "description": "pagination: cursor page"
+    },
+    "order/list/start-10": {
+        "description": "pagination: start/count offset"
+    },
+    "order/list/status-financial-open-paid": {
+        "description": "filter: order_status=open"
+    },
+    "order/shipment.add/basic": {
+        "description": "happy path: add order shipment with tracking number and shipped items"
+    },
+    "order/shipment.add/error-no-params": {
+        "description": "validation: order_id required"
+    },
+    "order/shipment.info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "order/shipment.info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "order/shipment.info/id-1501657741180-order-id-4110804944": {
+        "description": "info by id+order_id"
+    },
+    "order/shipment.info/id-1502849844791-order-id-4110804944": {
+        "description": "info by id+order_id"
+    },
+    "order/shipment.info/id-1503531248668-order-id-4130358936": {
+        "description": "full response fields"
+    },
+    "order/shipment.info/id-1503532257636-order-id-4130541658": {
+        "description": "full response fields"
+    },
+    "order/shipment.info/id-1503892164614-order-id-4132060218": {
+        "description": "full response fields"
+    },
+    "order/shipment.info/id-1503989778593-order-id-4127699155": {
+        "description": "full response fields"
+    },
+    "order/shipment.info/id-1504715324125-order-id-4130825825": {
+        "description": "full response fields"
+    },
+    "order/shipment.list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "order/shipment.list/order-id-2858445267": {
+        "description": "sub-list first page for order_id"
+    },
+    "order/shipment.list/order-id-4110804944": {
+        "description": "sub-list first page for order_id"
+    },
+    "order/shipment.list/order-id-4127699155": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.list/order-id-4130358936": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.list/order-id-4130541658": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.list/order-id-4130825825": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.list/order-id-4132060218": {
+        "description": "pagination: start/count offset"
+    },
+    "order/status.list/basic": {
+        "description": "happy path: first page"
+    },
+    "order/status.list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "order/update/error-no-params": {
+        "description": "validation: order_id required"
+    },
+    "order/update/error-not-found": {
+        "description": "not found: order_id does not exist"
+    },
+    "order/update/set-status": {
+        "description": "happy path: update order status"
+    },
+    "product/add/basic": {
+        "description": "happy path: create product (name, model, description, price)"
+    },
+    "product/add/error-already-exists": {
+        "description": "entity already exists (duplicate)"
+    },
+    "product/add/error-empty-description": {
+        "description": "validation: empty description"
+    },
+    "product/add/error-empty-model": {
+        "description": "validation: empty model"
+    },
+    "product/add/error-empty-name": {
+        "description": "validation: empty name"
+    },
+    "product/add/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: no params -> required parameter missing"
+    },
+    "product/add/error-only-name": {
+        "description": "validation: only name -> model required"
+    },
+    "product/add/etsy-enabled-status": {
+        "description": "Etsy PHPUnit addMediumTC3: status with localized shipping and image fields"
+    },
+    "product/add/etsy-listing-specifics": {
+        "description": "Etsy PHPUnit addMediumTC4: listing flags, materials, specifics and personalization details"
+    },
+    "product/add/etsy-personalization-question": {
+        "description": "Etsy PHPUnit addMediumTC5: personalization question payload"
+    },
+    "product/add/etsy-polish-category": {
+        "description": "Etsy PHPUnit addMediumTC2: localized category and shipping profile"
+    },
+    "product/add/etsy-shipping-tags": {
+        "description": "Etsy PHPUnit addMediumTC1: shipping, tags, image and processing profile"
+    },
+    "product/add/with-special-price": {
+        "description": "create product with special_price"
+    },
+    "product/child_item.info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "product/child_item.info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "product/child_item.info/product_id-1360559503__id-12877039520": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.info/product_id-888814018__id-18444733522__rf-all": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "product/child_item.list/page-2": {
+        "description": "pagination: second page"
+    },
+    "product/child_item.list/product_id-1360559503__count-2": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest": {
+        "description": "search: matching sku value"
+    },
+    "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889": {
+        "description": "search: matching sku value"
+    },
+    "product/child_item.list/product_id-888814018": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product_id-888814018__rf-all__start-2__count-1": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/count/avail_view-false": {
+        "description": "filter: avail_view=false"
+    },
+    "product/count/avail_view-true": {
+        "description": "filter: avail_view=true"
+    },
+    "product/count/basic": {
+        "description": "happy path: total count"
+    },
+    "product/count/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "product/count/find_where-name__find_value-qatestvariantprod__rf-all": {
+        "description": "search: matching name value"
+    },
+    "product/count/find_where-name__find_value-test3": {
+        "description": "search: matching name value"
+    },
+    "product/delete/by-id": {
+        "description": "happy path: delete product by id"
+    },
+    "product/delete/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/delete/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/delete/id-123450101": {
+        "description": "Etsy PHPUnit deleteSmallTC1: delete first added product"
+    },
+    "product/delete/id-123450102": {
+        "description": "Etsy PHPUnit deleteSmallTC2: delete second added product"
+    },
+    "product/delete/id-123450103": {
+        "description": "Etsy PHPUnit deleteSmallTC3: delete third added product"
+    },
+    "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112": {
+        "description": "error: find by real name=Test listing met variaties (allemaal gelijke voorraad) (return_code=112)"
+    },
+    "product/find/error-no-find-value": {
+        "description": "error: missing find_value => 114 NO_PARAM"
+    },
+    "product/find/error-not-found": {
+        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+    },
+    "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt": {
+        "description": "search: matching name value"
+    },
+    "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel": {
+        "description": "search: matching name value"
+    },
+    "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas": {
+        "description": "search: matching name value"
+    },
+    "product/image.add/by-url": {
+        "description": "happy path: add product image by url"
+    },
+    "product/image.add/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/image.add/error-only-product-id": {
+        "description": "validation: only product_id -> image source required"
+    },
+    "product/image.add/etsy-content-upload": {
+        "description": "Etsy PHPUnit addImageSmallTC3: add image by content upload"
+    },
+    "product/image.add/etsy-footer-image-url": {
+        "description": "Etsy PHPUnit addImageSmallTC1: add image by url with first position"
+    },
+    "product/image.add/etsy-watch-image-url": {
+        "description": "Etsy PHPUnit addImageSmallTC2: add image by url with second position"
+    },
+    "product/image.delete/by-id": {
+        "description": "happy path: delete product image"
+    },
+    "product/image.delete/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/image.delete/error-not-found": {
+        "description": "not found: image id does not exist"
+    },
+    "product/image.delete/product-id-123450101__id-223450201": {
+        "description": "Etsy PHPUnit deleteImageSmallTC1: delete first added image"
+    },
+    "product/image.delete/product-id-123450102__id-223450202": {
+        "description": "Etsy PHPUnit deleteImageSmallTC2: delete second added image"
+    },
+    "product/image.delete/product-id-123450102__id-223450203": {
+        "description": "Etsy PHPUnit deleteImageSmallTC3: delete content-uploaded image"
+    },
+    "product/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "product/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "product/info/id-1227563359": {
+        "description": "info by id"
+    },
+    "product/list/avail_view-true": {
+        "description": "filter: avail_view=true"
+    },
+    "product/list/basic": {
+        "description": "happy path: first page"
+    },
+    "product/list/error-invalid-param": {
+        "description": "error: invalid param value => 109 PARAM_ERROR"
+    },
+    "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all": {
+        "description": "search: matching name value"
+    },
+    "product/list/find_where-name__find_value-qatestpro": {
+        "description": "search: matching name value"
+    },
+    "product/list/find_where-name__find_value-qatestvariantprod__rf-all": {
+        "description": "search: matching name value"
+    },
+    "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all": {
+        "description": "search: matching name value"
+    },
+    "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all": {
+        "description": "search: matching name value"
+    },
+    "product/list/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "product/list/page-2-full-fields": {
+        "description": "pagination: cursor page with full response fields"
+    },
+    "product/list/page-3": {
+        "description": "pagination: cursor page"
+    },
+    "product/list/rf-all__avail_view-false": {
+        "description": "filter: avail_view=false"
+    },
+    "product/list/rf-all__exclude-price-url-create-at-": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/rf-all__product_ids-888814018-qqq-136055": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/list/rf-all__sku-test-sku-2": {
+        "description": "full response fields"
+    },
+    "product/list/rf-product-id-u-model-price": {
+        "description": "selected response fields"
+    },
+    "product/list/sku-bag-01": {
+        "description": "pagination: start/count offset"
+    },
+    "product/list/sort-create-at-asc": {
+        "description": "sorting: create_at"
+    },
+    "product/list/sort-create-at-desc": {
+        "description": "sorting: create_at"
+    },
+    "product/list/sort-price-asc": {
+        "description": "sorting: price"
+    },
+    "product/list/sort_by-modified-at__sort_direction-asc": {
+        "description": "sorting: modified_at"
+    },
+    "product/list/sort_by-modified-at__sort_direction-desc": {
+        "description": "sorting: modified_at"
+    },
+    "product/list/sort_by-price": {
+        "description": "filtered export"
+    },
+    "product/list/sort_by-price__sort_direction-desc": {
+        "description": "sorting: price"
+    },
+    "product/list/start-0__count-6": {
+        "description": "pagination: start/count offset"
+    },
+    "product/list/start-10": {
+        "description": "pagination: start/count offset"
+    },
+    "product/update/by-id": {
+        "description": "happy path: update product by id"
+    },
+    "product/update/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/update/error-invalid-id": {
+        "description": "validation: non-numeric id"
+    },
+    "product/update/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/update/etsy-disable-status": {
+        "description": "Etsy PHPUnit updateMediumTC4: disable product status"
+    },
+    "product/update/etsy-increase-price-dimensions": {
+        "description": "Etsy PHPUnit updateMediumTC2: increase quantity with price and dimensions"
+    },
+    "product/update/etsy-name-question-update": {
+        "description": "Etsy PHPUnit updateMediumTC9: update Name personalization question with force_all"
+    },
+    "product/update/etsy-personalization-details-off": {
+        "description": "Etsy PHPUnit updateMediumTC5: quantity, specifics and personalization details"
+    },
+    "product/update/etsy-personalization-question-update": {
+        "description": "Etsy PHPUnit updateMediumTC8: update personalization question with force_all"
+    },
+    "product/update/etsy-polish-localized-update": {
+        "description": "Etsy PHPUnit updateMediumTC3: localized sku, description and category update"
+    },
+    "product/update/etsy-reduce-materials-renewal": {
+        "description": "Etsy PHPUnit updateMediumTC6: reduce quantity, materials and personalization update"
+    },
+    "product/update/etsy-sku-category-description": {
+        "description": "Etsy PHPUnit updateMediumTC1: sku, categories, description and processing profile"
+    },
+    "product/update/etsy-virtual-downloadable-tags": {
+        "description": "Etsy PHPUnit updateMediumTC7: virtual, downloadable and tags update"
+    },
+    "product/update/update-price": {
+        "description": "update product price"
+    },
+    "product/update/update-quantity": {
+        "description": "update product quantity"
+    },
+    "product/variant.add/basic": {
+        "description": "happy path: add product variant"
+    },
+    "product/variant.add/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.add/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.add/etsy-gold-aquamarine": {
+        "description": "Etsy PHPUnit addMediumTC1: add variant with Gem color and Gemstone combination"
+    },
+    "product/variant.add/etsy-gold-biotite": {
+        "description": "Etsy PHPUnit addMediumTC2: add variant with second gemstone combination"
+    },
+    "product/variant.add.batch/batch-combination-availability": {
+        "description": "Etsy PHPUnit productVariantAddBatchMediumTC1: multiple products, combinations, prices and availability"
+    },
+    "product/variant.add.batch/batch-custom-occasion": {
+        "description": "Etsy PHPUnit productVariantAddBatchMediumTC2: custom attributes and one-option combination"
+    },
+    "product/variant.add.batch/batch-single-option": {
+        "description": "Etsy PHPUnit productVariantAddBatchMediumTC3: single product and single option"
+    },
+    "product/variant.add.batch/batch-three-options": {
+        "description": "Etsy PHPUnit productVariantAddBatchMediumTC4: three gemstone combinations"
+    },
+    "product/variant.add.batch/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.update/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.update/error-not-found": {
+        "description": "not found: variant id does not exist"
+    },
+    "product/variant.update/update-price": {
+        "description": "happy path: update variant price"
+    }
+}

@@ -1,0 +1,2314 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHdFkIwAADgB3KRv3PowgVLG5s4J0u5s01%2BUmM6xNP3fSps247LIorTflZX9YN2OiR1nr8l0YNXjruAsJ5xyUyVaXSCmUULZ0eP%2BbOWeGr8VgzGRiwOvpov3DlRw56bIHM3xEp6j7h%2BwGtU385pSH1lw9OYHA0RKrQtoCrQxTkt0iBQjUJHsTNVAFP8bDzvDw%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "1865378881",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Tupperware Modular Mates Round Storage Container #1606 Green Seal pot jar",
+                "description": "This Tupperware Modular Mates Round Storage Container #1606-35 is a vintage plastic container with a green lid. It has a medium size, round shape, and a capacity of 440 ml. The container is part of the Food/Kitchen theme and is original Tupperware from Belgium. It measures 9 cm in diameter, 11.6 cm in height, and 9 cm in width.\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\n\nDAMAGE AND INSURANCE.\n\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\n\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center.",
+                "short_description": "",
+                "price": 7.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1077"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-7995a8ed.example.com/",
+                "seo_url": "https://store-7995a8ed.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-01-27T18:11:21+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6600674906",
+                        "http_path": "https://picsum.photos/seed/ef15beab/600/600",
+                        "file_name": "il_fullxfull.6600674906_a7wi.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:22+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6600674912",
+                        "http_path": "https://picsum.photos/seed/3fac9479/600/600",
+                        "file_name": "il_fullxfull.6600674912_rvc8.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:23+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6600674862",
+                        "http_path": "https://picsum.photos/seed/76fe6a0a/600/600",
+                        "file_name": "il_fullxfull.6600674862_dk5s.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:23+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6600674898",
+                        "http_path": "https://picsum.photos/seed/65bc4df2/600/600",
+                        "file_name": "il_fullxfull.6600674898_isj4.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:24+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6648783787",
+                        "http_path": "https://picsum.photos/seed/d6c330e4/600/600",
+                        "file_name": "il_fullxfull.6648783787_mmpa.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:25+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6600674908",
+                        "http_path": "https://picsum.photos/seed/d3ac8742/600/600",
+                        "file_name": "il_fullxfull.6600674908_jed7.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:26+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6600674880",
+                        "http_path": "https://picsum.photos/seed/b6125064/600/600",
+                        "file_name": "il_fullxfull.6600674880_8mq7.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-27T18:11:27+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "3",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52885649",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "tupperware",
+                        "container",
+                        "pot",
+                        "vintage",
+                        "jar",
+                        "storage"
+                    ],
+                    "when_made": "2000_2006",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1850740756",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage Tupperware Salad Dressing Cruet/Creamer Pour Spout #1246-3 With Lid",
+                "description": "Vintage Tupperware Salad Dressing Cruet/Creamer Pour Spout #1246-3 with Lid is a beige plastic storage container set from Belgium. The lid is redpurple. It is a push and lift lid type, standing 7 inches tall and 3 inches wide. This original Tupperware piece features a pour spout and is suitable for kitchen storage and organization.\n\nThis unique piece will look beautiful in you&#39;re living room, kitchen or home.\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center.",
+                "short_description": "",
+                "price": 12.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1938"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-cd6c19af.example.com/",
+                "seo_url": "https://store-cd6c19af.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-01-26T19:47:08+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6646609693",
+                        "http_path": "https://picsum.photos/seed/6016c6cc/600/600",
+                        "file_name": "il_fullxfull.6646609693_3iwe.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6646609511",
+                        "http_path": "https://picsum.photos/seed/5d80f5ba/600/600",
+                        "file_name": "il_fullxfull.6646609511_hrtt.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646609591",
+                        "http_path": "https://picsum.photos/seed/f8b3a924/600/600",
+                        "file_name": "il_fullxfull.6646609591_ivbx.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646609779",
+                        "http_path": "https://picsum.photos/seed/5a11bced/600/600",
+                        "file_name": "il_fullxfull.6646609779_ijjt.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646609887",
+                        "http_path": "https://picsum.photos/seed/f928c75f/600/600",
+                        "file_name": "il_fullxfull.6646609887_si9t.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6598496106",
+                        "http_path": "https://picsum.photos/seed/4fc8d194/600/600",
+                        "file_name": "il_fullxfull.6598496106_ksw6.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646610127",
+                        "http_path": "https://picsum.photos/seed/ebcc5b78/600/600",
+                        "file_name": "il_fullxfull.6646610127_gmrk.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646610253",
+                        "http_path": "https://picsum.photos/seed/6e7980ac/600/600",
+                        "file_name": "il_fullxfull.6646610253_qp0j.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:49:21+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [
+                        "plastic"
+                    ],
+                    "non_taxable": false,
+                    "num_favorers": "2",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52885649",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "tupperware",
+                        "pitcher",
+                        "pitchers",
+                        "jug",
+                        "jugs",
+                        "vintage",
+                        "retro",
+                        "schenkkan",
+                        "cruet",
+                        "azijn",
+                        "olie"
+                    ],
+                    "when_made": "1970s",
+                    "product_properties": {
+                        "primary_color": "Beige",
+                        "secondary_color": "Purple",
+                        "material_multi": "Plastic"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1850743254",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage Tupperware Salad Dressing Cruet/Creamer Pour Spout #1246-4 With Lid",
+                "description": "Vintage Tupperware Salad Dressing Cruet/Creamer Pour Spout #1246-4 with Lid is a yellow plastic storage container set from Belgium. It is a push and lift lid type, standing 7 inches tall and 3 inches wide. This original Tupperware piece features a pour spout and is suitable for kitchen storage and organization.\nThis unique piece will look beautiful in you&#39;re living room, kitchen or home.\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center.",
+                "short_description": "",
+                "price": 12.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1938"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-2a6a71b9.example.com/",
+                "seo_url": "https://store-2a6a71b9.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-01-26T19:51:57+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6598504058",
+                        "http_path": "https://picsum.photos/seed/3b584667/600/600",
+                        "file_name": "il_fullxfull.6598504058_ipf3.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6598504148",
+                        "http_path": "https://picsum.photos/seed/fb1ce18d/600/600",
+                        "file_name": "il_fullxfull.6598504148_tgwc.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646618189",
+                        "http_path": "https://picsum.photos/seed/cfe0a637/600/600",
+                        "file_name": "il_fullxfull.6646618189_clqq.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646618289",
+                        "http_path": "https://picsum.photos/seed/17490dd0/600/600",
+                        "file_name": "il_fullxfull.6646618289_oomd.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646618367",
+                        "http_path": "https://picsum.photos/seed/abd07b58/600/600",
+                        "file_name": "il_fullxfull.6646618367_2kz5.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6598504522",
+                        "http_path": "https://picsum.photos/seed/89a81d26/600/600",
+                        "file_name": "il_fullxfull.6598504522_sl36.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646618541",
+                        "http_path": "https://picsum.photos/seed/f7b6cfff/600/600",
+                        "file_name": "il_fullxfull.6646618541_6cq3.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6646618637",
+                        "http_path": "https://picsum.photos/seed/4b583eaa/600/600",
+                        "file_name": "il_fullxfull.6646618637_9pec.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-26T19:52:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [
+                        "Plastic"
+                    ],
+                    "non_taxable": false,
+                    "num_favorers": "1",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52885649",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "tupperware",
+                        "pitcher",
+                        "pitchers",
+                        "jug",
+                        "jugs",
+                        "vintage",
+                        "retro",
+                        "schenkkan",
+                        "cruet",
+                        "azijn",
+                        "olie"
+                    ],
+                    "when_made": "1970s",
+                    "product_properties": {
+                        "material_multi": "Plastic",
+                        "primary_color": "Yellow",
+                        "secondary_color": "Yellow"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1852985721",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage Tupperware Yellow Canister with Lid Storage Container Retro Jar bakje potje",
+                "description": "This vintage Tupperware storage container is a must-have for any collector or lover of retro kitchenware. It is a round yellow canister with a lid and one compartment for easy storage. The canister is making it a perfect addition to any kitchen. The canister is an original from Belgium and features the Tupperware brand name. It has a single slot for easy pouring and comes with a lid to keep your kitchen essentials fresh and safe. This storage container set is perfect for those who appreciate the beauty of vintage kitchenware and want to add a touch of nostalgia to their home.\n\nThe condition is good but used with spots of use and age\n\nThis unique item will look beautiful in you&#39;re living room, kitchen or collection!\n\nShipping worldwide COMBINE shipping\n\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center.",
+                "short_description": "",
+                "price": 12.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "6083"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-8e048d49.example.com/",
+                "seo_url": "https://store-8e048d49.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-01-03T16:37:47+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:41+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6589229113",
+                        "http_path": "https://picsum.photos/seed/63a868c6/600/600",
+                        "file_name": "il_fullxfull.6589229113_r43q.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:48+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6589229105",
+                        "http_path": "https://picsum.photos/seed/e810ce6f/600/600",
+                        "file_name": "il_fullxfull.6589229105_gtjr.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:48+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6541113882",
+                        "http_path": "https://picsum.photos/seed/8de804fe/600/600",
+                        "file_name": "il_fullxfull.6541113882_1w1p.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:49+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6589229075",
+                        "http_path": "https://picsum.photos/seed/dd2afd15/600/600",
+                        "file_name": "il_fullxfull.6589229075_lyyx.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:50+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6589229125",
+                        "http_path": "https://picsum.photos/seed/8805b026/600/600",
+                        "file_name": "il_fullxfull.6589229125_876z.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6589229131",
+                        "http_path": "https://picsum.photos/seed/a15d6dca/600/600",
+                        "file_name": "il_fullxfull.6589229131_dact.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6541113908",
+                        "http_path": "https://picsum.photos/seed/c9512474/600/600",
+                        "file_name": "il_fullxfull.6541113908_mru6.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:52+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6589229123",
+                        "http_path": "https://picsum.photos/seed/5281b0d3/600/600",
+                        "file_name": "il_fullxfull.6589229123_5oac.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-01-03T16:37:53+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "0",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "22401502337",
+                    "shop_section_id": "52885649",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "tupperware",
+                        "yellow",
+                        "storage",
+                        "pot",
+                        "container",
+                        "canister",
+                        "jar",
+                        "vintage"
+                    ],
+                    "when_made": "1950s",
+                    "product_properties": {
+                        "primary_color": "Yellow"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1857568146",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage Tupperware (2) Midgets 2 Oz  #101 Lids Rare Combo Container Pot Potjes",
+                "description": "This is a set of two vintage Tupperware Midget containers with a capacity of 2 oz each. The containers are in a rare yellow and avocado green color combination and come with lids. They are small, round plastic storage containers with pop-off lids. The containers are part of the original Tupperware line, featuring a single compartment and measuring 5 cm in length, 5.5 cm in height, and 5 cm in width.\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\n\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 12.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1077"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-d1d8026d.example.com/",
+                "seo_url": "https://store-d1d8026d.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-02-09T10:02:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:19:54+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6631833330",
+                        "http_path": "https://picsum.photos/seed/aceb13d4/600/600",
+                        "file_name": "il_fullxfull.6631833330_7hmd.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:08+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6679901659",
+                        "http_path": "https://picsum.photos/seed/f65e1d43/600/600",
+                        "file_name": "il_fullxfull.6679901659_syvn.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:08+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6679901665",
+                        "http_path": "https://picsum.photos/seed/2d165300/600/600",
+                        "file_name": "il_fullxfull.6679901665_1j8z.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:09+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6631833352",
+                        "http_path": "https://picsum.photos/seed/a8a47598/600/600",
+                        "file_name": "il_fullxfull.6631833352_cnr8.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:10+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6631833302",
+                        "http_path": "https://picsum.photos/seed/fbab080b/600/600",
+                        "file_name": "il_fullxfull.6631833302_crkz.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:11+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6679901671",
+                        "http_path": "https://picsum.photos/seed/960d729e/600/600",
+                        "file_name": "il_fullxfull.6679901671_jv8a.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-02-09T10:02:11+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "3",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52885649",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "voorraad",
+                        "storage",
+                        "vintage",
+                        "avocado",
+                        "green",
+                        "yellow",
+                        "retro",
+                        "potjes",
+                        "tupperware",
+                        "101"
+                    ],
+                    "when_made": "1970s",
+                    "product_properties": {
+                        "primary_color": "Yellow",
+                        "secondary_color": "Green"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "667314215",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage copper and brass candle holder candlestick stand",
+                "description": "VINTAGE candle holder\n\nVery GORGEOUS \n\nNot sure what the base metal is, but it has a beautiful Brass and Coppertop layer. Lovely piece see photos for details because they are a part of the description.\n\nMeasurements:H4 cm x D11 cm x W9 cm\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 14.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "2214"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-242c9b36.example.com/",
+                "seo_url": "https://store-242c9b36.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2018-12-14T04:13:05+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:43+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6384619431",
+                        "http_path": "https://picsum.photos/seed/2de50410/600/600",
+                        "file_name": "il_fullxfull.6384619431_ncl6.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6384619485",
+                        "http_path": "https://picsum.photos/seed/f9e09a7f/600/600",
+                        "file_name": "il_fullxfull.6384619485_72uf.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6336553958",
+                        "http_path": "https://picsum.photos/seed/48a39330/600/600",
+                        "file_name": "il_fullxfull.6336553958_a98l.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6384619543",
+                        "http_path": "https://picsum.photos/seed/859dae80/600/600",
+                        "file_name": "il_fullxfull.6384619543_gs08.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6384619565",
+                        "http_path": "https://picsum.photos/seed/1784e355/600/600",
+                        "file_name": "il_fullxfull.6384619565_143d.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6336554042",
+                        "http_path": "https://picsum.photos/seed/60aa7167/600/600",
+                        "file_name": "il_fullxfull.6336554042_3ga5.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:52+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6336554080",
+                        "http_path": "https://picsum.photos/seed/874fec9/600/600",
+                        "file_name": "il_fullxfull.6336554080_5k7w.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-09T17:43:52+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [
+                        "brass or copper"
+                    ],
+                    "non_taxable": true,
+                    "num_favorers": "17",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52703298",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "candle",
+                        "holder",
+                        "brass",
+                        "copper",
+                        "candlestick",
+                        "stand",
+                        "antique",
+                        "vintage",
+                        "christmas"
+                    ],
+                    "when_made": "1970s",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1810611752",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vtg Christmas Ornament Ceramic Santa Claus Figurine Statue Christmas Tree Kerstman decoratie",
+                "description": "This ceramic figurine of Santa Claus is the perfect addition to your Christmas ornament collection. With a charmingly antique look and intricate details, this piece is sure to add a touch of festive charm to your holiday decor. Crafted using traditional pottery techniques, this handmade ornament is part of the &quot;Ornaments&quot; collection and features a decorative design that is perfect for any occasion. Whether you&#39;re a collector or just looking for a unique decoration, this Santa Claus figurine is sure to delight.\n\nPlease have a look at the photos as they are a part of this listings description. Additional photos can be send on request. Any questions will be answered promtley.\n\nShipping worldwide COMBINE shipping\n\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\nDAMAGE AND INSURANCE.\n\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\n\nMY ITEM CAME DAMAGED IN THE MAIL\n\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 14.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1857"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-9f62985.example.com/",
+                "seo_url": "https://store-9f62985.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-11-12T19:33:29+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:19:52+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6472526005",
+                        "http_path": "https://picsum.photos/seed/6b922d61/600/600",
+                        "file_name": "il_fullxfull.6472526005_5ob9.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:30+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6424432188",
+                        "http_path": "https://picsum.photos/seed/be02b110/600/600",
+                        "file_name": "il_fullxfull.6424432188_gh5n.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:31+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6472525981",
+                        "http_path": "https://picsum.photos/seed/e164e1a9/600/600",
+                        "file_name": "il_fullxfull.6472525981_nmke.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:32+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6424432254",
+                        "http_path": "https://picsum.photos/seed/256650c2/600/600",
+                        "file_name": "il_fullxfull.6424432254_m6ug.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:33+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6472525971",
+                        "http_path": "https://picsum.photos/seed/a8eabdd8/600/600",
+                        "file_name": "il_fullxfull.6472525971_csf5.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:33+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6472526049",
+                        "http_path": "https://picsum.photos/seed/d4ed9074/600/600",
+                        "file_name": "il_fullxfull.6472526049_o50n.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:34+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6424432238",
+                        "http_path": "https://picsum.photos/seed/ea69cc05/600/600",
+                        "file_name": "il_fullxfull.6424432238_71uz.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:35+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6472526043",
+                        "http_path": "https://picsum.photos/seed/fa61048a/600/600",
+                        "file_name": "il_fullxfull.6472526043_odhd.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-11-12T19:33:35+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "1",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "246987409370",
+                    "shop_section_id": "25336415",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "christmas",
+                        "kerstman",
+                        "santa",
+                        "santaklaus",
+                        "figurine",
+                        "statue",
+                        "beeldje",
+                        "deco",
+                        "vintage"
+                    ],
+                    "when_made": "before_1700",
+                    "product_properties": {
+                        "primary_color": "Red",
+                        "season": "Winter",
+                        "holiday": "Christmas"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1836105242",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Rare Vintage De Ruijter Tin Chocolade Vlokken Melk Hagelslag box bin container Empty Tin",
+                "description": "The product is a rare vintage De Ruijter Chocolade Vlokken Melk Tin celebrating 125 years, produced in the Netherlands around 1980. The tin is empty and features colorful design elements. It is a collectible advertising merchandise item from De Ruijter, known for its chocolate flakes.\n\nMax.measurements are:\nH11 cm x W10.4  cm x D10.4 cm\n\nShipping worldwide COMBINE shipping\n\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\n\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\n\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 14.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "1077"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-c0067764.example.com/",
+                "seo_url": "https://store-c0067764.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-12-28T21:14:58+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:20:46+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6529742906",
+                        "http_path": "https://picsum.photos/seed/553beafd/600/600",
+                        "file_name": "il_fullxfull.6529742906_6gly.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:14:59+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6529742902",
+                        "http_path": "https://picsum.photos/seed/8782791a/600/600",
+                        "file_name": "il_fullxfull.6529742902_t3fr.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:00+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6529742890",
+                        "http_path": "https://picsum.photos/seed/42c81e8b/600/600",
+                        "file_name": "il_fullxfull.6529742890_ei9a.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:01+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6529742904",
+                        "http_path": "https://picsum.photos/seed/74a7818c/600/600",
+                        "file_name": "il_fullxfull.6529742904_ongm.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:01+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6577864825",
+                        "http_path": "https://picsum.photos/seed/f7397538/600/600",
+                        "file_name": "il_fullxfull.6577864825_by0s.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:02+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6577864833",
+                        "http_path": "https://picsum.photos/seed/2a33ffd6/600/600",
+                        "file_name": "il_fullxfull.6577864833_6p6e.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:03+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6529742900",
+                        "http_path": "https://picsum.photos/seed/6f6faf03/600/600",
+                        "file_name": "il_fullxfull.6529742900_haad.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-12-28T21:15:03+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "2",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "52885867",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "metal",
+                        "tin",
+                        "box",
+                        "vintage",
+                        "chocolade",
+                        "vlokken",
+                        "hagelslag",
+                        "ruijter",
+                        "de ruijter"
+                    ],
+                    "when_made": "1980s",
+                    "product_properties": {
+                        "primary_color": "Beige"
+                    },
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "4464671982",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage enamel mug cup Enamelware Red White",
+                "description": "Enamel mug / cup\n\nthe mug is made of enamel\n\nred with white and black trim\n\n7 cm\n\nThe condition is good, but used with spots due age and use. It is in a nice vintage shape with gorgeous food design and white enamel inside. \n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 14.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "11275"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-d6aa3632.example.com/",
+                "seo_url": "https://store-d6aa3632.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2026-02-28T22:23:47+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:19:40+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7757206982",
+                        "http_path": "https://picsum.photos/seed/4abebbb1/600/600",
+                        "file_name": "il_fullxfull.7757206982_mw8v.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:41+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "7757206980",
+                        "http_path": "https://picsum.photos/seed/b63bb7f8/600/600",
+                        "file_name": "il_fullxfull.7757206980_7z4q.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:43+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7757206970",
+                        "http_path": "https://picsum.photos/seed/5f7c6553/600/600",
+                        "file_name": "il_fullxfull.7757206970_9dt4.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:44+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7757206976",
+                        "http_path": "https://picsum.photos/seed/9269d20c/600/600",
+                        "file_name": "il_fullxfull.7757206976_d1lk.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:45+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7805151903",
+                        "http_path": "https://picsum.photos/seed/76d20afc/600/600",
+                        "file_name": "il_fullxfull.7805151903_n3i2.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:46+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7757206986",
+                        "http_path": "https://picsum.photos/seed/72372654/600/600",
+                        "file_name": "il_fullxfull.7757206986_z0bn.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-02-28T22:24:47+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [
+                        "enamel"
+                    ],
+                    "non_taxable": true,
+                    "num_favorers": "1",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "300950116769",
+                    "shop_section_id": "52885665",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "mug",
+                        "set",
+                        "shabby",
+                        "camping",
+                        "outdoorliving",
+                        "enamel",
+                        "floral",
+                        "country",
+                        "valentine",
+                        "gift",
+                        "cap",
+                        "food",
+                        "restaurant"
+                    ],
+                    "when_made": "1970s",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            },
+            {
+                "id": "1790189248",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Vintage Oil Lamp Offwhite Painted Base Hand Blown Chimney",
+                "description": "Vintage oil lamp\n\nThis vintage oil lamp is a unique addition to any collection. This small lamp is perfect for adding a cozy feel to any room.\n\nIt is a vintage item from the 1980s. This original piece does not come with a manufacturer warranty and is powered by kerosene. The lamp is perfect for collectors who appreciate the beauty and history of vintage items.\n\nThis ceramic base is repainted by someone  in an offwhite color.\n\nMax measurements are\nH18 cm x W7 cm\n\nShipping worldwide COMBINE shipping\nI will refund the excess shipping costs after packing all the items together in 1 package and know the totalweight.\n\nSee my other offers too\n\n\n\nDAMAGE AND INSURANCE.\nWe are sorry that inspite of our careful packing you received a damaged item in shipping. We have taken out insurance. Please sent us pictures of the damaged items. Keep in mind that you will lose the item(s), the mail will take it in or we will ask you to sent it back.\n\nMY ITEM CAME DAMAGED IN THE MAIL\nItems shipped by mail are insured by the mail. Damage should be reported to us and to your local post office where they will provide you with an indemnity form to file your claim. Claims will not be processed by Dutch mail insurance or by us without an indemnity form (verbal) issued by the receiving mail service. The form is internationally known as a CN24 form. I suggest you call the mail first to get an idea how the process works, so you do not make unnecessary trips to the post office. If they tell you we must file the claim we are aware of that, but if it is filled by us the insurance wants proof of the mail authorities in your country that the item was actually damaged in transit, and that is form CN24. Please save the carton, broken item(s), packing material and shipping statement for inspection by Mail agents. Should you have additional questions dont hesitate to email us.\n\nThe photos we need by damage:\n- the packaging as a whole with visible address and barcode\n- where possible, a detailed photo of damage to the packaging\n- one of more photos of the damaged article in its totality\n- one or more detailed shots of the damage\n- one of more photos on which the inside of the packaging is clearly visible\n- a detailed view of the adress with barcode\n\nFOR DAMAGED ITEMS IN THE USA: You must initiate an inquiry before filing a claim. You may initiate an inquiry by calling the International Inquiry Center .",
+                "short_description": "",
+                "price": 15.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": [
+                    "12354"
+                ],
+                "stores_ids": [
+                    "9881820"
+                ],
+                "url": "https://store-72c9f65e.example.com/",
+                "seo_url": "https://store-72c9f65e.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-10-03T19:11:19+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-01T20:19:59+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6369618995",
+                        "http_path": "https://picsum.photos/seed/2197a7da/600/600",
+                        "file_name": "il_fullxfull.6369618995_49zh.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:01+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6369618989",
+                        "http_path": "https://picsum.photos/seed/2f939547/600/600",
+                        "file_name": "il_fullxfull.6369618989_f4g6.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:02+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6369619023",
+                        "http_path": "https://picsum.photos/seed/3b017da4/600/600",
+                        "file_name": "il_fullxfull.6369619023_flq3.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:03+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6369619085",
+                        "http_path": "https://picsum.photos/seed/6193fc3e/600/600",
+                        "file_name": "il_fullxfull.6369619085_pay1.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:04+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6321558938",
+                        "http_path": "https://picsum.photos/seed/a25d21d7/600/600",
+                        "file_name": "il_fullxfull.6321558938_6ixi.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:04+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6369619145",
+                        "http_path": "https://picsum.photos/seed/4641b9e6/600/600",
+                        "file_name": "il_fullxfull.6369619145_rqar.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:05+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6321558966",
+                        "http_path": "https://picsum.photos/seed/5fe06e9c/600/600",
+                        "file_name": "il_fullxfull.6321558966_j1ra.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:12:06+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6369626213",
+                        "http_path": "https://picsum.photos/seed/9fc3d7f7/600/600",
+                        "file_name": "il_fullxfull.6369626213_t8h9.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:14:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6369626205",
+                        "http_path": "https://picsum.photos/seed/febb1732/600/600",
+                        "file_name": "il_fullxfull.6369626205_8o7r.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:14:51+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 9,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6321566210",
+                        "http_path": "https://picsum.photos/seed/31f6f5b1/600/600",
+                        "file_name": "il_fullxfull.6321566210_q0mt.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-10-03T19:14:52+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 10,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "EUR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "nl",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "4",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "3",
+                    "processing_min": "1",
+                    "production_partners": [],
+                    "readiness_state_id": "1402913037471",
+                    "return_policy_id": "1237132714374",
+                    "shipping_profile_id": "248028586135",
+                    "shop_section_id": "22939869",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "oil",
+                        "lamp",
+                        "offwhite",
+                        "lantern",
+                        "vintage",
+                        "ceramic",
+                        "porcelain",
+                        "olielamp"
+                    ],
+                    "when_made": "1980s",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            }
+        ]
+    }
+}

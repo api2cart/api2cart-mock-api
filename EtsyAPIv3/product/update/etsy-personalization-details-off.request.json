@@ -1,0 +1,28 @@
+{
+    "captured_at": "2026-08-06T13:30:48Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "123450104",
+        "quantity": 998,
+        "is_supply": "false",
+        "description": "Test Product ahmet",
+        "shop_section_id": "35289963",
+        "return_policy_id": "1371690296221",
+        "specifics": [
+            {
+                "name": "Depth",
+                "values": [
+                    "120"
+                ],
+                "scale_id": "7"
+            }
+        ],
+        "personalization_details": {
+            "is_personalizable": false,
+            "personalization_is_required": true,
+            "personalization_char_count_max": 22,
+            "personalization_instructions": "instructions"
+        }
+    }
+}
