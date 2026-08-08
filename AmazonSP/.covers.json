@@ -1,6 +1,6 @@
 {
     "batch/job.list/basic": {
-        "description": "happy path: list batch jobs (observed statuses: processed, in_progress; pending exists as a status value but has no confirmed real example yet)"
+        "description": "happy path: list batch jobs (observed statuses: processed, in_progress; pending exists as a status value but has no confirmed example yet)"
     },
     "batch/job.list/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
@@ -27,7 +27,7 @@
         "description": "batch job result: every item fails update with the platform's not-found message"
     },
     "batch/job.result/id-165-update-mixed-statuses": {
-        "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a real validation message"
+        "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a validation message"
     },
     "cart/info/basic": {
         "description": "happy path: entity information without filters"
@@ -99,7 +99,7 @@
         "description": "search: matching category name \"Action & Adventure\""
     },
     "category/find/find-name-amazon-instant-video": {
-        "description": "find by real name=Amazon Instant Video"
+        "description": "find by name=Amazon Instant Video"
     },
     "category/find/find-value-cell-phones__find-where-description-name": {
         "description": "search: matching description,name value"
@@ -165,7 +165,7 @@
         "description": "search: matching category name \"Telephone\", full field selection"
     },
     "category/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from count-5__page1 (verified real chain)"
+        "description": "pagination: page 2 via page_cursor from count-5__page1"
     },
     "category/list/params-force-all__exclude-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -213,7 +213,7 @@
         "description": "search by ASIN (Amazon Standard Identification Number), full field selection"
     },
     "marketplace/product.find/asin-b0ckhyc1n2__rf-all": {
-        "description": "search by ASIN, a second real example, full field selection"
+        "description": "search by ASIN (second example, a different product), full field selection"
     },
     "marketplace/product.find/ean-8809452230605__rf-all": {
         "description": "search by EAN (European Article Number / GS1 barcode), full field selection"
@@ -234,13 +234,13 @@
         "description": "search: matching keyword"
     },
     "marketplace/product.find/keyword-dewalt__count-2": {
-        "description": "pagination: page 1 of a real chain (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
+        "description": "pagination: page 1 (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
     },
     "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20": {
         "description": "field selection: {result{marketplace_product{id}}}"
     },
     "marketplace/product.find/page-2": {
-        "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2 (verified real chain, not a synthesized cursor)"
+        "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2"
     },
     "marketplace/product.find/upc-753575955151__rf-all": {
         "description": "search by UPC (Universal Product Code), full field selection"
@@ -282,7 +282,7 @@
         "description": "happy path: info by order_id"
     },
     "order/info/order-id-111-2392565-0194613__rounding-precision-2": {
-        "description": "selected response fields"
+        "description": "rounding_precision=2 applied to order totals; response_fields narrowed to order_id and totals"
     },
     "order/info/use-latest-api-version-true": {
         "description": "use latest API version"
@@ -324,7 +324,7 @@
         "description": "filter: modified_to (upper bound)"
     },
     "order/list/order-ids-multi": {
-        "description": "selected response fields"
+        "description": "filter: several order_ids in one call; response_fields narrowed to order_id"
     },
     "order/list/order-status-ids": {
         "description": "order_status_ids=[Shipped,Unshipped]: multi-status filter, no date bound"
@@ -336,7 +336,7 @@
         "description": "order_status=Shipped: single status, no date bound"
     },
     "order/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from count-2__page1 (verified real chain)"
+        "description": "pagination: page 2 via page_cursor from count-2__page1"
     },
     "order/list/params-force-all__exclude-status-address": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -345,7 +345,7 @@
         "description": "field selection: {result{order{id,order_id,create_at}}}"
     },
     "order/list/rf-order-id-order-id-total-order-__rounding-precision-1": {
-        "description": "field selection: {result{order{id,order_id,total,order_products,additional_fields}}}"
+        "description": "rounding_precision=1 applied to order totals; response_fields narrowed to id, order_id, total, order_products, additional_fields"
     },
     "order/list/rf-order-id-order-products-shippi": {
         "description": "field selection: {result{order{id,order_products,shipping_address,billing_address}}}"
@@ -366,7 +366,7 @@
         "description": "validation: order_id required"
     },
     "order/status.list/basic": {
-        "description": "happy path: live cart order statuses"
+        "description": "happy path: order statuses supported by the store"
     },
     "product/add.batch/amazonsp-standalone-products": {
         "description": "two standalone (non-variation) products in one batch"
@@ -495,7 +495,7 @@
         "description": "search: find_params=case_sensitive modifier"
     },
     "product/find/find-where-sku": {
-        "description": "search: find_where=sku with a real sku (note: product.find declares no response_fields)"
+        "description": "search: find_where=sku (note: product.find declares no response_fields)"
     },
     "product/info/error-no-params": {
         "description": "error: missing required id => 114 NO_PARAM"
@@ -510,7 +510,7 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/info/id-t3-az75-ldqb__rf-id-name-price-quantity": {
-        "description": "selected response fields"
+        "description": "info by id (sku-style) with response_fields narrowed to id, name, price, quantity"
     },
     "product/info/id-t3-az75-ldqb__store-id": {
         "description": "filter: store_id (multi-store account)"
@@ -671,20 +671,20 @@
     "product/variant.update/update-price": {
         "description": "happy path: update variant price"
     },
-    "return/count/return_type-mfn__created-range-60d": {
+    "return/count/return-type-mfn__created-range-60d": {
         "description": "happy path: MFN returns count over a 60-day window"
     },
     "return/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "return/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2 (verified real chain)"
+        "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2"
+    },
+    "return/list/return-type-mfn__created-range-60d": {
+        "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
     },
     "return/list/return-type-mfn__created-range-60d__count-2": {
         "description": "pagination: page 1, return_type=MFN + created range + count=2; its pagination.next is the page_cursor consumed by page-2 below"
-    },
-    "return/list/return_type-mfn__created-range-60d": {
-        "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
     },
     "return/list/start-2": {
         "description": "pagination: start=2 / count=2 offset (the numeric-offset alternative to page_cursor) on the same MFN + created-range filter"

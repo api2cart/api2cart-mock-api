@@ -32,6 +32,16 @@
  *   9) no slug contains a source label (real/live/rich) as a hyphen-delimited component -- these
  *      describe how WE captured the case, not what it demonstrates, and are never a stable part of
  *      the API contract (APITOCART-46051 #7).
+ *  10) an empty `query`/`body` is serialized as `{}`, never `[]`. Checked on the RAW TEXT on
+ *      purpose: PHP decodes both to the same empty array, so no structural check can tell them
+ *      apart -- yet a consumer typing the field as a map (Go, Java, C#, TS Record<string,string>)
+ *      fails on `[]` (APITOCART-46051 #9).
+ *  11) one method never spells the same parameter two ways in its slugs (`return_type-mfn` next to
+ *      `return-type-mfn`). Deliberately scoped to WITHIN a method rather than banning `_` outright:
+ *      seed-from-phpunit.php kebab-cases parameter names, but the EtsyAPIv3 review accepted `_`
+ *      when it is the API parameter's own name, and EtsyAPIv3 uses that consistently. Either
+ *      spelling is fine; mixing them in one folder is what breaks an agent building slugs from a
+ *      template (APITOCART-46051 #11).
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
@@ -85,22 +95,32 @@ function validateDataset(string $platDir): array
     $entity = basename(dirname($methodDir));
     $relPath = "$entity/$methodFolder";
     $payloadsInMethod = [];
+    $slugsInMethod = [];
 
     foreach (glob("$methodDir/*.request.json") ?: [] as $reqFile) {
       $slug = basename($reqFile, '.request.json');
       $key = "$relPath/$slug";
       $respFile = "$methodDir/$slug.response.json";
 
-      $request = json_decode((string)file_get_contents($reqFile), true);
+      $rawRequest = (string)file_get_contents($reqFile);
+      $request = json_decode($rawRequest, true);
       if (!is_array($request)) {
         $errors[] = "$platDir: invalid request JSON: $key";
         continue;
+      }
+
+      // check 10 -- raw text, because json_decode() maps [] and {} onto the same PHP value.
+      if (preg_match('/"(query|body)"\s*:\s*\[/', $rawRequest)) {
+        $errors[] = "$platDir: empty payload serialized as [] instead of {}: $key";
       }
 
       // check 9: source label in slug
       if (preg_match('/(^|-)(real|live|rich)(-|$)/', $slug)) {
         $errors[] = "$platDir: slug contains a source label (real/live/rich), not part of the API contract: $key";
       }
+
+      // check 11 (collect): remember this method's slugs for the spelling comparison below.
+      $slugsInMethod[] = $slug;
 
       // check 6: duplicate (endpoint, payload) within a method
       $payload = $request['query'] ?? $request['body'] ?? [];
@@ -167,6 +187,33 @@ function validateDataset(string $platDir): array
       $next = is_array($response['pagination'] ?? null) ? ($response['pagination']['next'] ?? null) : null;
       if (is_string($next) && $next !== '') {
         $nextProviders[rawurldecode($next)] = $key;
+      }
+    }
+
+    // check 11: the same parameter spelled two ways inside this one method.
+    // A slug is `param-value` segments joined by `__`, so a parameter name only ever appears at
+    // the START of a segment. Matching anywhere would give false positives on prose slugs --
+    // `error-no-find-value` contains "find-value" but means "no find value", not the parameter.
+    $segmentsOf = static fn(string $slug): array => explode('__', $slug);
+    foreach ($slugsInMethod as $a) {
+      foreach ($segmentsOf($a) as $segA) {
+        if (!preg_match('/^[a-z0-9]+(?:_[a-z0-9]+)+/', $segA, $mm)) {
+          continue;
+        }
+        $underscored = $mm[0];
+        $hyphenated = str_replace('_', '-', $underscored);
+        foreach ($slugsInMethod as $b) {
+          if ($b === $a) {
+            continue;
+          }
+          foreach ($segmentsOf($b) as $segB) {
+            if (str_starts_with($segB, $hyphenated)) {
+              $errors[] = "$platDir: $relPath spells one parameter two ways -- "
+                . "`$underscored` in `$a` but `$hyphenated` in `$b`; pick one spelling per method";
+              break 4;
+            }
+          }
+        }
       }
     }
   }

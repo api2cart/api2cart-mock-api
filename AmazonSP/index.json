@@ -1,6 +1,6 @@
 {
     "platform": "AmazonSP",
-    "generated_at": "2026-08-07T16:10:39Z",
+    "generated_at": "2026-08-08T07:11:56Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -13,7 +13,7 @@
                     "request": "batch/job.list/basic.request.json",
                     "response": "batch/job.list/basic.response.json",
                     "covers": {
-                        "description": "happy path: list batch jobs (observed statuses: processed, in_progress; pending exists as a status value but has no confirmed real example yet)"
+                        "description": "happy path: list batch jobs (observed statuses: processed, in_progress; pending exists as a status value but has no confirmed example yet)"
                     },
                     "captured_at": "2026-08-07T08:03:41Z"
                 },
@@ -101,7 +101,7 @@
                     "request": "batch/job.result/id-165-update-mixed-statuses.request.json",
                     "response": "batch/job.result/id-165-update-mixed-statuses.response.json",
                     "covers": {
-                        "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a real validation message"
+                        "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a validation message"
                     },
                     "captured_at": "2026-08-07T08:16:34Z"
                 }
@@ -338,7 +338,7 @@
                     "request": "category/find/find-name-amazon-instant-video.request.json",
                     "response": "category/find/find-name-amazon-instant-video.response.json",
                     "covers": {
-                        "description": "find by real name=Amazon Instant Video"
+                        "description": "find by name=Amazon Instant Video"
                     },
                     "captured_at": "2026-08-06T11:25:26Z"
                 },
@@ -550,7 +550,7 @@
                     "request": "category/list/page-2.request.json",
                     "response": "category/list/page-2.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from count-5__page1 (verified real chain)"
+                        "description": "pagination: page 2 via page_cursor from count-5__page1"
                     },
                     "captured_at": "2026-08-07T15:00:37Z"
                 },
@@ -701,7 +701,7 @@
                     "request": "marketplace/product.find/asin-b0ckhyc1n2__rf-all.request.json",
                     "response": "marketplace/product.find/asin-b0ckhyc1n2__rf-all.response.json",
                     "covers": {
-                        "description": "search by ASIN, a second real example, full field selection"
+                        "description": "search by ASIN (second example, a different product), full field selection"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -764,7 +764,7 @@
                     "request": "marketplace/product.find/keyword-dewalt__count-2.request.json",
                     "response": "marketplace/product.find/keyword-dewalt__count-2.response.json",
                     "covers": {
-                        "description": "pagination: page 1 of a real chain (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
+                        "description": "pagination: page 1 (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
                     },
                     "captured_at": "2026-08-07T14:56:05Z"
                 },
@@ -782,7 +782,7 @@
                     "request": "marketplace/product.find/page-2.request.json",
                     "response": "marketplace/product.find/page-2.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2 (verified real chain, not a synthesized cursor)"
+                        "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2"
                     },
                     "captured_at": "2026-08-07T14:56:05Z"
                 },
@@ -922,7 +922,7 @@
                     "request": "order/info/order-id-111-2392565-0194613__rounding-precision-2.request.json",
                     "response": "order/info/order-id-111-2392565-0194613__rounding-precision-2.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "rounding_precision=2 applied to order totals; response_fields narrowed to order_id and totals"
                     },
                     "captured_at": "2026-08-07T07:00:03Z"
                 },
@@ -1055,7 +1055,7 @@
                     "request": "order/list/order-ids-multi.request.json",
                     "response": "order/list/order-ids-multi.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "filter: several order_ids in one call; response_fields narrowed to order_id"
                     },
                     "captured_at": "2026-08-07T11:49:40Z"
                 },
@@ -1091,7 +1091,7 @@
                     "request": "order/list/page-2.request.json",
                     "response": "order/list/page-2.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from count-2__page1 (verified real chain)"
+                        "description": "pagination: page 2 via page_cursor from count-2__page1"
                     },
                     "captured_at": "2026-08-07T15:00:37Z"
                 },
@@ -1118,7 +1118,7 @@
                     "request": "order/list/rf-order-id-order-id-total-order-__rounding-precision-1.request.json",
                     "response": "order/list/rf-order-id-order-id-total-order-__rounding-precision-1.response.json",
                     "covers": {
-                        "description": "field selection: {result{order{id,order_id,total,order_products,additional_fields}}}"
+                        "description": "rounding_precision=1 applied to order totals; response_fields narrowed to id, order_id, total, order_products, additional_fields"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -1195,7 +1195,7 @@
                     "request": "order/status.list/basic.request.json",
                     "response": "order/status.list/basic.response.json",
                     "covers": {
-                        "description": "happy path: live cart order statuses"
+                        "description": "happy path: order statuses supported by the store"
                     },
                     "captured_at": "2026-08-06T12:29:14Z"
                 }
@@ -1631,7 +1631,7 @@
                     "request": "product/find/find-where-sku.request.json",
                     "response": "product/find/find-where-sku.response.json",
                     "covers": {
-                        "description": "search: find_where=sku with a real sku (note: product.find declares no response_fields)"
+                        "description": "search: find_where=sku (note: product.find declares no response_fields)"
                     },
                     "captured_at": "2026-08-07T07:00:03Z"
                 }
@@ -1683,7 +1683,7 @@
                     "request": "product/info/id-t3-az75-ldqb__rf-id-name-price-quantity.request.json",
                     "response": "product/info/id-t3-az75-ldqb__rf-id-name-price-quantity.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "info by id (sku-style) with response_fields narrowed to id, name, price, quantity"
                     },
                     "captured_at": "2026-08-06T13:01:03Z"
                 },
@@ -2228,9 +2228,9 @@
             "path": "return/count",
             "cases": [
                 {
-                    "slug": "return_type-mfn__created-range-60d",
-                    "request": "return/count/return_type-mfn__created-range-60d.request.json",
-                    "response": "return/count/return_type-mfn__created-range-60d.response.json",
+                    "slug": "return-type-mfn__created-range-60d",
+                    "request": "return/count/return-type-mfn__created-range-60d.request.json",
+                    "response": "return/count/return-type-mfn__created-range-60d.response.json",
                     "covers": {
                         "description": "happy path: MFN returns count over a 60-day window"
                     },
@@ -2257,9 +2257,18 @@
                     "request": "return/list/page-2.request.json",
                     "response": "return/list/page-2.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2 (verified real chain)"
+                        "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2"
                     },
                     "captured_at": "2026-08-07T07:00:03Z"
+                },
+                {
+                    "slug": "return-type-mfn__created-range-60d",
+                    "request": "return/list/return-type-mfn__created-range-60d.request.json",
+                    "response": "return/list/return-type-mfn__created-range-60d.response.json",
+                    "covers": {
+                        "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
+                    },
+                    "captured_at": "2026-08-06T12:29:14Z"
                 },
                 {
                     "slug": "return-type-mfn__created-range-60d__count-2",
@@ -2269,15 +2278,6 @@
                         "description": "pagination: page 1, return_type=MFN + created range + count=2; its pagination.next is the page_cursor consumed by page-2 below"
                     },
                     "captured_at": "2026-08-07T15:00:37Z"
-                },
-                {
-                    "slug": "return_type-mfn__created-range-60d",
-                    "request": "return/list/return_type-mfn__created-range-60d.request.json",
-                    "response": "return/list/return_type-mfn__created-range-60d.response.json",
-                    "covers": {
-                        "description": "happy path: MFN returns (return_type is required though openapi marks it optional; MFN date range capped at 60 days by the store)"
-                    },
-                    "captured_at": "2026-08-06T12:29:14Z"
                 },
                 {
                     "slug": "start-2",

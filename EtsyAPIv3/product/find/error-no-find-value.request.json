@@ -2,5 +2,5 @@
     "captured_at": "2026-08-04T13:02:03Z",
     "method": "GET",
     "endpoint": "product.find.json",
-    "query": []
+    "query": {}
 }
