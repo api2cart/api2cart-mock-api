@@ -35,7 +35,7 @@
     "category/count/find-name-3": {
         "description": "search: matching name value"
     },
-    "category/count/find_where-name__find_value-men": {
+    "category/count/find-where-name__find-value-men": {
         "description": "search: matching name value"
     },
     "category/count/parent-id-0": {
@@ -326,13 +326,13 @@
     "product/child_item.info/error-not-found": {
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
-    "product/child_item.info/product_id-1360559503__id-12877039520": {
+    "product/child_item.info/product-id-1360559503__id-12877039520": {
         "description": "filter: specific product id(s)"
     },
-    "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip": {
+    "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip": {
         "description": "filter: specific product id(s)"
     },
-    "product/child_item.info/product_id-888814018__id-18444733522__rf-all": {
+    "product/child_item.info/product-id-888814018__id-18444733522__rf-all": {
         "description": "filter: specific product id(s)"
     },
     "product/child_item.list/error-invalid-param": {
@@ -341,31 +341,31 @@
     "product/child_item.list/page-2": {
         "description": "pagination: second page"
     },
-    "product/child_item.list/product_id-1360559503__count-2": {
+    "product/child_item.list/product-id-1360559503__count-2": {
         "description": "filter: specific product id(s)"
     },
-    "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest": {
+    "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest": {
         "description": "search: matching sku value"
     },
-    "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889": {
+    "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889": {
         "description": "search: matching sku value"
     },
-    "product/child_item.list/product_id-888814018": {
+    "product/child_item.list/product-id-888814018": {
         "description": "filter: specific product id(s)"
     },
-    "product/child_item.list/product_id-888814018__rf-all__start-2__count-1": {
+    "product/child_item.list/product-id-888814018__rf-all__start-2__count-1": {
         "description": "filter: specific product id(s)"
     },
-    "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin": {
+    "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
-    "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd": {
+    "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd": {
         "description": "filter: specific product id(s)"
     },
-    "product/count/avail_view-false": {
+    "product/count/avail-view-false": {
         "description": "filter: avail_view=false"
     },
-    "product/count/avail_view-true": {
+    "product/count/avail-view-true": {
         "description": "filter: avail_view=true"
     },
     "product/count/basic": {
@@ -374,10 +374,10 @@
     "product/count/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
-    "product/count/find_where-name__find_value-qatestvariantprod__rf-all": {
+    "product/count/find-where-name__find-value-qatestvariantprod__rf-all": {
         "description": "search: matching name value"
     },
-    "product/count/find_where-name__find_value-test3": {
+    "product/count/find-where-name__find-value-test3": {
         "description": "search: matching name value"
     },
     "product/delete/by-id": {
@@ -407,13 +407,13 @@
     "product/find/error-not-found": {
         "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
     },
-    "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt": {
+    "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt": {
         "description": "search: matching name value"
     },
-    "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel": {
+    "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel": {
         "description": "search: matching name value"
     },
-    "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas": {
+    "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas": {
         "description": "search: matching name value"
     },
     "product/image.add/by-url": {
@@ -461,7 +461,7 @@
     "product/info/id-1227563359": {
         "description": "info by id"
     },
-    "product/list/avail_view-true": {
+    "product/list/avail-view-true": {
         "description": "filter: avail_view=true"
     },
     "product/list/basic": {
@@ -470,19 +470,19 @@
     "product/list/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
-    "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all": {
+    "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all": {
         "description": "search: matching name value"
     },
-    "product/list/find_where-name__find_value-qatestpro": {
+    "product/list/find-where-name__find-value-qatestpro": {
         "description": "search: matching name value"
     },
-    "product/list/find_where-name__find_value-qatestvariantprod__rf-all": {
+    "product/list/find-where-name__find-value-qatestvariantprod__rf-all": {
         "description": "search: matching name value"
     },
-    "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all": {
+    "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all": {
         "description": "search: matching name value"
     },
-    "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all": {
+    "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all": {
         "description": "search: matching name value"
     },
     "product/list/page-2": {
@@ -494,13 +494,13 @@
     "product/list/page-3": {
         "description": "pagination: cursor page"
     },
-    "product/list/rf-all__avail_view-false": {
+    "product/list/rf-all__avail-view-false": {
         "description": "filter: avail_view=false"
     },
     "product/list/rf-all__exclude-price-url-create-at-": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
-    "product/list/rf-all__product_ids-888814018-qqq-136055": {
+    "product/list/rf-all__product-ids-888814018-qqq-136055": {
         "description": "filter: specific product id(s)"
     },
     "product/list/rf-all__sku-test-sku-2": {
@@ -512,6 +512,18 @@
     "product/list/sku-bag-01": {
         "description": "pagination: start/count offset"
     },
+    "product/list/sort-by-modified-at__sort-direction-asc": {
+        "description": "sorting: modified_at"
+    },
+    "product/list/sort-by-modified-at__sort-direction-desc": {
+        "description": "sorting: modified_at"
+    },
+    "product/list/sort-by-price": {
+        "description": "filtered export"
+    },
+    "product/list/sort-by-price__sort-direction-desc": {
+        "description": "sorting: price"
+    },
     "product/list/sort-create-at-asc": {
         "description": "sorting: create_at"
     },
@@ -519,18 +531,6 @@
         "description": "sorting: create_at"
     },
     "product/list/sort-price-asc": {
-        "description": "sorting: price"
-    },
-    "product/list/sort_by-modified-at__sort_direction-asc": {
-        "description": "sorting: modified_at"
-    },
-    "product/list/sort_by-modified-at__sort_direction-desc": {
-        "description": "sorting: modified_at"
-    },
-    "product/list/sort_by-price": {
-        "description": "filtered export"
-    },
-    "product/list/sort_by-price__sort_direction-desc": {
         "description": "sorting: price"
     },
     "product/list/start-0__count-6": {
@@ -590,21 +590,6 @@
     "product/update/update-quantity": {
         "description": "update product quantity"
     },
-    "product/variant.add/basic": {
-        "description": "happy path: add product variant"
-    },
-    "product/variant.add/error-no-params": {
-        "description": "validation: no params"
-    },
-    "product/variant.add/error-not-found": {
-        "description": "not found: product_id does not exist"
-    },
-    "product/variant.add/etsy-gold-aquamarine": {
-        "description": "add variant with Gem color and Gemstone combination"
-    },
-    "product/variant.add/etsy-gold-biotite": {
-        "description": "add variant with second gemstone combination"
-    },
     "product/variant.add.batch/batch-combination-availability": {
         "description": "multiple products, combinations, prices and availability"
     },
@@ -619,6 +604,21 @@
     },
     "product/variant.add.batch/error-no-params": {
         "description": "validation: no params"
+    },
+    "product/variant.add/basic": {
+        "description": "happy path: add product variant"
+    },
+    "product/variant.add/error-no-params": {
+        "description": "validation: no params"
+    },
+    "product/variant.add/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.add/etsy-gold-aquamarine": {
+        "description": "add variant with Gem color and Gemstone combination"
+    },
+    "product/variant.add/etsy-gold-biotite": {
+        "description": "add variant with second gemstone combination"
     },
     "product/variant.update/error-no-params": {
         "description": "validation: no params"

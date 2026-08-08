@@ -74,9 +74,15 @@ php scripts/validate.php AmazonSP EtsyAPIv3
 
 It checks, per platform: `index.json` matches the filesystem in both directions, every response
 carries the `return_code`/`return_message`/`result` envelope, no response exceeds 512 KiB except
-a `full-properties`-slugged case, and `.covers.json` has no orphaned or drifted entries. Exit code
-0 = clean. Run it before committing changes to any platform, and wire it into CI as new platforms
-are added — right now there is no automated check on push/PR, only this manual command.
+a `full-properties`-slugged case, `.covers.json` has no orphaned or drifted entries, `*.count`
+responses are not list-shaped, no two cases in a method send the identical request, every
+`page_cursor` has a source, `return_code != 0` matches the `error-` slug prefix, slugs carry no
+source label and kebab-case their parameter names, and empty payloads serialize as `{}` not `[]`.
+Exit code 0 = clean. `.github/workflows/validate.yml` runs it on every platform on push and PR.
+
+Platforms are added one at a time, but **the conventions above are repo-wide** — a new platform
+does not get to bring its own. If something genuinely does not fit, change the rule and the
+check for everyone rather than carving out an exception for one platform.
 
 ## Contract (stability)
 

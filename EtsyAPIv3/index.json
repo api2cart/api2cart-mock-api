@@ -1,6 +1,6 @@
 {
     "platform": "EtsyAPIv3",
-    "generated_at": "2026-08-07T12:32:56Z",
+    "generated_at": "2026-08-08T09:24:23Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -124,9 +124,9 @@
                     "captured_at": "2026-08-06T13:29:18Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-men",
-                    "request": "category/count/find_where-name__find_value-men.request.json",
-                    "response": "category/count/find_where-name__find_value-men.response.json",
+                    "slug": "find-where-name__find-value-men",
+                    "request": "category/count/find-where-name__find-value-men.request.json",
+                    "response": "category/count/find-where-name__find-value-men.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
@@ -1081,27 +1081,27 @@
                     "captured_at": "2026-08-04T13:02:03Z"
                 },
                 {
-                    "slug": "product_id-1360559503__id-12877039520",
-                    "request": "product/child_item.info/product_id-1360559503__id-12877039520.request.json",
-                    "response": "product/child_item.info/product_id-1360559503__id-12877039520.response.json",
+                    "slug": "product-id-1360559503__id-12877039520",
+                    "request": "product/child_item.info/product-id-1360559503__id-12877039520.request.json",
+                    "response": "product/child_item.info/product-id-1360559503__id-12877039520.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip",
-                    "request": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.request.json",
-                    "response": "product/child_item.info/product_id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.response.json",
+                    "slug": "product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip",
+                    "request": "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.request.json",
+                    "response": "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-888814018__id-18444733522__rf-all",
-                    "request": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.request.json",
-                    "response": "product/child_item.info/product_id-888814018__id-18444733522__rf-all.response.json",
+                    "slug": "product-id-888814018__id-18444733522__rf-all",
+                    "request": "product/child_item.info/product-id-888814018__id-18444733522__rf-all.request.json",
+                    "response": "product/child_item.info/product-id-888814018__id-18444733522__rf-all.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
@@ -1133,63 +1133,63 @@
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-1360559503__count-2",
-                    "request": "product/child_item.list/product_id-1360559503__count-2.request.json",
-                    "response": "product/child_item.list/product_id-1360559503__count-2.response.json",
+                    "slug": "product-id-1360559503__count-2",
+                    "request": "product/child_item.list/product-id-1360559503__count-2.request.json",
+                    "response": "product/child_item.list/product-id-1360559503__count-2.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-708818923__rf-all__find_where-sku__find_value-qaautotest",
-                    "request": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest.request.json",
-                    "response": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-qaautotest.response.json",
+                    "slug": "product-id-708818923__rf-all__find-where-sku__find-value-qaautotest",
+                    "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.request.json",
+                    "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.response.json",
                     "covers": {
                         "description": "search: matching sku value"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889",
-                    "request": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889.request.json",
-                    "response": "product/child_item.list/product_id-708818923__rf-all__find_where-sku__find_value-test-variant8889.response.json",
+                    "slug": "product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889",
+                    "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.request.json",
+                    "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.response.json",
                     "covers": {
                         "description": "search: matching sku value"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-888814018",
-                    "request": "product/child_item.list/product_id-888814018.request.json",
-                    "response": "product/child_item.list/product_id-888814018.response.json",
+                    "slug": "product-id-888814018",
+                    "request": "product/child_item.list/product-id-888814018.request.json",
+                    "response": "product/child_item.list/product-id-888814018.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_id-888814018__rf-all__start-2__count-1",
-                    "request": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.request.json",
-                    "response": "product/child_item.list/product_id-888814018__rf-all__start-2__count-1.response.json",
+                    "slug": "product-id-888814018__rf-all__start-2__count-1",
+                    "request": "product/child_item.list/product-id-888814018__rf-all__start-2__count-1.request.json",
+                    "response": "product/child_item.list/product-id-888814018__rf-all__start-2__count-1.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin",
-                    "request": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
-                    "response": "product/child_item.list/product_ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
+                    "slug": "product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin",
+                    "request": "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
+                    "response": "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
                     "covers": {
                         "description": "params=force_all combined with exclude (deprecated selector pair)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
                 {
-                    "slug": "product_ids-888814018__rf-all__currency_id-usd",
-                    "request": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.request.json",
-                    "response": "product/child_item.list/product_ids-888814018__rf-all__currency_id-usd.response.json",
+                    "slug": "product-ids-888814018__rf-all__currency-id-usd",
+                    "request": "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd.request.json",
+                    "response": "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
@@ -1203,18 +1203,18 @@
             "path": "product/count",
             "cases": [
                 {
-                    "slug": "avail_view-false",
-                    "request": "product/count/avail_view-false.request.json",
-                    "response": "product/count/avail_view-false.response.json",
+                    "slug": "avail-view-false",
+                    "request": "product/count/avail-view-false.request.json",
+                    "response": "product/count/avail-view-false.response.json",
                     "covers": {
                         "description": "filter: avail_view=false"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
                 {
-                    "slug": "avail_view-true",
-                    "request": "product/count/avail_view-true.request.json",
-                    "response": "product/count/avail_view-true.response.json",
+                    "slug": "avail-view-true",
+                    "request": "product/count/avail-view-true.request.json",
+                    "response": "product/count/avail-view-true.response.json",
                     "covers": {
                         "description": "filter: avail_view=true"
                     },
@@ -1239,18 +1239,18 @@
                     "captured_at": "2026-08-04T13:02:03Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-qatestvariantprod__rf-all",
-                    "request": "product/count/find_where-name__find_value-qatestvariantprod__rf-all.request.json",
-                    "response": "product/count/find_where-name__find_value-qatestvariantprod__rf-all.response.json",
+                    "slug": "find-where-name__find-value-qatestvariantprod__rf-all",
+                    "request": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-test3",
-                    "request": "product/count/find_where-name__find_value-test3.request.json",
-                    "response": "product/count/find_where-name__find_value-test3.response.json",
+                    "slug": "find-where-name__find-value-test3",
+                    "request": "product/count/find-where-name__find-value-test3.request.json",
+                    "response": "product/count/find-where-name__find-value-test3.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
@@ -1352,27 +1352,27 @@
                     "captured_at": "2026-08-04T13:02:03Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt",
-                    "request": "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.request.json",
-                    "response": "product/find/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.response.json",
+                    "slug": "find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt",
+                    "request": "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.request.json",
+                    "response": "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-04T17:44:16Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel",
-                    "request": "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.request.json",
-                    "response": "product/find/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.response.json",
+                    "slug": "find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel",
+                    "request": "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.request.json",
+                    "response": "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-04T17:44:16Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas",
-                    "request": "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.request.json",
-                    "response": "product/find/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.response.json",
+                    "slug": "find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas",
+                    "request": "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.request.json",
+                    "response": "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
@@ -1542,9 +1542,9 @@
             "path": "product/list",
             "cases": [
                 {
-                    "slug": "avail_view-true",
-                    "request": "product/list/avail_view-true.request.json",
-                    "response": "product/list/avail_view-true.response.json",
+                    "slug": "avail-view-true",
+                    "request": "product/list/avail-view-true.request.json",
+                    "response": "product/list/avail-view-true.response.json",
                     "covers": {
                         "description": "filter: avail_view=true"
                     },
@@ -1569,45 +1569,45 @@
                     "captured_at": "2026-08-04T13:02:03Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all",
-                    "request": "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.request.json",
-                    "response": "product/list/find_where-name__find_value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.response.json",
+                    "slug": "find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all",
+                    "request": "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-04T17:44:16Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-qatestpro",
-                    "request": "product/list/find_where-name__find_value-qatestpro.request.json",
-                    "response": "product/list/find_where-name__find_value-qatestpro.response.json",
+                    "slug": "find-where-name__find-value-qatestpro",
+                    "request": "product/list/find-where-name__find-value-qatestpro.request.json",
+                    "response": "product/list/find-where-name__find-value-qatestpro.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-qatestvariantprod__rf-all",
-                    "request": "product/list/find_where-name__find_value-qatestvariantprod__rf-all.request.json",
-                    "response": "product/list/find_where-name__find_value-qatestvariantprod__rf-all.response.json",
+                    "slug": "find-where-name__find-value-qatestvariantprod__rf-all",
+                    "request": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all",
-                    "request": "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.request.json",
-                    "response": "product/list/find_where-name__find_value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.response.json",
+                    "slug": "find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all",
+                    "request": "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
                     "captured_at": "2026-08-04T17:44:16Z"
                 },
                 {
-                    "slug": "find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all",
-                    "request": "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.request.json",
-                    "response": "product/list/find_where-name__find_value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.response.json",
+                    "slug": "find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all",
+                    "request": "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.response.json",
                     "covers": {
                         "description": "search: matching name value"
                     },
@@ -1641,9 +1641,9 @@
                     "captured_at": "2026-08-04T13:14:09Z"
                 },
                 {
-                    "slug": "rf-all__avail_view-false",
-                    "request": "product/list/rf-all__avail_view-false.request.json",
-                    "response": "product/list/rf-all__avail_view-false.response.json",
+                    "slug": "rf-all__avail-view-false",
+                    "request": "product/list/rf-all__avail-view-false.request.json",
+                    "response": "product/list/rf-all__avail-view-false.response.json",
                     "covers": {
                         "description": "filter: avail_view=false"
                     },
@@ -1659,9 +1659,9 @@
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
                 {
-                    "slug": "rf-all__product_ids-888814018-qqq-136055",
-                    "request": "product/list/rf-all__product_ids-888814018-qqq-136055.request.json",
-                    "response": "product/list/rf-all__product_ids-888814018-qqq-136055.response.json",
+                    "slug": "rf-all__product-ids-888814018-qqq-136055",
+                    "request": "product/list/rf-all__product-ids-888814018-qqq-136055.request.json",
+                    "response": "product/list/rf-all__product-ids-888814018-qqq-136055.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
@@ -1695,6 +1695,42 @@
                     "captured_at": "2026-08-04T13:14:09Z"
                 },
                 {
+                    "slug": "sort-by-modified-at__sort-direction-asc",
+                    "request": "product/list/sort-by-modified-at__sort-direction-asc.request.json",
+                    "response": "product/list/sort-by-modified-at__sort-direction-asc.response.json",
+                    "covers": {
+                        "description": "sorting: modified_at"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "sort-by-modified-at__sort-direction-desc",
+                    "request": "product/list/sort-by-modified-at__sort-direction-desc.request.json",
+                    "response": "product/list/sort-by-modified-at__sort-direction-desc.response.json",
+                    "covers": {
+                        "description": "sorting: modified_at"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort-by-price",
+                    "request": "product/list/sort-by-price.request.json",
+                    "response": "product/list/sort-by-price.response.json",
+                    "covers": {
+                        "description": "filtered export"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort-by-price__sort-direction-desc",
+                    "request": "product/list/sort-by-price__sort-direction-desc.request.json",
+                    "response": "product/list/sort-by-price__sort-direction-desc.response.json",
+                    "covers": {
+                        "description": "sorting: price"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
                     "slug": "sort-create-at-asc",
                     "request": "product/list/sort-create-at-asc.request.json",
                     "response": "product/list/sort-create-at-asc.response.json",
@@ -1720,42 +1756,6 @@
                         "description": "sorting: price"
                     },
                     "captured_at": "2026-08-04T13:14:09Z"
-                },
-                {
-                    "slug": "sort_by-modified-at__sort_direction-asc",
-                    "request": "product/list/sort_by-modified-at__sort_direction-asc.request.json",
-                    "response": "product/list/sort_by-modified-at__sort_direction-asc.response.json",
-                    "covers": {
-                        "description": "sorting: modified_at"
-                    },
-                    "captured_at": "2026-07-23T11:23:41Z"
-                },
-                {
-                    "slug": "sort_by-modified-at__sort_direction-desc",
-                    "request": "product/list/sort_by-modified-at__sort_direction-desc.request.json",
-                    "response": "product/list/sort_by-modified-at__sort_direction-desc.response.json",
-                    "covers": {
-                        "description": "sorting: modified_at"
-                    },
-                    "captured_at": "2026-07-27T10:01:56Z"
-                },
-                {
-                    "slug": "sort_by-price",
-                    "request": "product/list/sort_by-price.request.json",
-                    "response": "product/list/sort_by-price.response.json",
-                    "covers": {
-                        "description": "filtered export"
-                    },
-                    "captured_at": "2026-07-27T10:01:56Z"
-                },
-                {
-                    "slug": "sort_by-price__sort_direction-desc",
-                    "request": "product/list/sort_by-price__sort_direction-desc.request.json",
-                    "response": "product/list/sort_by-price__sort_direction-desc.response.json",
-                    "covers": {
-                        "description": "sorting: price"
-                    },
-                    "captured_at": "2026-07-27T10:01:56Z"
                 },
                 {
                     "slug": "start-0__count-6",
