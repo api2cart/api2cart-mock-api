@@ -1,0 +1,218 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHLloIgAADQD2rhqcCJRQsaM0PDEENl5xGm1I6W%2BP76uZdrMu3bZwhtfV83cFRgrSJiB8tDF%2FTE%2BtktMM%2F7tFOC47A8zL6Od38f%2BW2cEnqOftEILEDlljB0s1iwsLcAWAZBpm9dm6XVqGPcy8HEY4DIBf5Ksc16IS91fFUp0gCZXVDHzU90slfb5%2BBdEVIytM755IWq5UlD9pB%2BDW2nd5rAu8BWzYlbio9D8yHpsugp4cDU60xd5uPlzLzDdDz%2BAw%3D%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16386761",
+                "parent_id": "16261641",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies",
+                "short_description": null,
+                "description": "Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-7abb1086.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761"
+                    ],
+                    "children_ids": [
+                        "16262851",
+                        "16262901",
+                        "16262921",
+                        "16262931",
+                        "16262951",
+                        "16262961",
+                        "51932011",
+                        "16262971",
+                        "44155011",
+                        "16263001",
+                        "16263031",
+                        "16263041"
+                    ],
+                    "parent_ids": [
+                        "16261641"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "9408832011",
+                "parent_id": "9408805011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies & TV",
+                "short_description": null,
+                "description": "Movie & TV Magazines",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-54b01524.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "movies-and-tv-magazine-mobile-software-applications"
+                    ],
+                    "browse_path_by_name": [
+                        "Apps & Games,Magazines,Movies & TV"
+                    ],
+                    "browse_path_by_id": [
+                        "2350149011,9209898011,9408805011,9408832011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "9408805011"
+                    ],
+                    "product_types": "MOBILE_APPLICATION,MOBILE_APPLICATION_ADD_ON"
+                }
+            },
+            {
+                "id": "9408765011",
+                "parent_id": "9209898011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies & TV",
+                "short_description": null,
+                "description": "Movies & TV",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-f0d11038.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "movies-and-tv-mobile-software-applications"
+                    ],
+                    "browse_path_by_name": [
+                        "Apps & Games,Movies & TV"
+                    ],
+                    "browse_path_by_id": [
+                        "2350149011,9209898011,9408765011"
+                    ],
+                    "children_ids": [
+                        "9408769011",
+                        "9408767011",
+                        "9408766011",
+                        "9408768011",
+                        "10298307011"
+                    ],
+                    "parent_ids": [
+                        "9209898011"
+                    ],
+                    "product_types": "MOBILE_APPLICATION,MOBILE_APPLICATION_ADD_ON"
+                }
+            },
+            {
+                "id": "4484",
+                "parent_id": "86",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies",
+                "short_description": null,
+                "description": "Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-c866f292.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Books,Humor & Entertainment,Movies"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,86,4484"
+                    ],
+                    "children_ids": [
+                        "4486",
+                        "4487",
+                        "4491",
+                        "194809011",
+                        "11726",
+                        "4493",
+                        "194810011",
+                        "4494",
+                        "4495",
+                        "4496",
+                        "4498",
+                        "4499",
+                        "4500",
+                        "194811011",
+                        "4501"
+                    ],
+                    "parent_ids": [
+                        "86"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            },
+            {
+                "id": "10394942011",
+                "parent_id": "5088769011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Movies & Music",
+                "short_description": null,
+                "description": "Entertainment Collectible Movies & Music",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-bb34d819.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Collectibles & Fine Art,Entertainment,Movies & Music"
+                    ],
+                    "browse_path_by_id": [
+                        "4991425011,4991426011,5088769011,10394942011"
+                    ],
+                    "children_ids": [
+                        "5482924011",
+                        "10394943011",
+                        "6250409011",
+                        "5263623011",
+                        "5263622011"
+                    ],
+                    "parent_ids": [
+                        "5088769011"
+                    ],
+                    "product_types": "ENTERTAINMENT_MEMORABILIA"
+                }
+            }
+        ]
+    }
+}

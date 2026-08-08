@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "product_id": "40",
+                "sku": "V-1",
+                "price": 10,
+                "quantity": 5
+            },
+            {
+                "product_id": "40",
+                "sku": "V-2",
+                "price": 11,
+                "quantity": 3
+            }
+        ]
+    }
+}

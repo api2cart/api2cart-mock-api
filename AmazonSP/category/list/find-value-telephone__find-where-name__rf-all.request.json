@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-23T11:25:38Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "find_value": "Telephone",
+        "find_where": "name",
+        "response_fields": "{*}"
+    }
+}

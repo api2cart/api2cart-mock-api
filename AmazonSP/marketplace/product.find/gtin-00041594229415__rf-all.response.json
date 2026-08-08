@@ -1,0 +1,360 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B00HJEO6X2",
+                "type": "simple",
+                "u_asin": "B00HJEO6X2",
+                "u_ean": "0041594229415",
+                "u_gtin": "00041594229415",
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": "041594229415",
+                "name": "DART CONTAINER Dart Carryout Food Container, Foam, 1-Comp, 5 1/2 x 5 3/8 x 2 7/8, White (Case of 500), 1 Compartment",
+                "description": "",
+                "url": "https://store-9df9b1c7.example.com/",
+                "price": 45.99,
+                "images": [
+                    {
+                        "id": "b8773931829f9fcb125556df09ef09d2",
+                        "http_path": "https://picsum.photos/seed/32bae240/600/600",
+                        "file_name": "51WZrJISKyL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "manufacturer": "DART CONTAINER",
+                "brand": "DART",
+                "weight": 5.5997414548,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 21.139999978,
+                "height": 11.729999988,
+                "length": 25.509999974,
+                "additional_fields": {
+                    "ean_identifiers": [
+                        "0041594229415",
+                        "0041594229453"
+                    ],
+                    "gtin_identifiers": [
+                        "00041594229415"
+                    ],
+                    "upc_identifiers": [
+                        "041594229415",
+                        "041594229453"
+                    ],
+                    "child_asins": [],
+                    "parent_asin": "",
+                    "model_number": "50HT1",
+                    "part_number": "50HT1",
+                    "product_type": "FOOD_STORAGE_CONTAINER",
+                    "raw_attributes": {
+                        "included_components": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "500 Clamp container",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "model_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "50HT1",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Dart container 50ht1 foam hinged container container 5x5x3 white 500/cs (case of 500) upc# 041594229415 gtin# 00041594229415",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "50ht1 foam hinged container",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Top notch quality for hot and heavy food",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Package dimensions: 20.0inches L x 20.0inches W x 15.12inches H",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_quantity": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_dimensions": [
+                            {
+                                "width": {
+                                    "unit": "inches",
+                                    "value": 20
+                                },
+                                "length": {
+                                    "unit": "inches",
+                                    "value": 20
+                                },
+                                "height": {
+                                    "unit": "inches",
+                                    "value": 15.12
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "DART",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_display_weight": [
+                            {
+                                "unit": "pounds",
+                                "value": 7,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "externally_assigned_product_identifier": [
+                            {
+                                "value": "041594229453",
+                                "type": "upc",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "041594229415",
+                                "type": "upc",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "0041594229415",
+                                "type": "ean",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "0041594229453",
+                                "type": "ean",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "00041594229415",
+                                "type": "gtin",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "clamshell-take-out-containers",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "number_of_items": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 29.7942
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 53.6956
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 64.7954
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "size": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "1 Compartment",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "part_number": [
+                            {
+                                "value": "50HT1",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "pesticide_marking": [
+                            {
+                                "marking_type": "epa_registration_number",
+                                "registration_status": "fifra_not_considered_pesticide",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "White",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Dart 50HT1 Carryout Food Container, Foam, 1-Comp, 5 1/2 x 5 3/8 x 2 7/8, White (Case of 500)",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 2.54,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_volume": [
+                            {
+                                "unit": "milliliters",
+                                "value": 500,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_length_width_height": [
+                            {
+                                "length": {
+                                    "unit": "inches",
+                                    "value": 20
+                                },
+                                "width": {
+                                    "unit": "inches",
+                                    "value": 20
+                                },
+                                "height": {
+                                    "unit": "inches",
+                                    "value": 15.12
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "capacity": [
+                            {
+                                "unit": "quarts",
+                                "value": 500,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "DART CONTAINER",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_dishwasher_safe": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "model_number": [
+                            {
+                                "value": "50HT1",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "supplier_declared_dg_hz_regulation": [
+                            {
+                                "value": "unknown",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "material_feature": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Reusable",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "DART CONTAINER Dart Carryout Food Container, Foam, 1-Comp, 5 1/2 x 5 3/8 x 2 7/8, White (Case of 500), 1 Compartment",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "list_price": [
+                            {
+                                "currency": "USD",
+                                "value": 45.99,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_required": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2012-07-02T00:00:00.000-07:00",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "material": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Foam",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "care_instructions": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Provides exellent portability for quick togo",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "unit_count": [
+                            {
+                                "type": {
+                                    "language_tag": "en_US",
+                                    "value": "Count"
+                                },
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_included": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

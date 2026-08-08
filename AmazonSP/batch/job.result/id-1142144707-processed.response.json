@@ -1,0 +1,26 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 1142144707,
+        "job_name": "product.variant.add.batch",
+        "items_processed": 2,
+        "items_succeed": 2,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "A2C-BATCH-SWEATER-VAR-S-RED",
+                "errors": [],
+                "warnings": []
+            },
+            {
+                "id": 1,
+                "status": "success",
+                "entity_id": "A2C-BATCH-SWEATER-VAR-XL-BLUE",
+                "errors": [],
+                "warnings": []
+            }
+        ]
+    }
+}

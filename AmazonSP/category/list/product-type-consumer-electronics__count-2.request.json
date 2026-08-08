@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-23T11:25:36Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "product_type": "CONSUMER_ELECTRONICS",
+        "count": 2
+    }
+}

@@ -1,0 +1,553 @@
+{
+    "captured_at": "2026-08-07T07:36:24Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "category_id": "1232597011",
+                "marketplace_item_properties": {
+                    "item_weight": [
+                        {
+                            "unit": "pounds",
+                            "value": 1,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "7\" tablet, 256GB (2022 Model) - Charcoal",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Take it with you—mobile computing has never been easier than with our  7\" Tablet.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_type_keyword": [
+                        {
+                            "value": "tablet-computers",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "number_of_items": [
+                        {
+                            "value": 1,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_package_dimensions": [
+                        {
+                            "length": {
+                                "unit": "centimeters",
+                                "value": 4.3942
+                            },
+                            "width": {
+                                "unit": "centimeters",
+                                "value": 13.0048
+                            },
+                            "height": {
+                                "unit": "centimeters",
+                                "value": 19.8882
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "size": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "7 inch",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "warranty_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "1 Year Manufacturer",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_package_weight": [
+                        {
+                            "unit": "kilograms",
+                            "value": 0.472,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "manufacturer": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Onn",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "memory_storage_capacity": [
+                        {
+                            "unit": "GB",
+                            "value": 256,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "supplier_declared_dg_hz_regulation": [
+                        {
+                            "value": "unknown",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "num_batteries": [
+                        {
+                            "quantity": 1,
+                            "type": "lithium_ion",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_name": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Surf Tablet Gen 3 2022 MTK Quad-Cor256GB eMMC 2GB 7\" (1024x600) Touchscreen Android 12 Go 2 Cameras Charcoal",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "list_price": [
+                        {
+                            "currency": "USD",
+                            "value": 48.87,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "batteries_required": [
+                        {
+                            "value": true,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "ram_memory": [
+                        {
+                            "installed_size": [
+                                {
+                                    "unit": "GB",
+                                    "value": 2
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "batteries_included": [
+                        {
+                            "value": true,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "battery": [
+                        {
+                            "cell_composition": [
+                                {
+                                    "value": "lithium_ion"
+                                }
+                            ],
+                            "weight": [
+                                {
+                                    "unit": "grams",
+                                    "value": 1
+                                }
+                            ],
+                            "average_life": [
+                                {
+                                    "unit": "hours",
+                                    "value": 10
+                                }
+                            ],
+                            "capacity": [
+                                {
+                                    "unit": "amp_hours",
+                                    "value": 10
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "lithium_battery": [
+                        {
+                            "energy_content": [
+                                {
+                                    "unit": "watt_hours",
+                                    "value": 1
+                                }
+                            ],
+                            "weight": [
+                                {
+                                    "unit": "grams",
+                                    "value": 1
+                                }
+                            ],
+                            "packaging": [
+                                {
+                                    "value": "batteries_contained_in_equipment"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "number_of_lithium_ion_cells": [
+                        {
+                            "value": 1,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "country_of_origin": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "value": "US"
+                        }
+                    ],
+                    "cellular_technology": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "3G",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "model_name": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "7'' 2022 Model",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "cpu_model": [
+                        {
+                            "speed": [
+                                {
+                                    "unit": "GHz",
+                                    "value": 2
+                                }
+                            ],
+                            "manufacturer": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "Android"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "operating_system": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Android 12 Go",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_length_width_thickness": [
+                        {
+                            "thickness": {
+                                "unit": "inches",
+                                "value": 1
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": 7.42
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": 4.51
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "wireless_communication_technology": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Bluetooth",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Wi-Fi",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "display": [
+                        {
+                            "resolution_maximum": [
+                                {
+                                    "unit": "pixels",
+                                    "language_tag": "en_US",
+                                    "value": "1024 x 600"
+                                }
+                            ],
+                            "size": [
+                                {
+                                    "unit": "inches",
+                                    "value": 7
+                                }
+                            ],
+                            "type": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "LCD"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "graphics_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Dedicated",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "included_components": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Charger",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "flash_memory": [
+                        {
+                            "installed_size": [
+                                {
+                                    "unit": "GB",
+                                    "value": 256
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "digital_storage_capacity": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "value": 256,
+                            "unit": "GB"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Charcoal",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "generation": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "3rd Generation",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "target_region": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "North America",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "sub_brand": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Onn",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "version_for_country": [
+                        {
+                            "value": "US",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "supplier_declared_has_product_identifier_exemption": [
+                        {
+                            "value": true,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "media_location": "https://picsum.photos/seed/3803c2a2/600/600"
+                        }
+                    ]
+                },
+                "price": 37.5,
+                "quantity": 0,
+                "sku": "A2C-BATCH-TABLET-SIMPLE-256GB",
+                "store_id": "ATVPDKIKX0DER"
+            },
+            {
+                "category_id": "10676489011",
+                "marketplace_item_properties": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Smart Weave Removal Tool: weave removal kit provides damage-free removal of sewn-in weaves & wigs. Designed specifically to fit comfortably in your hand for precision work",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_package_quantity": [
+                        {
+                            "value": 1,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_dimensions": [
+                        {
+                            "width": {
+                                "unit": "inches",
+                                "value": 2.75
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": 8.75
+                            },
+                            "height": {
+                                "unit": "inches",
+                                "value": 0.25
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Now, no more jamming over-sized scissors under tightly sewed weaving thread. brings RazorMax precision weave removal tool for women who love to wear hair weaves but face difficulties in the process of removing them. This extension removal tool eliminates the anxiety of removing weaves while saving you both time and money. Razor weave remover allows quick, easy and damage-free removal of weaves, wigs, hair extensions and braids. Highly refined structure of the blade is designed to fit perfectly in your hand for an accurate cut. The pointed end of the hair removal tool can be used to undo braids. Not only that RazorMax tool is brilliantly crafted with durable material that’s made to last.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_type_keyword": [
+                        {
+                            "value": "hair-cutting-razors",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_package_dimensions": [
+                        {
+                            "length": {
+                                "unit": "centimeters",
+                                "value": 1.016
+                            },
+                            "width": {
+                                "unit": "centimeters",
+                                "value": 7.366
+                            },
+                            "height": {
+                                "unit": "centimeters",
+                                "value": 22.352
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_package_weight": [
+                        {
+                            "unit": "kilograms",
+                            "value": 0.023,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "manufacturer": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Generic",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "supplier_declared_dg_hz_regulation": [
+                        {
+                            "value": "not_applicable",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_name": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Precision Weave Removal Tool (Teal)",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "list_price": [
+                        {
+                            "currency": "USD",
+                            "value": 15.99,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "batteries_required": [
+                        {
+                            "value": false,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "target_audience_keyword": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Professional Audience",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Women",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "material": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "metal",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "unit_count": [
+                        {
+                            "type": {
+                                "language_tag": "en_US",
+                                "value": "Count"
+                            },
+                            "value": 1,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "batteries_included": [
+                        {
+                            "value": false,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "country_of_origin": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "value": "US"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "language_tag": "en_US",
+                            "value": "Teal"
+                        }
+                    ],
+                    "supplier_declared_has_product_identifier_exemption": [
+                        {
+                            "value": true,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "media_location": "https://picsum.photos/seed/f1e22b65/600/600"
+                        }
+                    ]
+                },
+                "price": 7,
+                "quantity": 0,
+                "sku": "A2C-BATCH-BEAUTY-SIMPLE",
+                "store_id": "ATVPDKIKX0DER"
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "T3-AZ75-LDQB",
+                "name": "Natural Slice Blue Tie Dye Driver 460cc Club Headcover Handmade by BeeJos",
+                "description": "BeeJos Club Headcovers offer a combination of functionality and style, making them an attractive choice for golfers. The stretch-to-fit feature and easy on-and-off design contribute to the convenience for users. The use of composite polyester-knit fabrics and aerospace-grade foam not only indicates a dedication to quality but also suggests durability and protection for your golf clubs. The 11mm thick proprietary foam interior specifically designed for excellent club protection is a notable feature, emphasizing the brand's commitment to safeguarding golf equipment. The fact that the designs are printed and sewn in the USA adds a touch of local craftsmanship and pride to the product. The vivid and bright prints, along with the soft-to-the-hand feel, contribute to the aesthetic appeal of the headcovers, allowing golfers to personalize their bags in a visually pleasing way. BeeJos has taken a thoughtful approach to both the design and manufacturing processes, creating headcovers that are not only functional but also visually appealing. This attention to detail is likely to make their headcovers stand out on the golf course and appeal to golfers looking for a high-quality and personalized accessory for their bags.",
+                "price": 39.95
+            }
+        ]
+    }
+}

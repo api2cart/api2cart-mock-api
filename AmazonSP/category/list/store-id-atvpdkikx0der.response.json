@@ -1,0 +1,16 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "category": [
+            {
+                "id": "16261641",
+                "name": "Amazon Instant Video"
+            },
+            {
+                "id": "16386761",
+                "name": "Movies"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "jobs": [
+            {
+                "id": "1142144705",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-06T12:13:35+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-06T12:14:02+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "1142144706",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-06T12:20:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-06T12:41:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "1142144822",
+                "method": "product.variant.add.batch",
+                "status": "in_progress",
+                "created_time": {
+                    "value": "2026-08-06T13:00:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": null
+            }
+        ]
+    }
+}

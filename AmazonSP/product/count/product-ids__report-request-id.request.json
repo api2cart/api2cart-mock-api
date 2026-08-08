@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-06T13:01:03Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "product_ids": "T3-AZ75-LDQB,HUUUGE",
+        "report_request_id": "ATVPDKIKX0DER171122020671"
+    }
+}

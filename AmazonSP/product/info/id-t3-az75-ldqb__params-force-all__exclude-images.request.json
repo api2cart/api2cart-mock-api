@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-06T13:01:03Z",
+    "method": "GET",
+    "endpoint": "product.info.json",
+    "query": {
+        "id": "T3-AZ75-LDQB",
+        "params": "force_all",
+        "exclude": "images"
+    }
+}

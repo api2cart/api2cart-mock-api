@@ -1,0 +1,197 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FIhMHH0mC5NwXReB48WopRTN8HJ13dOJdLjusgc%2BaKwDjIfz6qStK4GRchWydzoCV8B7h2sQD20MgBpZiFNTp4NfLfH7aLvspv98TE3NYlr3eYj%2FE0RQY5plFGs2qigHeAElrv0YLydkwhX8U629bt4%2BA8%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "3403611",
+                "parent_id": "1265458011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "BMX Bikes",
+                "short_description": null,
+                "description": "BMX Bikes",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-5ce8214a.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "bmx-bicycles"
+                    ],
+                    "browse_path_by_name": [
+                        "Sports & Outdoors,Outdoor Recreation,Cycling,Bikes,BMX Bikes",
+                        "Sports & Outdoors,Sports,Cycling,Bikes,BMX Bikes"
+                    ],
+                    "browse_path_by_id": [
+                        "3375251,3375301,706814011,3403201,1265458011,3403611",
+                        "3375251,3375301,10971181011,3403201,1265458011,3403611"
+                    ],
+                    "children_ids": [
+                        "2380007011",
+                        "2380008011",
+                        "2380006011"
+                    ],
+                    "parent_ids": [
+                        "1265458011"
+                    ],
+                    "product_types": "BICYCLE"
+                }
+            },
+            {
+                "id": "2380007011",
+                "parent_id": "3403611",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Freestyle",
+                "short_description": null,
+                "description": "Freestyle BMX Bikes",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-b416de47.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "freestyle-bmx-bicycles"
+                    ],
+                    "browse_path_by_name": [
+                        "Sports & Outdoors,Outdoor Recreation,Cycling,Bikes,BMX Bikes,Freestyle",
+                        "Sports & Outdoors,Sports,Cycling,Bikes,BMX Bikes,Freestyle"
+                    ],
+                    "browse_path_by_id": [
+                        "3375251,3375301,706814011,3403201,1265458011,3403611,2380007011",
+                        "3375251,3375301,10971181011,3403201,1265458011,3403611,2380007011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3403611"
+                    ],
+                    "product_types": "BICYCLE"
+                }
+            },
+            {
+                "id": "2380008011",
+                "parent_id": "3403611",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Jump & Dirt",
+                "short_description": null,
+                "description": "Jump & Dirt BMX Bikes",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-ec75ce11.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "jump-and-dirt-bmx-bicycles"
+                    ],
+                    "browse_path_by_name": [
+                        "Sports & Outdoors,Outdoor Recreation,Cycling,Bikes,BMX Bikes,Jump & Dirt",
+                        "Sports & Outdoors,Sports,Cycling,Bikes,BMX Bikes,Jump & Dirt"
+                    ],
+                    "browse_path_by_id": [
+                        "3375251,3375301,706814011,3403201,1265458011,3403611,2380008011",
+                        "3375251,3375301,10971181011,3403201,1265458011,3403611,2380008011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3403611"
+                    ],
+                    "product_types": "BICYCLE"
+                }
+            },
+            {
+                "id": "2380006011",
+                "parent_id": "3403611",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Racing",
+                "short_description": null,
+                "description": "Racing BMX Bikes",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-caab922.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "racing-bmx-bicycles"
+                    ],
+                    "browse_path_by_name": [
+                        "Sports & Outdoors,Outdoor Recreation,Cycling,Bikes,BMX Bikes,Racing",
+                        "Sports & Outdoors,Sports,Cycling,Bikes,BMX Bikes,Racing"
+                    ],
+                    "browse_path_by_id": [
+                        "3375251,3375301,706814011,3403201,1265458011,3403611,2380006011",
+                        "3375251,3375301,10971181011,3403201,1265458011,3403611,2380006011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3403611"
+                    ],
+                    "product_types": "BICYCLE"
+                }
+            },
+            {
+                "id": "3403981",
+                "parent_id": "1265458011",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Comfort Bikes",
+                "short_description": null,
+                "description": "Comfort Bikes",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-8676dd3e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "comfort-bicycles"
+                    ],
+                    "browse_path_by_name": [
+                        "Sports & Outdoors,Outdoor Recreation,Cycling,Bikes,Comfort Bikes",
+                        "Sports & Outdoors,Sports,Cycling,Bikes,Comfort Bikes"
+                    ],
+                    "browse_path_by_id": [
+                        "3375251,3375301,706814011,3403201,1265458011,3403981",
+                        "3375251,3375301,10971181011,3403201,1265458011,3403981"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "1265458011"
+                    ],
+                    "product_types": "BICYCLE"
+                }
+            }
+        ]
+    }
+}

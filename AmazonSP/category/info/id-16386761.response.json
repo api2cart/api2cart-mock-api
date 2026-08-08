@@ -1,0 +1,50 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "16386761",
+        "parent_id": "16261641",
+        "created_at": null,
+        "modified_at": null,
+        "name": "Movies",
+        "short_description": null,
+        "description": "Movies",
+        "stores_ids": [],
+        "keywords": null,
+        "meta_description": null,
+        "meta_title": null,
+        "avail": true,
+        "path": null,
+        "seo_url": "https://store-7abb1086.example.com/",
+        "sort_order": null,
+        "images": [],
+        "additional_fields": {
+            "browse_node_attributes": [],
+            "browse_path_by_name": [
+                "Amazon Instant Video,Movies"
+            ],
+            "browse_path_by_id": [
+                "16261631,16261641,16386761"
+            ],
+            "children_ids": [
+                "16262851",
+                "16262901",
+                "16262921",
+                "16262931",
+                "16262951",
+                "16262961",
+                "51932011",
+                "16262971",
+                "44155011",
+                "16263001",
+                "16263031",
+                "16263041"
+            ],
+            "parent_ids": [
+                "16261641"
+            ],
+            "product_types": "",
+            "category_options": []
+        }
+    }
+}

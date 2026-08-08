@@ -1,0 +1,271 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "category_id": "3006262011",
+        "marketplace_item_properties": {
+            "supplier_declared_has_product_identifier_exemption": [
+                {
+                    "value": true,
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "main_product_image_locator": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "media_location": "https://picsum.photos/seed/93c8c3f3/600/600"
+                }
+            ],
+            "item_length_description": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Standard Length",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "bullet_point": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Ultra-Soft Material: This women's oversized sweater is made of 50% Viscose+30% Polyamide+20% Polyester, skin-friendly and high-quality knitted material, which is very comfortable to touch and wear.",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "product_description": [
+                {
+                    "language_tag": "en_US",
+                    "value": "sweaters for womens oversized sweaters womens fall fashion 2023 fall outfits fall chothes fall tops batwing sleeve ribbed plus size chunky long sleeve sweatshirts slouchy drop slit pullover crewneck knitted tunic cozy cute soft womens tops",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "closure": [
+                {
+                    "type": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Pull On"
+                        }
+                    ],
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "import_designation": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Imported",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "fabric_type": [
+                {
+                    "language_tag": "en_US",
+                    "value": "50%Viscose, 30%Polyamide, 20%Polyester",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "item_type_keyword": [
+                {
+                    "value": "pullover-sweaters",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "item_package_dimensions": [
+                {
+                    "length": {
+                        "unit": "inches",
+                        "value": 3
+                    },
+                    "width": {
+                        "unit": "inches",
+                        "value": 3
+                    },
+                    "height": {
+                        "unit": "inches",
+                        "value": 1
+                    },
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "target_gender": [
+                {
+                    "value": "female",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "parentage_level": [
+                {
+                    "value": "parent",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "child_parent_sku_relationship": [
+                {
+                    "child_relationship_type": "variation",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "variation_theme": [
+                {
+                    "name": "SIZE/COLOR"
+                }
+            ],
+            "item_package_weight": [
+                {
+                    "unit": "pounds",
+                    "value": 0.3,
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "theme": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Holiday",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "department": [
+                {
+                    "language_tag": "en_US",
+                    "value": "womens",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "supplier_declared_dg_hz_regulation": [
+                {
+                    "value": "not_applicable",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "special_feature": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Skin-friendly",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "item_name": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "neck": [
+                {
+                    "neck_style": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Crew Neck"
+                        }
+                    ],
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "lifestyle": [
+                {
+                    "language_tag": "en_US",
+                    "value": "casual",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "material": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Polyester",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "sleeve": [
+                {
+                    "type": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Long Sleeve"
+                        }
+                    ],
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "sweater_form": [
+                {
+                    "value": "sweater_pullover",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "care_instructions": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Machine Wash",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "country_of_origin": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "US"
+                }
+            ],
+            "item_type_name": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Polo Sweater"
+                }
+            ],
+            "model_name": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Camedia"
+                }
+            ],
+            "color": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Beige"
+                }
+            ],
+            "list_price": [
+                {
+                    "currency": "USD",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": 0.55
+                }
+            ],
+            "apparel_size": [
+                {
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "size_system": "as1",
+                    "size_class": "numeric",
+                    "size": "numeric_00"
+                }
+            ],
+            "age_range_description": [
+                {
+                    "language_tag": "en_US",
+                    "value": "Litle Kid",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "special_size_type": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Standard"
+                }
+            ],
+            "style": [
+                {
+                    "language_tag": "en_US",
+                    "marketplace_id": "ATVPDKIKX0DER",
+                    "value": "Maya Bay Short Sleeve Classic Fit Shirt"
+                }
+            ]
+        },
+        "price": 11,
+        "quantity": 0,
+        "sku": "SWYTE-2-SWEATER-MASTER",
+        "store_id": "ATVPDKIKX0DER"
+    }
+}

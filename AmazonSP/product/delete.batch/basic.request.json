@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "POST",
+    "endpoint": "product.delete.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": "42"
+            },
+            {
+                "id": "43"
+            }
+        ]
+    }
+}

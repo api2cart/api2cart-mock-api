@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-07T07:35:31Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "API2CART-001_Navy",
+        "report_request_id": "ATVPDKIKX0DER51885019798"
+    }
+}

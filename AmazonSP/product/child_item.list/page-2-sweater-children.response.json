@@ -1,0 +1,27 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcFJYoIwAADAB3EwCAI99CCLhiUqe%2BAWSUlSsLUgmPD6zvg6eB7jRQMzqh6u4iyyjagcGOmVCQ3R60WAd9bTDMGK0gxOQJrcoiLBOEfkOIU3bBcLneSjEfu%2F76UlAHoZxMlpizLnfFPM0XWT668Ofpzsg5ZKENO8M0LXJb7DrXmkDga7w9Jc5mEIGj8WJP1Rxdpf3yyu6iua2n1ab%2BGv9e4RTRJvYy65r5zeW6S18uW3nh3NEipleKqs%2By6PqRClh7OVj%2BdK3kZ3g%2Bxrwpfg8x8%3D",
+        "next": "BcHJgkMwAADQD3IQhDHHiFJVS22NuVlqqS2iKF8%2F7%2BkCoMheObA4yaAdTX37kW5xV2fVAa9SWwnRhfAKhRbYnEdwZeALG6Vs74SEToaYJc0vLGoPmyFc6gUSzj43w5RHrQd6c2fapI7efeHmqClFRhHuaO1SSFW5jmyVG0UDVJzkkHxz5DSNd76VJQDEzVoxM5D%2Ffnr8dFFE%2BQDxq8163%2FT7JSI85Fy6vRVY4WPIFzcIn42VrclvQQK903Q%2F8ZW5smFypu3JfSTcLOmebNQYi%2B%2BgdZNRfUaZFMbW%2Ff0D"
+    },
+    "result": {
+        "total_count": 2,
+        "children": [
+            {
+                "id": "SWYTE-2-SWEATER-CHILD1",
+                "parent_id": "SWYTE-2-SWEATER-MASTER",
+                "sku": "SWYTE-2-SWEATER-CHILD1",
+                "url": "https://store-bb9c5594.example.com/",
+                "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops"
+            },
+            {
+                "id": "CURTAIN-CHILD",
+                "parent_id": "CURTAIN-MASTER",
+                "sku": "CURTAIN-CHILD",
+                "url": "https://store-2af48601.example.com/",
+                "name": "Easter Shower Curtain Funny Eggs Highland Cow Pig Cute Bunny Farm Animals Green Grass Rustic Bathroom Decor Curtaisn Set with Hooks 70X70 Inch"
+            }
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJgkMwAADQD3KIVKkcerCmYymqGL0VEdqSUWL7%2BnmvgDFdBJUhZ0y0IPrkZXihd8Nrk%2BLU%2F%2Fk5V4b65zCVr9RGGlgrv3lKD860bJj99%2Bn1FQOe1l0vf2y9eIK%2BtnG%2Bj6ZDrG6IvPQ21plrC57EW1bAVe8a5PpMeiGqyN181GUxMEWKVaAzLDHtO0GT4qUThssRoCtZyRWHuIycTiA7N9aD5e5XBV7iQWBEy%2B403EgqyBj%2Fips3J8BMzQnO3HTAtz0gy3ggZ2PbAqP8%2FnZjHtS3pXcUA6w30hhl7cqhUiILRpmdwKogVcvmVS0qRM%2Fnfw%3D%3D"
+    },
+    "result": {
+        "total_count": 20,
+        "returns": [
+            {
+                "id": "52f1609ad8444570846ef64627522022",
+                "order_products": [
+                    {
+                        "product_id": "HC-WDF-ITRD-DR",
+                        "order_product_id": "165371199033721",
+                        "sku": "HC-WDF-ITRD-DR",
+                        "name": "Compact Device 338",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "CR-UNWANTED_ITEM",
+                            "name": "CR-UNWANTED_ITEM"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "asin": "B09LC79X9G",
+                            "in_policy": "Y",
+                            "resolution": "StandardRefund",
+                            "refund_amount": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "fdda58d46eaf0a9c937bedd362651535",
+                "order_products": [
+                    {
+                        "product_id": "HC-WDF-ARM-HY",
+                        "order_product_id": "165194780297361",
+                        "sku": "HC-WDF-ARM-HY",
+                        "name": "Portable Tool Kit 285",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "CR-ORDERED_WRONG_ITEM",
+                            "name": "CR-ORDERED_WRONG_ITEM"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "asin": "B09LC67MMV",
+                            "in_policy": "Y",
+                            "resolution": "RefundAtFirstScan",
+                            "refund_amount": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

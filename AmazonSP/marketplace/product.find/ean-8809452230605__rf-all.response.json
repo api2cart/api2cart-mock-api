@@ -1,0 +1,375 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B0CHTVS74G",
+                "type": "simple",
+                "u_asin": "B0CHTVS74G",
+                "u_ean": "8809452230605",
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "Pyeongchang Namul Soy Sauce 산나물간장 250ml/8.45fl.oz. Korean Gangwon Namul Soy Sauce, Vegetable Based Sauce for Korean Food",
+                "description": "<b>PYEONCHANGFARM NAMUL SOY SAUCE</b> <p>✔️Contains 20% of Myeongyi(명이), 15% of dried Chwinamul(취나물), and 15% of Korean Thistle/Gondre (고려엉겅퀴)</p> <p>✔️Can be used for...</p> <p>- Fish Cake Soup</p> <p>- Pot Rice</p> <p>- Stir-fried Rice</p> <p>- Any many more!</p> <p>✔️Keep refrigerated once opened</p> <p>✔️Product Dimensions: 2.17*1.73*8.27 inch</p> <p>✔️Weight: 0.71 pound</p> <p>✔️Capacity: 250ml/8.45fl.oz.</p>",
+                "url": "https://store-53908a05.example.com/",
+                "price": 20,
+                "images": [
+                    {
+                        "id": "b817781caa8927f7524280a7ee8bcab4",
+                        "http_path": "https://picsum.photos/seed/e7b237e0/600/600",
+                        "file_name": "51SHOsscRkL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "5c778257a62c63c223e01b24f5bf3103",
+                        "http_path": "https://picsum.photos/seed/ff6a3dbd/600/600",
+                        "file_name": "61QGn8qbtwL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "ea25a9bc7793f93e625f19242b57a9db",
+                        "http_path": "https://picsum.photos/seed/73416e8e/600/600",
+                        "file_name": "51-IgiNnSaL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "51543e9fe2752d1497422b68fdafe079",
+                        "http_path": "https://picsum.photos/seed/fbf3761/600/600",
+                        "file_name": "61ZEFReVuRL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "793a46d43aea231c8eec790d9626eef8",
+                        "http_path": "https://picsum.photos/seed/ebe4a4b8/600/600",
+                        "file_name": "6147G0d-q4L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "e7c7d0beddde7969f076b06afd8e980d",
+                        "http_path": "https://picsum.photos/seed/d2b36a0a/600/600",
+                        "file_name": "61no9WRFk9L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "afb0c1dd6f21395fc7e1ac3f88151dac",
+                        "http_path": "https://picsum.photos/seed/cf5ed445/600/600",
+                        "file_name": "61RDDxAOpJL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "ab121c292979becbb57bbf6505d7aa09",
+                        "http_path": "https://picsum.photos/seed/20201f03/600/600",
+                        "file_name": "71F3raH15AL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "manufacturer": "PYEONGCHANGFARM",
+                "brand": "PYEONGCHANG FARM NATURAL FOOD",
+                "weight": 0.82011961464,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 2.3199999976,
+                "height": 1.8499999981,
+                "length": 8.3099999915,
+                "additional_fields": {
+                    "ean_identifiers": [
+                        "8809452230605"
+                    ],
+                    "child_asins": [],
+                    "parent_asin": "",
+                    "model_number": "",
+                    "part_number": "",
+                    "product_type": "SAUCE",
+                    "raw_attributes": {
+                        "container": [
+                            {
+                                "type": [
+                                    {
+                                        "language_tag": "en_US",
+                                        "value": "Tub"
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "melting_temperature": [
+                            {
+                                "unit": "degrees_celsius",
+                                "value": 100,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "specialty": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Vegetarian",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 0.372,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "PYEONGCHANGFARM",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 0.372,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "externally_assigned_product_identifier": [
+                            {
+                                "value": "8809452230605",
+                                "type": "ean",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "[HEALTHY AND RELIABLE] It is a healthy and reliable soy sauce, which is made from the clean and natural vegetables from Korean Gangwon-do area. It has NO coloring, NO preservatives, and NO additives.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "[DEEP FLAVOR] It has been pickled with the mineral-rich deep sea water, which gives deeper and savory flavor.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "[KOREAN TRADITIONAL METHOD] Soy sauce has been fermented and aged for more than a month with the Korean traditional pickling method",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "[FOR VARIETY DISHES] This sweet and savory natural vegetable based soy sauce can be used in variety of dishes. It can be used in fried rice, soup, and any stir-fried dishes for more savory and deeper flavor.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "[WEIGHT] Contains 250ml / 8.45 fl.oz.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_quantity": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_dimensions": [
+                            {
+                                "width": {
+                                    "unit": "inches",
+                                    "value": 2.17
+                                },
+                                "length": {
+                                    "unit": "inches",
+                                    "value": 1.73
+                                },
+                                "height": {
+                                    "unit": "inches",
+                                    "value": 8.27
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "<b>PYEONCHANGFARM NAMUL SOY SAUCE</b> <p>✔️Contains 20% of Myeongyi(명이), 15% of dried Chwinamul(취나물), and 15% of Korean Thistle/Gondre (고려엉겅퀴)</p> <p>✔️Can be used for...</p> <p>- Fish Cake Soup</p> <p>- Pot Rice</p> <p>- Stir-fried Rice</p> <p>- Any many more!</p> <p>✔️Keep refrigerated once opened</p> <p>✔️Product Dimensions: 2.17*1.73*8.27 inch</p> <p>✔️Weight: 0.71 pound</p> <p>✔️Capacity: 250ml/8.45fl.oz.</p>",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "PYEONGCHANG FARM NATURAL FOOD",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_expiration_type": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Expiration On Package",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "is_expiration_dated_product": [
+                            {
+                                "value": true,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Pyeongchang Namul Soy Sauce 산나물간장 250ml/8.45fl.oz. Korean Gangwon Namul Soy Sauce, Vegetable Based Sauce for Korean Food",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_form": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Liquid",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "list_price": [
+                            {
+                                "currency": "USD",
+                                "value": 20,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_required": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Sweet",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Savoury",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "soy-sauces",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2023-09-12T00:15:52.705Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 4.699
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 5.8928
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 21.1074
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "fc_shelf_life": [
+                            {
+                                "unit": "days",
+                                "value": 800,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "unit_count": [
+                            {
+                                "type": {
+                                    "language_tag": "en_US",
+                                    "value": "Fl Oz"
+                                },
+                                "value": 8.45,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_included": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

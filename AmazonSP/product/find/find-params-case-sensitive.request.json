@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "product.find.json",
+    "query": {
+        "find_where": "sku",
+        "find_value": "T3-AZ75-LDQB",
+        "find_params": "case_sensitive"
+    }
+}

@@ -17,6 +17,31 @@
  *      deliberate full-shape exception per method documented in README.md.
  *   4) <Platform>/.covers.json matches what index.json actually publishes: no orphan covers key
  *      (no matching files on disk), no description drift from index.json.
+ *   5) every "{entity}/count" method's successful response has no top-level pagination and its
+ *      result contains only *_count / additional_fields / custom_fields keys -- catches a
+ *      product.list-shaped response accidentally saved under product/count (APITOCART-46051 #1).
+ *   6) no two cases in the same method have the exact same (endpoint, request payload) --
+ *      duplicate-request cases teach nothing beyond the first and bloat the index the agent reads
+ *      whole (APITOCART-46051 #2).
+ *   7) every request query_cursor has a matching pagination.next somewhere else on the same
+ *      platform -- an orphaned cursor sends an agent down a paginated loop it can never join
+ *      (APITOCART-46051 #3).
+ *   8) return_code != 0 <=> slug starts with "error-", in both directions -- an agent filtering
+ *      cases by the error- prefix must not silently skip a real error case, nor expect an error
+ *      from a slug that promises one but doesn't error (APITOCART-46051 #8).
+ *   9) no slug contains a source label (real/live/rich) as a hyphen-delimited component -- these
+ *      describe how WE captured the case, not what it demonstrates, and are never a stable part of
+ *      the API contract (APITOCART-46051 #7).
+ *  10) an empty `query`/`body` is serialized as `{}`, never `[]`. Checked on the RAW TEXT on
+ *      purpose: PHP decodes both to the same empty array, so no structural check can tell them
+ *      apart -- yet a consumer typing the field as a map (Go, Java, C#, TS Record<string,string>)
+ *      fails on `[]` (APITOCART-46051 #9).
+ *  11) one method never spells the same parameter two ways in its slugs (`return_type-mfn` next to
+ *      `return-type-mfn`). Deliberately scoped to WITHIN a method rather than banning `_` outright:
+ *      seed-from-phpunit.php kebab-cases parameter names, but the EtsyAPIv3 review accepted `_`
+ *      when it is the API parameter's own name, and EtsyAPIv3 uses that consistently. Either
+ *      spelling is fine; mixing them in one folder is what breaks an agent building slugs from a
+ *      template (APITOCART-46051 #11).
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
@@ -56,17 +81,64 @@ function validateDataset(string $platDir): array
 {
   $errors = [];
 
-  // ---- checks 2 + 3, plus the file-pair side of check 1 ----
+  // ---- checks 2 + 3 + 5 + 8 + 9, plus the file-pair side of check 1 ----
   $fsKeys = [];
+  /** @var array<string, string> normalized page_cursor (url-decoded) => "method/slug" that sent it */
+  $cursorSenders = [];
+  /** @var array<string, string> normalized pagination.next (url-decoded) => "method/slug" that returned it */
+  $nextProviders = [];
+  // per-method (endpoint . '|' . normalized payload) => first slug seen -- for check 6
+  $seenPayloads = [];
+
   foreach (glob("$platDir/*/*", GLOB_ONLYDIR) ?: [] as $methodDir) {
     $methodFolder = basename($methodDir);
     $entity = basename(dirname($methodDir));
     $relPath = "$entity/$methodFolder";
+    $payloadsInMethod = [];
+    $slugsInMethod = [];
 
     foreach (glob("$methodDir/*.request.json") ?: [] as $reqFile) {
       $slug = basename($reqFile, '.request.json');
       $key = "$relPath/$slug";
       $respFile = "$methodDir/$slug.response.json";
+
+      $rawRequest = (string)file_get_contents($reqFile);
+      $request = json_decode($rawRequest, true);
+      if (!is_array($request)) {
+        $errors[] = "$platDir: invalid request JSON: $key";
+        continue;
+      }
+
+      // check 10 -- raw text, because json_decode() maps [] and {} onto the same PHP value.
+      if (preg_match('/"(query|body)"\s*:\s*\[/', $rawRequest)) {
+        $errors[] = "$platDir: empty payload serialized as [] instead of {}: $key";
+      }
+
+      // check 9: source label in slug
+      if (preg_match('/(^|-)(real|live|rich)(-|$)/', $slug)) {
+        $errors[] = "$platDir: slug contains a source label (real/live/rich), not part of the API contract: $key";
+      }
+
+      // check 11 (collect): remember this method's slugs for the spelling comparison below.
+      $slugsInMethod[] = $slug;
+
+      // check 6: duplicate (endpoint, payload) within a method
+      $payload = $request['query'] ?? $request['body'] ?? [];
+      if (is_array($payload)) {
+        ksort($payload);
+        $payloadKey = ($request['endpoint'] ?? '') . '|' . json_encode($payload);
+        if (isset($payloadsInMethod[$payloadKey])) {
+          $errors[] = "$platDir: duplicate (endpoint, payload) in $relPath: $slug and {$payloadsInMethod[$payloadKey]} send the exact same request";
+        } else {
+          $payloadsInMethod[$payloadKey] = $slug;
+        }
+      }
+
+      // check 7 (request side): record page_cursor this case sends
+      $cursor = is_array($payload) ? ($payload['page_cursor'] ?? null) : null;
+      if (is_string($cursor) && $cursor !== '') {
+        $cursorSenders[rawurldecode($cursor)] = $key;
+      }
 
       if (!is_file($respFile)) {
         $errors[] = "$platDir: missing response for $key";
@@ -87,6 +159,69 @@ function validateDataset(string $platDir): array
       if (filesize($respFile) > V_MAX_RESPONSE_BYTES && !str_starts_with($slug, 'full-properties')) {
         $errors[] = "$platDir: response exceeds " . V_MAX_RESPONSE_BYTES . " bytes: $key";
       }
+
+      // check 8: return_code != 0 <=> slug starts with "error-"
+      $rc = $response['return_code'] ?? 0;
+      $isErrorSlug = str_starts_with($slug, 'error-');
+      if ($rc !== 0 && !$isErrorSlug) {
+        $errors[] = "$platDir: return_code=$rc but slug has no error- prefix: $key";
+      }
+      if ($rc === 0 && $isErrorSlug) {
+        $errors[] = "$platDir: slug has error- prefix but return_code=0: $key";
+      }
+
+      // check 5: {entity}/count response shape
+      if ($methodFolder === 'count' && $rc === 0) {
+        if (array_key_exists('pagination', $response)) {
+          $errors[] = "$platDir: $key is a *.count response but has top-level pagination (looks like a *.list response saved under count)";
+        }
+        $resultKeys = is_array($response['result'] ?? null) ? array_keys($response['result']) : [];
+        foreach ($resultKeys as $rk) {
+          if (!str_ends_with($rk, '_count') && !in_array($rk, ['additional_fields', 'custom_fields'], true)) {
+            $errors[] = "$platDir: $key is a *.count response but result has an unexpected key '$rk' (looks like a *.list response saved under count)";
+          }
+        }
+      }
+
+      // check 7 (response side): record pagination.next this case provides
+      $next = is_array($response['pagination'] ?? null) ? ($response['pagination']['next'] ?? null) : null;
+      if (is_string($next) && $next !== '') {
+        $nextProviders[rawurldecode($next)] = $key;
+      }
+    }
+
+    // check 11: the same parameter spelled two ways inside this one method.
+    // A slug is `param-value` segments joined by `__`, so a parameter name only ever appears at
+    // the START of a segment. Matching anywhere would give false positives on prose slugs --
+    // `error-no-find-value` contains "find-value" but means "no find value", not the parameter.
+    $segmentsOf = static fn(string $slug): array => explode('__', $slug);
+    foreach ($slugsInMethod as $a) {
+      foreach ($segmentsOf($a) as $segA) {
+        if (!preg_match('/^[a-z0-9]+(?:_[a-z0-9]+)+/', $segA, $mm)) {
+          continue;
+        }
+        $underscored = $mm[0];
+        $hyphenated = str_replace('_', '-', $underscored);
+        foreach ($slugsInMethod as $b) {
+          if ($b === $a) {
+            continue;
+          }
+          foreach ($segmentsOf($b) as $segB) {
+            if (str_starts_with($segB, $hyphenated)) {
+              $errors[] = "$platDir: $relPath spells one parameter two ways -- "
+                . "`$underscored` in `$a` but `$hyphenated` in `$b`; pick one spelling per method";
+              break 4;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // check 7: every page_cursor sent must be traceable to a pagination.next produced somewhere
+  foreach ($cursorSenders as $cursorValue => $senderKey) {
+    if (!isset($nextProviders[$cursorValue])) {
+      $errors[] = "$platDir: $senderKey sends a page_cursor with no matching pagination.next anywhere on this platform (orphaned cursor)";
     }
   }
 

@@ -1,0 +1,63 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "88p1yqpwNi1OqorMKMnNdsqzMDJJzHHUTywJCEosLQwwyY8s8LB0i8gpyjLJKs53NspKcTUxMcsyM3R0C852swQA"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "CURTAIN327duo10",
+                "u_model": null,
+                "price": 1
+            },
+            {
+                "id": "p_69b52ea559329",
+                "u_model": null,
+                "price": 30.22
+            },
+            {
+                "id": "8L-IAZE-42MI",
+                "u_model": null,
+                "price": 0.28
+            },
+            {
+                "id": "9M-MDSD-BEDX",
+                "u_model": null,
+                "price": 0.35
+            },
+            {
+                "id": "A2C-B0BX59ZCKX",
+                "u_model": null,
+                "price": 8
+            },
+            {
+                "id": "A2C-B0BX5BZMX7",
+                "u_model": null,
+                "price": 0.35
+            },
+            {
+                "id": "API2CART-001_Navy",
+                "u_model": null,
+                "price": 8
+            },
+            {
+                "id": "B000JOE224-CHILD-001",
+                "u_model": null,
+                "price": 10
+            },
+            {
+                "id": "B000JOE224-PARENT-APP",
+                "u_model": null,
+                "price": 11
+            },
+            {
+                "id": "BEAUTY-CHILD",
+                "u_model": null,
+                "price": 12.99
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHLEoIgFADQD3LhE8e2CFk65gUnZ1hqGmALtTCMr%2B%2BcdiptvMgGpRM4D33HxM286qI9gFysUkTnS3jD2eBl%2BlERzViDO0EoHqkaroY6eIZK8nmHGufwGVJTs40Tv7j7faYh2X5WHSbGCorjtZ4sKs3b9aJHgSQpafXyBw%3D%3D",
+        "next": "BcHNDoIgAADgB%2BIAUjI7qqlNlyJkjo4oI%2FWAf4Hz6fs%2BrnJ3MbryiaIn8G1%2FPUdWvPEP0VjMWuD04ZVRIEEw7Ly3JGuE2OCTfwQEicvhgu6e7aoumg5d3jiY5ZeZg7UBUkPWFARPuF6SMexf9Rpug4mdTyHfw3llaUlk8wc%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16263471",
+                "parent_id": "16262851",
+                "name": "Crime",
+                "description": "Crime Action & Adventure Movies"
+            },
+            {
+                "id": "44067011",
+                "parent_id": "16262851",
+                "name": "Martial Arts",
+                "description": "Martial Arts Movies"
+            },
+            {
+                "id": "44069011",
+                "parent_id": "16262851",
+                "name": "Science Fiction",
+                "description": "Science Fiction Action & Adventure"
+            },
+            {
+                "id": "44070011",
+                "parent_id": "16262851",
+                "name": "Superheroes",
+                "description": "Superhero Movies"
+            },
+            {
+                "id": "16262901",
+                "parent_id": "16386761",
+                "name": "Comedy",
+                "description": "Comedy"
+            }
+        ]
+    }
+}

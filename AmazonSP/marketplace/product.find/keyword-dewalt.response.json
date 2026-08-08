@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcFJokMwAADQA3UhxvhLqkXMY8OOmhUxV0%2F%2F31NoQCRjv4HVigf5amoEWRT1dVZdnMa2FR0%2BMCUQTgeb3B1SdxHs4lt0fuB3lhEsThhSL3t8U892DoMV4hzRI51n%2Fcs1bfEsGXiZ6Bu42kn0LVfg5Ud16mzi1vcFaBusWqSM6UCm7ZqMOyTSRkL%2F9IRV8y3iTD4JdvmJicEafkt5txylchfVqvirZzxNoawetrNkw6Otf1DQUXJZdKtJWuDU48wsAzNLBcdM9DB%2BfGErtz153lG5lDE%2FjossGhvgLmtaQQYP%2F8cznO5yh2kVyi%2F1sBZ98z3izUkxIjHvY02OvAPMwX3yveTOOqwXfvrsRM0eeh0OWDD305tK76RoAFL3Qf0LDKfmwdnaMVYLYdFfAlbAeIdV8QmGBJ%2BmsGA0EX2lwmOFtNOZDZmZnXdmvtGr2AkrBqkx42ZU2q5P5tEmf80ZW2XelS9RbS81Pf4B"
+    },
+    "result": {
+        "marketplace_products_count": 10,
+        "marketplace_product": [
+            {
+                "id": "B00IJ0ALYS",
+                "name": "DEWALT 20V MAX Cordless Drill and Impact Driver, Power Tool Combo Kit with 2 Batteries and Charger (DCK240C2)",
+                "description": "",
+                "price": 239
+            },
+            {
+                "id": "B085B253MD",
+                "name": "DEWALT 20V MAX XR Oscillating Tool Kit, 3-Speed (DCS356C1)",
+                "description": "",
+                "price": 219
+            },
+            {
+                "id": "B00KQU1ENG",
+                "name": "DEWALT 20V MAX XR Battery, 5 Ah, 2-Pack (DCB205-2)",
+                "description": "",
+                "price": 259
+            },
+            {
+                "id": "B007NVSTO8",
+                "name": "DEWALT 20V MAX Circular Saw, 6-1/2-Inch Blade, 460 MWO Engine, 0-50 Degree Bevel Capability, Bare Tool Only (DCS391B)",
+                "description": "",
+                "price": 159
+            },
+            {
+                "id": "B0052MILZM",
+                "name": "DEWALT 20V MAX* LED Work Light/Flashlight (DCL040)",
+                "description": "",
+                "price": 84
+            },
+            {
+                "id": "B07Z6X4WBN",
+                "name": "DEWALT DWAF2058CS 18 pc. Compact Magnetic Drive Guide Set, Yellow",
+                "description": "",
+                "price": 16.53
+            },
+            {
+                "id": "B07DH55YRX",
+                "name": "DEWALT Drill Bit Set, 14-Piece, 135 Degree Split Point, For Plastic, Wood and Metal (DWA1184)",
+                "description": "",
+                "price": 16.99
+            },
+            {
+                "id": "B0CXZJSB49",
+                "name": "DEWALT DPG110 Chisel Unisex Trim-Fit Half Frame Protective Eyewear, Black Frame Smoke Lens",
+                "description": "",
+                "price": 6.92
+            },
+            {
+                "id": "B0CQMSY7ZM",
+                "name": "DEWALT Impact Connect Pipe Cutter, PVC Cutter, Diamond Grit Cutting Wheel (DWAIPCIR)",
+                "description": "",
+                "price": 29.99
+            },
+            {
+                "id": "B00GMXFK3G",
+                "name": "DEWALT Screwdriver Bit Set, Impact Ready, FlexTorq, 40-Piece (DWA2T40IR)",
+                "description": "",
+                "price": 39.99
+            }
+        ]
+    }
+}

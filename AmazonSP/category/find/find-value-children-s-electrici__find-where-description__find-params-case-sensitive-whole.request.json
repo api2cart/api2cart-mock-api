@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-27T10:01:54Z",
+    "method": "GET",
+    "endpoint": "category.find.json",
+    "query": {
+        "find_value": "Children's Electricity Books",
+        "find_where": "description",
+        "find_params": "case_sensitive,whole_words"
+    }
+}

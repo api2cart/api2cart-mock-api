@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQTzJMmz4yKgcJZZm3N0UGkWJzQM2v7xxNSXQQy7BDZMxf9wZSzt9ywzPBjNeYBtdPiQzEPKFPc5kLQdup2zZrXDpVSViKFRwzEbLv3i7c9jUcNRC2%2BPUujk%2BadNZTX4GzbpFO10w5T5QM8ptkD4axGqI%2F"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "3009141",
+                "parent_id": "226184",
+                "name": "Subwoofers",
+                "description": "Car Audio Subwoofers"
+            },
+            {
+                "id": "2335753011",
+                "parent_id": "0",
+                "name": "Cell Phones & Accessories",
+                "description": "Cell Phones & Accessories"
+            }
+        ]
+    }
+}

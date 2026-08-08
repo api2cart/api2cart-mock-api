@@ -1,0 +1,103 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHRDoIgAADAT8qcM3xEiAUKTsmRvilqgRqNWs6%2BvjvLWRSPrg8QG3JT3SDXer7%2F6Mqo0IryQ%2FG6oiekGojJiB6S5aHq3dZubAuUQbadJDQu70qW7vMgPo0IsLLhW%2Fr0gkuAfCs3nCWLj2JSJgBU0zc7KuLWs8cybPo%2F"
+    },
+    "result": {
+        "categories_count": 15,
+        "category": [
+            {
+                "id": "3009141",
+                "parent_id": "226184",
+                "name": "Subwoofers",
+                "description": "Car Audio Subwoofers"
+            },
+            {
+                "id": "2335753011",
+                "parent_id": "0",
+                "name": "Cell Phones & Accessories",
+                "description": "Cell Phones & Accessories"
+            },
+            {
+                "id": "24046923011",
+                "parent_id": "493964",
+                "name": "Headphones, Earbuds & Accessories",
+                "description": "Headphones, Earbuds & Accessories"
+            },
+            {
+                "id": "689637011",
+                "parent_id": "172623",
+                "name": "Portable Speakers & Docks",
+                "description": "Portable Cell Phone & MP3 Player Speakers & Audio Docks"
+            },
+            {
+                "id": "493964",
+                "parent_id": "0",
+                "name": "Electronics",
+                "description": "Electronics"
+            },
+            {
+                "id": "281407",
+                "parent_id": "493964",
+                "name": "Accessories & Supplies",
+                "description": "Electronics Accessories & Supplies"
+            },
+            {
+                "id": "12954861",
+                "parent_id": "281407",
+                "name": "Cables",
+                "description": "Electronics Cables"
+            },
+            {
+                "id": "12954881",
+                "parent_id": "12954861",
+                "name": "Car Electronics",
+                "description": "Car Electronics Cables"
+            },
+            {
+                "id": "172435",
+                "parent_id": "502394",
+                "name": "Accessories",
+                "description": "Camera & Photo Accessories"
+            },
+            {
+                "id": "13535371",
+                "parent_id": "172435",
+                "name": "Batteries & Chargers",
+                "description": "Camera & Camcorder Batteries & Chargers"
+            },
+            {
+                "id": "21612104011",
+                "parent_id": "13535371",
+                "name": "Battery & Charger Sets",
+                "description": "Camera & Camcorder Battery & Charger Sets"
+            },
+            {
+                "id": "172840",
+                "parent_id": "172435",
+                "name": "Blank Video Media",
+                "description": "Camera & Photo Blank Media"
+            },
+            {
+                "id": "505106",
+                "parent_id": "7161073011",
+                "name": "Camcorder Accessories",
+                "description": "Camcorder Accessories"
+            },
+            {
+                "id": "3349701",
+                "parent_id": "3348501",
+                "name": "Light Boxes & Loupes",
+                "description": "Camera Light Boxes & Loupes"
+            },
+            {
+                "id": "505110",
+                "parent_id": "172435",
+                "name": "Digital Camera Accessories",
+                "description": "Digital Camera Accessories"
+            }
+        ]
+    }
+}
