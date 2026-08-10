@@ -5,17 +5,19 @@
  * Standalone dataset validator for api2cart-mock-api. Unlike the generator scripts under
  * scripts/capture/ and build-index.php -- which stay in the app repo's generation workspace and
  * are never published -- this script ships in the public repo so external contributors and CI can
- * verify a platform dataset without access to the generator or the api2cart app.
+ * verify an integration dataset without access to the generator or the api2cart app.
  *
- * Checks, per platform directory (<dataset>/<Platform>):
+ * Checks, per integration directory (<dataset>/<Integration>):
  *   1) index.json <-> filesystem, both directions: index entries with no matching file pair on
  *      disk (stale index), and file pairs on disk with no index entry (index not regenerated).
  *   2) every {slug}.response.json carries the API2Cart response envelope: return_code,
  *      return_message, result.
  *   3) every {slug}.response.json is <= 512 KiB (524288 bytes), mirroring build-index.php /
  *      seed-from-phpunit.php -- except a case whose slug starts with "full-properties", the one
- *      deliberate full-shape exception per method documented in README.md.
- *   4) <Platform>/.covers.json matches what index.json actually publishes: no orphan covers key
+ *      deliberate full-shape exception per method documented in README.md, which gets a looser but
+ *      still real ceiling of 1 MiB (a full-shape case is still meant to be readable by the primary
+ *      consumer, not an excuse to skip trimming the request with count/response_fields).
+ *   4) <Integration>/.covers.json matches what index.json actually publishes: no orphan covers key
  *      (no matching files on disk), no description drift from index.json.
  *   5) every "{entity}/count" method's successful response has no top-level pagination and its
  *      result contains only *_count / additional_fields / custom_fields keys -- catches a
@@ -24,7 +26,7 @@
  *      duplicate-request cases teach nothing beyond the first and bloat the index the agent reads
  *      whole (APITOCART-46051 #2).
  *   7) every request query_cursor has a matching pagination.next somewhere else on the same
- *      platform -- an orphaned cursor sends an agent down a paginated loop it can never join
+ *      integration -- an orphaned cursor sends an agent down a paginated loop it can never join
  *      (APITOCART-46051 #3).
  *   8) return_code != 0 <=> slug starts with "error-", in both directions -- an agent filtering
  *      cases by the error- prefix must not silently skip a real error case, nor expect an error
@@ -36,29 +38,29 @@
  *      purpose: PHP decodes both to the same empty array, so no structural check can tell them
  *      apart -- yet a consumer typing the field as a map (Go, Java, C#, TS Record<string,string>)
  *      fails on `[]` (APITOCART-46051 #9).
- *  11) one method never spells the same parameter two ways in its slugs (`return_type-mfn` next to
- *      `return-type-mfn`). Deliberately scoped to WITHIN a method rather than banning `_` outright:
- *      seed-from-phpunit.php kebab-cases parameter names, but the EtsyAPIv3 review accepted `_`
- *      when it is the API parameter's own name, and EtsyAPIv3 uses that consistently. Either
- *      spelling is fine; mixing them in one folder is what breaks an agent building slugs from a
- *      template (APITOCART-46051 #11).
+ *  11) a slug uses `_` only as the `__` parameter separator -- parameter NAMES are kebab-cased
+ *      (`find-where-name`, not `find_where-name`), which is what seed-from-phpunit.php's slugFor()
+ *      emits. Repo-wide since APITOCART-46051 #13 normalised EtsyAPIv3's 30 legacy slugs; before
+ *      that this could only be enforced within a method. Note this constrains the SLUG only: the
+ *      parameter names inside `query`/`body` keep their real API spelling (`find_where`, `sort_by`).
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
  * re-running the generator. This script only reads the dataset tree.
  *
- * Usage: php validate.php <dataset>/<Platform> [<dataset>/<Platform> ...]
+ * Usage: php validate.php <dataset>/<Integration> [<dataset>/<Integration> ...]
  * Exit code: 0 = all checks pass, 1 = at least one issue found.
  */
 
 declare(strict_types=1);
 
 const V_MAX_RESPONSE_BYTES = 524288; // 512 KiB
+const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-properties" exception itself
 
 if (PHP_SAPI === 'cli' && realpath($argv[0]) === realpath(__FILE__)) {
   $platDirs = array_slice($argv, 1);
   if (!$platDirs) {
-    fwrite(STDERR, "usage: php validate.php <dataset>/<Platform> [...]\n");
+    fwrite(STDERR, "usage: php validate.php <dataset>/<Integration> [...]\n");
     exit(2);
   }
 
@@ -95,7 +97,6 @@ function validateDataset(string $platDir): array
     $entity = basename(dirname($methodDir));
     $relPath = "$entity/$methodFolder";
     $payloadsInMethod = [];
-    $slugsInMethod = [];
 
     foreach (glob("$methodDir/*.request.json") ?: [] as $reqFile) {
       $slug = basename($reqFile, '.request.json');
@@ -119,8 +120,11 @@ function validateDataset(string $platDir): array
         $errors[] = "$platDir: slug contains a source label (real/live/rich), not part of the API contract: $key";
       }
 
-      // check 11 (collect): remember this method's slugs for the spelling comparison below.
-      $slugsInMethod[] = $slug;
+      // check 11: `_` only as the `__` separator; parameter names are kebab-cased in slugs.
+      if (str_contains(str_replace('__', '-', $slug), '_')) {
+        $errors[] = "$platDir: slug spells a parameter name with `_`; kebab-case it "
+          . "(`find-where-name`, not `find_where-name`) -- `__` is only the parameter separator: $key";
+      }
 
       // check 6: duplicate (endpoint, payload) within a method
       $payload = $request['query'] ?? $request['body'] ?? [];
@@ -156,8 +160,13 @@ function validateDataset(string $platDir): array
         || !array_key_exists('result', $response)) {
         $errors[] = "$platDir: missing API2Cart response envelope (return_code/return_message/result): $key";
       }
-      if (filesize($respFile) > V_MAX_RESPONSE_BYTES && !str_starts_with($slug, 'full-properties')) {
+      $isFullProperties = str_starts_with($slug, 'full-properties');
+      if (filesize($respFile) > V_MAX_RESPONSE_BYTES && !$isFullProperties) {
         $errors[] = "$platDir: response exceeds " . V_MAX_RESPONSE_BYTES . " bytes: $key";
+      }
+      if ($isFullProperties && filesize($respFile) > V_MAX_FULL_PROPERTIES_BYTES) {
+        $errors[] = "$platDir: full-properties response exceeds " . V_MAX_FULL_PROPERTIES_BYTES
+          . " bytes -- even the full-shape exception has a ceiling, recapture with a smaller count: $key";
       }
 
       // check 8: return_code != 0 <=> slug starts with "error-"
@@ -190,38 +199,12 @@ function validateDataset(string $platDir): array
       }
     }
 
-    // check 11: the same parameter spelled two ways inside this one method.
-    // A slug is `param-value` segments joined by `__`, so a parameter name only ever appears at
-    // the START of a segment. Matching anywhere would give false positives on prose slugs --
-    // `error-no-find-value` contains "find-value" but means "no find value", not the parameter.
-    $segmentsOf = static fn(string $slug): array => explode('__', $slug);
-    foreach ($slugsInMethod as $a) {
-      foreach ($segmentsOf($a) as $segA) {
-        if (!preg_match('/^[a-z0-9]+(?:_[a-z0-9]+)+/', $segA, $mm)) {
-          continue;
-        }
-        $underscored = $mm[0];
-        $hyphenated = str_replace('_', '-', $underscored);
-        foreach ($slugsInMethod as $b) {
-          if ($b === $a) {
-            continue;
-          }
-          foreach ($segmentsOf($b) as $segB) {
-            if (str_starts_with($segB, $hyphenated)) {
-              $errors[] = "$platDir: $relPath spells one parameter two ways -- "
-                . "`$underscored` in `$a` but `$hyphenated` in `$b`; pick one spelling per method";
-              break 4;
-            }
-          }
-        }
-      }
-    }
   }
 
   // check 7: every page_cursor sent must be traceable to a pagination.next produced somewhere
   foreach ($cursorSenders as $cursorValue => $senderKey) {
     if (!isset($nextProviders[$cursorValue])) {
-      $errors[] = "$platDir: $senderKey sends a page_cursor with no matching pagination.next anywhere on this platform (orphaned cursor)";
+      $errors[] = "$platDir: $senderKey sends a page_cursor with no matching pagination.next anywhere on this integration (orphaned cursor)";
     }
   }
 

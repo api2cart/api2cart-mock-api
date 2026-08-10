@@ -1,0 +1,17 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "sku": "test",
+                "name": "test",
+                "description": "test",
+                "categories_ids": [
+                    "test"
+                ]
+            }
+        ]
+    }
+}

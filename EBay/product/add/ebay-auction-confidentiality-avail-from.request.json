@@ -1,0 +1,28 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test product 52",
+        "description": "Test product",
+        "sku": "test525",
+        "price": 10.55,
+        "listing_duration": "Days_1",
+        "categories_ids": "11632,57974",
+        "condition": "New With Box",
+        "buyitnow_price": 15.4,
+        "reserve_price": 15.05,
+        "quantity": 1,
+        "upc": "711719709893",
+        "ean": "0711719709893",
+        "isbn": "9781474837637",
+        "listing_type": "Auction",
+        "auction_confidentiality_level": "private",
+        "avail_from": "2026-01-12",
+        "seller_profiles": {
+            "shipping_profile_id": "5570815000",
+            "payment_profile_id": "5575460000",
+            "return_profile_id": "5615960000"
+        }
+    }
+}

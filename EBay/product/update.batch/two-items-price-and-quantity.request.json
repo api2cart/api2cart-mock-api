@@ -1,0 +1,17 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.update.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": "110590173974",
+                "price": 44.99
+            },
+            {
+                "id": "110590173973",
+                "quantity": 3
+            }
+        ]
+    }
+}

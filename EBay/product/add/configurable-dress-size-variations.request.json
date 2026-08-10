@@ -1,0 +1,47 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "categories_ids": "105417",
+        "condition": "New with tags",
+        "description": "<p>PC_TEST_DESC#2023-0</p>",
+        "listing_duration": "GTC",
+        "listing_type": "FixedPrice",
+        "name": "New configurable product",
+        "product_type": "configurable",
+        "package_details": {
+            "measure_unit": "English",
+            "package_depth": 7,
+            "package_length": 5,
+            "package_width": 6,
+            "weigh_unit": "lbs",
+            "weight_major": 1,
+            "weight_minor": 2
+        },
+        "payment_methods": [
+            "CashOnPickup"
+        ],
+        "shipping_details": [
+            {
+                "shipping_service": "USPSParcel",
+                "shipping_cost": 0
+            }
+        ],
+        "return_accepted": true,
+        "price": 75,
+        "quantity": 1,
+        "specifics": [
+            {
+                "name": "Size",
+                "value": "XS",
+                "used_for_variations": true
+            },
+            {
+                "name": "Dress Length",
+                "value": "Knee Length",
+                "used_for_variations": true
+            }
+        ]
+    }
+}

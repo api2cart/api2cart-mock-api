@@ -5,22 +5,23 @@ API2Cart REST API **without a live store**. Nothing runs live — this is a stat
 of captured example pairs. Primary consumer: AI agents.
 
 These mocks reproduce **API2Cart REST responses** (the shape API2Cart returns), not the
-native platform API. Response shape differs per platform, so mocks are captured per platform.
+native integration's own API. Response shape differs per integration, so mocks are captured
+per integration.
 
 ## Start here (for agents)
 
-1. Read `index.json` (root) — list of platforms, each pointing to `{Platform}/index.json`.
-2. Read `{Platform}/index.json` — every method with its cases; each case has `covers`
+1. Read `index.json` (root) — list of integrations, each pointing to `{Integration}/index.json`.
+2. Read `{Integration}/index.json` — every method with its cases; each case has `covers`
    (what it demonstrates) and `captured_at`. Do not crawl the tree; the index is the source
    of truth.
 
 ## Layout
 
 ```
-index.json                                  # platforms → {Platform}/index.json
-{Platform}/index.json                        # entity / method / case index
-{Platform}/{entity}/{method}/{case}.request.json
-{Platform}/{entity}/{method}/{case}.response.json
+index.json                                    # integrations → {Integration}/index.json
+{Integration}/index.json                      # entity / method / case index
+{Integration}/{entity}/{method}/{case}.request.json
+{Integration}/{entity}/{method}/{case}.response.json
 ```
 
 Method folder naming keeps the API2Cart method string 1:1 — dots are **not** split into
@@ -36,7 +37,8 @@ two, an agent has no example of how to learn the outcome of an async batch opera
 up next to whichever `*.batch` method created the job.
 
 `marketplace.*` methods (e.g. `marketplace.product.find`) are a different kind of entity: they
-query Amazon's public product catalog, not the connected store's own inventory. Treat their
+query the connected integration's own public product catalog (Amazon's ASIN/UPC/EAN catalog for
+AmazonSP, eBay's catalog for EBay, ...), not the connected store's own inventory. Treat their
 mocks as catalog lookups, not store-data examples.
 
 ## File formats
@@ -60,29 +62,33 @@ the case actually carries.
 ## Case slugs
 
 Use kebab-case. Errors begin with `error-`; multiple meaningful parameters are separated by `__`.
-Platform prefixes such as `etsy-` are reserved for platform-specific behavior. Never put opaque
-cursor values, source labels (`real`, `live`, `rich`) or secrets in a slug.
+Integration prefixes such as `etsy-` are reserved for integration-specific behavior. Never put
+opaque cursor values, source labels (`real`, `live`, `rich`) or secrets in a slug.
 
-## Validating a platform
+## Validating an integration
 
 `scripts/validate.php` ships in this repo and needs nothing but the dataset tree itself —
-no access to the api2cart app or its OpenAPI files:
+no access to the api2cart app or its OpenAPI files. Pass it any subset of the integration
+directories at the repo root — e.g., all three current ones:
 
 ```bash
-php scripts/validate.php AmazonSP EtsyAPIv3
+php scripts/validate.php AmazonSP EBay EtsyAPIv3
 ```
 
-It checks, per platform: `index.json` matches the filesystem in both directions, every response
+It checks, per integration: `index.json` matches the filesystem in both directions, every response
 carries the `return_code`/`return_message`/`result` envelope, no response exceeds 512 KiB except
-a `full-properties`-slugged case, `.covers.json` has no orphaned or drifted entries, `*.count`
+a `full-properties`-slugged case (which gets a looser but still real 1 MiB ceiling of its own),
+`.covers.json` has no orphaned or drifted entries, `*.count`
 responses are not list-shaped, no two cases in a method send the identical request, every
 `page_cursor` has a source, `return_code != 0` matches the `error-` slug prefix, slugs carry no
 source label and kebab-case their parameter names, and empty payloads serialize as `{}` not `[]`.
-Exit code 0 = clean. `.github/workflows/validate.yml` runs it on every platform on push and PR.
+Exit code 0 = clean. `.github/workflows/validate.yml` discovers every integration directory in the
+repo automatically and runs it on push and PR, so a newly added integration is covered without
+editing the workflow.
 
-Platforms are added one at a time, but **the conventions above are repo-wide** — a new platform
-does not get to bring its own. If something genuinely does not fit, change the rule and the
-check for everyone rather than carving out an exception for one platform.
+Integrations are added one at a time, but **the conventions above are repo-wide** — a new
+integration does not get to bring its own. If something genuinely does not fit, change the rule
+and the check for everyone rather than carving out an exception for one integration.
 
 ## Contract (stability)
 

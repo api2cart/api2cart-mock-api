@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "from_addMediumTC1",
+        "status": "test"
+    }
+}

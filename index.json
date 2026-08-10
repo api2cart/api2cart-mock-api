@@ -1,12 +1,16 @@
 {
     "schema_version": 1,
-    "platforms": [
+    "integrations": [
         {
-            "platform": "AmazonSP",
+            "integration": "AmazonSP",
             "index": "AmazonSP/index.json"
         },
         {
-            "platform": "EtsyAPIv3",
+            "integration": "EBay",
+            "index": "EBay/index.json"
+        },
+        {
+            "integration": "EtsyAPIv3",
             "index": "EtsyAPIv3/index.json"
         }
     ]

@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "DELETE",
+    "endpoint": "product.variant.image.delete.json",
+    "query": {
+        "id": "from_addImageSmallTC1",
+        "product_variant_id": "from_addMediumTC1",
+        "product_id": "110588641178"
+    }
+}

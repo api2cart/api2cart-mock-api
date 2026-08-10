@@ -1,0 +1,48 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "20081",
+        "parent_id": "0",
+        "created_at": null,
+        "modified_at": null,
+        "name": "Antiques",
+        "description": null,
+        "stores_ids": [],
+        "keywords": null,
+        "meta_description": null,
+        "meta_title": null,
+        "avail": true,
+        "seo_url": null,
+        "sort_order": null,
+        "images": [],
+        "additional_fields": {
+            "best_offer_enabled": false,
+            "leaf_category": false,
+            "category_level": 1,
+            "child_categories": [
+                "12",
+                "1217",
+                "2207",
+                "4707",
+                "20082",
+                "20091",
+                "20094",
+                "20096",
+                "22422",
+                "23048",
+                "37958",
+                "37965",
+                "37978",
+                "156323",
+                "163091",
+                "181726",
+                "261588",
+                "261755"
+            ],
+            "product_specifics": [],
+            "product_features": [],
+            "conditions": []
+        }
+    }
+}

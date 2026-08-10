@@ -1,6 +1,6 @@
 {
-    "platform": "EtsyAPIv3",
-    "generated_at": "2026-08-08T09:24:23Z",
+    "integration": "EtsyAPIv3",
+    "generated_at": "2026-08-10T16:45:04Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -40,7 +40,7 @@
                     "request": "cart/info/rf-name.request.json",
                     "response": "cart/info/rf-name.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "field selection: name"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 },
@@ -49,7 +49,7 @@
                     "request": "cart/info/rf-stores-info.request.json",
                     "response": "cart/info/rf-stores-info.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "field selection: stores_info"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 },
@@ -58,7 +58,7 @@
                     "request": "cart/info/rf-test.request.json",
                     "response": "cart/info/rf-test.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "field selection: test"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 },
@@ -67,7 +67,7 @@
                     "request": "cart/info/rf-url.request.json",
                     "response": "cart/info/rf-url.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "field selection: url"
                     },
                     "captured_at": "2026-07-23T11:23:37Z"
                 }
@@ -1681,7 +1681,7 @@
                     "request": "product/list/rf-product-id-u-model-price.request.json",
                     "response": "product/list/rf-product-id-u-model-price.response.json",
                     "covers": {
-                        "description": "selected response fields"
+                        "description": "field selection: product.id,product.u_model,product.price"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },

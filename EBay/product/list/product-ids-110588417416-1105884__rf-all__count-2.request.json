@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-10T11:24:19Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "product_ids": "110588417416,110588418325,110588418328,110588419419",
+        "response_fields": "{*}",
+        "count": 2
+    }
+}

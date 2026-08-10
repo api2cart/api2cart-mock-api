@@ -1,0 +1,97 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "categories_ids": "11632,57974",
+        "condition": "New Without Box",
+        "condition_description": "100% new",
+        "description": "<p>Step into cozy comfort with these adorable slip-on cotton slippers.</p>",
+        "listing_duration": "Days_3",
+        "listing_type": "FixedPrice",
+        "name": "Product for relisting Configurable",
+        "package_details": {
+            "measure_unit": "English",
+            "package_depth": 4,
+            "package_length": 3,
+            "package_width": 5,
+            "weigh_unit": "lbs",
+            "weight_major": 1,
+            "weight_minor": 2
+        },
+        "price": 10.225544555552,
+        "quantity": 1,
+        "seller_profiles": {
+            "payment_profile_id": "5575460000",
+            "return_profile_id": "5615960000",
+            "shipping_profile_id": "5570815000"
+        },
+        "sku": "sku8885586_for_relist_configurable",
+        "specifics": [
+            {
+                "name": "Color",
+                "value": "Black"
+            },
+            {
+                "name": "Size",
+                "value": "L"
+            },
+            {
+                "name": "Brand",
+                "value": "Unbranded"
+            },
+            {
+                "name": "Style",
+                "value": "Slip-On"
+            },
+            {
+                "name": "Color",
+                "value": "White"
+            },
+            {
+                "name": "Department",
+                "value": "Women"
+            },
+            {
+                "name": "Type",
+                "value": "Slipper"
+            },
+            {
+                "name": "US Shoe Size",
+                "value": "7"
+            },
+            {
+                "name": "Upper Material",
+                "value": "Cotton"
+            },
+            {
+                "name": "UK Shoe Size",
+                "value": "6"
+            },
+            {
+                "name": "AU Shoe Size",
+                "value": "6.5"
+            },
+            {
+                "name": "Model",
+                "value": "other"
+            },
+            {
+                "name": "Theme",
+                "value": "Animals,Cat"
+            },
+            {
+                "name": "Character",
+                "value": "Cowgirl"
+            },
+            {
+                "name": "Handmade",
+                "value": "No"
+            },
+            {
+                "name": "Washable",
+                "value": "no"
+            }
+        ]
+    }
+}

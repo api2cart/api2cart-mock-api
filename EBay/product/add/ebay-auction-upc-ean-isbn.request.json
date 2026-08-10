@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test product 22",
+        "description": "Test product",
+        "sku": "test22",
+        "price": 2.55,
+        "listing_duration": "Days_1",
+        "categories_ids": "105417",
+        "condition": "New Without Tags",
+        "buyitnow_price": 3.4,
+        "reserve_price": 3.05,
+        "quantity": 1,
+        "upc": "711719709893",
+        "ean": "0711719709893",
+        "isbn": "9781474837637",
+        "listing_type": "Auction"
+    }
+}

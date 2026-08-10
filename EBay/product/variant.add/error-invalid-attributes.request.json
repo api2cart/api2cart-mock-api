@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "1",
+        "attributes": "test"
+    }
+}

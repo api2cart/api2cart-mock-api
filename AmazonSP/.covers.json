@@ -24,7 +24,7 @@
         "description": "happy path: variant batch fully processed and succeeded (job_id from product.variant.add.batch amazonsp-sweater-variants)"
     },
     "batch/job.result/id-149-update-not-found": {
-        "description": "batch job result: every item fails update with the platform's not-found message"
+        "description": "batch job result: every item fails update with the integration's not-found message"
     },
     "batch/job.result/id-165-update-mixed-statuses": {
         "description": "batch job result: all three item statuses in one job -- success / partial (\"nothing to update\", still counted as not-succeed) / failed with a validation message"
@@ -36,13 +36,13 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "cart/info/rf-all": {
-        "description": "field selection: {*}"
+        "description": "full response fields"
     },
     "cart/info/rf-stores-info": {
-        "description": "field selection: {result{stores_info}}"
+        "description": "field selection: stores_info"
     },
     "cart/info/rf-url": {
-        "description": "field selection: {result{url}}"
+        "description": "field selection: url"
     },
     "category/count/basic": {
         "description": "happy path (no filters)"
@@ -117,7 +117,7 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "category/info/full-properties": {
-        "description": "reference: full platform-specific properties (large response)"
+        "description": "reference: full integration-specific properties (large response)"
     },
     "category/info/id-16261641": {
         "description": "info by id: \"Amazon Instant Video\""
@@ -132,10 +132,10 @@
         "description": "info by id: \"Movies\""
     },
     "category/info/id-3009141__rf-all__schema-type-listing-offer-only": {
-        "description": "field selection: {*}"
+        "description": "filter: schema_type=LISTING_OFFER_ONLY"
     },
     "category/info/id-7072561011__rf-notexisting": {
-        "description": "field selection: {result{notExisting}}"
+        "description": "field selection: notExisting"
     },
     "category/list/basic": {
         "description": "happy path: first page"
@@ -237,7 +237,7 @@
         "description": "pagination: page 1 (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
     },
     "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20": {
-        "description": "field selection: {result{marketplace_product{id}}}"
+        "description": "search: matching keyword"
     },
     "marketplace/product.find/page-2": {
         "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2"
@@ -342,13 +342,13 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11": {
-        "description": "field selection: {result{order{id,order_id,create_at}}}"
+        "description": "filter: modified_from (lower bound)"
     },
     "order/list/rf-order-id-order-id-total-order-__rounding-precision-1": {
         "description": "rounding_precision=1 applied to order totals; response_fields narrowed to id, order_id, total, order_products, additional_fields"
     },
     "order/list/rf-order-id-order-products-shippi": {
-        "description": "field selection: {result{order{id,order_products,shipping_address,billing_address}}}"
+        "description": "field selection: order.id,order.order_products,order.shipping_address,order.billing_address"
     },
     "order/list/start-0": {
         "description": "pagination: start=0 (explicit first-page offset)"
@@ -564,7 +564,7 @@
         "description": "same field selection and created_to as above, plus avail_view=true"
     },
     "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54": {
-        "description": "field selection: {result{product{id,u_model,name,price,url,create_at}}}"
+        "description": "filter: date range (created/modified from-to)"
     },
     "product/list/start-100__count-13": {
         "description": "pagination: start=100 offset with count=13 (deep into the catalog)"

@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "DcrBDoIgAADQTzKIiR6tUKxgEjOHx7IEg0rJzfj6eueXBSrAqhB%2BxmamX95lqmcY3YsByFt9rbxNUWTx5ZUHgoCXpqwVgYzqiSB34skO9a59uP0ic%2FNpOije5mhhWVVPSE05FttEx%2FoQ%2FfM4pcNmWC%2Bh4YLF6sw9cEj8AA%3D%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "0",
+                "parent_id": "0",
+                "name": "Root",
+                "description": null
+            },
+            {
+                "id": "1",
+                "parent_id": "0",
+                "name": "Collectibles",
+                "description": null
+            },
+            {
+                "id": "12",
+                "parent_id": "20081",
+                "name": "Other Antiques",
+                "description": null
+            },
+            {
+                "id": "28",
+                "parent_id": "1430",
+                "name": "Other Collectible Metalware",
+                "description": null
+            },
+            {
+                "id": "30",
+                "parent_id": "717",
+                "name": "Other Vintage & Antique Toys",
+                "description": null
+            },
+            {
+                "id": "34",
+                "parent_id": "1",
+                "name": "Advertising",
+                "description": null
+            },
+            {
+                "id": "35",
+                "parent_id": "13623",
+                "name": "Other Merch & Memorabilia Ads",
+                "description": null
+            },
+            {
+                "id": "36",
+                "parent_id": "34",
+                "name": "Soda",
+                "description": null
+            },
+            {
+                "id": "37",
+                "parent_id": "35692",
+                "name": "Other Soda Memorabilia",
+                "description": null
+            },
+            {
+                "id": "38",
+                "parent_id": "13600",
+                "name": "Other Coca-Cola Ads",
+                "description": null
+            }
+        ]
+    }
+}

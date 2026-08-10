@@ -1,0 +1,47 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "categories_ids": "139968",
+        "condition": "New",
+        "description": "<p>苹果电脑</p>",
+        "listing_duration": "GTC",
+        "listing_type": "FixedPrice",
+        "name": "test_product_for_relisting_new_sku",
+        "sku": "sku0126_for_relist",
+        "package_details": {
+            "measure_unit": "English",
+            "package_depth": 13,
+            "package_length": 11,
+            "package_width": 12,
+            "weigh_unit": "oz",
+            "weight_major": 11,
+            "weight_minor": 1
+        },
+        "price": 30.456877414,
+        "product_type": "configurable",
+        "quantity": 1,
+        "seller_profiles": {
+            "payment_profile_id": "5575460000",
+            "return_profile_id": "5615960000",
+            "shipping_profile_id": "5570815000"
+        },
+        "specifics": [
+            {
+                "name": "Brand",
+                "value": "3Com"
+            },
+            {
+                "name": "Type",
+                "value": "Analog Answering Machine",
+                "used_for_variations": true
+            },
+            {
+                "name": "Model",
+                "value": "AT%26T 1506",
+                "used_for_variations": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "shipment_count": 1,
+        "shipment": [
+            {
+                "id": "EE199738891DS",
+                "order_id": "01-14759-05993",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "DPD",
+                        "tracking_number": "EE199738891DS"
+                    }
+                ],
+                "items": [
+                    {
+                        "order_product_id": "10081556356501",
+                        "product_id": "186762837321",
+                        "variant_id": null,
+                        "model": null,
+                        "name": "Deluxe Device 811",
+                        "price": 352.5,
+                        "quantity": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

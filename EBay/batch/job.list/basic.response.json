@@ -1,0 +1,61 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "jobs": [
+            {
+                "id": "448",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-10T07:05:37+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-10T07:06:53+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "449",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-10T07:09:26+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-10T07:09:48+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "450",
+                "method": "product.update.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-10T07:10:08+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-10T07:10:19+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "451",
+                "method": "product.add.batch",
+                "status": "pending",
+                "created_time": {
+                    "value": "2026-08-10T07:16:01+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": null
+            }
+        ]
+    }
+}

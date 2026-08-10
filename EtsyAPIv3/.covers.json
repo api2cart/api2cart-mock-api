@@ -9,16 +9,16 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "cart/info/rf-name": {
-        "description": "selected response fields"
+        "description": "field selection: name"
     },
     "cart/info/rf-stores-info": {
-        "description": "selected response fields"
+        "description": "field selection: stores_info"
     },
     "cart/info/rf-test": {
-        "description": "selected response fields"
+        "description": "field selection: test"
     },
     "cart/info/rf-url": {
-        "description": "selected response fields"
+        "description": "field selection: url"
     },
     "category/count/basic": {
         "description": "happy path: total count"
@@ -507,7 +507,7 @@
         "description": "full response fields"
     },
     "product/list/rf-product-id-u-model-price": {
-        "description": "selected response fields"
+        "description": "field selection: product.id,product.u_model,product.price"
     },
     "product/list/sku-bag-01": {
         "description": "pagination: start/count offset"

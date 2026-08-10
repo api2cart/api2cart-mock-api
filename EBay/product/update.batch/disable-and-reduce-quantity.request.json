@@ -1,0 +1,23 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.update.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": "110588006",
+                "status": "disabled"
+            },
+            {
+                "id": "110588001",
+                "reduce_quantity": 30,
+                "weight": 13.54,
+                "width": 46,
+                "height": 47,
+                "length": 48,
+                "condition": "NEW_OTHER",
+                "condition_description": "Not bad!"
+            }
+        ]
+    }
+}

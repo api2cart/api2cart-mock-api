@@ -1,6 +1,6 @@
 {
-    "platform": "AmazonSP",
-    "generated_at": "2026-08-08T09:30:37Z",
+    "integration": "AmazonSP",
+    "generated_at": "2026-08-10T16:45:52Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -92,7 +92,7 @@
                     "request": "batch/job.result/id-149-update-not-found.request.json",
                     "response": "batch/job.result/id-149-update-not-found.response.json",
                     "covers": {
-                        "description": "batch job result: every item fails update with the platform's not-found message"
+                        "description": "batch job result: every item fails update with the integration's not-found message"
                     },
                     "captured_at": "2026-08-07T08:16:34Z"
                 },
@@ -135,7 +135,7 @@
                     "request": "cart/info/rf-all.request.json",
                     "response": "cart/info/rf-all.response.json",
                     "covers": {
-                        "description": "field selection: {*}"
+                        "description": "full response fields"
                     },
                     "captured_at": "2026-07-23T11:25:12Z"
                 },
@@ -144,7 +144,7 @@
                     "request": "cart/info/rf-stores-info.request.json",
                     "response": "cart/info/rf-stores-info.response.json",
                     "covers": {
-                        "description": "field selection: {result{stores_info}}"
+                        "description": "field selection: stores_info"
                     },
                     "captured_at": "2026-07-23T11:25:12Z"
                 },
@@ -153,7 +153,7 @@
                     "request": "cart/info/rf-url.request.json",
                     "response": "cart/info/rf-url.response.json",
                     "covers": {
-                        "description": "field selection: {result{url}}"
+                        "description": "field selection: url"
                     },
                     "captured_at": "2026-07-23T11:25:12Z"
                 }
@@ -399,7 +399,7 @@
                     "request": "category/info/full-properties.request.json",
                     "response": "category/info/full-properties.response.json",
                     "covers": {
-                        "description": "reference: full platform-specific properties (large response)"
+                        "description": "reference: full integration-specific properties (large response)"
                     },
                     "captured_at": "2026-07-23T11:25:52Z"
                 },
@@ -444,7 +444,7 @@
                     "request": "category/info/id-3009141__rf-all__schema-type-listing-offer-only.request.json",
                     "response": "category/info/id-3009141__rf-all__schema-type-listing-offer-only.response.json",
                     "covers": {
-                        "description": "field selection: {*}"
+                        "description": "filter: schema_type=LISTING_OFFER_ONLY"
                     },
                     "captured_at": "2026-07-23T11:25:56Z"
                 },
@@ -453,7 +453,7 @@
                     "request": "category/info/id-7072561011__rf-notexisting.request.json",
                     "response": "category/info/id-7072561011__rf-notexisting.response.json",
                     "covers": {
-                        "description": "field selection: {result{notExisting}}"
+                        "description": "field selection: notExisting"
                     },
                     "captured_at": "2026-07-23T11:25:53Z"
                 }
@@ -773,7 +773,7 @@
                     "request": "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20.request.json",
                     "response": "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20.response.json",
                     "covers": {
-                        "description": "field selection: {result{marketplace_product{id}}}"
+                        "description": "search: matching keyword"
                     },
                     "captured_at": "2026-07-23T11:26:02Z"
                 },
@@ -1109,7 +1109,7 @@
                     "request": "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11.request.json",
                     "response": "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11.response.json",
                     "covers": {
-                        "description": "field selection: {result{order{id,order_id,create_at}}}"
+                        "description": "filter: modified_from (lower bound)"
                     },
                     "captured_at": "2026-07-23T11:26:03Z"
                 },
@@ -1127,7 +1127,7 @@
                     "request": "order/list/rf-order-id-order-products-shippi.request.json",
                     "response": "order/list/rf-order-id-order-products-shippi.response.json",
                     "covers": {
-                        "description": "field selection: {result{order{id,order_products,shipping_address,billing_address}}}"
+                        "description": "field selection: order.id,order.order_products,order.shipping_address,order.billing_address"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -1852,7 +1852,7 @@
                     "request": "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54.request.json",
                     "response": "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54.response.json",
                     "covers": {
-                        "description": "field selection: {result{product{id,u_model,name,price,url,create_at}}}"
+                        "description": "filter: date range (created/modified from-to)"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },

@@ -1,0 +1,1829 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHdFkIwAADgB3JhE2OXlU5YSzOOuJvfTlFRY%2Bvp%2Bz5Oy%2FqeencoSfpyHfR092SdsJPJJ1saID43DxHTzES0dBWmEYuJ2yC5yYpzjFvf2gEyVYYK%2BsGRCG%2FyBUZ126uUgPANtc6NXzUMXcK3a6Hr%2FnLM2ssJ2EtPA%2B771Wwkt2GtmSQN4l9QUCGQZqsl5vGhrjO0uRwDTaf4USjyDdHB0jYrgxKeQglYEir8Bw%3D%3D",
+        "next": "BcHdFkIwAADgB9pFUxkuk1OY5Xehu9nEcZZKjebp%2B76c3PhQ2IOhcPG0TDRaR7y8HZOqMZ0FZJ%2FeRnizoSyc741DwjTGlkBqR%2BtL7LTe1oX43YCf30lTIWdXzkbI2%2B5XYBi8DK1LsDZS3rP8sNSad8mZtkkE93NH%2FNzzmglkvVx4qrBA%2BRfWhDGk08WaxM21K2OaPHHqk4HFkV6vJ0JIgGQFpEYPXgPpjpfoDw%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "110588432666",
+                "type": "simple",
+                "u_model": "PICUN-B8-120H-NEW",
+                "u_sku": "PICUN-B8-120H-NEW",
+                "name": "Straight Leg Jeans for Women",
+                "description": "Straight Leg Jeans for Women,High Waisted Wide Leg Loose Stretchy Boyfriend Denim Pants Baggy Jeans for Women",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "11554"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-fbb4ae7a.example.com/",
+                "seo_url": "https://store-fbb4ae7a.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 50,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-17T13:33:43+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "963269f120df9dc1f3dbbcbef39c47a9",
+                        "http_path": "https://picsum.photos/seed/1fbdbc9e/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "9c4c826908ce079939a8774d8e2293cf",
+                        "http_path": "https://picsum.photos/seed/9bd78901/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 11.81,
+                "height": 15.74,
+                "length": 216.53,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size",
+                            "Value": "XL",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size Type",
+                            "Value": "a",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Style",
+                            "Value": "Women",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Department",
+                            "Value": "Ololo",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-17T05:33:43-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-24T13:33:43.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "15.74",
+                    "packagedetails_packagelength": "216.53",
+                    "packagedetails_packagewidth": "11.81",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "50",
+                    "packagedetails_weightminor": ""
+                }
+            },
+            {
+                "id": "110588432672",
+                "type": "simple",
+                "u_model": "PICUN-B8-120H-NEW-333",
+                "u_sku": "PICUN-B8-120H-NEW-333",
+                "name": "High Waisted-Rise Colored Stretch Skinny Destroyed Jeans for Women",
+                "description": "Straight Leg Jeans for Women,High Waisted Wide Leg Loose Stretchy Boyfriend Denim Pants Baggy Jeans for Women",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "11554"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-e07eccc3.example.com/",
+                "seo_url": "https://store-e07eccc3.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 110.1875,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-17T13:48:35+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "60da36d1a85df8d5be706476318bde1e",
+                        "http_path": "https://picsum.photos/seed/e42e4229/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "9982b4dfa17f444d8c255364da2cb5ac",
+                        "http_path": "https://picsum.photos/seed/a39fd2e0/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 11.81,
+                "height": 15.74,
+                "length": 216.53,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size",
+                            "Value": "XL",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size Type",
+                            "Value": "a",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Style",
+                            "Value": "Women",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Department",
+                            "Value": "Ololo",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-17T05:48:35-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-24T13:48:35.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "15.74",
+                    "packagedetails_packagelength": "216.53",
+                    "packagedetails_packagewidth": "11.81",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "110",
+                    "packagedetails_weightminor": "3"
+                }
+            },
+            {
+                "id": "110588432673",
+                "type": "simple",
+                "u_model": "PICUN-B8-120H-NEW-211111",
+                "u_sku": "PICUN-B8-120H-NEW-211111",
+                "name": "Jeans for Women",
+                "description": "Straight Leg Jeans for Women,High Waisted Wide Leg Loose Stretchy Boyfriend Denim Pants Baggy Jeans for Women",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "11554"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-e783c17b.example.com/",
+                "seo_url": "https://store-e783c17b.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 110.1875,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-17T13:54:52+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "60da36d1a85df8d5be706476318bde1e",
+                        "http_path": "https://picsum.photos/seed/e42e4229/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "9982b4dfa17f444d8c255364da2cb5ac",
+                        "http_path": "https://picsum.photos/seed/a39fd2e0/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 11.81,
+                "height": 15.74,
+                "length": 216.53,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size",
+                            "Value": "XL",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size Type",
+                            "Value": "a",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Style",
+                            "Value": "Women",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Department",
+                            "Value": "Ololo",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-17T05:54:52-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-24T13:54:52.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "15.74",
+                    "packagedetails_packagelength": "216.53",
+                    "packagedetails_packagewidth": "11.81",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "110",
+                    "packagedetails_weightminor": "3"
+                }
+            },
+            {
+                "id": "110588436665",
+                "type": "simple",
+                "u_model": "sku_tesp3",
+                "u_sku": "sku_tesp3",
+                "name": "Test newproduct name3",
+                "description": "test description3",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "11554"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-d2cd2eb0.example.com/",
+                "seo_url": "https://store-d2cd2eb0.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 110.1875,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-20T11:14:46+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "408dedb21ac83d36d24d8f2f729cf5cc",
+                        "http_path": "https://picsum.photos/seed/3c875f05/600/600",
+                        "file_name": null,
+                        "mime-type": "image/gif",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "df8eb43cb4ccc713fdd79b02bcf53333",
+                        "http_path": "https://picsum.photos/seed/97a77d74/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "24f7412d403ec19b7d21920f69b0dbdf",
+                        "http_path": "https://picsum.photos/seed/af88e3d6/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 43.7,
+                "height": 87.4,
+                "length": 131.1,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size",
+                            "Value": "XL",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size Type",
+                            "Value": "a",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Style",
+                            "Value": "Women",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Department",
+                            "Value": "Ololo",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-20T03:14:46-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-27T11:14:46.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "87.40",
+                    "packagedetails_packagelength": "131.10",
+                    "packagedetails_packagewidth": "43.70",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "110",
+                    "packagedetails_weightminor": "3"
+                }
+            },
+            {
+                "id": "110588436701",
+                "type": "simple",
+                "u_model": "sku_tesp33",
+                "u_sku": "sku_tesp33",
+                "name": "Test newproduct name33",
+                "description": "test description33",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "11554"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-f6e9c0f5.example.com/",
+                "seo_url": "https://store-f6e9c0f5.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 110.1875,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-20T12:13:37+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "408dedb21ac83d36d24d8f2f729cf5cc",
+                        "http_path": "https://picsum.photos/seed/3c875f05/600/600",
+                        "file_name": null,
+                        "mime-type": "image/gif",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "df8eb43cb4ccc713fdd79b02bcf53333",
+                        "http_path": "https://picsum.photos/seed/97a77d74/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "24f7412d403ec19b7d21920f69b0dbdf",
+                        "http_path": "https://picsum.photos/seed/af88e3d6/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 43.7,
+                "height": 87.4,
+                "length": 131.1,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size",
+                            "Value": "XL",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Size Type",
+                            "Value": "a",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Style",
+                            "Value": "Women",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Department",
+                            "Value": "Ololo",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-20T04:13:37-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-27T12:13:37.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "87.40",
+                    "packagedetails_packagelength": "131.10",
+                    "packagedetails_packagewidth": "43.70",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "110",
+                    "packagedetails_weightminor": "3"
+                }
+            },
+            {
+                "id": "110588417416",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": null,
+                "name": "System test, please don't place an order）222 MY repayment goods for atome43243",
+                "description": "<p>PC_TEST_DESC#2023-0</p>",
+                "short_description": "",
+                "price": 666,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "105417"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-56b02f47.example.com/",
+                "seo_url": "https://store-56b02f47.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.125,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-04T06:55:28+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "5cc7a5e256c1d5f18b40a783ff980052",
+                        "http_path": "https://picsum.photos/seed/24461f3a/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 6,
+                "height": 7,
+                "length": 5,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Adar",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-03T22:55:28-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Adar",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "98102",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-10-04T06:55:28.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.00",
+                    "packagedetails_packagelength": "5.00",
+                    "packagedetails_packagewidth": "6.00",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "2"
+                }
+            },
+            {
+                "id": "110588418328",
+                "type": "simple",
+                "u_model": "test123",
+                "u_sku": "test123",
+                "name": "System test, please don't place an order）222 MY repayment goods Not Unique Sku",
+                "description": "<p>PC_TEST_DESC#2023-0</p>",
+                "short_description": "",
+                "price": 777,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 10,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "105417"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-1ec86db1.example.com/",
+                "seo_url": "https://store-1ec86db1.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.125,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-04T12:45:03+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "e1c60a87c2dcef6ee86e84887d89513d",
+                        "http_path": "https://picsum.photos/seed/2b0cc1c8/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 6,
+                "height": 7,
+                "length": 5,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Adar",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-04T04:45:03-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Adar",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "98102",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-10-04T12:45:03.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.00",
+                    "packagedetails_packagelength": "5.00",
+                    "packagedetails_packagewidth": "6.00",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "2"
+                }
+            },
+            {
+                "id": "110588419419",
+                "type": "simple",
+                "u_model": "test123-newsku",
+                "u_sku": "test123-newsku",
+                "name": "changed from inventory item",
+                "description": "description form inventory item string new value",
+                "short_description": "",
+                "price": 450,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 70,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "105417"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-f2d17eb9.example.com/",
+                "seo_url": "https://store-f2d17eb9.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": "oz",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-05T10:54:48+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "15f6505c6abd5c72571b0ed6101b7cc2",
+                        "http_path": "https://picsum.photos/seed/defef184/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 6,
+                "height": 7,
+                "length": 5,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [],
+                    "start_time": {
+                        "value": "2025-09-05T02:54:48-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": null,
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "6210988000",
+                            "shipping_profile_name": "Flat: USPSParcel $5.00, same business day (6210988000)",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6036530000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back#1"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-10-05T10:54:48.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.00",
+                    "packagedetails_packagelength": "5.00",
+                    "packagedetails_packagewidth": "6.00",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "",
+                    "packagedetails_weightminor": ""
+                }
+            },
+            {
+                "id": "110588423029",
+                "type": "simple",
+                "u_model": "test123",
+                "u_sku": "test123",
+                "name": "changed from inventory item for non unique sku test123 777",
+                "description": "description 888",
+                "short_description": "",
+                "price": 1500,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 97,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "30120"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-a4a1a8cc.example.com/",
+                "seo_url": "https://store-a4a1a8cc.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1102.3125,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-08T07:10:01+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 15.74,
+                "height": 7.87,
+                "length": 11.81,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [],
+                    "start_time": {
+                        "value": "2025-09-07T23:10:01-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": null,
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "getitfast": "false",
+                    "endtime": "2025-10-08T07:10:01.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.87",
+                    "packagedetails_packagelength": "11.81",
+                    "packagedetails_packagewidth": "15.74",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1102",
+                    "packagedetails_weightminor": "5"
+                }
+            },
+            {
+                "id": "110588426660",
+                "type": "simple",
+                "u_model": "newtest123-newsku",
+                "u_sku": "newtest123-newsku",
+                "name": "Upd Test productTest111",
+                "description": "test description",
+                "short_description": "",
+                "price": 900,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 50,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "105417"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-7a179f54.example.com/",
+                "seo_url": "https://store-7a179f54.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.5,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-10T06:43:34+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "df8eb43cb4ccc713fdd79b02bcf53333",
+                        "http_path": "https://picsum.photos/seed/97a77d74/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "e26279b1a485a4dae7e4398c325c1b41",
+                        "http_path": "https://picsum.photos/seed/1168b5/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "408dedb21ac83d36d24d8f2f729cf5cc",
+                        "http_path": "https://picsum.photos/seed/3c875f05/600/600",
+                        "file_name": null,
+                        "mime-type": "image/gif",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 111.11,
+                "height": 222.22,
+                "length": 333.33,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [],
+                    "start_time": {
+                        "value": "2025-09-09T22:43:34-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": null,
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "6210988000",
+                            "shipping_profile_name": "Flat: USPSParcel $5.00, same business day (6210988000)",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6036530000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back#1"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "Pre-owned",
+                    "conditiondescription": "test upd condition_description",
+                    "conditionid": "3000",
+                    "getitfast": "false",
+                    "endtime": "2025-10-10T06:43:34.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "222.22",
+                    "packagedetails_packagelength": "333.33",
+                    "packagedetails_packagewidth": "111.11",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "8"
+                }
+            }
+        ]
+    }
+}

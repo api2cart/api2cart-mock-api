@@ -4,14 +4,16 @@
     "endpoint": "product.variant.add.json",
     "body": {
         "product_id": "123450003",
-        "attributes": {
-            "Gem color": {
-                "Gold": 0
+        "attributes": [
+            {
+                "attribute_name": "Gem color",
+                "attribute_value": "Gold"
             },
-            "Gemstone": {
-                "Aquamarine": 0
+            {
+                "attribute_name": "Gemstone",
+                "attribute_value": "Aquamarine"
             }
-        },
+        ],
         "sku": "SKUaddGoldAquamarine",
         "quantity": 1
     }

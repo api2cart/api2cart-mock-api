@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "DELETE",
+    "endpoint": "product.image.delete.json",
+    "query": {
+        "product_id": "from_addMediumTC3",
+        "id": "1"
+    }
+}

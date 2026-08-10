@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-10T11:24:20Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "created_from": "2025-06-26",
+        "created_to": "2025-09-24",
+        "find_value": "test123",
+        "find_where": "sku"
+    }
+}

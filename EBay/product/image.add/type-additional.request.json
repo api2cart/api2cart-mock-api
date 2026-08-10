@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": "from_addMediumTC3",
+        "type": "additional",
+        "url": "https://picsum.photos/seed/ebay-image-add-2/800",
+        "image_name": "slide_number.png"
+    }
+}

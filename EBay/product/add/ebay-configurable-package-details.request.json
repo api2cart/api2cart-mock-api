@@ -1,0 +1,50 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test product 42",
+        "description": "Test product",
+        "price": 2.55,
+        "listing_duration": "GTC",
+        "categories_ids": "105417",
+        "condition": "Pre-owned",
+        "upc": "711719709893",
+        "ean": "0711719709893",
+        "isbn": "9781474837637",
+        "specifics": [
+            {
+                "name": "Color",
+                "value": "Gray",
+                "used_for_variations": "true"
+            },
+            {
+                "name": "Size",
+                "value": "L",
+                "used_for_variations": "true"
+            }
+        ],
+        "condition_description": "Like New",
+        "paypal_email": "test@example.com",
+        "package_details": {
+            "measure_unit": "English",
+            "weigh_unit": "lbs",
+            "package_depth": 23,
+            "package_width": 24,
+            "package_length": 25,
+            "weight_major": 2,
+            "weight_minor": 3
+        },
+        "listing_type": "FixedPrice",
+        "product_type": "configurable",
+        "seller_profiles": {
+            "shipping_profile_id": "5620276000",
+            "payment_profile_id": "5575460000",
+            "return_profile_id": "6036530000"
+        },
+        "best_offer": {
+            "minimum_offer_price": 2,
+            "auto_accept_price": 3
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "return_code": 114,
+    "return_message": "One of parameters 'keyword', 'asin', 'ean', 'gtin', 'upc', 'isbn', 'mpn' is required.",
+    "result": {}
+}

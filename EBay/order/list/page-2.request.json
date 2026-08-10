@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-10T11:28:52Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "page_cursor": "MyxMC3EpjTQOq/QoTAwzygpMtfANTq4yrSoKsUg3DPH1DklNTff18/cJjAxNNPIxSPQ20A8uLA/IC/DNsfD01gcA"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.variant.image.add.json",
+    "body": {
+        "product_id": "110588641178",
+        "product_variant_id": "from_addMediumTC2",
+        "image_name": "slide_number.png",
+        "type": "base",
+        "url": "https://picsum.photos/seed/ebay-variant-image-2/800",
+        "option_id": "size"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHdeoIgAADQB%2FIiSAu96GKbP4n7TIZgdKebzEpBafKpT79zqoeU%2B6oZUqN7g4%2BvZBcVN8dm5RbyJ3HUBs23egcUXViMmLfmWNdn2wqB5zd3nnJ7JKTlpUk9%2F9lwCMGW1%2FSh%2FEMX07SQhDV4Qh2YyGbmq%2FYLObafNrm%2FVi1IZN2g0iNoPL6MdXRb9xZKFlqweF2x9P1HWDpKXYM%2BTdjZQcOf%2F3tXLU7mny8jXLMMPM4MC%2BCFZt1hhyVFkdHUhIKcTv8%3D",
+        "next": "BcHNkkMwAADgB3JYdEj20EOI6FZ3KJEYt%2FpJW0K2TFTz9Pt9fBDC5c30syi5nP01%2Foqy2toSajAbr9ZsnKWdA7sAabUSEDlLqUrYHUgUT9D6OBizpLtQ%2BtaVOJCEyscZbnSKsXtn8clOLGDpkO857dGDm7XGt3Djgo8alcz8xSdg8iqVzfgtF%2F%2F3gsTHHwYVeBI1HnGfrdGQqF77O7BH2UGzZSFStyJ7eT14w659IVOAPX3WMzKcuUQwZudNcD0e%2FwE%3D"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "9355",
+                "parent_id": "15032",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Cell Phones & Smartphones",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": []
+            },
+            {
+                "id": "9394",
+                "parent_id": "15032",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Cell Phone Accessories",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": []
+            }
+        ]
+    }
+}

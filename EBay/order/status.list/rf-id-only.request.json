@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-10T18:20:00Z",
+    "method": "GET",
+    "endpoint": "order.status.list.json",
+    "query": {
+        "response_fields": "{return_code,return_message,result{cart_order_statuses{id}}}"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "captured_at": "2026-08-10T09:22:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "categories_ids": "9355",
+        "sku": "SKU_2",
+        "condition": "New",
+        "description": "SKU_1 description",
+        "image_name": "aa86414727ea4a96a070812ea5fa4292_1713510084204.jpg",
+        "image_url": "https://picsum.photos/seed/ebay-live-sku2/800",
+        "listing_duration": "GTC",
+        "listing_type": "FixedPrice",
+        "quantity": 100,
+        "name": "System test, SKU_2",
+        "package_details": {
+            "measure_unit": "English",
+            "package_depth": 7,
+            "package_length": 5,
+            "package_width": 6,
+            "weigh_unit": "lbs",
+            "weight_major": 1,
+            "weight_minor": 2
+        },
+        "seller_profiles": {
+            "payment_profile_id": "5575460000",
+            "return_profile_id": "5615960000",
+            "shipping_profile_id": "5570815000"
+        },
+        "price": 17,
+        "specifics": [
+            {
+                "name": "Model",
+                "value": "A Game of Thrones CCG"
+            },
+            {
+                "name": "Brand",
+                "value": "Iqwer"
+            },
+            {
+                "name": "Color",
+                "value": "Red"
+            },
+            {
+                "name": "Storage Capacity",
+                "value": "10 Gb"
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "categories_count": 1,
+        "category": [
+            {
+                "id": "0",
+                "name": "Root"
+            }
+        ]
+    }
+}

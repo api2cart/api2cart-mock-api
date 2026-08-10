@@ -1,0 +1,21 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 448,
+        "job_name": "product.add.batch",
+        "items_processed": 1,
+        "items_succeed": 0,
+        "items": [
+            {
+                "id": 0,
+                "status": "failed",
+                "entity_id": null,
+                "errors": [
+                    "Missed required specifics for category with id = '105417': 'Brand'"
+                ],
+                "warnings": []
+            }
+        ]
+    }
+}
