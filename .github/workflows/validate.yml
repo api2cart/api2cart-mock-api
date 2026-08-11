@@ -15,9 +15,7 @@ jobs:
       - name: Discover integration directories
         id: integrations
         run: |
-          dirs=$(find . -maxdepth 2 -name index.json -not -path './index.json' -printf '%h\n' | sed 's#^\./##' | sort)
-          echo "list<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$dirs" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          dirs=$(find . -maxdepth 2 -name index.json -not -path './index.json' -printf '%h\n' | sed 's#^\./##' | sort | tr '\n' ' ')
+          echo "list=$dirs" >> "$GITHUB_OUTPUT"
       - name: Run validate.php against every integration
         run: php scripts/validate.php ${{ steps.integrations.outputs.list }}
