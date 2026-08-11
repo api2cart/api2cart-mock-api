@@ -1,0 +1,23 @@
+name: Validate dataset
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+      - name: Discover integration directories
+        id: integrations
+        run: |
+          dirs=$(find . -maxdepth 2 -name index.json -not -path './index.json' -printf '%h\n' | sed 's#^\./##' | sort)
+          echo "list<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$dirs" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+      - name: Run validate.php against every integration
+        run: php scripts/validate.php ${{ steps.integrations.outputs.list }}
