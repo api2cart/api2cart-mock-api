@@ -4,6 +4,6 @@
     "endpoint": "product.child_item.list.json",
     "query": {
         "product_id": "1360559503",
-        "count": "2"
+        "count": 2
     }
 }

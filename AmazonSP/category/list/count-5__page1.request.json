@@ -3,6 +3,6 @@
     "method": "GET",
     "endpoint": "category.list.json",
     "query": {
-        "count": "5"
+        "count": 5
     }
 }

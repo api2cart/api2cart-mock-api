@@ -4,6 +4,6 @@
     "endpoint": "order.list.json",
     "query": {
         "ebay_order_status": "Completed",
-        "count": "2"
+        "count": 2
     }
 }

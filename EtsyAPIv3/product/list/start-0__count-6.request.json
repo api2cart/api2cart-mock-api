@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "start": "0",
-        "count": "6"
+        "start": 0,
+        "count": 6
     }
 }

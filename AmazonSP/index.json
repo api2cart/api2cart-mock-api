@@ -1,6 +1,6 @@
 {
     "integration": "AmazonSP",
-    "generated_at": "2026-08-10T16:45:52Z",
+    "generated_at": "2026-08-11T07:16:12Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -755,7 +755,7 @@
                     "request": "marketplace/product.find/keyword-dewalt.request.json",
                     "response": "marketplace/product.find/keyword-dewalt.response.json",
                     "covers": {
-                        "description": "search: matching keyword"
+                        "description": "search: matching keyword [keyword=DEWALT]"
                     },
                     "captured_at": "2026-07-23T11:26:02Z"
                 },
@@ -773,7 +773,7 @@
                     "request": "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20.request.json",
                     "response": "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20.response.json",
                     "covers": {
-                        "description": "search: matching keyword"
+                        "description": "search: matching keyword [keyword=Hydro Flask 32 OZ Wid...]"
                     },
                     "captured_at": "2026-07-23T11:26:02Z"
                 },
@@ -1037,7 +1037,7 @@
                     "request": "order/list/modified-from-2024-03-02t10-20-03.request.json",
                     "response": "order/list/modified-from-2024-03-02t10-20-03.response.json",
                     "covers": {
-                        "description": "filter: modified_from (lower bound)"
+                        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03]"
                     },
                     "captured_at": "2026-07-23T11:26:03Z"
                 },
@@ -1109,7 +1109,7 @@
                     "request": "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11.request.json",
                     "response": "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11.response.json",
                     "covers": {
-                        "description": "filter: modified_from (lower bound)"
+                        "description": "filter: modified_from (lower bound) [modified_from=2022-10-05T08:56:11]"
                     },
                     "captured_at": "2026-07-23T11:26:03Z"
                 },
@@ -1744,7 +1744,7 @@
                     "request": "product/list/created-range.request.json",
                     "response": "product/list/created-range.response.json",
                     "covers": {
-                        "description": "filter: date range (created/modified from-to)"
+                        "description": "filter: date range (created/modified from-to) [count=5]"
                     },
                     "captured_at": "2026-08-06T13:01:03Z"
                 },
@@ -1852,7 +1852,7 @@
                     "request": "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54.request.json",
                     "response": "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54.response.json",
                     "covers": {
-                        "description": "filter: date range (created/modified from-to)"
+                        "description": "filter: date range (created/modified from-to) [count=20]"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },

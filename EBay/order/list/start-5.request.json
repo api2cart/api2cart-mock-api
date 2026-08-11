@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "order.list.json",
     "query": {
-        "start": "5",
-        "count": "3"
+        "start": 5,
+        "count": 3
     }
 }

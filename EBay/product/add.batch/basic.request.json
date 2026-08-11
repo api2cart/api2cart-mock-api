@@ -1,5 +1,5 @@
 {
-    "captured_at": "2026-08-10T09:22:47Z",
+    "captured_at": "2026-08-11T07:14:47Z",
     "method": "POST",
     "endpoint": "product.add.batch.json",
     "body": {
@@ -91,7 +91,7 @@
                     }
                 ],
                 "condition_description": "Like New",
-                "paypal_email": "test@example.com",
+                "paypal_email": "user18602@example.com",
                 "listing_type": "FIXED_PRICE",
                 "product_type": "configurable",
                 "seller_profiles": {

@@ -6,6 +6,6 @@
         "find_value": "phone",
         "find_where": "name",
         "response_fields": "{*}",
-        "count": "2"
+        "count": 2
     }
 }

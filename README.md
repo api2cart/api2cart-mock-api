@@ -27,14 +27,27 @@ index.json                                    # integrations → {Integration}/i
 Method folder naming keeps the API2Cart method string 1:1 — dots are **not** split into
 nested folders (`product.child_item.info` → `product/child_item.info/`).
 
-Generic, store-independent methods (`account.*`, `webhook.*`,
-`cart.create/delete/disconnect/list/methods/validate`) are intentionally omitted.
+Two kinds of method are intentionally omitted, and their absence is not an oversight:
+
+- **Generic, store-independent methods** — `account.*`, `webhook.*`,
+  `cart.create/delete/disconnect/list/methods/validate`.
+- **Methods the integration marks deprecated.** The dataset is a teaching set, so it must not
+  show an agent a method it should not be adopting. This is why `EBay/product/fields` is absent
+  while the rest of EBay is complete: eBay still answers it, and it is still in that integration's
+  OpenAPI, but the integration flags it deprecated. Check the integration's own method table
+  before concluding a missing method is a gap.
 
 `batch.job.list` / `batch.job.result` **are included**, despite being generic-looking method
 names: their content is not store-independent — a job result is tied to a specific store and to
 the specific `*.add.batch`/`*.update.batch`/`*.delete.batch` call that created it. Without these
-two, an agent has no example of how to learn the outcome of an async batch operation. Look them
-up next to whichever `*.batch` method created the job.
+two, an agent has no example of how to learn the outcome of an async batch operation.
+
+To get from a batch call to its outcome, take the `job_id` the `*.batch` response returned and read
+`batch/job.result` for that id; `batch/job.list` is the same mapping in the other direction, and is
+the entry point when you have no `job_id` in hand. Both ends name each other in their `covers`
+text. A `job_id` is unique across the whole repo, so a job never resolves into another
+integration's results — and an enqueue case whose result is still `pending` says so explicitly
+rather than pointing at a result that does not exist yet.
 
 `marketplace.*` methods (e.g. `marketplace.product.find`) are a different kind of entity: they
 query the connected integration's own public product catalog (Amazon's ASIN/UPC/EAN catalog for
@@ -82,9 +95,7 @@ a `full-properties`-slugged case (which gets a looser but still real 1 MiB ceili
 responses are not list-shaped, no two cases in a method send the identical request, every
 `page_cursor` has a source, `return_code != 0` matches the `error-` slug prefix, slugs carry no
 source label and kebab-case their parameter names, and empty payloads serialize as `{}` not `[]`.
-Exit code 0 = clean. `.github/workflows/validate.yml` discovers every integration directory in the
-repo automatically and runs it on push and PR, so a newly added integration is covered without
-editing the workflow.
+Exit code 0 = clean.
 
 Integrations are added one at a time, but **the conventions above are repo-wide** — a new
 integration does not get to bring its own. If something genuinely does not fit, change the rule
@@ -93,6 +104,12 @@ and the check for everyone rather than carving out an exception for one integrat
 ## Contract (stability)
 
 Case slugs and index paths are a public contract. Add new cases freely; do **not** rename or
-delete published cases — mark them `"deprecated": true` instead. Before the first public release,
-duplicate or opaque slugs may be consolidated. The index is generated, so a silent published
-rename/delete would break consumers without any error.
+delete published cases — mark them `"deprecated": true` instead. The index is generated, so a
+silent published rename/delete would break consumers without any error.
+
+**Until the first public release this repo is explicitly pre-contract**, and that licence is being
+used: duplicate or opaque slugs are being consolidated, decorative integration prefixes removed,
+and the index schema itself has changed shape (`platforms`/`platform` → `integrations`/
+`integration`) **without** a `schema_version` bump, because nothing outside this repo can have read
+it yet. `schema_version` stays at `1` for that reason. From the first release onward the opposite
+rule applies: any change to a key an agent reads bumps `schema_version`, and slugs stop moving.

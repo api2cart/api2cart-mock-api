@@ -5,7 +5,7 @@
     "body": {
         "product_id": "123450102",
         "image_name": "globe555.png",
-        "position": "1",
+        "position": 1,
         "content": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9sXv0W0AAAAASUVORK5CYII="
     }
 }

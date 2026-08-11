@@ -4,6 +4,6 @@
     "endpoint": "marketplace.product.find.json",
     "query": {
         "keyword": "DEWALT",
-        "count": "2"
+        "count": 2
     }
 }

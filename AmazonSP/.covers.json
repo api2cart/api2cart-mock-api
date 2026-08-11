@@ -231,13 +231,13 @@
         "description": "search by ISBN (books), full field selection"
     },
     "marketplace/product.find/keyword-dewalt": {
-        "description": "search: matching keyword"
+        "description": "search: matching keyword [keyword=DEWALT]"
     },
     "marketplace/product.find/keyword-dewalt__count-2": {
         "description": "pagination: page 1 (keyword=DEWALT, count=2); its pagination.next is the page_cursor consumed by page-2 below"
     },
     "marketplace/product.find/keyword-hydro-flask-32-oz-wi__rf-marketplace-product-id__count-20": {
-        "description": "search: matching keyword"
+        "description": "search: matching keyword [keyword=Hydro Flask 32 OZ Wid...]"
     },
     "marketplace/product.find/page-2": {
         "description": "pagination: page 2 via page_cursor from keyword-dewalt__count-2"
@@ -318,7 +318,7 @@
         "description": "filter: fulfillment_channel=AFN (Fulfilled by Amazon), narrowed response_fields"
     },
     "order/list/modified-from-2024-03-02t10-20-03": {
-        "description": "filter: modified_from (lower bound)"
+        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03]"
     },
     "order/list/modified-to-2024-03-02t10-20-03": {
         "description": "filter: modified_to (upper bound)"
@@ -342,7 +342,7 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "order/list/rf-order-id-order-id-create-at__modified-from-2022-10-05t08-56-11": {
-        "description": "filter: modified_from (lower bound)"
+        "description": "filter: modified_from (lower bound) [modified_from=2022-10-05T08:56:11]"
     },
     "order/list/rf-order-id-order-id-total-order-__rounding-precision-1": {
         "description": "rounding_precision=1 applied to order totals; response_fields narrowed to id, order_id, total, order_products, additional_fields"
@@ -528,7 +528,7 @@
         "description": "count=5 page size with full field selection ({*}); source for page-2 below"
     },
     "product/list/created-range": {
-        "description": "filter: date range (created/modified from-to)"
+        "description": "filter: date range (created/modified from-to) [count=5]"
     },
     "product/list/disable-report-cache-false": {
         "description": "disable_report_cache=false together with a known report_request_id: explicitly opts into the cached report instead of starting a new async export"
@@ -564,7 +564,7 @@
         "description": "same field selection and created_to as above, plus avail_view=true"
     },
     "product/list/start-0__count-20__rf-product-id-u-model-name-price-__created-from-2009-02-03-16-06-50__created-to-2009-02-03-18-07-54": {
-        "description": "filter: date range (created/modified from-to)"
+        "description": "filter: date range (created/modified from-to) [count=20]"
     },
     "product/list/start-100__count-13": {
         "description": "pagination: start=100 offset with count=13 (deep into the catalog)"

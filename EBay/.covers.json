@@ -1,6 +1,6 @@
 {
     "batch/job.list/basic": {
-        "description": "happy path: list batch jobs, mixing product.add.batch and product.update.batch, both pending and processed statuses"
+        "description": "happy path: list batch jobs -- the discovery path from a job_id to its result. Mixes product.add.batch and product.update.batch, processed and pending; job 457 here is the one enqueued by product/add.batch/basic"
     },
     "batch/job.list/error-invalid-param": {
         "description": "error: invalid count value -> 109 PARAM_ERROR"
@@ -12,7 +12,7 @@
         "description": "error: job id does not exist -> 112 ENTITY_NOT_FOUND"
     },
     "batch/job.result/error-not-processed-yet": {
-        "description": "job accepted but not processed yet (kept pending on purpose) -> 12"
+        "description": "job 457 accepted but not processed yet -> 12; this is the job enqueued by product/add.batch/basic"
     },
     "batch/job.result/id-448-failed-missing-specifics": {
         "description": "batch job result: item fails because the category requires a specific (Brand) the payload didn't include"
@@ -24,10 +24,10 @@
         "description": "batch job result: update batch with one product updated and one unknown id failing"
     },
     "batch/job.result/id-452-mixed-add-three-categories": {
-        "description": "batch job result: 3-category batch where one item fails because its condition value is not in the allowed enum for that specific category (the allowed set differs per category)"
+        "description": "batch job result for job 452, enqueued by product/add.batch/three-products-mixed-categories: 3-category batch where one item fails because its condition value is not in the allowed enum for that specific category (the allowed set differs per category)"
     },
     "batch/job.result/id-456-mixed-update-relisted": {
-        "description": "batch job result: update fails on an item that eBay auto-relisted under a different id (a disable/re-enable cycle can retire the original id) -- distinct from a plain not-found failure"
+        "description": "batch job result for job 456, enqueued by product/update.batch/two-items-price-and-quantity: update fails on an item that eBay auto-relisted under a different id (a disable/re-enable cycle can retire the original id) -- distinct from a plain not-found failure"
     },
     "cart/info/basic": {
         "description": "happy path: entity information without filters"
@@ -84,25 +84,25 @@
         "description": "happy path (no filters)"
     },
     "category/list/count-1__rf-categories-count-category-id-n": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [count=1]"
     },
     "category/list/count-2__parent-id-113__rf-categories-count-category": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [count=2]"
     },
     "category/list/count-3__rf-all": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [count=3]"
     },
     "category/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "category/list/full-properties": {
-        "description": "reference: full integration-specific properties, all additional_fields (response_fields={*})"
+        "description": "reference: full integration-specific properties, all additional_fields (response_fields={*}); its pagination.next is the page_cursor consumed by page-2"
     },
     "category/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from full-properties (the count=2 full-shape capture -- that case is the cursor source)"
     },
     "category/list/start-2__parent-id-20081__rf-all": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [no count]"
     },
     "marketplace/product.find/ean-0885909950805__categories-ids-167101355-162925__count-200": {
         "description": "search: matching ean identifier"
@@ -174,7 +174,7 @@
         "description": "full response fields"
     },
     "order/list/basic": {
-        "description": "happy path: first page, default fields, no filters"
+        "description": "happy path: total order list, no filters; its pagination.next is the page_cursor consumed by page-2"
     },
     "order/list/created-range": {
         "description": "filter: created_from/created_to date range"
@@ -210,7 +210,7 @@
         "description": "filter: specific order_ids (comma-separated, multiple)"
     },
     "order/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from order/list/basic"
     },
     "order/list/rf-all": {
         "description": "field selection: {*} (full response shape)"
@@ -264,10 +264,10 @@
         "description": "happy path: update order_status"
     },
     "product/add.batch/auction-multi-category-values-array": {
-        "description": "enqueue a 7-product batch covering AUCTION with buyitnow/reserve price, a two-category item, and specifics using \"values\" (list) instead of a single \"value\""
+        "description": "enqueue a 7-product batch covering AUCTION with buyitnow/reserve price, a two-category item, and specifics using \"values\" (list) instead of a single \"value\"; returns job_id 458 (enqueue only -- no result published)"
     },
     "product/add.batch/basic": {
-        "description": "enqueue a 6-product batch add covering GTC/Days_1/Auction listings, specifics, sales_tax and package dimensions"
+        "description": "enqueue a 5-product batch add covering GTC/Days_1/Auction listings, specifics, sales_tax and package dimensions; returns job_id 457, which is still pending -- its result is batch/job.result/error-not-processed-yet"
     },
     "product/add.batch/error-best-offer-not-available-fixed-price": {
         "description": "validation: best_offer is not available for FIXED_PRICE listings"
@@ -282,7 +282,13 @@
         "description": "validation: payload item missing required sku"
     },
     "product/add.batch/three-products-mixed-categories": {
-        "description": "enqueue a 3-product batch spanning three different categories and conditions in one call"
+        "description": "enqueue a 3-product batch spanning three different categories and conditions in one call; returns job_id 452, whose processed result is batch/job.result/id-452-mixed-add-three-categories"
+    },
+    "product/add/auction-confidentiality-avail-from": {
+        "description": "private Auction with multiple categories and a scheduled start date"
+    },
+    "product/add/auction-upc-ean-isbn": {
+        "description": "Auction listing with sku, buyitnow/reserve price and product identifiers"
     },
     "product/add/condition-good": {
         "description": "condition value 'Good' with a larger quantity"
@@ -293,20 +299,11 @@
     "product/add/configurable-dress-size-variations": {
         "description": "configurable product with two used_for_variations specifics (Size, Dress Length) defining the variation axes"
     },
-    "product/add/configurable-seller-profiles-cn-description": {
-        "description": "configurable product using seller_profiles (business policies) instead of payment_methods/shipping_details, with sku and a non-Latin (Chinese) description"
-    },
-    "product/add/ebay-auction-confidentiality-avail-from": {
-        "description": "private Auction with multiple categories and a scheduled start date"
-    },
-    "product/add/ebay-auction-upc-ean-isbn": {
-        "description": "Auction listing with sku, buyitnow/reserve price and product identifiers"
-    },
-    "product/add/ebay-configurable-package-details": {
+    "product/add/configurable-package-details": {
         "description": "configurable product with specifics, package_details, seller_profiles and best_offer"
     },
-    "product/add/ebay-preowned-basic": {
-        "description": "minimal FixedPrice/GTC listing with condition"
+    "product/add/configurable-seller-profiles-cn-description": {
+        "description": "configurable product using seller_profiles (business policies) instead of payment_methods/shipping_details, with sku and a non-Latin (Chinese) description"
     },
     "product/add/error-category-not-found": {
         "description": "not found: categories_ids does not exist"
@@ -321,10 +318,13 @@
         "description": "validation: no params -> name required"
     },
     "product/add/multi-category-full-specifics": {
-        "description": "multi-category listing (two categories_ids) with condition_description and a 16-entry specifics list"
+        "description": "multi-category listing (two categories_ids) with condition_description and a 16-entry specifics list -- the richest real specifics set captured"
     },
     "product/add/plain-specifics-quantity-100": {
         "description": "plain specifics (no used_for_variations) with sku, seller_profiles and a high quantity (100)"
+    },
+    "product/add/preowned-basic": {
+        "description": "minimal FixedPrice/GTC listing with condition"
     },
     "product/add/sales-tax-package-details": {
         "description": "sales_tax and package_details together with multiple payment_methods (CashOnPickup, PayPal)"
@@ -336,25 +336,25 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., no response_fields]"
     },
     "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895__rf-id-parent-id-name-full-descrip": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., response_fields={result{id;parent_id;...]"
     },
     "product/child_item.info/product-id-110588487260__id-945104ef13697b8b1351__rf-all": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [id=945104ef13697b8b13516..., response_fields={*}]"
     },
     "product/child_item.list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "product/child_item.list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from product-id-110588487260__count-2__rf-all"
     },
     "product/child_item.list/product-id-110588487260": {
         "description": "filter: specific product id(s)"
     },
     "product/child_item.list/product-id-110588487260__count-2__rf-all": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [count=2]; its pagination.next is the page_cursor consumed by page-2"
     },
     "product/child_item.list/product-id-110588487260__rf-all__find-value-variant__find-where-sku": {
         "description": "search: matching sku value"
@@ -426,19 +426,19 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "product/info/id-110588487260__rf-all": {
-        "description": "full response fields"
+        "description": "full response fields [id=110588487260]"
     },
     "product/info/id-110588487292__params-force-all__exclude-u-model-url": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/info/id-110588487293__rf-all": {
-        "description": "full response fields"
+        "description": "full response fields [id=110588487293]"
     },
     "product/list/basic": {
         "description": "happy path (no filters)"
     },
     "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all": {
-        "description": "filter: avail_sale=false"
+        "description": "filter: avail_sale=false [created_from=2025-06-26]; its pagination.next is the page_cursor consumed by page-2"
     },
     "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true__params-force-all__exclude-additional-fields": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -447,7 +447,7 @@
         "description": "filter: category_id=30120"
     },
     "product/list/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku__rf-all": {
-        "description": "search: matching sku value"
+        "description": "search: matching sku value [created_from=2025-06-26]"
     },
     "product/list/created-from-2025-10-24__rf-all": {
         "description": "filter: created_from (lower bound)"
@@ -456,7 +456,7 @@
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
     "product/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all"
     },
     "product/list/product-ids-110588417416-1105884__rf-all__category-id-105417": {
         "description": "filter: category_id=105417"
@@ -471,13 +471,13 @@
         "description": "filter: avail_sale=false"
     },
     "product/list/product-ids-110588417416-1105884__rf-all__find-value-test__find-where-sku": {
-        "description": "search: matching sku value"
+        "description": "search: matching sku value [no created_from]"
     },
     "product/update.batch/basic": {
-        "description": "enqueue a 4-item batch update covering rename/price, increase_quantity+dimensions, reduce_quantity+images and status change"
+        "description": "enqueue a 4-item batch update covering rename/price, increase_quantity+dimensions, reduce_quantity+images and status change; returns job_id 460 (enqueue only -- no result published)"
     },
     "product/update.batch/disable-and-reduce-quantity": {
-        "description": "enqueue a 2-item batch update: disable one product, reduce_quantity with dimensions/condition on another"
+        "description": "enqueue a 2-item batch update: disable one product, reduce_quantity with dimensions/condition on another; returns job_id 461 (enqueue only -- no result published)"
     },
     "product/update.batch/error-duplicate-id-in-payload": {
         "description": "validation: two payload items reuse the same id"
@@ -492,16 +492,13 @@
         "description": "validation: quantity and increase_quantity are mutually exclusive"
     },
     "product/update.batch/single-item-short-numeric-id": {
-        "description": "enqueue a single-item batch update using a short numeric id instead of a full-length EBay item id"
+        "description": "enqueue a single-item batch update using a short numeric id instead of a full-length EBay item id; returns job_id 462 (enqueue only -- no result published)"
     },
     "product/update.batch/two-items-price-and-quantity": {
-        "description": "enqueue a 2-item batch update setting price on one product and quantity on another"
+        "description": "enqueue a 2-item batch update setting price on one product and quantity on another; returns job_id 456, whose processed result is batch/job.result/id-456-mixed-update-relisted"
     },
     "product/update/disable-status": {
         "description": "disable product status"
-    },
-    "product/update/ebay-price-reserve-buyitnow": {
-        "description": "update price together with reserve_price and buyitnow_price"
     },
     "product/update/error-invalid-status": {
         "description": "validation: status value not in the allowed enum"
@@ -514,6 +511,9 @@
     },
     "product/update/error-reserve-price-not-auction": {
         "description": "validation: reserve_price only allowed when the listing type is Auction"
+    },
+    "product/update/price-reserve-buyitnow": {
+        "description": "update price together with reserve_price and buyitnow_price"
     },
     "product/update/sku-name-description": {
         "description": "update sku, name and description"
@@ -531,7 +531,7 @@
         "description": "validation: attributes must be an array"
     },
     "product/variant.add/error-no-params": {
-        "description": "validation: no params -> product_id required"
+        "description": "validation: no params -> attributes required"
     },
     "product/variant.add/error-not-found": {
         "description": "not found: product_id does not exist"
@@ -548,9 +548,6 @@
     "product/variant.delete/second-variant": {
         "description": "delete second added variant"
     },
-    "product/variant.image.add/ebay-image-scoped-to-option": {
-        "description": "add an image scoped to a specific variation option"
-    },
     "product/variant.image.add/error-no-params": {
         "description": "validation: no params -> product_id required"
     },
@@ -562,6 +559,9 @@
     },
     "product/variant.image.add/error-variant-not-found": {
         "description": "not found: product_variant_id does not exist"
+    },
+    "product/variant.image.add/image-scoped-to-option": {
+        "description": "add an image scoped to a specific variation option"
     },
     "product/variant.image.add/type-base": {
         "description": "add base image to a variant"

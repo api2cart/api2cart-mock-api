@@ -1,8 +1,0 @@
-{
-    "return_code": 0,
-    "return_message": "Image was created",
-    "result": {
-        "id": "1166553640",
-        "image_path": "https://picsum.photos/seed/variant.image.add:ebay-image-scoped-to-option/800"
-    }
-}

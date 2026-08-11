@@ -1,5 +1,5 @@
 {
-    "captured_at": "2026-08-10T09:22:47Z",
+    "captured_at": "2026-08-11T07:14:47Z",
     "method": "POST",
     "endpoint": "product.add.json",
     "body": {
@@ -16,14 +16,14 @@
             "PayPal"
         ],
         "return_accepted": true,
-        "shipping_details": {
-            "0": {
+        "shipping_details": [
+            {
+                "shipping_type": "Flat",
                 "shipping_service": "US_FedExIntlEconomy",
                 "shipping_cost": 10
-            },
-            "shipping_type": "Flat"
-        },
-        "paypal_email": "seller@example.com",
+            }
+        ],
+        "paypal_email": "user9123@example.com",
         "package_details": {
             "measure_unit": "English",
             "weight_major": 5,
