@@ -1,0 +1,602 @@
+{
+    "batch/job.list/basic": {
+        "description": "happy path: list batch jobs -- the discovery path from a job_id to its result. Mixes product.add.batch and product.update.batch, processed and pending; job 457 here is the one enqueued by product/add.batch/basic"
+    },
+    "batch/job.list/error-invalid-param": {
+        "description": "error: invalid count value -> 109 PARAM_ERROR"
+    },
+    "batch/job.result/error-no-params": {
+        "description": "error: missing required id -> 114 NO_PARAM"
+    },
+    "batch/job.result/error-not-found": {
+        "description": "error: job id does not exist -> 112 ENTITY_NOT_FOUND"
+    },
+    "batch/job.result/error-not-processed-yet": {
+        "description": "job 457 accepted but not processed yet -> 12; this is the job enqueued by product/add.batch/basic"
+    },
+    "batch/job.result/id-448-failed-missing-specifics": {
+        "description": "batch job result: item fails because the category requires a specific (Brand) the payload didn't include"
+    },
+    "batch/job.result/id-449-success-with-warnings": {
+        "description": "happy path: item succeeds but returns eBay Managed Payments migration warnings (submitted payment policy/method were auto-remapped)"
+    },
+    "batch/job.result/id-450-mixed-update": {
+        "description": "batch job result: update batch with one product updated and one unknown id failing"
+    },
+    "batch/job.result/id-452-mixed-add-three-categories": {
+        "description": "batch job result for job 452, enqueued by product/add.batch/three-products-mixed-categories: 3-category batch where one item fails because its condition value is not in the allowed enum for that specific category (the allowed set differs per category)"
+    },
+    "batch/job.result/id-456-mixed-update-relisted": {
+        "description": "batch job result for job 456, enqueued by product/update.batch/two-items-price-and-quantity: update fails on an item that eBay auto-relisted under a different id (a disable/re-enable cycle can retire the original id) -- distinct from a plain not-found failure"
+    },
+    "cart/info/basic": {
+        "description": "happy path: entity information without filters"
+    },
+    "cart/info/params-force-all__exclude-name-stores-info": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-all": {
+        "description": "full response fields"
+    },
+    "cart/info/rf-db-prefix": {
+        "description": "field selection: db_prefix"
+    },
+    "cart/info/rf-name": {
+        "description": "field selection: name"
+    },
+    "cart/info/rf-stores-info": {
+        "description": "field selection: stores_info"
+    },
+    "cart/info/rf-test": {
+        "description": "field selection: test"
+    },
+    "cart/info/rf-url": {
+        "description": "field selection: url"
+    },
+    "cart/info/rf-version": {
+        "description": "field selection: version"
+    },
+    "category/count/basic": {
+        "description": "happy path (no filters)"
+    },
+    "category/count/error-invalid-find-where": {
+        "description": "validation: find_where accepts only 'name' -- other values rejected with the allowed-value list"
+    },
+    "category/count/find-value-phone__find-where-name": {
+        "description": "search: matching name value"
+    },
+    "category/count/parent-id-20081": {
+        "description": "categories under a parent"
+    },
+    "category/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "category/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "category/info/id-20081__params-force-all__exclude-short-description-pa": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "category/info/id-4707": {
+        "description": "filtered export"
+    },
+    "category/list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "category/list/count-1__rf-categories-count-category-id-n": {
+        "description": "pagination: start/count offset [count=1]"
+    },
+    "category/list/count-2__parent-id-113__rf-categories-count-category": {
+        "description": "categories under a parent [count=2]"
+    },
+    "category/list/count-3__rf-all": {
+        "description": "pagination: start/count offset [count=3]"
+    },
+    "category/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "category/list/full-properties": {
+        "description": "reference: full integration-specific properties, all additional_fields (response_fields={*}); its pagination.next is the page_cursor consumed by page-2"
+    },
+    "category/list/page-2": {
+        "description": "pagination: page 2 via page_cursor from full-properties (the count=2 full-shape capture -- that case is the cursor source)"
+    },
+    "category/list/start-2__parent-id-20081__rf-all": {
+        "description": "categories under a parent [no count]"
+    },
+    "marketplace/product.find/ean-0885909950805__categories-ids-167101355-162925__count-200": {
+        "description": "search: matching ean identifier"
+    },
+    "marketplace/product.find/error-conflicting-identifiers": {
+        "description": "validation: keyword can't be combined with an identifier param (ean here) -- exactly one is allowed"
+    },
+    "marketplace/product.find/error-invalid-count": {
+        "description": "validation: count must be an unsigned integer"
+    },
+    "marketplace/product.find/error-no-identifier": {
+        "description": "validation: exactly one of keyword/asin/ean/gtin/upc/isbn/mpn is required"
+    },
+    "marketplace/product.find/gtin-0711719504351__params-force-all__exclude-images-custom-fields": {
+        "description": "search: matching gtin identifier"
+    },
+    "marketplace/product.find/isbn-9781474837637__rf-all": {
+        "description": "search: matching isbn identifier"
+    },
+    "marketplace/product.find/keyword-apple__rf-all": {
+        "description": "search: matching keyword"
+    },
+    "marketplace/product.find/mpn-10217__rf-marketplace-product-name-u-mpn": {
+        "description": "search: matching mpn identifier"
+    },
+    "marketplace/product.find/upc-0047406134908__rf-return-code-return-message-pag": {
+        "description": "search: matching upc identifier"
+    },
+    "order/count/basic": {
+        "description": "happy path: total order count, no filters"
+    },
+    "order/count/created-range": {
+        "description": "filter: created_from/created_to date range"
+    },
+    "order/count/ebay-order-status-cancelled": {
+        "description": "filter: ebay_order_status=Cancelled"
+    },
+    "order/count/ebay-order-status-completed": {
+        "description": "filter: ebay_order_status=Completed"
+    },
+    "order/count/error-created-from-older-than-90-days": {
+        "description": "error: created_from older than 90 days -- EBay rejects the date range -> 107 STORE_ERROR"
+    },
+    "order/count/error-invalid-order-status": {
+        "description": "error: ebay_order_status value not in the allowed enum (Active, Completed, Cancelled) -> 109 PARAM_ERROR"
+    },
+    "order/count/error-modified-from-older-than-90-days": {
+        "description": "error: modified_from older than 90 days -> 107 STORE_ERROR"
+    },
+    "order/count/error-modified-range-too-wide": {
+        "description": "error: modified_from/modified_to span more than 30 days -- a tighter limit than the 90-day age rule -> 109 PARAM_ERROR"
+    },
+    "order/count/modified-from-2025-12-25": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "order/count/modified-range": {
+        "description": "filter: modified_from/modified_to date range (max 30 days apart -- see error-modified-range-too-wide)"
+    },
+    "order/financial_status.list/basic": {
+        "description": "happy path: financial statuses supported by the store"
+    },
+    "order/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "order/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "order/info/order-id-02-00000-38996__rf-all": {
+        "description": "full response fields"
+    },
+    "order/list/basic": {
+        "description": "happy path: total order list, no filters; its pagination.next is the page_cursor consumed by page-2"
+    },
+    "order/list/created-range": {
+        "description": "filter: created_from/created_to date range"
+    },
+    "order/list/ebay-order-status-completed": {
+        "description": "filter: ebay_order_status=Completed"
+    },
+    "order/list/error-created-from-older-than-90-days": {
+        "description": "error: created_from older than 90 days -- EBay rejects the date range -> 107 STORE_ERROR"
+    },
+    "order/list/error-invalid-count": {
+        "description": "error: negative count -> 109 PARAM_ERROR"
+    },
+    "order/list/error-invalid-date-format": {
+        "description": "error: created_from not in ISO_8601 'Y-m-d\\TH:i:sO' format -> 109 PARAM_ERROR"
+    },
+    "order/list/error-invalid-order-status": {
+        "description": "error: ebay_order_status value not in the allowed enum -> 109 PARAM_ERROR"
+    },
+    "order/list/error-invalid-start": {
+        "description": "error: negative start -> 109 PARAM_ERROR"
+    },
+    "order/list/error-modified-from-older-than-90-days": {
+        "description": "error: modified_from older than 90 days -> 107 STORE_ERROR"
+    },
+    "order/list/error-modified-range-too-wide": {
+        "description": "error: modified_from/modified_to span more than 30 days -- a tighter limit than the 90-day age rule -> 109 PARAM_ERROR"
+    },
+    "order/list/modified-range": {
+        "description": "filter: modified_from/modified_to date range (max 30 days apart)"
+    },
+    "order/list/order-ids-multi": {
+        "description": "filter: specific order_ids (comma-separated, multiple)"
+    },
+    "order/list/page-2": {
+        "description": "pagination: page 2 via page_cursor from order/list/basic"
+    },
+    "order/list/rf-all": {
+        "description": "field selection: {*} (full response shape)"
+    },
+    "order/list/start-5": {
+        "description": "pagination: start/count offset"
+    },
+    "order/shipment.add/basic": {
+        "description": "happy path: add order shipment with tracking number and shipped items"
+    },
+    "order/shipment.add/error-no-params": {
+        "description": "validation: order_id required"
+    },
+    "order/shipment.info/error-missing-order-id": {
+        "description": "error: missing required order_id -> 114 NO_PARAM"
+    },
+    "order/shipment.info/error-no-params": {
+        "description": "error: missing required id (checked before order_id) -> 114 NO_PARAM"
+    },
+    "order/shipment.info/error-not-found": {
+        "description": "error: shipment id does not exist for this order -> 112 ENTITY_NOT_FOUND"
+    },
+    "order/shipment.info/order-id": {
+        "description": "happy path: a single shipment by id, with tracking number and shipped items"
+    },
+    "order/shipment.list/error-no-params": {
+        "description": "error: missing required order_id -> 114 NO_PARAM"
+    },
+    "order/shipment.list/error-not-found": {
+        "description": "error: order_id does not exist -> 112 ENTITY_NOT_FOUND"
+    },
+    "order/shipment.list/order-id": {
+        "description": "happy path: shipments for a specific order, with tracking numbers and shipped items"
+    },
+    "order/status.list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "order/status.list/rf-id-only": {
+        "description": "field selection: cart_order_statuses.id -- narrows to just the enum values order.update's ebay_order_status accepts"
+    },
+    "order/update/error-no-params": {
+        "description": "validation: no params -> order_id required"
+    },
+    "order/update/error-not-found": {
+        "description": "not found: order_id does not exist"
+    },
+    "order/update/set-financial-status": {
+        "description": "happy path: update financial_status"
+    },
+    "order/update/set-order-status": {
+        "description": "happy path: update order_status"
+    },
+    "product/add.batch/auction-multi-category-values-array": {
+        "description": "enqueue a 7-product batch covering AUCTION with buyitnow/reserve price, a two-category item, and specifics using \"values\" (list) instead of a single \"value\"; returns job_id 458 (enqueue only -- no result published)"
+    },
+    "product/add.batch/basic": {
+        "description": "enqueue a 5-product batch add covering GTC/Days_1/Auction listings, specifics, sales_tax and package dimensions; returns job_id 457, which is still pending -- its result is batch/job.result/error-not-processed-yet"
+    },
+    "product/add.batch/error-best-offer-not-available-fixed-price": {
+        "description": "validation: best_offer is not available for FIXED_PRICE listings"
+    },
+    "product/add.batch/error-duplicate-sku-in-payload": {
+        "description": "validation: two payload items reuse the same sku"
+    },
+    "product/add.batch/error-invalid-categories-ids": {
+        "description": "validation: categories_ids entry not numeric (pattern ^\\d+$)"
+    },
+    "product/add.batch/error-no-sku": {
+        "description": "validation: payload item missing required sku"
+    },
+    "product/add.batch/three-products-mixed-categories": {
+        "description": "enqueue a 3-product batch spanning three different categories and conditions in one call; returns job_id 452, whose processed result is batch/job.result/id-452-mixed-add-three-categories"
+    },
+    "product/add/auction-confidentiality-avail-from": {
+        "description": "private Auction with multiple categories and a scheduled start date"
+    },
+    "product/add/auction-upc-ean-isbn": {
+        "description": "Auction listing with sku, buyitnow/reserve price and product identifiers"
+    },
+    "product/add/condition-good": {
+        "description": "condition value 'Good' with a larger quantity"
+    },
+    "product/add/condition-graded": {
+        "description": "condition value 'Graded' (collectibles/trading-card grading), not covered by the other condition examples"
+    },
+    "product/add/configurable-dress-size-variations": {
+        "description": "configurable product with two used_for_variations specifics (Size, Dress Length) defining the variation axes"
+    },
+    "product/add/configurable-package-details": {
+        "description": "configurable product with specifics, package_details, seller_profiles and best_offer"
+    },
+    "product/add/configurable-seller-profiles-cn-description": {
+        "description": "configurable product using seller_profiles (business policies) instead of payment_methods/shipping_details, with sku and a non-Latin (Chinese) description"
+    },
+    "product/add/error-category-not-found": {
+        "description": "not found: categories_ids does not exist"
+    },
+    "product/add/error-empty-price": {
+        "description": "validation: empty price"
+    },
+    "product/add/error-invalid-condition": {
+        "description": "validation: condition value not in the allowed enum"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: no params -> name required"
+    },
+    "product/add/multi-category-full-specifics": {
+        "description": "multi-category listing (two categories_ids) with condition_description and a 16-entry specifics list -- the richest real specifics set captured"
+    },
+    "product/add/plain-specifics-quantity-100": {
+        "description": "plain specifics (no used_for_variations) with sku, seller_profiles and a high quantity (100)"
+    },
+    "product/add/preowned-basic": {
+        "description": "minimal FixedPrice/GTC listing with condition"
+    },
+    "product/add/sales-tax-package-details": {
+        "description": "sales_tax and package_details together with multiple payment_methods (CashOnPickup, PayPal)"
+    },
+    "product/child_item.info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "product/child_item.info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895": {
+        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., no response_fields]"
+    },
+    "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895__rf-id-parent-id-name-full-descrip": {
+        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., response_fields={result{id;parent_id;...]"
+    },
+    "product/child_item.info/product-id-110588487260__id-945104ef13697b8b1351__rf-all": {
+        "description": "filter: specific product id(s) [id=945104ef13697b8b13516..., response_fields={*}]"
+    },
+    "product/child_item.list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "product/child_item.list/page-2": {
+        "description": "pagination: page 2 via page_cursor from product-id-110588487260__count-2__rf-all"
+    },
+    "product/child_item.list/product-id-110588487260": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/child_item.list/product-id-110588487260__count-2__rf-all": {
+        "description": "filter: specific product id(s) [count=2]; its pagination.next is the page_cursor consumed by page-2"
+    },
+    "product/child_item.list/product-id-110588487260__rf-all__find-value-variant__find-where-sku": {
+        "description": "search: matching sku value"
+    },
+    "product/count/basic": {
+        "description": "happy path (no filters)"
+    },
+    "product/count/created-from-2025-06-26__avail-sale-false": {
+        "description": "filter: avail_sale=false"
+    },
+    "product/count/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true": {
+        "description": "filter: avail_sale=true"
+    },
+    "product/count/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku": {
+        "description": "search: matching sku value"
+    },
+    "product/count/created-to-2025-09-24__category-id-30120": {
+        "description": "filter: category_id=30120"
+    },
+    "product/image.add/error-invalid-type": {
+        "description": "validation: type value not in the allowed enum (base, additional)"
+    },
+    "product/image.add/error-missing-image-name": {
+        "description": "validation: product_id alone -> image_name required"
+    },
+    "product/image.add/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/image.add/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/image.add/type-additional": {
+        "description": "add an additional (non-base) image"
+    },
+    "product/image.add/type-base-position-0": {
+        "description": "add base image by url with explicit position"
+    },
+    "product/image.delete/error-image-not-found": {
+        "description": "not found: image id does not exist"
+    },
+    "product/image.delete/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/image.delete/error-product-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/image.delete/first-image": {
+        "description": "delete the first added image"
+    },
+    "product/image.delete/second-image": {
+        "description": "delete the second added image"
+    },
+    "product/image.update/error-image-not-found": {
+        "description": "not found: image id does not exist"
+    },
+    "product/image.update/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/image.update/error-product-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/image.update/reposition": {
+        "description": "move an image to a new position"
+    },
+    "product/info/error-no-params": {
+        "description": "error: missing required id => 114 NO_PARAM"
+    },
+    "product/info/error-not-found": {
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+    },
+    "product/info/id-110588487260__rf-all": {
+        "description": "full response fields [id=110588487260]"
+    },
+    "product/info/id-110588487292__params-force-all__exclude-u-model-url": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/info/id-110588487293__rf-all": {
+        "description": "full response fields [id=110588487293]"
+    },
+    "product/list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all": {
+        "description": "filter: avail_sale=false [created_from=2025-06-26]; its pagination.next is the page_cursor consumed by page-2"
+    },
+    "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true__params-force-all__exclude-additional-fields": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/created-from-2025-06-26__created-to-2025-09-24__category-id-30120__count-2__rf-all": {
+        "description": "filter: category_id=30120"
+    },
+    "product/list/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku__rf-all": {
+        "description": "search: matching sku value [created_from=2025-06-26]"
+    },
+    "product/list/created-from-2025-10-24__rf-all": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "product/list/error-invalid-param": {
+        "description": "error: invalid count value => 109 PARAM_ERROR"
+    },
+    "product/list/page-2": {
+        "description": "pagination: page 2 via page_cursor from created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all"
+    },
+    "product/list/product-ids-110588417416-1105884__rf-all__category-id-105417": {
+        "description": "filter: category_id=105417"
+    },
+    "product/list/product-ids-110588417416-1105884__rf-all__count-2": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/list/product-ids-110588417416-1105884__rf-all__created-from-2025-09-05__avail-sale-true": {
+        "description": "filter: avail_sale=true"
+    },
+    "product/list/product-ids-110588417416-1105884__rf-all__created-to-2025-10-25__avail-sale-false": {
+        "description": "filter: avail_sale=false"
+    },
+    "product/list/product-ids-110588417416-1105884__rf-all__find-value-test__find-where-sku": {
+        "description": "search: matching sku value [no created_from]"
+    },
+    "product/update.batch/basic": {
+        "description": "enqueue a 4-item batch update covering rename/price, increase_quantity+dimensions, reduce_quantity+images and status change; returns job_id 460 (enqueue only -- no result published)"
+    },
+    "product/update.batch/disable-and-reduce-quantity": {
+        "description": "enqueue a 2-item batch update: disable one product, reduce_quantity with dimensions/condition on another; returns job_id 461 (enqueue only -- no result published)"
+    },
+    "product/update.batch/error-duplicate-id-in-payload": {
+        "description": "validation: two payload items reuse the same id"
+    },
+    "product/update.batch/error-invalid-id-pattern": {
+        "description": "validation: id must match the numeric-string pattern"
+    },
+    "product/update.batch/error-no-id": {
+        "description": "validation: payload item missing required id"
+    },
+    "product/update.batch/error-quantity-combo-conflict": {
+        "description": "validation: quantity and increase_quantity are mutually exclusive"
+    },
+    "product/update.batch/single-item-short-numeric-id": {
+        "description": "enqueue a single-item batch update using a short numeric id instead of a full-length EBay item id; returns job_id 462 (enqueue only -- no result published)"
+    },
+    "product/update.batch/two-items-price-and-quantity": {
+        "description": "enqueue a 2-item batch update setting price on one product and quantity on another; returns job_id 456, whose processed result is batch/job.result/id-456-mixed-update-relisted"
+    },
+    "product/update/disable-status": {
+        "description": "disable product status"
+    },
+    "product/update/error-invalid-status": {
+        "description": "validation: status value not in the allowed enum"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: no params -> id required"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/update/error-reserve-price-not-auction": {
+        "description": "validation: reserve_price only allowed when the listing type is Auction"
+    },
+    "product/update/price-reserve-buyitnow": {
+        "description": "update price together with reserve_price and buyitnow_price"
+    },
+    "product/update/sku-name-description": {
+        "description": "update sku, name and description"
+    },
+    "product/variant.add/color-blue-size-m": {
+        "description": "add configurable-product variant by Color/Size attributes"
+    },
+    "product/variant.add/color-red-size-l-with-identifiers": {
+        "description": "add second variant with upc/ean/isbn"
+    },
+    "product/variant.add/error-already-exists": {
+        "description": "entity already exists: attribute combination already used by another variant"
+    },
+    "product/variant.add/error-invalid-attributes": {
+        "description": "validation: attributes must be an array"
+    },
+    "product/variant.add/error-no-params": {
+        "description": "validation: no params -> attributes required"
+    },
+    "product/variant.add/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.delete/error-no-params": {
+        "description": "validation: no params -> id required"
+    },
+    "product/variant.delete/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.delete/first-variant": {
+        "description": "delete first added variant"
+    },
+    "product/variant.delete/second-variant": {
+        "description": "delete second added variant"
+    },
+    "product/variant.image.add/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/variant.image.add/error-option-conflict": {
+        "description": "validation: images already assigned to a different variation option"
+    },
+    "product/variant.image.add/error-product-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.image.add/error-variant-not-found": {
+        "description": "not found: product_variant_id does not exist"
+    },
+    "product/variant.image.add/image-scoped-to-option": {
+        "description": "add an image scoped to a specific variation option"
+    },
+    "product/variant.image.add/type-base": {
+        "description": "add base image to a variant"
+    },
+    "product/variant.image.delete/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/variant.image.delete/error-product-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.image.delete/error-variant-not-found": {
+        "description": "not found: product_variant_id does not exist for this product"
+    },
+    "product/variant.image.delete/first-image": {
+        "description": "delete first added variant image"
+    },
+    "product/variant.image.delete/second-image": {
+        "description": "delete second added variant image"
+    },
+    "product/variant.update/error-no-params": {
+        "description": "validation: no params -> id required"
+    },
+    "product/variant.update/error-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/variant.update/error-quantity-combo-conflict": {
+        "description": "validation: quantity and increase_quantity are mutually exclusive"
+    },
+    "product/variant.update/error-sku-already-used": {
+        "description": "entity already exists: sku already used by another variant"
+    },
+    "product/variant.update/price-increase-quantity": {
+        "description": "update price and increase_quantity"
+    },
+    "product/variant.update/sku-quantity": {
+        "description": "update sku and quantity"
+    }
+}

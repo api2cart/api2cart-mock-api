@@ -1,0 +1,33 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "count": 5,
+        "cart_order_statuses": [
+            {
+                "status": [
+                    {
+                        "id": "open",
+                        "name": "Open"
+                    },
+                    {
+                        "id": "awaiting_payment",
+                        "name": "Awaiting Payment"
+                    },
+                    {
+                        "id": "ready_to_ship",
+                        "name": "Ready to Ship"
+                    },
+                    {
+                        "id": "completed",
+                        "name": "Completed"
+                    },
+                    {
+                        "id": "canceled",
+                        "name": "Canceled"
+                    }
+                ]
+            }
+        ]
+    }
+}

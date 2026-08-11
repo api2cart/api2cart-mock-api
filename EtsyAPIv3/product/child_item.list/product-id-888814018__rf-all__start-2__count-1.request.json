@@ -5,7 +5,7 @@
     "query": {
         "product_id": "888814018",
         "response_fields": "{*}",
-        "start": "2",
-        "count": "1"
+        "start": 2,
+        "count": 1
     }
 }

@@ -6,7 +6,7 @@
         "product_ids": "B000JOE224-PARENT-APP",
         "find_value": "Feline",
         "find_where": "name",
-        "count": "1",
+        "count": 1,
         "response_fields": "{result{children{id,parent_id,sku,name,url}}}"
     }
 }

@@ -1,0 +1,174 @@
+{
+    "captured_at": "2026-08-11T07:14:47Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "TestBatchAddProduct1511",
+                "sku": "test_batch_add_product1511",
+                "description": "TestBatchAddProduct1 description",
+                "price": 2.55,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "NEW_WITH_DEFECTS",
+                "specifics": [
+                    {
+                        "name": "Brand",
+                        "value": "Cherokee"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-add-1/800"
+                    }
+                ],
+                "quantity": 10
+            },
+            {
+                "name": "TestBatchAddProduct2511",
+                "sku": "test_batch_add_product2511",
+                "description": "TestBatchAddProduct2 description",
+                "price": 2.55,
+                "listing_duration": "DAYS_1",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "NEW",
+                "buyitnow_price": 3.4,
+                "reserve_price": 3.05,
+                "quantity": 1,
+                "upc": "711719709893",
+                "ean": "0711719709893",
+                "isbn": "9781474837637",
+                "listing_type": "AUCTION",
+                "specifics": [
+                    {
+                        "name": "Brand",
+                        "value": "Cherokee"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-add-2/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct4511",
+                "sku": "test_batch_add_product4511",
+                "description": "TestBatchAddProduct4 description",
+                "price": 2.55,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "NEW_WITH_DEFECTS",
+                "quantity": 10,
+                "upc": "711719709893",
+                "ean": "0711719709893",
+                "isbn": "9781474837637",
+                "weight": 1.5,
+                "weight_unit": "g",
+                "width": 23,
+                "height": 24,
+                "length": 25,
+                "dimensions_unit": "cm",
+                "specifics": [
+                    {
+                        "name": "Color",
+                        "value": "Gray"
+                    },
+                    {
+                        "name": "Industry",
+                        "value": "Construction"
+                    },
+                    {
+                        "name": "Brand",
+                        "value": "Cherokee"
+                    }
+                ],
+                "condition_description": "Like New",
+                "paypal_email": "user18602@example.com",
+                "listing_type": "FIXED_PRICE",
+                "product_type": "configurable",
+                "seller_profiles": {
+                    "shipping_profile_id": "5620276000",
+                    "payment_profile_id": "5575460000",
+                    "return_profile_id": "6036530000"
+                },
+                "best_offer": 2,
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-add-4/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct5511",
+                "sku": "test_batch_add_product5511",
+                "description": "TestBatchAddProduct5 description",
+                "price": 9.55,
+                "listing_duration": "DAYS_3",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "NEW_WITH_DEFECTS",
+                "quantity": 1,
+                "buyitnow_price": 13.4,
+                "reserve_price": 13.05,
+                "upc": "711719709893",
+                "ean": "0711719709893",
+                "isbn": "9781474837637",
+                "listing_type": "AUCTION",
+                "auction_confidentiality_level": "private",
+                "avail_from": "2026-01-12",
+                "specifics": [
+                    {
+                        "name": "Brand",
+                        "value": "Cherokee"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-add-5/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct6511",
+                "sku": "test_batch_add_product6511",
+                "description": "TestBatchAddProduct6 description",
+                "price": 2.55,
+                "quantity": 10,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "162925"
+                ],
+                "condition": "USED_ACCEPTABLE",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-add-6/800"
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "Material",
+                        "values": [
+                            "Alabaster",
+                            "Brass",
+                            "Bronze"
+                        ]
+                    }
+                ],
+                "sales_tax": {
+                    "tax_percent": 2,
+                    "taxable": true
+                },
+                "condition_description": "Like New"
+            }
+        ]
+    }
+}

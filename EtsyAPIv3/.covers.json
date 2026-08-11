@@ -9,16 +9,16 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "cart/info/rf-name": {
-        "description": "selected response fields"
+        "description": "field selection: name"
     },
     "cart/info/rf-stores-info": {
-        "description": "selected response fields"
+        "description": "field selection: stores_info"
     },
     "cart/info/rf-test": {
-        "description": "selected response fields"
+        "description": "field selection: test"
     },
     "cart/info/rf-url": {
-        "description": "selected response fields"
+        "description": "field selection: url"
     },
     "category/count/basic": {
         "description": "happy path: total count"
@@ -27,25 +27,25 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "category/count/find-name": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Accessories]"
     },
     "category/count/find-name-2": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Belts & Suspenders]"
     },
     "category/count/find-name-3": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Belt Buckles]"
     },
     "category/count/find-where-name__find-value-men": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=men]"
     },
     "category/count/parent-id-0": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=0]"
     },
     "category/count/parent-id-1": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=1]"
     },
     "category/count/parent-id-2": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=2]"
     },
     "category/info/error-no-params": {
         "description": "error: missing required id => 114 NO_PARAM"
@@ -54,19 +54,19 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "category/info/id-1": {
-        "description": "info by id"
+        "description": "info by id [id=1]"
     },
     "category/info/id-2": {
-        "description": "info by id"
+        "description": "info by id [id=2]"
     },
     "category/info/id-3": {
-        "description": "info by id"
+        "description": "info by id [id=3]"
     },
     "category/info/id-4": {
-        "description": "full response fields"
+        "description": "full response fields [id=4]"
     },
     "category/info/id-5": {
-        "description": "full response fields"
+        "description": "full response fields [id=5]"
     },
     "category/list/basic": {
         "description": "happy path: first page"
@@ -75,13 +75,13 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "category/list/find-name": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Accessories]"
     },
     "category/list/find-name-2": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Belts & Suspenders]"
     },
     "category/list/find-name-3": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Belt Buckles]"
     },
     "category/list/page-2": {
         "description": "pagination: page 2 via page_cursor"
@@ -90,13 +90,13 @@
         "description": "pagination: cursor page"
     },
     "category/list/parent-id-0": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=0]"
     },
     "category/list/parent-id-1": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=1]"
     },
     "category/list/parent-id-2": {
-        "description": "categories under a parent"
+        "description": "categories under a parent [parent_id=2]"
     },
     "category/list/start-10": {
         "description": "pagination: offset start 10"
@@ -126,25 +126,25 @@
         "description": "filter: modified_to (upper bound)"
     },
     "order/info/order-id-2858445267": {
-        "description": "info by order_id"
+        "description": "info by order_id [order_id=2858445267]"
     },
     "order/info/order-id-4110804944": {
-        "description": "info by order_id"
+        "description": "info by order_id [order_id=4110804944]"
     },
     "order/info/order-id-4127699155": {
-        "description": "full response fields"
+        "description": "full response fields [order_id=4127699155]"
     },
     "order/info/order-id-4130358936": {
-        "description": "full response fields"
+        "description": "full response fields [order_id=4130358936]"
     },
     "order/info/order-id-4130541658": {
-        "description": "full response fields"
+        "description": "full response fields [order_id=4130541658]"
     },
     "order/info/order-id-4130825825": {
-        "description": "full response fields"
+        "description": "full response fields [order_id=4130825825]"
     },
     "order/info/order-id-4132060218": {
-        "description": "full response fields"
+        "description": "full response fields [order_id=4132060218]"
     },
     "order/list/basic": {
         "description": "happy path: first page"
@@ -153,10 +153,10 @@
         "description": "filter: created_from (lower bound)"
     },
     "order/list/created-modified-range": {
-        "description": "filter: date range (created/modified from-to)"
+        "description": "filter: date range (created/modified from-to) [modified_from=2010-07-29 13:45:52]"
     },
     "order/list/created-range": {
-        "description": "filter: date range (created/modified from-to)"
+        "description": "filter: date range (created/modified from-to) [no modified_from]"
     },
     "order/list/created-to-2100-08-29-13-45-52": {
         "description": "filter: created_to (upper bound)"
@@ -165,34 +165,34 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "order/list/financial-fulfillment-paid-not-shipped": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [financial_status=paid, fulfillment_status=not_shipped]"
     },
     "order/list/financial-status-not-paid": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [financial_status=not_paid, no fulfillment_status]"
     },
     "order/list/financial-status-paid": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [financial_status=paid, no fulfillment_status]"
     },
     "order/list/fulfillment-status-delivered": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no financial_status, fulfillment_status=delivered]"
     },
     "order/list/fulfillment-status-not-shipped": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no financial_status, fulfillment_status=not_shipped]"
     },
     "order/list/fulfillment-status-shipped-and-not-delivered": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no financial_status, fulfillment_status=shipped_and_not_deliv...]"
     },
     "order/list/modified-from-2010-07-29-13-45-52": {
         "description": "filter: modified_from (lower bound)"
     },
     "order/list/modified-range": {
-        "description": "filter: date range (created/modified from-to)"
+        "description": "filter: date range (created/modified from-to) [no created_from, no created_to, modified_from=2010-07-29 13:45:52]"
     },
     "order/list/modified-to-2100-08-29-13-45-52": {
         "description": "filter: modified_to (upper bound)"
     },
     "order/list/order-status-open": {
-        "description": "filter: order_status=open"
+        "description": "filter: order_status=open [no financial_status]"
     },
     "order/list/page-2": {
         "description": "pagination: page 2 via page_cursor"
@@ -201,10 +201,10 @@
         "description": "pagination: cursor page"
     },
     "order/list/start-10": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no financial_status, no fulfillment_status]"
     },
     "order/list/status-financial-open-paid": {
-        "description": "filter: order_status=open"
+        "description": "filter: order_status=open [financial_status=paid]"
     },
     "order/shipment.add/basic": {
         "description": "happy path: add order shipment with tracking number and shipped items"
@@ -219,49 +219,49 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "order/shipment.info/id-1501657741180-order-id-4110804944": {
-        "description": "info by id+order_id"
+        "description": "info by id+order_id [id=1501657741180]"
     },
     "order/shipment.info/id-1502849844791-order-id-4110804944": {
-        "description": "info by id+order_id"
+        "description": "info by id+order_id [id=1502849844791]"
     },
     "order/shipment.info/id-1503531248668-order-id-4130358936": {
-        "description": "full response fields"
+        "description": "full response fields [id=1503531248668]"
     },
     "order/shipment.info/id-1503532257636-order-id-4130541658": {
-        "description": "full response fields"
+        "description": "full response fields [id=1503532257636]"
     },
     "order/shipment.info/id-1503892164614-order-id-4132060218": {
-        "description": "full response fields"
+        "description": "full response fields [id=1503892164614]"
     },
     "order/shipment.info/id-1503989778593-order-id-4127699155": {
-        "description": "full response fields"
+        "description": "full response fields [id=1503989778593]"
     },
     "order/shipment.info/id-1504715324125-order-id-4130825825": {
-        "description": "full response fields"
+        "description": "full response fields [id=1504715324125]"
     },
     "order/shipment.list/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "order/shipment.list/order-id-2858445267": {
-        "description": "sub-list first page for order_id"
+        "description": "sub-list first page for order_id [order_id=2858445267]"
     },
     "order/shipment.list/order-id-4110804944": {
-        "description": "sub-list first page for order_id"
+        "description": "sub-list first page for order_id [order_id=4110804944]"
     },
     "order/shipment.list/order-id-4127699155": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [order_id=4127699155]"
     },
     "order/shipment.list/order-id-4130358936": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [order_id=4130358936]"
     },
     "order/shipment.list/order-id-4130541658": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [order_id=4130541658]"
     },
     "order/shipment.list/order-id-4130825825": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [order_id=4130825825]"
     },
     "order/shipment.list/order-id-4132060218": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [order_id=4132060218]"
     },
     "order/status.list/basic": {
         "description": "happy path: first page"
@@ -327,13 +327,13 @@
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "product/child_item.info/product-id-1360559503__id-12877039520": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=1360559503, id=12877039520]"
     },
     "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=1360559503, id=12877039522]"
     },
     "product/child_item.info/product-id-888814018__id-18444733522__rf-all": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=888814018, id=18444733522]"
     },
     "product/child_item.list/error-invalid-param": {
         "description": "error: invalid param value => 109 PARAM_ERROR"
@@ -342,25 +342,25 @@
         "description": "pagination: second page"
     },
     "product/child_item.list/product-id-1360559503__count-2": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=1360559503, count=2]"
     },
     "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest": {
-        "description": "search: matching sku value"
+        "description": "search: matching sku value [find_value=QAautotest]"
     },
     "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889": {
-        "description": "search: matching sku value"
+        "description": "search: matching sku value [find_value=test_variant8889]"
     },
     "product/child_item.list/product-id-888814018": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=888814018, no count]"
     },
     "product/child_item.list/product-id-888814018__rf-all__start-2__count-1": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [product_id=888814018, count=1]"
     },
     "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: specific product id(s) [no product_id, no count]"
     },
     "product/count/avail-view-false": {
         "description": "filter: avail_view=false"
@@ -375,10 +375,10 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "product/count/find-where-name__find-value-qatestvariantprod__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=QAtestvariantprod]"
     },
     "product/count/find-where-name__find-value-test3": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Test3]"
     },
     "product/delete/by-id": {
         "description": "happy path: delete product by id"
@@ -408,13 +408,13 @@
         "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
     },
     "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
     },
     "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Rainbow Smiley Beaded...]"
     },
     "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Yellow grunge resin y...]"
     },
     "product/image.add/by-url": {
         "description": "happy path: add product image by url"
@@ -471,28 +471,28 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
     },
     "product/list/find-where-name__find-value-qatestpro": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=QAtestpro]"
     },
     "product/list/find-where-name__find-value-qatestvariantprod__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=QAtestvariantprod]"
     },
     "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Rainbow Smiley Beaded...]"
     },
     "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all": {
-        "description": "search: matching name value"
+        "description": "search: matching name value [find_value=Yellow grunge resin y...]"
     },
     "product/list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: cursor page [page_cursor=BcHbDoIgAADQD/KhTXHJI...]"
     },
     "product/list/page-2-full-fields": {
         "description": "pagination: cursor page with full response fields"
     },
     "product/list/page-3": {
-        "description": "pagination: cursor page"
+        "description": "pagination: cursor page [page_cursor=BcHRDoIgFADQT9IprPmso...]"
     },
     "product/list/rf-all__avail-view-false": {
         "description": "filter: avail_view=false"
@@ -507,37 +507,37 @@
         "description": "full response fields"
     },
     "product/list/rf-product-id-u-model-price": {
-        "description": "selected response fields"
+        "description": "field selection: product.id,product.u_model,product.price"
     },
     "product/list/sku-bag-01": {
         "description": "pagination: start/count offset"
     },
     "product/list/sort-by-modified-at__sort-direction-asc": {
-        "description": "sorting: modified_at"
+        "description": "sorting: modified_at [sort_direction=asc]"
     },
     "product/list/sort-by-modified-at__sort-direction-desc": {
-        "description": "sorting: modified_at"
+        "description": "sorting: modified_at [sort_direction=desc]"
     },
     "product/list/sort-by-price": {
         "description": "filtered export"
     },
     "product/list/sort-by-price__sort-direction-desc": {
-        "description": "sorting: price"
+        "description": "sorting: price [sort_direction=desc]"
     },
     "product/list/sort-create-at-asc": {
-        "description": "sorting: create_at"
+        "description": "sorting: create_at [sort_direction=asc]"
     },
     "product/list/sort-create-at-desc": {
-        "description": "sorting: create_at"
+        "description": "sorting: create_at [sort_direction=desc]"
     },
     "product/list/sort-price-asc": {
-        "description": "sorting: price"
+        "description": "sorting: price [sort_direction=asc]"
     },
     "product/list/start-0__count-6": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no sku, count=6]"
     },
     "product/list/start-10": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [no sku, count=10]"
     },
     "product/update/by-id": {
         "description": "happy path: update product by id"

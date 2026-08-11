@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T11:24:20Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "created_to": "2025-09-24",
+        "category_id": "30120"
+    }
+}

@@ -4,7 +4,7 @@
     "endpoint": "product.child_item.list.json",
     "query": {
         "product_id": "SWYTE-2-SWEATER-MASTER",
-        "count": "20",
+        "count": 20,
         "response_fields": "{result{children{id,parent_id,sku,name,url}}}"
     }
 }

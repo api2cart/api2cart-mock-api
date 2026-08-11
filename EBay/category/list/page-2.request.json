@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-10T11:24:18Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "page_cursor": "BcFdu0IwAADgH%2BRCmzjPLrqQCpPD5uvoznzUkE4Tw6%2FvfbO2aWDGnq549QIbo62ew5sye%2FF2SjuiDBsQ5XDcRT9B9oFF4lU1m50pv5osR%2BBqPJZZg3FXb1pFglOB48UKRiSkpCDv0MSEJI9wHeZppOa%2B98o25Y6FW8FRBAi7jOnvpdedu69xl6eKH5QNluRW1aAz1Qwrn7yEi0ong%2Br%2FSaHWNuw3H1s2%2B4vaUH%2FTcFXPK1rfcaLv%2BbHaua%2BF2JLJw%2BEL",
+        "params": "force_all",
+        "exclude": "additional_fields"
+    }
+}

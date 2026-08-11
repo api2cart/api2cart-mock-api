@@ -1,0 +1,8 @@
+{
+    "return_code": 0,
+    "return_message": "Image was created",
+    "result": {
+        "id": "1851533162",
+        "image_path": "https://picsum.photos/seed/EBay:image.add:type-additional/800"
+    }
+}

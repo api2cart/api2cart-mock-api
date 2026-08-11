@@ -1,0 +1,13 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "count": 1,
+        "order_financial_statuses": [
+            {
+                "id": "paid",
+                "name": "paid"
+            }
+        ]
+    }
+}

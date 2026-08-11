@@ -1,0 +1,352 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "orders_count": 3,
+        "order": [
+            {
+                "order_id": "15-14831-64147",
+                "customer": {
+                    "id": "riley63485",
+                    "email": "",
+                    "first_name": "Taylor",
+                    "last_name": "Clark",
+                    "phone": null
+                },
+                "shipping_address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "737 Example St",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": {
+                    "id": "1",
+                    "type": "billing",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "737 Example St",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 32.5,
+                    "subtotal": 20,
+                    "shipping": 12.5,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "order_products": [
+                    {
+                        "product_id": "184834079364",
+                        "order_product_id": "10083019543715",
+                        "model": "162624",
+                        "name": "Premium Sample Item 361",
+                        "price": 20,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 20,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "tax_numbers": [],
+                            "shipByDate": "2026-08-12T22:59:59+0000",
+                            "minEstimatedDeliveryDate": "2026-08-05T23:00:00+0000",
+                            "maxEstimatedDeliveryDate": "2026-08-12T23:00:00+0000",
+                            "guaranteedDelivery": false
+                        }
+                    }
+                ],
+                "bundles": []
+            },
+            {
+                "order_id": "13-14844-57613",
+                "customer": {
+                    "id": "riley63485",
+                    "email": "",
+                    "first_name": "Taylor",
+                    "last_name": "Clark",
+                    "phone": null
+                },
+                "shipping_address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": {
+                    "id": "1",
+                    "type": "billing",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 15,
+                    "subtotal": 15,
+                    "shipping": 0,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "order_products": [
+                    {
+                        "product_id": "184834079441",
+                        "order_product_id": "10084380119613",
+                        "model": "162649",
+                        "name": "Portable Product 765",
+                        "price": 15,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 15,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "tax_numbers": [],
+                            "shipByDate": null,
+                            "minEstimatedDeliveryDate": null,
+                            "maxEstimatedDeliveryDate": null,
+                            "guaranteedDelivery": false
+                        }
+                    }
+                ],
+                "bundles": []
+            },
+            {
+                "order_id": "01-14866-09295",
+                "customer": {
+                    "id": "riley63485",
+                    "email": "",
+                    "first_name": "Taylor",
+                    "last_name": "Clark",
+                    "phone": null
+                },
+                "shipping_address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "billing_address": {
+                    "id": "1",
+                    "type": "billing",
+                    "first_name": "Alex",
+                    "last_name": "Wilson",
+                    "postcode": "88198",
+                    "address1": "170 Example St",
+                    "address2": "",
+                    "phone": "+10960450291",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": false,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "status": {
+                    "id": "completed",
+                    "name": "Completed",
+                    "history": [],
+                    "refund_info": null
+                },
+                "totals": {
+                    "total": 15,
+                    "subtotal": 15,
+                    "shipping": 0,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "order_products": [
+                    {
+                        "product_id": "184354353180",
+                        "order_product_id": "10082159278201",
+                        "model": "151653",
+                        "name": "Heavy-Duty Widget 462",
+                        "price": 15,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 15,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": null,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "tax_numbers": [],
+                            "shipByDate": null,
+                            "minEstimatedDeliveryDate": null,
+                            "maxEstimatedDeliveryDate": null,
+                            "guaranteedDelivery": false
+                        }
+                    }
+                ],
+                "bundles": []
+            }
+        ]
+    }
+}

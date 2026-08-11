@@ -1,0 +1,305 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": null,
+        "url": "https://store-4082fe18.example.com/",
+        "version": null,
+        "bridge_version": null,
+        "db_prefix": null,
+        "stores_info": [
+            {
+                "store_info": [
+                    {
+                        "additional_fields": null,
+                        "store_id": "testuser_sandboxaaaaaaa",
+                        "name": "",
+                        "language": "en",
+                        "store_languages": [
+                            {
+                                "id": 1,
+                                "iso_code": "en",
+                                "name": "English"
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "name": "US Dollar",
+                                "iso3": "USD",
+                                "symbol": "$"
+                            }
+                        ],
+                        "timezone": "PST",
+                        "country": "US",
+                        "root_category_id": null,
+                        "multi_store_url": null,
+                        "active": "True",
+                        "weight_unit": null,
+                        "dimension_unit": null,
+                        "prices_include_tax": "False",
+                        "store_owner_info": [
+                            {
+                                "owner": "Roma Babyak",
+                                "country": "US",
+                                "state": "FL",
+                                "state_code": null,
+                                "city": null,
+                                "street_address": "161 Example St",
+                                "street_address_line_2": "address",
+                                "zip_code": "18512",
+                                "email": "user95922@example.com",
+                                "phone": "+12820488381"
+                            }
+                        ],
+                        "default_warehouse_id": "US_95125"
+                    }
+                ]
+            }
+        ],
+        "warehouses": [
+            {
+                "id": "US_95125",
+                "name": null,
+                "description": null,
+                "avail": "True",
+                "address": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "first_name": null,
+                        "last_name": null,
+                        "postcode": "28044",
+                        "address1": "",
+                        "address2": null,
+                        "phone": "",
+                        "phone_mobile": "",
+                        "city": "",
+                        "country": [
+                            {
+                                "code2": "US",
+                                "code3": "USA",
+                                "name": "United States of America"
+                            }
+                        ],
+                        "state": [
+                            {
+                                "code": "",
+                                "name": ""
+                            }
+                        ],
+                        "company": null,
+                        "fax": null,
+                        "website": null,
+                        "gender": null,
+                        "region": null,
+                        "default": "True",
+                        "tax_id": null,
+                        "identification_number": null,
+                        "alias": null
+                    }
+                ],
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_attributes": [
+                    {
+                        "instructions": null
+                    }
+                ]
+            },
+            {
+                "id": "US_Seattle, Washington",
+                "name": null,
+                "description": null,
+                "avail": "True",
+                "address": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "first_name": null,
+                        "last_name": null,
+                        "postcode": "",
+                        "address1": "",
+                        "address2": null,
+                        "phone": "",
+                        "phone_mobile": "",
+                        "city": "Fairview",
+                        "country": [
+                            {
+                                "code2": "US",
+                                "code3": "USA",
+                                "name": "United States of America"
+                            }
+                        ],
+                        "state": [
+                            {
+                                "code": "",
+                                "name": ""
+                            }
+                        ],
+                        "company": null,
+                        "fax": null,
+                        "website": null,
+                        "gender": null,
+                        "region": null,
+                        "default": "True",
+                        "tax_id": null,
+                        "identification_number": null,
+                        "alias": null
+                    }
+                ],
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_attributes": [
+                    {
+                        "instructions": null
+                    }
+                ]
+            },
+            {
+                "id": "default",
+                "name": "Main Warehouse",
+                "description": null,
+                "avail": "True",
+                "address": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "first_name": null,
+                        "last_name": null,
+                        "postcode": "28044",
+                        "address1": "832 Example St",
+                        "address2": null,
+                        "phone": "",
+                        "phone_mobile": "",
+                        "city": "Bristol",
+                        "country": [
+                            {
+                                "code2": "US",
+                                "code3": "USA",
+                                "name": "United States of America"
+                            }
+                        ],
+                        "state": [
+                            {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        ],
+                        "company": null,
+                        "fax": null,
+                        "website": null,
+                        "gender": null,
+                        "region": null,
+                        "default": "True",
+                        "tax_id": null,
+                        "identification_number": null,
+                        "alias": null
+                    }
+                ],
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_attributes": [
+                    {
+                        "instructions": null
+                    }
+                ]
+            }
+        ],
+        "shipping_zones": [
+            {
+                "shipping_zone": [
+                    {
+                        "id": "CN",
+                        "code": "CN",
+                        "name": null,
+                        "country": "China"
+                    },
+                    {
+                        "id": "RU",
+                        "code": "RU",
+                        "name": null,
+                        "country": "Russian Federation"
+                    },
+                    {
+                        "id": "CA",
+                        "code": "CA",
+                        "name": null,
+                        "country": "Canada"
+                    },
+                    {
+                        "id": "BR",
+                        "code": "BR",
+                        "name": null,
+                        "country": "Brazil"
+                    },
+                    {
+                        "id": "DE",
+                        "code": "DE",
+                        "name": null,
+                        "country": "Germany"
+                    },
+                    {
+                        "id": "FR",
+                        "code": "FR",
+                        "name": null,
+                        "country": "France"
+                    },
+                    {
+                        "id": "Europe",
+                        "code": "Europe",
+                        "name": null,
+                        "country": "Europe"
+                    },
+                    {
+                        "id": "GB",
+                        "code": "GB",
+                        "name": null,
+                        "country": "United Kingdom"
+                    },
+                    {
+                        "id": "Americas",
+                        "code": "Americas",
+                        "name": null,
+                        "country": "N. and S. America"
+                    },
+                    {
+                        "id": "Asia",
+                        "code": "Asia",
+                        "name": null,
+                        "country": "Asia"
+                    },
+                    {
+                        "id": "AU",
+                        "code": "AU",
+                        "name": null,
+                        "country": "Australia"
+                    },
+                    {
+                        "id": "MX",
+                        "code": "MX",
+                        "name": null,
+                        "country": "Mexico"
+                    },
+                    {
+                        "id": "Worldwide",
+                        "code": "Worldwide",
+                        "name": null,
+                        "country": "Worldwide"
+                    },
+                    {
+                        "id": "JP",
+                        "code": "JP",
+                        "name": null,
+                        "country": "Japan"
+                    },
+                    {
+                        "id": "None",
+                        "code": "None",
+                        "name": null,
+                        "country": "None"
+                    }
+                ]
+            }
+        ]
+    }
+}

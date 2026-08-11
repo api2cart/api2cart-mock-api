@@ -5,7 +5,7 @@
     "body": {
         "product_id": "123450101",
         "image_name": "footer_center_bg2.jpg",
-        "position": "1",
+        "position": 1,
         "url": "https://picsum.photos/seed/etsy-image-add-1/800"
     }
 }

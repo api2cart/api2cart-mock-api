@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "eBay limits the filter by date. The maximum date range that may be specified with the modified_from and modified_to parameters is 30 days.",
+    "result": []
+}

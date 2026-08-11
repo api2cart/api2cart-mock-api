@@ -1,0 +1,37 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 4,
+        "marketplace_product": [
+            {
+                "id": "242710160",
+                "name": "Apple iPhone 6 - 64GB - Space Gray (Non CA Versions) A1586 (CDMA + GSM)",
+                "description": null,
+                "price": null
+            },
+            {
+                "id": "203786338",
+                "name": "Apple iPhone 6 - 64GB - Space Gray (T-Mobile) A1549 (GSM)",
+                "description": null,
+                "price": null
+            },
+            {
+                "id": "241102229",
+                "name": "Apple iPhone 6 - 64GB - Space Gray (Unlocked) A1549 (GSM)",
+                "description": null,
+                "price": null
+            },
+            {
+                "id": "242594131",
+                "name": "Apple iPhone 6 - 64GB - Space Gray (Non US Versions) A1586 (CDMA + GSM)",
+                "description": null,
+                "price": null
+            }
+        ]
+    }
+}

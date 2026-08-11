@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-11T07:14:47Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test product",
+        "description": "Test product",
+        "price": ""
+    }
+}

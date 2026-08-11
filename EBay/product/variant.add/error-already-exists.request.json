@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-11T07:14:47Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "110552914804",
+        "model": "variable2",
+        "quantity": 10,
+        "price": 45,
+        "attributes": [
+            {
+                "attribute_name": "Color",
+                "attribute_value": "Red"
+            },
+            {
+                "attribute_name": "Size",
+                "attribute_value": "M"
+            }
+        ]
+    }
+}

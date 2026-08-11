@@ -1,0 +1,25 @@
+{
+    "captured_at": "2026-08-11T07:14:47Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "sku": "test",
+                "name": "test",
+                "description": "test",
+                "categories_ids": [
+                    "105417"
+                ],
+                "price": 9.99,
+                "listing_type": "FIXED_PRICE",
+                "best_offer": 55.55,
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-best-offer/800"
+                    }
+                ]
+            }
+        ]
+    }
+}

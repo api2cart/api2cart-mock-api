@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-11T07:14:47Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": "from_addMediumTC3",
+        "type": "base",
+        "url": "https://picsum.photos/seed/ebay-image-add-1/800",
+        "image_name": "maintenance.png",
+        "position": 0
+    }
+}

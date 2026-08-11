@@ -1,0 +1,22 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 449,
+        "job_name": "product.add.batch",
+        "items_processed": 1,
+        "items_succeed": 1,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "110590173683",
+                "errors": [],
+                "warnings": [
+                    "System warning. Your selected payment policy had deprecated information. A new or different policy eBay Managed Payments - CashOnPickup (6210972000) was mapped in its place.",
+                    "This selling account is enabled for payments managed by eBay. VisaMC is not currently accepted as a payment method and has been removed from the listing."
+                ]
+            }
+        ]
+    }
+}

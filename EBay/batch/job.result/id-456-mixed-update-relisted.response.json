@@ -1,0 +1,28 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 456,
+        "job_name": "product.update.batch",
+        "items_processed": 2,
+        "items_succeed": 1,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "110590173974",
+                "errors": [],
+                "warnings": []
+            },
+            {
+                "id": 1,
+                "status": "failed",
+                "entity_id": "110590173973",
+                "errors": [
+                    "Product with id '110590173973' is already relisted under product with id '110590173979'."
+                ],
+                "warnings": []
+            }
+        ]
+    }
+}

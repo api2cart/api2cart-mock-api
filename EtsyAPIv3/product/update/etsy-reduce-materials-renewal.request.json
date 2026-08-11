@@ -8,7 +8,7 @@
         "description": "Test Product ahmet",
         "shop_section_id": "54235001",
         "return_policy_id": "1371690296221",
-        "width": "12",
+        "width": 12,
         "auto_renew": "false",
         "materials": [
             "materials"

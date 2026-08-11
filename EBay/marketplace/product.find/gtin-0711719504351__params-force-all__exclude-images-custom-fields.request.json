@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-10T11:24:18Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "gtin": "0711719504351",
+        "params": "force_all",
+        "exclude": "images,custom_fields"
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "",
+        "order_id": "02-00000-38996",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": [
+            {
+                "id": "testuser_t0321564222",
+                "email": "user50562@example.com",
+                "first_name": "Taylor",
+                "last_name": "Brown"
+            }
+        ],
+        "create_at": "2026-01-08 17:41:22",
+        "currency": [
+            {
+                "name": "US Dollar",
+                "code": "USD",
+                "iso3": "USD",
+                "symbol_left": "$",
+                "symbol_right": "",
+                "rate": 1
+            }
+        ],
+        "shipping_address": [
+            {
+                "id": "1",
+                "type": "shipping",
+                "first_name": "Jordan",
+                "last_name": "Miller",
+                "postcode": "75908",
+                "address1": "517 Example St",
+                "address2": "",
+                "phone": "+14175297738",
+                "phone_mobile": "",
+                "city": "Bristol",
+                "country": [
+                    {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    }
+                ],
+                "state": [
+                    {
+                        "code": "MI",
+                        "name": "Michigan"
+                    }
+                ],
+                "company": null,
+                "fax": null,
+                "website": null,
+                "gender": null,
+                "region": null,
+                "default": "False",
+                "tax_id": null,
+                "identification_number": null,
+                "alias": null
+            }
+        ],
+        "billing_address": [
+            {
+                "id": "1",
+                "type": "billing",
+                "first_name": "Jordan",
+                "last_name": "Miller",
+                "postcode": "75908",
+                "address1": "517 Example St",
+                "address2": "",
+                "phone": "+14175297738",
+                "phone_mobile": "",
+                "city": "Bristol",
+                "country": [
+                    {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    }
+                ],
+                "state": [
+                    {
+                        "code": "MI",
+                        "name": "Michigan"
+                    }
+                ],
+                "company": null,
+                "fax": null,
+                "website": null,
+                "gender": null,
+                "region": null,
+                "default": "False",
+                "tax_id": null,
+                "identification_number": null,
+                "alias": null
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CreditCard"
+            }
+        ],
+        "shipping_method": [
+            {
+                "name": "Pickup",
+                "additional_attributes": [
+                    {
+                        "pickup_location_id": null
+                    }
+                ]
+            }
+        ],
+        "shipping_methods": [
+            {
+                "name": "Pickup",
+                "additional_attributes": [
+                    {
+                        "pickup_location_id": null
+                    }
+                ]
+            }
+        ],
+        "status": [
+            {
+                "id": "open",
+                "name": "Open",
+                "history": null,
+                "refund_info": null
+            }
+        ],
+        "totals": [
+            {
+                "total": 2.55,
+                "subtotal": 2.55,
+                "shipping": 0,
+                "tax": 0,
+                "discount": 0
+            }
+        ],
+        "total": [
+            {
+                "subtotal_ex_tax": 2.55,
+                "wrapping_ex_tax": null,
+                "shipping_ex_tax": 0,
+                "total_discount": 0,
+                "total_tax": 0,
+                "total": 2.55,
+                "total_paid": 2.55,
+                "additional_attributes": [
+                    {
+                        "shipping_discount_ex_tax": null,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": 0,
+                        "wrapping_tax": null,
+                        "shipping_tax": 0
+                    }
+                ]
+            }
+        ],
+        "discounts": null,
+        "order_products": [
+            {
+                "product": [
+                    {
+                        "product_id": "110588641097",
+                        "order_product_id": "10000003981910",
+                        "model": null,
+                        "name": "Test product 62",
+                        "price": 2.55,
+                        "price_inc_tax": null,
+                        "quantity": 1,
+                        "discount_amount": null,
+                        "total_price": 2.55,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": null,
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "tax_numbers": [],
+                        "shipByDate": null,
+                        "minEstimatedDeliveryDate": null,
+                        "maxEstimatedDeliveryDate": null,
+                        "guaranteedDelivery": "False"
+                    }
+                ]
+            }
+        ],
+        "bundles": [],
+        "modified_at": "2026-01-08 17:41:22",
+        "finished_time": null,
+        "comment": "",
+        "store_id": "testuser_sandboxaaaaaaa",
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "extended_order_id": "02-00000-38996",
+        "ebay_order_status": "Active",
+        "CancelStatus": "NotApplicable",
+        "CancelReason": "",
+        "eBayPaymentStatus": "NoPaymentFailure",
+        "ebay_site_id": "US",
+        "PaidTime": ""
+    }
+}

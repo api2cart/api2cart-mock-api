@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T18:20:00Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "keyword": "apple",
+        "count": -1
+    }
+}

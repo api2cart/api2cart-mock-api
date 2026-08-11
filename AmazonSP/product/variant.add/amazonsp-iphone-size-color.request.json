@@ -35,8 +35,8 @@
         },
         "product_id": "test_variant_add_Parent_PHONE_1",
         "sku": "test_add_Child_iPHONE-Alpine-Green-1TB",
-        "quantity": "0",
-        "price": "10",
+        "quantity": 0,
+        "price": 10,
         "name": "iPhone 13 Pro, 1TB, Alpine Green - Unlocked (Renewed Premium)",
         "description": "iPhone 13 Pro, 1TB, Alpine Green - Unlocked (Renewed Premium)"
     }
