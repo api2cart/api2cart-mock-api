@@ -1,0 +1,39 @@
+{
+    "captured_at": "2026-08-11T13:19:49Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Ergonomic Gaming Chair with Lumbar Support",
+        "description": "Premium ergonomic gaming chair with adjustable armrests, reclining backrest, and removable lumbar support pillow. Made with breathable PU leather.",
+        "short_description": "Comfortable gaming chair with lumbar support.",
+        "category_id": "672",
+        "image_url": "https://picsum.photos/seed/fb-gaming-chair/800",
+        "sku": "gaming_chair_pro_from_tests",
+        "price": 199.99,
+        "special_price": 159.99,
+        "sprice_create": "2025-03-01 00:00:00",
+        "sprice_expire": "2025-06-01 23:59:59",
+        "quantity": 30,
+        "brand_name": "ProGamer",
+        "product_type": "FURNITURE",
+        "gtin": "5012345678900",
+        "external_product_link": "https://example.com/gaming-chair",
+        "specifics": [
+            {
+                "name": "max_load",
+                "value": "150kg"
+            },
+            {
+                "name": "material",
+                "value": "PU Leather"
+            },
+            {
+                "name": "adjustable_height",
+                "value": "Yes"
+            }
+        ],
+        "status": "enabled",
+        "available_for_sale": "false",
+        "store_id": "1732577937418943"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "stores_info": [
+            {
+                "store_id": "2008815096142395",
+                "name": "Test Shop API",
+                "currency": {
+                    "id": "USD",
+                    "name": "US Dollar",
+                    "iso3": "USD",
+                    "symbol_left": "$",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                }
+            },
+            {
+                "store_id": "334537149122992",
+                "name": "Test Shop",
+                "currency": {
+                    "id": "USD",
+                    "name": "US Dollar",
+                    "iso3": "USD",
+                    "symbol_left": "$",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                }
+            },
+            {
+                "store_id": "1732577937418943",
+                "name": "TestShop25",
+                "currency": {
+                    "id": "USD",
+                    "name": "US Dollar",
+                    "iso3": "USD",
+                    "symbol_left": "$",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                }
+            },
+            {
+                "store_id": "849571166567909",
+                "name": "Shopktv",
+                "currency": {
+                    "id": "USD",
+                    "name": "US Dollar",
+                    "iso3": "USD",
+                    "symbol_left": "$",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                }
+            }
+        ]
+    }
+}

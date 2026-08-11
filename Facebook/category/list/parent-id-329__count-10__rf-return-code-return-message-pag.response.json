@@ -1,0 +1,22 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "category": [
+            {
+                "id": "318",
+                "parent_id": "329",
+                "name": "watches"
+            },
+            {
+                "id": "328",
+                "parent_id": "329",
+                "name": "jewelry"
+            }
+        ]
+    }
+}

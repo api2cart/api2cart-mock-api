@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-07-23T11:31:17Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "product_ids": "1910374,24324124957192861,604212423420062,0,noexist,30405902195692141,noexist",
+        "response_fields": "{*}",
+        "store_id": "1218690792686186",
+        "count": 1,
+        "find_value": "Iphone 12",
+        "find_where": "name"
+    }
+}

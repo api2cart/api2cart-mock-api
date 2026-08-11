@@ -1,0 +1,89 @@
+{
+    "captured_at": "2026-08-11T13:19:49Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "AirSound Pro For Batch",
+                "sku": "ASP-001-for_batch",
+                "description": "AirSound Pro123",
+                "short_description": "Bluetooth",
+                "price": 79.99,
+                "special_price": 69.99,
+                "sprice_create": "2025-08-22T12:18:40.240Z",
+                "sprice_expire": "2025-09-22T12:18:40.240Z",
+                "quantity": 120,
+                "store_id": "1732577937418943",
+                "category_id": "318",
+                "available_for_sale": true,
+                "status": "enabled",
+                "product_type": "simple",
+                "external_product_link": "https://picsum.photos/seed/fb-airsound-pro-link/800",
+                "condition": "new",
+                "gtin": "012345678905",
+                "manufacturer": "AirSound",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/fb-airsound-pro-1/800",
+                        "position": 0
+                    },
+                    {
+                        "url": "https://picsum.photos/seed/fb-airsound-pro-2/800",
+                        "position": 0
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "age_group",
+                        "value": "infant"
+                    },
+                    {
+                        "name": "Час роботи",
+                        "value": "6"
+                    }
+                ]
+            },
+            {
+                "name": "Смарт-годинник FitLife X For Batch",
+                "sku": "FLX-2025-for_batch",
+                "description": "Смарт-годинник з моніторингом серцебиття, крокоміром та повідомленнями з телефону.",
+                "short_description": "Фітнес-годинник з OLED-дисплеєм",
+                "price": 129.5,
+                "special_price": 119,
+                "sprice_create": "2025-08-22T12:18:40.240Z",
+                "sprice_expire": "2025-10-01T12:18:40.240Z",
+                "quantity": 75,
+                "store_id": "1732577937418943",
+                "category_id": "318",
+                "available_for_sale": true,
+                "status": "enabled",
+                "product_type": "configurable",
+                "external_product_link": "https://picsum.photos/seed/fb-fitlife-x-link/800",
+                "condition": "new",
+                "gtin": "012345678905",
+                "manufacturer": "FitLife",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/fb-airsound-pro-2/800",
+                        "position": 0
+                    },
+                    {
+                        "url": "https://picsum.photos/seed/fb-airsound-pro-2/800",
+                        "position": 0
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "Діагональ екрана",
+                        "value": "1.5"
+                    },
+                    {
+                        "name": "Захист від води",
+                        "value": "IP68"
+                    }
+                ]
+            }
+        ]
+    }
+}

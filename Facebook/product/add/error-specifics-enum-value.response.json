@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Value of parameter specifics[0][value] = '150kg' is not valid. The required type of parameter is enum. One of the following values are allowed: adult, all ages, infant, kids, newborn, teen, toddle",
+    "result": {}
+}

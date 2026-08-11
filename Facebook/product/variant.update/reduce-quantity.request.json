@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-11T13:19:49Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "id": "23951253391183612",
+        "store_id": "1732577937418943",
+        "reduce_quantity": 20
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHdGoEwAADQB%2BqClc12KZV9Km2tP5dblGKmSHh655wmklRTy0tY%2F3YN85AqkYbQzfTIym%2FLA7S0kH%2FJm7EnPkchBupTbGWypoco7e6EzS59CUc6JNUmiYZjHNiiBgMVDwzXBO%2FAXJg%2Bv%2FbLfd0kWtlyIfcjzgNpjP7R8J5unCD0YL%2FIMsMuMx9WuWWe3eabFZMy4I2QPXQf3oFnpLYNFgeHxO14q4Q509hmfw%3D%3D"
+    },
+    "result": {
+        "category": [
+            {
+                "id": "407",
+                "parent_id": "529",
+                "created_at": null,
+                "modified_at": null,
+                "name": "clothing accessories",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "clothing & accessories > clothing accessories",
+                    "product_specifics": [
+                        {
+                            "name": "character",
+                            "type": "string",
+                            "description": "Particular character, person, or entity that the item represents or is associated with. Sample values: Chewbacca , Spongebob .",
+                            "units": null
+                        },
+                        {
+                            "name": "closure",
+                            "type": "string",
+                            "description": "Type of fastener used to close your item. Sample values: Zipper , Button , Snap , Drawstring .",
+                            "units": null
+                        },
+                        {
+                            "name": "fabric_care_instructions",
+                            "type": "string[]",
+                            "description": "Specific care instructions for how the fabric of your item should be cleaned. Instructions are on the item label. Sample values: Dry Clean Only , Machine Washable , Do Not Iron , Hand Wash . To provide multiple values using a single feed fabric_care_instructions field, the acceptable input format is 'Dry Clean Only', 'Machine Washable', 'Do Not Iron', 'Hand Wash' .",
+                            "units": null
+                        },
+                        {
+                            "name": "is_costume",
+                            "type": "boolean",
+                            "description": "Indicates if the item is intended to be worn as a costume. Sample values: Yes , No .",
+                            "units": null
+                        },
+                        {
+                            "name": "size_system",
+                            "type": "string",
+                            "description": "Size system used by your item, usually corresponds to country. Samples values: US , UK , EU , DE , FR , JP , CN , IT , BR , MEX , AU .",
+                            "units": null
+                        },
+                        {
+                            "name": "sport",
+                            "type": "string[]",
+                            "description": "Particular sport or activity for which your item is intended. Multiple values accepted. Sample values: Tennis , Soccer , Hiking , Running , Yoga , Basketball . To provide multiple values using a single feed occasion field, the acceptable input format is 'Tennis', 'Soccer', 'Hiking', 'Running', 'Yoga', 'Basketball' .",
+                            "units": null
+                        },
+                        {
+                            "name": "sports_league",
+                            "type": "string",
+                            "description": "Particular sports league that your item represents or is associated with. Sample values: NFL , NBA , NASCAR .",
+                            "units": null
+                        },
+                        {
+                            "name": "sports_team",
+                            "type": "string",
+                            "description": "Particular sports team that your item represents or is associated with. Sample values: Golden State Warriors , San Francisco Giants .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: Waterproof , Water Resistant . To provide multiple values using a single feed standard_features field, the acceptable input format is 'Waterproof', Water Resistant' . Note : The value inputs listed for standard_features are not sample values. They are the only inputs that are accepted.",
+                            "units": null
+                        },
+                        {
+                            "name": "sunglasses_lens_color",
+                            "type": "string",
+                            "description": "Color of sunglasses lenses. Sample values: Beige , Black , Blue , Bronze , Brown , Gold , Gray , Green , Multi-Color , Orange , Pink , Purple , Red , Silver , White , Yellow .",
+                            "units": null
+                        },
+                        {
+                            "name": "sunglasses_lens_technology",
+                            "type": "string[]",
+                            "description": "Technology or treatment of sunglass lenses. Multiple values accepted. Sample values: Anti-Reflective , Gradient , Polarized , Photochromatic . To provide multiple values using a single feed sunglasses_lens_technology field, the acceptable input format is 'Anti-Reflective', 'Gradient', 'Polarized', 'Photochromatic' .",
+                            "units": null
+                        },
+                        {
+                            "name": "sunglasses_width",
+                            "type": "string",
+                            "description": "Width of the sunglasses frame. Sample values: Narrow , Medium , Wide .",
+                            "units": null
+                        },
+                        {
+                            "name": "theme",
+                            "type": "string",
+                            "description": "Particular subject, theme, or idea that your item represents or is associated with. Sample values: Space , Super Heroes , Automobiles .",
+                            "units": null
+                        },
+                        {
+                            "name": "tie_width",
+                            "type": "string",
+                            "description": "Width of tie. Sample values: Classic , Skinny , Wide .",
+                            "units": null
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

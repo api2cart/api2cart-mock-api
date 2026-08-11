@@ -1,0 +1,31 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "c8ssdA0pMk41cC331M4z9DI2snCP9PEILDHKrcj2KXAOCMh28ksxDgwo1QdKlGV7GYcZJTkFOwZHlnomG6eF5JZmuRsWhLhmO+lH+Ibpm+T6+vmHBNraAgA=",
+        "next": "c8ssdA0pMk41cC331M4z9DI2snCP9PEILDHKrcj2KXAOCMh28ksxDgwotbAMCErXDi5PLPWvMvf0dfdJijIxqjAxKw6LDKoozA3zTbPMqyoKKfOMyHS0tQUA"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "4",
+                "parent_id": "18",
+                "name": "meat substitutes",
+                "description": null
+            },
+            {
+                "id": "5",
+                "parent_id": "18",
+                "name": "spices & seasonings",
+                "description": null
+            },
+            {
+                "id": "6",
+                "parent_id": "18",
+                "name": "pasta & grains",
+                "description": null
+            }
+        ]
+    }
+}

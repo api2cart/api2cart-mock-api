@@ -1,0 +1,818 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 9,
+        "product": [
+            {
+                "id": "25366721712953512",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "sku_0025",
+                "name": "QAautotest_batch01",
+                "description": "qa test desciptions",
+                "price": 0,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-5ce53e8e.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCH_FAILED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "sku_0025",
+                    "retailer_product_group_id": "product_default_group696106408782905sku_0025",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "https://store-df2d2ef7.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-df2d2ef7.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "NO_REVIEW"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "NzUwMjIwMjI3NjE3MTAz",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "24567417719555614",
+                "type": "configurable",
+                "u_model": null,
+                "u_sku": "sku_222",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-665982c8.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "UAH",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCHED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "sku_222",
+                    "retailer_product_group_id": "q6wzkmsvgb",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "https://store-682df0d4.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-682df0d4.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "NzUwMjIwMjI3NjE3MTAz",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "24520753870878973",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "QAautotest",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-dd83ae2d.example.com/",
+                "additional_fields": {
+                    "parent_id": "24567417719555614",
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "UAH",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCHED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "QAautotest",
+                    "retailer_product_group_id": "q6wzkmsvgb",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "https://store-682df0d4.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-682df0d4.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "NzUwMjIwMjI3NjE3MTAz",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "9762153177217914",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "UB14-512",
+                "name": "Ноутбук UltraBook 14",
+                "description": "Легкий та продуктивний ноутбук з екраном 14'' і SSD 512 ГБ.",
+                "price": 899,
+                "quantity": 100,
+                "u_brand_id": null,
+                "u_brand": "UltraTech",
+                "categories_ids": [],
+                "url": "https://store-37c0b5f2.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "in stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCH_FAILED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 35,
+                    "retailer_id": "UB14-512",
+                    "retailer_product_group_id": "product_default_group696106408782905UB14-512",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "https://store-626cbac5.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [
+                        {
+                            "key": "Процесор",
+                            "value": "Intel Core i7"
+                        },
+                        {
+                            "key": "Оперативна пам'ять",
+                            "value": "16"
+                        },
+                        {
+                            "key": "SSD",
+                            "value": "512"
+                        }
+                    ],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-626cbac5.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "NO_REVIEW"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [
+                        {
+                            "key": "Процесор",
+                            "value": "Intel Core i7"
+                        },
+                        {
+                            "key": "Оперативна пам'ять",
+                            "value": "16"
+                        },
+                        {
+                            "key": "SSD",
+                            "value": "512"
+                        }
+                    ],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "1086198050254848",
+                                "name": "test",
+                                "filter": "{\"or\":[{\"retailer_id\":{\"eq\":\"FLX-2025\"}},{\"retailer_id\":{\"eq\":\"UB14-512\"}},{\"retailer_id\":{\"eq\":\"test_sku\"}}]}"
+                            },
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "MTA4NjE5ODA1MDI1NDg0OAZDZD",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "24124742973861379",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "sku_22",
+                "name": "QAautotest",
+                "description": "qa test desciptions",
+                "price": 0,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-78662bf9.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "NO_STATUS",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "sku_22",
+                    "retailer_product_group_id": "product_default_group696106408782905sku_22",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [
+                        {
+                            "key": "QAtest",
+                            "value": "2"
+                        }
+                    ],
+                    "applinks": [
+                        {
+                            "should_fallback": true
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "NO_REVIEW"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [
+                        {
+                            "key": "QAtest",
+                            "value": "2"
+                        }
+                    ],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "NzUwMjIwMjI3NjE3MTAz",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "24437883059205256",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "sku_2",
+                "name": "QAautotest",
+                "description": "qa test desciptions",
+                "price": 0,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-dc7be57b.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCHED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "sku_2",
+                    "retailer_product_group_id": "product_default_group696106408782905sku_2",
+                    "fb_product_category": "",
+                    "review_status": "",
+                    "link": "",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "NzUwMjIwMjI3NjE3MTAz",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "24289461907331324",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "test_sku",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "quantity": 0,
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [],
+                "url": "https://store-48cc1cca.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "out of stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "FETCHED",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "test_sku",
+                    "retailer_product_group_id": "product_default_group696106408782905test_sku",
+                    "fb_product_category": "food & beverages > food > snacks & chips",
+                    "review_status": "",
+                    "link": "",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "1086198050254848",
+                                "name": "test",
+                                "filter": "{\"or\":[{\"retailer_id\":{\"eq\":\"FLX-2025\"}},{\"retailer_id\":{\"eq\":\"UB14-512\"}},{\"retailer_id\":{\"eq\":\"test_sku\"}}]}"
+                            },
+                            {
+                                "id": "750220227617103",
+                                "name": "product_level_return_policy_30_days",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "MTA4NjE5ODA1MDI1NDg0OAZDZD",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "6080182688750357",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "gtgil5gdru",
+                "name": "Test Product 2",
+                "description": "Test Product 2 Desc",
+                "price": 10,
+                "quantity": 100,
+                "u_brand_id": null,
+                "u_brand": "test brand",
+                "categories_ids": [],
+                "url": "https://store-83d2107a.example.com/",
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "in stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "female",
+                    "image_fetch_status": "DIRECT_UPLOAD",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "gtgil5gdru",
+                    "retailer_product_group_id": "cdwz115afe",
+                    "fb_product_category": "Двір і сад > Басейни та спа",
+                    "review_status": "",
+                    "link": "https://store-682df0d4.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-682df0d4.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "908547517441484",
+                                "name": "sale",
+                                "filter": "{\"tags.disc_plat\":{\"eq\":\"sale\"}}"
+                            },
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "OTA4NTQ3NTE3NDQxNDg0",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            },
+            {
+                "id": "6739723396106652",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "69lhsjxluq",
+                "name": "Test Prod",
+                "description": "Test Prod Description",
+                "price": 10,
+                "quantity": 100,
+                "u_brand_id": null,
+                "u_brand": "Asus",
+                "categories_ids": [],
+                "url": "https://store-97f9c1a6.example.com/",
+                "additional_fields": {
+                    "parent_id": "24567417719555614",
+                    "age_group": "",
+                    "availability": "in stock",
+                    "condition": "new",
+                    "currency": "UAH",
+                    "custom_number_0": "0",
+                    "custom_number_1": "0",
+                    "custom_number_2": "0",
+                    "custom_number_3": "0",
+                    "custom_number_4": "0",
+                    "gender": "",
+                    "image_fetch_status": "DIRECT_UPLOAD",
+                    "mobile_link": "",
+                    "ordering_index": 0,
+                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 0,
+                    "retailer_id": "69lhsjxluq",
+                    "retailer_product_group_id": "q6wzkmsvgb",
+                    "fb_product_category": "Електроніка > Комп'ютери та планшети",
+                    "review_status": "",
+                    "link": "https://store-682df0d4.example.com/",
+                    "additional_image_cdn_urls": [],
+                    "additional_variant_attributes": [],
+                    "applinks": [
+                        {
+                            "should_fallback": true,
+                            "url": "https://store-682df0d4.example.com/"
+                        }
+                    ],
+                    "capability_to_review_status": [
+                        {
+                            "key": "DA",
+                            "value": "NO_REVIEW"
+                        },
+                        {
+                            "key": "MINI_SHOPS",
+                            "value": "APPROVED"
+                        }
+                    ],
+                    "commerce_insights": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "custom_data": [],
+                    "product_catalog": [
+                        "696106408782905",
+                        "Items for Test Shop API (105527999320126)"
+                    ],
+                    "product_sets": [
+                        [
+                            {
+                                "id": "1594493287986610",
+                                "name": "Store collection Усі товари"
+                            }
+                        ],
+                        {
+                            "cursors": {
+                                "before": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD",
+                                "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                            }
+                        }
+                    ],
+                    "category_specific_fields": []
+                }
+            }
+        ]
+    }
+}

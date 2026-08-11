@@ -85,7 +85,7 @@ no access to the api2cart app or its OpenAPI files. Pass it any subset of the in
 directories at the repo root — e.g., all three current ones:
 
 ```bash
-php scripts/validate.php AmazonSP EBay EtsyAPIv3
+php scripts/validate.php AmazonSP EBay EtsyAPIv3 Facebook
 ```
 
 It checks, per integration: `index.json` matches the filesystem in both directions, every response

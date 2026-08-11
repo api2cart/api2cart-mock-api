@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-23T11:31:17Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "find_value": "Product",
+        "find_where": "name"
+    }
+}

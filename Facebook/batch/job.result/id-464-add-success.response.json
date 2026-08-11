@@ -1,0 +1,26 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 464,
+        "job_name": "product.add.batch",
+        "items_processed": 2,
+        "items_succeed": 2,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "37531440613166489",
+                "errors": [],
+                "warnings": []
+            },
+            {
+                "id": 1,
+                "status": "success",
+                "entity_id": "28316592841267330",
+                "errors": [],
+                "warnings": []
+            }
+        ]
+    }
+}

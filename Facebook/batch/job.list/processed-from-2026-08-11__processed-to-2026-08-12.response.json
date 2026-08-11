@@ -1,0 +1,64 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "jobs": [
+            {
+                "id": "464",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-11T10:21:18+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-11T10:24:44+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "465",
+                "method": "product.delete.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-11T10:21:45+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-11T10:25:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "466",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-11T10:27:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-11T10:29:08+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "467",
+                "method": "product.add.batch",
+                "status": "processed",
+                "created_time": {
+                    "value": "2026-08-11T10:27:25+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": {
+                    "value": "2026-08-11T10:59:14+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            }
+        ]
+    }
+}

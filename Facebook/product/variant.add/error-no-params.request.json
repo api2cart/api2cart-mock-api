@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-11T13:19:49Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "24324124957193011",
+        "sku": "TestSku"
+    }
+}

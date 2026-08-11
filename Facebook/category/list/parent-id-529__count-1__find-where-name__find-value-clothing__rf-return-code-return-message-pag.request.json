@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-07-23T11:31:16Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "parent_id": "529",
+        "count": 1,
+        "find_where": "name",
+        "find_value": "clothing",
+        "response_fields": "{return_code,return_message,pagination,result{category}}"
+    }
+}

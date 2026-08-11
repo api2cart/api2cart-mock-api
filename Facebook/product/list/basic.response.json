@@ -1,0 +1,76 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 9,
+        "product": [
+            {
+                "id": "25366721712953512",
+                "name": "QAautotest_batch01",
+                "description": "qa test desciptions",
+                "price": 0,
+                "categories_ids": []
+            },
+            {
+                "id": "24567417719555614",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "categories_ids": []
+            },
+            {
+                "id": "24520753870878973",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "categories_ids": []
+            },
+            {
+                "id": "9762153177217914",
+                "name": "Ноутбук UltraBook 14",
+                "description": "Легкий та продуктивний ноутбук з екраном 14'' і SSD 512 ГБ.",
+                "price": 899,
+                "categories_ids": []
+            },
+            {
+                "id": "24124742973861379",
+                "name": "QAautotest",
+                "description": "qa test desciptions",
+                "price": 0,
+                "categories_ids": []
+            },
+            {
+                "id": "24437883059205256",
+                "name": "QAautotest",
+                "description": "qa test desciptions",
+                "price": 0,
+                "categories_ids": []
+            },
+            {
+                "id": "24289461907331324",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "6080182688750357",
+                "name": "Test Product 2",
+                "description": "Test Product 2 Desc",
+                "price": 10,
+                "categories_ids": []
+            },
+            {
+                "id": "6739723396106652",
+                "name": "Test Prod",
+                "description": "Test Prod Description",
+                "price": 10,
+                "categories_ids": []
+            }
+        ]
+    }
+}

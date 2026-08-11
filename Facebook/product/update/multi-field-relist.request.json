@@ -1,0 +1,19 @@
+{
+    "captured_at": "2026-08-11T13:19:49Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "24324124957193011",
+        "name": "Luxury Wooden Sunglasses with Polarized Lenses - Updated",
+        "description": "Updated description.",
+        "short_description": "Updated short description.",
+        "quantity": 100,
+        "price": 95,
+        "special_price": 78,
+        "sprice_create": "2025-08-01 00:00:00",
+        "sprice_expire": "2025-12-01 23:59:59",
+        "status": "archived",
+        "condition": "used",
+        "store_id": "1732577937418943"
+    }
+}

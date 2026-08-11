@@ -1,0 +1,14 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": "Globex",
+        "url": "https://store-6ad0718b.example.com/",
+        "version": null,
+        "bridge_version": null,
+        "default_rounding_precision": null,
+        "db_prefix": null,
+        "warehouses": [],
+        "shipping_zones": []
+    }
+}

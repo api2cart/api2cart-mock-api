@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-07-27T10:01:56Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "store_id": "1218690792686186"
+    }
+}

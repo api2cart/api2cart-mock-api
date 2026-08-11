@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "245",
+                "parent_id": "313",
+                "name": "health",
+                "description": null
+            },
+            {
+                "id": "312",
+                "parent_id": "313",
+                "name": "beauty",
+                "description": null
+            }
+        ]
+    }
+}

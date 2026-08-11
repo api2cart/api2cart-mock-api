@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-23T11:31:17Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "store_id": "1218690792686186",
+        "response_fields": "{result{product{id,create_at,modified_at,name,sku,status}}}"
+    }
+}
