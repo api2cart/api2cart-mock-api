@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-12T11:26:56Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "find_where": "name",
+        "find_value": "Mock Fresh Probe Product",
+        "response_fields": "{*}"
+    }
+}

@@ -2,102 +2,81 @@
     "return_code": 0,
     "return_message": "",
     "pagination": {
-        "previous": "BcHJomswAADQD%2BoiZrp4C6W9xExr2hlKaIIiiq9%2F57wTvtwz9dzi%2BPHmsg8WpGcExQ1LcgcBTCn%2F%2FAoCvu8hCrXMccEyrmX7FMak8fhdqFFQKq%2FL8ft6wLYjM%2FzI%2BK80ivhIhStKXdp71nQnQ4GzsgUKDJXmjUvpdxtrMi%2B9mzrJA7AsokQ7e2o4WcdOyVrZpMjbeozsBCvCwvM74P%2BMmPBgQ2Pxfqg%2Fc15m1dTCPFibzpITcdZeF3E61UPppEpvg0676bTXuG6tYLXEDdNqkagObDd4helf%2Bl0XYE1OULGDzZgayjXF9nwIVEUJC2Lc2CaFN2farFaUVrMrfzVg3RoLN1rvehSW%2BNh6Daef8OCuSDlfEZXuzRLQXBWjq9xFiSOjTcoZW%2FRpv8lZkCzEmEpfdcK7%2FyiuANoWDBwZuExNFMwhWMaLqJNR5HS%2FQpBW3iJblGcGQuhsfeex%2Bvcf",
-        "next": "BcHJomswAADQD%2BoiVTF08RZBlaCm1rQTimgMt4bi698575gnW4qONYr09yX9MCg%2BQyysTJQoBjhZ%2BOcfhOy2BU2gps4DTMNM6icc4srlN1g2PpFfp%2F335wLbDs3gI7E7MfJoT%2BC1SR5L61rjretzlpIayDiQqzcj4k8Zyu47tY%2FEiXXAcc3SqUe7GE5KuTGeC7vLs7ocQjtmMpx4fgP83Yg6HqzNkL919DO%2F0xeZapD5c0UtKRa%2B6uskjAfaZSoWWu1TVdGWVr3QucDFFFXnWg0F1HO0d3PTO7WbBnHZHaDgevtsqk2myrbrYYBkOcg7Q%2BGqBCvOuFq1IM4mJb8ScI%2BSQWUpNy0MCNvXVmXJJ9gv10Y%2BXuEi3qrJXzIkhFeJhrEjNauYnW3BW9pVSv146oyReMgJbp6eXwG2Lew7Ujf0gHDWpDHweXYs3gnkUdP%2FdCCX9woSFx3KYYgu9et%2F%2FwE%3D"
+        "previous": "BcHJgoIgAADQD%2BJgmigcoVExFbfMmptrLhTWWJpfP%2B%2F5ZBw2Tdd4IS3FNNQdyd%2BtliEBtISVtolDNLg6RrGF8v2pSlHmcpd02IrZERJ%2FACsdAgw7lK%2BI0KVQovkHJq1a%2Bmeqts%2FrMyHTo1E9ZEnhbkeYd9A%2BFnFPq%2BqpKZXy1dNXZARR%2BNmHFyDgm350wHvw%2FfukxXg%2FZ1IwYjuWEgwVD7yN4V7cMq7IeTkkzgjnmiEv%2B5a7mAFgBnS6NY%2FaX%2Fra5LlI7MPrZTPXjh1cLxgXHdW3%2BsABk3HlAXFpW931R2Nok8hfG%2Bd3jP5Ecyp5%2F9id3EBqnQzMgVqTZ1%2BMhdznqF%2BadxVeZVen6wSzzfkH",
+        "next": "BcHLokJAAADQD7LAhMaixchr5JE8s5MMI5G5Er7%2BnuOiV7cDCfjlaPBHRRRQ9iUggT0HbvbDPKoB7LCkwtCA2SGuIphgH6NWNULbkZHbcavWearcwmyFSPuV%2FHXW5UIqHZpu%2B9UFV0bb6IBAhiMySqHaw3njdrsT7c%2FiNJ0QJ5kcbQm%2BBTudceVaCy9Vv6ce9Rj0pCA%2BYCkyWjElnh4iiUzB3BiyMGDDvalnxm8D3cix1p5jkpj8W4inOhvET0cZb%2B0vk14KXdlhlZqp7fxcf2ua9e7FdS%2BAvNbcy8zP7F098t2JYRCJw50VhmJSmjpl%2FlHqzMq12qoAmGDIs%2BUPTJ6ivzjBOMt0V%2FLyuxCfPVHl2eIQrebI3Rqy9l54Ov0D"
     },
     "result": {
-        "products_count": 1,
+        "products_count": 10,
         "product": [
             {
-                "id": "24496416896680205",
-                "type": "simple",
-                "u_model": null,
-                "u_sku": "ASP-001",
-                "name": "AirSound Pro",
-                "description": "AirSound Pro123",
-                "price": 79,
-                "quantity": 120,
-                "u_brand_id": null,
-                "u_brand": "AirSound",
-                "categories_ids": [],
-                "url": "https://store-81e64f59.example.com/",
-                "additional_fields": {
-                    "age_group": "adult",
-                    "availability": "in stock",
-                    "condition": "new",
-                    "currency": "USD",
-                    "custom_number_0": "0",
-                    "custom_number_1": "0",
-                    "custom_number_2": "0",
-                    "custom_number_3": "0",
-                    "custom_number_4": "0",
-                    "gender": "",
-                    "image_fetch_status": "FETCH_FAILED",
-                    "mobile_link": "",
-                    "ordering_index": 0,
-                    "post_conversion_signal_based_enforcement_appeal_eligibility": false,
-                    "product_relationship": "child",
-                    "quantity_to_sell_on_facebook": 120,
-                    "retailer_id": "ASP-001",
-                    "retailer_product_group_id": "product_default_group702236339435761ASP-001",
-                    "fb_product_category": "jewelry & watches > watches",
-                    "review_status": "",
-                    "link": "https://store-f0c9d87e.example.com/",
-                    "additional_image_cdn_urls": [],
-                    "additional_variant_attributes": [
-                        {
-                            "key": "Час роботи",
-                            "value": "6"
-                        }
-                    ],
-                    "applinks": [
-                        {
-                            "should_fallback": true,
-                            "url": "https://store-f0c9d87e.example.com/"
-                        }
-                    ],
-                    "capability_to_review_status": [],
-                    "commerce_insights": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "custom_data": [
-                        {
-                            "key": "Час роботи",
-                            "value": "6"
-                        }
-                    ],
-                    "product_catalog": [
-                        "702236339435761",
-                        "Products for TestShop25 (667459676453932)"
-                    ],
-                    "product_sets": [
-                        [
-                            {
-                                "id": "2171525139976689",
-                                "name": "product_level_return_policy_30_days",
-                                "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
-                            },
-                            {
-                                "id": "1053600430290687",
-                                "name": "Up To 20",
-                                "filter": "{\"and\":[{\"sale_price_amount\":{\"gt\":\"2000\"}},{\"condition\":{\"eq\":\"new\"}},{\"currency\":{\"eq\":\"USD\"}}]}"
-                            },
-                            {
-                                "id": "563241419969778",
-                                "name": "All Products"
-                            }
-                        ],
-                        {
-                            "cursors": {
-                                "before": "MjE3MTUyNTEzOTk3NjY4OQZDZD",
-                                "after": "NTYzMjQxNDE5OTY5Nzc4"
-                            }
-                        }
-                    ],
-                    "category_specific_fields": []
-                }
+                "id": "25092705136993397",
+                "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+                "description": "description Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+                "price": 15,
+                "categories_ids": []
+            },
+            {
+                "id": "24114998721508603",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 119,
+                "categories_ids": []
+            },
+            {
+                "id": "24834083912885195",
+                "name": "Test manual",
+                "description": "Test manual fddfdd",
+                "price": 20,
+                "categories_ids": []
+            },
+            {
+                "id": "24767304429594335",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24837016415929227",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24493428040358500",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "23962174820126983",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24833060876326290",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "25366721712953512",
+                "name": "QAautotest_batch01",
+                "description": "qa test desciptions",
+                "price": 0,
+                "categories_ids": []
+            },
+            {
+                "id": "24567417719555614",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "categories_ids": []
             }
         ]
     }

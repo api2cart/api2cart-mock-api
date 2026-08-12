@@ -21,36 +21,34 @@
  *      (no matching files on disk), no description drift from index.json.
  *   5) every "{entity}/count" method's successful response has no top-level pagination and its
  *      result contains only *_count / additional_fields / custom_fields keys -- catches a
- *      product.list-shaped response accidentally saved under product/count (APITOCART-46051 #1).
+ *      product.list-shaped response accidentally saved under product/count.
  *   6) no two cases in the same method have the exact same (endpoint, request payload) --
  *      duplicate-request cases teach nothing beyond the first and bloat the index the agent reads
- *      whole (APITOCART-46051 #2).
+ *      whole.
  *   7) every request query_cursor has a matching pagination.next somewhere else on the same
- *      integration -- an orphaned cursor sends an agent down a paginated loop it can never join
- *      (APITOCART-46051 #3).
+ *      integration -- an orphaned cursor sends an agent down a paginated loop it can never join.
  *   8) return_code != 0 <=> slug starts with "error-", in both directions -- an agent filtering
  *      cases by the error- prefix must not silently skip a real error case, nor expect an error
- *      from a slug that promises one but doesn't error (APITOCART-46051 #8).
+ *      from a slug that promises one but doesn't error.
  *   9) no slug contains a source label (real/live/rich) as a hyphen-delimited component -- these
  *      describe how WE captured the case, not what it demonstrates, and are never a stable part of
- *      the API contract (APITOCART-46051 #7).
+ *      the API contract.
  *  10) an empty `query`/`body` is serialized as `{}`, never `[]`. Checked on the RAW TEXT on
  *      purpose: PHP decodes both to the same empty array, so no structural check can tell them
  *      apart -- yet a consumer typing the field as a map (Go, Java, C#, TS Record<string,string>)
- *      fails on `[]` (APITOCART-46051 #9).
+ *      fails on `[]`.
  *  11) a slug uses `_` only as the `__` parameter separator -- parameter NAMES are kebab-cased
  *      (`find-where-name`, not `find_where-name`), which is what seed-from-phpunit.php's slugFor()
- *      emits. Repo-wide since APITOCART-46051 #13 normalised EtsyAPIv3's 30 legacy slugs; before
- *      that this could only be enforced within a method. Note this constrains the SLUG only: the
+ *      emits. Repo-wide: this could previously only be enforced within a method, before EtsyAPIv3's
+ *      30 legacy slugs were normalised to match. Note this constrains the SLUG only: the
  *      parameter names inside `query`/`body` keep their real API spelling (`find_where`, `sort_by`).
  *  12) a job_id published by a *.batch response is unique across the whole repo -- see
  *      validateJobIdsUnique() (repo-wide, so it runs outside the per-integration pass).
- *      (APITOCART-46054 #1)
  *  13) every published batch/job.result is reachable: some *.batch case returns that job_id, or
- *      some batch/job.list case lists it. (APITOCART-46054 #1)
+ *      some batch/job.list case lists it.
  *  14) descriptions are unique within a method -- inside one method the description is the only
- *      thing distinguishing a case from its neighbour in the index. (APITOCART-46054 #3)
- *  15) a numeric parameter is a JSON number, not a quoted string. (APITOCART-46054 #7)
+ *      thing distinguishing a case from its neighbour in the index.
+ *  15) a numeric parameter is a JSON number, not a quoted string.
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
@@ -74,7 +72,7 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
  * different store than the rest of AmazonSP's batch data. Nothing in the published set leads an
  * agent to them. Fixing it needs a re-capture against the store that owns those jobs, which needs
  * Amazon credentials; inventing a job.list entry or asserting an enqueue case would be fabricating
- * data, which is worse than the gap. Tracked as APITOCART-46054 #1 (AmazonSP half).
+ * data, which is worse than the gap.
  *
  * Delete an entry the moment its integration is re-captured -- the check then guards it for real.
  */
@@ -86,6 +84,15 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
 const V_NUMERIC_PARAMS = [
   'count', 'start', 'position', 'price', 'old_price', 'cost_price', 'quantity',
 ];
+
+/**
+ * Same idea as V_NUMERIC_PARAMS but for booleans: the numeric check only covers numbers, so a
+ * quoted "true"/"false" against a `type: boolean` schema slipped through -- three Facebook cases
+ * (available_for_sale) and two pre-existing EtsyAPIv3 ones (is_virtual). Explicit list for the
+ * same reason as above: a param that happens to hold the literal string "true"/"false" on purpose
+ * (free text, an enum value) must not be rewritten.
+ */
+const V_BOOLEAN_PARAMS = ['available_for_sale', 'is_virtual', 'is_default', 'in_stock', 'downloadable'];
 
 const V_UNREACHABLE_JOB_DEBT = [
   'AmazonSP/id-149-update-not-found'       => true,
@@ -163,14 +170,19 @@ function validateDataset(string $platDir): array
       // check 15: a numeric parameter is a JSON number, not a quoted string.
       // Mirror of check 10's argument: a consumer typing `count` as int chokes on "5", one typing
       // it as string chokes on 5, and the dataset was split roughly 3:1 between the two spellings
-      // for the same parameter (APITOCART-46054 #7). Error cases are exempt -- sending the wrong
-      // type is often the whole point ("price": "invalidValue", "count": "-1").
+      // for the same parameter. Error cases are exempt -- sending the wrong type is often the
+      // whole point ("price": "invalidValue", "count": "-1").
       if (!str_starts_with($slug, 'error-')) {
         $payloadForTypes = $request['query'] ?? $request['body'] ?? [];
         foreach (is_array($payloadForTypes) ? $payloadForTypes : [] as $pName => $pValue) {
           if (in_array($pName, V_NUMERIC_PARAMS, true) && is_string($pValue) && is_numeric($pValue)) {
             $errors[] = "$platDir: numeric parameter '$pName' is quoted (\"$pValue\") instead of a "
               . "JSON number: $key";
+          }
+          // check 16: same idea as check 15, for booleans.
+          if (in_array($pName, V_BOOLEAN_PARAMS, true) && is_string($pValue) && ($pValue === 'true' || $pValue === 'false')) {
+            $errors[] = "$platDir: boolean parameter '$pName' is quoted (\"$pValue\") instead of a "
+              . "JSON boolean: $key";
           }
         }
       }
@@ -307,9 +319,8 @@ function validateDataset(string $platDir): array
   // ---- check 14: descriptions are unique within a method ----
   // The index is what the agent reads instead of walking the tree, and inside one method the
   // description is the ONLY thing distinguishing one case from its neighbour. Three cases all
-  // labelled "filter: specific product id(s)" give no basis to choose between them. This is the
-  // one finding of APITOCART-46051 that was closed by hand instead of becoming a check -- and the
-  // only one that came back, on all three integrations at once (APITOCART-46054 #3).
+  // labelled "filter: specific product id(s)" give no basis to choose between them. This was once
+  // closed by hand instead of becoming a check -- and came back on all three integrations at once.
   $byMethod = [];
   foreach ($indexDesc as $key => $desc) {
     $method = substr($key, 0, strrpos($key, '/') ?: 0);
@@ -379,7 +390,7 @@ function validateDataset(string $platDir): array
  * Runs across integrations, so it lives outside validateDataset(). Two integrations minting the
  * same job_id is not a cosmetic clash: if the other one also publishes a batch/job.result for it,
  * an agent following README's "look the job up next to whichever *.batch created it" gets a
- * confident, well-formed answer belonging to a different integration (APITOCART-46054 #1).
+ * confident, well-formed answer belonging to a different integration.
  *
  * @param array<int, string> $platDirs
  * @return array<int, string>

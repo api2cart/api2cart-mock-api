@@ -1,8 +1,0 @@
-{
-    "captured_at": "2026-07-23T11:31:17Z",
-    "method": "GET",
-    "endpoint": "product.list.json",
-    "query": {
-        "response_fields": "{return_code,return_message,pagination,result{products_count,product{id,type,u_model,u_sku,name,description,price,quantity,u_brand_id,u_brand,categories_ids,url,additional_fields}}}"
-    }
-}

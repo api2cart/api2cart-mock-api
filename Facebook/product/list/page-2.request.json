@@ -1,9 +1,8 @@
 {
-    "captured_at": "2026-07-23T11:31:17Z",
+    "captured_at": "2026-08-12T11:26:56Z",
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "page_cursor": "BcFHgoIwAADAB3mIGJqHPUCUEkGa0m50gkGQDq%2FfmSKA6RZJx%2BL7SnGJPpTlXx7mFsoLBAMczvD1Y1l639zaRZH5BGM3pdWL7YLSghub104qvk%2F7%2BrOAYXi6%2BxGommqJv4fstQ6fc2M9%2Bnv7TWiUVkDErlgWNOVXucvbYWyeoRkogGHquUVHM2tmRJg%2BmDKjTeIq7zwjoCI7QrgBqGp%2BC8FSd0mhSKs%2BjIOkIzd2ppI8hIAb0PvE9Ye0i4TPbpVDkHybG3QhU4az0S%2FPFfI46cuQr5Xo9qnZbizO2wNkzNc466iOkWhYNgaSKLpJq8lMGWLZ7JdHxfGTTtI1B8wzp6w859vNc1O6Lw2i4cfdL9daPN7ezN%2FL0ZljifOuAvECU6gXPj4bnD03ixA5wdhqfWpLpnu3leQKsPHAjinIhxFC9aQ4n6NUlgQOKlnzMIl8FZ3fVbE1AWxCr9UHsv79Aw%3D%3D",
-        "response_fields": "{return_code,return_message,pagination,result{products_count,product{id,type,u_model,u_sku,name,description,price,quantity,u_brand_id,u_brand,categories_ids,url,additional_fields}}}"
+        "page_cursor": "BcFHgoIwAADAB3FAWkiOobihiKFEVm4gIp01qERevzMhHvpd1dWoXFzZBMoB5%2B9GZXCU1IRURxOdYe%2FpCMYuzLXslkLmRR5ukRsT38BhLwmrPyGjhbmA2NpKmb4co9BLv7t8dxqqlHdtqmE19%2BI6Wn31URSSvv7MhEEx0aEe2O3lJ%2BC5TmJlFLwVzz7NPYv%2BvltR%2B3PmuqIdD3vFgxqYtt6z4bi5zeKw0G4Yf6ZbZozk%2BkFYTGCeZo3H6bKEXGhwN6m8Fg2rWuIkpEObVveW%2FLtnQXespKmcSDA%2Bwvsg8Xk8L%2BhdLQrH%2FPRaOGh8mFKMLfkqzMTXwc0EzwHvl2gIPpVyTwLdsYn3cPk3%2Fgc%3D"
     }
 }

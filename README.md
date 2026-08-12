@@ -82,10 +82,10 @@ opaque cursor values, source labels (`real`, `live`, `rich`) or secrets in a slu
 
 `scripts/validate.php` ships in this repo and needs nothing but the dataset tree itself —
 no access to the api2cart app or its OpenAPI files. Pass it any subset of the integration
-directories at the repo root — e.g., all three current ones:
+directories at the repo root — e.g., all of them:
 
 ```bash
-php scripts/validate.php AmazonSP EBay EtsyAPIv3 Facebook
+php scripts/validate.php AmazonSP Bricklink EBay EtsyAPIv3 Facebook
 ```
 
 It checks, per integration: `index.json` matches the filesystem in both directions, every response

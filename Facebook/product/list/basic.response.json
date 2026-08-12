@@ -3,73 +3,60 @@
     "return_message": "",
     "pagination": {
         "previous": null,
-        "next": null
+        "next": "BcFHgoIwAADAB3FAWkiOobihiKFEVm4gIp01qERevzMhHvpd1dWoXFzZBMoB5%2B9GZXCU1IRURxOdYe%2FpCMYuzLXslkLmRR5ukRsT38BhLwmrPyGjhbmA2NpKmb4co9BLv7t8dxqqlHdtqmE19%2BI6Wn31URSSvv7MhEEx0aEe2O3lJ%2BC5TmJlFLwVzz7NPYv%2BvltR%2B3PmuqIdD3vFgxqYtt6z4bi5zeKw0G4Yf6ZbZozk%2BkFYTGCeZo3H6bKEXGhwN6m8Fg2rWuIkpEObVveW%2FLtnQXespKmcSDA%2Bwvsg8Xk8L%2BhdLQrH%2FPRaOGh8mFKMLfkqzMTXwc0EzwHvl2gIPpVyTwLdsYn3cPk3%2Fgc%3D"
     },
     "result": {
-        "products_count": 9,
+        "products_count": 10,
         "product": [
             {
-                "id": "25366721712953512",
-                "name": "QAautotest_batch01",
-                "description": "qa test desciptions",
-                "price": 0,
-                "categories_ids": []
+                "id": "28216894311330623",
+                "u_sku": "mock-fresh-probe-product",
+                "name": "Mock Fresh Probe Product"
             },
             {
-                "id": "24567417719555614",
-                "name": "QAautotest",
-                "description": "Test Prod Description",
-                "price": 26,
-                "categories_ids": []
+                "id": "27790856980525066",
+                "u_sku": "mock-smart-watch-parent",
+                "name": "Mock Smart Watch Parent"
             },
             {
-                "id": "24520753870878973",
-                "name": "QAautotest",
-                "description": "Test Prod Description",
-                "price": 26,
-                "categories_ids": []
+                "id": "28070725622546516",
+                "u_sku": "mock-fitness-watch-parent",
+                "name": "Mock Fitness Watch Parent"
             },
             {
-                "id": "9762153177217914",
-                "name": "Ноутбук UltraBook 14",
-                "description": "Легкий та продуктивний ноутбук з екраном 14'' і SSD 512 ГБ.",
-                "price": 899,
-                "categories_ids": []
+                "id": "28485509374366375",
+                "u_sku": "mock-variant-parent-tee-red-m",
+                "name": "Mock Variant Parent Tee - Red / M"
             },
             {
-                "id": "24124742973861379",
-                "name": "QAautotest",
-                "description": "qa test desciptions",
-                "price": 0,
-                "categories_ids": []
+                "id": "28693865173549624",
+                "u_sku": "mock-variant-parent-tee",
+                "name": "Mock Variant Parent Tee"
             },
             {
-                "id": "24437883059205256",
-                "name": "QAautotest",
-                "description": "qa test desciptions",
-                "price": 0,
-                "categories_ids": []
+                "id": "37977798001833654",
+                "u_sku": "mock-batch-delta-1",
+                "name": "Mock Batch Item Delta"
             },
             {
-                "id": "24289461907331324",
-                "name": "Test product6",
-                "description": "description test product",
-                "price": 99,
-                "categories_ids": []
+                "id": "27518977131138080",
+                "u_sku": "mock-batch-gamma-1",
+                "name": "Mock Batch Item Gamma"
             },
             {
-                "id": "6080182688750357",
-                "name": "Test Product 2",
-                "description": "Test Product 2 Desc",
-                "price": 10,
-                "categories_ids": []
+                "id": "37531440613166489",
+                "u_sku": "mock-batch-alpha-1",
+                "name": "Mock Batch Item Alpha"
             },
             {
-                "id": "6739723396106652",
-                "name": "Test Prod",
-                "description": "Test Prod Description",
-                "price": 10,
-                "categories_ids": []
+                "id": "28316592841267330",
+                "u_sku": "mock-batch-beta-1",
+                "name": "Mock Batch Item Beta"
+            },
+            {
+                "id": "24701226909579587",
+                "u_sku": "pesk565dvb",
+                "name": "Smart Fitness Tracker Waterproof Watch"
             }
         ]
     }

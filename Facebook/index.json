@@ -1,6 +1,6 @@
 {
     "integration": "Facebook",
-    "generated_at": "2026-08-11T13:21:22Z",
+    "generated_at": "2026-08-12T11:49:18Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -52,6 +52,15 @@
                         "description": "filter: specific job id(s)"
                     },
                     "captured_at": "2026-08-11T11:11:01Z"
+                },
+                {
+                    "slug": "ids-469-470",
+                    "request": "batch/job.list/ids-469-470.request.json",
+                    "response": "batch/job.list/ids-469-470.response.json",
+                    "covers": {
+                        "description": "the two most recently enqueued jobs, both still pending with no job.result published yet -- unlike ids-464-467's already-processed pair"
+                    },
+                    "captured_at": "2026-08-12T11:29:03Z"
                 },
                 {
                     "slug": "page-2",
@@ -275,18 +284,18 @@
                     "request": "category/info/error-no-params.request.json",
                     "response": "category/info/error-no-params.response.json",
                     "covers": {
-                        "description": "validation: no params -> id required"
+                        "description": "error: missing required id => 114 NO_PARAM"
                     },
-                    "captured_at": "2026-08-11T11:09:48Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "category/info/error-not-found.request.json",
                     "response": "category/info/error-not-found.response.json",
                     "covers": {
-                        "description": "not found: id does not exist"
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
                     },
-                    "captured_at": "2026-08-11T11:09:48Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "params-force-all__exclude-additional-fields",
@@ -329,7 +338,7 @@
                     "covers": {
                         "description": "error: invalid count value => 109 PARAM_ERROR"
                     },
-                    "captured_at": "2026-08-11T08:15:19Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "page-2",
@@ -426,7 +435,7 @@
                     "covers": {
                         "description": "electronics listing with a single image and available_for_sale explicitly set"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-category-not-found",
@@ -435,7 +444,7 @@
                     "covers": {
                         "description": "invalid category_id -> category lookup fails"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-condition-enum-value",
@@ -444,7 +453,7 @@
                     "covers": {
                         "description": "condition value outside the allowed enum"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-missing-price",
@@ -453,7 +462,7 @@
                     "covers": {
                         "description": "validation: name, sku and description present but price still required"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -462,7 +471,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-sale-price-window-inverted",
@@ -471,7 +480,7 @@
                     "covers": {
                         "description": "sprice_create is after sprice_expire"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-sku-too-long",
@@ -480,7 +489,7 @@
                     "covers": {
                         "description": "sku longer than the 100 character limit"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-specifics-enum-value",
@@ -489,7 +498,7 @@
                     "covers": {
                         "description": "specifics value outside the allowed enum for age_group"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-too-many-additional-images",
@@ -498,7 +507,7 @@
                     "covers": {
                         "description": "more than 20 additional_image_urls"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "full-catalog-listing",
@@ -507,7 +516,7 @@
                     "covers": {
                         "description": "accessory with specifics, multiple additional images and a scheduled sale price window"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "furniture-marked-unavailable",
@@ -516,7 +525,7 @@
                     "covers": {
                         "description": "furniture listing explicitly marked available_for_sale=false"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -541,7 +550,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "single-item",
@@ -577,7 +586,7 @@
                     "covers": {
                         "description": "enqueue two catalog products, each with images and locale-specific specifics; returns job_id 469 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -593,7 +602,7 @@
                     "covers": {
                         "description": "error: missing required id => 114 NO_PARAM"
                     },
-                    "captured_at": "2026-08-11T08:15:19Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -602,7 +611,7 @@
                     "covers": {
                         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
                     },
-                    "captured_at": "2026-08-11T08:15:19Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "product-id-24324124957192861__id-23951253391183522__store-id-1218690792686186__rf-id-parent-id-name-full-descrip",
@@ -645,61 +654,16 @@
                     "covers": {
                         "description": "error: invalid count value => 109 PARAM_ERROR"
                     },
-                    "captured_at": "2026-08-11T08:15:19Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
-                    "slug": "page-2",
-                    "request": "product/child_item.list/page-2.request.json",
-                    "response": "product/child_item.list/page-2.response.json",
+                    "slug": "product-id-28693865173549624__rf-all",
+                    "request": "product/child_item.list/product-id-28693865173549624__rf-all.request.json",
+                    "response": "product/child_item.list/product-id-28693865173549624__rf-all.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name"
+                        "description": "full response fields for a product's variants"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "product-id-24324124957192861__store-id-1218690792686186__count-2__rf-all",
-                    "request": "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__count-2__rf-all.request.json",
-                    "response": "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__count-2__rf-all.response.json",
-                    "covers": {
-                        "description": "filter: specific product id(s) [product_id=24324124957192861, count=2]"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "product-id-24324124957192861__store-id-1218690792686186__rf-all__start-1__count-1",
-                    "request": "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__rf-all__start-1__count-1.request.json",
-                    "response": "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__rf-all__start-1__count-1.response.json",
-                    "covers": {
-                        "description": "filter: specific product id(s) [product_id=24324124957192861, count=1]"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name",
-                    "request": "product/child_item.list/product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name.request.json",
-                    "response": "product/child_item.list/product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name.response.json",
-                    "covers": {
-                        "description": "search: matching name value; its pagination.next is the page_cursor consumed by page-2"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "product-ids-1910374-243241249571__store-id-1218690792686186__rf-all",
-                    "request": "product/child_item.list/product-ids-1910374-243241249571__store-id-1218690792686186__rf-all.request.json",
-                    "response": "product/child_item.list/product-ids-1910374-243241249571__store-id-1218690792686186__rf-all.response.json",
-                    "covers": {
-                        "description": "filter: specific product id(s) [no product_id, no count]"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "store-id-1218690792686186__product-id-30405902195692141",
-                    "request": "product/child_item.list/store-id-1218690792686186__product-id-30405902195692141.request.json",
-                    "response": "product/child_item.list/store-id-1218690792686186__product-id-30405902195692141.response.json",
-                    "covers": {
-                        "description": "filter: specific product id(s) [product_id=30405902195692141, no count]"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 }
             ]
         },
@@ -713,18 +677,18 @@
                     "request": "product/count/basic.request.json",
                     "response": "product/count/basic.response.json",
                     "covers": {
-                        "description": "happy path (no filters)"
+                        "description": "happy path: total product count for the account's default store, no filters"
                     },
-                    "captured_at": "2026-07-27T10:01:56Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 },
                 {
-                    "slug": "store-id-1218690792686186",
-                    "request": "product/count/store-id-1218690792686186.request.json",
-                    "response": "product/count/store-id-1218690792686186.response.json",
+                    "slug": "store-id-1732577937418943",
+                    "request": "product/count/store-id-1732577937418943.request.json",
+                    "response": "product/count/store-id-1732577937418943.response.json",
                     "covers": {
                         "description": "filter: store_id (multi-store account)"
                     },
-                    "captured_at": "2026-07-27T10:01:56Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 }
             ]
         },
@@ -740,7 +704,7 @@
                     "covers": {
                         "description": "happy path: delete product by id"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -749,7 +713,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -758,7 +722,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -774,7 +738,7 @@
                     "covers": {
                         "description": "enqueue deletion of three products by id, each scoped to an explicit store_id; returns job_id 470 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -783,7 +747,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "two-existing-products",
@@ -815,18 +779,18 @@
                     "request": "product/info/error-no-params.request.json",
                     "response": "product/info/error-no-params.response.json",
                     "covers": {
-                        "description": "validation: no params -> id required"
+                        "description": "error: missing required id => 114 NO_PARAM"
                     },
-                    "captured_at": "2026-08-11T11:09:48Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "not found: id does not exist"
+                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
                     },
-                    "captured_at": "2026-08-11T11:09:48Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
                     "slug": "rf-all",
@@ -860,7 +824,7 @@
                     "covers": {
                         "description": "happy path (no filters)"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 },
                 {
                     "slug": "error-invalid-param",
@@ -869,25 +833,25 @@
                     "covers": {
                         "description": "error: invalid count value => 109 PARAM_ERROR"
                     },
-                    "captured_at": "2026-08-11T08:15:19Z"
+                    "captured_at": "2026-08-12T07:56:46Z"
                 },
                 {
-                    "slug": "find-value-product__find-where-name",
-                    "request": "product/list/find-value-product__find-where-name.request.json",
-                    "response": "product/list/find-value-product__find-where-name.response.json",
+                    "slug": "find-value-mock-fresh-probe-product__find-where-name",
+                    "request": "product/list/find-value-mock-fresh-probe-product__find-where-name.request.json",
+                    "response": "product/list/find-value-mock-fresh-probe-product__find-where-name.response.json",
                     "covers": {
-                        "description": "search: matching name value"
+                        "description": "search: exact-match on name returns the one matching product"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 },
                 {
                     "slug": "page-2",
                     "request": "product/list/page-2.request.json",
                     "response": "product/list/page-2.response.json",
                     "covers": {
-                        "description": "pagination: page 2 via page_cursor from store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24"
+                        "description": "pagination: second page via page_cursor from the basic listing's pagination.next"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 },
                 {
                     "slug": "params-force-all__exclude-additional-fields-images",
@@ -899,49 +863,22 @@
                     "captured_at": "2026-08-11T11:23:47Z"
                 },
                 {
-                    "slug": "rf-return-code-return-message-pag",
-                    "request": "product/list/rf-return-code-return-message-pag.request.json",
-                    "response": "product/list/rf-return-code-return-message-pag.response.json",
-                    "covers": {
-                        "description": "field selection: products_count,product.id,product.type,product.u_model,product.u_sku,product.name,product.description,product.price,product.quantity,product.u_brand_id,product.u_brand,product.categories_ids,product.url,product.additional_fields"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24",
-                    "request": "product/list/store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24.request.json",
-                    "response": "product/list/store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24.response.json",
-                    "covers": {
-                        "description": "search: matching name value [find_value=AirSound Pro]; its pagination.next is the page_cursor consumed by page-2"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "store-id-1218690792686186__product-ids-30405902195692141-24",
-                    "request": "product/list/store-id-1218690792686186__product-ids-30405902195692141-24.request.json",
-                    "response": "product/list/store-id-1218690792686186__product-ids-30405902195692141-24.response.json",
+                    "slug": "product-ids-28485509374366375-28693865173549624",
+                    "request": "product/list/product-ids-28485509374366375-28693865173549624.request.json",
+                    "response": "product/list/product-ids-28485509374366375-28693865173549624.response.json",
                     "covers": {
                         "description": "filter: specific product id(s)"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 },
                 {
-                    "slug": "store-id-1218690792686186__rf-all",
-                    "request": "product/list/store-id-1218690792686186__rf-all.request.json",
-                    "response": "product/list/store-id-1218690792686186__rf-all.response.json",
+                    "slug": "store-id-1732577937418943__rf-all",
+                    "request": "product/list/store-id-1732577937418943__rf-all.request.json",
+                    "response": "product/list/store-id-1732577937418943__rf-all.response.json",
                     "covers": {
-                        "description": "filter: store_id (multi-store account) [response_fields={*}]"
+                        "description": "filter: store_id (multi-store account)"
                     },
-                    "captured_at": "2026-07-23T11:31:17Z"
-                },
-                {
-                    "slug": "store-id-1218690792686186__rf-product-id-create-at-modified-",
-                    "request": "product/list/store-id-1218690792686186__rf-product-id-create-at-modified-.request.json",
-                    "response": "product/list/store-id-1218690792686186__rf-product-id-create-at-modified-.response.json",
-                    "covers": {
-                        "description": "filter: store_id (multi-store account) [response_fields={result{product{id;cr...]"
-                    },
-                    "captured_at": "2026-07-23T11:31:17Z"
+                    "captured_at": "2026-08-12T11:26:56Z"
                 }
             ]
         },
@@ -957,7 +894,7 @@
                     "covers": {
                         "description": "condition value outside the allowed enum"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-empty-id",
@@ -966,16 +903,7 @@
                     "covers": {
                         "description": "validation: empty id"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
-                },
-                {
-                    "slug": "error-empty-quantity",
-                    "request": "product/update/error-empty-quantity.request.json",
-                    "response": "product/update/error-empty-quantity.response.json",
-                    "covers": {
-                        "description": "validation: empty quantity"
-                    },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-invalid-gtin",
@@ -984,16 +912,25 @@
                     "covers": {
                         "description": "invalid GTIN checksum/length"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-invalid-price",
                     "request": "product/update/error-invalid-price.request.json",
                     "response": "product/update/error-invalid-price.response.json",
                     "covers": {
-                        "description": "validation: non-numeric price"
+                        "description": "validation: negative price"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
+                },
+                {
+                    "slug": "error-invalid-quantity",
+                    "request": "product/update/error-invalid-quantity.request.json",
+                    "response": "product/update/error-invalid-quantity.response.json",
+                    "covers": {
+                        "description": "validation: negative quantity"
+                    },
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-name-too-long",
@@ -1002,7 +939,7 @@
                     "covers": {
                         "description": "name longer than the 200 character limit"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1011,7 +948,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1020,7 +957,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-status-enum-value",
@@ -1029,7 +966,7 @@
                     "covers": {
                         "description": "status value outside the allowed enum"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "increase-quantity",
@@ -1038,7 +975,7 @@
                     "covers": {
                         "description": "relative stock increase via increase_quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "multi-field-relist",
@@ -1047,7 +984,7 @@
                     "covers": {
                         "description": "price, quantity, sale window and lifecycle fields updated together"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "re-enable-as-new",
@@ -1056,7 +993,7 @@
                     "covers": {
                         "description": "move a product from archived back to enabled with condition reset to new"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "reduce-quantity",
@@ -1065,7 +1002,7 @@
                     "covers": {
                         "description": "relative stock decrease via reduce_quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "update-external-product-link",
@@ -1083,7 +1020,7 @@
                     "covers": {
                         "description": "replace the specifics list with a single updated attribute"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -1099,7 +1036,7 @@
                     "covers": {
                         "description": "minimal variant defined purely by its attribute combination (no own price/name)"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-attribute-count-mismatch",
@@ -1108,7 +1045,7 @@
                     "covers": {
                         "description": "fewer attributes supplied than the product's option set requires"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-attribute-not-an-option",
@@ -1117,7 +1054,7 @@
                     "covers": {
                         "description": "attribute name doesn't belong to the product's option set"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-combination-already-exists",
@@ -1126,7 +1063,7 @@
                     "covers": {
                         "description": "variant with this exact attribute combination already exists on the product"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1135,7 +1072,7 @@
                     "covers": {
                         "description": "validation: sku present but product_id alone is not enough"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-sku-already-exists",
@@ -1144,7 +1081,7 @@
                     "covers": {
                         "description": "sku is already used by another variant"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "gtin",
@@ -1162,7 +1099,7 @@
                     "covers": {
                         "description": "variant overriding its own name, description, price and sale window"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "variant-with-quantity-and-price",
@@ -1171,7 +1108,7 @@
                     "covers": {
                         "description": "variant with an explicit quantity and price and a different movement-type attribute"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -1187,7 +1124,7 @@
                     "covers": {
                         "description": "happy path: delete product variant"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1196,7 +1133,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1205,7 +1142,7 @@
                     "covers": {
                         "description": "not found: variant id does not exist"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         },
@@ -1221,7 +1158,7 @@
                     "covers": {
                         "description": "validation: empty id"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-invalid-gtin",
@@ -1230,25 +1167,25 @@
                     "covers": {
                         "description": "invalid GTIN checksum/length"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-invalid-price",
                     "request": "product/variant.update/error-invalid-price.request.json",
                     "response": "product/variant.update/error-invalid-price.response.json",
                     "covers": {
-                        "description": "validation: non-numeric price"
+                        "description": "validation: negative price"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-invalid-quantity",
                     "request": "product/variant.update/error-invalid-quantity.request.json",
                     "response": "product/variant.update/error-invalid-quantity.response.json",
                     "covers": {
-                        "description": "validation: non-numeric quantity"
+                        "description": "validation: negative quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1257,7 +1194,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1266,16 +1203,16 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "error-sale-price-window-inverted",
                     "request": "product/variant.update/error-sale-price-window-inverted.request.json",
                     "response": "product/variant.update/error-sale-price-window-inverted.response.json",
                     "covers": {
-                        "description": "sprice_create is after sprice_expire"
+                        "description": "sprice_create after sprice_expire -- unlike product.update, this does not surface the specific date-order message on the variant path"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "full-listing-fields",
@@ -1293,7 +1230,7 @@
                     "covers": {
                         "description": "relative stock increase via increase_quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "reduce-quantity",
@@ -1302,7 +1239,7 @@
                     "covers": {
                         "description": "relative stock decrease via reduce_quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "update-gtin",
@@ -1311,7 +1248,7 @@
                     "covers": {
                         "description": "happy path: set variant gtin"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "update-price",
@@ -1320,7 +1257,7 @@
                     "covers": {
                         "description": "happy path: update variant price"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "update-quantity",
@@ -1329,7 +1266,7 @@
                     "covers": {
                         "description": "happy path: set variant quantity"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 },
                 {
                     "slug": "update-sale-price-window",
@@ -1338,7 +1275,7 @@
                     "covers": {
                         "description": "schedule a special_price with its own sale window"
                     },
-                    "captured_at": "2026-08-11T13:19:49Z"
+                    "captured_at": "2026-08-12T11:41:57Z"
                 }
             ]
         }

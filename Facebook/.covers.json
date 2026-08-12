@@ -14,6 +14,9 @@
     "batch/job.list/ids-464-467": {
         "description": "filter: specific job id(s)"
     },
+    "batch/job.list/ids-469-470": {
+        "description": "the two most recently enqueued jobs, both still pending with no job.result published yet -- unlike ids-464-467's already-processed pair"
+    },
     "batch/job.list/page-2": {
         "description": "pagination: page 2 via page_cursor from count-2__page1"
     },
@@ -78,10 +81,10 @@
         "description": "happy path: entity information without filters"
     },
     "category/info/error-no-params": {
-        "description": "validation: no params -> id required"
+        "description": "error: missing required id => 114 NO_PARAM"
     },
     "category/info/error-not-found": {
-        "description": "not found: id does not exist"
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "category/info/params-force-all__exclude-additional-fields": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -191,28 +194,13 @@
     "product/child_item.list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
-    "product/child_item.list/page-2": {
-        "description": "pagination: page 2 via page_cursor from product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name"
-    },
-    "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__count-2__rf-all": {
-        "description": "filter: specific product id(s) [product_id=24324124957192861, count=2]"
-    },
-    "product/child_item.list/product-id-24324124957192861__store-id-1218690792686186__rf-all__start-1__count-1": {
-        "description": "filter: specific product id(s) [product_id=24324124957192861, count=1]"
-    },
-    "product/child_item.list/product-ids-1910374-243241249571__rf-all__store-id-1218690792686186__count-1__find-value-iphone-12__find-where-name": {
-        "description": "search: matching name value; its pagination.next is the page_cursor consumed by page-2"
-    },
-    "product/child_item.list/product-ids-1910374-243241249571__store-id-1218690792686186__rf-all": {
-        "description": "filter: specific product id(s) [no product_id, no count]"
-    },
-    "product/child_item.list/store-id-1218690792686186__product-id-30405902195692141": {
-        "description": "filter: specific product id(s) [product_id=30405902195692141, no count]"
+    "product/child_item.list/product-id-28693865173549624__rf-all": {
+        "description": "full response fields for a product's variants"
     },
     "product/count/basic": {
-        "description": "happy path (no filters)"
+        "description": "happy path: total product count for the account's default store, no filters"
     },
-    "product/count/store-id-1218690792686186": {
+    "product/count/store-id-1732577937418943": {
         "description": "filter: store_id (multi-store account)"
     },
     "product/delete.batch/basic": {
@@ -237,10 +225,10 @@
         "description": "happy path: entity information without filters"
     },
     "product/info/error-no-params": {
-        "description": "validation: no params -> id required"
+        "description": "error: missing required id => 114 NO_PARAM"
     },
     "product/info/error-not-found": {
-        "description": "not found: id does not exist"
+        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
     "product/info/rf-all": {
         "description": "reference: full integration-specific properties, all additional_fields (response_fields={*})"
@@ -254,29 +242,20 @@
     "product/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
-    "product/list/find-value-product__find-where-name": {
-        "description": "search: matching name value"
+    "product/list/find-value-mock-fresh-probe-product__find-where-name": {
+        "description": "search: exact-match on name returns the one matching product"
     },
     "product/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24"
+        "description": "pagination: second page via page_cursor from the basic listing's pagination.next"
     },
     "product/list/params-force-all__exclude-additional-fields-images": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
-    "product/list/rf-return-code-return-message-pag": {
-        "description": "field selection: products_count,product.id,product.type,product.u_model,product.u_sku,product.name,product.description,product.price,product.quantity,product.u_brand_id,product.u_brand,product.categories_ids,product.url,product.additional_fields"
-    },
-    "product/list/store-id-1218690792686186__count-1__find-value-airsound-pro__find-where-name__product-ids-30405902195692141-24": {
-        "description": "search: matching name value [find_value=AirSound Pro]; its pagination.next is the page_cursor consumed by page-2"
-    },
-    "product/list/store-id-1218690792686186__product-ids-30405902195692141-24": {
+    "product/list/product-ids-28485509374366375-28693865173549624": {
         "description": "filter: specific product id(s)"
     },
-    "product/list/store-id-1218690792686186__rf-all": {
-        "description": "filter: store_id (multi-store account) [response_fields={*}]"
-    },
-    "product/list/store-id-1218690792686186__rf-product-id-create-at-modified-": {
-        "description": "filter: store_id (multi-store account) [response_fields={result{product{id;cr...]"
+    "product/list/store-id-1732577937418943__rf-all": {
+        "description": "filter: store_id (multi-store account)"
     },
     "product/update/error-condition-enum-value": {
         "description": "condition value outside the allowed enum"
@@ -284,14 +263,14 @@
     "product/update/error-empty-id": {
         "description": "validation: empty id"
     },
-    "product/update/error-empty-quantity": {
-        "description": "validation: empty quantity"
-    },
     "product/update/error-invalid-gtin": {
         "description": "invalid GTIN checksum/length"
     },
     "product/update/error-invalid-price": {
-        "description": "validation: non-numeric price"
+        "description": "validation: negative price"
+    },
+    "product/update/error-invalid-quantity": {
+        "description": "validation: negative quantity"
     },
     "product/update/error-name-too-long": {
         "description": "name longer than the 200 character limit"
@@ -366,10 +345,10 @@
         "description": "invalid GTIN checksum/length"
     },
     "product/variant.update/error-invalid-price": {
-        "description": "validation: non-numeric price"
+        "description": "validation: negative price"
     },
     "product/variant.update/error-invalid-quantity": {
-        "description": "validation: non-numeric quantity"
+        "description": "validation: negative quantity"
     },
     "product/variant.update/error-no-params": {
         "description": "validation: no params"
@@ -378,7 +357,7 @@
         "description": "not found: id does not exist"
     },
     "product/variant.update/error-sale-price-window-inverted": {
-        "description": "sprice_create is after sprice_expire"
+        "description": "sprice_create after sprice_expire -- unlike product.update, this does not surface the specific date-order message on the variant path"
     },
     "product/variant.update/full-listing-fields": {
         "description": "variant overriding product_id, name, description, short_description and status all together -- product.info on the variant id afterwards returns name/description/short_description exactly as sent"
