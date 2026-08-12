@@ -3,6 +3,6 @@
     "method": "GET",
     "endpoint": "product.count.json",
     "query": {
-        "avail_view": "false"
+        "avail_view": false
     }
 }

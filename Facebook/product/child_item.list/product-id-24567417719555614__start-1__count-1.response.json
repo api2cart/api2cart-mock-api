@@ -1,0 +1,19 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 3,
+        "children": [
+            {
+                "id": "24520753870878973",
+                "parent_id": "24567417719555614",
+                "sku": "QAautotest",
+                "name": "QAautotest"
+            }
+        ]
+    }
+}

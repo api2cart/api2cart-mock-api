@@ -1,5 +1,5 @@
 {
     "return_code": 109,
-    "return_message": "Parameter(s) for method is/are incorrect (empty etc.)",
+    "return_message": "sprice_create = '2027-01-01' is after to date sprice_expire = '2026-01-01'",
     "result": {}
 }

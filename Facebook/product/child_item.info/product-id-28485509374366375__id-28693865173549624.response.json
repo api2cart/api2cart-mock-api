@@ -2,9 +2,9 @@
     "return_code": 0,
     "return_message": "",
     "result": {
-        "id": "9865956813532083",
-        "parent_id": "30405902195692141",
-        "sku": "fchp4sos2x",
+        "id": "28693865173549624",
+        "parent_id": "28485509374366375",
+        "sku": "mock-variant-parent-tee",
         "upc": null,
         "ean": null,
         "mpn": null,
@@ -15,14 +15,14 @@
         "sort_order": null,
         "created_time": null,
         "modified_time": null,
-        "name": "Product 2 Title",
+        "name": "Mock Variant Parent Tee",
         "short_description": null,
-        "full_description": "HTML <b>Description</b> of the Product 2",
+        "full_description": "Dedicated parent product for capturing a fully-populated product.variant.update mock",
         "images": [
             {
-                "id": "55064bc6df6ce23e70af32ea25f4fabb",
-                "http_path": "https://picsum.photos/seed/3aeb89b1/600/600",
-                "file_name": "517869807_1046646190886623_6697348390263304949_n.jpg",
+                "id": "6aef368e84061bea4223849429256752",
+                "http_path": "https://picsum.photos/seed/8125f40b/600/600",
+                "file_name": "800",
                 "mime-type": "image/jpeg",
                 "size": null,
                 "create_at": null,
@@ -33,36 +33,20 @@
                 "type": "IMAGE_TYPE_BASE"
             }
         ],
-        "combination": [
-            {
-                "option_id": "material",
-                "option_value_id": "lether"
-            }
-        ],
-        "default_price": 120,
+        "combination": [],
+        "default_price": 20,
         "cost_price": null,
         "unit_price": null,
         "measure_unit": null,
         "list_price": null,
         "wholesale_price": null,
-        "advanced_price": [
-            {
-                "id": "sp",
-                "value": 555,
-                "avail": false,
-                "group_id": null,
-                "quantity_from": null,
-                "start_time": null,
-                "expire_time": null
-            }
-        ],
+        "advanced_price": [],
         "tax_class_id": null,
         "avail_for_sale": true,
         "allow_backorders": false,
         "in_stock": true,
-        "on_sale": null,
         "manage_stock": true,
-        "inventory_level": 999999999,
+        "inventory_level": 100,
         "inventory": [],
         "min_quantity": null,
         "low_stock_threshold": null,
@@ -84,23 +68,14 @@
             "availability": "in stock",
             "condition": "new",
             "currency": "USD",
-            "custom_number_0": "0",
-            "custom_number_1": "0",
-            "custom_number_2": "0",
-            "custom_number_3": "0",
-            "custom_number_4": "0",
-            "gender": "",
-            "image_fetch_status": "DIRECT_UPLOAD",
-            "mobile_link": "",
-            "ordering_index": 0,
-            "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+            "image_fetch_status": "FETCHED",
             "product_relationship": "child",
-            "quantity_to_sell_on_facebook": 999999999,
-            "retailer_id": "fchp4sos2x",
-            "retailer_product_group_id": "affs36expn",
+            "quantity_to_sell_on_facebook": 10,
+            "retailer_id": "mock-variant-parent-tee",
+            "retailer_product_group_id": "group_696106408782905_mock-variant-parent-tee",
             "fb_product_category": "",
             "review_status": "",
-            "link": "https://store-59e74d41.example.com/"
+            "link": "https://store-26b0c5f.example.com/"
         }
     }
 }

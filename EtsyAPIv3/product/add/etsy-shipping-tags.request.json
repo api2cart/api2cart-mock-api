@@ -10,7 +10,7 @@
         "weight_unit": "kg",
         "quantity": 10,
         "manufacturer": "someone_else",
-        "available_for_view": "true",
+        "available_for_view": true,
         "shipping_template_id": 150486311896,
         "tags": "add1,add2,add3",
         "lang_id": "en",

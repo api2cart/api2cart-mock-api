@@ -1,6 +1,6 @@
 {
     "batch/job.list/basic": {
-        "description": "happy path: list batch jobs -- the discovery path from a job_id to its result. Mixes product.add.batch and product.delete.batch, processed and pending; job 468 here is still pending -- see batch/job.result/error-not-processed-yet"
+        "description": "happy path: list batch jobs -- the discovery path from a job_id to its result. Mixes product.add.batch and product.delete.batch, processed and pending; jobs 468/469/470 are still pending -- see batch/job.result/error-not-processed-yet"
     },
     "batch/job.list/count-2__page1": {
         "description": "pagination: page 1, count=2; its pagination.next is the page_cursor consumed by page-2"
@@ -45,22 +45,25 @@
         "description": "batch job result for job 467: one item succeeds, one fails because its sku was already used by an earlier batch item -- a platform-side uniqueness check that only runs at processing time, not a schema error"
     },
     "cart/info/basic": {
-        "description": "happy path: entity information without filters"
+        "description": "happy path: store information"
     },
     "cart/info/params-force-all__exclude-stores-info": {
         "description": "params=force_all combined with exclude (deprecated selector pair); excluding stores_info drops the whole per-store branch, which is what makes exclude worth using here"
     },
     "cart/info/rf-all": {
-        "description": "reference: full integration-specific properties (response_fields={*}). The single case carrying the whole carrier_info catalogue -- Facebook returns ~515 shipping carriers per connected store, identical for every store, so no other case repeats it"
+        "description": "full response fields. Facebook returns ~515 shipping carriers per connected store, identical for every store, so no other case repeats it"
     },
     "cart/info/rf-name": {
         "description": "field selection: name"
     },
+    "cart/info/rf-stores-info-id-store-owner-inf": {
+        "description": "field selection: stores_info.store_id,stores_info.store_owner_info"
+    },
     "cart/info/rf-stores-info-store-id-name-currency": {
         "description": "field selection: stores_info.store_id,stores_info.name,stores_info.currency -- the multi-store list without the carrier catalogue"
     },
-    "cart/info/rf-stores-info-store-id-store-owner-info": {
-        "description": "field selection: stores_info.store_id,stores_info.store_owner_info"
+    "cart/info/rf-stores-info-stores-info": {
+        "description": "field selection: stores_info.stores_info"
     },
     "cart/info/rf-url": {
         "description": "field selection: url"
@@ -97,9 +100,6 @@
     },
     "category/list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
-    },
-    "category/list/page-2": {
-        "description": "pagination: page 2 via page_cursor from count-3__rf-return-code-return-message-pag"
     },
     "category/list/params-force-all__exclude-additional-fields": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -182,20 +182,35 @@
     "product/child_item.info/error-not-found": {
         "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
     },
-    "product/child_item.info/product-id-24324124957192861__id-23951253391183522__store-id-1218690792686186__rf-id-parent-id-name-full-descrip": {
-        "description": "filter: specific product id(s) [product_id=24324124957192861, id=23951253391183522]"
+    "product/child_item.info/product-id-24567417719555614__id-6739723396106652": {
+        "description": "a child on a different parent, minimal fields"
     },
-    "product/child_item.info/product-id-30405902195692141__id-9865956813532083__store-id-1218690792686186__rf-all": {
-        "description": "filter: specific product id(s) [product_id=30405902195692141, id=9865956813532083]"
-    },
-    "product/child_item.info/store-id-1218690792686186__product-id-24324124957192861__id-24324124957192861": {
-        "description": "filter: specific product id(s) [product_id=24324124957192861, id=24324124957192861]"
+    "product/child_item.info/product-id-28485509374366375__id-28693865173549624": {
+        "description": "happy path: a single child's full record"
     },
     "product/child_item.list/error-invalid-param": {
         "description": "error: invalid count value => 109 PARAM_ERROR"
     },
+    "product/child_item.list/page-2": {
+        "description": "pagination: second (last) page via page_cursor from product-id-24567417719555614__count-2's pagination.next -- page_cursor cannot be combined with product_id, so the follow-up request carries only the cursor"
+    },
+    "product/child_item.list/product-id-24567417719555614__count-2": {
+        "description": "filter: count as a limit on how many children come back per page"
+    },
+    "product/child_item.list/product-id-24567417719555614__find-value-test-prod__find-where-name": {
+        "description": "search: exact-match on a child's name"
+    },
+    "product/child_item.list/product-id-24567417719555614__start-1__count-1": {
+        "description": "pagination: start/count as the numeric alternative to page_cursor"
+    },
+    "product/child_item.list/product-id-28485509374366375__store-id-2008815096142395": {
+        "description": "filter: specific product id(s)"
+    },
     "product/child_item.list/product-id-28693865173549624__rf-all": {
         "description": "full response fields for a product's variants"
+    },
+    "product/child_item.list/product-ids-24114998721508603-28485509374366375": {
+        "description": "filter: multiple parent product_id(s) at once"
     },
     "product/count/basic": {
         "description": "happy path: total product count for the account's default store, no filters"
@@ -357,7 +372,7 @@
         "description": "not found: id does not exist"
     },
     "product/variant.update/error-sale-price-window-inverted": {
-        "description": "sprice_create after sprice_expire -- unlike product.update, this does not surface the specific date-order message on the variant path"
+        "description": "sprice_create is after sprice_expire"
     },
     "product/variant.update/full-listing-fields": {
         "description": "variant overriding product_id, name, description, short_description and status all together -- product.info on the variant id afterwards returns name/description/short_description exactly as sent"

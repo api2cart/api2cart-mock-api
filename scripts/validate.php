@@ -49,6 +49,16 @@
  *  14) descriptions are unique within a method -- inside one method the description is the only
  *      thing distinguishing a case from its neighbour in the index.
  *  15) a numeric parameter is a JSON number, not a quoted string.
+ *  16) a boolean parameter is a JSON boolean, not a quoted "true"/"false" -- see V_BOOLEAN_PARAMS.
+ *  17) the root index.json agrees with the tree in both directions: every listed integration has a
+ *      matching {Integration}/index.json (and the path is spelled canonically), and every such
+ *      directory on disk is listed. Nothing else covers the root index -- this script otherwise
+ *      reads only per-integration indexes, and CI discovers integrations by globbing the tree
+ *      rather than by reading the root list, so a drift between them is invisible to both.
+ *      See validateRootIndex() (argument-independent, so it always runs).
+ *
+ * An argument naming a directory that does not exist is an ERROR, not a silent pass: with no tree
+ * and no index to read, every check below would trivially agree at zero and report success.
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
@@ -80,19 +90,40 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
  * Parameters whose value is a number in every integration's openapi. Deliberately a short, explicit
  * list rather than a heuristic: "is_numeric($value)" alone would also rewrite genuinely stringy
  * ids (a numeric-looking sku, an eBay item id) which are strings on purpose.
+ *
+ * Extend this whenever a new integration brings a numeric parameter of its own -- the list is an
+ * allow-list, so an unlisted param is simply never checked. The second row came in with Bricklink,
+ * whose write methods are built around relative quantity deltas and a discount amount; all four are
+ * declared `type: number` in its openapi, and `special_price` is shared with Etsy/Facebook.
  */
 const V_NUMERIC_PARAMS = [
   'count', 'start', 'position', 'price', 'old_price', 'cost_price', 'quantity',
+  'special_price', 'min_order_quantity', 'increase_quantity', 'reduce_quantity', 'action_amount',
 ];
 
 /**
  * Same idea as V_NUMERIC_PARAMS but for booleans: the numeric check only covers numbers, so a
- * quoted "true"/"false" against a `type: boolean` schema slipped through -- three Facebook cases
- * (available_for_sale) and two pre-existing EtsyAPIv3 ones (is_virtual). Explicit list for the
- * same reason as above: a param that happens to hold the literal string "true"/"false" on purpose
- * (free text, an enum value) must not be rewritten.
+ * quoted "true"/"false" against a `type: boolean` schema slipped through. Explicit list for the
+ * same reason as above -- a param that happens to hold the literal string "true"/"false" on
+ * purpose must not be rewritten.
+ *
+ * Membership is decided by how the value is CONSUMED, not by the openapi type alone. Every name
+ * here is `APICart_Core_Container::FLAG_BOOL` in the core parameter registry and reaches core's
+ * boolean normalisation, so a real JSON boolean is what the API actually wants.
+ *
+ * Deliberately EXCLUDED despite being `"type": "boolean"` in openapi:
+ *   - `used_for_variations` -- EBay's importer string-compares it
+ *     (`strtolower($value['used_for_variations']) === 'true'`), so a real JSON boolean is read as
+ *     FALSE there (`strtolower(true)` is `"1"`). openapi and the implementation disagree and the
+ *     implementation wins; the quoted form in EBay's cases is correct and must stay. AmazonSP
+ *     accepts either. If EBay's importer is ever fixed to accept booleans, move it into the list
+ *     and re-generate.
  */
-const V_BOOLEAN_PARAMS = ['available_for_sale', 'is_virtual', 'is_default', 'in_stock', 'downloadable'];
+const V_BOOLEAN_PARAMS = [
+  'available_for_sale', 'is_virtual', 'is_default', 'in_stock', 'downloadable',
+  'avail_view', 'avail_sale', 'available_for_view', 'is_supply', 'auto_renew',
+  'disable_report_cache', 'use_latest_api_version', 'enable_cache',
+];
 
 const V_UNREACHABLE_JOB_DEBT = [
   'AmazonSP/id-149-update-not-found'       => true,
@@ -110,11 +141,26 @@ if (PHP_SAPI === 'cli' && realpath($argv[0]) === realpath(__FILE__)) {
 
   $errors = [];
   foreach ($platDirs as $platDir) {
+    // An argument that points at nothing must FAIL, not pass. Without this, every check below
+    // simply iterates an empty set: v_loadJson() returns null for the missing index.json and
+    // glob() returns nothing for the missing tree, so both sides of check 1 agree at zero and the
+    // run reports "validate ok". A typo in a CI command (`Faceboook`) would then be permanently
+    // green while validating nothing at all, and the more integrations on the command line, the
+    // less a single ignored one stands out.
+    if (!is_dir($platDir)) {
+      $errors[] = "$platDir: no such integration directory";
+      continue;
+    }
     $errors = [...$errors, ...validateDataset($platDir)];
   }
   // Repo-wide, so it only means anything when several integrations are validated together --
   // which is exactly what CI does.
   $errors = [...$errors, ...validateJobIdsUnique($platDirs)];
+  // Root index.json is the agent's documented entry point, and nothing else covers it: this script
+  // only ever reads {Integration}/index.json, and CI discovers integrations by globbing the tree
+  // rather than by reading the root list. A drift between the two is therefore invisible to the
+  // validator, to CI and to review alike. Needs no arguments, so it always runs.
+  $errors = [...$errors, ...validateRootIndex()];
 
   foreach ($errors as $e) {
     fwrite(STDERR, "$e\n");
@@ -416,6 +462,70 @@ function validateJobIdsUnique(array $platDirs): array
       }
     }
   }
+  return $errors;
+}
+
+/**
+ * Check 17: the root index.json agrees with the tree, in both directions.
+ *
+ * Independent of the arguments on purpose -- the root index is a single shared file, and the point
+ * is to catch an entry added ahead of (or left behind by) its data regardless of which integrations
+ * someone happens to be validating. Runs relative to the dataset root, inferred from this script's
+ * own location, so it behaves the same from any working directory.
+ *
+ * @return array<int, string>
+ */
+function validateRootIndex(): array
+{
+  $root = dirname(__DIR__);
+  $rootIndexPath = "$root/index.json";
+  if (!is_file($rootIndexPath)) {
+    return ["index.json: missing at the dataset root -- it is the documented entry point"];
+  }
+
+  $errors = [];
+  $rootIndex = v_loadJson($rootIndexPath);
+  if (!is_array($rootIndex) || !is_array($rootIndex['integrations'] ?? null)) {
+    return ["index.json: no top-level \"integrations\" list"];
+  }
+
+  $listed = [];
+  foreach ($rootIndex['integrations'] as $entry) {
+    $name = is_array($entry) ? ($entry['integration'] ?? null) : null;
+    if (!is_string($name) || $name === '') {
+      $errors[] = 'index.json: an entry has no "integration" name';
+      continue;
+    }
+    $listed[$name] = is_array($entry) ? ($entry['index'] ?? null) : null;
+  }
+
+  // On-disk integrations = top-level dirs carrying their own index.json, which is exactly how
+  // .github/workflows/validate.yml discovers them. Keeping the two definitions identical is the
+  // whole point: if they ever diverge, CI validates a different set than the index advertises.
+  $onDisk = [];
+  foreach (glob("$root/*/index.json") ?: [] as $p) {
+    $onDisk[basename(dirname($p))] = true;
+  }
+
+  foreach ($listed as $name => $indexPath) {
+    if (!isset($onDisk[$name])) {
+      $errors[] = "index.json: lists \"$name\" but $name/index.json does not exist -- an agent "
+        . "following the root index gets a dead link";
+      continue;
+    }
+    $expected = "$name/index.json";
+    if ($indexPath !== $expected) {
+      $errors[] = "index.json: \"$name\" points at " . var_export($indexPath, true)
+        . ", expected \"$expected\"";
+    }
+  }
+  foreach (array_keys($onDisk) as $name) {
+    if (!isset($listed[$name])) {
+      $errors[] = "index.json: $name/index.json exists on disk but the root index does not list it "
+        . "-- CI will validate it while agents never discover it";
+    }
+  }
+
   return $errors;
 }
 

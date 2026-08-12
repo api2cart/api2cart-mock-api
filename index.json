@@ -6,10 +6,6 @@
             "index": "AmazonSP/index.json"
         },
         {
-            "integration": "Bricklink",
-            "index": "Bricklink/index.json"
-        },
-        {
             "integration": "EBay",
             "index": "EBay/index.json"
         },

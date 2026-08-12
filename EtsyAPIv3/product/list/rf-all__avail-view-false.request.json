@@ -4,6 +4,6 @@
     "endpoint": "product.list.json",
     "query": {
         "response_fields": "{*}",
-        "avail_view": "false"
+        "avail_view": false
     }
 }

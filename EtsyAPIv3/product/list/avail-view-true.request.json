@@ -3,6 +3,6 @@
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "avail_view": "true"
+        "avail_view": true
     }
 }

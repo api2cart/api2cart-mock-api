@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 2,
+        "children": [
+            {
+                "id": "28485509374366375",
+                "parent_id": "28485509374366375",
+                "sku": "mock-variant-parent-tee-red-m",
+                "name": "Mock Variant Parent Tee - Red / M"
+            },
+            {
+                "id": "28693865173549624",
+                "parent_id": "28485509374366375",
+                "sku": "mock-variant-parent-tee",
+                "name": "Mock Variant Parent Tee"
+            }
+        ]
+    }
+}

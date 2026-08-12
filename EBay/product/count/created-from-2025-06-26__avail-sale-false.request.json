@@ -4,6 +4,6 @@
     "endpoint": "product.count.json",
     "query": {
         "created_from": "2025-06-26",
-        "avail_sale": "false"
+        "avail_sale": false
     }
 }

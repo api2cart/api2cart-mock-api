@@ -1,6 +1,6 @@
 {
     "integration": "EtsyAPIv3",
-    "generated_at": "2026-08-11T07:16:12Z",
+    "generated_at": "2026-08-12T13:56:22Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -514,7 +514,7 @@
                     "request": "order/list/created-modified-range.request.json",
                     "response": "order/list/created-modified-range.response.json",
                     "covers": {
-                        "description": "filter: date range (created/modified from-to) [modified_from=2010-07-29 13:45:52]"
+                        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, modified_from=2010-07-29 13:45:52]"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -523,7 +523,7 @@
                     "request": "order/list/created-range.request.json",
                     "response": "order/list/created-range.response.json",
                     "covers": {
-                        "description": "filter: date range (created/modified from-to) [no modified_from]"
+                        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, no modified_from]"
                     },
                     "captured_at": "2026-08-04T13:13:26Z"
                 },
@@ -1146,7 +1146,7 @@
                     "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.request.json",
                     "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.response.json",
                     "covers": {
-                        "description": "search: matching sku value [find_value=QAautotest]"
+                        "description": "search: matching sku value [find_value=QAautotest] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1155,7 +1155,7 @@
                     "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.request.json",
                     "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.response.json",
                     "covers": {
-                        "description": "search: matching sku value [find_value=test_variant8889]"
+                        "description": "search: matching sku value [find_value=test_variant8889] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:23:40Z"
                 },
@@ -1243,7 +1243,7 @@
                     "request": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
                     "response": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
                     "covers": {
-                        "description": "search: matching name value [find_value=QAtestvariantprod]"
+                        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 },
@@ -1252,7 +1252,7 @@
                     "request": "product/count/find-where-name__find-value-test3.request.json",
                     "response": "product/count/find-where-name__find-value-test3.response.json",
                     "covers": {
-                        "description": "search: matching name value [find_value=Test3]"
+                        "description": "search: matching name value [find_value=Test3] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-27T10:01:56Z"
                 }
@@ -1546,7 +1546,7 @@
                     "request": "product/list/avail-view-true.request.json",
                     "response": "product/list/avail-view-true.response.json",
                     "covers": {
-                        "description": "filter: avail_view=true"
+                        "description": "filter: avail_view=true (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
@@ -1582,7 +1582,7 @@
                     "request": "product/list/find-where-name__find-value-qatestpro.request.json",
                     "response": "product/list/find-where-name__find-value-qatestpro.response.json",
                     "covers": {
-                        "description": "search: matching name value [find_value=QAtestpro]"
+                        "description": "search: matching name value [find_value=QAtestpro] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
@@ -1591,7 +1591,7 @@
                     "request": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
                     "response": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
                     "covers": {
-                        "description": "search: matching name value [find_value=QAtestvariantprod]"
+                        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:23:41Z"
                 },
@@ -1690,7 +1690,7 @@
                     "request": "product/list/sku-bag-01.request.json",
                     "response": "product/list/sku-bag-01.response.json",
                     "covers": {
-                        "description": "pagination: start/count offset"
+                        "description": "pagination: start/count offset [sku=bag_01, count=10]"
                     },
                     "captured_at": "2026-08-04T13:14:09Z"
                 },

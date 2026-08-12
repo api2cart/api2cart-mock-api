@@ -68,6 +68,26 @@
                     "format": "Y-m-d\\TH:i:sO"
                 },
                 "processed_time": null
+            },
+            {
+                "id": "469",
+                "method": "product.add.batch",
+                "status": "pending",
+                "created_time": {
+                    "value": "2026-08-11T12:40:12+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": null
+            },
+            {
+                "id": "470",
+                "method": "product.delete.batch",
+                "status": "pending",
+                "created_time": {
+                    "value": "2026-08-11T12:40:12+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "processed_time": null
             }
         ]
     }

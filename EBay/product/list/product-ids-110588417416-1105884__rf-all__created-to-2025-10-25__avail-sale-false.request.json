@@ -6,6 +6,6 @@
         "product_ids": "110588417416,110588418325,110588418328,110588419419",
         "response_fields": "{*}",
         "created_to": "2025-10-25",
-        "avail_sale": "false"
+        "avail_sale": false
     }
 }

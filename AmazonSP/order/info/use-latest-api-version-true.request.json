@@ -4,6 +4,6 @@
     "endpoint": "order.info.json",
     "query": {
         "order_id": "111-2760055-4721039",
-        "use_latest_api_version": "true"
+        "use_latest_api_version": true
     }
 }

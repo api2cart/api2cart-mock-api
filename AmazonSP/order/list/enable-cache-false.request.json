@@ -3,6 +3,6 @@
     "method": "GET",
     "endpoint": "order.list.json",
     "query": {
-        "enable_cache": "false"
+        "enable_cache": false
     }
 }

@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "disable_report_cache": "false",
+        "disable_report_cache": false,
         "count": 2,
         "report_request_id": "ATVPDKIKX0DER171122020671",
         "response_fields": "{return_code,return_message,result{product{id}}}"

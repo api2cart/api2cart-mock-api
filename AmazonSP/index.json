@@ -1,6 +1,6 @@
 {
     "integration": "AmazonSP",
-    "generated_at": "2026-08-11T07:16:12Z",
+    "generated_at": "2026-08-12T13:56:22Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -843,7 +843,7 @@
                     "request": "order/count/modified-from-2024-03-02t10-20-03.request.json",
                     "response": "order/count/modified-from-2024-03-02t10-20-03.response.json",
                     "covers": {
-                        "description": "filter: modified_from (lower bound)"
+                        "description": "filter: modified_from (lower bound) (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -992,7 +992,7 @@
                     "request": "order/list/created-to-2022-08-18t13-07-22.request.json",
                     "response": "order/list/created-to-2022-08-18t13-07-22.response.json",
                     "covers": {
-                        "description": "filter: created_to (upper bound)"
+                        "description": "filter: created_to (upper bound) (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-08-07T11:49:40Z"
                 },
@@ -1037,7 +1037,7 @@
                     "request": "order/list/modified-from-2024-03-02t10-20-03.request.json",
                     "response": "order/list/modified-from-2024-03-02t10-20-03.response.json",
                     "covers": {
-                        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03]"
+                        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03] (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-07-23T11:26:03Z"
                 },
@@ -1046,7 +1046,7 @@
                     "request": "order/list/modified-to-2024-03-02t10-20-03.request.json",
                     "response": "order/list/modified-to-2024-03-02t10-20-03.response.json",
                     "covers": {
-                        "description": "filter: modified_to (upper bound)"
+                        "description": "filter: modified_to (upper bound) (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-08-07T11:49:40Z"
                 },
@@ -1396,7 +1396,7 @@
                     "request": "product/child_item.list/params-force-all__exclude-images.request.json",
                     "response": "product/child_item.list/params-force-all__exclude-images.response.json",
                     "covers": {
-                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                        "description": "params=force_all combined with exclude (deprecated selector pair) (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-08-07T07:00:03Z"
                 },
@@ -1441,7 +1441,7 @@
                     "request": "product/child_item.list/start-1__count-2.request.json",
                     "response": "product/child_item.list/start-1__count-2.response.json",
                     "covers": {
-                        "description": "pagination: start/count offset within one parent"
+                        "description": "pagination: start/count offset within one parent (filter matches nothing in this store: empty result)"
                     },
                     "captured_at": "2026-08-07T07:00:03Z"
                 }
