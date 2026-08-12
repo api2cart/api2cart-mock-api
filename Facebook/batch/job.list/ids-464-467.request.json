@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-11T11:11:01Z",
+    "method": "GET",
+    "endpoint": "batch.job.list.json",
+    "query": {
+        "ids": "464,467"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "50000000 isn't a valid GTIN number. Use valid GTIN-12 or GTIN-13 numbers.",
+    "result": {}
+}

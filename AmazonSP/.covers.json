@@ -258,7 +258,7 @@
         "description": "filter: matching customer_email"
     },
     "order/count/modified-from-2024-03-02t10-20-03": {
-        "description": "filter: modified_from (lower bound)"
+        "description": "filter: modified_from (lower bound) (filter matches nothing in this store: empty result)"
     },
     "order/count/modified-to-2024-03-02t10-20-03": {
         "description": "filter: modified_to (upper bound)"
@@ -303,7 +303,7 @@
         "description": "filter: created_from (lower bound)"
     },
     "order/list/created-to-2022-08-18t13-07-22": {
-        "description": "filter: created_to (upper bound)"
+        "description": "filter: created_to (upper bound) (filter matches nothing in this store: empty result)"
     },
     "order/list/customer-email-user59396-example-co": {
         "description": "filter: matching customer_email"
@@ -318,10 +318,10 @@
         "description": "filter: fulfillment_channel=AFN (Fulfilled by Amazon), narrowed response_fields"
     },
     "order/list/modified-from-2024-03-02t10-20-03": {
-        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03]"
+        "description": "filter: modified_from (lower bound) [modified_from=2024-03-02T10:20:03] (filter matches nothing in this store: empty result)"
     },
     "order/list/modified-to-2024-03-02t10-20-03": {
-        "description": "filter: modified_to (upper bound)"
+        "description": "filter: modified_to (upper bound) (filter matches nothing in this store: empty result)"
     },
     "order/list/order-ids-multi": {
         "description": "filter: several order_ids in one call; response_fields narrowed to order_id"
@@ -426,7 +426,7 @@
         "description": "pagination: page 2 via page_cursor from product-id-swyte-2-sweater-mast. Note the returned children are NOT all from that parent (one belongs to CURTAIN-MASTER): the cursor encodes a position, not the product_id filter, so a second page can cross into other parents. Re-send product_id instead of the cursor if you need children of one parent only."
     },
     "product/child_item.list/params-force-all__exclude-images": {
-        "description": "params=force_all combined with exclude (deprecated selector pair)"
+        "description": "params=force_all combined with exclude (deprecated selector pair) (filter matches nothing in this store: empty result)"
     },
     "product/child_item.list/product-id-b000joe224-parent-ap": {
         "description": "children of a different variation parent (2 children) -- contrast with the sweater parent above"
@@ -441,7 +441,7 @@
         "description": "search children by name (\"Feline\") within one parent, count=1; its pagination.next is the page_cursor consumed by page-2-feline-search"
     },
     "product/child_item.list/start-1__count-2": {
-        "description": "pagination: start/count offset within one parent"
+        "description": "pagination: start/count offset within one parent (filter matches nothing in this store: empty result)"
     },
     "product/count/avail-view-false": {
         "description": "filter: avail_view=false"

@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-12T14:22:00Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "id": "23951253391183612",
+        "store_id": "1732577937418943",
+        "special_price": 89.9,
+        "sprice_create": "2026-01-01",
+        "sprice_expire": "2027-01-01"
+    }
+}

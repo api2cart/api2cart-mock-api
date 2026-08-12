@@ -5,6 +5,6 @@
     "query": {
         "created_from": "2025-06-26",
         "created_to": "2025-09-24",
-        "avail_sale": "true"
+        "avail_sale": true
     }
 }

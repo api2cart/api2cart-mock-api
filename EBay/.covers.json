@@ -78,7 +78,7 @@
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "category/info/id-4707": {
-        "description": "filtered export"
+        "description": "happy path: entity information by id"
     },
     "category/list/basic": {
         "description": "happy path (no filters)"

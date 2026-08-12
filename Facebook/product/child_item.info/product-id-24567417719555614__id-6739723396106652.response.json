@@ -1,0 +1,13 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "6739723396106652",
+        "parent_id": "24567417719555614",
+        "sku": "69lhsjxluq",
+        "name": "Test Prod",
+        "default_price": 10,
+        "avail_for_sale": true,
+        "in_stock": true
+    }
+}

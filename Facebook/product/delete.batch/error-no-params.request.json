@@ -1,0 +1,6 @@
+{
+    "captured_at": "2026-08-12T14:22:00Z",
+    "method": "POST",
+    "endpoint": "product.delete.batch.json",
+    "body": {}
+}

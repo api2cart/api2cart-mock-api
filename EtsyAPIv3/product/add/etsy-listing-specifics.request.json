@@ -8,10 +8,10 @@
         "price": 2,
         "status": "disabled",
         "categories_ids": "1857",
-        "is_virtual": "false",
-        "downloadable": "false",
-        "is_supply": "true",
-        "available_for_view": "false",
+        "is_virtual": false,
+        "downloadable": false,
+        "is_supply": true,
+        "available_for_view": false,
         "quantity": 999,
         "weight": 4,
         "weight_unit": "oz",
@@ -31,7 +31,7 @@
                 "scale_id": "7"
             }
         ],
-        "auto_renew": "false",
+        "auto_renew": false,
         "when_made": "made_to_order",
         "shipping_template_id": "150486311896",
         "production_partner_ids": "1686933",

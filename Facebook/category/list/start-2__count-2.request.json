@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-11T11:09:48Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "start": 2,
+        "count": 2,
+        "response_fields": "{return_code,return_message,pagination,result{category{id,name}}}"
+    }
+}

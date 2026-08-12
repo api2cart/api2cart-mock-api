@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-12T14:16:14Z",
+    "method": "GET",
+    "endpoint": "product.child_item.info.json",
+    "query": {
+        "product_id": "24567417719555614",
+        "id": "6739723396106652",
+        "response_fields": "{result{id,parent_id,sku,name,avail_for_sale,in_stock,default_price}}"
+    }
+}

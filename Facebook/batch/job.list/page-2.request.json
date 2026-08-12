@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-11T11:11:01Z",
+    "method": "GET",
+    "endpoint": "batch.job.list.json",
+    "query": {
+        "page_cursor": "83HMzqoyMjHyS8x31Tc3MzRwDC9NM/TOyDL09slONy1zLXQLC66w9DcxDHcO9kj2MUs283Z3ykv2KDQv844MTQQA"
+    }
+}

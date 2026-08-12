@@ -4,7 +4,7 @@
     "endpoint": "product.list.json",
     "query": {
         "count": 5,
-        "avail_view": "true",
+        "avail_view": true,
         "response_fields": "{*}"
     }
 }

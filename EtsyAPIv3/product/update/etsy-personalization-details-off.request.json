@@ -5,7 +5,7 @@
     "body": {
         "id": "123450104",
         "quantity": 998,
-        "is_supply": "false",
+        "is_supply": false,
         "description": "Test Product ahmet",
         "shop_section_id": "35289963",
         "return_policy_id": "1371690296221",

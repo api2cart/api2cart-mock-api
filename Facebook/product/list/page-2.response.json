@@ -1,0 +1,83 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHJgoIgAADQD%2BJgmigcoVExFbfMmptrLhTWWJpfP%2B%2F5ZBw2Tdd4IS3FNNQdyd%2BtliEBtISVtolDNLg6RrGF8v2pSlHmcpd02IrZERJ%2FACsdAgw7lK%2BI0KVQovkHJq1a%2Bmeqts%2FrMyHTo1E9ZEnhbkeYd9A%2BFnFPq%2BqpKZXy1dNXZARR%2BNmHFyDgm350wHvw%2FfukxXg%2FZ1IwYjuWEgwVD7yN4V7cMq7IeTkkzgjnmiEv%2B5a7mAFgBnS6NY%2FaX%2Fra5LlI7MPrZTPXjh1cLxgXHdW3%2BsABk3HlAXFpW931R2Nok8hfG%2Bd3jP5Ecyp5%2F9id3EBqnQzMgVqTZ1%2BMhdznqF%2BadxVeZVen6wSzzfkH",
+        "next": "BcHLokJAAADQD7LAhMaixchr5JE8s5MMI5G5Er7%2BnuOiV7cDCfjlaPBHRRRQ9iUggT0HbvbDPKoB7LCkwtCA2SGuIphgH6NWNULbkZHbcavWearcwmyFSPuV%2FHXW5UIqHZpu%2B9UFV0bb6IBAhiMySqHaw3njdrsT7c%2FiNJ0QJ5kcbQm%2BBTudceVaCy9Vv6ce9Rj0pCA%2BYCkyWjElnh4iiUzB3BiyMGDDvalnxm8D3cix1p5jkpj8W4inOhvET0cZb%2B0vk14KXdlhlZqp7fxcf2ua9e7FdS%2BAvNbcy8zP7F098t2JYRCJw50VhmJSmjpl%2FlHqzMq12qoAmGDIs%2BUPTJ6ivzjBOMt0V%2FLyuxCfPVHl2eIQrebI3Rqy9l54Ov0D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "25092705136993397",
+                "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+                "description": "description Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+                "price": 15,
+                "categories_ids": []
+            },
+            {
+                "id": "24114998721508603",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 119,
+                "categories_ids": []
+            },
+            {
+                "id": "24834083912885195",
+                "name": "Test manual",
+                "description": "Test manual fddfdd",
+                "price": 20,
+                "categories_ids": []
+            },
+            {
+                "id": "24767304429594335",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24837016415929227",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24493428040358500",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "23962174820126983",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "24833060876326290",
+                "name": "Test product6",
+                "description": "description test product",
+                "price": 99,
+                "categories_ids": []
+            },
+            {
+                "id": "25366721712953512",
+                "name": "QAautotest_batch01",
+                "description": "qa test desciptions",
+                "price": 0,
+                "categories_ids": []
+            },
+            {
+                "id": "24567417719555614",
+                "name": "QAautotest",
+                "description": "Test Prod Description",
+                "price": 26,
+                "categories_ids": []
+            }
+        ]
+    }
+}

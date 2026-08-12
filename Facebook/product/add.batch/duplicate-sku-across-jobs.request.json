@@ -1,0 +1,35 @@
+{
+    "captured_at": "2026-08-11T12:22:20Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "Mock Batch Item Delta",
+                "sku": "mock-batch-delta-1",
+                "description": "Valid item in a mixed batch",
+                "price": 15,
+                "quantity": 1,
+                "external_product_link": "https://example.com/mock-batch-delta",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/fb-batch-delta/800"
+                    }
+                ]
+            },
+            {
+                "name": "Mock Batch Item Epsilon",
+                "sku": "mock-batch-alpha-1",
+                "description": "Invalid item: sku already used by job 464's item alpha",
+                "price": 20,
+                "quantity": 1,
+                "external_product_link": "https://example.com/mock-batch-epsilon",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/fb-batch-epsilon/800"
+                    }
+                ]
+            }
+        ]
+    }
+}

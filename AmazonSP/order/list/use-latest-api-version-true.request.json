@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "order.list.json",
     "query": {
-        "use_latest_api_version": "true",
+        "use_latest_api_version": true,
         "count": 2,
         "response_fields": "{return_code,return_message,result{order{order_id}}}"
     }

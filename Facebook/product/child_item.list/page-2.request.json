@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-12T14:16:14Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "page_cursor": "BcHBDoIgAADQD%2BqQkpt0BDHRkmmrsG6KOtEJOJw6vr73tiyxNnZLBWpjCI3YTkpPtzxv70CjEaUf6LDOHgO8Hcko%2FTNb5ldXBlpQz%2BoJHyF5n6jYfuv6nK%2BF6PewC1IfkVw69TVQMS5710eAN3VCLnso4okOijWFbXyu8B8%3D",
+        "response_fields": "{return_code,return_message,pagination,result{total_count,children{id,parent_id,sku,name}}}"
+    }
+}

@@ -12,6 +12,10 @@
         {
             "integration": "EtsyAPIv3",
             "index": "EtsyAPIv3/index.json"
+        },
+        {
+            "integration": "Facebook",
+            "index": "Facebook/index.json"
         }
     ]
 }

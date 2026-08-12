@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-11T11:16:34Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "id": "28485509374366375",
+        "product_id": "28693865173549624",
+        "name": "Mock Variant Parent Tee - Red / M",
+        "description": "Full listing-field override applied directly on the variant",
+        "short_description": "Red, size M",
+        "status": "enabled"
+    }
+}

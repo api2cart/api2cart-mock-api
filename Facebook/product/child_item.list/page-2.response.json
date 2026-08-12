@@ -1,0 +1,19 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHbDoIgAADQD%2FIBojaeTRBhoTBroW9qaFeGWjr8%2Bs5ZBJtnuo0GNd6TLMlXoqGTpbv3Tk%2FS8lo9Bk%2FfPkTHCJA2HhsQcIpNrDmf2O7pV%2BKuVXsB5QZ8hVSxFQNi9asL5yWByvaW5vBg0SfE7jtIjpE6pbcfNWUnxJ78AQ%3D%3D",
+        "next": null
+    },
+    "result": {
+        "total_count": 3,
+        "children": [
+            {
+                "id": "6739723396106652",
+                "parent_id": "24567417719555614",
+                "sku": "69lhsjxluq",
+                "name": "Test Prod"
+            }
+        ]
+    }
+}

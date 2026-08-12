@@ -1,0 +1,26 @@
+{
+    "captured_at": "2026-08-12T14:22:00Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "24324124957193011",
+        "store_id": "1732577937418943",
+        "sku": "fit_watch_from_tests_variants_5",
+        "quantity": 0,
+        "price": 10,
+        "attributes": [
+            {
+                "attribute_name": "Color",
+                "attribute_value": "black"
+            },
+            {
+                "attribute_name": "Size",
+                "attribute_value": "XL"
+            },
+            {
+                "attribute_name": "Material",
+                "attribute_value": "lether"
+            }
+        ]
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "26232253503041541",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "wood_sunglasses_from_tests",
+                "name": "Luxury Wooden Sunglasses with Polarized Lenses",
+                "description": "Handcrafted sunglasses made from sustainable wood with UV400 polarized lenses. Perfect for summer, lightweight and durable with a stylish design.",
+                "short_description": "Eco-friendly wooden sunglasses with polarized lenses.",
+                "price": 79,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 100,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "EcoVision",
+                "categories_ids": [],
+                "stores_ids": [],
+                "url": "https://store-6c21b688.example.com/",
+                "seo_url": "https://store-6c21b688.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": false,
+                "manage_stock": true,
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": null,
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 69,
+                    "avail": false,
+                    "created_at": {
+                        "value": "2025-01-01T00:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "modified_at": null,
+                    "expired_at": {
+                        "value": "2025-03-01T23:59:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    }
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "9bc37567d93a6471847db3027c7afc6f",
+                        "http_path": "https://picsum.photos/seed/53ce6e4a/600/600",
+                        "file_name": "fff&text=Wooden+Sunglasses",
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "a09c99f7635cae1548f49fcc5521e92a",
+                        "http_path": "https://picsum.photos/seed/cb9d351a/600/600",
+                        "file_name": "fff&text=Side+View",
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "0e6c3077e0c278ea8510321cb5d02ec0",
+                        "http_path": "https://picsum.photos/seed/7a95e566/600/600",
+                        "file_name": "fff&text=Packaging",
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "4006381333931",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "age_group": "",
+                    "availability": "in stock",
+                    "condition": "new",
+                    "currency": "USD",
+                    "image_fetch_status": "FETCHED",
+                    "product_relationship": "child",
+                    "quantity_to_sell_on_facebook": 50,
+                    "retailer_id": "wood_sunglasses_from_tests",
+                    "retailer_product_group_id": "group_770460645878039_wood_sunglasses_from_tests",
+                    "fb_product_category": "clothing & accessories > clothing accessories > women's accessories",
+                    "review_status": "",
+                    "link": "https://store-bf14cf06.example.com/",
+                    "additional_variant_attributes": [
+                        {
+                            "key": "frame_material",
+                            "value": "Wood"
+                        },
+                        {
+                            "key": "lens_material",
+                            "value": "Polycarbonate"
+                        },
+                        {
+                            "key": "uv_protection",
+                            "value": "UV400"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

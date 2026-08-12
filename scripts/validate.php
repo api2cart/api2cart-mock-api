@@ -21,36 +21,44 @@
  *      (no matching files on disk), no description drift from index.json.
  *   5) every "{entity}/count" method's successful response has no top-level pagination and its
  *      result contains only *_count / additional_fields / custom_fields keys -- catches a
- *      product.list-shaped response accidentally saved under product/count (APITOCART-46051 #1).
+ *      product.list-shaped response accidentally saved under product/count.
  *   6) no two cases in the same method have the exact same (endpoint, request payload) --
  *      duplicate-request cases teach nothing beyond the first and bloat the index the agent reads
- *      whole (APITOCART-46051 #2).
+ *      whole.
  *   7) every request query_cursor has a matching pagination.next somewhere else on the same
- *      integration -- an orphaned cursor sends an agent down a paginated loop it can never join
- *      (APITOCART-46051 #3).
+ *      integration -- an orphaned cursor sends an agent down a paginated loop it can never join.
  *   8) return_code != 0 <=> slug starts with "error-", in both directions -- an agent filtering
  *      cases by the error- prefix must not silently skip a real error case, nor expect an error
- *      from a slug that promises one but doesn't error (APITOCART-46051 #8).
+ *      from a slug that promises one but doesn't error.
  *   9) no slug contains a source label (real/live/rich) as a hyphen-delimited component -- these
  *      describe how WE captured the case, not what it demonstrates, and are never a stable part of
- *      the API contract (APITOCART-46051 #7).
+ *      the API contract.
  *  10) an empty `query`/`body` is serialized as `{}`, never `[]`. Checked on the RAW TEXT on
  *      purpose: PHP decodes both to the same empty array, so no structural check can tell them
  *      apart -- yet a consumer typing the field as a map (Go, Java, C#, TS Record<string,string>)
- *      fails on `[]` (APITOCART-46051 #9).
+ *      fails on `[]`.
  *  11) a slug uses `_` only as the `__` parameter separator -- parameter NAMES are kebab-cased
  *      (`find-where-name`, not `find_where-name`), which is what seed-from-phpunit.php's slugFor()
- *      emits. Repo-wide since APITOCART-46051 #13 normalised EtsyAPIv3's 30 legacy slugs; before
- *      that this could only be enforced within a method. Note this constrains the SLUG only: the
+ *      emits. Repo-wide: this could previously only be enforced within a method, before EtsyAPIv3's
+ *      30 legacy slugs were normalised to match. Note this constrains the SLUG only: the
  *      parameter names inside `query`/`body` keep their real API spelling (`find_where`, `sort_by`).
  *  12) a job_id published by a *.batch response is unique across the whole repo -- see
  *      validateJobIdsUnique() (repo-wide, so it runs outside the per-integration pass).
- *      (APITOCART-46054 #1)
  *  13) every published batch/job.result is reachable: some *.batch case returns that job_id, or
- *      some batch/job.list case lists it. (APITOCART-46054 #1)
+ *      some batch/job.list case lists it.
  *  14) descriptions are unique within a method -- inside one method the description is the only
- *      thing distinguishing a case from its neighbour in the index. (APITOCART-46054 #3)
- *  15) a numeric parameter is a JSON number, not a quoted string. (APITOCART-46054 #7)
+ *      thing distinguishing a case from its neighbour in the index.
+ *  15) a numeric parameter is a JSON number, not a quoted string.
+ *  16) a boolean parameter is a JSON boolean, not a quoted "true"/"false" -- see V_BOOLEAN_PARAMS.
+ *  17) the root index.json agrees with the tree in both directions: every listed integration has a
+ *      matching {Integration}/index.json (and the path is spelled canonically), and every such
+ *      directory on disk is listed. Nothing else covers the root index -- this script otherwise
+ *      reads only per-integration indexes, and CI discovers integrations by globbing the tree
+ *      rather than by reading the root list, so a drift between them is invisible to both.
+ *      See validateRootIndex() (argument-independent, so it always runs).
+ *
+ * An argument naming a directory that does not exist is an ERROR, not a silent pass: with no tree
+ * and no index to read, every check below would trivially agree at zero and report success.
  *
  * Deliberately NOT included: the "declared params" check from build-index.php (needs the
  * api2cart app's openapi files, unavailable outside that repo) and anything that requires
@@ -74,7 +82,7 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
  * different store than the rest of AmazonSP's batch data. Nothing in the published set leads an
  * agent to them. Fixing it needs a re-capture against the store that owns those jobs, which needs
  * Amazon credentials; inventing a job.list entry or asserting an enqueue case would be fabricating
- * data, which is worse than the gap. Tracked as APITOCART-46054 #1 (AmazonSP half).
+ * data, which is worse than the gap.
  *
  * Delete an entry the moment its integration is re-captured -- the check then guards it for real.
  */
@@ -82,9 +90,39 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
  * Parameters whose value is a number in every integration's openapi. Deliberately a short, explicit
  * list rather than a heuristic: "is_numeric($value)" alone would also rewrite genuinely stringy
  * ids (a numeric-looking sku, an eBay item id) which are strings on purpose.
+ *
+ * Extend this whenever a new integration brings a numeric parameter of its own -- the list is an
+ * allow-list, so an unlisted param is simply never checked. The second row came in with Bricklink,
+ * whose write methods are built around relative quantity deltas and a discount amount; all four are
+ * declared `type: number` in its openapi, and `special_price` is shared with Etsy/Facebook.
  */
 const V_NUMERIC_PARAMS = [
   'count', 'start', 'position', 'price', 'old_price', 'cost_price', 'quantity',
+  'special_price', 'min_order_quantity', 'increase_quantity', 'reduce_quantity', 'action_amount',
+];
+
+/**
+ * Same idea as V_NUMERIC_PARAMS but for booleans: the numeric check only covers numbers, so a
+ * quoted "true"/"false" against a `type: boolean` schema slipped through. Explicit list for the
+ * same reason as above -- a param that happens to hold the literal string "true"/"false" on
+ * purpose must not be rewritten.
+ *
+ * Membership is decided by how the value is CONSUMED, not by the openapi type alone. Every name
+ * here is `APICart_Core_Container::FLAG_BOOL` in the core parameter registry and reaches core's
+ * boolean normalisation, so a real JSON boolean is what the API actually wants.
+ *
+ * Deliberately EXCLUDED despite being `"type": "boolean"` in openapi:
+ *   - `used_for_variations` -- EBay's importer string-compares it
+ *     (`strtolower($value['used_for_variations']) === 'true'`), so a real JSON boolean is read as
+ *     FALSE there (`strtolower(true)` is `"1"`). openapi and the implementation disagree and the
+ *     implementation wins; the quoted form in EBay's cases is correct and must stay. AmazonSP
+ *     accepts either. If EBay's importer is ever fixed to accept booleans, move it into the list
+ *     and re-generate.
+ */
+const V_BOOLEAN_PARAMS = [
+  'available_for_sale', 'is_virtual', 'is_default', 'in_stock', 'downloadable',
+  'avail_view', 'avail_sale', 'available_for_view', 'is_supply', 'auto_renew',
+  'disable_report_cache', 'use_latest_api_version', 'enable_cache',
 ];
 
 const V_UNREACHABLE_JOB_DEBT = [
@@ -103,11 +141,26 @@ if (PHP_SAPI === 'cli' && realpath($argv[0]) === realpath(__FILE__)) {
 
   $errors = [];
   foreach ($platDirs as $platDir) {
+    // An argument that points at nothing must FAIL, not pass. Without this, every check below
+    // simply iterates an empty set: v_loadJson() returns null for the missing index.json and
+    // glob() returns nothing for the missing tree, so both sides of check 1 agree at zero and the
+    // run reports "validate ok". A typo in a CI command (`Faceboook`) would then be permanently
+    // green while validating nothing at all, and the more integrations on the command line, the
+    // less a single ignored one stands out.
+    if (!is_dir($platDir)) {
+      $errors[] = "$platDir: no such integration directory";
+      continue;
+    }
     $errors = [...$errors, ...validateDataset($platDir)];
   }
   // Repo-wide, so it only means anything when several integrations are validated together --
   // which is exactly what CI does.
   $errors = [...$errors, ...validateJobIdsUnique($platDirs)];
+  // Root index.json is the agent's documented entry point, and nothing else covers it: this script
+  // only ever reads {Integration}/index.json, and CI discovers integrations by globbing the tree
+  // rather than by reading the root list. A drift between the two is therefore invisible to the
+  // validator, to CI and to review alike. Needs no arguments, so it always runs.
+  $errors = [...$errors, ...validateRootIndex()];
 
   foreach ($errors as $e) {
     fwrite(STDERR, "$e\n");
@@ -163,14 +216,19 @@ function validateDataset(string $platDir): array
       // check 15: a numeric parameter is a JSON number, not a quoted string.
       // Mirror of check 10's argument: a consumer typing `count` as int chokes on "5", one typing
       // it as string chokes on 5, and the dataset was split roughly 3:1 between the two spellings
-      // for the same parameter (APITOCART-46054 #7). Error cases are exempt -- sending the wrong
-      // type is often the whole point ("price": "invalidValue", "count": "-1").
+      // for the same parameter. Error cases are exempt -- sending the wrong type is often the
+      // whole point ("price": "invalidValue", "count": "-1").
       if (!str_starts_with($slug, 'error-')) {
         $payloadForTypes = $request['query'] ?? $request['body'] ?? [];
         foreach (is_array($payloadForTypes) ? $payloadForTypes : [] as $pName => $pValue) {
           if (in_array($pName, V_NUMERIC_PARAMS, true) && is_string($pValue) && is_numeric($pValue)) {
             $errors[] = "$platDir: numeric parameter '$pName' is quoted (\"$pValue\") instead of a "
               . "JSON number: $key";
+          }
+          // check 16: same idea as check 15, for booleans.
+          if (in_array($pName, V_BOOLEAN_PARAMS, true) && is_string($pValue) && ($pValue === 'true' || $pValue === 'false')) {
+            $errors[] = "$platDir: boolean parameter '$pName' is quoted (\"$pValue\") instead of a "
+              . "JSON boolean: $key";
           }
         }
       }
@@ -307,9 +365,8 @@ function validateDataset(string $platDir): array
   // ---- check 14: descriptions are unique within a method ----
   // The index is what the agent reads instead of walking the tree, and inside one method the
   // description is the ONLY thing distinguishing one case from its neighbour. Three cases all
-  // labelled "filter: specific product id(s)" give no basis to choose between them. This is the
-  // one finding of APITOCART-46051 that was closed by hand instead of becoming a check -- and the
-  // only one that came back, on all three integrations at once (APITOCART-46054 #3).
+  // labelled "filter: specific product id(s)" give no basis to choose between them. This was once
+  // closed by hand instead of becoming a check -- and came back on all three integrations at once.
   $byMethod = [];
   foreach ($indexDesc as $key => $desc) {
     $method = substr($key, 0, strrpos($key, '/') ?: 0);
@@ -379,7 +436,7 @@ function validateDataset(string $platDir): array
  * Runs across integrations, so it lives outside validateDataset(). Two integrations minting the
  * same job_id is not a cosmetic clash: if the other one also publishes a batch/job.result for it,
  * an agent following README's "look the job up next to whichever *.batch created it" gets a
- * confident, well-formed answer belonging to a different integration (APITOCART-46054 #1).
+ * confident, well-formed answer belonging to a different integration.
  *
  * @param array<int, string> $platDirs
  * @return array<int, string>
@@ -405,6 +462,70 @@ function validateJobIdsUnique(array $platDirs): array
       }
     }
   }
+  return $errors;
+}
+
+/**
+ * Check 17: the root index.json agrees with the tree, in both directions.
+ *
+ * Independent of the arguments on purpose -- the root index is a single shared file, and the point
+ * is to catch an entry added ahead of (or left behind by) its data regardless of which integrations
+ * someone happens to be validating. Runs relative to the dataset root, inferred from this script's
+ * own location, so it behaves the same from any working directory.
+ *
+ * @return array<int, string>
+ */
+function validateRootIndex(): array
+{
+  $root = dirname(__DIR__);
+  $rootIndexPath = "$root/index.json";
+  if (!is_file($rootIndexPath)) {
+    return ["index.json: missing at the dataset root -- it is the documented entry point"];
+  }
+
+  $errors = [];
+  $rootIndex = v_loadJson($rootIndexPath);
+  if (!is_array($rootIndex) || !is_array($rootIndex['integrations'] ?? null)) {
+    return ["index.json: no top-level \"integrations\" list"];
+  }
+
+  $listed = [];
+  foreach ($rootIndex['integrations'] as $entry) {
+    $name = is_array($entry) ? ($entry['integration'] ?? null) : null;
+    if (!is_string($name) || $name === '') {
+      $errors[] = 'index.json: an entry has no "integration" name';
+      continue;
+    }
+    $listed[$name] = is_array($entry) ? ($entry['index'] ?? null) : null;
+  }
+
+  // On-disk integrations = top-level dirs carrying their own index.json, which is exactly how
+  // .github/workflows/validate.yml discovers them. Keeping the two definitions identical is the
+  // whole point: if they ever diverge, CI validates a different set than the index advertises.
+  $onDisk = [];
+  foreach (glob("$root/*/index.json") ?: [] as $p) {
+    $onDisk[basename(dirname($p))] = true;
+  }
+
+  foreach ($listed as $name => $indexPath) {
+    if (!isset($onDisk[$name])) {
+      $errors[] = "index.json: lists \"$name\" but $name/index.json does not exist -- an agent "
+        . "following the root index gets a dead link";
+      continue;
+    }
+    $expected = "$name/index.json";
+    if ($indexPath !== $expected) {
+      $errors[] = "index.json: \"$name\" points at " . var_export($indexPath, true)
+        . ", expected \"$expected\"";
+    }
+  }
+  foreach (array_keys($onDisk) as $name) {
+    if (!isset($listed[$name])) {
+      $errors[] = "index.json: $name/index.json exists on disk but the root index does not list it "
+        . "-- CI will validate it while agents never discover it";
+    }
+  }
+
   return $errors;
 }
 

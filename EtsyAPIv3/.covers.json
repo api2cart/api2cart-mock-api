@@ -153,10 +153,10 @@
         "description": "filter: created_from (lower bound)"
     },
     "order/list/created-modified-range": {
-        "description": "filter: date range (created/modified from-to) [modified_from=2010-07-29 13:45:52]"
+        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, modified_from=2010-07-29 13:45:52]"
     },
     "order/list/created-range": {
-        "description": "filter: date range (created/modified from-to) [no modified_from]"
+        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, no modified_from]"
     },
     "order/list/created-to-2100-08-29-13-45-52": {
         "description": "filter: created_to (upper bound)"
@@ -345,10 +345,10 @@
         "description": "filter: specific product id(s) [product_id=1360559503, count=2]"
     },
     "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest": {
-        "description": "search: matching sku value [find_value=QAautotest]"
+        "description": "search: matching sku value [find_value=QAautotest] (filter matches nothing in this store: empty result)"
     },
     "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889": {
-        "description": "search: matching sku value [find_value=test_variant8889]"
+        "description": "search: matching sku value [find_value=test_variant8889] (filter matches nothing in this store: empty result)"
     },
     "product/child_item.list/product-id-888814018": {
         "description": "filter: specific product id(s) [product_id=888814018, no count]"
@@ -375,10 +375,10 @@
         "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "product/count/find-where-name__find-value-qatestvariantprod__rf-all": {
-        "description": "search: matching name value [find_value=QAtestvariantprod]"
+        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
     },
     "product/count/find-where-name__find-value-test3": {
-        "description": "search: matching name value [find_value=Test3]"
+        "description": "search: matching name value [find_value=Test3] (filter matches nothing in this store: empty result)"
     },
     "product/delete/by-id": {
         "description": "happy path: delete product by id"
@@ -462,7 +462,7 @@
         "description": "info by id"
     },
     "product/list/avail-view-true": {
-        "description": "filter: avail_view=true"
+        "description": "filter: avail_view=true (filter matches nothing in this store: empty result)"
     },
     "product/list/basic": {
         "description": "happy path: first page"
@@ -474,10 +474,10 @@
         "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
     },
     "product/list/find-where-name__find-value-qatestpro": {
-        "description": "search: matching name value [find_value=QAtestpro]"
+        "description": "search: matching name value [find_value=QAtestpro] (filter matches nothing in this store: empty result)"
     },
     "product/list/find-where-name__find-value-qatestvariantprod__rf-all": {
-        "description": "search: matching name value [find_value=QAtestvariantprod]"
+        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
     },
     "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all": {
         "description": "search: matching name value [find_value=Rainbow Smiley Beaded...]"
@@ -510,7 +510,7 @@
         "description": "field selection: product.id,product.u_model,product.price"
     },
     "product/list/sku-bag-01": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset [sku=bag_01, count=10]"
     },
     "product/list/sort-by-modified-at__sort-direction-asc": {
         "description": "sorting: modified_at [sort_direction=asc]"

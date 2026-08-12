@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-12T14:22:00Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test Add",
+        "sku": "Test sku",
+        "description": "Test Desc",
+        "price": "99.99",
+        "image_url": "https://picsum.photos/seed/fb-api2cart-test/800",
+        "sprice_create": "2025-01-01",
+        "sprice_expire": "2024-01-01",
+        "special_price": "70.55"
+    }
+}

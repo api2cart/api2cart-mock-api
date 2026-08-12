@@ -1,0 +1,1382 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "8%2FJwqXJN8zLTrvT1igwxK48oqvTIDAxydrXIya0MzfPRzwoKNcz0MMo2TMv3corIjMovqzDO9SwrdfGNLPMpr8h3NvcytTCM8ikMdU0pq8jMSM3ISyyONKyqNPRMCvV2NEn0yvEuyI%2FMKUy3BQA%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "203",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "portable audio & video",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > portable audio & video",
+                    "product_specifics": []
+                }
+            },
+            {
+                "id": "204",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "home audio & video",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > home audio & video",
+                    "product_specifics": []
+                }
+            },
+            {
+                "id": "205",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "home security & automation",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > home security & automation",
+                    "product_specifics": []
+                }
+            },
+            {
+                "id": "209",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "cell phones & smart watches",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > cell phones & smart watches",
+                    "product_specifics": [
+                        {
+                            "name": "color",
+                            "type": "string[]",
+                            "description": "Primary color(s) of your item. Sample values: Beige , Black , Blue , Bronze , Brown , Gold , Gray . To provide multiple values using a single feed color field, the acceptable input format is 'Beige', 'Black', 'Blue', 'Bronze', 'Brown', 'Gold', 'Gray' . To provide multiple values with one value per feed field, use feed field names, such as color[0], color[1] . For example, the acceptable attribute value input format for fields, such as Beige .",
+                            "units": null
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers. Sample values: iPhone 6 , Galaxy S8 .",
+                            "units": null
+                        },
+                        {
+                            "name": "operating_system",
+                            "type": "string",
+                            "description": "Type of preloaded operating system software installed on the device. Sample values: Android , iOS , Windows .",
+                            "units": null
+                        },
+                        {
+                            "name": "screen size",
+                            "type": "string",
+                            "description": "Measurement of the device's screen, typically measured diagonally. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 42 in , 5.5 in , 100 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "storage_capacity",
+                            "type": "string",
+                            "description": "Amount of storage space on the item's hard drive, typically measured in megabytes, gigabytes, or terabytes. The first part is the number. The second part is one of the accepted units: KB, MB, GB, TB. Sample values: 1 TB , 16 GB .",
+                            "units": [
+                                "KB",
+                                "MB",
+                                "GB",
+                                "TB"
+                            ]
+                        },
+                        {
+                            "name": "battery_life",
+                            "type": "number/float",
+                            "description": "Maximum run time or life of the item's battery, measured in hours. Sample values: 8 , 12 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "cell_phone_service_provider",
+                            "type": "string",
+                            "description": "Describes the company that provides the phone's cellular service (if not unlocked). Sample values: Verizon , AT&T , Sprint .",
+                            "units": null
+                        },
+                        {
+                            "name": "cellular_band",
+                            "type": "string",
+                            "description": "Describes the cellular band or network technology used by the device. Sample values: CDMA , GSM , LTE , EVDO .",
+                            "units": null
+                        },
+                        {
+                            "name": "cellular_generation",
+                            "type": "string",
+                            "description": "Describes the communications network generation of the cell phone. Sample values: 3G , 4G , 5G .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Describes the types of connections supported for the item. Sample values: HDMI , RCA . To provide multiple values using a single feed connector_type field, the acceptable input format is 'HDMI', 'RCA . To provide multiple values with one value per feed field, use feed field names, such as connector_type[0], connector_type[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "display_technology",
+                            "type": "string",
+                            "description": "Type of technology that powers the display, such as LED or LCD . Sample values: OLED , LED , LCD .",
+                            "units": null
+                        },
+                        {
+                            "name": "front_facing_camera_megapixel",
+                            "type": "number/float",
+                            "description": "Maximum resolution of the item's front facing camera, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. Sample value: 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "material",
+                            "type": "string[]",
+                            "description": "Primary material(s) of the item. Sample values: Rubber , Wood , Steel , Plastic . To provide multiple values using a single feed material field, the acceptable input format is 'Rubber', 'Wood', 'Steel', 'Plastic' . To provide multiple values with one value per feed field, use feed field names, such as material[0], material[1] . For example, the acceptable attribute value input format for fields such as this is Rubber .",
+                            "units": null
+                        },
+                        {
+                            "name": "number_of_sim_card_slots",
+                            "type": "number",
+                            "description": "Describes the number of SIM card slots designated for the product. Sample values: 1 , 2 .",
+                            "units": null
+                        },
+                        {
+                            "name": "rear_facing_camera_megapixel",
+                            "type": "number",
+                            "description": "Maximum resolution of the item's rear facing camera, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. Sample value: 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "resolution",
+                            "type": "number",
+                            "description": "Resolution of the product screen, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. The value should include only a number, not a unit of measure; otherwise, it won't pass our validation. Sample values: 2 , 4 , 33 .",
+                            "units": null
+                        },
+                        {
+                            "name": "sim_type_supported",
+                            "type": "string[]",
+                            "description": "Describes the type of SIM compatible with the product, such as Mini-SIM, Dual SIM. Multiple values accepted. Sample values: Standard SIM , Micro SIM , Nano SIM . To provide multiple values using a single feed sim_type_supported field, the acceptable input format is 'Standard SIM', 'Micro SIM' 'Nano SIM' . To provide multiple values with one value per feed field, use feed field names, such as sim_type_supported[0], sim_type_supported[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "stand-by_time",
+                            "type": "number/float",
+                            "description": "Describes the total stand-by time in hours of the phone, typically measured in hours. Sample values: 12 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: 35mm Jack , Bluetooth , GPS , SIM , Touch Screen , USB Connectivity , WLAN , Unlocked . To provide multiple values using a single feed standard_features field, the acceptable input format is '35mm Jack', 'Bluetooth', 'GPS', 'SIM', 'Touch Screen', 'USB Connectivity', 'WLAN', 'Unlocked' . To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . For example, the acceptable attribute value input format for fields, such as 35mm Jack .",
+                            "units": null
+                        },
+                        {
+                            "name": "talk_time",
+                            "type": "number/float",
+                            "description": "Describes the total talk time in hours of the phone, typically measured in hours. Sample values: 12 , 20 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_technology",
+                            "type": "string",
+                            "description": "Describes the version of USB technology designated for the product. Sample values: USB 2.0 , USB 3.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_type",
+                            "type": "string",
+                            "description": "Describes the type of USB connector designated for the product. Sample values: USB-C , Micro USB .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_resolution",
+                            "type": "number",
+                            "description": "Describes the resolution of the video recordings of the product. Measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. Sample values: 2 , 4 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "watch_band_length",
+                            "type": "string",
+                            "description": "Length of the watch band. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 240 mm , 8.27 in .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "watch_band_material",
+                            "type": "string[]",
+                            "description": "Primary material(s) from which the band of the watch is made. Sample values: Leather , Silicone , Stainless Steel . To provide multiple values using a single feed watch_band_material field, the acceptable input format is 'Leather', 'Silicone' 'Stainless Steel' . To provide multiple values with one value per feed field, use feed field names, such as watch_band_material[0], watch_band_material[1] . For example, the acceptable attribute value input format for fields such as this is Leather .",
+                            "units": null
+                        },
+                        {
+                            "name": "watch_band_width",
+                            "type": "string",
+                            "description": "Width of the watch band. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 22 mm , 0.87 in .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "watch_case_shape",
+                            "type": "string",
+                            "description": "Shape of the watch case or enclosure which contains the face and inner workings of the watch. Sample values: Round , Square , Tonneau , Cushion .",
+                            "units": null
+                        },
+                        {
+                            "name": "watch_style",
+                            "type": "string",
+                            "description": "Style of the watch. Sample values: Wristwatch , Pocket Watch , Nursing Watch , Diving Watch , Military Watch .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "210",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "projectors",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > projectors",
+                    "product_specifics": [
+                        {
+                            "name": "resolution",
+                            "type": "number",
+                            "description": "Resolution of the product screen, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. The value should include only a number, not a unit of measure; otherwise, it won't pass our validation. Sample values: 2 , 4 , 33 .",
+                            "units": null
+                        },
+                        {
+                            "name": "display_technology",
+                            "type": "string",
+                            "description": "Type of technology that powers the display, such as LED or LCD . Sample values: LED , LCD , OLED .",
+                            "units": null
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers.",
+                            "units": null
+                        },
+                        {
+                            "name": "product_length",
+                            "type": "string",
+                            "description": "Length of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_width",
+                            "type": "string",
+                            "description": "Width of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_height",
+                            "type": "string",
+                            "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_depth",
+                            "type": "string",
+                            "description": "Depth of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 2 ft , 2.5 ft , 40 cm , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "aspect_ratio",
+                            "type": "string",
+                            "description": "Relationship between the product's width and its height. Sample values: 4:3 , 16:9 .",
+                            "units": null
+                        },
+                        {
+                            "name": "audio_features",
+                            "type": "string[]",
+                            "description": "Describes whether the product has certain special audio features. Sample values: Surround Sound , Noise Cancelling , High Fidelity . To provide multiple values using a single feed audio_features field, the acceptable input format is 'Surround Sound', 'Noise Cancelling', 'High Fidelity' . To provide multiple values with one value per feed field, use feed field names, such as audio_features[0],audio_features[1] . For example, the acceptable attribute value input format for fields such as this is Surround Sound .",
+                            "units": null
+                        },
+                        {
+                            "name": "audio_power_output",
+                            "type": "number/float",
+                            "description": "Power of the audio output of the device's speakers, measured in watts. Sample values: 5 , 7.5 .",
+                            "units": null
+                        },
+                        {
+                            "name": "backlight_technology",
+                            "type": "string",
+                            "description": "Power of the audio output of the device's speakers, measured in watts. Sample values: 5 , 7.5 .",
+                            "units": null
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "brightness",
+                            "type": "number/float",
+                            "description": "Brightness per bulb measured in lumens. Sample values: 2000 , 5000 .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Type(s) of connections supported for the item. Sample values: HDMI , RCA . To provide multiple values using a single feed connector_type field, the acceptable input format is 'HDMI', 'RCA . To provide multiple values with one value per feed field, use feed field names, such as connector_type[0], connector_type[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "is_assembly_required",
+                            "type": "boolean",
+                            "description": "Indicates if the product arrives unassembled and must be put together before use. Sample values: Yes , No .",
+                            "units": null
+                        },
+                        {
+                            "name": "lamp_life",
+                            "type": "number/float",
+                            "description": "Expected life of the projection lamp in hours. Sample values: 6500 , 10000 .",
+                            "units": null
+                        },
+                        {
+                            "name": "maximum_contrast_ratio",
+                            "type": "string",
+                            "description": "Ratio between the luminance of the brightest color to that of the darkest color capable of being displayed. Sample values: 20,000:1 , 30,000,000:1 .",
+                            "units": null
+                        },
+                        {
+                            "name": "product_weight",
+                            "type": "string",
+                            "description": "Weight of the fully assembled product. The first part is the number. The second part is one of the accepted units: mg, g, kg, oz, lb. Sample values: 5 lb , 3 kg .",
+                            "units": [
+                                "mg",
+                                "g",
+                                "kg",
+                                "oz",
+                                "lb"
+                            ]
+                        },
+                        {
+                            "name": "refresh_rate",
+                            "type": "number",
+                            "description": "Refresh rate of the display. This measures the number of times the picture is updated per second, measured in Hz. The first part is the number. The second part is one of the accepted units: Hz, KHz, MHz, GHz. Sample values: 60 Hz , 120 Hz .",
+                            "units": [
+                                "Hz",
+                                "KHz",
+                                "MHz",
+                                "GHz"
+                            ]
+                        },
+                        {
+                            "name": "response_time",
+                            "type": "number",
+                            "description": "Amount of time it takes for the pixels in a display to change, measured in milliseconds (ms). Sample values: 5 , 2 .",
+                            "units": null
+                        },
+                        {
+                            "name": "screen_size",
+                            "type": "string",
+                            "description": "Measurement of the device's screen, typically measured diagonally in inches. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 42 in , 5.5 in .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: 35mm Jack , Bluetooth , Integrated Speakers , Touchscreen , USB Connectivity , WLAN , 3D , Energy Star Certified , Portable , Smart . To provide multiple values using a single feed standard_features field, the acceptable input format is '35mm Jack', ' Bluetooth', 'Integrated Speakers', 'Touchscreen', 'USB Connectivity', 'WLAN', '3D', 'Energy Star Certified', 'Portable', 'Smart'`. To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . For example, the acceptable attribute value input format for fields, such as 35mm Jack .",
+                            "units": null
+                        },
+                        {
+                            "name": "throw_ratio",
+                            "type": "string",
+                            "description": "Number of times your monitor updates with new images each second. Sample values: 1.8:1 , 2.0:1 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_technology",
+                            "type": "string",
+                            "description": "Describes the version of USB technology designated for the product. Sample values: USB 2.0 , USB 3.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_type",
+                            "type": "string",
+                            "description": "Describes the type of USB connector designated for the product. Sample values: USB-C , Micro USB .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_resolution",
+                            "type": "number",
+                            "description": "Describes the resolution of the video recordings of the product. Measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. Sample values: 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "wireless_technologies",
+                            "type": "string[]",
+                            "description": "Types of wireless technologies that the product can use. Sample values: Bluetooth , WiFi . To provide multiple values using a single feed wireless_technologies field, the acceptable input format is 'Bluetooth', 'WiFi' . To provide multiple values with one value per feed field, use feed field names, such as wireless_technologies[0], wireless_technologies[1] . For example, the acceptable attribute value input format for fields such as this is Bluetooth .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "217",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "cameras",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > cameras",
+                    "product_specifics": [
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers.",
+                            "units": null
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "digital_zoom",
+                            "type": "number/float",
+                            "description": "Magnification power provided by a feature that electronically enlarges the image area. Sample values must be numbers (containing only numerals or a decimal point). Measurement is multiples. Sample values: 6 , 160 , 200 . Values, such as 20X or 20.4 MP , are rejected.",
+                            "units": null
+                        },
+                        {
+                            "name": "megapixels",
+                            "type": "number/float",
+                            "description": "Resolution at which this item records images. Measured in megapixels (MP). Sample values: 16.0 , 24.2 .",
+                            "units": null
+                        },
+                        {
+                            "name": "optical_zoom",
+                            "type": "number/float",
+                            "description": "Magnification power of a physical optical zoom lens. Measurement is multiples. Sample values: 10 , 20 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "battery_life",
+                            "type": "number",
+                            "description": "Maximum run time or life of the item's battery, measured in hours. Sample values: 8 , 12 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "compatible_devices",
+                            "type": "string[]",
+                            "description": "Devices compatible with the item. Sample values: iPad , Tablet Computers , Windows Desktop Computers , Apple Computers . To provide multiple values using a single feed compatible_devices field, the acceptable input format is 'iPad', 'Tablet Computers', 'Windows Desktop Computers', 'Apple Computers' . To provide multiple values with one value per feed field, use feed field names, such as compatible_devices[0], compatible_devices[1] . For example, the acceptable attribute value input format for fields such as this is iPad .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Type(s) of connections supported for the item. Sample values: HDMI , RCA . To provide multiple values using a single feed connector_type field, the acceptable input format is 'HDMI', 'RCA . To provide multiple values with one value per feed field, use feed field names, such as connector_type[0], connector_type[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "display_technology",
+                            "type": "string",
+                            "description": "Type of technology that powers the display, such as LED or LCD . Sample values: OLED , LED , LCD .",
+                            "units": null
+                        },
+                        {
+                            "name": "flash_type",
+                            "type": "string",
+                            "description": "Type of flash the camera has or can accommodate. Sample values: Built-in Camera , Hammerhead Flash , Macro Ring Light Flash , Pop-up Flash .",
+                            "units": null
+                        },
+                        {
+                            "name": "focal_length",
+                            "type": "number/float",
+                            "description": "On a camera or lens, the distance between the image sensor and the lens when the subject is in focus, usually stated as a range in millimeters. Sample values: 18 .",
+                            "units": null
+                        },
+                        {
+                            "name": "focal_ratio",
+                            "type": "string",
+                            "description": "Ratio of the lens's focal length, to the diameter of the entrance pupil. Also known as the \"f-number\" or \"f-stop\", this number indicates lens speed. Sample values: f/5 , f/6 .",
+                            "units": null
+                        },
+                        {
+                            "name": "lens_coating",
+                            "type": "string[]",
+                            "description": "Type of thin layer of material applied to the surface of lenses or other optical elements that provide specific effects. Multiple values accepted. Sample values: Scratch-Resistant , Mirrored' , Dielectric . To provide multiple values using a single feed lens_coating field, the acceptable input format is 'Scratch-Resistant', 'Mirrored', 'Dielectric' . To provide multiple values with one value per feed field, use feed field names, such as lens_coating[0], lens_coating[1] . For example, the acceptable attribute value input format for fields such as this is Scratch-Resistant .",
+                            "units": null
+                        },
+                        {
+                            "name": "lens_diameter",
+                            "type": "number/float",
+                            "description": "Measurement of the diameter of the front portion of the lens, measured in \"mm\". Sample values: 49 , 52 .",
+                            "units": null
+                        },
+                        {
+                            "name": "lens_filter",
+                            "type": "string",
+                            "description": "Kind of filter attached to a lens. Sample values: Cooling , Graduated Neutral Density , Polarizing , UV .",
+                            "units": null
+                        },
+                        {
+                            "name": "maximum_aperture",
+                            "type": "string",
+                            "description": "Size of the largest aperture this item accommodates; typically expressed in f-numbers. Sample values: f/1.4 , f/6 .",
+                            "units": null
+                        },
+                        {
+                            "name": "maximum_shutter_speed",
+                            "type": "number/float",
+                            "description": "Maximum shutter speed of the item. Measured in 1/seconds. For 1/4000, specify 4000. Sample values: 4000 .",
+                            "units": null
+                        },
+                        {
+                            "name": "minimum_aperture",
+                            "type": "string",
+                            "description": "Smallest aperture this item accommodates; typically expressed in f-numbers. Sample values: f/16 .",
+                            "units": null
+                        },
+                        {
+                            "name": "minimum_shutter_speed",
+                            "type": "number",
+                            "description": "Minimum shutter speed of the item, measured in seconds. Sample values: 250 .",
+                            "units": null
+                        },
+                        {
+                            "name": "product_height",
+                            "type": "string",
+                            "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_length",
+                            "type": "string",
+                            "description": "Length of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_width",
+                            "type": "string",
+                            "description": "Width of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "screen size",
+                            "type": "number",
+                            "description": "Measurement of the device's screen, typically measured diagonally in inches. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 42 in , 5.5 in , 100 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "self-timer_delay",
+                            "type": "number/float",
+                            "description": "Length of time the self-timer allows before it takes a photo, measured in seconds. Sample values: 2 , 10 .",
+                            "units": null
+                        },
+                        {
+                            "name": "sensor_resolution",
+                            "type": "string",
+                            "description": "One specification describing the smallest detectable incremental change of input parameter that can be detected in the output signal. For digital cameras, image sensor resolution is an important factor for image quality. Sample values: 1/2.3 in , 35.8 mm x 23.9 mm , 0.43 in , 1.69 in (units can be represented in megapixels, dots per square, pixels per inch, and so on).",
+                            "units": null
+                        },
+                        {
+                            "name": "shooting_modes",
+                            "type": "string[]",
+                            "description": "Available settings designed to accommodate different photographic situations. Sample values: Portrait , Landscape , Close Up , xfs , No Flash , Burst . To provide multiple values using a single feed shooting_modes field, the acceptable input format is 'Portrait', 'Landscape', 'Close Up', 'xfs', 'No Flash', 'Burst' . To provide multiple values with one value per feed field, use feed field names, such as shooting_modesg[0], shooting_modes[1] . For example, the acceptable attribute value input format for fields such as this is Portrait .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "220",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "tvs & monitors",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > tvs & monitors",
+                    "product_specifics": [
+                        {
+                            "name": "display_technology",
+                            "type": "string",
+                            "description": "Type of technology that powers the display, such as LED or LCD . Sample values: LED , LCD , OLED .",
+                            "units": null
+                        },
+                        {
+                            "name": "resolution",
+                            "type": "number",
+                            "description": "Resolution of the product screen, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. The value should include only a number, not a unit of measure; otherwise, it won't pass our validation. Sample values: 2 , 4 , 33 .",
+                            "units": null
+                        },
+                        {
+                            "name": "screen_size",
+                            "type": "number",
+                            "description": "Measurement of the device's screen, typically measured diagonally in inches. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 42 in , 5.5 in .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers.",
+                            "units": null
+                        },
+                        {
+                            "name": "product_length",
+                            "type": "string",
+                            "description": "Length of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_width",
+                            "type": "string",
+                            "description": "Width of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_height",
+                            "type": "string",
+                            "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_depth",
+                            "type": "string",
+                            "description": "Depth of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "aspect_ratio",
+                            "type": "string",
+                            "description": "Relationship between the product's width and its height. Sample values: 4:3 , 16:9 .",
+                            "units": null
+                        },
+                        {
+                            "name": "audio_features",
+                            "type": "string[]",
+                            "description": "Describes whether the product has certain special audio features. Sample values: Surround Sound , Noise Cancelling , High Fidelity . To provide multiple values using a single feed audio_features field, the acceptable input format is 'Surround Sound', 'Noise Cancelling', 'High Fidelity' . To provide multiple values with one value per feed field, use feed field names, such as audio_features[0],audio_features[1] . For example, the acceptable attribute value input format for fields such as this is Surround Sound .",
+                            "units": null
+                        },
+                        {
+                            "name": "audio_power_output",
+                            "type": "number",
+                            "description": "Power of the audio output of the device's speakers, measured in watts. Sample values: 5 , 7.5 .",
+                            "units": null
+                        },
+                        {
+                            "name": "backlight_technology",
+                            "type": "number",
+                            "description": "Power of the audio output of the device's speakers, measured in watts. Sample values: 5 , 7.5 .",
+                            "units": null
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Type(s) of connections supported for the item. Sample values: HDMI , RCA . To provide multiple values using a single feed connector_type field, the acceptable input format is 'HDMI', 'RCA . To provide multiple values with one value per feed field, use feed field names, such as connector_type[0], connector_type[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "is_assembly_required",
+                            "type": "boolean",
+                            "description": "Indicates if the product arrives unassembled and must be put together before use. Sample values: Yes , No .",
+                            "units": null
+                        },
+                        {
+                            "name": "maximum_contrast_ratio",
+                            "type": "string",
+                            "description": "Ratio between the luminance of the brightest color to that of the darkest color capable of being displayed. Sample values: 20,000:1 , 30,000,000:1 .",
+                            "units": null
+                        },
+                        {
+                            "name": "number_of_hdmi_ports",
+                            "type": "number",
+                            "description": "Number of HDMI ports on the television or monitor. Sample values: 3 , 5 , 8 .",
+                            "units": null
+                        },
+                        {
+                            "name": "product_weight",
+                            "type": "string",
+                            "description": "Weight of the fully assembled product. The first part is the number. The second part is one of the accepted units: mg, g, kg, oz, lb. Sample values: 5 lb , 3 kg .",
+                            "units": [
+                                "mg",
+                                "g",
+                                "kg",
+                                "oz",
+                                "lb"
+                            ]
+                        },
+                        {
+                            "name": "refresh_rate",
+                            "type": "number/float",
+                            "description": "Refresh rate of the display. This measures the number of times the picture is updated per second, measured in Hz. The first part is the number. The second part is one of the accepted units: Hz, KHz, MHz, GHz. Sample values: 60 Hz , 120 Hz .",
+                            "units": [
+                                "Hz",
+                                "KHz",
+                                "MHz",
+                                "GHz"
+                            ]
+                        },
+                        {
+                            "name": "response_time",
+                            "type": "number/float",
+                            "description": "Amount of time it takes for the pixels in a display to change, measured in milliseconds (ms). Sample values: 5 , 2 .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: Auto Document Feeder , Auto Two-Sided Printing , Bluetooth , Touchscreen , USB Connectivity , WLAN , Portable , Energy Star Certified . To provide multiple values using a single feed standard_features field, the acceptable input format is 'Auto Document Feeder', 'Auto Two-Sided Printing', ' Bluetooth', 'Touchscreen', 'USB Connectivity', 'WLAN', 'Portable', 'Energy Star Certified'`. To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . For example, the acceptable attribute value input format for fields, such as Auto Document Feeder .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_technology",
+                            "type": "string",
+                            "description": "Describes the version of USB technology designated for the product. Sample values: USB 2.0 , USB 3.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_type",
+                            "type": "string",
+                            "description": "Describes the type of USB connector designated for the product. Sample values: USB-C , Micro USB .",
+                            "units": null
+                        },
+                        {
+                            "name": "vesa_mounting_standard",
+                            "type": "string",
+                            "description": "VESA Standard defines the distance in millimeters between the four mounting holes on the back of a TV (distance horizontally x distance vertically). Sample values: 200 x 200 , 400 x 400 , 600 x 400 .",
+                            "units": null
+                        },
+                        {
+                            "name": "wireless_technologies",
+                            "type": "string[]",
+                            "description": "Types of wireless technologies that the product can use. Sample values: Bluetooth , WiFi . To provide multiple values using a single feed wireless_technologies field, the acceptable input format is 'Bluetooth', 'WiFi' . To provide multiple values with one value per feed field, use feed field names, such as wireless_technologies[0], wireless_technologies[1] . For example, the acceptable attribute value input format for fields such as this is Bluetooth .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "221",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "software",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > software",
+                    "product_specifics": [
+                        {
+                            "name": "number_of_licenses",
+                            "type": "number",
+                            "description": "Maximum number of users or installations allowed under the terms of the software licensing agreement. Sample values: 1 , 3 , 5 .",
+                            "units": null
+                        },
+                        {
+                            "name": "software_system_requirements",
+                            "type": "string[]",
+                            "description": "Basic requirements (necessary of any system) to satisfactorily run the software. Sample values: Windows 7 or later , Intel Core 2 Duo 1.8 Ghz , 15 GB Free Hard Drive Space . To provide multiple values using a single feed software_system_requirements field, the acceptable input format is 'Windows 7 or later', 'Intel Core 2 Duo 1.8 Ghz', '15 GB Free Hard Drive Space' . To provide multiple values with one value per feed field, use feed field names, such as software_system_requirements[0], software_system_requirements[1] . For example, the acceptable attribute value input format for fields such as this is Windows 7 or later .",
+                            "units": null
+                        },
+                        {
+                            "name": "age_group",
+                            "type": "string",
+                            "description": "Age group associated with the item. Sample values: adult , all ages , teen , kids , toddler , infant , newborn .",
+                            "units": null
+                        },
+                        {
+                            "name": "educational_focus",
+                            "type": "string[]",
+                            "description": "Describes what educational skill(s) the software is intended to improve. Sample values: Language , Math , Reading , Music . To provide multiple values using a single feed educational_focus field, the acceptable input format is 'Language', 'Math', 'Reading', 'Music . To provide multiple values with one value per feed field, use feed field names, such as educational_focus[0],educational_focus[1] . For example, the acceptable attribute value input format for fields such as this is Language .",
+                            "units": null
+                        },
+                        {
+                            "name": "physical_media_format",
+                            "type": "string",
+                            "description": "Standard media format for the product. Sample values: CD , DVD , Blu-Ray .",
+                            "units": null
+                        },
+                        {
+                            "name": "release_date",
+                            "type": "string",
+                            "description": "Specific date that marks when the product was made available for public distribution, provided in the format MM-DD-YYYY . Sample value: 9/19/2019 .",
+                            "units": null
+                        },
+                        {
+                            "name": "required_peripherals",
+                            "type": "string[]",
+                            "description": "Any type of required accessory or peripheral necessary to operate the item (or play the video game). Sample values: PlayStation Move , Kinect , Wii Balance Board , Flatbed Scanner , Microphone . To provide multiple values using a single feed required_peripherals field, the acceptable input format is 'PlayStation Move', 'Kinect', 'Wii Balance Board', 'Flatbed Scanner', 'Microphone' . To provide multiple values with one value per feed field, use feed field names, such as required_peripherals[0],required_peripherals[1] . For example, the acceptable attribute value input format for fields such as this is PlayStation Move .",
+                            "units": null
+                        },
+                        {
+                            "name": "software_category",
+                            "type": "string",
+                            "description": "General category of software to which the item is most closely associated with. Sample values: Antivirus & Security , Web & Desktop Publishing , Personal Finance , Tax & Legal , Operating Systems .",
+                            "units": null
+                        },
+                        {
+                            "name": "software_version",
+                            "type": "string",
+                            "description": "Version number assigned to this specific release of the software. Sample values: 7.2 , 10.1 .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: Orthopedic , Water Resistant . To provide multiple values using a single feed standard_features field, the acceptable input format is 'Water Resistant', 'Orthopedic'. To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . The acceptable attribute value input format for fields, such as Water Resistant .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "222",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "printers & scanners",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > printers & scanners",
+                    "product_specifics": [
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers. Sample values: Lenovo Thinkpad , Macbook Pro .",
+                            "units": null
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "resolution",
+                            "type": "number",
+                            "description": "Resolution of the product screen, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. The value should include only a number, not a unit of measure; otherwise, it won't pass our validation. Sample values: 2 , 4 , 33 .",
+                            "units": null
+                        },
+                        {
+                            "name": "product_length",
+                            "type": "string",
+                            "description": "Length of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_width",
+                            "type": "string",
+                            "description": "Width of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_height",
+                            "type": "string",
+                            "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "product_depth",
+                            "type": "string",
+                            "description": "Depth of the fully assembled product. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 5 in , 2 ft , 60 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "color_pages_per_minute",
+                            "type": "number/float",
+                            "description": "Number of color pages that the imaging device is able to produce per minute. Sample values: 12 , 23 .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Type of connection(s) supported on the item. Sample values: HDMI , RCA .\n* To provide multiple values using a single feed connector_type field, the acceptable input format is 'HDMI', 'RCA .\n* To provide multiple values with one value per feed field, use feed field names, such as connector_type[0], connector_type[1] . For example, the acceptable attribute value input format for fields such as this is HDMI .",
+                            "units": null
+                        },
+                        {
+                            "name": "monochrome_pages_per_minute",
+                            "type": "number/float",
+                            "description": "Number of monochrome pages that the imaging device is able to produce per minute. Sample values: 50 , 36 .",
+                            "units": null
+                        },
+                        {
+                            "name": "monochrome_color",
+                            "type": "string",
+                            "description": "Determines if the imaging device is capable of color processing or monochrome only. Sample values: Monochrome , Color .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: Auto Document Feeder , Auto Two-Sided Printing , Bluetooth , Touchscreen , USB Connectivity , WLAN , Portable , Energy Star Certified . To provide multiple values using a single feed standard_features field, the acceptable input format is 'Auto Document Feeder', 'Auto Two-Sided Printing', ' Bluetooth', 'Touchscreen', 'USB Connectivity', 'WLAN', 'Portable', 'Energy Star Certified'`. To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . For example, the acceptable attribute value input format for fields, such as Auto Document Feeder .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_technology",
+                            "type": "string",
+                            "description": "Describes the version of USB technology designated for the product. Sample values: USB 2.0 , USB 3.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_type",
+                            "type": "string",
+                            "description": "Describes the type of USB connector designated for the product. Sample values: USB-C , Micro USB .",
+                            "units": null
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "226",
+                "parent_id": "238",
+                "created_at": null,
+                "modified_at": null,
+                "name": "video game consoles & video games",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "category_path": "electronics > video game consoles & video games",
+                    "product_specifics": [
+                        {
+                            "name": "model",
+                            "type": "string",
+                            "description": "Common name of the product model. Does not include model numbers. Sample values: Sony Playstation 4 , Nintendo Wii , Microsoft Xbox 360 .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_game_platform",
+                            "type": "string",
+                            "description": "Type of platform on which video game software is capable of running. Sample values: Xbox 360 , Nintendo Wii , PC .",
+                            "units": null
+                        },
+                        {
+                            "name": "age_group",
+                            "type": "string",
+                            "description": "Age group associated with the item. Sample values: adult , all ages , teen , kids , toddler , infant , newborn .",
+                            "units": null
+                        },
+                        {
+                            "name": "brand",
+                            "type": "string",
+                            "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+                            "units": null
+                        },
+                        {
+                            "name": "battery_life",
+                            "type": "number/float",
+                            "description": "Maximum run time or life of the item's battery, measured in hours. Sample values: 8 , 12 , 24 .",
+                            "units": null
+                        },
+                        {
+                            "name": "bluetooth_technology",
+                            "type": "string",
+                            "description": "Describes the version type of the compatible bluetooth. Sample values: Bluetooth 4.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "connector_type",
+                            "type": "string[]",
+                            "description": "Type(s) of connections supported for the item. Sample values: HDMI , RCA . To provide multiple values using a single feed wireless_technologies field, the acceptable input format is 'Bluetooth', 'WiFi' . To provide multiple values with one value per feed field, use feed field names, such as wireless_technologies[0], wireless_technologies[1] . For example, the acceptable attribute value input format for fields such as this is Bluetooth .",
+                            "units": null
+                        },
+                        {
+                            "name": "display_technology",
+                            "type": "string",
+                            "description": "Type of technology that powers the display, such as LED or LCD . Sample values: OLED , LED , LCD .",
+                            "units": null
+                        },
+                        {
+                            "name": "operating_system",
+                            "type": "string",
+                            "description": "Type of preloaded operating system software installed on the device. Sample values: Android , iOS , Windows .",
+                            "units": null
+                        },
+                        {
+                            "name": "physical_media_format",
+                            "type": "string",
+                            "description": "Standard media format for the product. Sample value: CD , DVD , Blu-Ray .",
+                            "units": null
+                        },
+                        {
+                            "name": "processor_speed",
+                            "type": "string",
+                            "description": "Operational frequency of the computer's CPU. Sample value: 3.00 GHz , 66 MHz .",
+                            "units": null
+                        },
+                        {
+                            "name": "release_date",
+                            "type": "string",
+                            "description": "Specific date that marks when the product was made available for public distribution, provided in the format MM-DD-YYYY . Sample value: 9/19/2019 .",
+                            "units": null
+                        },
+                        {
+                            "name": "required_peripherals",
+                            "type": "string[]",
+                            "description": "Any type of required accessory or peripheral necessary to operate the item (or play the video game). Sample values: PlayStation Move , Kinect , Wii Balance Board , Flatbed Scanner , Microphone . To provide multiple values using a single feed required_peripherals field, the acceptable input format is 'PlayStation Move', 'Kinect', 'Wii Balance Board', 'Flatbed Scanner', 'Microphone' . To provide multiple values with one value per feed field, use feed field names, such as required_peripherals[0],required_peripherals[1] . For example, the acceptable attribute value input format for fields such as this is PlayStation Move .",
+                            "units": null
+                        },
+                        {
+                            "name": "resolution",
+                            "type": "number",
+                            "description": "Resolution of the product screen, measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. The value should include only a number, not a unit of measure; otherwise, it won't pass our validation. Sample values: 2 , 4 , 33 .",
+                            "units": null
+                        },
+                        {
+                            "name": "screen size",
+                            "type": "string",
+                            "description": "Measurement of the device's screen. The first part is the number. The second part is one of the accepted units: mm, cm, m, in, ft. Sample values: 42 in , 5.5 in , 100 cm .",
+                            "units": [
+                                "mm",
+                                "cm",
+                                "m",
+                                "in",
+                                "ft"
+                            ]
+                        },
+                        {
+                            "name": "sport",
+                            "type": "string[]",
+                            "description": "Particular sport or activity for which your item is intended. Sample Values: Tennis , Soccer , Hiking , Running , Yoga , Basketball . To provide multiple values using a single feed occasion field, the acceptable input format is 'Tennis', 'Soccer', 'Hiking', 'Running', 'Yoga', 'Basketball' . To provide multiple values with one value per feed field, use feed field names, such as sport[0], sport[1] . For example, the acceptable attribute value input format for fields such as this is Tennis .",
+                            "units": null
+                        },
+                        {
+                            "name": "sports_league",
+                            "type": "string",
+                            "description": "Particular sports league that your item represents or is associated with. Sample Values: NFL , NBA , NASCAR .",
+                            "units": null
+                        },
+                        {
+                            "name": "sports_team",
+                            "type": "string",
+                            "description": "Particular sports team that your item represents or is associated with. Sample Values: Golden State Warriors , San Francisco Giants .",
+                            "units": null
+                        },
+                        {
+                            "name": "standard_features",
+                            "type": "string[]",
+                            "description": "Standard features related to the item. Sample values: 35mm Jack , Bluetooth , Downloadable Content , Online Multiplayer , Touchscreen , USB Connectivity , WLAN , Portable . To provide multiple values using a single feed standard_features field, the acceptable input format is '35mm Jack', 'Bluetooth', 'Downloadable Content', 'Online Multiplayer', 'Touchscreen', 'USB Connectivity', 'WLAN', 'Portable' . To provide multiple values with one value per feed field, use feed field names, such as standard_features[0], standard_features[1] . For example, the acceptable attribute value input format for fields, such as 35mm Jack .",
+                            "units": null
+                        },
+                        {
+                            "name": "storage_capacity",
+                            "type": "string",
+                            "description": "Amount of storage space on the item's hard drive, typically measured in megabytes, gigabytes, or terabytes. The first part is the number. The second part is one of the accepted units: KB, MB, GB, TB. Sample values: 1 TB , 16 GB .",
+                            "units": [
+                                "KB",
+                                "MB",
+                                "GB",
+                                "TB"
+                            ]
+                        },
+                        {
+                            "name": "usb_technology",
+                            "type": "string",
+                            "description": "Describes the version of USB technology designated for the product. Sample values: USB 2.0 , USB 3.0 .",
+                            "units": null
+                        },
+                        {
+                            "name": "usb_type",
+                            "type": "string",
+                            "description": "Describes the type of USB connector designated for the product. Sample values: USB-C , Micro USB .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_game_genre",
+                            "type": "string",
+                            "description": "Genre, style, or type of video game available for purchase. Sample values: Shooter , Role Playing , MMO , Racing .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_game_rating",
+                            "type": "string",
+                            "description": "Standard rating of the content of the video game. Can be important for violent games or games intended only for mature audiences. Sample values: E - Everyone , PEGI 12 , T - Teen , PG .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_game_series",
+                            "type": "string",
+                            "description": "Name of the video game series this game belongs to. Sample values: Fallout , Grand Theft Auto , Call of Duty , Halo .",
+                            "units": null
+                        },
+                        {
+                            "name": "video_resolution",
+                            "type": "number/float",
+                            "description": "Resolution of the video recordings of the product. Measured in megapixels (MP). 1080p is 2 MP, UHD and 4K is 8 MP. Sample values: 2 , 4 , 24 .",
+                            "units": null
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
