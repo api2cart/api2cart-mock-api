@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "swgsNoooNHYtTsyLivQPcsvX9vHKMQl1Dw4sSTZPzfA1LPByikrSTk9Ky3MzrsgxLEgsSHYySXNzy3Qzr%2FQtdk1NDUpKSrYoCHRPNDMxL0jNiEqNyCi3tQUA"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "1",
+                "parent_id": "0",
+                "name": "Antenna",
+                "description": null
+            },
+            {
+                "id": "2",
+                "parent_id": "0",
+                "name": "Baseplate",
+                "description": null
+            }
+        ]
+    }
+}

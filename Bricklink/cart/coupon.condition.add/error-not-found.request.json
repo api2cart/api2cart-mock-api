@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-13T11:37:54Z",
+    "method": "POST",
+    "endpoint": "cart.coupon.condition.add.json",
+    "query": {
+        "coupon_id": "123123",
+        "entity": "product",
+        "key": "product_type",
+        "operator": "==",
+        "value": "MINIFIG"
+    }
+}

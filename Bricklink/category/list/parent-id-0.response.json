@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "swgsNoooNHYtTsyLivQPcsvX9vHKMYjSDw%2BuKszwc8otyC1KCQyt8PKw9DDKLw5088%2FNdNI3DMsq0I8wcizNL%2FIwScky8bBISSypNLdMjCj0Sy8KC8tzCXbzzEz3KEo3i4q0MIkKiAoycTGwBQA%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "1",
+                "parent_id": "0",
+                "name": "Antenna",
+                "description": null
+            },
+            {
+                "id": "2",
+                "parent_id": "0",
+                "name": "Baseplate",
+                "description": null
+            },
+            {
+                "id": "3",
+                "parent_id": "0",
+                "name": "Boat",
+                "description": null
+            },
+            {
+                "id": "4",
+                "parent_id": "0",
+                "name": "Bracket",
+                "description": null
+            },
+            {
+                "id": "5",
+                "parent_id": "0",
+                "name": "Brick",
+                "description": null
+            },
+            {
+                "id": "6",
+                "parent_id": "0",
+                "name": "Arch",
+                "description": null
+            },
+            {
+                "id": "7",
+                "parent_id": "0",
+                "name": "Brick, Modified",
+                "description": null
+            },
+            {
+                "id": "8",
+                "parent_id": "0",
+                "name": "Brick, Round",
+                "description": null
+            },
+            {
+                "id": "9",
+                "parent_id": "0",
+                "name": "Castle",
+                "description": null
+            },
+            {
+                "id": "10",
+                "parent_id": "0",
+                "name": "Container",
+                "description": null
+            }
+        ]
+    }
+}

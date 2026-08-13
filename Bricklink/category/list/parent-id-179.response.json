@@ -1,0 +1,19 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 1,
+        "category": [
+            {
+                "id": "450",
+                "parent_id": "179",
+                "name": "Track System",
+                "description": null
+            }
+        ]
+    }
+}

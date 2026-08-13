@@ -1,0 +1,14 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": null,
+        "url": null,
+        "version": null,
+        "bridge_version": null,
+        "default_rounding_precision": null,
+        "db_prefix": null,
+        "warehouses": [],
+        "shipping_zones": []
+    }
+}

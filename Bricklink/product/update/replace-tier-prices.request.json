@@ -1,0 +1,26 @@
+{
+    "captured_at": "2026-08-13T11:37:54Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "486062118",
+        "quantity": 1,
+        "min_order_quantity": 2,
+        "cost_price": 97.65,
+        "marketplace_item_properties": "{\"is_retain\":false,\"is_stock_room\":false,\"stock_room_id\":\"B\",\"remarks\":\"Updated2 remark\"}",
+        "tier_prices": [
+            {
+                "quantity": 3,
+                "price": 94
+            },
+            {
+                "quantity": 4,
+                "price": 84
+            },
+            {
+                "quantity": 5,
+                "price": 74
+            }
+        ]
+    }
+}

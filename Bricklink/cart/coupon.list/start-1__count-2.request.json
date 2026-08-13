@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-12T18:19:14Z",
+    "method": "GET",
+    "endpoint": "cart.coupon.list.json",
+    "query": {
+        "start": 1,
+        "count": 2
+    }
+}

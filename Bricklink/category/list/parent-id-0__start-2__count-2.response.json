@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "3",
+                "parent_id": "0",
+                "name": "Boat",
+                "description": null
+            },
+            {
+                "id": "4",
+                "parent_id": "0",
+                "name": "Bracket",
+                "description": null
+            }
+        ]
+    }
+}

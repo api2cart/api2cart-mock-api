@@ -1,0 +1,245 @@
+{
+    "cart/coupon.add/error-amount-over-100-percent": {
+        "description": "validation: percent discount must be under 100"
+    },
+    "cart/coupon.add/error-amount-too-large": {
+        "description": "validation: action_amount must stay under 1,000,000 regardless of discount type"
+    },
+    "cart/coupon.add/error-condition-value-not-allowed": {
+        "description": "validation: action_condition_value must be one of Bricklink's product types"
+    },
+    "cart/coupon.add/error-customer-not-found": {
+        "description": "not found: customer_id does not exist"
+    },
+    "cart/coupon.add/error-date-end-in-past": {
+        "description": "validation: date_end already in the past"
+    },
+    "cart/coupon.add/error-date-end-too-far": {
+        "description": "validation: date_end more than a year in the future"
+    },
+    "cart/coupon.add/error-empty-customer-id": {
+        "description": "validation: empty customer_id"
+    },
+    "cart/coupon.add/fixed-off-order-total": {
+        "description": "fixed-amount coupon applied to order total, restricted by a negated condition"
+    },
+    "cart/coupon.add/percent-off-order-total": {
+        "description": "happy path: percent-off coupon applied to order total, restricted to a product type"
+    },
+    "cart/coupon.condition.add/basic": {
+        "description": "happy path: add a product_type condition to an existing coupon"
+    },
+    "cart/coupon.condition.add/error-no-params": {
+        "description": "validation: coupon_id is required"
+    },
+    "cart/coupon.condition.add/error-not-found": {
+        "description": "not found: coupon_id does not exist"
+    },
+    "cart/coupon.condition.add/error-value-not-allowed": {
+        "description": "validation: value must be one of Bricklink's product types"
+    },
+    "cart/coupon.delete/by-id": {
+        "description": "happy path: delete coupon by id (note: API2Cart never verifies the coupon is actually gone -- see description)"
+    },
+    "cart/coupon.delete/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "cart/coupon.delete/error-not-found": {
+        "description": "not found: id does not exist (note: the error names coupon_id, not id)"
+    },
+    "cart/coupon.list/basic": {
+        "description": "happy path: no filter -> BrickLink's own default coupon set (only 2 of the 4 status=enabled coupons; see status-enabled)"
+    },
+    "cart/coupon.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "cart/coupon.list/page-2": {
+        "description": "pagination: page 2 via page_cursor from rf-all__count-1"
+    },
+    "cart/coupon.list/rf-all__count-1": {
+        "description": "pagination: page 1 (response_fields={*}, count=1); continues via page_cursor in page-2"
+    },
+    "cart/coupon.list/start-1__count-2": {
+        "description": "pagination: offset into the same coupon set as basic (start=1, count=2)"
+    },
+    "cart/coupon.list/start-2": {
+        "description": "pagination: start=2 is past the end of the 2-coupon set; pagination.next is null on every start-based (non-cursor) page regardless, by design (filter matches nothing in this store: empty result)"
+    },
+    "cart/coupon.list/status-enabled": {
+        "description": "happy path: status=enabled sends status=O to BrickLink explicitly; returns more coupons than no filter at all (see basic) because omitting status sends nothing to the platform -- not a superset relationship"
+    },
+    "cart/info/rf-all": {
+        "description": "full response fields"
+    },
+    "cart/info/rf-all__exclude-stores-info": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-name-url-stores-info": {
+        "description": "field selection: name,url,stores_info"
+    },
+    "category/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "category/info/error-not-found": {
+        "description": "not found: category id does not exist"
+    },
+    "category/info/id-25": {
+        "description": "happy path: entity information by id"
+    },
+    "category/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "category/list/parent-id-0": {
+        "description": "categories under a parent [parent_id=0, no count, no start]"
+    },
+    "category/list/parent-id-0__count-2": {
+        "description": "categories under a parent [parent_id=0, count=2, no start]"
+    },
+    "category/list/parent-id-0__start-2__count-2": {
+        "description": "categories under a parent [parent_id=0, count=2, start=2]"
+    },
+    "category/list/parent-id-179": {
+        "description": "categories under a parent [parent_id=179, no count, no start]"
+    },
+    "product/add/basic": {
+        "description": "happy path: add product with tier prices, cost price and marketplace item properties"
+    },
+    "product/add/error-color-id-not-found": {
+        "description": "not found: marketplace_item_properties.color_id does not exist in Bricklink's color list"
+    },
+    "product/add/error-color-id-not-integer": {
+        "description": "validation: marketplace_item_properties.color_id must be an integer"
+    },
+    "product/add/error-condition-invalid": {
+        "description": "validation: condition must be either 'new' or 'used'"
+    },
+    "product/add/error-description-too-long": {
+        "description": "validation: description longer than 255 characters"
+    },
+    "product/add/error-invalid-marketplace-item-properties": {
+        "description": "platform rejects a marketplace_item_properties value it cannot parse (API2Cart does not validate the embedded JSON itself; message text not verified)"
+    },
+    "product/add/error-marketplace-item-properties-unknown-key": {
+        "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is allowed here, unlike on update)"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: sku is required"
+    },
+    "product/add/error-tier-prices-decreasing-quantity": {
+        "description": "validation: each tier_prices quantity must be greater than the previous one"
+    },
+    "product/add/error-tier-prices-wrong-count": {
+        "description": "validation: tier_prices must contain exactly 3 entries, not fewer or more"
+    },
+    "product/add/minimal-fields": {
+        "description": "add product with only description, price and sku (no tier prices or marketplace item properties)"
+    },
+    "product/add/used-condition-gear": {
+        "description": "add a used-condition GEAR product with a minimal marketplace item properties set"
+    },
+    "product/delete/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/delete/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/delete/id-489921299": {
+        "description": "happy path: delete the product created by product.add (sku 5580-1)"
+    },
+    "product/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/info/error-not-found": {
+        "description": "not found: product id does not exist"
+    },
+    "product/info/id-486062118__rf-notexisting": {
+        "description": "field selection: notExisting"
+    },
+    "product/info/id-486063055__rf-id-name-images-type": {
+        "description": "field selection: id,name,images,type"
+    },
+    "product/info/id-486063123__rf-all": {
+        "description": "full response fields"
+    },
+    "product/info/id-486599379__params-force-all__exclude-images": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/categories-ids-27": {
+        "description": "filter: products in category 27 (filter matches nothing in this store: empty result)"
+    },
+    "product/list/error-category-not-found": {
+        "description": "not found: categories_ids does not exist"
+    },
+    "product/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "product/list/error-invalid-product-type-value": {
+        "description": "validation: product_type value must be one of the allowed types"
+    },
+    "product/list/error-product-attributes-color-not-found": {
+        "description": "not found: product_attributes color_id value does not exist"
+    },
+    "product/list/error-product-attributes-invalid-key": {
+        "description": "validation: product_attributes.attribute_id only accepts color_id"
+    },
+    "product/list/error-type-and-product-type-conflict": {
+        "description": "validation: type and product_type are mutually exclusive"
+    },
+    "product/list/product-attributes": {
+        "description": "filter: by product attribute value (filter matches nothing in this store: empty result)"
+    },
+    "product/list/product-type-minifig-part": {
+        "description": "filter: product_type=MINIFIG,PART"
+    },
+    "product/list/rf-all": {
+        "description": "full response fields"
+    },
+    "product/list/status-enabled": {
+        "description": "filter: status=enabled (filter matches nothing in this store: empty result)"
+    },
+    "product/list/type-simple": {
+        "description": "filter: type=simple"
+    },
+    "product/update/basic": {
+        "description": "happy path: update description, price, quantity, cost price and tier prices"
+    },
+    "product/update/error-completeness-not-in-map": {
+        "description": "validation: marketplace_item_properties.completeness must be Complete, Incomplete or Sealed"
+    },
+    "product/update/error-is-retain-not-bool": {
+        "description": "validation: marketplace_item_properties.is_retain must be a boolean"
+    },
+    "product/update/error-marketplace-item-properties-unknown-key": {
+        "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is NOT allowed here, unlike on add)"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: id does not exist"
+    },
+    "product/update/error-special-price-exceeds-price": {
+        "description": "validation: special_price higher than the regular price"
+    },
+    "product/update/error-stock-room-id-not-found": {
+        "description": "not found: stock_room_id only accepts a single letter A-Z, any other value 112s even if well-formed"
+    },
+    "product/update/error-tier-prices-price-exceeds-current": {
+        "description": "validation: a tier_prices price cannot exceed the product's current price"
+    },
+    "product/update/error-tier-prices-zero-quantity": {
+        "description": "validation: a tier_prices quantity of 0 is not allowed"
+    },
+    "product/update/increase-quantity": {
+        "description": "increase quantity by a relative amount"
+    },
+    "product/update/marketplace-item-properties-only": {
+        "description": "update only the marketplace-specific stock room properties"
+    },
+    "product/update/reduce-quantity": {
+        "description": "reduce quantity by a relative amount"
+    },
+    "product/update/replace-tier-prices": {
+        "description": "update quantity and replace the tier price ladder"
+    }
+}

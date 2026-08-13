@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-13T11:37:54Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "product_attributes": [
+            {
+                "attribute_id": "color_id",
+                "values": [
+                    "999999"
+                ]
+            }
+        ]
+    }
+}

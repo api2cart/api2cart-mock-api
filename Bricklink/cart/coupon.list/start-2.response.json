@@ -1,0 +1,12 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "coupon_count": 0,
+        "coupon": []
+    }
+}

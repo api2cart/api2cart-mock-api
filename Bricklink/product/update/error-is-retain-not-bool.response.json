@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'is_retain' is not valid. The required type of parameter is bool ('True' or 'False')",
+    "result": {}
+}

@@ -1,0 +1,19 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "S43ULisoCC43SY3SDsxOzXYPTAp0MU5xTzIpyA5z8YisdA1JTc7Oyyz1My4z9iz1ssjN1C9IzwisTA4Mccp3NAIA",
+        "next": "S43ULisoCC43SY3SDsxOzXYPTAp0qfAuSopKC6%2FyNtX3rjJxS%2FX003fyLslxMkwuzCpwTcpxLwktT%2FbOSXVOTQIA"
+    },
+    "result": {
+        "coupon_count": 1,
+        "coupon": [
+            {
+                "id": "5067556",
+                "code": null,
+                "name": "Sale! -30%",
+                "description": null
+            }
+        ]
+    }
+}

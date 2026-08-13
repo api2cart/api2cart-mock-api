@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-13T11:37:54Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "5580-1",
+        "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "price": 175,
+        "product_type": "ORIGINAL_BOX"
+    }
+}

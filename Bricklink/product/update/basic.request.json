@@ -1,0 +1,29 @@
+{
+    "captured_at": "2026-08-13T11:37:54Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "486062118",
+        "description": "Updated description",
+        "price": 150,
+        "special_price": 99.99,
+        "quantity": 20,
+        "min_order_quantity": 2,
+        "cost_price": 97.65,
+        "marketplace_item_properties": "{\"is_retain\":true,\"is_stock_room\":true,\"stock_room_id\":\"A\",\"remarks\":\"Updated remark\"}",
+        "tier_prices": [
+            {
+                "quantity": 2,
+                "price": 94
+            },
+            {
+                "quantity": 3,
+                "price": 84
+            },
+            {
+                "quantity": 4,
+                "price": 74
+            }
+        ]
+    }
+}

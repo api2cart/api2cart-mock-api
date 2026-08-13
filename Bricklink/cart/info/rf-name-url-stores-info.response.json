@@ -1,0 +1,62 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": null,
+        "url": null,
+        "stores_info": [
+            {
+                "store_id": "1",
+                "name": null,
+                "language": null,
+                "store_languages": [],
+                "currency": null,
+                "store_currencies": [],
+                "timezone": null,
+                "country": null,
+                "root_category_id": null,
+                "multi_store_url": null,
+                "active": null,
+                "weight_unit": null,
+                "dimension_unit": null,
+                "prices_include_tax": null,
+                "carrier_info": [
+                    {
+                        "id": "bricklink_shipping",
+                        "name": "BrickLink Default",
+                        "active": null,
+                        "shipping_methods": [
+                            {
+                                "name": "Shipping",
+                                "additional_fields": {
+                                    "code": "342874",
+                                    "note": "Note",
+                                    "insurance": false,
+                                    "is_default": false,
+                                    "area": "D",
+                                    "is_available": false
+                                }
+                            },
+                            {
+                                "name": "test2",
+                                "additional_fields": {
+                                    "code": "343503",
+                                    "note": null,
+                                    "insurance": false,
+                                    "is_default": false,
+                                    "area": "D",
+                                    "is_available": false
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "store_owner_info": null,
+                "default_warehouse_id": null,
+                "channels": [],
+                "pickup_locations": [],
+                "additional_fields": []
+            }
+        ]
+    }
+}
