@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "product.info.json",
     "query": {
-        "id": 486599379,
+        "id": "486599379",
         "params": "force_all",
         "exclude": "images"
     }

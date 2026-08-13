@@ -39,7 +39,7 @@
         "description": "validation: value must be one of Bricklink's product types"
     },
     "cart/coupon.delete/by-id": {
-        "description": "happy path: delete coupon by id"
+        "description": "happy path: delete coupon by id (note: API2Cart never verifies the coupon is actually gone -- see description)"
     },
     "cart/coupon.delete/error-no-params": {
         "description": "validation: id is required"
@@ -47,26 +47,35 @@
     "cart/coupon.delete/error-not-found": {
         "description": "not found: id does not exist (note: the error names coupon_id, not id)"
     },
+    "cart/coupon.list/basic": {
+        "description": "happy path: no filter -> BrickLink's own default coupon set (only 2 of the 4 status=enabled coupons; see status-enabled)"
+    },
     "cart/coupon.list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
     },
     "cart/coupon.list/page-2": {
-        "description": "pagination: cursor page"
+        "description": "pagination: page 2 via page_cursor from rf-all__count-1"
     },
     "cart/coupon.list/rf-all__count-1": {
-        "description": "pagination: start/count offset [count=1]"
+        "description": "pagination: page 1 (response_fields={*}, count=1); continues via page_cursor in page-2"
     },
     "cart/coupon.list/start-1__count-2": {
-        "description": "pagination: start/count offset [count=2]"
+        "description": "pagination: offset into the same coupon set as basic (start=1, count=2)"
     },
     "cart/coupon.list/start-2": {
-        "description": "pagination: start/count offset [no count] (filter matches nothing in this store: empty result)"
+        "description": "pagination: start=2 is past the end of the 2-coupon set; pagination.next is null on every start-based (non-cursor) page regardless, by design (filter matches nothing in this store: empty result)"
     },
     "cart/coupon.list/status-enabled": {
-        "description": "filter: status=enabled"
+        "description": "happy path: status=enabled sends status=O to BrickLink explicitly; returns more coupons than no filter at all (see basic) because omitting status sends nothing to the platform -- not a superset relationship"
     },
     "cart/info/rf-all": {
         "description": "full response fields"
+    },
+    "cart/info/rf-all__exclude-stores-info": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-name-url-stores-info": {
+        "description": "field selection: name,url,stores_info"
     },
     "category/info/error-no-params": {
         "description": "validation: id is required"

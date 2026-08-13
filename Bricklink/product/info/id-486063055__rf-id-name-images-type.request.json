@@ -3,7 +3,7 @@
     "method": "GET",
     "endpoint": "product.info.json",
     "query": {
-        "id": 486063055,
+        "id": "486063055",
         "response_fields": "{result{id,name,images,type}}"
     }
 }
