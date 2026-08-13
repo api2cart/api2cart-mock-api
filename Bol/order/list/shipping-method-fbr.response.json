@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "orders_count": 4,
+        "order": [
+            {
+                "order_id": "C000CTW7TL",
+                "shipping_method": null
+            },
+            {
+                "order_id": "C000CTRMK2",
+                "shipping_method": null
+            },
+            {
+                "order_id": "C000CRP567",
+                "shipping_method": null
+            },
+            {
+                "order_id": "C000CPR0T2",
+                "shipping_method": null
+            }
+        ]
+    }
+}

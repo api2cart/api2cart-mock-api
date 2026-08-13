@@ -1,0 +1,988 @@
+{
+    "integration": "Bol",
+    "generated_at": "2026-08-13T12:30:05Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: default fields without any selector -- narrower than {*}, returns just name and url"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-response-fields",
+                    "request": "cart/info/error-invalid-response-fields.request.json",
+                    "response": "cart/info/error-invalid-response-fields.response.json",
+                    "covers": {
+                        "description": "error: empty {} response_fields selector fails the field-list pattern -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "full response shape: connected retailer account, single Bol store, retailer_data (VAT/KVK/rating) and economic_operators"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                },
+                {
+                    "slug": "rf-name",
+                    "request": "cart/info/rf-name.request.json",
+                    "response": "cart/info/rf-name.response.json",
+                    "covers": {
+                        "description": "field selection: only the retailer display name"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                },
+                {
+                    "slug": "rf-stores-info-store-id-name-currency",
+                    "request": "cart/info/rf-stores-info-store-id-name-currency.request.json",
+                    "response": "cart/info/rf-stores-info-store-id-name-currency.response.json",
+                    "covers": {
+                        "description": "field selection: single connected store with its id, name and currency, without the full carrier/warehouse detail"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                },
+                {
+                    "slug": "rf-url",
+                    "request": "cart/info/rf-url.request.json",
+                    "response": "cart/info/rf-url.response.json",
+                    "covers": {
+                        "description": "field selection: only the storefront url"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/info/basic.request.json",
+                    "response": "order/info/basic.response.json",
+                    "covers": {
+                        "description": "full response shape: single shipped order with customer, addresses, totals and line items"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "error-empty-order-id",
+                    "request": "order/info/error-empty-order-id.request.json",
+                    "response": "order/info/error-empty-order-id.response.json",
+                    "covers": {
+                        "description": "error: order_id present but empty -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/info/error-not-found.request.json",
+                    "response": "order/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: well-formed but non-existent order_id -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "rounding-precision-2",
+                    "request": "order/info/rounding-precision-2.request.json",
+                    "response": "order/info/rounding-precision-2.response.json",
+                    "covers": {
+                        "description": "rounding_precision applied to the totals breakdown"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: default fields for all 7 orders currently on the store, all in shipped status"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "error-modified-from-without-modified-to",
+                    "request": "order/list/error-modified-from-without-modified-to.request.json",
+                    "response": "order/list/error-modified-from-without-modified-to.response.json",
+                    "covers": {
+                        "description": "error: modified_from without modified_to -> 109 PARAM_ERROR, Bol requires the pair together"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "order/list/modified-range.request.json",
+                    "response": "order/list/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: modified_from/modified_to date range -- Bol only accepts plain Y-m-d dates here, not a full datetime"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "order-status-open",
+                    "request": "order/list/order-status-open.request.json",
+                    "response": "order/list/order-status-open.response.json",
+                    "covers": {
+                        "description": "filter: order_status=open -- no open orders right now, every order on this store has already shipped (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "order/list/rf-all.request.json",
+                    "response": "order/list/rf-all.response.json",
+                    "covers": {
+                        "description": "full response shape: create_at/currency/total breakdown/modified_at/refunds alongside the default fields"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "shipping-method-fbr",
+                    "request": "order/list/shipping-method-fbr.request.json",
+                    "response": "order/list/shipping-method-fbr.response.json",
+                    "covers": {
+                        "description": "filter: shipping_method=FBR (fulfilled-by-retailer) -- matches on the per-item fulfilment method, so the returned orders own top-level shipping_method field stays null"
+                    },
+                    "captured_at": "2026-08-13T12:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.return.add",
+            "path": "order/return.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/return.add/basic.request.json",
+                    "response": "order/return.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: register an unannounced return for a shipped order line, received back in sellable state"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-already-returned",
+                    "request": "order/return.add/error-already-returned.request.json",
+                    "response": "order/return.add/error-already-returned.response.json",
+                    "covers": {
+                        "description": "the same order line cannot be registered as an unannounced return twice -- this one already has a return in return.info"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-handling-status-not-allowed",
+                    "request": "order/return.add/error-handling-status-not-allowed.request.json",
+                    "response": "order/return.add/error-handling-status-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: handling status outside the five bol.com settlement outcomes (note the error names the indexed parameter form)"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-multiple-order-products",
+                    "request": "order/return.add/error-multiple-order-products.request.json",
+                    "response": "order/return.add/error-multiple-order-products.response.json",
+                    "covers": {
+                        "description": "bol.com registers one product per return -- multiple lines need one call each"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/return.add/error-no-params.request.json",
+                    "response": "order/return.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: at least one order product must be named"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-not-yet-shipped",
+                    "request": "order/return.add/error-not-yet-shipped.request.json",
+                    "response": "order/return.add/error-not-yet-shipped.response.json",
+                    "covers": {
+                        "description": "an item can only be returned after it has shipped"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-order-product-not-found",
+                    "request": "order/return.add/error-order-product-not-found.request.json",
+                    "response": "order/return.add/error-order-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: the order_product_id does not belong to this order"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-quantity-over-available",
+                    "request": "order/return.add/error-quantity-over-available.request.json",
+                    "response": "order/return.add/error-quantity-over-available.response.json",
+                    "covers": {
+                        "description": "returning more units than were shipped on that order line"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "handling-status-customer-keeps-product-paid",
+                    "request": "order/return.add/handling-status-customer-keeps-product-paid.request.json",
+                    "response": "order/return.add/handling-status-customer-keeps-product-paid.response.json",
+                    "covers": {
+                        "description": "settle a return without the goods coming back: the customer keeps the item and is not refunded"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.add",
+            "path": "order/shipment.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.add/basic.request.json",
+                    "response": "order/shipment.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: ship every outstanding item of an order with one tracking number; the order id is a format-correct placeholder, not a captured one"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "check-process-status",
+                    "request": "order/shipment.add/check-process-status.request.json",
+                    "response": "order/shipment.add/check-process-status.response.json",
+                    "covers": {
+                        "description": "wait for bol.com to finish creating the shipment rather than returning once it is queued"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-all-items-shipped",
+                    "request": "order/shipment.add/error-all-items-shipped.request.json",
+                    "response": "order/shipment.add/error-all-items-shipped.response.json",
+                    "covers": {
+                        "description": "nothing left to ship on an order that is already fully shipped -- checked before any per-item validation"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-multiple-tracking-numbers",
+                    "request": "order/shipment.add/error-multiple-tracking-numbers.request.json",
+                    "response": "order/shipment.add/error-multiple-tracking-numbers.response.json",
+                    "covers": {
+                        "description": "a bol.com shipment carries exactly one track and trace code"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.add/error-no-params.request.json",
+                    "response": "order/shipment.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-order-item-not-found",
+                    "request": "order/shipment.add/error-order-item-not-found.request.json",
+                    "response": "order/shipment.add/error-order-item-not-found.response.json",
+                    "covers": {
+                        "description": "not found: the order_product_id does not belong to this order"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-quantity-over-available",
+                    "request": "order/shipment.add/error-quantity-over-available.request.json",
+                    "response": "order/shipment.add/error-quantity-over-available.response.json",
+                    "covers": {
+                        "description": "shipping more units than the order line still has outstanding"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-tracking-number-format",
+                    "request": "order/shipment.add/error-tracking-number-format.request.json",
+                    "response": "order/shipment.add/error-tracking-number-format.response.json",
+                    "covers": {
+                        "description": "validation: track and trace codes are letters and digits only, no separators"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "items-subset",
+                    "request": "order/shipment.add/items-subset.request.json",
+                    "response": "order/shipment.add/items-subset.response.json",
+                    "covers": {
+                        "description": "partial shipment: name the order items and quantities instead of shipping the whole order"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.info",
+            "path": "order/shipment.info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.info/basic.request.json",
+                    "response": "order/shipment.info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: single shipment by id, tracking number and recipient shipment_details"
+                    },
+                    "captured_at": "2026-08-14T10:00:00Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "order/shipment.info/error-empty-id.request.json",
+                    "response": "order/shipment.info/error-empty-id.response.json",
+                    "covers": {
+                        "description": "error: id present but empty -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T13:00:00Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.info/error-not-found.request.json",
+                    "response": "order/shipment.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: well-formed but non-existent shipment id -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-14T10:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.list/basic.request.json",
+                    "response": "order/shipment.list/basic.response.json",
+                    "covers": {
+                        "description": "full response shape: the single TNT shipment for a shipped order, tracking number and recipient shipment_details"
+                    },
+                    "captured_at": "2026-08-13T13:00:00Z"
+                },
+                {
+                    "slug": "error-count-over-limit",
+                    "request": "order/shipment.list/error-count-over-limit.request.json",
+                    "response": "order/shipment.list/error-count-over-limit.response.json",
+                    "covers": {
+                        "description": "error: count over 50 -> Bol-specific limit, 107 STORE_ERROR"
+                    },
+                    "captured_at": "2026-08-13T13:00:00Z"
+                },
+                {
+                    "slug": "error-empty-order-id",
+                    "request": "order/shipment.list/error-empty-order-id.request.json",
+                    "response": "order/shipment.list/error-empty-order-id.response.json",
+                    "covers": {
+                        "description": "error: order_id present but empty -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T13:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "the two Bol order statuses (open/shipped) -- order_status values order.list accepts"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.update",
+            "path": "order/update",
+            "cases": [
+                {
+                    "slug": "error-already-shipped",
+                    "request": "order/update/error-already-shipped.request.json",
+                    "response": "order/update/error-already-shipped.response.json",
+                    "covers": {
+                        "description": "an order stops being cancellable once any item has shipped"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/update/error-no-params.request.json",
+                    "response": "order/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-order-status-not-allowed",
+                    "request": "order/update/error-order-status-not-allowed.request.json",
+                    "response": "order/update/error-order-status-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: cancellation is the only order change bol.com accepts -- shipped/open cannot be set here"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-order-status-required",
+                    "request": "order/update/error-order-status-required.request.json",
+                    "response": "order/update/error-order-status-required.response.json",
+                    "covers": {
+                        "description": "validation: order_id alone is not enough, order_status must say what to do"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "order-status-cancelled",
+                    "request": "order/update/order-status-cancelled.request.json",
+                    "response": "order/update/order-status-cancelled.response.json",
+                    "covers": {
+                        "description": "happy path: cancel an order that has nothing shipped yet; the order id is a format-correct placeholder, not a captured one"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: create a new-condition offer for an existing EAN"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "condition-good",
+                    "request": "product/add/condition-good.request.json",
+                    "response": "product/add/condition-good.response.json",
+                    "covers": {
+                        "description": "used-condition offer: any condition other than NEW additionally requires condition_description"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-condition-description-on-new",
+                    "request": "product/add/error-condition-description-on-new.request.json",
+                    "response": "product/add/error-condition-description-on-new.response.json",
+                    "covers": {
+                        "description": "validation: the mirror case -- a description is rejected when the condition is NEW"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-condition-description-required",
+                    "request": "product/add/error-condition-description-required.request.json",
+                    "response": "product/add/error-condition-description-required.response.json",
+                    "covers": {
+                        "description": "validation: a non-NEW condition without the description that must accompany it"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-condition-not-allowed",
+                    "request": "product/add/error-condition-not-allowed.request.json",
+                    "response": "product/add/error-condition-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: condition outside the five grades bol.com recognises"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-delivery-code-not-allowed",
+                    "request": "product/add/error-delivery-code-not-allowed.request.json",
+                    "response": "product/add/error-delivery-code-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: delivery_code must be one of the published bol.com delivery promises"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-ean-not-found",
+                    "request": "product/add/error-ean-not-found.request.json",
+                    "response": "product/add/error-ean-not-found.response.json",
+                    "covers": {
+                        "description": "not found: the EAN has no product in the bol.com catalog to attach an offer to"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-no-price",
+                    "request": "product/add/error-no-price.request.json",
+                    "response": "product/add/error-no-price.response.json",
+                    "covers": {
+                        "description": "validation: an offer needs either price or tier_prices"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-quantity-over-limit",
+                    "request": "product/add/error-quantity-over-limit.request.json",
+                    "response": "product/add/error-quantity-over-limit.response.json",
+                    "covers": {
+                        "description": "validation: stock is capped at 999 units per offer"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-tier-price-quantity-one",
+                    "request": "product/add/error-tier-price-quantity-one.request.json",
+                    "response": "product/add/error-tier-price-quantity-one.response.json",
+                    "covers": {
+                        "description": "validation: a single-unit tier belongs in price, not tier_prices"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-tier-prices-not-decreasing",
+                    "request": "product/add/error-tier-prices-not-decreasing.request.json",
+                    "response": "product/add/error-tier-prices-not-decreasing.response.json",
+                    "covers": {
+                        "description": "validation: tier prices must fall as the quantity threshold rises"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "tier-prices",
+                    "request": "product/add/tier-prices.request.json",
+                    "response": "product/add/tier-prices.response.json",
+                    "covers": {
+                        "description": "bulk pricing instead of a flat price: quantity thresholds must decrease in price and none may be 1"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "avail-sale-false",
+                    "request": "product/count/avail-sale-false.request.json",
+                    "response": "product/count/avail-sale-false.response.json",
+                    "covers": {
+                        "description": "filter: currently not sellable products (avail_sale=false) -- a small subset of the catalog"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "total product count for the connected retailer catalog"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-report-request-id",
+                    "request": "product/count/error-invalid-report-request-id.request.json",
+                    "response": "product/count/error-invalid-report-request-id.response.json",
+                    "covers": {
+                        "description": "error: report_request_id must be numeric -- a product-side report id (UUID) is not accepted here -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "modified-from-2026-08-12",
+                    "request": "product/count/modified-from-2026-08-12.request.json",
+                    "response": "product/count/modified-from-2026-08-12.response.json",
+                    "covers": {
+                        "description": "filter: products modified since a given date"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.delete",
+            "path": "product/delete",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/delete/error-no-params.request.json",
+                    "response": "product/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/delete/error-not-found.request.json",
+                    "response": "product/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no offer with this id"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "id-b7f2c1d4-3e58-4a90-9c61-2f8ad05e7b13",
+                    "request": "product/delete/id-b7f2c1d4-3e58-4a90-9c61-2f8ad05e7b13.request.json",
+                    "response": "product/delete/id-b7f2c1d4-3e58-4a90-9c61-2f8ad05e7b13.response.json",
+                    "covers": {
+                        "description": "happy path: delete the offer created by product.add"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/info/basic.request.json",
+                    "response": "product/info/basic.response.json",
+                    "covers": {
+                        "description": "full response shape: single product by id, including images, additional_fields and custom_fields"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/info/error-empty-id.request.json",
+                    "response": "product/info/error-empty-id.response.json",
+                    "covers": {
+                        "description": "error: id present but empty -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: well-formed but non-existent product id -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: default fields, first page of 10 products from the live catalog"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-count",
+                    "request": "product/list/error-invalid-count.request.json",
+                    "response": "product/list/error-invalid-count.response.json",
+                    "covers": {
+                        "description": "error: count must be an unsigned integer -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-14T09:00:00Z"
+                },
+                {
+                    "slug": "lang-id-nl",
+                    "request": "product/list/lang-id-nl.request.json",
+                    "response": "product/list/lang-id-nl.response.json",
+                    "covers": {
+                        "description": "filter: product data in a specific store language (NL)"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "product/list/modified-range.request.json",
+                    "response": "product/list/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: modified_from/modified_to date range"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/list/page-2.request.json",
+                    "response": "product/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: second page via page_cursor from basic"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "product-ids-7c83eda4-a751476f",
+                    "request": "product/list/product-ids-7c83eda4-a751476f.request.json",
+                    "response": "product/list/product-ids-7c83eda4-a751476f.response.json",
+                    "covers": {
+                        "description": "filter: specific product ids"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "product/list/rf-all.request.json",
+                    "response": "product/list/rf-all.response.json",
+                    "covers": {
+                        "description": "full response shape: single product with images, additional_fields (Bol offer/condition data) and custom_fields (GPSR manufacturer/EU economic operator attributes)"
+                    },
+                    "captured_at": "2026-08-13T11:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "check-process-status",
+                    "request": "product/update/check-process-status.request.json",
+                    "response": "product/update/check-process-status.response.json",
+                    "covers": {
+                        "description": "wait for bol.com to finish processing the change before answering, instead of returning as soon as it is queued"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-delivery-code-not-allowed",
+                    "request": "product/update/error-delivery-code-not-allowed.request.json",
+                    "response": "product/update/error-delivery-code-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: unknown delivery promise"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-name-already-known",
+                    "request": "product/update/error-name-already-known.request.json",
+                    "response": "product/update/error-name-already-known.response.json",
+                    "covers": {
+                        "description": "the title is fixed once bol.com has catalog content for the product; only offers on unknown products keep an editable title"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no offer with this id"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-quantity-on-fbb-offer",
+                    "request": "product/update/error-quantity-on-fbb-offer.request.json",
+                    "response": "product/update/error-quantity-on-fbb-offer.response.json",
+                    "covers": {
+                        "description": "stock of a bol.com-fulfilled (FBB) offer is owned by bol.com and cannot be set through the API"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "error-quantity-over-limit",
+                    "request": "product/update/error-quantity-over-limit.request.json",
+                    "response": "product/update/error-quantity-over-limit.response.json",
+                    "covers": {
+                        "description": "validation: the 999-unit stock cap applies to updates as well as adds"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "no-changes",
+                    "request": "product/update/no-changes.request.json",
+                    "response": "product/update/no-changes.response.json",
+                    "covers": {
+                        "description": "submitting the offer's current values changes nothing and reports updated_items 0"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "price-and-quantity",
+                    "request": "product/update/price-and-quantity.request.json",
+                    "response": "product/update/price-and-quantity.response.json",
+                    "covers": {
+                        "description": "happy path: change price and stock on a retailer-fulfilled offer"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                },
+                {
+                    "slug": "status-disabled",
+                    "request": "product/update/status-disabled.request.json",
+                    "response": "product/update/status-disabled.response.json",
+                    "covers": {
+                        "description": "take an offer off sale without deleting it"
+                    },
+                    "captured_at": "2026-08-13T12:24:58Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.info",
+            "path": "return/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/info/basic.request.json",
+                    "response": "return/info/basic.response.json",
+                    "covers": {
+                        "description": "full response shape: single unhandled return, customer reason/comment and the returned line item"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "return/info/error-empty-id.request.json",
+                    "response": "return/info/error-empty-id.response.json",
+                    "covers": {
+                        "description": "error: id present but empty -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "return/info/error-not-found.request.json",
+                    "response": "return/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: well-formed but non-existent return id -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.list",
+            "path": "return/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/list/basic.request.json",
+                    "response": "return/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: default fields (id + order_products) for the first page of return requests"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "error-status-not-found",
+                    "request": "return/list/error-status-not-found.request.json",
+                    "response": "return/list/error-status-not-found.response.json",
+                    "covers": {
+                        "description": "error: status is validated against the live return-status list, not a static enum, so an unrecognized value is 112 not_found rather than 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-14T09:00:00Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "return/list/page-2.request.json",
+                    "response": "return/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: last page via page_cursor from basic; next is null, which closes the chain"
+                    },
+                    "captured_at": "2026-08-14T11:00:00Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "return/list/rf-all.request.json",
+                    "response": "return/list/rf-all.response.json",
+                    "covers": {
+                        "description": "full response shape: created_at/status/comment/staff_note alongside the default order_products detail"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "status-handled",
+                    "request": "return/list/status-handled.request.json",
+                    "response": "return/list/status-handled.response.json",
+                    "covers": {
+                        "description": "filter: status=handled -- the bulk of past returns"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "status-unhandled",
+                    "request": "return/list/status-unhandled.request.json",
+                    "response": "return/list/status-unhandled.response.json",
+                    "covers": {
+                        "description": "filter: status=unhandled -- the single return still awaiting action"
+                    },
+                    "captured_at": "2026-08-13T14:00:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.status.list",
+            "path": "return/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/status.list/basic.request.json",
+                    "response": "return/status.list/basic.response.json",
+                    "covers": {
+                        "description": "the two Bol return statuses (handled/unhandled) -- status values return.list accepts"
+                    },
+                    "captured_at": "2026-08-13T10:00:00Z"
+                }
+            ]
+        }
+    ]
+}

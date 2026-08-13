@@ -1,0 +1,20 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "cart_order_statuses": [
+            {
+                "id": "open",
+                "name": "OPEN"
+            },
+            {
+                "id": "shipped",
+                "name": "SHIPPED"
+            }
+        ]
+    }
+}

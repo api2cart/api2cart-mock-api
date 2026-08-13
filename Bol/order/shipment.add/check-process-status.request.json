@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": "C000CQ8N44",
+        "tracking_numbers": [
+            {
+                "carrier_id": "UPS",
+                "tracking_number": "1Z999AA10123456784"
+            }
+        ],
+        "check_process_status": true
+    }
+}

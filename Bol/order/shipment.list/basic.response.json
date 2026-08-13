@@ -1,0 +1,70 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "shipment_count": 1,
+        "shipment": [
+            {
+                "id": "a267b63c-b03d-49ad-b7ba-7c6d05d637b7",
+                "order_id": "C000CTW7TL",
+                "name": null,
+                "warehouse_id": null,
+                "shipment_provider": "TNT",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "TNT",
+                        "tracking_number": "9XOEUD2395969",
+                        "additional_fields": {
+                            "transport_id": "3335703559",
+                            "event_code": null
+                        }
+                    }
+                ],
+                "created_at": {
+                    "value": "2026-08-13T07:09:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_time": null,
+                "items": [
+                    {
+                        "order_product_id": "3973898940",
+                        "product_id": "064a60d8-6e2f-4c04-8bf7-969d69359015",
+                        "variant_id": null,
+                        "model": "8719638587754",
+                        "name": "Premium Product 905",
+                        "price": 19.95,
+                        "quantity": 1,
+                        "additional_fields": {
+                            "commission": 3.47,
+                            "quantity_ordered": 1,
+                            "fulfilment_method": "FBR",
+                            "fulfilment_distributionParty": "RETAILER",
+                            "fulfilment_latestDeliveryDate": "2026-08-17"
+                        }
+                    }
+                ],
+                "is_shipped": true,
+                "delivered_at": null,
+                "additional_fields": {
+                    "pickup_point": false,
+                    "shipment_details": {
+                        "salutation": "UNKNOWN",
+                        "firstName": "Morgan",
+                        "surname": "Moore",
+                        "streetName": "176 Example St",
+                        "houseNumber": "896 Example St",
+                        "zipCode": "68824",
+                        "city": "Riverton",
+                        "countryCode": "NL",
+                        "email": "user11556@example.com",
+                        "language": "nl"
+                    }
+                }
+            }
+        ]
+    }
+}

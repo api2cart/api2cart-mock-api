@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-13T10:00:00Z",
+    "method": "GET",
+    "endpoint": "cart.info.json",
+    "query": {
+        "response_fields": "{*}"
+    }
+}

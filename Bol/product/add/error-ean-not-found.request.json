@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Valenta Book Case",
+        "ean": "0000000000000",
+        "price": 29.95,
+        "quantity": 10,
+        "condition": "NEW",
+        "delivery_code": "2-3d"
+    }
+}

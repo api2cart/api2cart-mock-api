@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Valenta Book Case Brown Apple iPhone 13 Pro Leather",
+        "sku": "586368-used",
+        "ean": "8719638586368",
+        "price": 19.95,
+        "quantity": 3,
+        "condition": "GOOD",
+        "condition_description": "Lightly used, no visible damage to the leather.",
+        "delivery_code": "2-3d"
+    }
+}

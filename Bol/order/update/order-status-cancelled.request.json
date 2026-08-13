@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "PUT",
+    "endpoint": "order.update.json",
+    "query": {
+        "order_id": "C000CQ8N44",
+        "order_status": "CANCELLED"
+    }
+}

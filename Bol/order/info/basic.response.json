@@ -1,0 +1,168 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "C000CTW7TL",
+        "order_id": "C000CTW7TL",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "",
+            "email": "user11556@example.com",
+            "first_name": "Morgan",
+            "last_name": "Moore",
+            "phone": null
+        },
+        "create_at": {
+            "value": "2026-08-12T20:12:33+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "EUR",
+            "name": "Euro",
+            "iso3": "EUR",
+            "symbol_left": "€",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": true
+        },
+        "shipping_address": {
+            "id": 2,
+            "type": "shipping",
+            "first_name": "Morgan",
+            "last_name": "Moore",
+            "postcode": "68824",
+            "address1": "130 Example St",
+            "address2": "",
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Riverton",
+            "country": {
+                "code2": "NL",
+                "code3": "NLD",
+                "name": "Netherlands"
+            },
+            "state": null,
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": false,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "billing_address": {
+            "id": 1,
+            "type": "billing",
+            "first_name": "Morgan",
+            "last_name": "Moore",
+            "postcode": "54512",
+            "address1": "907 Example St",
+            "address2": "",
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Franklin",
+            "country": {
+                "code2": "NL",
+                "code3": "NLD",
+                "name": "Netherlands"
+            },
+            "state": null,
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": false,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "payment_method": null,
+        "shipping_method": null,
+        "shipping_methods": [],
+        "status": {
+            "id": "shipped",
+            "name": "SHIPPED",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 19.95,
+            "subtotal": 19.95,
+            "shipping": 0,
+            "tax": 0,
+            "discount": 0,
+            "additional_fields": {
+                "commision": 3.47
+            }
+        },
+        "total": {
+            "subtotal_ex_tax": 19.95,
+            "wrapping_ex_tax": null,
+            "shipping_ex_tax": 0,
+            "total_discount": 0,
+            "total_tax": 0,
+            "total": 19.95,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": null,
+                "subtotal_discount_ex_tax": null,
+                "tax_discount": null,
+                "subtotal_tax": null,
+                "wrapping_tax": null,
+                "shipping_tax": null,
+                "commision": 3.47
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "064a60d8-6e2f-4c04-8bf7-969d69359015",
+                "order_product_id": "3973898940",
+                "model": "587754",
+                "name": "Premium Product 905",
+                "price": 19.95,
+                "price_inc_tax": null,
+                "quantity": 1,
+                "discount_amount": null,
+                "total_price": 19.95,
+                "tax_percent": null,
+                "tax_value": null,
+                "tax_value_after_discount": null,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "ean": "8719638587754",
+                    "quantity_shipped": 1,
+                    "quantity_cancelled": 0,
+                    "cancellation_request": false,
+                    "fulfilment_method": "FBR",
+                    "fulfilment_distributionParty": "RETAILER",
+                    "fulfilment_latestDeliveryDate": "2026-08-17",
+                    "fulfilment_expiryDate": "2026-08-20",
+                    "fulfilment_timeFrameType": "REGULAR"
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": {
+            "value": "2026-08-13T07:09:29+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "finished_time": null,
+        "comment": null,
+        "store_id": null,
+        "warehouses_ids": [],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null
+    }
+}

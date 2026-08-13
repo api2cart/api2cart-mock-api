@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Valenta Book Case",
+        "ean": "8719638586368",
+        "price": 29.95,
+        "quantity": 10,
+        "condition": "REFURBISHED",
+        "delivery_code": "2-3d"
+    }
+}

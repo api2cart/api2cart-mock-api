@@ -1,0 +1,1413 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2BIhnGzEI97ygltGLvFNXUFkgYr4%2B53T%2BtkSmVUuS2PJ8NJrIOTDqHML1uM5jS4UCdIRbr7DaOsflGaCtbMUMeZBCfZcu1QPBytixJcNKuqn1b73140GVS6U4ZLODcabJeZURNd7mDMSMNVB%2BOnK5ML%2F"
+    },
+    "result": {
+        "total_count": 50,
+        "returns": [
+            {
+                "id": "109653544",
+                "order_products": [
+                    {
+                        "product_id": "fa08e68c-896a-496d-9eb2-ebd6a957bc34",
+                        "order_product_id": "3972096396",
+                        "sku": "581004",
+                        "name": "Universal Gadget 127",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Ordered the wrong size by mistake.",
+                        "additional_fields": {
+                            "rma_id": "147680496",
+                            "order_id": "C000CMNMDK",
+                            "ean": "8719638581004",
+                            "handled": false,
+                            "processing_status": "",
+                            "handling_status": "",
+                            "customer_email": "user91558@example.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "109378324",
+                "order_products": [
+                    {
+                        "product_id": "5933fc98-0422-4200-8d7c-b62c064707cb",
+                        "order_product_id": "3967792327",
+                        "sku": "586795",
+                        "name": "Premium Tool Kit 233",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Received the wrong variant.",
+                        "additional_fields": {
+                            "rma_id": "147384095",
+                            "order_id": "C000C7K3R9",
+                            "ean": "8719638586795",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "CANCELLED_BY_CUSTOMER",
+                            "customer_email": "user46436@example.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "109346482",
+                "order_products": [
+                    {
+                        "product_id": "27c0f4d7-49ec-4800-80dd-0edb9db28eeb",
+                        "order_product_id": "3966839497",
+                        "sku": "583466",
+                        "name": "Compact Component 82",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "147349767",
+                            "order_id": "C000C59XT1",
+                            "ean": "8719638583466",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": "user25558@example.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "109072108",
+                "order_products": [
+                    {
+                        "product_id": "a96d08ac-9891-4a93-8bbb-19d3b8bc80e1",
+                        "order_product_id": "3962080212",
+                        "sku": "586351",
+                        "name": "Portable Gadget 125",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Received the wrong variant.",
+                        "additional_fields": {
+                            "rma_id": "147053848",
+                            "order_id": "C0009NJ7NT",
+                            "ean": "8719638586351",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": "user25228@example.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "107823446",
+                "order_products": [
+                    {
+                        "product_id": "ed2bf08c-1f2e-4d59-b17e-d897adb3c06f",
+                        "order_product_id": "3942225803",
+                        "sku": "583480",
+                        "name": "Heavy-Duty Device 438",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "145672423",
+                            "order_id": "C0006WR1DC",
+                            "ean": "8719638583480",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": "user31057@example.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "107328423",
+                "order_products": [
+                    {
+                        "product_id": "a96d08ac-9891-4a93-8bbb-19d3b8bc80e1",
+                        "order_product_id": "3934317519",
+                        "sku": "586351",
+                        "name": "Portable Gadget 125",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "145129338",
+                            "order_id": "C00064L2WP",
+                            "ean": "8719638586351",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "107017658",
+                "order_products": [
+                    {
+                        "product_id": "bf48099e-69cb-4754-8c0c-a51dde4968e9",
+                        "order_product_id": "3927822069",
+                        "sku": "587396",
+                        "name": "Deluxe Product 499",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "144786589",
+                            "order_id": "C0005JM44L",
+                            "ean": "8719638587396",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "106760707",
+                "order_products": [
+                    {
+                        "product_id": "5b499979-2184-41ac-9693-dcec5ac51ea7",
+                        "order_product_id": "3924281739",
+                        "sku": "587761",
+                        "name": "Heavy-Duty Accessory Set 78",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Quality did not match my expectations.",
+                        "additional_fields": {
+                            "rma_id": "144505013",
+                            "order_id": "C00056NK8H",
+                            "ean": "8719638587761",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "106539422",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Does not fit my phone model.",
+                        "additional_fields": {
+                            "rma_id": "144264761",
+                            "order_id": "C0004RNLRH",
+                            "ean": "8719638585194",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "106244519",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Artikel is defect"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "143947982",
+                            "order_id": "C00045N02L",
+                            "ean": "8719638587020",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "106171359",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "143869688",
+                            "order_id": "C0003F5J5K",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "105988771",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "143672729",
+                            "order_id": "C0003DDW9J",
+                            "ean": "8719638589321",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "105658644",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "143316849",
+                            "order_id": "C00035JMH3",
+                            "ean": "8719638588980",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "105168050",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Changed my mind about this purchase.",
+                        "additional_fields": {
+                            "rma_id": "142787341",
+                            "order_id": "C0001L591R",
+                            "ean": "8719638588232",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "104930264",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Artikel is defect"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "142530838",
+                            "order_id": "C0001T8MN9",
+                            "ean": "8719638589253",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "104820290",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Ordered the wrong size by mistake.",
+                        "additional_fields": {
+                            "rma_id": "142413121",
+                            "order_id": "C0001PK27F",
+                            "ean": "8719638585767",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "104344532",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": ".",
+                        "additional_fields": {
+                            "rma_id": "141900187",
+                            "order_id": "C0001029JW",
+                            "ean": "8719638583787",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "104116744",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "141653738",
+                            "order_id": "C0000CKM5F",
+                            "ean": "8719638583770",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "103716956",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "141224121",
+                            "order_id": "A000E1MJWF",
+                            "ean": "8719638586481",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "103159752",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Artikel is defect"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "140627881",
+                            "order_id": "A000DR5EL7",
+                            "ean": "8719638584807",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "103155028",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Klacht over artikel"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Quality did not match my expectations.",
+                        "additional_fields": {
+                            "rma_id": "140622906",
+                            "order_id": "A000DPPMJA",
+                            "ean": "8719638588614",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "102976250",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "140430688",
+                            "order_id": "A000D4337T",
+                            "ean": "8719638588614",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "102910714",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "140361031",
+                            "order_id": "A000DJJULL",
+                            "ean": "8719638585194",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "102703641",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "140139648",
+                            "order_id": "A000DDKTF1",
+                            "ean": "8719638584777",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "102691604",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "140126808",
+                            "order_id": "A000DCRPTX",
+                            "ean": "8719638588003",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "102169246",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "139567767",
+                            "order_id": "A000CR3C2N",
+                            "ean": "8719638588003",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "101610639",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Changed my mind about this purchase.",
+                        "additional_fields": {
+                            "rma_id": "138973448",
+                            "order_id": "A000C6WH74",
+                            "ean": "8719638589451",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "101597282",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "138959127",
+                            "order_id": "A000C9M4J4",
+                            "ean": "8719638588799",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "101424163",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "138772721",
+                            "order_id": "A000AA781M",
+                            "ean": "8719638588614",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100749680",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "138044250",
+                            "order_id": "A000A1TX72",
+                            "ean": "8719638587358",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100503968",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137780294",
+                            "order_id": "A000A6UHH8",
+                            "ean": "8719638588249",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100206411",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137460442",
+                            "order_id": "A0009XAAKH",
+                            "ean": "8719638586450",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100182131",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Klacht over artikel"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Colour looks different from the product photo.",
+                        "additional_fields": {
+                            "rma_id": "137434544",
+                            "order_id": "A0009R6CCM",
+                            "ean": "8719638586818",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100140606",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137390013",
+                            "order_id": "A0009EMMWT",
+                            "ean": "8719638589482",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "100013761",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Ander artikel ontvangen dan besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137253178",
+                            "order_id": "A0009N6MDH",
+                            "ean": "8719638588591",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99987560",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Ander artikel ontvangen dan besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137225127",
+                            "order_id": "A0009N6MDH",
+                            "ean": "8719638588591",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "CANCELLED_BY_CUSTOMER",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99987545",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Ander artikel ontvangen dan besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "137225110",
+                            "order_id": "A0009N6MDH",
+                            "ean": "8719638588591",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "CANCELLED_BY_CUSTOMER",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99970131",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Anders"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Ordered the wrong size by mistake.",
+                        "additional_fields": {
+                            "rma_id": "137206180",
+                            "order_id": "A0009NAA9M",
+                            "ean": "8719638584807",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99932920",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Changed my mind about this purchase.",
+                        "additional_fields": {
+                            "rma_id": "137166188",
+                            "order_id": "A0009L5LDC",
+                            "ean": "8719638589482",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99856009",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Klacht over artikel"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Quality did not match my expectations.",
+                        "additional_fields": {
+                            "rma_id": "137082992",
+                            "order_id": "A0009K2CPX",
+                            "ean": "7428475448715",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99768747",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 0,
+                        "reason": {
+                            "id": "",
+                            "name": ""
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136989208",
+                            "order_id": "A0008MFX61",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "EXPIRED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99438258",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Klacht over artikel"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "No longer needed.",
+                        "additional_fields": {
+                            "rma_id": "136632203",
+                            "order_id": "A000942JA7",
+                            "ean": "8719638585927",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99420336",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Changed my mind about this purchase.",
+                        "additional_fields": {
+                            "rma_id": "136612886",
+                            "order_id": "A00094JN3C",
+                            "ean": "8719638587655",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99384042",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136573744",
+                            "order_id": "A0008MFX61",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99141893",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136312476",
+                            "order_id": "A0008LW1E8",
+                            "ean": "8719638583787",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99113344",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 0,
+                        "reason": {
+                            "id": "",
+                            "name": ""
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136281263",
+                            "order_id": "A0008MFX61",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "EXPIRED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "99113343",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 0,
+                        "reason": {
+                            "id": "",
+                            "name": ""
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136281262",
+                            "order_id": "A0008MFX61",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "EXPIRED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "98984926",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "136142948",
+                            "order_id": "A0008MFX61",
+                            "ean": "8719638583756",
+                            "handled": true,
+                            "processing_status": "CANCELLED",
+                            "handling_status": "EXPIRED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "98685614",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Geen reden"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "135818249",
+                            "order_id": "A0008FP5T6",
+                            "ean": "8719638583466",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "98481103",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerd besteld"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "rma_id": "135597034",
+                            "order_id": "A00087F237",
+                            "ean": "8719638587365",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

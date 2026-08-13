@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "tier_prices must be listed in decreasing order with no duplicate quantities.",
+    "result": {}
+}

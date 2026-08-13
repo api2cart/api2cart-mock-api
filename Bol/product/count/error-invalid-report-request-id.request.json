@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-13T11:00:00Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "report_request_id": "019ff9ef-4fa6-796d-a504-d72e61b128be"
+    }
+}

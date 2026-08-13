@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "7c83eda4-5e90-48fe-a634-8ac43a588a71",
+        "delivery_code": "5-7d"
+    }
+}

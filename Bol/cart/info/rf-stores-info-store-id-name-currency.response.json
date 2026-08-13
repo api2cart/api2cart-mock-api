@@ -1,0 +1,22 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "stores_info": [
+            {
+                "store_id": "1512370",
+                "name": "Umbrella Co",
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                }
+            }
+        ]
+    }
+}

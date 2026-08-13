@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-13T12:24:58Z",
+    "method": "POST",
+    "endpoint": "order.return.add.json",
+    "body": {
+        "order_id": "C000CQ8N44",
+        "order_products": [
+            {
+                "order_product_id": "3973898941",
+                "order_product_quantity": 1,
+                "order_product_handling_status": "RETURN_RECEIVED"
+            }
+        ]
+    }
+}

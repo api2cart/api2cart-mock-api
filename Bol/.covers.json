@@ -1,0 +1,287 @@
+{
+    "cart/info/basic": {
+        "description": "happy path: default fields without any selector -- narrower than {*}, returns just name and url"
+    },
+    "cart/info/error-invalid-response-fields": {
+        "description": "error: empty {} response_fields selector fails the field-list pattern -> 109 PARAM_ERROR"
+    },
+    "cart/info/rf-all": {
+        "description": "full response shape: connected retailer account, single Bol store, retailer_data (VAT/KVK/rating) and economic_operators"
+    },
+    "cart/info/rf-name": {
+        "description": "field selection: only the retailer display name"
+    },
+    "cart/info/rf-stores-info-store-id-name-currency": {
+        "description": "field selection: single connected store with its id, name and currency, without the full carrier/warehouse detail"
+    },
+    "cart/info/rf-url": {
+        "description": "field selection: only the storefront url"
+    },
+    "order/info/basic": {
+        "description": "full response shape: single shipped order with customer, addresses, totals and line items"
+    },
+    "order/info/error-empty-order-id": {
+        "description": "error: order_id present but empty -> 109 PARAM_ERROR"
+    },
+    "order/info/error-not-found": {
+        "description": "error: well-formed but non-existent order_id -> 112 ENTITY_NOT_FOUND"
+    },
+    "order/info/rounding-precision-2": {
+        "description": "rounding_precision applied to the totals breakdown"
+    },
+    "order/list/basic": {
+        "description": "happy path: default fields for all 7 orders currently on the store, all in shipped status"
+    },
+    "order/list/error-modified-from-without-modified-to": {
+        "description": "error: modified_from without modified_to -> 109 PARAM_ERROR, Bol requires the pair together"
+    },
+    "order/list/modified-range": {
+        "description": "filter: modified_from/modified_to date range -- Bol only accepts plain Y-m-d dates here, not a full datetime"
+    },
+    "order/list/order-status-open": {
+        "description": "filter: order_status=open -- no open orders right now, every order on this store has already shipped (filter matches nothing in this store: empty result)"
+    },
+    "order/list/rf-all": {
+        "description": "full response shape: create_at/currency/total breakdown/modified_at/refunds alongside the default fields"
+    },
+    "order/list/shipping-method-fbr": {
+        "description": "filter: shipping_method=FBR (fulfilled-by-retailer) -- matches on the per-item fulfilment method, so the returned orders own top-level shipping_method field stays null"
+    },
+    "order/return.add/basic": {
+        "description": "happy path: register an unannounced return for a shipped order line, received back in sellable state"
+    },
+    "order/return.add/error-already-returned": {
+        "description": "the same order line cannot be registered as an unannounced return twice -- this one already has a return in return.info"
+    },
+    "order/return.add/error-handling-status-not-allowed": {
+        "description": "validation: handling status outside the five bol.com settlement outcomes (note the error names the indexed parameter form)"
+    },
+    "order/return.add/error-multiple-order-products": {
+        "description": "bol.com registers one product per return -- multiple lines need one call each"
+    },
+    "order/return.add/error-no-params": {
+        "description": "validation: at least one order product must be named"
+    },
+    "order/return.add/error-not-yet-shipped": {
+        "description": "an item can only be returned after it has shipped"
+    },
+    "order/return.add/error-order-product-not-found": {
+        "description": "not found: the order_product_id does not belong to this order"
+    },
+    "order/return.add/error-quantity-over-available": {
+        "description": "returning more units than were shipped on that order line"
+    },
+    "order/return.add/handling-status-customer-keeps-product-paid": {
+        "description": "settle a return without the goods coming back: the customer keeps the item and is not refunded"
+    },
+    "order/shipment.add/basic": {
+        "description": "happy path: ship every outstanding item of an order with one tracking number; the order id is a format-correct placeholder, not a captured one"
+    },
+    "order/shipment.add/check-process-status": {
+        "description": "wait for bol.com to finish creating the shipment rather than returning once it is queued"
+    },
+    "order/shipment.add/error-all-items-shipped": {
+        "description": "nothing left to ship on an order that is already fully shipped -- checked before any per-item validation"
+    },
+    "order/shipment.add/error-multiple-tracking-numbers": {
+        "description": "a bol.com shipment carries exactly one track and trace code"
+    },
+    "order/shipment.add/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/shipment.add/error-order-item-not-found": {
+        "description": "not found: the order_product_id does not belong to this order"
+    },
+    "order/shipment.add/error-quantity-over-available": {
+        "description": "shipping more units than the order line still has outstanding"
+    },
+    "order/shipment.add/error-tracking-number-format": {
+        "description": "validation: track and trace codes are letters and digits only, no separators"
+    },
+    "order/shipment.add/items-subset": {
+        "description": "partial shipment: name the order items and quantities instead of shipping the whole order"
+    },
+    "order/shipment.info/basic": {
+        "description": "happy path: single shipment by id, tracking number and recipient shipment_details"
+    },
+    "order/shipment.info/error-empty-id": {
+        "description": "error: id present but empty -> 109 PARAM_ERROR"
+    },
+    "order/shipment.info/error-not-found": {
+        "description": "error: well-formed but non-existent shipment id -> 112 ENTITY_NOT_FOUND"
+    },
+    "order/shipment.list/basic": {
+        "description": "full response shape: the single TNT shipment for a shipped order, tracking number and recipient shipment_details"
+    },
+    "order/shipment.list/error-count-over-limit": {
+        "description": "error: count over 50 -> Bol-specific limit, 107 STORE_ERROR"
+    },
+    "order/shipment.list/error-empty-order-id": {
+        "description": "error: order_id present but empty -> 109 PARAM_ERROR"
+    },
+    "order/status.list/basic": {
+        "description": "the two Bol order statuses (open/shipped) -- order_status values order.list accepts"
+    },
+    "order/update/error-already-shipped": {
+        "description": "an order stops being cancellable once any item has shipped"
+    },
+    "order/update/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/update/error-order-status-not-allowed": {
+        "description": "validation: cancellation is the only order change bol.com accepts -- shipped/open cannot be set here"
+    },
+    "order/update/error-order-status-required": {
+        "description": "validation: order_id alone is not enough, order_status must say what to do"
+    },
+    "order/update/order-status-cancelled": {
+        "description": "happy path: cancel an order that has nothing shipped yet; the order id is a format-correct placeholder, not a captured one"
+    },
+    "product/add/basic": {
+        "description": "happy path: create a new-condition offer for an existing EAN"
+    },
+    "product/add/condition-good": {
+        "description": "used-condition offer: any condition other than NEW additionally requires condition_description"
+    },
+    "product/add/error-condition-description-on-new": {
+        "description": "validation: the mirror case -- a description is rejected when the condition is NEW"
+    },
+    "product/add/error-condition-description-required": {
+        "description": "validation: a non-NEW condition without the description that must accompany it"
+    },
+    "product/add/error-condition-not-allowed": {
+        "description": "validation: condition outside the five grades bol.com recognises"
+    },
+    "product/add/error-delivery-code-not-allowed": {
+        "description": "validation: delivery_code must be one of the published bol.com delivery promises"
+    },
+    "product/add/error-ean-not-found": {
+        "description": "not found: the EAN has no product in the bol.com catalog to attach an offer to"
+    },
+    "product/add/error-no-price": {
+        "description": "validation: an offer needs either price or tier_prices"
+    },
+    "product/add/error-quantity-over-limit": {
+        "description": "validation: stock is capped at 999 units per offer"
+    },
+    "product/add/error-tier-price-quantity-one": {
+        "description": "validation: a single-unit tier belongs in price, not tier_prices"
+    },
+    "product/add/error-tier-prices-not-decreasing": {
+        "description": "validation: tier prices must fall as the quantity threshold rises"
+    },
+    "product/add/tier-prices": {
+        "description": "bulk pricing instead of a flat price: quantity thresholds must decrease in price and none may be 1"
+    },
+    "product/count/avail-sale-false": {
+        "description": "filter: currently not sellable products (avail_sale=false) -- a small subset of the catalog"
+    },
+    "product/count/basic": {
+        "description": "total product count for the connected retailer catalog"
+    },
+    "product/count/error-invalid-report-request-id": {
+        "description": "error: report_request_id must be numeric -- a product-side report id (UUID) is not accepted here -> 109 PARAM_ERROR"
+    },
+    "product/count/modified-from-2026-08-12": {
+        "description": "filter: products modified since a given date"
+    },
+    "product/delete/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/delete/error-not-found": {
+        "description": "not found: no offer with this id"
+    },
+    "product/delete/id-b7f2c1d4-3e58-4a90-9c61-2f8ad05e7b13": {
+        "description": "happy path: delete the offer created by product.add"
+    },
+    "product/info/basic": {
+        "description": "full response shape: single product by id, including images, additional_fields and custom_fields"
+    },
+    "product/info/error-empty-id": {
+        "description": "error: id present but empty -> 109 PARAM_ERROR"
+    },
+    "product/info/error-not-found": {
+        "description": "error: well-formed but non-existent product id -> 112 ENTITY_NOT_FOUND"
+    },
+    "product/list/basic": {
+        "description": "happy path: default fields, first page of 10 products from the live catalog"
+    },
+    "product/list/error-invalid-count": {
+        "description": "error: count must be an unsigned integer -> 109 PARAM_ERROR"
+    },
+    "product/list/lang-id-nl": {
+        "description": "filter: product data in a specific store language (NL)"
+    },
+    "product/list/modified-range": {
+        "description": "filter: modified_from/modified_to date range"
+    },
+    "product/list/page-2": {
+        "description": "pagination: second page via page_cursor from basic"
+    },
+    "product/list/product-ids-7c83eda4-a751476f": {
+        "description": "filter: specific product ids"
+    },
+    "product/list/rf-all": {
+        "description": "full response shape: single product with images, additional_fields (Bol offer/condition data) and custom_fields (GPSR manufacturer/EU economic operator attributes)"
+    },
+    "product/update/check-process-status": {
+        "description": "wait for bol.com to finish processing the change before answering, instead of returning as soon as it is queued"
+    },
+    "product/update/error-delivery-code-not-allowed": {
+        "description": "validation: unknown delivery promise"
+    },
+    "product/update/error-name-already-known": {
+        "description": "the title is fixed once bol.com has catalog content for the product; only offers on unknown products keep an editable title"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: no offer with this id"
+    },
+    "product/update/error-quantity-on-fbb-offer": {
+        "description": "stock of a bol.com-fulfilled (FBB) offer is owned by bol.com and cannot be set through the API"
+    },
+    "product/update/error-quantity-over-limit": {
+        "description": "validation: the 999-unit stock cap applies to updates as well as adds"
+    },
+    "product/update/no-changes": {
+        "description": "submitting the offer's current values changes nothing and reports updated_items 0"
+    },
+    "product/update/price-and-quantity": {
+        "description": "happy path: change price and stock on a retailer-fulfilled offer"
+    },
+    "product/update/status-disabled": {
+        "description": "take an offer off sale without deleting it"
+    },
+    "return/info/basic": {
+        "description": "full response shape: single unhandled return, customer reason/comment and the returned line item"
+    },
+    "return/info/error-empty-id": {
+        "description": "error: id present but empty -> 109 PARAM_ERROR"
+    },
+    "return/info/error-not-found": {
+        "description": "error: well-formed but non-existent return id -> 112 ENTITY_NOT_FOUND"
+    },
+    "return/list/basic": {
+        "description": "happy path: default fields (id + order_products) for the first page of return requests"
+    },
+    "return/list/error-status-not-found": {
+        "description": "error: status is validated against the live return-status list, not a static enum, so an unrecognized value is 112 not_found rather than 109 PARAM_ERROR"
+    },
+    "return/list/page-2": {
+        "description": "pagination: last page via page_cursor from basic; next is null, which closes the chain"
+    },
+    "return/list/rf-all": {
+        "description": "full response shape: created_at/status/comment/staff_note alongside the default order_products detail"
+    },
+    "return/list/status-handled": {
+        "description": "filter: status=handled -- the bulk of past returns"
+    },
+    "return/list/status-unhandled": {
+        "description": "filter: status=unhandled -- the single return still awaiting action"
+    },
+    "return/status.list/basic": {
+        "description": "the two Bol return statuses (handled/unhandled) -- status values return.list accepts"
+    }
+}

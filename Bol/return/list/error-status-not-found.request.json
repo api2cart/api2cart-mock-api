@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-14T09:00:00Z",
+    "method": "GET",
+    "endpoint": "return.list.json",
+    "query": {
+        "status": "INVALID_STATUS"
+    }
+}
