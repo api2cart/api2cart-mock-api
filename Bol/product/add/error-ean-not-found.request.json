@@ -1,9 +1,9 @@
 {
-    "captured_at": "2026-08-13T12:24:58Z",
+    "captured_at": "2026-08-13T19:09:29Z",
     "method": "POST",
     "endpoint": "product.add.json",
     "body": {
-        "name": "Valenta Book Case",
+        "name": "Dutchmarketeer Mini LED lampjes - fiets - wandelen - met elastiek",
         "ean": "0000000000000",
         "price": 29.95,
         "quantity": 10,

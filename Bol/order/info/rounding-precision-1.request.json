@@ -1,10 +1,10 @@
 {
-    "captured_at": "2026-08-13T12:00:00Z",
+    "captured_at": "2026-08-13T18:33:54Z",
     "method": "GET",
     "endpoint": "order.info.json",
     "query": {
         "order_id": "C000CTW7TL",
-        "rounding_precision": 2,
+        "rounding_precision": 1,
         "response_fields": "{result{order_id,totals}}"
     }
 }

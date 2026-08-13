@@ -1,11 +1,11 @@
 {
-    "captured_at": "2026-08-13T12:24:58Z",
+    "captured_at": "2026-08-13T19:09:29Z",
     "method": "POST",
     "endpoint": "product.add.json",
     "body": {
-        "name": "Valenta Book Case Brown Apple iPhone 13 Pro Leather",
-        "sku": "586368-bulk",
-        "ean": "8719638586368",
+        "name": "Herbruikbare ijsblokjes - Duurzaam - Milieuvriendelijk - Stevig kunststof - Gekleurd - 20 stuks",
+        "sku": "A2C-ICE-003",
+        "ean": "4060411002822",
         "quantity": 50,
         "condition": "NEW",
         "delivery_code": "2-3d",
