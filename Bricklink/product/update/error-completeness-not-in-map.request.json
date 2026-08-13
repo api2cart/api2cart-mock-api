@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-12T18:09:28Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "486062118",
+        "marketplace_item_properties": "{\"completeness\":\"Mint\"}"
+    }
+}

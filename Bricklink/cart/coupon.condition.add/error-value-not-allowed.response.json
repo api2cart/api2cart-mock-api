@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "value FOOBAR is not supported. Allowed only: MINIFIG, PART, SET, BOOK, GEAR, CATALOG, INSTRUCTION, UNSORTED_LOT, ORIGINAL_BOX",
+    "result": {}
+}

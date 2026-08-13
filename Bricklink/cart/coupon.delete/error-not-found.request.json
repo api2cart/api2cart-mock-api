@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-12T18:09:28Z",
+    "method": "DELETE",
+    "endpoint": "cart.coupon.delete.json",
+    "query": {
+        "id": "asdasd"
+    }
+}

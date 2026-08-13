@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-12T18:19:15Z",
+    "method": "GET",
+    "endpoint": "product.info.json",
+    "query": {
+        "id": 486599379,
+        "params": "force_all",
+        "exclude": "images"
+    }
+}

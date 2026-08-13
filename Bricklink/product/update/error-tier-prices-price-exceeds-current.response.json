@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "tier_prices[0] price cannot be greater than current price 150",
+    "result": {}
+}

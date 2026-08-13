@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "description cannot be longer than 255 characters.",
+    "result": {}
+}

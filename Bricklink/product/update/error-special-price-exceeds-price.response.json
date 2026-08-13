@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Params special_price cannot be greater than price: 150",
+    "result": {}
+}

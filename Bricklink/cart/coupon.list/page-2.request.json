@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-12T18:19:14Z",
+    "method": "GET",
+    "endpoint": "cart.coupon.list.json",
+    "query": {
+        "page_cursor": "S43ULisoCC43SY3SDsxOzXYPTAp0MQs3zawqqNDOLk7JsygqNXUPCqxwDTQtNw3JS0w1SCsN9C4vq0jyrTJLDQUA"
+    }
+}

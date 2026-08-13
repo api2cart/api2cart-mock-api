@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-12T18:09:28Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "nbacard05",
+        "product_type": "GEAR",
+        "description": "Test part description",
+        "price": 25.5,
+        "quantity": 5,
+        "min_order_quantity": 2,
+        "condition": "used",
+        "marketplace_item_properties": "{\"color_id\":\"1\",\"completeness\":\"Incomplete\",\"is_retain\":false,\"is_stock_room\":false}"
+    }
+}

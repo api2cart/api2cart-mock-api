@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "tier_prices[1] quantity cannot be greater than previous tier_prices 5",
+    "result": {}
+}

@@ -1,0 +1,40 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 3,
+        "product": [
+            {
+                "id": "486054067",
+                "name": "Aircraft Fuselage Aft Section Angular Bottom 6 x 10 x 5",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "93"
+                ]
+            },
+            {
+                "id": "486062094",
+                "name": "Magma Drone",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "609"
+                ]
+            },
+            {
+                "id": "486072983",
+                "name": "Bone, Long",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "86"
+                ]
+            }
+        ]
+    }
+}

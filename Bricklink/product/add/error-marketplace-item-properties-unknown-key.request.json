@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-12T18:09:28Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "5580-1",
+        "description": "Test description",
+        "price": 175,
+        "product_type": "ORIGINAL_BOX",
+        "marketplace_item_properties": "{\"color_id\":\"5\",\"weight_class\":\"heavy\"}"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "coupon_count": 4,
+        "coupon": [
+            {
+                "id": "5060902",
+                "code": null,
+                "name": "test",
+                "description": null
+            },
+            {
+                "id": "5067556",
+                "code": null,
+                "name": "Sale! -30%",
+                "description": null
+            },
+            {
+                "id": "5068236",
+                "code": null,
+                "name": "testQA1",
+                "description": null
+            },
+            {
+                "id": "5068239",
+                "code": null,
+                "name": "testQA1",
+                "description": null
+            }
+        ]
+    }
+}

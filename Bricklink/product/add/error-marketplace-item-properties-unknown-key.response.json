@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "marketplace_item_properties weight_class is not supported. Allowed only: completeness, is_retain, is_stock_room, stock_room_id, remarks, color_id",
+    "result": {}
+}

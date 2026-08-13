@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-12T18:19:15Z",
+    "method": "GET",
+    "endpoint": "product.info.json",
+    "query": {
+        "id": 486063055,
+        "response_fields": "{result{id,name,images,type}}"
+    }
+}
