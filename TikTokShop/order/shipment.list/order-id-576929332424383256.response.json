@@ -1,0 +1,68 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "shipment_count": 1,
+        "shipment": [
+            {
+                "id": "1154261756608158488",
+                "order_id": "576929332424383256",
+                "name": null,
+                "warehouse_id": "7381927049415739168",
+                "shipment_provider": "TT Virtual# Evri",
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "7021769596919088897",
+                        "tracking_number": "",
+                        "additional_fields": {
+                            "last_mile_tracking_number": ""
+                        }
+                    }
+                ],
+                "created_at": {
+                    "value": "2026-07-28T11:47:09+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_time": {
+                    "value": "2026-07-28T11:50:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "items": [
+                    {
+                        "order_product_id": "576929332424710936",
+                        "product_id": "1729882381328685960",
+                        "variant_id": null,
+                        "model": "toilet_brush1",
+                        "name": "Heavy-Duty Widget 518",
+                        "price": 12.99,
+                        "quantity": 1
+                    },
+                    {
+                        "order_product_id": "576929332424776472",
+                        "product_id": "1729882381328685960",
+                        "variant_id": null,
+                        "model": "toilet_brush1",
+                        "name": "Heavy-Duty Widget 518",
+                        "price": 12.99,
+                        "quantity": 1
+                    }
+                ],
+                "is_shipped": false,
+                "additional_fields": {
+                    "package_status": "CANCELLED",
+                    "split_and_combine_tag": "DEFAULT",
+                    "shipping_type": "TIKTOK",
+                    "delivery_option_name": "Standard shipping",
+                    "delivery_option_id": "7031156220157232897",
+                    "handover_method": null,
+                    "pickup_slot_start_time": null,
+                    "pickup_slot_end_time": null
+                }
+            }
+        ]
+    }
+}

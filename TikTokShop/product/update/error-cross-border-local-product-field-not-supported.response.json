@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'upc' is not supported. Local products on cross-border accounts only support price, quantity and status updates.",
+    "result": {}
+}

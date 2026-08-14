@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-27T10:02:02Z",
+    "method": "GET",
+    "endpoint": "product.info.json",
+    "query": {
+        "id": "1729779448494136200",
+        "params": "force_all",
+        "exclude": "u_model,url"
+    }
+}

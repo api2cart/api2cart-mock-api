@@ -1,0 +1,20 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Unbranded Vibrant Party Balloon Set - Multicolor Confetti and Solid Colors",
+        "description": "<p>Bring your celebrations to life with our Vibrant Party Balloon Set! Perfect for any occasion.</p>",
+        "category_id": "600017",
+        "image_url": "https://app.api2cart.com/images/maintenance.png",
+        "quantity": 5,
+        "price": 33.33,
+        "weight": 2.95,
+        "height": 11,
+        "length": 12,
+        "width": 13,
+        "brand_name": "Unbranded",
+        "sku": "test_sku",
+        "manufacturer_ids": "69b400878c0aa58af419c2e0"
+    }
+}

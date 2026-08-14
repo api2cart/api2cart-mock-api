@@ -1,0 +1,61 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 8,
+        "category": [
+            {
+                "id": "600032",
+                "parent_id": "859400",
+                "name": "Vacuum Flasks",
+                "description": null
+            },
+            {
+                "id": "600036",
+                "parent_id": "859400",
+                "name": "Glasses",
+                "description": null
+            },
+            {
+                "id": "600042",
+                "parent_id": "859400",
+                "name": "Mugs",
+                "description": null
+            },
+            {
+                "id": "600047",
+                "parent_id": "859400",
+                "name": "Drinkware Accessories",
+                "description": null
+            },
+            {
+                "id": "600048",
+                "parent_id": "859400",
+                "name": "Water Bottles",
+                "description": null
+            },
+            {
+                "id": "600095",
+                "parent_id": "859400",
+                "name": "Cups & Saucers",
+                "description": null
+            },
+            {
+                "id": "864904",
+                "parent_id": "859400",
+                "name": "Kettles & Jugs",
+                "description": null
+            },
+            {
+                "id": "865032",
+                "parent_id": "859400",
+                "name": "Hip Flasks",
+                "description": null
+            }
+        ]
+    }
+}

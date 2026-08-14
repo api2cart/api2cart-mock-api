@@ -1,0 +1,938 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHLokJAGADgB5pF%2Fcpt0cLoOKPRuOSSdo7BSCGSePrzfVAFA%2FYI7I35EbobDSWLsOvW7SV7eyudtFBWBt48vnkcpA%2Bdap%2Fw6xprd7PJKIvMwqXDtsT%2BcBOW4QLfJTRf6ut85Q13e8P1MWY%2FrEGGw56FnALv9SmK32sz349KjTKhMmosF3WaNp1TpHkmmapcKVTWsFd2TqMbcLTrRYmKKX%2BCNEapFZeuRPwShycOTZAf30LSfs9IsYjpR1l3StK%2FK2yWNiB7qgMtLbrm6B4A2rZJ4w8Cw8AJYoxWXtUm6MXkGD42TnYiCsd8l02zmA%2BHfw%3D%3D"
+    },
+    "result": {
+        "products_count": 8,
+        "product": [
+            {
+                "id": "1730845685455227285",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-5413ab01.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T14:04:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T14:04:31+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729623337306591637",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730845678379567509",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 5,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-2ff273b.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T14:01:32+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T14:01:32+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730845650864015765",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 5,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-de855a91.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T14:00:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T14:00:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730845638394087829",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 5,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-b0405f.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T13:52:04+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T13:52:04+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730845297859660181",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 5,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-d6b897a8.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T12:31:44+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T12:31:44+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730845250212759957",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": null,
+                "categories_ids": [
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-fd682a22.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T12:30:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T12:30:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 17.99,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730833319262849429",
+                "type": "configurable",
+                "u_model": "umbrella_red",
+                "u_sku": "umbrella_red",
+                "name": "Modern Minimalist Wall Clock - Silent Non-Ticking Design updated2",
+                "description": "<p>Stay dry and stylish with our Windproof Compact Travel Umbrella! Designed for durability, this umbrella features a strong, wind-resistant frame and a sleek, portable design, perfect for on-the-go use. Whether you're battling heavy rain or shielding yourself from the sun, our umbrella offers reliable protection and easy portability. Ideal for everyday carry in your bag or car, it opens and closes effortlessly with just the push of a button. Available in a variety of vibrant colors to match your personal style. Don't let the weather catch you unprepared—grab yours today!</p>",
+                "short_description": null,
+                "price": 13.64,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600570"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-4662d2bd.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.245,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-02T09:43:01+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T10:34:16+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "fa2303c71324b9a3bca76b66884e09b8",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "100000",
+                        "product_option_id": "100000",
+                        "name": "Color",
+                        "description": null,
+                        "sort_order": 0,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "6926865453197526786",
+                                "product_option_item_id": "6926865453197526786",
+                                "name": "Red",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131814657",
+                                "product_option_item_id": "6926865445131814657",
+                                "name": "Blue",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131749121",
+                                "product_option_item_id": "6926865445131749121",
+                                "name": "Black",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ],
+                        "additional_fields": {
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "0735006921002",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 38,
+                "height": 13,
+                "length": 37,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 13.64,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729623101520515477",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730803265322650005",
+                "type": "simple",
+                "u_model": "qwerty123",
+                "u_sku": "qwerty123",
+                "name": "Automatic Touchless Soap Dispenser - Sleek & Hygienic Design",
+                "description": "<p><span>Upgrade your hygiene routine with our Automatic Touchless Soap Dispenser. Designed for convenience and cleanliness, this sleek dispenser provides a hands-free experience, reducing the spread of germs. Perfect for kitchens, bathrooms, and workplaces, it dispenses the ideal amount of soap with just a wave of your hand. Easy to refill and maintain, this soap dispenser combines modern technology with style to enhance your space.</span></p><p><span><br></span></p>",
+                "short_description": null,
+                "price": 55.17,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 22,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600416"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-c2871ee3.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.1,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-27T11:27:45+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T10:18:03+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "bfcca1953e3c1bab81aa543e22615e30",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": "012345678905",
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 55,
+                "height": 1,
+                "length": 111,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 55.17,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729609665684148629",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-14T13:26:50Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "return_global": true
+    }
+}

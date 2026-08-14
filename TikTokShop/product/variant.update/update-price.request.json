@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "id": "1729421251089502088",
+        "product_id": "1729421158695407496",
+        "price": 97.18
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "return_code": 114,
+    "return_message": "Parameter 'product_id' must be used together with one of the following parameters: 'url'.",
+    "result": {}
+}

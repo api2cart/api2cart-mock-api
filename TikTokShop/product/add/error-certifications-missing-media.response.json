@@ -1,0 +1,5 @@
+{
+    "return_code": 114,
+    "return_message": "Property 'certifications[0]->images' or 'certifications[0]->files' is required.",
+    "result": {}
+}

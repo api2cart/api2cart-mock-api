@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-23T11:30:20Z",
+    "method": "GET",
+    "endpoint": "return.list.json",
+    "query": {
+        "created_from": "2024-08-27 00:00:00",
+        "created_to": "2024-08-28 23:59:00",
+        "response_fields": "{result{returns{id,name,customer_id,order_id}}}"
+    }
+}

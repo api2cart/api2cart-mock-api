@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1748733090538624753",
+        "status": "deleted",
+        "manufacturer_ids": "69b400878c0aa58af419c2e0"
+    }
+}

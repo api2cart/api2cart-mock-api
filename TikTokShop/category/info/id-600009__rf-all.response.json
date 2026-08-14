@@ -1,0 +1,324 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "600009",
+        "parent_id": "852488",
+        "created_at": null,
+        "modified_at": null,
+        "name": "Festive Decorations",
+        "short_description": null,
+        "description": null,
+        "stores_ids": [
+            "7495811849164131208"
+        ],
+        "keywords": null,
+        "meta_description": null,
+        "meta_title": null,
+        "avail": true,
+        "path": null,
+        "seo_url": null,
+        "sort_order": null,
+        "images": [],
+        "additional_fields": {
+            "permission_statuses": [
+                "AVAILABLE"
+            ],
+            "is_leaf": true,
+            "rules": {
+                "cod": {
+                    "is_supported": false
+                },
+                "epr": {
+                    "is_required": false
+                },
+                "manufacturer": {
+                    "is_required": false
+                },
+                "package_dimension": {
+                    "is_required": false
+                },
+                "product_certifications": [],
+                "responsible_person": {
+                    "is_required": false
+                },
+                "size_chart": {
+                    "is_required": false,
+                    "is_supported": false
+                }
+            },
+            "product_specifics": [
+                {
+                    "id": "100392",
+                    "is_customizable": true,
+                    "is_multiple_selection": true,
+                    "name": "Occasion",
+                    "values": [
+                        {
+                            "id": "1001533",
+                            "name": "Birthday"
+                        },
+                        {
+                            "id": "1001123",
+                            "name": "Wedding"
+                        },
+                        {
+                            "id": "1001122",
+                            "name": "Business"
+                        },
+                        {
+                            "id": "1004280",
+                            "name": "Housewarming"
+                        },
+                        {
+                            "id": "1001531",
+                            "name": "Anniversary"
+                        },
+                        {
+                            "id": "1004278",
+                            "name": "Ceremony"
+                        },
+                        {
+                            "id": "1004276",
+                            "name": "Baby shower"
+                        },
+                        {
+                            "id": "1004281",
+                            "name": "New years eve"
+                        },
+                        {
+                            "id": "1002665",
+                            "name": "Party"
+                        },
+                        {
+                            "id": "1004277",
+                            "name": "Bonfire"
+                        }
+                    ],
+                    "is_required": false
+                },
+                {
+                    "id": "100347",
+                    "is_customizable": true,
+                    "is_multiple_selection": false,
+                    "name": "Quantity per pack",
+                    "values": [
+                        {
+                            "id": "1000256",
+                            "name": "1"
+                        },
+                        {
+                            "id": "1000257",
+                            "name": "2"
+                        },
+                        {
+                            "id": "1000258",
+                            "name": "3"
+                        },
+                        {
+                            "id": "1000347",
+                            "name": "4"
+                        },
+                        {
+                            "id": "1000354",
+                            "name": "5"
+                        },
+                        {
+                            "id": "1000638",
+                            "name": "6"
+                        },
+                        {
+                            "id": "1000355",
+                            "name": "7"
+                        },
+                        {
+                            "id": "1000639",
+                            "name": "8"
+                        },
+                        {
+                            "id": "1000356",
+                            "name": "9"
+                        },
+                        {
+                            "id": "1000357",
+                            "name": "10"
+                        },
+                        {
+                            "id": "1001201",
+                            "name": "11"
+                        },
+                        {
+                            "id": "1001202",
+                            "name": "12"
+                        }
+                    ],
+                    "is_required": false
+                },
+                {
+                    "id": "100898",
+                    "is_customizable": true,
+                    "is_multiple_selection": true,
+                    "name": "Holiday or occasion",
+                    "values": [
+                        {
+                            "id": "1004738",
+                            "name": "New year"
+                        },
+                        {
+                            "id": "1004735",
+                            "name": "Chinese new year"
+                        },
+                        {
+                            "id": "1004736",
+                            "name": "Easter"
+                        },
+                        {
+                            "id": "1003609",
+                            "name": "Christmas"
+                        },
+                        {
+                            "id": "1004741",
+                            "name": "Songkran"
+                        },
+                        {
+                            "id": "1004737",
+                            "name": "Mid-autumn festival"
+                        },
+                        {
+                            "id": "1004734",
+                            "name": "Childrens day"
+                        },
+                        {
+                            "id": "1004742",
+                            "name": "Thanksgiving"
+                        },
+                        {
+                            "id": "1004743",
+                            "name": "Valentines day"
+                        },
+                        {
+                            "id": "1004740",
+                            "name": "Rambu solo"
+                        },
+                        {
+                            "id": "1004739",
+                            "name": "Nyepi"
+                        }
+                    ],
+                    "is_required": false
+                },
+                {
+                    "id": "100701",
+                    "is_customizable": true,
+                    "is_multiple_selection": true,
+                    "name": "Material",
+                    "values": [
+                        {
+                            "id": "1000014",
+                            "name": "Acrylic"
+                        },
+                        {
+                            "icon_url": "https://picsum.photos/seed/66d4dadb/600/600",
+                            "id": "1001399",
+                            "name": "Jade"
+                        },
+                        {
+                            "id": "1004217",
+                            "name": "Mineral"
+                        },
+                        {
+                            "id": "1000020",
+                            "name": "Stone"
+                        },
+                        {
+                            "id": "1000007",
+                            "name": "Plastic"
+                        },
+                        {
+                            "id": "1000006",
+                            "name": "Stainless Steel"
+                        },
+                        {
+                            "id": "1000022",
+                            "name": "Silicone"
+                        },
+                        {
+                            "id": "1000607",
+                            "name": "Ceramic"
+                        },
+                        {
+                            "id": "1000012",
+                            "name": "PVC"
+                        },
+                        {
+                            "id": "1000009",
+                            "name": "ABS"
+                        },
+                        {
+                            "id": "1000008",
+                            "name": "Wood"
+                        },
+                        {
+                            "id": "1000016",
+                            "name": "Rubber"
+                        },
+                        {
+                            "id": "1000030",
+                            "name": "Aluminum"
+                        },
+                        {
+                            "id": "1000034",
+                            "name": "Metal"
+                        },
+                        {
+                            "id": "1000017",
+                            "name": "Glass"
+                        }
+                    ],
+                    "is_required": false
+                },
+                {
+                    "id": "101469",
+                    "is_customizable": true,
+                    "is_multiple_selection": true,
+                    "name": "Safety Warining",
+                    "values": [
+                        {
+                            "id": "1023086",
+                            "name": "Chocking hazard: not suitable for children under 3 years."
+                        },
+                        {
+                            "id": "1023087",
+                            "name": "To be used under the direct supervision of an adult."
+                        },
+                        {
+                            "id": "1023088",
+                            "name": "Not suitable for children under age grade on the package. for use under adult supervision."
+                        },
+                        {
+                            "id": "1023089",
+                            "name": "Protective equipment should be worn. not to be used in traffic."
+                        },
+                        {
+                            "id": "1023090",
+                            "name": "Only to be used in water in which the child is within its depth and under adult supervision."
+                        },
+                        {
+                            "id": "1023091",
+                            "name": "Toy inside. adult supervision recommended."
+                        },
+                        {
+                            "id": "1023092",
+                            "name": "This toy does not provide protection."
+                        },
+                        {
+                            "id": "1023093",
+                            "name": "Contains fragrances that may cause allergies."
+                        }
+                    ],
+                    "is_required": false
+                }
+            ]
+        }
+    }
+}

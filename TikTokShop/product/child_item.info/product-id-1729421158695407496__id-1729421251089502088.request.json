@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-14T12:02:52Z",
+    "method": "GET",
+    "endpoint": "product.child_item.info.json",
+    "query": {
+        "product_id": "1729421158695407496",
+        "id": "1729421251089502088",
+        "response_fields": "{return_code,return_message,result{id,parent_id,name,ean,gtin,upc,isbn,combination,default_price,avail_for_sale,in_stock,manage_stock,inventory_level,inventory,images,additional_fields}}"
+    }
+}

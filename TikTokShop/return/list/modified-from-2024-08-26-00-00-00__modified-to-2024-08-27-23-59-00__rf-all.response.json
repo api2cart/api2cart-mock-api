@@ -1,0 +1,123 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 2,
+        "returns": [
+            {
+                "id": "4035254528888246040",
+                "name": null,
+                "order_id": "576685899086466840",
+                "customer_id": null,
+                "store_id": "7495811849164131208",
+                "created_at": {
+                    "value": "2024-08-26T10:14:41+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-26T10:14:41+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "status": {
+                    "id": "COMPLETED",
+                    "name": "Completed",
+                    "additional_fields": {
+                        "return_order_status": "RETURN_OR_REFUND_REQUEST_COMPLETE"
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685899086597912",
+                        "sku": "test_sku",
+                        "name": "Classic Tool Kit 8",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ],
+                "comment": null,
+                "staff_note": null,
+                "additional_fields": {
+                    "arbitration_status": null,
+                    "role": "SELLER",
+                    "shipment_type": null,
+                    "handover_method": null,
+                    "return_tracking_number": null,
+                    "return_provider_name": null,
+                    "return_provider_id": null,
+                    "can_buyer_keep_item": false,
+                    "return_method": null,
+                    "reject_reasons": []
+                }
+            },
+            {
+                "id": "4035254548710133528",
+                "name": null,
+                "order_id": "576685898439823128",
+                "customer_id": null,
+                "store_id": "7495811849164131208",
+                "created_at": {
+                    "value": "2024-08-27T12:16:18+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-27T12:16:18+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "status": {
+                    "id": "COMPLETED",
+                    "name": "Completed",
+                    "additional_fields": {
+                        "return_order_status": "RETURN_OR_REFUND_REQUEST_COMPLETE"
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685898439954200",
+                        "sku": "cuddlebuddy_fiant_teddy_bear",
+                        "name": "Heavy-Duty Sample Item 230",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ],
+                "comment": null,
+                "staff_note": null,
+                "additional_fields": {
+                    "arbitration_status": null,
+                    "role": "SELLER",
+                    "shipment_type": null,
+                    "handover_method": null,
+                    "return_tracking_number": null,
+                    "return_provider_name": null,
+                    "return_provider_id": null,
+                    "can_buyer_keep_item": false,
+                    "return_method": null,
+                    "reject_reasons": []
+                }
+            }
+        ]
+    }
+}

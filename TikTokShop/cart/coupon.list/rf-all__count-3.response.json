@@ -1,0 +1,190 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHdDoIgGADQB%2FICYiz1soB0X0E10ZS7fpXNVRak8vSdw3E%2F7XGdMAq%2BMIGIwvDQ6Xk52cpBDmK%2BBPHhRlVIqJV9RLIZKdF9%2B4oHhK%2FDOrKpOh3VdpOnt44d3D0iSWnO5USxylioZYZiUMDle%2FTSs6%2BRux%2BAw76VT72I%2Fw%3D%3D"
+    },
+    "result": {
+        "coupon_count": 3,
+        "coupon": [
+            {
+                "id": "7668267723406706454",
+                "code": "SANDKQNISP35",
+                "codes": [],
+                "name": "Promo code 30/07/2026 12:01:24",
+                "description": null,
+                "actions": [
+                    {
+                        "scope": "matching_items",
+                        "apply_to": "item_price",
+                        "amount": 5,
+                        "currency_code": "GBP",
+                        "include_tax": null,
+                        "type": "percent",
+                        "discounted_quantity": null,
+                        "discount_quantity_step": null,
+                        "logic_operator": "AND",
+                        "conditions": [
+                            {
+                                "id": "products",
+                                "entity": "product",
+                                "match_items": null,
+                                "key": "product_id",
+                                "operator": "ONE_OF",
+                                "value": "1729882531289406344,1729883149078010760",
+                                "logic_operator": null,
+                                "sub-conditions": []
+                            }
+                        ]
+                    }
+                ],
+                "date_start": {
+                    "value": "2026-07-30T14:01:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "date_end": {
+                    "value": "2026-08-29T14:01:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "avail": true,
+                "priority": 0,
+                "used_times": 0,
+                "usage_limit": 1,
+                "usage_limit_per_customer": 99999,
+                "logic_operator": "AND",
+                "conditions": [
+                    {
+                        "id": "min_spend",
+                        "entity": "order",
+                        "match_items": null,
+                        "key": "subtotal",
+                        "operator": ">=",
+                        "value": "150",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    }
+                ],
+                "usage_history": []
+            },
+            {
+                "id": "7668256734242424598",
+                "code": "SANDH6I1ZBGB",
+                "codes": [],
+                "name": "Promo code 30/07/2026 12:00:52",
+                "description": null,
+                "actions": [
+                    {
+                        "scope": "matching_items",
+                        "apply_to": "item_price",
+                        "amount": 5,
+                        "currency_code": "GBP",
+                        "include_tax": null,
+                        "type": "percent",
+                        "discounted_quantity": null,
+                        "discount_quantity_step": null,
+                        "logic_operator": "AND",
+                        "conditions": [
+                            {
+                                "id": "products",
+                                "entity": "product",
+                                "match_items": null,
+                                "key": "product_id",
+                                "operator": "ONE_OF",
+                                "value": "1729882531289406344,1729883149078010760",
+                                "logic_operator": null,
+                                "sub-conditions": []
+                            }
+                        ]
+                    }
+                ],
+                "date_start": {
+                    "value": "2026-07-30T14:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "date_end": {
+                    "value": "2026-08-29T14:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "avail": true,
+                "priority": 0,
+                "used_times": 0,
+                "usage_limit": 1,
+                "usage_limit_per_customer": 99999,
+                "logic_operator": "AND",
+                "conditions": [
+                    {
+                        "id": "min_spend",
+                        "entity": "order",
+                        "match_items": null,
+                        "key": "subtotal",
+                        "operator": ">=",
+                        "value": "150",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    }
+                ],
+                "usage_history": []
+            },
+            {
+                "id": "7668256734242408214",
+                "code": "SANDEG7HT8BP",
+                "codes": [],
+                "name": "Promo code 30/07/2026 11:59:42",
+                "description": null,
+                "actions": [
+                    {
+                        "scope": "matching_items",
+                        "apply_to": "item_price",
+                        "amount": 5,
+                        "currency_code": "GBP",
+                        "include_tax": null,
+                        "type": "percent",
+                        "discounted_quantity": null,
+                        "discount_quantity_step": null,
+                        "logic_operator": "AND",
+                        "conditions": [
+                            {
+                                "id": "products",
+                                "entity": "product",
+                                "match_items": null,
+                                "key": "product_id",
+                                "operator": "ONE_OF",
+                                "value": "1729882531289406344,1729883149078010760",
+                                "logic_operator": null,
+                                "sub-conditions": []
+                            }
+                        ]
+                    }
+                ],
+                "date_start": {
+                    "value": "2026-12-31T14:59:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "date_end": {
+                    "value": "2026-12-31T23:59:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "avail": false,
+                "priority": 0,
+                "used_times": 0,
+                "usage_limit": 1,
+                "usage_limit_per_customer": 99999,
+                "logic_operator": "AND",
+                "conditions": [
+                    {
+                        "id": "min_spend",
+                        "entity": "order",
+                        "match_items": null,
+                        "key": "subtotal",
+                        "operator": ">=",
+                        "value": "150",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    }
+                ],
+                "usage_history": []
+            }
+        ]
+    }
+}

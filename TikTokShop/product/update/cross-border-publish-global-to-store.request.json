@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1724896695978745398",
+        "stores_ids": "7495835829029079445",
+        "description": "Product updated!",
+        "sku": "test_product"
+    }
+}

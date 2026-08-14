@@ -1,0 +1,272 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "576929338705943320",
+        "order_id": "576929338705943320",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "7495466881884850968",
+            "email": "user31883@example.com",
+            "first_name": "Riley",
+            "last_name": "Brown",
+            "phone": "+12581107031"
+        },
+        "create_at": {
+            "value": "2026-07-28T12:06:46+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "GBP",
+            "name": "British Pound Sterling",
+            "iso3": "GBP",
+            "symbol_left": "£",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": false
+        },
+        "shipping_address": {
+            "id": "1",
+            "type": "shipping",
+            "first_name": "Riley",
+            "last_name": "Brown",
+            "postcode": "23328",
+            "address1": "761 Example St",
+            "address2": "",
+            "phone": "+12581107031",
+            "phone_mobile": "",
+            "city": "Greenville",
+            "country": {
+                "code2": "GB",
+                "code3": "GBR",
+                "name": "United Kingdom"
+            },
+            "state": null,
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": true,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null,
+            "additional_fields": {
+                "address3": "",
+                "address4": ""
+            }
+        },
+        "billing_address": null,
+        "payment_method": {
+            "name": "Credit/debit card"
+        },
+        "shipping_method": {
+            "name": "Standard shipping"
+        },
+        "shipping_methods": [
+            {
+                "name": "Standard shipping"
+            }
+        ],
+        "status": {
+            "id": "DELIVERED",
+            "name": "Delivered",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 68.94,
+            "subtotal": 64.95,
+            "shipping": 3.99,
+            "tax": 0,
+            "discount": 0
+        },
+        "total": {
+            "subtotal_ex_tax": 64.95,
+            "wrapping_ex_tax": null,
+            "shipping_ex_tax": 3.99,
+            "total_discount": 0,
+            "total_tax": 0,
+            "total": 68.94,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": 0,
+                "subtotal_discount_ex_tax": null,
+                "tax_discount": null,
+                "subtotal_tax": 0,
+                "wrapping_tax": null,
+                "shipping_tax": 0,
+                "seller_discount": 0,
+                "platform_discount": 0,
+                "shipping_fee_seller_discount": 0,
+                "shipping_fee_platform_discount": 0,
+                "buyer_service_fee": 0,
+                "retail_delivery_fee": 0,
+                "small_order_fee": 0
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "1729882440760597384",
+                "order_product_id": "576929338706074392",
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "price_inc_tax": 12.99,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 12.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": 0,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_gift": false,
+                    "combined_skus": []
+                }
+            },
+            {
+                "product_id": "1729882440760597384",
+                "order_product_id": "576929338706139928",
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "price_inc_tax": 12.99,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 12.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": 0,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_gift": false,
+                    "combined_skus": []
+                }
+            },
+            {
+                "product_id": "1729882438163405704",
+                "order_product_id": "576929338706205464",
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "price_inc_tax": 12.99,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 12.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": 0,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_gift": false,
+                    "combined_skus": []
+                }
+            },
+            {
+                "product_id": "1729882438163405704",
+                "order_product_id": "576929338706271000",
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "price_inc_tax": 12.99,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 12.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": 0,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_gift": false,
+                    "combined_skus": []
+                }
+            },
+            {
+                "product_id": "1729882438163405704",
+                "order_product_id": "576929338706336536",
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "price_inc_tax": 12.99,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 12.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": 0,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": null,
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "is_gift": false,
+                    "combined_skus": []
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": {
+            "value": "2026-07-28T12:18:49+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "finished_time": null,
+        "comment": null,
+        "store_id": "7495811849164131208",
+        "warehouses_ids": [
+            "7381927049415739168"
+        ],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "additional_fields": {
+            "fulfillment_type": "FULFILLMENT_BY_SELLER",
+            "delivery_type": "HOME_DELIVERY",
+            "split_or_combine_tag": "",
+            "shipping_type": "TIKTOK",
+            "seller_note": "",
+            "is_cod": false,
+            "need_upload_invoice": "",
+            "cpf": "",
+            "is_sample_order": false,
+            "is_on_hold_order": false,
+            "is_replacement_order": false,
+            "is_buyer_request_cancel": false,
+            "replaced_order_id": "",
+            "delivery_due_time": null,
+            "shipping_due_time": null,
+            "collection_due_time": "2026-08-06 22:59:59",
+            "delivery_option_required_delivery_time": null,
+            "pick_up_cut_off_time": "1972-08-16 08:00:00",
+            "paid_time": "2026-07-28 12:06:46",
+            "cancel_time": null,
+            "delivery_time": "2026-07-28 12:08:50",
+            "collection_time": "2026-07-28 12:08:10"
+        }
+    }
+}

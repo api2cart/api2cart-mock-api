@@ -1,0 +1,68 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 1,
+        "returns": [
+            {
+                "id": "4035298315864152856",
+                "name": null,
+                "order_id": "576929339502730008",
+                "customer_id": null,
+                "store_id": "7495811849164131208",
+                "created_at": {
+                    "value": "2026-07-28T12:20:54+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-07-28T12:24:59+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "status": {
+                    "id": "APPROVED",
+                    "name": "Approved",
+                    "additional_fields": {
+                        "return_order_status": "AWAITING_BUYER_SHIP"
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576929339502861080",
+                        "sku": "toilet_brush1",
+                        "name": "Heavy-Duty Widget 518",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_and_return_reason_no_need_uk",
+                            "name": "No longer needed"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ],
+                "comment": null,
+                "staff_note": null,
+                "additional_fields": {
+                    "arbitration_status": null,
+                    "role": "BUYER",
+                    "shipment_type": "PLATFORM",
+                    "handover_method": "DROP_OFF",
+                    "return_tracking_number": "H020AA0316156591",
+                    "return_provider_name": "EVRi",
+                    "return_provider_id": "6599541761693270018",
+                    "can_buyer_keep_item": false,
+                    "return_method": "PLATFORM_SHIPPED",
+                    "reject_reasons": []
+                }
+            }
+        ]
+    }
+}

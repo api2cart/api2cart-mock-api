@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "The value of the product identifier code (upc,ean,gtin or isbn) cannot be updated after the value has already been set.",
+    "result": {}
+}

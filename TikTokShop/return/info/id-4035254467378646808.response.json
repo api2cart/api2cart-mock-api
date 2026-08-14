@@ -1,0 +1,26 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "4035254467378646808",
+        "order_products": [
+            {
+                "product_id": null,
+                "order_product_id": "576685379440054040",
+                "sku": "",
+                "name": "Classic Tool Kit 8",
+                "quantity": 1,
+                "reason": {
+                    "id": "seller_ecom_delivered_return_refund_reason1_uk",
+                    "name": "No longer needed"
+                },
+                "action": {
+                    "id": "REFUND",
+                    "name": "Refund"
+                },
+                "condition": null,
+                "customer_comment": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "test product",
+        "description": "test",
+        "category_id": "700699",
+        "image_url": "https://app.api2cart.com/images/maintenance.png",
+        "quantity": 1,
+        "price": 12.99,
+        "weight": 1.1,
+        "height": 1.1,
+        "length": 1.1,
+        "width": 1.1,
+        "brand_name": "test",
+        "certifications": [
+            {
+                "id": ""
+            }
+        ]
+    }
+}

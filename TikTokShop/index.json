@@ -1,0 +1,1797 @@
+{
+    "integration": "TikTokShop",
+    "generated_at": "2026-08-14T13:30:11Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.coupon.count",
+            "path": "cart/coupon.count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/coupon.count/basic.request.json",
+                    "response": "cart/coupon.count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: count available coupons"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.coupon.list",
+            "path": "cart/coupon.list",
+            "cases": [
+                {
+                    "slug": "rf-all__count-3",
+                    "request": "cart/coupon.list/rf-all__count-3.request.json",
+                    "response": "cart/coupon.list/rf-all__count-3.response.json",
+                    "covers": {
+                        "description": "full coupon shape via response_fields={*}: percent-off action scoped to specific product ids, min-spend order condition"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: entity information without filters"
+                    },
+                    "captured_at": "2026-07-27T10:02:01Z"
+                },
+                {
+                    "slug": "params-force-all__exclude-stores-info",
+                    "request": "cart/info/params-force-all__exclude-stores-info.request.json",
+                    "response": "cart/info/params-force-all__exclude-stores-info.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-27T10:02:01Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-07-27T10:02:01Z"
+                },
+                {
+                    "slug": "rf-name",
+                    "request": "cart/info/rf-name.request.json",
+                    "response": "cart/info/rf-name.response.json",
+                    "covers": {
+                        "description": "field selection: name"
+                    },
+                    "captured_at": "2026-07-27T10:02:01Z"
+                },
+                {
+                    "slug": "rf-url-additional-fields",
+                    "request": "cart/info/rf-url-additional-fields.request.json",
+                    "response": "cart/info/rf-url-additional-fields.response.json",
+                    "covers": {
+                        "description": "field selection: url,additional_fields"
+                    },
+                    "captured_at": "2026-07-27T10:02:01Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.count",
+            "path": "category/count",
+            "cases": [
+                {
+                    "slug": "avail-false",
+                    "request": "category/count/avail-false.request.json",
+                    "response": "category/count/avail-false.response.json",
+                    "covers": {
+                        "description": "filter: unavailable categories"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "category/count/basic.request.json",
+                    "response": "category/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: count all available categories"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                },
+                {
+                    "slug": "parent-id-859400",
+                    "request": "category/count/parent-id-859400.request.json",
+                    "response": "category/count/parent-id-859400.response.json",
+                    "covers": {
+                        "description": "count: number of subcategories under a single branch of the catalogue tree"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: required id is missing"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "id-600009__rf-all",
+                    "request": "category/info/id-600009__rf-all.request.json",
+                    "response": "category/info/id-600009__rf-all.response.json",
+                    "covers": {
+                        "description": "full category shape incl. certification/manufacturer/size_chart rules and product_specifics enums required by this category for product.add"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/list/basic.request.json",
+                    "response": "category/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: default category list (narrow default fields)"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-mugs",
+                    "request": "category/list/find-where-name__find-value-mugs.request.json",
+                    "response": "category/list/find-where-name__find-value-mugs.response.json",
+                    "covers": {
+                        "description": "search: categories matched by a term in their name"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                },
+                {
+                    "slug": "parent-id-859400",
+                    "request": "category/list/parent-id-859400.request.json",
+                    "response": "category/list/parent-id-859400.response.json",
+                    "covers": {
+                        "description": "hierarchy: immediate child categories of one branch of the catalogue tree"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                },
+                {
+                    "slug": "rf-all__count-2",
+                    "request": "category/list/rf-all__count-2.request.json",
+                    "response": "category/list/rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "full category shape via response_fields={*}"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.count",
+            "path": "order/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/count/basic.request.json",
+                    "response": "order/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: count all orders"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/info/error-no-params.request.json",
+                    "response": "order/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: required id is missing"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/info/error-not-found.request.json",
+                    "response": "order/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "order-id-576929338705943320__rf-all",
+                    "request": "order/info/order-id-576929338705943320__rf-all.request.json",
+                    "response": "order/info/order-id-576929338705943320__rf-all.response.json",
+                    "covers": {
+                        "description": "full order payload: delivered order with five line items, masked buyer/address data, currency block, totals breakdown and platform-specific fulfilment timestamps"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                },
+                {
+                    "slug": "order-id-576929338705943320__rounding-precision-2",
+                    "request": "order/info/order-id-576929338705943320__rounding-precision-2.request.json",
+                    "response": "order/info/order-id-576929338705943320__rounding-precision-2.response.json",
+                    "covers": {
+                        "description": "numeric formatting: rounding_precision=2 is accepted but is a no-op for this order -- its amounts already carry at most two decimals, so the body is identical to the case without the parameter; the difference only shows on amounts with more decimals (try precision=1)"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "baseline: default order list page with no filters applied"
+                    },
+                    "captured_at": "2026-08-14T08:05:41Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/list/error-invalid-param.request.json",
+                    "response": "order/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "order-ids-576929332424383256-576929338705943320",
+                    "request": "order/list/order-ids-576929332424383256-576929338705943320.request.json",
+                    "response": "order/list/order-ids-576929332424383256-576929338705943320.response.json",
+                    "covers": {
+                        "description": "filter: multiple specific order ids in one call -- closes the id chain from order.count/order.list into order.info/order.shipment.* (both ids are addressed individually by those methods)"
+                    },
+                    "captured_at": "2026-08-14T13:26:50Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "order/list/page-2.request.json",
+                    "response": "order/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: the following page of orders, reached with the cursor returned by the previous page"
+                    },
+                    "captured_at": "2026-08-14T08:12:44Z"
+                },
+                {
+                    "slug": "rf-all__count-2",
+                    "request": "order/list/rf-all__count-2.request.json",
+                    "response": "order/list/rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "order payload: full field set of a small two-order page, with totals, refunds, line items and platform-specific extras"
+                    },
+                    "captured_at": "2026-08-14T08:12:44Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.return.add",
+            "path": "order/return.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/return.add/basic.request.json",
+                    "response": "order/return.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: create a refund return request for one order product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-already-returned",
+                    "request": "order/return.add/error-already-returned.request.json",
+                    "response": "order/return.add/error-already-returned.response.json",
+                    "covers": {
+                        "description": "store rule: order product has already been returned"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-exchange-not-supported",
+                    "request": "order/return.add/error-exchange-not-supported.request.json",
+                    "response": "order/return.add/error-exchange-not-supported.response.json",
+                    "covers": {
+                        "description": "store rule: return_action_id=EXCHANGE is not supported by this integration"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/return.add/error-no-params.request.json",
+                    "response": "order/return.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> order_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-order-product-not-found",
+                    "request": "order/return.add/error-order-product-not-found.request.json",
+                    "response": "order/return.add/error-order-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: order_product_id_1 does not exist on this order"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-order-product-required",
+                    "request": "order/return.add/error-order-product-required.request.json",
+                    "response": "order/return.add/error-order-product-required.response.json",
+                    "covers": {
+                        "description": "validation: valid status/reason/action but no order_product_id_{x} -> required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-return-action-not-found",
+                    "request": "order/return.add/error-return-action-not-found.request.json",
+                    "response": "order/return.add/error-return-action-not-found.response.json",
+                    "covers": {
+                        "description": "not found: return_action_id value does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-return-reason-not-found",
+                    "request": "order/return.add/error-return-reason-not-found.request.json",
+                    "response": "order/return.add/error-return-reason-not-found.response.json",
+                    "covers": {
+                        "description": "not found: return_reason_id value does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-return-status-required",
+                    "request": "order/return.add/error-return-status-required.request.json",
+                    "response": "order/return.add/error-return-status-required.response.json",
+                    "covers": {
+                        "description": "validation: order_id only -> return_status_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.return.update",
+            "path": "order/return.update",
+            "cases": [
+                {
+                    "slug": "approve",
+                    "request": "order/return.update/approve.request.json",
+                    "response": "order/return.update/approve.response.json",
+                    "covers": {
+                        "description": "happy path: approve a pending return"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-return-id",
+                    "request": "order/return.update/error-empty-return-id.request.json",
+                    "response": "order/return.update/error-empty-return-id.response.json",
+                    "covers": {
+                        "description": "validation: empty return_id"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-staff-note",
+                    "request": "order/return.update/error-empty-staff-note.request.json",
+                    "response": "order/return.update/error-empty-staff-note.response.json",
+                    "covers": {
+                        "description": "validation: empty staff_note"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-invalid-status-transition",
+                    "request": "order/return.update/error-invalid-status-transition.request.json",
+                    "response": "order/return.update/error-invalid-status-transition.response.json",
+                    "covers": {
+                        "description": "store rule: return in status 'Approved' can only move to COMPLETED"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/return.update/error-no-params.request.json",
+                    "response": "order/return.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> return_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-reject-reason-requires-rejected",
+                    "request": "order/return.update/error-reject-reason-requires-rejected.request.json",
+                    "response": "order/return.update/error-reject-reason-requires-rejected.response.json",
+                    "covers": {
+                        "description": "validation: reject_reason sent without return_status_id=REJECTED"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-return-status-not-found",
+                    "request": "order/return.update/error-return-status-not-found.request.json",
+                    "response": "order/return.update/error-return-status-not-found.response.json",
+                    "covers": {
+                        "description": "not found: return_status_id value does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-terminal-status-cannot-change",
+                    "request": "order/return.update/error-terminal-status-cannot-change.request.json",
+                    "response": "order/return.update/error-terminal-status-cannot-change.response.json",
+                    "covers": {
+                        "description": "store rule: a return already in a terminal status (Completed) cannot be transitioned further"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "reject-with-reason",
+                    "request": "order/return.update/reject-with-reason.request.json",
+                    "response": "order/return.update/reject-with-reason.response.json",
+                    "covers": {
+                        "description": "reject a return with reject_reason and staff_note"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.info",
+            "path": "order/shipment.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.info/error-no-params.request.json",
+                    "response": "order/shipment.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: required id is missing"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.info/error-not-found.request.json",
+                    "response": "order/shipment.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "id-1154261833533201176__order-id-576929338705943320",
+                    "request": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.request.json",
+                    "response": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.response.json",
+                    "covers": {
+                        "description": "single entity looked up by id"
+                    },
+                    "captured_at": "2026-07-29T18:48:57Z"
+                },
+                {
+                    "slug": "id-1154261833533201176__order-id-576929338705943320__rf-all",
+                    "request": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320__rf-all.request.json",
+                    "response": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320__rf-all.response.json",
+                    "covers": {
+                        "description": "single shipment detail: tracking, provider, delivery option and package status for one package taken from the order shipment list"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "order-id-576929332424383256",
+                    "request": "order/shipment.list/order-id-576929332424383256.request.json",
+                    "response": "order/shipment.list/order-id-576929332424383256.response.json",
+                    "covers": {
+                        "description": "filtered export [order_id=576929332424383256]"
+                    },
+                    "captured_at": "2026-07-29T18:48:57Z"
+                },
+                {
+                    "slug": "order-id-576929338705943320",
+                    "request": "order/shipment.list/order-id-576929338705943320.request.json",
+                    "response": "order/shipment.list/order-id-576929338705943320.response.json",
+                    "covers": {
+                        "description": "filtered export [order_id=576929338705943320]"
+                    },
+                    "captured_at": "2026-07-29T18:48:57Z"
+                },
+                {
+                    "slug": "order-id-576929338705943320__rf-all",
+                    "request": "order/shipment.list/order-id-576929338705943320__rf-all.request.json",
+                    "response": "order/shipment.list/order-id-576929338705943320__rf-all.response.json",
+                    "covers": {
+                        "description": "shipments of a fulfilled order: single shipped package with carrier tracking number, warehouse and the order line items it contains"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "the nine order statuses this store accepts, as order.list/order.update expect them"
+                    },
+                    "captured_at": "2026-08-14T12:02:51Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.update",
+            "path": "order/update",
+            "cases": [
+                {
+                    "slug": "cancel-order",
+                    "request": "order/update/cancel-order.request.json",
+                    "response": "order/update/cancel-order.response.json",
+                    "covers": {
+                        "description": "happy path: cancel order with a required cancellation_reason"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cancellation-reason-required",
+                    "request": "order/update/error-cancellation-reason-required.request.json",
+                    "response": "order/update/error-cancellation-reason-required.response.json",
+                    "covers": {
+                        "description": "validation: order_status=UNPAID -> cancellation_reason required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-order-id",
+                    "request": "order/update/error-empty-order-id.request.json",
+                    "response": "order/update/error-empty-order-id.response.json",
+                    "covers": {
+                        "description": "validation: empty order_id"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-invalid-cancellation-reason",
+                    "request": "order/update/error-invalid-cancellation-reason.request.json",
+                    "response": "order/update/error-invalid-cancellation-reason.response.json",
+                    "covers": {
+                        "description": "validation: cancellation_reason not one of the allowed enum values"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/update/error-no-params.request.json",
+                    "response": "order/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> order_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-only-cancelled-supported",
+                    "request": "order/update/error-only-cancelled-supported.request.json",
+                    "response": "order/update/error-only-cancelled-supported.response.json",
+                    "covers": {
+                        "description": "store rule: order_status other than CANCELLED is rejected even with a valid cancellation_reason"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-order-status-not-found",
+                    "request": "order/update/error-order-status-not-found.request.json",
+                    "response": "order/update/error-order-status-not-found.response.json",
+                    "covers": {
+                        "description": "not found: order_status value does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add product with certifications and specifics required by its category"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "cross-border-basic",
+                    "request": "product/add/cross-border-basic.request.json",
+                    "response": "product/add/cross-border-basic.response.json",
+                    "covers": {
+                        "description": "cross-border account: creates a GLOBAL product by default (no stores_ids)"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "cross-border-publish-to-store",
+                    "request": "product/add/cross-border-publish-to-store.request.json",
+                    "response": "product/add/cross-border-publish-to-store.response.json",
+                    "covers": {
+                        "description": "cross-border account: create a global product and immediately publish it to a specific region store via stores_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-brand-not-found",
+                    "request": "product/add/error-brand-not-found.request.json",
+                    "response": "product/add/error-brand-not-found.response.json",
+                    "covers": {
+                        "description": "not found: brand_name does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-category-mismatch",
+                    "request": "product/add/error-category-mismatch.request.json",
+                    "response": "product/add/error-category-mismatch.response.json",
+                    "covers": {
+                        "description": "store rule: name/description/specifics do not match the specified category"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-category-not-found",
+                    "request": "product/add/error-category-not-found.request.json",
+                    "response": "product/add/error-category-not-found.response.json",
+                    "covers": {
+                        "description": "not found: category_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-certifications-empty",
+                    "request": "product/add/error-certifications-empty.request.json",
+                    "response": "product/add/error-certifications-empty.response.json",
+                    "covers": {
+                        "description": "validation: empty certifications array"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-certifications-missing-media",
+                    "request": "product/add/error-certifications-missing-media.request.json",
+                    "response": "product/add/error-certifications-missing-media.response.json",
+                    "covers": {
+                        "description": "validation: certification without images or files"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-certifications-required",
+                    "request": "product/add/error-certifications-required.request.json",
+                    "response": "product/add/error-certifications-required.response.json",
+                    "covers": {
+                        "description": "store rule: category requires certifications the request omitted"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-delivery-option-ids-not-supported",
+                    "request": "product/add/error-cross-border-delivery-option-ids-not-supported.request.json",
+                    "response": "product/add/error-cross-border-delivery-option-ids-not-supported.response.json",
+                    "covers": {
+                        "description": "cross-border account: delivery_option_ids is a local-account-only field"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-empty-stores-ids",
+                    "request": "product/add/error-cross-border-empty-stores-ids.request.json",
+                    "response": "product/add/error-cross-border-empty-stores-ids.response.json",
+                    "covers": {
+                        "description": "cross-border account: validation: empty stores_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-status-not-supported",
+                    "request": "product/add/error-cross-border-status-not-supported.request.json",
+                    "response": "product/add/error-cross-border-status-not-supported.response.json",
+                    "covers": {
+                        "description": "cross-border account: status is a local-account-only field"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-store-not-found",
+                    "request": "product/add/error-cross-border-store-not-found.request.json",
+                    "response": "product/add/error-cross-border-store-not-found.response.json",
+                    "covers": {
+                        "description": "cross-border account: not found: stores_ids store does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-name",
+                    "request": "product/add/error-empty-name.request.json",
+                    "response": "product/add/error-empty-name.response.json",
+                    "covers": {
+                        "description": "validation: empty name"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-description",
+                    "request": "product/add/error-no-description.request.json",
+                    "response": "product/add/error-no-description.response.json",
+                    "covers": {
+                        "description": "validation: name only -> description required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> name required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "with-ean-and-multiple-manufacturers",
+                    "request": "product/add/with-ean-and-multiple-manufacturers.request.json",
+                    "response": "product/add/with-ean-and-multiple-manufacturers.response.json",
+                    "covers": {
+                        "description": "add product with ean, certification files, multiple specifics values, and comma-separated manufacturer_ids/responsible_person_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "with-manufacturer-ids",
+                    "request": "product/add/with-manufacturer-ids.request.json",
+                    "response": "product/add/with-manufacturer-ids.response.json",
+                    "covers": {
+                        "description": "add product without certifications (not required by this category), with manufacturer_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.brand.list",
+            "path": "product/brand.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/brand.list/error-invalid-param.request.json",
+                    "response": "product/brand.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "rf-all__count-5",
+                    "request": "product/brand.list/rf-all__count-5.request.json",
+                    "response": "product/brand.list/rf-all__count-5.response.json",
+                    "covers": {
+                        "description": "happy path: full brand shape via response_fields={*}"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.info",
+            "path": "product/child_item.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/child_item.info/error-no-params.request.json",
+                    "response": "product/child_item.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: required id is missing"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/child_item.info/error-not-found.request.json",
+                    "response": "product/child_item.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "product-id-1729421158695407496__id-1729421251089502088",
+                    "request": "product/child_item.info/product-id-1729421158695407496__id-1729421251089502088.request.json",
+                    "response": "product/child_item.info/product-id-1729421158695407496__id-1729421251089502088.response.json",
+                    "covers": {
+                        "description": "one variant addressed by parent product_id + its own id, showing the ean-vs-gtin split across siblings"
+                    },
+                    "captured_at": "2026-08-14T12:02:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.list",
+            "path": "product/child_item.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/child_item.list/error-invalid-param.request.json",
+                    "response": "product/child_item.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/child_item.list/page-2.request.json",
+                    "response": "product/child_item.list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: next variant page; the cursor must be sent alone -- it conflicts even with product_id, which is otherwise required for this method"
+                    },
+                    "captured_at": "2026-08-14T12:02:51Z"
+                },
+                {
+                    "slug": "product-id-1729421158695407496__rf-all__count-2",
+                    "request": "product/child_item.list/product-id-1729421158695407496__rf-all__count-2.request.json",
+                    "response": "product/child_item.list/product-id-1729421158695407496__rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "full variant shape: page 1 of a 9-variant hoodie, per-warehouse inventory and option combinations"
+                    },
+                    "captured_at": "2026-08-14T12:02:51Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: every local product in the store"
+                    },
+                    "captured_at": "2026-08-14T12:05:17Z"
+                },
+                {
+                    "slug": "created-from-2024-08-06-01-00-00",
+                    "request": "product/count/created-from-2024-08-06-01-00-00.request.json",
+                    "response": "product/count/created-from-2024-08-06-01-00-00.response.json",
+                    "covers": {
+                        "description": "filter: only products created on or after the given date (43 of 93)"
+                    },
+                    "captured_at": "2026-08-14T12:05:17Z"
+                },
+                {
+                    "slug": "created-to-2024-08-06-01-00-00",
+                    "request": "product/count/created-to-2024-08-06-01-00-00.request.json",
+                    "response": "product/count/created-to-2024-08-06-01-00-00.response.json",
+                    "covers": {
+                        "description": "filter: only products created on or before the given date"
+                    },
+                    "captured_at": "2026-08-14T13:26:50Z"
+                },
+                {
+                    "slug": "modified-from-2024-08-06-01-00-00",
+                    "request": "product/count/modified-from-2024-08-06-01-00-00.request.json",
+                    "response": "product/count/modified-from-2024-08-06-01-00-00.response.json",
+                    "covers": {
+                        "description": "filter: only products modified on or after the given date"
+                    },
+                    "captured_at": "2026-08-14T13:26:50Z"
+                },
+                {
+                    "slug": "modified-to-2024-08-06-01-00-00",
+                    "request": "product/count/modified-to-2024-08-06-01-00-00.request.json",
+                    "response": "product/count/modified-to-2024-08-06-01-00-00.response.json",
+                    "covers": {
+                        "description": "filter: only products modified on or before the given date"
+                    },
+                    "captured_at": "2026-08-14T13:26:50Z"
+                },
+                {
+                    "slug": "return-global-true",
+                    "request": "product/count/return-global-true.request.json",
+                    "response": "product/count/return-global-true.response.json",
+                    "covers": {
+                        "description": "filter: return_global is accepted on a non-cross-border account and returns 0 rather than erroring -- this account has no global products by definition (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-14T13:26:50Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.add",
+            "path": "product/image.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/image.add/basic.request.json",
+                    "response": "product/image.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add product image by url"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "cross-border-basic",
+                    "request": "product/image.add/cross-border-basic.request.json",
+                    "response": "product/image.add/cross-border-basic.response.json",
+                    "covers": {
+                        "description": "cross-border account: add image to a global product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-not-supported-for-local-product",
+                    "request": "product/image.add/error-cross-border-not-supported-for-local-product.request.json",
+                    "response": "product/image.add/error-cross-border-not-supported-for-local-product.response.json",
+                    "covers": {
+                        "description": "cross-border account: product.image.add is not supported for local products"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-url",
+                    "request": "product/image.add/error-empty-url.request.json",
+                    "response": "product/image.add/error-empty-url.response.json",
+                    "covers": {
+                        "description": "validation: empty url"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-invalid-url",
+                    "request": "product/image.add/error-invalid-url.request.json",
+                    "response": "product/image.add/error-invalid-url.response.json",
+                    "covers": {
+                        "description": "validation: url is not a valid URL"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.add/error-no-params.request.json",
+                    "response": "product/image.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-product-id-without-url",
+                    "request": "product/image.add/error-product-id-without-url.request.json",
+                    "response": "product/image.add/error-product-id-without-url.response.json",
+                    "covers": {
+                        "description": "validation: product_id without url"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-product-not-found",
+                    "request": "product/image.add/error-product-not-found.request.json",
+                    "response": "product/image.add/error-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.delete",
+            "path": "product/image.delete",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/image.delete/basic.request.json",
+                    "response": "product/image.delete/basic.response.json",
+                    "covers": {
+                        "description": "happy path: delete one image, addressed by the 32-char hex id product.info lists under images[]"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-id",
+                    "request": "product/image.delete/error-no-id.request.json",
+                    "response": "product/image.delete/error-no-id.response.json",
+                    "covers": {
+                        "description": "validation: product_id only -> id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.delete/error-no-params.request.json",
+                    "response": "product/image.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/image.delete/error-not-found.request.json",
+                    "response": "product/image.delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: image id is well-formed but not present on this product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "cross-border-id-1729623101520515477",
+                    "request": "product/info/cross-border-id-1729623101520515477.request.json",
+                    "response": "product/info/cross-border-id-1729623101520515477.response.json",
+                    "covers": {
+                        "description": "cross-border account: filtered export [id=1729623101520515477]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-id-1730833319262849429",
+                    "request": "product/info/cross-border-id-1730833319262849429.request.json",
+                    "response": "product/info/cross-border-id-1730833319262849429.response.json",
+                    "covers": {
+                        "description": "cross-border account: filtered export [id=1730833319262849429]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-id-1730851646624663957__params-force-all__exclude-u-model-url",
+                    "request": "product/info/cross-border-id-1730851646624663957__params-force-all__exclude-u-model-url.request.json",
+                    "response": "product/info/cross-border-id-1730851646624663957__params-force-all__exclude-u-model-url.response.json",
+                    "covers": {
+                        "description": "cross-border account: filtered export [id=1730851646624663957]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: required id is missing"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "id-1729421158695407496",
+                    "request": "product/info/id-1729421158695407496.request.json",
+                    "response": "product/info/id-1729421158695407496.response.json",
+                    "covers": {
+                        "description": "happy path: entity information by id"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "id-1729779434174126984__rf-all",
+                    "request": "product/info/id-1729779434174126984__rf-all.request.json",
+                    "response": "product/info/id-1729779434174126984__rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "id-1729779448494136200__params-force-all__exclude-u-model-url",
+                    "request": "product/info/id-1729779448494136200__params-force-all__exclude-u-model-url.request.json",
+                    "response": "product/info/id-1729779448494136200__params-force-all__exclude-u-model-url.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "created-from-2024-08-06-01-00-00__rf-all",
+                    "request": "product/list/created-from-2024-08-06-01-00-00__rf-all.request.json",
+                    "response": "product/list/created-from-2024-08-06-01-00-00__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: created_from (lower bound) [created_from=2024-08-06 01:00:00]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "created-to-2024-08-06-01-00-00__rf-all",
+                    "request": "product/list/created-to-2024-08-06-01-00-00__rf-all.request.json",
+                    "response": "product/list/created-to-2024-08-06-01-00-00__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: created_to (upper bound)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-rf-all",
+                    "request": "product/list/cross-border-rf-all.request.json",
+                    "response": "product/list/cross-border-rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields [no sku]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-rf-all__product-ids-1730833319262849429",
+                    "request": "product/list/cross-border-rf-all__product-ids-1730833319262849429.request.json",
+                    "response": "product/list/cross-border-rf-all__product-ids-1730833319262849429.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [no return_global] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:30:20Z"
+                },
+                {
+                    "slug": "cross-border-rf-all__return-global-true__count-3",
+                    "request": "product/list/cross-border-rf-all__return-global-true__count-3.request.json",
+                    "response": "product/list/cross-border-rf-all__return-global-true__count-3.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-rf-all__return-global-true__created-from-2024-09-05-00-00-00",
+                    "request": "product/list/cross-border-rf-all__return-global-true__created-from-2024-09-05-00-00-00.request.json",
+                    "response": "product/list/cross-border-rf-all__return-global-true__created-from-2024-09-05-00-00-00.response.json",
+                    "covers": {
+                        "description": "filter: created_from (lower bound) [created_from=2024-09-05 00:00:00]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-rf-all__return-global-true__modified-to-2024-09-05-00-00-00",
+                    "request": "product/list/cross-border-rf-all__return-global-true__modified-to-2024-09-05-00-00-00.request.json",
+                    "response": "product/list/cross-border-rf-all__return-global-true__modified-to-2024-09-05-00-00-00.response.json",
+                    "covers": {
+                        "description": "filter: modified_to (upper bound) [return_global=true]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "cross-border-rf-all__return-global-true__product-ids-1730833319262849429",
+                    "request": "product/list/cross-border-rf-all__return-global-true__product-ids-1730833319262849429.request.json",
+                    "response": "product/list/cross-border-rf-all__return-global-true__product-ids-1730833319262849429.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [return_global=true]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "modified-from-2024-08-06-01-00-00__rf-all",
+                    "request": "product/list/modified-from-2024-08-06-01-00-00__rf-all.request.json",
+                    "response": "product/list/modified-from-2024-08-06-01-00-00__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: modified_from (lower bound)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "modified-to-2024-08-06-01-00-00__rf-all",
+                    "request": "product/list/modified-to-2024-08-06-01-00-00__rf-all.request.json",
+                    "response": "product/list/modified-to-2024-08-06-01-00-00__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: modified_to (upper bound) [no return_global]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/list/page-2.request.json",
+                    "response": "product/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "params-force-all__exclude-u-model-url__count-3",
+                    "request": "product/list/params-force-all__exclude-u-model-url__count-3.request.json",
+                    "response": "product/list/params-force-all__exclude-u-model-url__count-3.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "sku-test-product__rf-all",
+                    "request": "product/list/sku-test-product__rf-all.request.json",
+                    "response": "product/list/sku-test-product__rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields [sku=test product]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "cross-border-publish-global-to-store",
+                    "request": "product/update/cross-border-publish-global-to-store.request.json",
+                    "response": "product/update/cross-border-publish-global-to-store.response.json",
+                    "covers": {
+                        "description": "cross-border account: publish an existing global product to a region store while also updating description/sku"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "cross-border-update-global-fields",
+                    "request": "product/update/cross-border-update-global-fields.request.json",
+                    "response": "product/update/cross-border-update-global-fields.response.json",
+                    "covers": {
+                        "description": "cross-border account: update global product fields (name/dimensions) -- propagates to all its local products"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "dimensions",
+                    "request": "product/update/dimensions.request.json",
+                    "response": "product/update/dimensions.response.json",
+                    "covers": {
+                        "description": "update weight, height, length and width together"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-already-published",
+                    "request": "product/update/error-cross-border-already-published.request.json",
+                    "response": "product/update/error-cross-border-already-published.response.json",
+                    "covers": {
+                        "description": "cross-border account: publishing a global product to a region store it is already published at"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-height-must-be-positive",
+                    "request": "product/update/error-cross-border-height-must-be-positive.request.json",
+                    "response": "product/update/error-cross-border-height-must-be-positive.response.json",
+                    "covers": {
+                        "description": "cross-border account: validation: height must be greater than 0"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-identifier-already-set",
+                    "request": "product/update/error-cross-border-identifier-already-set.request.json",
+                    "response": "product/update/error-cross-border-identifier-already-set.response.json",
+                    "covers": {
+                        "description": "cross-border account: identifier code (upc/ean/gtin/isbn) cannot be changed once set"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-local-product-field-not-supported",
+                    "request": "product/update/error-cross-border-local-product-field-not-supported.request.json",
+                    "response": "product/update/error-cross-border-local-product-field-not-supported.response.json",
+                    "covers": {
+                        "description": "cross-border account: local products only support price/quantity/status updates -- every other field is rejected"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-local-product-quantity-only-simple",
+                    "request": "product/update/error-cross-border-local-product-quantity-only-simple.request.json",
+                    "response": "product/update/error-cross-border-local-product-quantity-only-simple.response.json",
+                    "covers": {
+                        "description": "cross-border account: quantity is not updatable on a CONFIGURABLE local product (simple products only)"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-price-on-global",
+                    "request": "product/update/error-cross-border-price-on-global.request.json",
+                    "response": "product/update/error-cross-border-price-on-global.response.json",
+                    "covers": {
+                        "description": "cross-border account: price is not updatable on a global product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-quantity-on-global",
+                    "request": "product/update/error-cross-border-quantity-on-global.request.json",
+                    "response": "product/update/error-cross-border-quantity-on-global.response.json",
+                    "covers": {
+                        "description": "cross-border account: quantity is not updatable on a global product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-sku-only-simple-products",
+                    "request": "product/update/error-cross-border-sku-only-simple-products.request.json",
+                    "response": "product/update/error-cross-border-sku-only-simple-products.response.json",
+                    "covers": {
+                        "description": "cross-border account: sku is not updatable on a CONFIGURABLE global product (simple products only)"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-cross-border-status-on-global",
+                    "request": "product/update/error-cross-border-status-on-global.request.json",
+                    "response": "product/update/error-cross-border-status-on-global.response.json",
+                    "covers": {
+                        "description": "cross-border account: status is not updatable on a global product"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-deleted-cannot-update",
+                    "request": "product/update/error-deleted-cannot-update.request.json",
+                    "response": "product/update/error-deleted-cannot-update.response.json",
+                    "covers": {
+                        "description": "store rule: a product with status 'deleted' cannot be updated further"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/update/error-empty-id.request.json",
+                    "response": "product/update/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-empty-sku",
+                    "request": "product/update/error-empty-sku.request.json",
+                    "response": "product/update/error-empty-sku.response.json",
+                    "covers": {
+                        "description": "validation: empty sku"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/update/error-invalid-price.request.json",
+                    "response": "product/update/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-store-not-found",
+                    "request": "product/update/error-store-not-found.request.json",
+                    "response": "product/update/error-store-not-found.response.json",
+                    "covers": {
+                        "description": "not found: store_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-warehouse-not-found",
+                    "request": "product/update/error-warehouse-not-found.request.json",
+                    "response": "product/update/error-warehouse-not-found.response.json",
+                    "covers": {
+                        "description": "not found: warehouse_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "quantity-and-price",
+                    "request": "product/update/quantity-and-price.request.json",
+                    "response": "product/update/quantity-and-price.response.json",
+                    "covers": {
+                        "description": "update quantity and price together"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "rename-with-responsible-person-ids",
+                    "request": "product/update/rename-with-responsible-person-ids.request.json",
+                    "response": "product/update/rename-with-responsible-person-ids.response.json",
+                    "covers": {
+                        "description": "rename product and attach responsible_person_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "sku-and-upc",
+                    "request": "product/update/sku-and-upc.request.json",
+                    "response": "product/update/sku-and-upc.response.json",
+                    "covers": {
+                        "description": "update sku and set upc (identifier not yet set on this product)"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "status-deleted-with-manufacturer-ids",
+                    "request": "product/update/status-deleted-with-manufacturer-ids.request.json",
+                    "response": "product/update/status-deleted-with-manufacturer-ids.response.json",
+                    "covers": {
+                        "description": "set product status to deleted and attach manufacturer_ids"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.update",
+            "path": "product/variant.update",
+            "cases": [
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/variant.update/error-empty-id.request.json",
+                    "response": "product/variant.update/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/variant.update/error-invalid-price.request.json",
+                    "response": "product/variant.update/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.update/error-no-params.request.json",
+                    "response": "product/variant.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-no-product-id",
+                    "request": "product/variant.update/error-no-product-id.request.json",
+                    "response": "product/variant.update/error-no-product-id.response.json",
+                    "covers": {
+                        "description": "validation: id only -> product_id required"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-store-not-found",
+                    "request": "product/variant.update/error-store-not-found.request.json",
+                    "response": "product/variant.update/error-store-not-found.response.json",
+                    "covers": {
+                        "description": "not found: store_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "error-warehouse-not-found",
+                    "request": "product/variant.update/error-warehouse-not-found.request.json",
+                    "response": "product/variant.update/error-warehouse-not-found.response.json",
+                    "covers": {
+                        "description": "not found: warehouse_id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/variant.update/update-price.request.json",
+                    "response": "product/variant.update/update-price.response.json",
+                    "covers": {
+                        "description": "happy path: update variant price"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                },
+                {
+                    "slug": "update-quantity",
+                    "request": "product/variant.update/update-quantity.request.json",
+                    "response": "product/variant.update/update-quantity.response.json",
+                    "covers": {
+                        "description": "update variant quantity"
+                    },
+                    "captured_at": "2026-08-14T13:03:43Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.action.list",
+            "path": "return/action.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/action.list/basic.request.json",
+                    "response": "return/action.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-29T18:48:57Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.count",
+            "path": "return/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/count/basic.request.json",
+                    "response": "return/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: count all returns"
+                    },
+                    "captured_at": "2026-08-14T07:50:08Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.info",
+            "path": "return/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/info/basic.request.json",
+                    "response": "return/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: entity information without filters"
+                    },
+                    "captured_at": "2026-07-23T11:30:20Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "return/info/error-not-found.request.json",
+                    "response": "return/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: entity id does not exist"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "id-4035254467378646808",
+                    "request": "return/info/id-4035254467378646808.request.json",
+                    "response": "return/info/id-4035254467378646808.response.json",
+                    "covers": {
+                        "description": "happy path: entity information by id"
+                    },
+                    "captured_at": "2026-07-23T11:30:20Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.list",
+            "path": "return/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/list/basic.request.json",
+                    "response": "return/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-23T11:30:20Z"
+                },
+                {
+                    "slug": "created-from-2024-08-27-00-00-00__created-to-2024-08-28-23-59-00__rf-returns-id-name-customer-id-or",
+                    "request": "return/list/created-from-2024-08-27-00-00-00__created-to-2024-08-28-23-59-00__rf-returns-id-name-customer-id-or.request.json",
+                    "response": "return/list/created-from-2024-08-27-00-00-00__created-to-2024-08-28-23-59-00__rf-returns-id-name-customer-id-or.response.json",
+                    "covers": {
+                        "description": "filter: date range (created/modified from-to) [created_from=2024-08-27 00:00:00]"
+                    },
+                    "captured_at": "2026-07-23T11:30:20Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "return/list/error-invalid-param.request.json",
+                    "response": "return/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-14T13:26:59Z"
+                },
+                {
+                    "slug": "modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all",
+                    "request": "return/list/modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all.request.json",
+                    "response": "return/list/modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: date range (created/modified from-to) [no created_from]"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "return/list/page-2.request.json",
+                    "response": "return/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: the following page of return requests reached via the cursor"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                },
+                {
+                    "slug": "rf-all__count-2",
+                    "request": "return/list/rf-all__count-2.request.json",
+                    "response": "return/list/rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "full return-request payload shape for a small page of return requests, with nested status, line items and platform-specific extras"
+                    },
+                    "captured_at": "2026-08-14T08:11:23Z"
+                },
+                {
+                    "slug": "status-approved__rf-all__count-2",
+                    "request": "return/list/status-approved__rf-all__count-2.request.json",
+                    "response": "return/list/status-approved__rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "filter: status=APPROVED"
+                    },
+                    "captured_at": "2026-07-29T18:48:57Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.reason.list",
+            "path": "return/reason.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/reason.list/basic.request.json",
+                    "response": "return/reason.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                }
+            ]
+        },
+        {
+            "entity": "return",
+            "method": "return.status.list",
+            "path": "return/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "return/status.list/basic.request.json",
+                    "response": "return/status.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-07-27T10:02:02Z"
+                }
+            ]
+        }
+    ]
+}

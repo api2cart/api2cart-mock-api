@@ -1,0 +1,24 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "return_actions": [
+            {
+                "id": "REFUND",
+                "name": "Refund"
+            },
+            {
+                "id": "RETURN_AND_REFUND",
+                "name": "Return and refund"
+            },
+            {
+                "id": "REPLACEMENT",
+                "name": "Replacement"
+            },
+            {
+                "id": "EXCHANGE",
+                "name": "Exchange"
+            }
+        ]
+    }
+}

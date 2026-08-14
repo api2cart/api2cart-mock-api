@@ -1,0 +1,19 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 1,
+        "category": [
+            {
+                "id": "600042",
+                "parent_id": "859400",
+                "name": "Mugs",
+                "description": null
+            }
+        ]
+    }
+}

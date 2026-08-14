@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "PUT",
+    "endpoint": "order.update.json",
+    "query": {
+        "order_id": "576929332424383256",
+        "order_status": "CANCELLED",
+        "cancellation_reason": "seller_cancel_reason_out_of_stock_uk"
+    }
+}

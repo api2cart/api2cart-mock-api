@@ -7,21 +7,17 @@
         "name": "Rosita's Wonderful Stable",
         "images": [
             {
-                "item": [
-                    {
-                        "id": "1",
-                        "http_path": "https://picsum.photos/seed/d7a15f6/600/600",
-                        "type": "IMAGE_TYPE_BASE",
-                        "mime-type": null,
-                        "alt": null,
-                        "avail": "True",
-                        "file_name": "5833-1.png",
-                        "create_at": null,
-                        "modified_at": null,
-                        "size": null,
-                        "sort_order": 0
-                    }
-                ]
+                "id": "1",
+                "http_path": "https://picsum.photos/seed/d7a15f6/600/600",
+                "type": "IMAGE_TYPE_BASE",
+                "mime-type": null,
+                "alt": null,
+                "avail": true,
+                "file_name": "5833-1.png",
+                "create_at": null,
+                "modified_at": null,
+                "size": null,
+                "sort_order": 0
             }
         ]
     }

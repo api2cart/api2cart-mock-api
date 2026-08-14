@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Only status 'CANCELLED' is supported.",
+    "result": {}
+}

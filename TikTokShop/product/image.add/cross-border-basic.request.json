@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-14T13:03:43Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": "1793202390253866814",
+        "url": "https://app.api2cart.com/images/maintenance.png"
+    }
+}
