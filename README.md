@@ -54,13 +54,15 @@ query the connected integration's own public product catalog (Amazon's ASIN/UPC/
 AmazonSP, eBay's catalog for EBay, ...), not the connected store's own inventory. Treat their
 mocks as catalog lookups, not store-data examples.
 
-A `cross-border-` slug prefix (TikTokShop's `product.add/update/image.add/list/info/count`) marks
-cases captured against a **different account type** of the same integration — a cross-border
+A `cross-border-` slug prefix (TikTokShop's `product.add/update/info/list/image.add/image.delete`)
+marks cases captured against a **different account type** of the same integration — a cross-border
 seller account with global/local product semantics and region-scoped `stores_ids`, distinct
 business rules (e.g. `quantity`/`price`/`status` are not updatable on a global product), and its
 own test store. These live in the same method folder as the regular-account cases; read the
-`covers` text (always prefixed `cross-border account: `) to tell which account type a given case
-assumes.
+`covers` text, always prefixed `cross-border account: `, to tell which account type a given case
+assumes. Error cases keep `error-` first, so the marker appears as `error-cross-border-…`. Every
+case whose slug carries the prefix is guaranteed to carry the matching `covers` prefix — the index
+generator applies it, so the two cannot drift apart.
 
 ## File formats
 

@@ -3,6 +3,8 @@
     "method": "GET",
     "endpoint": "order.shipment.list.json",
     "query": {
-        "order_id": "576929332424383256"
+        "order_id": "576929332424383256",
+        "params": "force_all",
+        "exclude": "delivered_at"
     }
 }

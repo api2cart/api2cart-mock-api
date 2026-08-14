@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Order status can only be updated to 'CANCELLED' if the current status is 'ON_HOLD', 'UNPAID', or 'AWAITING_SHIPMENT'.",
+    "result": {}
+}

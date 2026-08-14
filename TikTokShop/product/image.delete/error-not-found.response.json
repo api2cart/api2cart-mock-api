@@ -1,5 +1,5 @@
 {
     "return_code": 112,
-    "return_message": "Item not found (product, category, etc.)",
+    "return_message": "Product image with id 'ffffffffffffffffffffffffffffffff' not found",
     "result": {}
 }

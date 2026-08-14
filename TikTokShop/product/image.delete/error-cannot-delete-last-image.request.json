@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "DELETE",
+    "endpoint": "product.image.delete.json",
+    "query": {
+        "product_id": "1729421260245798792",
+        "id": "f7a8bd8a5f5a9021b88f875062248df7"
+    }
+}

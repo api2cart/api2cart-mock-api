@@ -3,6 +3,7 @@
     "method": "GET",
     "endpoint": "product.info.json",
     "query": {
-        "id": "1730833319262849429"
+        "id": "1730833319262849429",
+        "response_fields": "{*}"
     }
 }

@@ -1,0 +1,96 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 3,
+        "returns": [
+            {
+                "id": "4035254090697051928",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584155928",
+                        "sku": "hoodie_red_xl",
+                        "name": "Standard Product 68",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_reason_none",
+                            "name": "No reason"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254418003562264",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584090392",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    },
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584024856",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254418003758872",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584221464",
+                        "sku": "qasku_889",
+                        "name": "Classic Accessory Set 568",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_reason_not_received_uk",
+                            "name": "Package wasn't received"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -152,20 +152,17 @@
     "order/shipment.list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
     },
-    "order/shipment.list/order-id-576929332424383256": {
-        "description": "filtered export [order_id=576929332424383256]"
+    "order/shipment.list/order-id-576929332424383256__params-force-all__exclude-delivered-at": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
     "order/shipment.list/order-id-576929338705943320": {
-        "description": "filtered export [order_id=576929338705943320]"
+        "description": "filtered export"
     },
     "order/shipment.list/order-id-576929338705943320__rf-all": {
         "description": "shipments of a fulfilled order: single shipped package with carrier tracking number, warehouse and the order line items it contains"
     },
     "order/status.list/basic": {
         "description": "the nine order statuses this store accepts, as order.list/order.update expect them"
-    },
-    "order/update/cancel-order": {
-        "description": "happy path: cancel order with a required cancellation_reason"
     },
     "order/update/error-cancellation-reason-required": {
         "description": "validation: order_status=UNPAID -> cancellation_reason required"
@@ -179,8 +176,11 @@
     "order/update/error-no-params": {
         "description": "validation: no params -> order_id required"
     },
+    "order/update/error-not-cancellable-status": {
+        "description": "store rule: order is no longer in a cancellable status (ON_HOLD / UNPAID / AWAITING_SHIPMENT) -- this order was already cancelled"
+    },
     "order/update/error-only-cancelled-supported": {
-        "description": "store rule: order_status other than CANCELLED is rejected even with a valid cancellation_reason"
+        "description": "validation: order_status other than CANCELLED is rejected even with a valid cancellation_reason"
     },
     "order/update/error-order-status-not-found": {
         "description": "not found: order_status value does not exist"
@@ -267,10 +267,10 @@
         "description": "happy path: every local product in the store"
     },
     "product/count/created-from-2024-08-06-01-00-00": {
-        "description": "filter: only products created on or after the given date (43 of 93)"
+        "description": "filter: only products created on or after the given date (43 of 93). Note the created_* halves do NOT add up to the unfiltered 93 (43 + 46 = 89, re-verified in a single run): both bounds are inclusive (create_time_ge / create_time_le), so overlap could only push the sum above the total, never below. Four products match neither bound, i.e. they carry no create_time at all. The modified_* pair over the same store does add up exactly (44 + 49 = 93)."
     },
     "product/count/created-to-2024-08-06-01-00-00": {
-        "description": "filter: only products created on or before the given date"
+        "description": "filter: only products created on or before the given date (46 of 93). Note the created_* halves do NOT add up to the unfiltered 93 (43 + 46 = 89, re-verified in a single run): both bounds are inclusive (create_time_ge / create_time_le), so overlap could only push the sum above the total, never below. Four products match neither bound, i.e. they carry no create_time at all. The modified_* pair over the same store does add up exactly (44 + 49 = 93)."
     },
     "product/count/modified-from-2024-08-06-01-00-00": {
         "description": "filter: only products modified on or after the given date"
@@ -306,7 +306,13 @@
         "description": "not found: product_id does not exist"
     },
     "product/image.delete/basic": {
-        "description": "happy path: delete one image, addressed by the 32-char hex id product.info lists under images[]"
+        "description": "happy path: delete one of several images, addressed by the 32-char hex id the product listing carries under images[]"
+    },
+    "product/image.delete/error-cannot-delete-last-image": {
+        "description": "store rule: a product must keep at least one image, so deleting its only image is refused"
+    },
+    "product/image.delete/error-cross-border-not-supported-for-local-product": {
+        "description": "cross-border account: product.image.delete is not supported for local products"
     },
     "product/image.delete/error-no-id": {
         "description": "validation: product_id only -> id required"
@@ -317,14 +323,14 @@
     "product/image.delete/error-not-found": {
         "description": "not found: image id is well-formed but not present on this product"
     },
-    "product/info/cross-border-id-1729623101520515477": {
-        "description": "cross-border account: filtered export [id=1729623101520515477]"
+    "product/info/cross-border-id-1729623101520515477__rf-all": {
+        "description": "cross-border account: full response fields [id=1729623101520515477]"
     },
-    "product/info/cross-border-id-1730833319262849429": {
-        "description": "cross-border account: filtered export [id=1730833319262849429]"
+    "product/info/cross-border-id-1730833319262849429__rf-all": {
+        "description": "cross-border account: full response fields [id=1730833319262849429]"
     },
     "product/info/cross-border-id-1730851646624663957__params-force-all__exclude-u-model-url": {
-        "description": "cross-border account: filtered export [id=1730851646624663957]"
+        "description": "cross-border account: params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/info/error-no-params": {
         "description": "validation: required id is missing"
@@ -332,11 +338,11 @@
     "product/info/error-not-found": {
         "description": "not found: entity id does not exist"
     },
-    "product/info/id-1729421158695407496": {
-        "description": "happy path: entity information by id"
+    "product/info/id-1729421158695407496__rf-all": {
+        "description": "full response fields [id=1729421158695407496]"
     },
     "product/info/id-1729779434174126984__rf-all": {
-        "description": "full response fields"
+        "description": "full response fields [id=1729779434174126984]"
     },
     "product/info/id-1729779448494136200__params-force-all__exclude-u-model-url": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -345,28 +351,28 @@
         "description": "happy path (no filters)"
     },
     "product/list/created-from-2024-08-06-01-00-00__rf-all": {
-        "description": "filter: created_from (lower bound) [created_from=2024-08-06 01:00:00]"
+        "description": "filter: created_from (lower bound)"
     },
     "product/list/created-to-2024-08-06-01-00-00__rf-all": {
         "description": "filter: created_to (upper bound)"
     },
     "product/list/cross-border-rf-all": {
-        "description": "full response fields [no sku]"
+        "description": "cross-border account: full response fields"
     },
     "product/list/cross-border-rf-all__product-ids-1730833319262849429": {
-        "description": "filter: specific product id(s) [no return_global] (filter matches nothing in this store: empty result)"
+        "description": "cross-border account: filter: specific product id(s) [no return_global] (filter matches nothing in this store: empty result)"
     },
     "product/list/cross-border-rf-all__return-global-true__count-3": {
-        "description": "pagination: start/count offset"
+        "description": "cross-border account: pagination: start/count offset"
     },
     "product/list/cross-border-rf-all__return-global-true__created-from-2024-09-05-00-00-00": {
-        "description": "filter: created_from (lower bound) [created_from=2024-09-05 00:00:00]"
+        "description": "cross-border account: filter: created_from (lower bound)"
     },
     "product/list/cross-border-rf-all__return-global-true__modified-to-2024-09-05-00-00-00": {
-        "description": "filter: modified_to (upper bound) [return_global=true]"
+        "description": "cross-border account: filter: modified_to (upper bound)"
     },
     "product/list/cross-border-rf-all__return-global-true__product-ids-1730833319262849429": {
-        "description": "filter: specific product id(s) [return_global=true]"
+        "description": "cross-border account: filter: specific product id(s) [return_global=true]"
     },
     "product/list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
@@ -375,7 +381,7 @@
         "description": "filter: modified_from (lower bound)"
     },
     "product/list/modified-to-2024-08-06-01-00-00__rf-all": {
-        "description": "filter: modified_to (upper bound) [no return_global]"
+        "description": "filter: modified_to (upper bound)"
     },
     "product/list/page-2": {
         "description": "pagination: cursor page"
@@ -383,8 +389,11 @@
     "product/list/params-force-all__exclude-u-model-url__count-3": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
     },
+    "product/list/product-ids-1729421158695407496__rf-all": {
+        "description": "filter: specific product id(s)"
+    },
     "product/list/sku-test-product__rf-all": {
-        "description": "full response fields [sku=test product]"
+        "description": "full response fields"
     },
     "product/update/cross-border-publish-global-to-store": {
         "description": "cross-border account: publish an existing global product to a region store while also updating description/sku"
@@ -485,8 +494,8 @@
     "return/count/basic": {
         "description": "happy path: count all returns"
     },
-    "return/info/basic": {
-        "description": "happy path: entity information without filters"
+    "return/info/error-no-params": {
+        "description": "validation: required id is missing"
     },
     "return/info/error-not-found": {
         "description": "not found: entity id does not exist"
@@ -494,8 +503,14 @@
     "return/info/id-4035254467378646808": {
         "description": "happy path: entity information by id"
     },
+    "return/info/id-4035254467378646808__params-force-all__exclude-order-products": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "return/info/id-4035254467378646808__rf-id-order-products-order-produc": {
+        "description": "field selection: id,order_products.order_product_id,order_products.quantity,order_products.reason"
+    },
     "return/list/basic": {
-        "description": "happy path (no filters)"
+        "description": "happy path: default page of the return list -- 10 of 27, default field set (id + order_products), cursor open"
     },
     "return/list/created-from-2024-08-27-00-00-00__created-to-2024-08-28-23-59-00__rf-returns-id-name-customer-id-or": {
         "description": "filter: date range (created/modified from-to) [created_from=2024-08-27 00:00:00]"
@@ -503,8 +518,14 @@
     "return/list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
     },
+    "return/list/error-status-not-found": {
+        "description": "not found: the generic enabled/disabled status vocabulary does not exist on this platform -- core resolves status names against the platform list and rejects unknown ones before the request is built"
+    },
     "return/list/modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all": {
         "description": "filter: date range (created/modified from-to) [no created_from]"
+    },
+    "return/list/order-ids-576682638583893784": {
+        "description": "filtered export"
     },
     "return/list/page-2": {
         "description": "pagination: the following page of return requests reached via the cursor"
