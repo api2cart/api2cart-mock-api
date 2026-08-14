@@ -1,0 +1,5 @@
+{
+    "return_code": 114,
+    "return_message": "Parameter `price` or `tier_prices` is required.",
+    "result": {}
+}

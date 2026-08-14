@@ -1,0 +1,17 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "order_id": "C000CTW7TL",
+        "totals": {
+            "total": 19.95,
+            "subtotal": 19.95,
+            "shipping": 0,
+            "tax": 0,
+            "discount": 0,
+            "additional_fields": {
+                "commision": 3.47
+            }
+        }
+    }
+}

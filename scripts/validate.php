@@ -99,6 +99,10 @@ const V_MAX_FULL_PROPERTIES_BYTES = 1048576; // 1 MiB -- ceiling on the "full-pr
 const V_NUMERIC_PARAMS = [
   'count', 'start', 'position', 'price', 'old_price', 'cost_price', 'quantity',
   'special_price', 'min_order_quantity', 'increase_quantity', 'reduce_quantity', 'action_amount',
+  // Third row, added with Bol: the repo was already writing this one three different ways
+  // (AmazonSP had both `2` and `"1"`, Bol had `"2"`), which is exactly the drift this check
+  // exists to stop. It is FLAG_INT in the core parameter registry.
+  'rounding_precision',
 ];
 
 /**
@@ -123,6 +127,10 @@ const V_BOOLEAN_PARAMS = [
   'available_for_sale', 'is_virtual', 'is_default', 'in_stock', 'downloadable',
   'avail_view', 'avail_sale', 'available_for_view', 'is_supply', 'auto_renew',
   'disable_report_cache', 'use_latest_api_version', 'enable_cache',
+  // FLAG_BOOL in the core registry; Bol is its first user in the repo and already writes a real
+  // JSON boolean. Listed now so the correct spelling is pinned before a second integration
+  // copies a quoted one.
+  'check_process_status',
 ];
 
 const V_UNREACHABLE_JOB_DEBT = [

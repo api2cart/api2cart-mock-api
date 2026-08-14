@@ -1,0 +1,14 @@
+{
+    "captured_at": "2026-08-13T19:09:29Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": "C000CTW7TL",
+        "tracking_numbers": [
+            {
+                "carrier_id": "TNT",
+                "tracking_number": "3SMOCK0000123"
+            }
+        ]
+    }
+}

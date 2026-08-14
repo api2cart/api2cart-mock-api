@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "products_count": 2,
+        "product": [
+            {
+                "id": "112a48d2-1a45-43bd-9ff9-95c43d56c8a3",
+                "name": "Valenta - Universele Sticker magnetische Apple accessoires - Magneet Versterker - Wit - voor vele iPhone/Samsung/Huawei smartphones welke draadloos laden ondersteunt",
+                "modified_at": {
+                    "value": "2026-08-03T19:42:46+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            },
+            {
+                "id": "08b135da-0bdf-4ca5-bc55-f6e90aa8967e",
+                "name": "Apple iPhone 12 Pro Max Hoesje - Valenta - Snap Serie - Echt Leer Bookcase / 2in1 Case - Blauw - Hoesje Geschikt Voor Apple iPhone 12 Pro Max",
+                "modified_at": {
+                    "value": "2026-08-03T18:44:56+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                }
+            }
+        ]
+    }
+}

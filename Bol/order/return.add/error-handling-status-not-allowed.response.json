@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'order_product_handling_status_1' is not valid. Allowed values: 'RETURN_RECEIVED','EXCHANGE_PRODUCT','RETURN_DOES_NOT_MEET_CONDITIONS','REPAIR_PRODUCT','CUSTOMER_KEEPS_PRODUCT_PAID'.",
+    "result": {}
+}

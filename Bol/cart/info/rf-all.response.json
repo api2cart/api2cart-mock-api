@@ -1,0 +1,144 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": "Umbrella Co",
+        "url": "https://store-44a3b55b.example.com/",
+        "version": null,
+        "bridge_version": null,
+        "default_rounding_precision": null,
+        "db_prefix": null,
+        "stores_info": [
+            {
+                "store_id": "1512370",
+                "name": "Umbrella Co",
+                "language": "nl",
+                "store_languages": [
+                    {
+                        "id": "NL",
+                        "iso_code": "nl",
+                        "name": "Nederlands"
+                    },
+                    {
+                        "id": "BE",
+                        "iso_code": "nl",
+                        "name": "Nederlands"
+                    }
+                ],
+                "currency": {
+                    "id": "EUR",
+                    "name": "Euro",
+                    "iso3": "EUR",
+                    "symbol_left": "€",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                },
+                "store_currencies": [
+                    {
+                        "id": "EUR",
+                        "name": "Euro",
+                        "iso3": "EUR",
+                        "symbol_left": "€",
+                        "symbol_right": "",
+                        "rate": 1,
+                        "avail": true,
+                        "default": true
+                    }
+                ],
+                "timezone": "UTC",
+                "country": null,
+                "root_category_id": null,
+                "multi_store_url": "https://store-44a3b55b.example.com/",
+                "active": true,
+                "weight_unit": null,
+                "dimension_unit": null,
+                "prices_include_tax": null,
+                "carrier_info": [
+                    {
+                        "id": "BRIEFPOST",
+                        "name": "BRIEFPOST",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "UPS",
+                        "name": "UPS",
+                        "active": true,
+                        "shipping_methods": []
+                    }
+                ],
+                "store_owner_info": null,
+                "default_warehouse_id": null,
+                "channels": [],
+                "pickup_locations": [],
+                "additional_fields": []
+            }
+        ],
+        "warehouses": [],
+        "shipping_zones": [],
+        "additional_fields": {
+            "retailer_data": {
+                "retailerId": "1512370",
+                "displayName": "Umbrella Co",
+                "companyName": "Hooli",
+                "vatNumber": "ID-86699851",
+                "kvkNumber": "ID-53735771",
+                "registrationDate": "2019-11-29",
+                "topRetailer": false,
+                "ratingMethod": "ALL_REVIEWS",
+                "retailerRating": {
+                    "retailerRating": 8.9,
+                    "productInformationRating": 8.9,
+                    "deliveryTimeRating": 9.1,
+                    "shippingRating": 9.4,
+                    "serviceRating": 10
+                },
+                "retailerReview": {
+                    "totalReviewCount": 128,
+                    "approvalPercentage": 95,
+                    "positiveReviewCount": 117,
+                    "neutralReviewCount": 5,
+                    "negativeReviewCount": 6
+                }
+            },
+            "economic_operators": [
+                {
+                    "id": "e84c7ecd-5792-4aa0-b5c6-53ca7d494d4a",
+                    "name": "Hooli",
+                    "email": "user18564@example.com",
+                    "phone": "+10132267336",
+                    "status": "VALID",
+                    "address": {
+                        "id": "1",
+                        "type": "billing",
+                        "first_name": null,
+                        "last_name": null,
+                        "postcode": "08785",
+                        "address1": "848 Example St",
+                        "address2": "",
+                        "phone": "",
+                        "phone_mobile": "",
+                        "city": "Franklin",
+                        "country": {
+                            "code2": "NL",
+                            "code3": "NLD",
+                            "name": "Netherlands"
+                        },
+                        "state": null,
+                        "company": null,
+                        "fax": null,
+                        "website": null,
+                        "gender": null,
+                        "region": null,
+                        "default": true,
+                        "tax_id": null,
+                        "identification_number": null,
+                        "alias": null
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -6,6 +6,10 @@
             "index": "AmazonSP/index.json"
         },
         {
+            "integration": "Bol",
+            "index": "Bol/index.json"
+        },
+        {
             "integration": "Bricklink",
             "index": "Bricklink/index.json"
         },

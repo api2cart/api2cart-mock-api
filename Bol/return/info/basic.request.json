@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-13T14:00:00Z",
+    "method": "GET",
+    "endpoint": "return.info.json",
+    "query": {
+        "id": "109653544",
+        "response_fields": "{*}"
+    }
+}

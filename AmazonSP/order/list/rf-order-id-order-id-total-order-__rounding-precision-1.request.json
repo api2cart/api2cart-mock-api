@@ -4,6 +4,6 @@
     "endpoint": "order.list.json",
     "query": {
         "response_fields": "{result{order{id,order_id,total,order_products,additional_fields}}}",
-        "rounding_precision": "1"
+        "rounding_precision": 1
     }
 }
