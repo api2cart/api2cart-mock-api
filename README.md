@@ -54,13 +54,24 @@ query the connected integration's own public product catalog (Amazon's ASIN/UPC/
 AmazonSP, eBay's catalog for EBay, ...), not the connected store's own inventory. Treat their
 mocks as catalog lookups, not store-data examples.
 
+A `cross-border-` slug prefix (TikTokShop's `product.add/update/info/list/image.add/image.delete`)
+marks cases captured against a **different account type** of the same integration — a cross-border
+seller account with global/local product semantics and region-scoped `stores_ids`, distinct
+business rules (e.g. `quantity`/`price`/`status` are not updatable on a global product), and its
+own test store. These live in the same method folder as the regular-account cases; read the
+`covers` text, always prefixed `cross-border account: `, to tell which account type a given case
+assumes. Error cases keep `error-` first, so the marker appears as `error-cross-border-…`. Every
+case whose slug carries the prefix is guaranteed to carry the matching `covers` prefix — the index
+generator applies it, so the two cannot drift apart.
+
 ## File formats
 
 `{case}.request.json` — capture timestamp, HTTP method and endpoint. Parameters live in exactly
 one of two keys: `query` (sent as a query string) or `body` (sent as a JSON body). GET and DELETE
 always use `query`, and POST/PUT normally use `body` — but **do not infer the container from the
 verb**: a few endpoints are genuine PUT-with-query methods (e.g. EBay's `order.update` and
-`product.image.update`, whose every parameter is declared `in: query`). Always read whichever key
+`product.image.update`, and TikTokShop's `order.update`, whose every parameter is declared
+`in: query`). Always read whichever key
 the case actually carries.
 
 ```json
@@ -85,7 +96,7 @@ no access to the api2cart app or its OpenAPI files. Pass it any subset of the in
 directories at the repo root — e.g., all of them:
 
 ```bash
-php scripts/validate.php AmazonSP Bol Bricklink EBay EtsyAPIv3 Facebook
+php scripts/validate.php AmazonSP Bol Bricklink EBay EtsyAPIv3 Facebook TikTokShop
 ```
 
 It checks, per integration: `index.json` matches the filesystem in both directions, every response

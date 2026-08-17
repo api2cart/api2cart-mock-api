@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Unable to create product. Not all required certifications were specified. To get a list of required certifications, use the 'category.info' method (additional_fields->rules->product_certifications).",
+    "result": {}
+}

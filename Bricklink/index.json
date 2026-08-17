@@ -1,6 +1,6 @@
 {
     "integration": "Bricklink",
-    "generated_at": "2026-08-13T11:57:17Z",
+    "generated_at": "2026-08-14T14:07:07Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -544,7 +544,7 @@
                     "request": "product/info/id-486063055__rf-id-name-images-type.request.json",
                     "response": "product/info/id-486063055__rf-id-name-images-type.response.json",
                     "covers": {
-                        "description": "field selection: id,name,images,type"
+                        "description": "entity info: id/name/images/type via response_fields selector -- single base image with avail flag [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
                     },
                     "captured_at": "2026-08-12T18:19:15Z"
                 },
@@ -553,7 +553,7 @@
                     "request": "product/info/id-486063123__rf-all.request.json",
                     "response": "product/info/id-486063123__rf-all.response.json",
                     "covers": {
-                        "description": "full response fields"
+                        "description": "full product payload: grouped product, minimal price/quantity, category-only classification [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
                     },
                     "captured_at": "2026-08-12T18:19:15Z"
                 },
@@ -562,7 +562,7 @@
                     "request": "product/info/id-486599379__params-force-all__exclude-images.request.json",
                     "response": "product/info/id-486599379__params-force-all__exclude-images.response.json",
                     "covers": {
-                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                        "description": "full product payload via params=force_all with images excluded -- special_price and tier_price populated [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
                     },
                     "captured_at": "2026-08-12T18:19:15Z"
                 }

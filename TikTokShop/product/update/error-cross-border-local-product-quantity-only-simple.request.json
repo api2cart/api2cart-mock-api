@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1729623101520515477",
+        "quantity": 5
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "cart_order_statuses": [
+            {
+                "id": "ON_HOLD",
+                "name": "On Hold"
+            },
+            {
+                "id": "UNPAID",
+                "name": "Unpaid"
+            },
+            {
+                "id": "PARTIALLY_SHIPPING",
+                "name": "Partially Shipping"
+            },
+            {
+                "id": "AWAITING_SHIPMENT",
+                "name": "Awaiting Shipment"
+            },
+            {
+                "id": "AWAITING_COLLECTION",
+                "name": "Awaiting Collection"
+            },
+            {
+                "id": "IN_TRANSIT",
+                "name": "In Transit"
+            },
+            {
+                "id": "DELIVERED",
+                "name": "Delivered"
+            },
+            {
+                "id": "COMPLETED",
+                "name": "Completed"
+            },
+            {
+                "id": "CANCELLED",
+                "name": "Cancelled"
+            }
+        ]
+    }
+}

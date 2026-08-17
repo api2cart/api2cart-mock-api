@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-29T18:48:57Z",
+    "method": "GET",
+    "endpoint": "return.list.json",
+    "query": {
+        "status": "APPROVED",
+        "response_fields": "{*}",
+        "count": 2
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1729421251089502088",
+        "parent_id": "1729421158695407496",
+        "upc": null,
+        "ean": "5000112548167",
+        "gtin": null,
+        "isbn": null,
+        "name": "Unbranded Hoodie Red Green Blue withh a lot of sizes - Red / XL",
+        "images": [
+            {
+                "id": "fb7cba3c7d001f403218208163a363a0",
+                "http_path": "https://picsum.photos/seed/28dacf6d/600/600",
+                "file_name": "0d5c258c97a74b238c5d5571224fb706~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 0,
+                "type": "IMAGE_TYPE_BASE"
+            }
+        ],
+        "combination": [
+            {
+                "option_id": "100000",
+                "option_value_id": "6926865453197526786"
+            },
+            {
+                "option_id": "100007",
+                "option_value_id": "6931945920397575937"
+            }
+        ],
+        "default_price": 66.99,
+        "avail_for_sale": true,
+        "in_stock": true,
+        "manage_stock": true,
+        "inventory_level": 76,
+        "inventory": [
+            {
+                "warehouse_id": "7381927049415739168",
+                "quantity": 76,
+                "in_stock": true,
+                "priority": null
+            }
+        ],
+        "additional_fields": {
+            "combined_skus": [],
+            "sale_price": 66.99
+        }
+    }
+}

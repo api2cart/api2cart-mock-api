@@ -24,6 +24,10 @@
         {
             "integration": "Facebook",
             "index": "Facebook/index.json"
+        },
+        {
+            "integration": "TikTokShop",
+            "index": "TikTokShop/index.json"
         }
     ]
 }

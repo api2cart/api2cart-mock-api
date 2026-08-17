@@ -1,0 +1,1301 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHdFkIwAADgB3KRSeiSdWSR%2BdnJ0V3FmLNWyNievu8DXTEFWQRsf%2BUE7zyjUj1iAn8tZN5pUreOTkG2zr%2FmVtT8GHuSbNjXnzuK5kP%2FCAOapGaEZAOBmkqwKQJHtzsJH8h9Ca2q53DI4118ezO%2BUvOVgaRL2ENqdBZr80ReqIg%2FxsMHZqVhhD3nTFriV9O6bZcRD0hr03FSbO%2FdaSFXJmQ%2Bu7q4nl6XRdHK%2FQM%3D"
+    },
+    "result": {
+        "products_count": 9,
+        "product": [
+            {
+                "id": "1729507097613931925",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Toilet Brush",
+                "description": "<p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet BrushToilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet BrushToilet BrushToilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p>",
+                "short_description": null,
+                "price": 0,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 21,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 21,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7417026736480880390",
+                "u_brand": "\"Forever Bath\"",
+                "categories_ids": [
+                    "600001",
+                    "851976",
+                    "600405"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-f01cf3f7.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.233,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2026-03-11T10:47:41+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-03-11T10:49:18+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "10fe2fdc8b45596bc6d4566365544a1a",
+                        "http_path": "https://picsum.photos/seed/a45e27c4/600/600",
+                        "file_name": "5d339f76ca2641bb98f5c938c110a02b~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 11,
+                "height": 7,
+                "length": 23,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 12.12,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "CA Prop 65: Carcinogens",
+                            "value": "No"
+                        },
+                        {
+                            "name": "CA Prop 65: Repro. Chems",
+                            "value": "No"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729631735935963541",
+                "type": "simple",
+                "u_model": "qasku_890",
+                "u_sku": "qasku_890",
+                "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Bee</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><h3>Features of the CuddleBuddy Giant Bee:</h3><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><h3>Why Choose CuddleBuddy Giant Bee?</h3><p>This giant Bee is not just a toy but a lifelong companion that helps foster a child's affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><h3>Bringing Joy and Comfort:</h3><p>The CuddleBuddy Giant Bee is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It's the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "600001",
+                    "852232",
+                    "700665"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-9e8891ef.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-09T10:33:26+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-09T10:33:51+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7195fbb43022439873dfbcec48e31045",
+                        "http_path": "https://picsum.photos/seed/8083ac70/600/600",
+                        "file_name": "28dbe203b7fd430aa0f8f429fc73e00c~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 3,
+                "length": 8,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "FAILED",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 26.9,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Carcinogen",
+                            "value": "Alachlor"
+                        },
+                        {
+                            "name": "Shelf Life",
+                            "value": "Disposable"
+                        },
+                        {
+                            "name": "Style",
+                            "value": "Vintage"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729631679952621973",
+                "type": "simple",
+                "u_model": "upd2_qasku_889",
+                "u_sku": "upd2_qasku_889",
+                "name": "Handmade CuddleBuddy Small Bee Upd - Soft and Huggable Plush Toy",
+                "description": "<p>Update Descr Introducing the CuddleBuddy Giant Bee</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "600001",
+                    "852232",
+                    "700665"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-f35c14e3.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 3.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-09T10:09:34+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-09T10:10:02+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7133a3a010aaf7728253586b8ffa3675",
+                        "http_path": "https://picsum.photos/seed/cc69e0d6/600/600",
+                        "file_name": "4c49cbc3f3a842ca84dc2420e06d1a64~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 55,
+                "height": 25,
+                "length": 11,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "FAILED",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 44.3,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Carcinogen",
+                            "value": "Alachlor"
+                        },
+                        {
+                            "name": "Shelf Life",
+                            "value": "Disposable"
+                        },
+                        {
+                            "name": "Style",
+                            "value": "Vintage"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729625289640087957",
+                "type": "simple",
+                "u_model": "test_product",
+                "u_sku": "test_product",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Product updated!</p>",
+                "short_description": null,
+                "price": 11.11,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": "unbranded、",
+                "categories_ids": [
+                    "600001",
+                    "852104",
+                    "600321",
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-34b11f34.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-05T13:16:30+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2025-08-08T07:56:50+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "bf0b13a312e3561de64bde8fce595f4b",
+                        "http_path": "https://picsum.photos/seed/98aa57ec/600/600",
+                        "file_name": "6bdc7768ce4541fe8ef79b1f8b927855~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 55.36,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729625256068485525",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece updated",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 11.11,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": "unbranded、",
+                "categories_ids": [
+                    "600001",
+                    "852104",
+                    "600321",
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-1f37f121.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 12,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-05T12:55:55+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2025-08-09T06:43:38+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "2455b6ef368f5f7d6bc032be6ab9d5ea",
+                        "http_path": "https://picsum.photos/seed/8dbd45f6/600/600",
+                        "file_name": "6ac178b606744a7e8e838bacfe5c0507~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "849df10c842138fcf5271efa6e7fadba",
+                        "http_path": "https://picsum.photos/seed/88bdd85a/600/600",
+                        "file_name": "4c17aa038db943a1bd784fcf3728679f~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": "012345678905",
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 2,
+                "height": 2,
+                "length": 2,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 191.11,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729623337306591637",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece",
+                "description": "<p>Enhance your home décor with this Elegant Minimalist Wall Clock. Designed for modern interiors, this clock features a sleek, no-tick mechanism for a quiet ambiance, perfect for any room. The stylish design complements any décor style, making it a versatile addition to your living room, bedroom, or office. Easy to install and battery-operated, this wall clock combines functionality with aesthetics, ensuring you’re always on time. Upgrade your space with this must-have timepiece!</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7032167956327073537",
+                "u_brand": "unbranded、",
+                "categories_ids": [
+                    "600001",
+                    "852104",
+                    "600321",
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-27f9b7bf.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T14:04:31+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-05T08:30:50+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "eabd33d45feb5dfd56f721eb99331a81",
+                        "http_path": "https://picsum.photos/seed/97922265/600/600",
+                        "file_name": "ca3035ed9654407fb0c748a5723198e4~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "DELETED",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 62.24,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729609665684148629",
+                "type": "simple",
+                "u_model": "qwerty123",
+                "u_sku": "qwerty123",
+                "name": "Automatic Touchless Soap Dispenser - Sleek & Hygienic Design",
+                "description": "<p><span>Upgrade your hygiene routine with our Automatic Touchless Soap Dispenser. Designed for convenience and cleanliness, this sleek dispenser provides a hands-free experience, reducing the spread of germs. Perfect for kitchens, bathrooms, and workplaces, it dispenses the ideal amount of soap with just a wave of your hand. Easy to refill and maintain, this soap dispenser combines modern technology with style to enhance your space.</span></p><p><span><br></span></p>",
+                "short_description": null,
+                "price": 11.12,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 22,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 22,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600001",
+                    "851976",
+                    "600416"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-598ade84.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.1,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-27T11:29:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2025-08-09T14:36:03+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "825f14ea9e66538a734fed8edfce920f",
+                        "http_path": "https://picsum.photos/seed/26ebfbcd/600/600",
+                        "file_name": "40ba7cd741394b829801715e2ea799df~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 1,
+                "length": 12,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 12.04,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Material",
+                            "value": "Ceramic"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729607773533868437",
+                "type": "configurable",
+                "u_model": "qwerty123",
+                "u_sku": "qwerty123",
+                "name": "Modern Minimalist Wall Clock - Silent Non-Ticking Design updated223",
+                "description": "<p>Elevate your home decor with our Modern Minimalist Wall Clock. Featuring a sleek, silent non-ticking design, this clock is perfect for any room in your home or office. Crafted with precision, the clock's smooth quartz movement ensures accurate timekeeping without any disruptive noise. The elegant design complements any interior style, making it a versatile addition to your space. Easy to install and powered by a single AA battery, this wall clock combines functionality with modern aesthetics. Perfect for your living room, bedroom, kitchen, or office, it adds a touch of sophistication to any wall. UPDATED</p>",
+                "short_description": null,
+                "price": 16.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 50,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 9,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600001",
+                    "852104",
+                    "600321",
+                    "1242384"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-b9b231cd.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.124,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-26T14:53:53+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2025-08-08T18:38:31+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "116ee850e1634a9bf056c104e5a6f444",
+                        "http_path": "https://picsum.photos/seed/9e295177/600/600",
+                        "file_name": "4eb678bf534a4cfebf307d2e1974e640~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "825f14ea9e66538a734fed8edfce920f",
+                        "http_path": "https://picsum.photos/seed/5d6c7efa/600/600",
+                        "file_name": "40ba7cd741394b829801715e2ea799df~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "5b2e6f97376c95ed0d8877e8a8187370",
+                        "http_path": "https://picsum.photos/seed/877c3902/600/600",
+                        "file_name": "4c49cbc3f3a842ca84dc2420e06d1a64~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "100000",
+                        "product_option_id": "100000",
+                        "name": "Color",
+                        "description": null,
+                        "sort_order": 0,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "6926865453197526786",
+                                "product_option_item_id": "6926865453197526786",
+                                "name": "Red",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865480561166081",
+                                "product_option_item_id": "6926865480561166081",
+                                "name": "Green",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131814657",
+                                "product_option_item_id": "6926865445131814657",
+                                "name": "Blue",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ],
+                        "additional_fields": {
+                            "combined_skus": []
+                        }
+                    },
+                    {
+                        "id": "6936867571236914946",
+                        "product_option_id": "6936867571236914946",
+                        "name": "Size",
+                        "description": null,
+                        "sort_order": 1,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "6931945920397559553",
+                                "product_option_item_id": "6931945920397559553",
+                                "name": "L",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6931945920397575937",
+                                "product_option_item_id": "6931945920397575937",
+                                "name": "XL",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6931945920397592321",
+                                "product_option_item_id": "6931945920397592321",
+                                "name": "XXL",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ],
+                        "additional_fields": {
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 12,
+                "length": 12,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 19.87,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Warranty Type",
+                            "value": "No Warranty"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729623101520515477",
+                "type": "configurable",
+                "u_model": "umbrella_red",
+                "u_sku": "umbrella_red",
+                "name": "Modern Minimalist Wall Clock - Silent Non-Ticking Design updated2",
+                "description": "<p>Stay dry and stylish with our Windproof Compact Travel Umbrella! Designed for durability, this umbrella features a strong, wind-resistant frame and a sleek, portable design, perfect for on-the-go use. Whether you're battling heavy rain or shielding yourself from the sun, our umbrella offers reliable protection and easy portability. Ideal for everyday carry in your bag or car, it opens and closes effortlessly with just the push of a button. Available in a variety of vibrant colors to match your personal style. Don't let the weather catch you unprepared—grab yours today!</p>",
+                "short_description": null,
+                "price": 13.64,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7389165733178541841",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600001",
+                    "852616",
+                    "600570"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-e7c6018a.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.245,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-04T10:27:53+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T10:34:16+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "fa2303c71324b9a3bca76b66884e09b8",
+                        "http_path": "https://picsum.photos/seed/b20a2eda/600/600",
+                        "file_name": "f97555b638524b52b330f673796cc692~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "https://picsum.photos/seed/b7c82a5c/600/600",
+                        "file_name": "8614ac144a6b4eb0b4d9ab3e23a11824~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "https://picsum.photos/seed/b7c82a5c/600/600",
+                        "file_name": "8614ac144a6b4eb0b4d9ab3e23a11824~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "https://picsum.photos/seed/b7c82a5c/600/600",
+                        "file_name": "8614ac144a6b4eb0b4d9ab3e23a11824~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "https://picsum.photos/seed/b7c82a5c/600/600",
+                        "file_name": "8614ac144a6b4eb0b4d9ab3e23a11824~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "https://picsum.photos/seed/b7c82a5c/600/600",
+                        "file_name": "8614ac144a6b4eb0b4d9ab3e23a11824~tplv-fhlh96nyum-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "100000",
+                        "product_option_id": "100000",
+                        "name": "Color",
+                        "description": null,
+                        "sort_order": 0,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "6926865453197526786",
+                                "product_option_item_id": "6926865453197526786",
+                                "name": "Red",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131814657",
+                                "product_option_item_id": "6926865445131814657",
+                                "name": "Blue",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131749121",
+                                "product_option_item_id": "6926865445131749121",
+                                "name": "Black",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ],
+                        "additional_fields": {
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "0735006921002",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 38,
+                "height": 13,
+                "length": 37,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "DRAFT",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 56.34,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "CA Prop 65: Repro. Chems",
+                            "value": "Yes"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

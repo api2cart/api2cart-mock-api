@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "POST",
+    "endpoint": "order.return.add.json",
+    "body": {
+        "order_id": "576929338705943320",
+        "return_status_id": "Completed",
+        "return_reason_id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+        "return_action_id": "REFUND",
+        "order_product_id_1": "test"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJEoIgAADQD%2BoAOI7awYMKLjhabkx4q0aRBjXaXL6%2B9zBU6wlenMCk36rdDVK1eB%2FqzVol%2B9CYku22kxducwZI7sn%2BkPHFNGolZlsDeNcwuv7GsphkjJAPlnDgb%2BF0uKdlCBK0PhuWjMpIA7ULWB%2BJ4GIKH1kaaZkga2vOyGGom7giyGezFxaOtvHiue4f"
+    },
+    "result": {
+        "total_count": 10000,
+        "brands": [
+            {
+                "id": "7238550132806174469",
+                "name": "\"1K\" [satu keluarga]",
+                "created_time": null,
+                "modified_time": null,
+                "full_description": null,
+                "short_description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "active": true,
+                "url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "images": []
+            },
+            {
+                "id": "7636596367091287815",
+                "name": "\"ALLOWRIE\"",
+                "created_time": null,
+                "modified_time": null,
+                "full_description": null,
+                "short_description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "active": true,
+                "url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "images": []
+            },
+            {
+                "id": "7404697919097177861",
+                "name": "\"Bebek Goreng Rempah Mbah Tompo\" \"Gurihnya sampe ketulang tulangnya\"",
+                "created_time": null,
+                "modified_time": null,
+                "full_description": null,
+                "short_description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "active": true,
+                "url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "images": []
+            },
+            {
+                "id": "7673391745715488528",
+                "name": "\"CHỊ VÀNG\"",
+                "created_time": null,
+                "modified_time": null,
+                "full_description": null,
+                "short_description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "active": true,
+                "url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "images": []
+            },
+            {
+                "id": "7417026736480880390",
+                "name": "\"Forever Bath\"",
+                "created_time": null,
+                "modified_time": null,
+                "full_description": null,
+                "short_description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "active": true,
+                "url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "images": []
+            }
+        ]
+    }
+}

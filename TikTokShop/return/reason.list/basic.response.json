@@ -1,0 +1,36 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "return_reasons": [
+            {
+                "id": "seller_ecom_delivered_return_refund_reason1_uk",
+                "name": "No longer needed"
+            },
+            {
+                "id": "ecom_order_delivered_refund_and_return_reason_not_match_description_seller_uk",
+                "name": "Product doesn't match description"
+            },
+            {
+                "id": "ecom_order_delivered_refund_and_return_reason_missing_product_seller_uk",
+                "name": "Missing product or accessories"
+            },
+            {
+                "id": "ecom_order_delivered_refund_and_return_reason_damaged_seller_uk",
+                "name": "Package or product is damaged"
+            },
+            {
+                "id": "ecom_order_delivered_refund_and_return_reason_defective_seller_uk",
+                "name": "Product is defective or doesn't work"
+            },
+            {
+                "id": "ecom_order_delivered_refund_and_return_reason_wrong_product_seller_uk",
+                "name": "Wrong product was sent"
+            },
+            {
+                "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                "name": "Suspected Counterfeit"
+            }
+        ]
+    }
+}

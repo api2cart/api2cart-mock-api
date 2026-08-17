@@ -1,0 +1,140 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcFJYoIwAADAB3FgBz30oOwQ1oACNxslEdNGIinL6zvjKnTNlfbgGLGA%2Fa55sHd3AjBEyWkKpVs4rGpEVaJVYHJYcgawIidwcykrjiDkRo%2BEnEayzd%2BwdiQBEZH1EWGLnlRjzHebyEOGXs087E780fURmyXb8axYyG6qF1PE5VFyfR2nJb0u6xFaMC%2ByjbvECr2FtyO%2FXpOMCIMFbAfYdTxSu3%2BX8LnpAjQtr3wt9VPpHvQPGJwPz59zi%2B8zTWd5eM3pgCcQeX7XdYd3nyUpmZpqGqU6z7Uk2JTSFMT2ho97Kz4oyYXMQp%2FaW0mjfl3a6ncrCzP%2B7lRWPo5m7H39Aw%3D%3D"
+    },
+    "result": {
+        "total_count": 26,
+        "returns": [
+            {
+                "id": "4035254090697051928",
+                "name": null,
+                "order_id": "576682638583893784",
+                "customer_id": null,
+                "store_id": "7495811849164131208",
+                "created_at": {
+                    "value": "2024-08-07T07:54:19+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-07T07:56:45+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "status": {
+                    "id": "COMPLETED",
+                    "name": "Completed",
+                    "additional_fields": {
+                        "return_order_status": "RETURN_OR_REFUND_REQUEST_COMPLETE"
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584155928",
+                        "sku": "hoodie_red_xl",
+                        "name": "Standard Product 68",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_reason_none",
+                            "name": "No reason"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ],
+                "comment": null,
+                "staff_note": null,
+                "additional_fields": {
+                    "arbitration_status": null,
+                    "role": "BUYER",
+                    "shipment_type": "PLATFORM",
+                    "handover_method": "DROP_OFF",
+                    "return_tracking_number": null,
+                    "return_provider_name": "EVRi",
+                    "return_provider_id": "6599541761693270018",
+                    "can_buyer_keep_item": false,
+                    "return_method": "PLATFORM_SHIPPED",
+                    "reject_reasons": []
+                }
+            },
+            {
+                "id": "4035254418003562264",
+                "name": null,
+                "order_id": "576682638583893784",
+                "customer_id": null,
+                "store_id": "7495811849164131208",
+                "created_at": {
+                    "value": "2024-08-21T07:55:11+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-31T14:05:56+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "status": {
+                    "id": "CANCELLED",
+                    "name": "Cancelled",
+                    "additional_fields": {
+                        "return_order_status": "RETURN_OR_REFUND_REQUEST_CANCEL"
+                    }
+                },
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584024856",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    },
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584090392",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ],
+                "comment": "",
+                "staff_note": "sgdfgfdgdfg test",
+                "additional_fields": {
+                    "arbitration_status": null,
+                    "role": "BUYER",
+                    "shipment_type": "PLATFORM",
+                    "handover_method": "DROP_OFF",
+                    "return_tracking_number": null,
+                    "return_provider_name": "Royal Mail",
+                    "return_provider_id": "6671794738251726849",
+                    "can_buyer_keep_item": false,
+                    "return_method": "PLATFORM_SHIPPED",
+                    "reject_reasons": []
+                }
+            }
+        ]
+    }
+}

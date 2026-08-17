@@ -1,0 +1,65 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "iyhLyg3WT88rDyxydjYxKvFPcjI0yjAKSksuLXaPdDGr8gnJizI3sfDzcLQsdvMML%2FN0TswurnAKN47I9fLMCzYvM0kPz7O0SPFLjKgIzKsoTQ40cwq0tQUA"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "600009",
+                "parent_id": "852488",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Festive Decorations",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "permission_statuses": [
+                        "AVAILABLE"
+                    ],
+                    "is_leaf": true
+                }
+            },
+            {
+                "id": "600017",
+                "parent_id": "852488",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Balloons",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "permission_statuses": [
+                        "AVAILABLE"
+                    ],
+                    "is_leaf": true
+                }
+            }
+        ]
+    }
+}

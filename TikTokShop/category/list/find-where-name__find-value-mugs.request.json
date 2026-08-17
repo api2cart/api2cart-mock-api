@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-14T08:11:23Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "find_where": "name",
+        "find_value": "Mugs"
+    }
+}

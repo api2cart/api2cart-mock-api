@@ -1,0 +1,235 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "1730833319262849429",
+                "type": "configurable",
+                "u_model": "umbrella_red",
+                "u_sku": "umbrella_red",
+                "name": "Modern Minimalist Wall Clock - Silent Non-Ticking Design updated2",
+                "description": "<p>Stay dry and stylish with our Windproof Compact Travel Umbrella! Designed for durability, this umbrella features a strong, wind-resistant frame and a sleek, portable design, perfect for on-the-go use. Whether you're battling heavy rain or shielding yourself from the sun, our umbrella offers reliable protection and easy portability. Ideal for everyday carry in your bag or car, it opens and closes effortlessly with just the push of a button. Available in a variety of vibrant colors to match your personal style. Don't let the weather catch you unprepared—grab yours today!</p>",
+                "short_description": null,
+                "price": 13.64,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "600570"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-4662d2bd.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.245,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-02T09:43:01+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-04T10:34:16+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "fa2303c71324b9a3bca76b66884e09b8",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "d00e1998de6fc481024c451c83e8e798",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "100000",
+                        "product_option_id": "100000",
+                        "name": "Color",
+                        "description": null,
+                        "sort_order": 0,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "6926865453197526786",
+                                "product_option_item_id": "6926865453197526786",
+                                "name": "Red",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131814657",
+                                "product_option_item_id": "6926865445131814657",
+                                "name": "Blue",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6926865445131749121",
+                                "product_option_item_id": "6926865445131749121",
+                                "name": "Black",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ],
+                        "additional_fields": {
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "0735006921002",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 38,
+                "height": 13,
+                "length": 37,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 13.64,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729623101520515477",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-14T13:26:50Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "created_to": "2024-08-06 01:00:00"
+    }
+}

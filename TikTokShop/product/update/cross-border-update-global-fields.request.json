@@ -1,0 +1,14 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1793202390253866814",
+        "name": "Elegant Minimalist Wall Clock - Silent and Stylish Timepiece updated",
+        "weight": 12,
+        "height": 2,
+        "length": 2,
+        "width": 2,
+        "upc": "012345678905"
+    }
+}

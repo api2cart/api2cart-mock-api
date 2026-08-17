@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "PUT",
+    "endpoint": "order.return.update.json",
+    "body": {
+        "return_id": "4035299614831254296",
+        "return_status_id": "Approved"
+    }
+}

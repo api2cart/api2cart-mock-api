@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Status cannot be updated for a global product. Update the status for a specific local product instead.",
+    "result": {}
+}

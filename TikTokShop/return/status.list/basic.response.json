@@ -1,0 +1,28 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "return_statuses": [
+            {
+                "id": "PENDING",
+                "name": "Pending"
+            },
+            {
+                "id": "APPROVED",
+                "name": "Approved"
+            },
+            {
+                "id": "REJECTED",
+                "name": "Rejected"
+            },
+            {
+                "id": "COMPLETED",
+                "name": "Completed"
+            },
+            {
+                "id": "CANCELLED",
+                "name": "Cancelled"
+            }
+        ]
+    }
+}

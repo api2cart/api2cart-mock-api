@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Method 'product.image.delete' is not supported for local products on cross-border accounts.",
+    "result": {}
+}

@@ -1,0 +1,87 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1154261833533201176",
+        "order_id": "576929338705943320",
+        "name": null,
+        "warehouse_id": "7381927049415739168",
+        "shipment_provider": "TT Virtual# Evri",
+        "tracking_numbers": [
+            {
+                "carrier_id": "7021769596919088897",
+                "tracking_number": "IZTNMKRLF1214326802583103046",
+                "additional_fields": {
+                    "last_mile_tracking_number": "TTVIRTUAL3458768359270832920"
+                }
+            }
+        ],
+        "created_at": {
+            "value": "2026-07-28T12:07:37+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_time": {
+            "value": "2026-07-28T12:08:50+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "items": [
+            {
+                "order_product_id": "576929338706074392",
+                "product_id": "1729882440760597384",
+                "variant_id": null,
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "quantity": 1
+            },
+            {
+                "order_product_id": "576929338706139928",
+                "product_id": "1729882440760597384",
+                "variant_id": null,
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "quantity": 1
+            },
+            {
+                "order_product_id": "576929338706205464",
+                "product_id": "1729882438163405704",
+                "variant_id": null,
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "quantity": 1
+            },
+            {
+                "order_product_id": "576929338706271000",
+                "product_id": "1729882438163405704",
+                "variant_id": null,
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "quantity": 1
+            },
+            {
+                "order_product_id": "576929338706336536",
+                "product_id": "1729882438163405704",
+                "variant_id": null,
+                "model": "toilet_brush1",
+                "name": "Heavy-Duty Widget 518",
+                "price": 12.99,
+                "quantity": 1
+            }
+        ],
+        "is_shipped": true,
+        "delivered_at": null,
+        "additional_fields": {
+            "package_status": "COMPLETED",
+            "split_and_combine_tag": "DEFAULT",
+            "shipping_type": "TIKTOK",
+            "delivery_option_name": "Standard shipping",
+            "delivery_option_id": "7031156220157232897",
+            "handover_method": "PICKUP",
+            "pickup_slot_start_time": null,
+            "pickup_slot_end_time": null
+        }
+    }
+}

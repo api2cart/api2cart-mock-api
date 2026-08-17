@@ -1,0 +1,181 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbGkIwAADgR9qkVS5csGbKFzMaLs1hDqH6yqGn7%2F9HJmbymqkgMQVJWiMmv7ylNrfGGxkQiqy%2B3IXRT3eqtmeP97K6CKsOP5WMsyhrAax15B69QU73xtm0QktOYrF%2FIEvgB8M1XhpvM0BuHJK9Q4KLl%2BarLMqr5wdo0oxtqyrObMHxMpxd6kPVhSlUpvkH"
+    },
+    "result": {
+        "total_count": 9,
+        "children": [
+            {
+                "id": "1729421251089436552",
+                "parent_id": "1729421158695407496",
+                "sku": null,
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": "4006381333931",
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": null,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Unbranded Hoodie Red Green Blue withh a lot of sizes - Red / L",
+                "short_description": null,
+                "full_description": null,
+                "images": [
+                    {
+                        "id": "fb7cba3c7d001f403218208163a363a0",
+                        "http_path": "https://picsum.photos/seed/c373b5b5/600/600",
+                        "file_name": "0d5c258c97a74b238c5d5571224fb706~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "combination": [
+                    {
+                        "option_id": "100000",
+                        "option_value_id": "6926865453197526786"
+                    },
+                    {
+                        "option_id": "100007",
+                        "option_value_id": "6931945920397559553"
+                    }
+                ],
+                "default_price": 97.18,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": true,
+                "allow_backorders": null,
+                "in_stock": true,
+                "on_sale": null,
+                "manage_stock": true,
+                "inventory_level": 37,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 37,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "combined_skus": [],
+                    "sale_price": 97.18
+                }
+            },
+            {
+                "id": "1729421251089502088",
+                "parent_id": "1729421158695407496",
+                "sku": null,
+                "upc": null,
+                "ean": "5000112548167",
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": null,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Unbranded Hoodie Red Green Blue withh a lot of sizes - Red / XL",
+                "short_description": null,
+                "full_description": null,
+                "images": [
+                    {
+                        "id": "fb7cba3c7d001f403218208163a363a0",
+                        "http_path": "https://picsum.photos/seed/c373b5b5/600/600",
+                        "file_name": "0d5c258c97a74b238c5d5571224fb706~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "combination": [
+                    {
+                        "option_id": "100000",
+                        "option_value_id": "6926865453197526786"
+                    },
+                    {
+                        "option_id": "100007",
+                        "option_value_id": "6931945920397575937"
+                    }
+                ],
+                "default_price": 66.99,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": true,
+                "allow_backorders": null,
+                "in_stock": true,
+                "on_sale": null,
+                "manage_stock": true,
+                "inventory_level": 76,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 76,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "combined_skus": [],
+                    "sale_price": 66.99
+                }
+            }
+        ]
+    }
+}

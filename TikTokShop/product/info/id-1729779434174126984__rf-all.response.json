@@ -1,0 +1,144 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1729779434174126984",
+        "type": "simple",
+        "u_model": "test_sku",
+        "u_sku": "test_sku",
+        "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+        "description": "<p>Introducing the <strong>CuddleBuddy Small Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><h3>Features of the CuddleBuddy Giant Teddy Bear:</h3><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><h3>Why Choose CuddleBuddy Giant Teddy Bear?</h3><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><h3>Bringing Joy and Comfort:</h3><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+        "short_description": null,
+        "price": 11.11,
+        "advanced_price": [],
+        "cost_price": null,
+        "unit_price": null,
+        "measure_unit": null,
+        "quantity": 2,
+        "inventory": [
+            {
+                "warehouse_id": "7381927049415739168",
+                "quantity": 2,
+                "in_stock": true,
+                "priority": null
+            }
+        ],
+        "group_items": [],
+        "u_brand_id": "7181749527794452229",
+        "u_brand": "Handmade",
+        "categories_ids": [
+            "604206",
+            "859656",
+            "700699"
+        ],
+        "stores_ids": [
+            "7495811849164131208"
+        ],
+        "url": "https://store-e1bf9631.example.com/",
+        "seo_url": null,
+        "meta_title": null,
+        "meta_keywords": null,
+        "meta_description": null,
+        "avail_sale": false,
+        "avail_view": false,
+        "is_virtual": null,
+        "is_downloadable": null,
+        "weight": 2.95,
+        "weight_unit": "kg",
+        "sort_order": null,
+        "in_stock": true,
+        "backorders": null,
+        "manage_stock": null,
+        "is_stock_managed": null,
+        "on_sale": null,
+        "create_at": {
+            "value": "2026-03-13T12:04:41+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_at": {
+            "value": "2026-03-13T14:30:36+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "tax_class_id": null,
+        "special_price": null,
+        "tier_price": [],
+        "group_price": [],
+        "images": [
+            {
+                "id": "ed6299b2ef841a17c6ed71cf3b9660a9",
+                "http_path": "https://picsum.photos/seed/c79bfec5/600/600",
+                "file_name": "20ce1e572d3141618884333d0ed255b4~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 0,
+                "type": "IMAGE_TYPE_BASE"
+            }
+        ],
+        "product_options": [],
+        "u_upc": null,
+        "u_mpn": null,
+        "u_gtin": null,
+        "u_isbn": null,
+        "u_ean": null,
+        "related_products_ids": [],
+        "up_sell_products_ids": [],
+        "cross_sell_products_ids": [],
+        "dimensions_unit": "cm",
+        "width": 13,
+        "height": 11,
+        "length": 12,
+        "discounts": [],
+        "additional_fields": {
+            "status": "DELETED",
+            "is_cod_allowed": false,
+            "is_not_for_sale": false,
+            "sale_price": 11.11,
+            "is_global_product": false,
+            "local_products": [],
+            "specifics": [
+                {
+                    "name": "Age Suitability",
+                    "value": "Not Applicable"
+                },
+                {
+                    "name": "Safety Warning Information",
+                    "value": "Only For Domestic Use."
+                }
+            ],
+            "certifications": [
+                {
+                    "id": "7365861733473027846",
+                    "title": "Toy labelling",
+                    "images": [
+                        {
+                            "height": 470,
+                            "thumb_urls": [
+                                "https://picsum.photos/seed/4b09c408/600/600",
+                                "https://picsum.photos/seed/5f054deb/600/600"
+                            ],
+                            "uri": "tos-no1a-i-t5fjg24jzw-no/79e8065fbaf543b08fead5825a8782d8",
+                            "urls": [
+                                "https://picsum.photos/seed/598bb588/600/600",
+                                "https://picsum.photos/seed/dbb75fbb/600/600"
+                            ],
+                            "width": 457
+                        }
+                    ],
+                    "files": []
+                }
+            ],
+            "size_chart": {
+                "image": null,
+                "template": null
+            },
+            "manufacturer_ids": [
+                "69b400878c0aa58af419c2e0"
+            ],
+            "responsible_person_ids": []
+        }
+    }
+}

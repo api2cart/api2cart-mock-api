@@ -1,0 +1,77 @@
+{
+    "captured_at": "2026-08-14T19:32:49Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Handmade CuddleBuddy Giant Teddy Bear - Soft and Snuggly Teddy Plush Toy",
+        "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend!</p>",
+        "category_id": "700699",
+        "image_url": "https://app.api2cart.com/images/maintenance.png",
+        "quantity": 3,
+        "price": 33.33,
+        "weight": 5.95,
+        "height": 11,
+        "length": 12,
+        "width": 13,
+        "brand_name": "Handmade",
+        "sku": "cuddlebuddy_fiant_teddy_bear",
+        "ean": "9780201379624",
+        "certifications": [
+            {
+                "id": "7365861733473027846",
+                "images": [
+                    {
+                        "url": "https://app.api2cart.com/images/maintenance.png"
+                    }
+                ],
+                "files": [
+                    {
+                        "url": "http://stores.deploy.api2cart.com/scripts/sample_pdf.pdf"
+                    }
+                ]
+            }
+        ],
+        "specifics": [
+            {
+                "name": "Child Gender",
+                "values": [
+                    "Unisex"
+                ]
+            },
+            {
+                "name": "Warranty Type",
+                "values": [
+                    "No"
+                ]
+            },
+            {
+                "name": "Interest",
+                "values": [
+                    "Child Development",
+                    "Muscle Building"
+                ]
+            },
+            {
+                "name": "Material Feature",
+                "values": [
+                    "BPA Free",
+                    "Latex Free"
+                ]
+            },
+            {
+                "name": "Safety Warning Information",
+                "values": [
+                    "Only For Domestic Use."
+                ]
+            },
+            {
+                "name": "Age Suitability",
+                "values": [
+                    "Not Applicable"
+                ]
+            }
+        ],
+        "manufacturer_ids": "69b400878c0aa58af419c2e0,69b400a85d03ba20204d7d50",
+        "responsible_person_ids": "69b3ffec0eba7ac01d19b1a3,69b4003fd461ea676edeffae"
+    }
+}
