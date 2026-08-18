@@ -1,5 +1,5 @@
 {
-    "return_code": 114,
-    "return_message": "Required parameter is not specified",
+    "return_code": 109,
+    "return_message": "Invalid request: 'raw_body' is either empty or not provided.",
     "result": {}
 }

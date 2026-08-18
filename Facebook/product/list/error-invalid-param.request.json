@@ -1,8 +1,8 @@
 {
-    "captured_at": "2026-08-12T07:56:46Z",
+    "captured_at": "2026-08-18T07:02:39Z",
     "method": "GET",
     "endpoint": "product.list.json",
     "query": {
-        "count": "-1"
+        "count": -1
     }
 }

@@ -1,5 +1,5 @@
 {
     "return_code": 109,
-    "return_message": "Parameter(s) for method is/are incorrect (empty etc.)",
+    "return_message": "The value of parameter 'description' can not be empty.",
     "result": {}
 }

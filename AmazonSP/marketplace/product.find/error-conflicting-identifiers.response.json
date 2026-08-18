@@ -1,5 +1,5 @@
 {
     "return_code": 109,
-    "return_message": "Parameter(s) for method is/are incorrect (empty etc.)",
-    "result": null
+    "return_message": "Parameter 'keyword' can't be used with parameter(s): 'asin'",
+    "result": {}
 }

@@ -1,0 +1,147 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "108818132369153",
+        "order_id": "108818132369153",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "100000202114316",
+            "email": "user21861@example.com",
+            "first_name": "Robin",
+            "last_name": "Davis",
+            "phone": null
+        },
+        "create_at": {
+            "value": "2023-06-29T07:20:45-0500",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "USD",
+            "name": "US Dollar",
+            "iso3": "USD",
+            "symbol_left": "$",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": false
+        },
+        "shipping_address": {
+            "id": 1,
+            "type": "shipping",
+            "first_name": "Robin",
+            "last_name": "Davis",
+            "postcode": "07567",
+            "address1": "308 Example St",
+            "address2": "",
+            "phone": "+11987100793",
+            "phone_mobile": "",
+            "city": "Bristol",
+            "country": {
+                "code2": "US",
+                "code3": "USA",
+                "name": "United States of America"
+            },
+            "state": {
+                "code": "NY",
+                "name": "New York"
+            },
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": false,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null
+        },
+        "billing_address": null,
+        "payment_method": null,
+        "shipping_method": {
+            "name": "Value"
+        },
+        "shipping_methods": [
+            {
+                "name": "Value"
+            }
+        ],
+        "status": {
+            "id": "Cancelled",
+            "name": "Cancelled",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": {
+            "total": 499.99,
+            "subtotal": 499.99,
+            "shipping": 0,
+            "tax": 0,
+            "discount": 0
+        },
+        "total": {
+            "subtotal_ex_tax": 499.99,
+            "wrapping_ex_tax": null,
+            "shipping_ex_tax": 0,
+            "total_discount": 0,
+            "total_tax": 0,
+            "total": 499.99,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": null,
+                "subtotal_discount_ex_tax": null,
+                "tax_discount": null,
+                "subtotal_tax": 0,
+                "wrapping_tax": null,
+                "shipping_tax": 0
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "67022229561Test5_skuUpdate",
+                "order_product_id": "1",
+                "model": "67022229561Test5_skuUpdate",
+                "name": "Standard Gadget 284",
+                "price": 499.99,
+                "price_inc_tax": 499.99,
+                "quantity": 1,
+                "discount_amount": null,
+                "total_price": 499.99,
+                "tax_percent": 0,
+                "tax_value": 0,
+                "tax_value_after_discount": null,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": "lb",
+                "weight": null,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "Status": "Cancelled",
+                    "statusDate": 1688041306058,
+                    "cancellationReason": "SELLER_CANCEL_ADDRESS_NOT_SERVICEABLE",
+                    "fulfillmentOption": "DELIVERY",
+                    "shipMethod": "VALUE",
+                    "storeId": null,
+                    "pickUpBy": null,
+                    "pickUpDateTime": 1688770740000
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": null,
+        "finished_time": null,
+        "comment": null,
+        "store_id": null,
+        "warehouses_ids": [],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "additional_fields": {
+            "estimatedDeliveryDate": 1688770740000,
+            "estimatedShipDate": 1688104800000
+        }
+    }
+}

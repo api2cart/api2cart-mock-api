@@ -1,0 +1,47 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "shipment_count": 1,
+        "shipment": [
+            {
+                "id": "7ee39a6b8110fe0bcaa3b2cf44c01e1e",
+                "order_id": "3796050123784",
+                "name": null,
+                "warehouse_id": null,
+                "shipment_provider": null,
+                "tracking_numbers": [
+                    {
+                        "carrier_id": "USPS Marketplace",
+                        "tracking_number": "7220526693585453735561",
+                        "additional_fields": {
+                            "tracking_link": "https://store-2cd8ddfe.example.com/"
+                        }
+                    }
+                ],
+                "created_at": {
+                    "value": "2019-08-27T19:12:49+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_time": null,
+                "items": [
+                    {
+                        "order_product_id": "1",
+                        "product_id": "TEST-02",
+                        "variant_id": null,
+                        "model": "TEST-02",
+                        "name": "Classic Sample Item 672",
+                        "price": 9.99,
+                        "quantity": 1
+                    }
+                ],
+                "is_shipped": true,
+                "delivered_at": null
+            }
+        ]
+    }
+}

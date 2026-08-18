@@ -69,10 +69,10 @@
         "description": "categories under a parent"
     },
     "category/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "category/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no category with this id"
     },
     "category/info/id-20081__params-force-all__exclude-short-description-pa": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -93,7 +93,7 @@
         "description": "pagination: start/count offset [count=3]"
     },
     "category/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "category/list/full-properties": {
         "description": "reference: full integration-specific properties, all additional_fields (response_fields={*}); its pagination.next is the page_cursor consumed by page-2"
@@ -112,6 +112,9 @@
     },
     "marketplace/product.find/error-invalid-count": {
         "description": "validation: count must be an unsigned integer"
+    },
+    "marketplace/product.find/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
     },
     "marketplace/product.find/error-no-identifier": {
         "description": "validation: exactly one of keyword/asin/ean/gtin/upc/isbn/mpn is required"
@@ -165,10 +168,10 @@
         "description": "happy path: financial statuses supported by the store"
     },
     "order/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: order_id is required"
     },
     "order/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this order_id"
     },
     "order/info/order-id-02-00000-38996__rf-all": {
         "description": "full response fields"
@@ -228,13 +231,16 @@
         "description": "error: missing required order_id -> 114 NO_PARAM"
     },
     "order/shipment.info/error-no-params": {
-        "description": "error: missing required id (checked before order_id) -> 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "order/shipment.info/error-not-found": {
-        "description": "error: shipment id does not exist for this order -> 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this id/order_id"
     },
     "order/shipment.info/order-id": {
         "description": "happy path: a single shipment by id, with tracking number and shipped items"
+    },
+    "order/shipment.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
     },
     "order/shipment.list/error-no-params": {
         "description": "error: missing required order_id -> 114 NO_PARAM"
@@ -330,10 +336,10 @@
         "description": "sales_tax and package_details together with multiple payment_methods (CashOnPickup, PayPal)"
     },
     "product/child_item.info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: product_id is required"
     },
     "product/child_item.info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this product_id/id"
     },
     "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895": {
         "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., no response_fields]"
@@ -345,7 +351,7 @@
         "description": "filter: specific product id(s) [id=945104ef13697b8b13516..., response_fields={*}]"
     },
     "product/child_item.list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/child_item.list/page-2": {
         "description": "pagination: page 2 via page_cursor from product-id-110588487260__count-2__rf-all"
@@ -420,10 +426,10 @@
         "description": "move an image to a new position"
     },
     "product/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this id"
     },
     "product/info/id-110588487260__rf-all": {
         "description": "full response fields [id=110588487260]"
@@ -453,7 +459,7 @@
         "description": "filter: created_from (lower bound)"
     },
     "product/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/list/page-2": {
         "description": "pagination: page 2 via page_cursor from created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all"

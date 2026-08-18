@@ -1,5 +1,5 @@
 {
     "return_code": 109,
     "return_message": "Parameter 'find_where' is not valid. The required type of parameter is string. The following values are allowed: name.",
-    "result": []
+    "result": {}
 }

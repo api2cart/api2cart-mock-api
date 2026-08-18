@@ -1,0 +1,182 @@
+{
+    "cart/info/basic": {
+        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what is NOT here -- no carriers list (order.shipment.add's carrier_id vocabulary is fixed in the integration, not returned by this method) and shipping_zones is empty"
+    },
+    "category/count/basic": {
+        "description": "Total category count for the store (no filters)."
+    },
+    "category/info/basic": {
+        "description": "Full single-category info shape (response_fields={*}) for a real category id harvested from category.list basic."
+    },
+    "category/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "category/info/error-not-found": {
+        "description": "not found: no category with this id"
+    },
+    "category/list/basic": {
+        "description": "Full category entity shape (response_fields={*}), including the large category_properties schema block that marketplace_item_properties must be built from. Careful: categories_count here is the size of THIS page (3), while category.count returns the store total (80)"
+    },
+    "category/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "category/list/page-2": {
+        "description": "Second page of categories reached via cursor-based pagination (page_cursor from the basic call's pagination.next, URL-decoded once)."
+    },
+    "order/count/basic": {
+        "description": "Total order count for the store (no filters)."
+    },
+    "order/count/order-status-shipped": {
+        "description": "Filter: order_status=Shipped, count of orders in the Shipped state."
+    },
+    "order/info/basic": {
+        "description": "Full single-order info shape (response_fields={*}) for a real order_id harvested from order.list basic."
+    },
+    "order/info/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/info/error-not-found": {
+        "description": "not found: no order with this order_id"
+    },
+    "order/list/basic": {
+        "description": "Full order entity shape (response_fields={*}) for 3 real orders, showing Cancelled and Created statuses."
+    },
+    "order/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "order/list/order-status-shipped": {
+        "description": "Filter: order_status=Shipped, returning only orders in the Shipped state."
+    },
+    "order/shipment.add/all-open-lines": {
+        "description": "omit items[] to ship every line of the order that is still unshipped, instead of listing them one by one"
+    },
+    "order/shipment.add/basic": {
+        "description": "happy path: ship one order line. order_product_id is the order LINE NUMBER as returned by order.info/order.list, not a long id, and carrier_id must be one of the integration's fixed carrier keys"
+    },
+    "order/shipment.add/error-all-items-already-shipped": {
+        "description": "conflict: every line of this order is already shipped, so there is nothing left to ship"
+    },
+    "order/shipment.add/error-empty-tracking-number": {
+        "description": "validation: a known carrier with an empty tracking number is still rejected"
+    },
+    "order/shipment.add/error-multiple-tracking-numbers": {
+        "description": "validation: exactly one tracking number per call -- shipping lines with different carriers takes one call each"
+    },
+    "order/shipment.add/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/shipment.add/error-no-tracking-numbers": {
+        "description": "validation: tracking_numbers is mandatory on Walmart even though openapi does not mark it required -- a shipment cannot be created without one"
+    },
+    "order/shipment.add/error-order-item-not-found": {
+        "description": "not found: the line number does not exist on this order"
+    },
+    "order/shipment.add/error-quantity-exceeds-ordered": {
+        "description": "conflict: shipping more units than the line actually has"
+    },
+    "order/shipment.add/error-unknown-carrier": {
+        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- cart.info does not expose them on Walmart"
+    },
+    "order/shipment.list/basic": {
+        "description": "Full shipment entity shape (response_fields={*}) for a real shipped order, including tracking numbers and shipped items."
+    },
+    "order/shipment.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "order/status.list/basic": {
+        "description": "Full list of the 5 native Walmart order statuses (Created, Acknowledged, Shipped, Cancelled, Delivered)."
+    },
+    "product/add/basic": {
+        "description": "happy path: create an item. Beyond the three fields openapi marks required, Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
+    },
+    "product/add/error-empty-name": {
+        "description": "validation: a required parameter present but empty is rejected differently from a missing one -- 109, not 114"
+    },
+    "product/add/error-identifier-already-listed": {
+        "description": "conflict: a new sku is not enough -- the same UPC/EAN/GTIN/ISBN may only be listed once per seller, and the error names the sku that already holds it"
+    },
+    "product/add/error-invalid-price": {
+        "description": "validation: price must be decimal"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: name, description and price are the openapi-required trio; the first missing one is named"
+    },
+    "product/add/error-only-name": {
+        "description": "validation: description still missing"
+    },
+    "product/add/error-only-name-and-description": {
+        "description": "validation: price still missing"
+    },
+    "product/add/error-sku-already-exists": {
+        "description": "conflict: the sku is the product id on Walmart, so re-using one that already exists in the store is rejected before the feed is submitted"
+    },
+    "product/add/scheduled-with-avail-from": {
+        "description": "scheduled listing: avail_from sets Walmart's startDate, so the item goes live at a future moment instead of immediately (omitting it makes the integration send \"now\")"
+    },
+    "product/add/with-marketplace-item-properties": {
+        "description": "category-specific attributes: marketplace_item_properties is a JSON-encoded string whose keys must come from that category's own schema, which category.info returns in additional_fields.category_properties (keys below are from category 559c5d924fff3d64de18bf45)"
+    },
+    "product/count/basic": {
+        "description": "Total product count for the store (no filters)."
+    },
+    "product/delete/by-id": {
+        "description": "happy path: retire an item by its sku (Walmart retires rather than erases -- the item stays retrievable with lifecycleStatus RETIRED)"
+    },
+    "product/delete/error-already-retired": {
+        "description": "conflict: deleting an item that is already retired is refused rather than treated as a no-op"
+    },
+    "product/delete/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/delete/error-not-found": {
+        "description": "not found: no item with this sku"
+    },
+    "product/find/error-empty-find-value": {
+        "description": "validation: empty find_value"
+    },
+    "product/find/error-no-params": {
+        "description": "validation: find_value is required"
+    },
+    "product/find/error-not-found": {
+        "description": "not found: searching for a brand that product.list shows on six items still returns not_found -- like product.info, product.find could not be made to succeed on this store; note the wording here is \"Entity not found\", not product.info's \"Item not found\""
+    },
+    "product/info/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/info/error-not-found": {
+        "description": "not found: this id comes straight from product.list (a published, saleable item) and still resolves to not_found -- product.info could not be made to succeed for any id on this store, so this is the only observed behaviour of the method here, not a made-up id"
+    },
+    "product/list/avail-view-true": {
+        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count stays at the unfiltered store total of 20"
+    },
+    "product/list/basic": {
+        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count is the STORE total, not the page size"
+    },
+    "product/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "product/update/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/update/error-invalid-price": {
+        "description": "validation: price must be decimal"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/update/error-not-found": {
+        "description": "not found: no item with this sku"
+    },
+    "product/update/update-price": {
+        "description": "update the price of an existing item (id is the seller sku, taken from product.list)"
+    },
+    "product/update/update-price-and-quantity": {
+        "description": "price and quantity in one call -- they are two separate Walmart endpoints internally, and the response reports the combined outcome"
+    },
+    "product/update/update-quantity": {
+        "description": "update seller-owned inventory; WFS (Walmart-fulfilled) inventory cannot be changed through this method"
+    }
+}

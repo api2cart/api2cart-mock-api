@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-17T13:56:41Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "count": 3,
+        "order_status": "Shipped",
+        "response_fields": "{*}"
+    }
+}

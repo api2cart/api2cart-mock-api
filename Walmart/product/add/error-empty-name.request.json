@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "",
+        "description": "Supportive memory foam pet bed.",
+        "price": 49.99
+    }
+}

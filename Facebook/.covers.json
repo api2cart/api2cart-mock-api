@@ -84,10 +84,10 @@
         "description": "happy path: entity information without filters"
     },
     "category/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "category/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no category with this id"
     },
     "category/info/params-force-all__exclude-additional-fields": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -99,7 +99,7 @@
         "description": "pagination: page 1, count=3; its pagination.next is the page_cursor consumed by page-2"
     },
     "category/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "category/list/params-force-all__exclude-additional-fields": {
         "description": "params=force_all combined with exclude (deprecated selector pair)"
@@ -177,10 +177,10 @@
         "description": "furniture listing explicitly marked available_for_sale=false"
     },
     "product/child_item.info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: product_id is required"
     },
     "product/child_item.info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this product_id/id"
     },
     "product/child_item.info/product-id-24567417719555614__id-6739723396106652": {
         "description": "a child on a different parent, minimal fields"
@@ -189,7 +189,7 @@
         "description": "happy path: a single child's full record"
     },
     "product/child_item.list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/child_item.list/page-2": {
         "description": "pagination: second (last) page via page_cursor from product-id-24567417719555614__count-2's pagination.next -- page_cursor cannot be combined with product_id, so the follow-up request carries only the cursor"
@@ -240,10 +240,10 @@
         "description": "happy path: entity information without filters"
     },
     "product/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this id"
     },
     "product/info/rf-all": {
         "description": "reference: full integration-specific properties, all additional_fields (response_fields={*})"
@@ -255,7 +255,7 @@
         "description": "happy path (no filters)"
     },
     "product/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/list/find-value-mock-fresh-probe-product__find-where-name": {
         "description": "search: exact-match on name returns the one matching product"

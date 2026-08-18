@@ -1,5 +1,5 @@
 {
     "return_code": 114,
-    "return_message": "Required parameter is not specified",
-    "result": null
+    "return_message": "One of parameters 'keyword', 'asin', 'ean', 'gtin', 'upc', 'isbn' is required.",
+    "result": {}
 }

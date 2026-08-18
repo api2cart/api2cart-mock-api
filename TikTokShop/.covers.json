@@ -30,10 +30,10 @@
         "description": "count: number of subcategories under a single branch of the catalogue tree"
     },
     "category/info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: id is required"
     },
     "category/info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no category with this id"
     },
     "category/info/id-600009__rf-all": {
         "description": "full category shape incl. certification/manufacturer/size_chart rules and product_specifics enums required by this category for product.add"
@@ -57,10 +57,10 @@
         "description": "happy path: count all orders"
     },
     "order/info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: order_id is required"
     },
     "order/info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no order with this order_id/store_id"
     },
     "order/info/order-id-576929338705943320__rf-all": {
         "description": "full order payload: delivered order with five line items, masked buyer/address data, currency block, totals breakdown and platform-specific fulfilment timestamps"
@@ -138,10 +138,10 @@
         "description": "reject a return with reject_reason and staff_note"
     },
     "order/shipment.info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: id is required"
     },
     "order/shipment.info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no order with this id/order_id"
     },
     "order/shipment.info/id-1154261833533201176__order-id-576929338705943320": {
         "description": "single entity looked up by id"
@@ -246,10 +246,10 @@
         "description": "happy path: full brand shape via response_fields={*}"
     },
     "product/child_item.info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: product_id is required"
     },
     "product/child_item.info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no product with this product_id/id"
     },
     "product/child_item.info/product-id-1729421158695407496__id-1729421251089502088": {
         "description": "one variant addressed by parent product_id + its own id, showing the ean-vs-gtin split across siblings"
@@ -333,10 +333,10 @@
         "description": "cross-border account: params=force_all combined with exclude (deprecated selector pair)"
     },
     "product/info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no product with this id"
     },
     "product/info/id-1729421158695407496__rf-all": {
         "description": "full response fields [id=1729421158695407496]"
@@ -495,10 +495,10 @@
         "description": "happy path: count all returns"
     },
     "return/info/error-no-params": {
-        "description": "validation: required id is missing"
+        "description": "validation: id is required"
     },
     "return/info/error-not-found": {
-        "description": "not found: entity id does not exist"
+        "description": "not found: no return with this id"
     },
     "return/info/id-4035254467378646808": {
         "description": "happy path: entity information by id"

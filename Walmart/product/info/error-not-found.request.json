@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-17T18:45:55Z",
+    "method": "GET",
+    "endpoint": "product.info.json",
+    "query": {
+        "id": "5364316"
+    }
+}

@@ -87,10 +87,10 @@
         "description": "async report_request_id reused to avoid starting a new report"
     },
     "category/find/error-no-find-value": {
-        "description": "error: missing find_value => 114 NO_PARAM"
+        "description": "validation: find_value is required"
     },
     "category/find/error-not-found": {
-        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no entity matches the searched value"
     },
     "category/find/find-name-2": {
         "description": "search: matching category name \"Movies\""
@@ -111,10 +111,10 @@
         "description": "search: matching category name \"Smartphones\""
     },
     "category/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "category/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no category with this id"
     },
     "category/info/full-properties": {
         "description": "reference: full integration-specific properties (large response)"
@@ -144,7 +144,7 @@
         "description": "pagination: page 1, count=5; its pagination.next is the page_cursor consumed by page-2 below"
     },
     "category/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "category/list/find-name": {
         "description": "search: matching category name \"Amazon Instant Video\", full field selection"
@@ -221,6 +221,9 @@
     "marketplace/product.find/error-conflicting-identifiers": {
         "description": "error: keyword conflicts with asin/ean/gtin/upc/isbn/mpn -- only one identifier param allowed per call => 109 PARAM_ERROR"
     },
+    "marketplace/product.find/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
     "marketplace/product.find/error-no-identifier": {
         "description": "error: no search identifier given (need one of keyword/asin/ean/gtin/upc/isbn) => 114 NO_PARAM"
     },
@@ -273,10 +276,10 @@
         "description": "filter: store_id (multi-store account)"
     },
     "order/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: order_id is required"
     },
     "order/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this order_id/store_id"
     },
     "order/info/order-id-111-2392565-0194613": {
         "description": "happy path: info by order_id"
@@ -312,7 +315,7 @@
         "description": "filter: enable_cache=false"
     },
     "order/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "order/list/fulfillment-channel-afn": {
         "description": "filter: fulfillment_channel=AFN (Fulfilled by Amazon), narrowed response_fields"
@@ -417,7 +420,7 @@
         "description": "validation: sku alone -> price/quantity still required"
     },
     "product/child_item.list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/child_item.list/page-2-feline-search": {
         "description": "pagination: page 2 via page_cursor from product-ids-b000joe224-parent-ap__find-value-feline__find-where-name__count-1__rf-children-id-parent-id-sku-name; last page (pagination.next is null)"
@@ -486,10 +489,10 @@
         "description": "not found: id does not exist"
     },
     "product/find/error-no-find-value": {
-        "description": "error: missing find_value => 114 NO_PARAM"
+        "description": "validation: find_value is required"
     },
     "product/find/error-not-found": {
-        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no entity matches the searched value"
     },
     "product/find/find-params-case-sensitive": {
         "description": "search: find_params=case_sensitive modifier"
@@ -498,10 +501,10 @@
         "description": "search: find_where=sku (note: product.find declares no response_fields)"
     },
     "product/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this id"
     },
     "product/info/id-t3-az75-ldqb": {
         "description": "happy path: info by id (sku-style)"
@@ -534,7 +537,7 @@
         "description": "disable_report_cache=false together with a known report_request_id: explicitly opts into the cached report instead of starting a new async export"
     },
     "product/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/list/error-report-not-ready": {
         "description": "error: async Amazon Reports export not ready yet => 107. First call for a given filter combination kicks off report generation; retry later (optionally with the returned report_request_id to reuse the same report instead of starting a new one)."
@@ -608,9 +611,6 @@
     "product/update/error-empty-id": {
         "description": "validation: empty id"
     },
-    "product/update/error-invalid-id": {
-        "description": "validation: non-numeric id"
-    },
     "product/update/error-invalid-price": {
         "description": "validation: non-numeric price"
     },
@@ -675,7 +675,7 @@
         "description": "happy path: MFN returns count over a 60-day window"
     },
     "return/list/error-invalid-param": {
-        "description": "error: invalid count value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "return/list/page-2": {
         "description": "pagination: page 2 via page_cursor from return-type-mfn__created-range-60d__count-2"

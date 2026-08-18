@@ -271,10 +271,24 @@ function validateDataset(string $platDir): array
       }
       $fsKeys[$key] = true;
 
-      $response = json_decode((string)file_get_contents($respFile), true);
+      $rawResponse = (string)file_get_contents($respFile);
+      $response = json_decode($rawResponse, true);
       if (!is_array($response)) {
         $errors[] = "$platDir: invalid response JSON: $key";
         continue;
+      }
+
+      // check 16 -- an ERROR response renders `"result": {}`, never `[]` and never `null`.
+      // Hardcoded in the REST renderer (library/Api2cart/Controller/Api.php::_jsonResponse):
+      //   '"result": ' . ($api->getResponseCode() == 0 ? $api->getResponse() : '{}')
+      // so it holds for every method, platform and response_fields selector.
+      // Raw text, like check 10, because json_decode() collapses [] and {} onto one PHP value --
+      // this defect is structurally invisible after decoding, which is exactly how 62 cases came
+      // to publish `[]`: scrape.php decodes with assoc=true and re-encodes, and the MCP transport
+      // does the same, so a live "confirmation" of `[]` is an artefact of the client, not the API.
+      if (($response['return_code'] ?? 0) !== 0
+        && !preg_match('/"result"\s*:\s*\{\s*\}/', $rawResponse)) {
+        $errors[] = "$platDir: error response must render \"result\": {} (not [] or null): $key";
       }
       if (!array_key_exists('return_code', $response)
         || !array_key_exists('return_message', $response)

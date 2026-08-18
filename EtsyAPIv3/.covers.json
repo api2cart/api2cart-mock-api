@@ -23,9 +23,6 @@
     "category/count/basic": {
         "description": "happy path: total count"
     },
-    "category/count/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
-    },
     "category/count/find-name": {
         "description": "search: matching name value [find_value=Accessories]"
     },
@@ -48,10 +45,10 @@
         "description": "categories under a parent [parent_id=2]"
     },
     "category/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "category/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no category with this id"
     },
     "category/info/id-1": {
         "description": "info by id [id=1]"
@@ -72,7 +69,7 @@
         "description": "happy path: first page"
     },
     "category/list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "category/list/find-name": {
         "description": "search: matching name value [find_value=Accessories]"
@@ -113,9 +110,6 @@
     "order/count/created-to-2100-08-29-13-45-52": {
         "description": "filter: created_to (upper bound)"
     },
-    "order/count/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
-    },
     "order/count/financial-status-paid": {
         "description": "filtered total count"
     },
@@ -124,6 +118,12 @@
     },
     "order/count/modified-to-2100-08-29-13-45-52": {
         "description": "filter: modified_to (upper bound)"
+    },
+    "order/info/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/info/error-not-found": {
+        "description": "not found: no order with this order_id"
     },
     "order/info/order-id-2858445267": {
         "description": "info by order_id [order_id=2858445267]"
@@ -162,7 +162,7 @@
         "description": "filter: created_to (upper bound)"
     },
     "order/list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "order/list/financial-fulfillment-paid-not-shipped": {
         "description": "pagination: start/count offset [financial_status=paid, fulfillment_status=not_shipped]"
@@ -213,10 +213,10 @@
         "description": "validation: order_id required"
     },
     "order/shipment.info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "order/shipment.info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this id/order_id"
     },
     "order/shipment.info/id-1501657741180-order-id-4110804944": {
         "description": "info by id+order_id [id=1501657741180]"
@@ -240,7 +240,7 @@
         "description": "full response fields [id=1504715324125]"
     },
     "order/shipment.list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "order/shipment.list/order-id-2858445267": {
         "description": "sub-list first page for order_id [order_id=2858445267]"
@@ -265,9 +265,6 @@
     },
     "order/status.list/basic": {
         "description": "happy path: first page"
-    },
-    "order/status.list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
     },
     "order/update/error-no-params": {
         "description": "validation: order_id required"
@@ -321,10 +318,10 @@
         "description": "create product with special_price"
     },
     "product/child_item.info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: product_id is required"
     },
     "product/child_item.info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this product_id/id"
     },
     "product/child_item.info/product-id-1360559503__id-12877039520": {
         "description": "filter: specific product id(s) [product_id=1360559503, id=12877039520]"
@@ -336,7 +333,7 @@
         "description": "filter: specific product id(s) [product_id=888814018, id=18444733522]"
     },
     "product/child_item.list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/child_item.list/page-2": {
         "description": "pagination: second page"
@@ -371,9 +368,6 @@
     "product/count/basic": {
         "description": "happy path: total count"
     },
-    "product/count/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
-    },
     "product/count/find-where-name__find-value-qatestvariantprod__rf-all": {
         "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
     },
@@ -402,10 +396,10 @@
         "description": "error: find by real name=Test listing met variaties (allemaal gelijke voorraad) (return_code=112)"
     },
     "product/find/error-no-find-value": {
-        "description": "error: missing find_value => 114 NO_PARAM"
+        "description": "validation: find_value is required"
     },
     "product/find/error-not-found": {
-        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no entity matches the searched value"
     },
     "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt": {
         "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
@@ -453,10 +447,10 @@
         "description": "delete content-uploaded image"
     },
     "product/info/error-no-params": {
-        "description": "error: missing required id => 114 NO_PARAM"
+        "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this id"
     },
     "product/info/id-1227563359": {
         "description": "info by id"
@@ -468,7 +462,7 @@
         "description": "happy path: first page"
     },
     "product/list/error-invalid-param": {
-        "description": "error: invalid param value => 109 PARAM_ERROR"
+        "description": "validation: count must be a non-negative integer"
     },
     "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all": {
         "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
@@ -544,9 +538,6 @@
     },
     "product/update/error-empty-id": {
         "description": "validation: empty id"
-    },
-    "product/update/error-invalid-id": {
-        "description": "validation: non-numeric id"
     },
     "product/update/error-invalid-price": {
         "description": "validation: non-numeric price"

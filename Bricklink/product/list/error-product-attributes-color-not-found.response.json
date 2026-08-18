@@ -1,5 +1,5 @@
 {
     "return_code": 112,
     "return_message": "Color with color_id 999999 not found",
-    "result": null
+    "result": {}
 }

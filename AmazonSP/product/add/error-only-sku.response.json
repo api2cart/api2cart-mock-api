@@ -1,5 +1,5 @@
 {
     "return_code": 114,
-    "return_message": "Required parameter is not specified",
+    "return_message": "Parameter 'quantity' is required.",
     "result": {}
 }

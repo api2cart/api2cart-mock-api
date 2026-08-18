@@ -1,5 +1,5 @@
 {
     "return_code": 114,
-    "return_message": "Required parameter is not specified",
-    "result": null
+    "return_message": "Parameter 'product_id' is required.",
+    "result": {}
 }

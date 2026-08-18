@@ -28,6 +28,10 @@
         {
             "integration": "TikTokShop",
             "index": "TikTokShop/index.json"
+        },
+        {
+            "integration": "Walmart",
+            "index": "Walmart/index.json"
         }
     ]
 }

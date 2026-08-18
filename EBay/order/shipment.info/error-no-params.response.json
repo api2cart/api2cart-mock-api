@@ -1,5 +1,5 @@
 {
     "return_code": 114,
     "return_message": "Parameter 'id' is required.",
-    "result": []
+    "result": {}
 }

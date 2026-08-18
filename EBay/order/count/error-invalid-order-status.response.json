@@ -1,5 +1,5 @@
 {
     "return_code": 109,
     "return_message": "Parameter 'ebay_order_status' is not valid. The required type of parameter is enum. One of the following values are allowed: Active, Completed, Cancelled.",
-    "result": []
+    "result": {}
 }

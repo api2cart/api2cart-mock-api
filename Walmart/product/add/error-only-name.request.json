@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Orthopedic Memory Foam Dog Bed, Medium"
+    }
+}

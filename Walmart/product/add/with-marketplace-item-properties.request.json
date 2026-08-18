@@ -1,0 +1,16 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Elevated Cooling Pet Bed, Large",
+        "description": "Breathable mesh pet cot that keeps pets cool in warm weather.",
+        "price": 64.5,
+        "sku": "A2C-PET-BED-002",
+        "category_id": "559c5d924fff3d64de18bf45",
+        "gtin": "00012345678905",
+        "image_url": "https://picsum.photos/seed/walmart-pet-cot/800",
+        "weight": 3.2,
+        "marketplace_item_properties": "{\"manufacturer\":\"Acme Pet\",\"modelNumber\":\"AP-2200\",\"color\":[\"Blue\"],\"colorCategory\":[\"Blue\"],\"countPerPack\":1,\"animalType\":\"Dog\",\"petSize\":\"Large\",\"keyFeatures\":[\"Machine washable cover\",\"Non-slip base\"],\"countryOfOriginTextiles\":\"Imported\"}"
+    }
+}

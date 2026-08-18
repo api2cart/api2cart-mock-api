@@ -64,6 +64,13 @@ assumes. Error cases keep `error-` first, so the marker appears as `error-cross-
 case whose slug carries the prefix is guaranteed to carry the matching `covers` prefix — the index
 generator applies it, so the two cannot drift apart.
 
+Walmart connections carry a **region** (`us` or `ca`), and it is not visible in any request: the
+same call succeeds on a US connection and is refused on a CA one with `return_code: 3`
+("This method supported for Walmart CA region."). It gates `product.add`, `order.shipment.add` and
+all three `category.*` methods. Every Walmart case in this dataset was taken against a **US**
+connection; there are no CA cases, and none of the published requests would need to change to hit
+that error — only the connection would.
+
 ## File formats
 
 `{case}.request.json` — capture timestamp, HTTP method and endpoint. Parameters live in exactly
@@ -96,7 +103,7 @@ no access to the api2cart app or its OpenAPI files. Pass it any subset of the in
 directories at the repo root — e.g., all of them:
 
 ```bash
-php scripts/validate.php AmazonSP Bol Bricklink EBay EtsyAPIv3 Facebook TikTokShop
+php scripts/validate.php AmazonSP Bol Bricklink EBay EtsyAPIv3 Facebook TikTokShop Walmart
 ```
 
 It checks, per integration: `index.json` matches the filesystem in both directions, every response

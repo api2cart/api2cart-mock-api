@@ -1,9 +1,9 @@
 {
-    "captured_at": "2026-08-10T12:43:19Z",
+    "captured_at": "2026-08-18T07:18:43Z",
     "method": "GET",
     "endpoint": "order.shipment.info.json",
     "query": {
-        "id": "NOPE",
-        "order_id": "01-14759-05993"
+        "id": "594708",
+        "order_id": "797476"
     }
 }

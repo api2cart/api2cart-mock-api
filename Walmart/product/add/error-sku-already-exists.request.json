@@ -1,0 +1,14 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Orthopedic Memory Foam Dog Bed, Medium",
+        "description": "Supportive memory foam pet bed.",
+        "price": 49.99,
+        "sku": "5364316",
+        "category_id": "559c5d924fff3d64de18bf45",
+        "upc": "012345678905",
+        "image_url": "https://picsum.photos/seed/walmart-pet-bed/800"
+    }
+}

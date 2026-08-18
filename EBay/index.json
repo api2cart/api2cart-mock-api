@@ -1,6 +1,6 @@
 {
     "integration": "EBay",
-    "generated_at": "2026-08-12T13:56:41Z",
+    "generated_at": "2026-08-18T07:33:31Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -248,18 +248,18 @@
                     "request": "category/info/error-no-params.request.json",
                     "response": "category/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "category/info/error-not-found.request.json",
                     "response": "category/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no category with this id"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "id-20081__params-force-all__exclude-short-description-pa",
@@ -327,9 +327,9 @@
                     "request": "category/list/error-invalid-param.request.json",
                     "response": "category/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "full-properties",
@@ -391,6 +391,15 @@
                         "description": "validation: count must be an unsigned integer"
                     },
                     "captured_at": "2026-08-10T18:20:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "marketplace/product.find/error-invalid-param.request.json",
+                    "response": "marketplace/product.find/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-no-identifier",
@@ -571,18 +580,18 @@
                     "request": "order/info/error-no-params.request.json",
                     "response": "order/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: order_id is required"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "order/info/error-not-found.request.json",
                     "response": "order/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no order with this order_id"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "order-id-02-00000-38996__rf-all",
@@ -749,7 +758,7 @@
                     "covers": {
                         "description": "happy path: add order shipment with tracking number and shipped items"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -758,7 +767,7 @@
                     "covers": {
                         "description": "validation: order_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -781,18 +790,18 @@
                     "request": "order/shipment.info/error-no-params.request.json",
                     "response": "order/shipment.info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id (checked before order_id) -> 114 NO_PARAM"
+                        "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-10T12:43:19Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "order/shipment.info/error-not-found.request.json",
                     "response": "order/shipment.info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: shipment id does not exist for this order -> 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no order with this id/order_id"
                     },
-                    "captured_at": "2026-08-10T12:43:19Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "order-id",
@@ -810,6 +819,15 @@
             "method": "order.shipment.list",
             "path": "order/shipment.list",
             "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
                 {
                     "slug": "error-no-params",
                     "request": "order/shipment.list/error-no-params.request.json",
@@ -876,7 +894,7 @@
                     "covers": {
                         "description": "validation: no params -> order_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -885,7 +903,7 @@
                     "covers": {
                         "description": "not found: order_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "set-financial-status",
@@ -894,7 +912,7 @@
                     "covers": {
                         "description": "happy path: update financial_status"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "set-order-status",
@@ -903,7 +921,7 @@
                     "covers": {
                         "description": "happy path: update order_status"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -919,7 +937,7 @@
                     "covers": {
                         "description": "private Auction with multiple categories and a scheduled start date"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "auction-upc-ean-isbn",
@@ -928,7 +946,7 @@
                     "covers": {
                         "description": "Auction listing with sku, buyitnow/reserve price and product identifiers"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "condition-good",
@@ -937,7 +955,7 @@
                     "covers": {
                         "description": "condition value 'Good' with a larger quantity"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "condition-graded",
@@ -946,7 +964,7 @@
                     "covers": {
                         "description": "condition value 'Graded' (collectibles/trading-card grading), not covered by the other condition examples"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "configurable-dress-size-variations",
@@ -955,7 +973,7 @@
                     "covers": {
                         "description": "configurable product with two used_for_variations specifics (Size, Dress Length) defining the variation axes"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "configurable-package-details",
@@ -964,7 +982,7 @@
                     "covers": {
                         "description": "configurable product with specifics, package_details, seller_profiles and best_offer"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "configurable-seller-profiles-cn-description",
@@ -973,7 +991,7 @@
                     "covers": {
                         "description": "configurable product using seller_profiles (business policies) instead of payment_methods/shipping_details, with sku and a non-Latin (Chinese) description"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-category-not-found",
@@ -982,7 +1000,7 @@
                     "covers": {
                         "description": "not found: categories_ids does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-empty-price",
@@ -991,7 +1009,7 @@
                     "covers": {
                         "description": "validation: empty price"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-condition",
@@ -1000,7 +1018,7 @@
                     "covers": {
                         "description": "validation: condition value not in the allowed enum"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1009,7 +1027,7 @@
                     "covers": {
                         "description": "validation: no params -> name required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "multi-category-full-specifics",
@@ -1018,7 +1036,7 @@
                     "covers": {
                         "description": "multi-category listing (two categories_ids) with condition_description and a 16-entry specifics list -- the richest real specifics set captured"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "plain-specifics-quantity-100",
@@ -1027,7 +1045,7 @@
                     "covers": {
                         "description": "plain specifics (no used_for_variations) with sku, seller_profiles and a high quantity (100)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "preowned-basic",
@@ -1036,7 +1054,7 @@
                     "covers": {
                         "description": "minimal FixedPrice/GTC listing with condition"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "sales-tax-package-details",
@@ -1045,7 +1063,7 @@
                     "covers": {
                         "description": "sales_tax and package_details together with multiple payment_methods (CashOnPickup, PayPal)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1061,7 +1079,7 @@
                     "covers": {
                         "description": "enqueue a 7-product batch covering AUCTION with buyitnow/reserve price, a two-category item, and specifics using \"values\" (list) instead of a single \"value\"; returns job_id 458 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "basic",
@@ -1070,7 +1088,7 @@
                     "covers": {
                         "description": "enqueue a 5-product batch add covering GTC/Days_1/Auction listings, specifics, sales_tax and package dimensions; returns job_id 457, which is still pending -- its result is batch/job.result/error-not-processed-yet"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-best-offer-not-available-fixed-price",
@@ -1079,7 +1097,7 @@
                     "covers": {
                         "description": "validation: best_offer is not available for FIXED_PRICE listings"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-duplicate-sku-in-payload",
@@ -1088,7 +1106,7 @@
                     "covers": {
                         "description": "validation: two payload items reuse the same sku"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-categories-ids",
@@ -1097,7 +1115,7 @@
                     "covers": {
                         "description": "validation: categories_ids entry not numeric (pattern ^\\d+$)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-sku",
@@ -1106,7 +1124,7 @@
                     "covers": {
                         "description": "validation: payload item missing required sku"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "three-products-mixed-categories",
@@ -1115,7 +1133,7 @@
                     "covers": {
                         "description": "enqueue a 3-product batch spanning three different categories and conditions in one call; returns job_id 452, whose processed result is batch/job.result/id-452-mixed-add-three-categories"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1129,18 +1147,18 @@
                     "request": "product/child_item.info/error-no-params.request.json",
                     "response": "product/child_item.info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: product_id is required"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "product/child_item.info/error-not-found.request.json",
                     "response": "product/child_item.info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no product with this product_id/id"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "product-id-110588487260__id-19d4eb5a6353f2894895",
@@ -1181,9 +1199,9 @@
                     "request": "product/child_item.list/error-invalid-param.request.json",
                     "response": "product/child_item.list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "page-2",
@@ -1287,7 +1305,7 @@
                     "covers": {
                         "description": "validation: type value not in the allowed enum (base, additional)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-missing-image-name",
@@ -1296,7 +1314,7 @@
                     "covers": {
                         "description": "validation: product_id alone -> image_name required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1305,7 +1323,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1314,7 +1332,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "type-additional",
@@ -1323,7 +1341,7 @@
                     "covers": {
                         "description": "add an additional (non-base) image"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "type-base-position-0",
@@ -1332,7 +1350,7 @@
                     "covers": {
                         "description": "add base image by url with explicit position"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1348,7 +1366,7 @@
                     "covers": {
                         "description": "not found: image id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1357,7 +1375,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-not-found",
@@ -1366,7 +1384,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "first-image",
@@ -1375,7 +1393,7 @@
                     "covers": {
                         "description": "delete the first added image"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "second-image",
@@ -1384,7 +1402,7 @@
                     "covers": {
                         "description": "delete the second added image"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1400,7 +1418,7 @@
                     "covers": {
                         "description": "not found: image id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1409,7 +1427,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-not-found",
@@ -1418,7 +1436,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "reposition",
@@ -1427,7 +1445,7 @@
                     "covers": {
                         "description": "move an image to a new position"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1441,18 +1459,18 @@
                     "request": "product/info/error-no-params.request.json",
                     "response": "product/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no product with this id"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "id-110588487260__rf-all",
@@ -1547,9 +1565,9 @@
                     "request": "product/list/error-invalid-param.request.json",
                     "response": "product/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-10T06:03:39Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "page-2",
@@ -1619,7 +1637,7 @@
                     "covers": {
                         "description": "disable product status"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-status",
@@ -1628,7 +1646,7 @@
                     "covers": {
                         "description": "validation: status value not in the allowed enum"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1637,7 +1655,7 @@
                     "covers": {
                         "description": "validation: no params -> id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1646,7 +1664,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-reserve-price-not-auction",
@@ -1655,7 +1673,7 @@
                     "covers": {
                         "description": "validation: reserve_price only allowed when the listing type is Auction"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "price-reserve-buyitnow",
@@ -1664,7 +1682,7 @@
                     "covers": {
                         "description": "update price together with reserve_price and buyitnow_price"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "sku-name-description",
@@ -1673,7 +1691,7 @@
                     "covers": {
                         "description": "update sku, name and description"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1689,7 +1707,7 @@
                     "covers": {
                         "description": "enqueue a 4-item batch update covering rename/price, increase_quantity+dimensions, reduce_quantity+images and status change; returns job_id 460 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "disable-and-reduce-quantity",
@@ -1698,7 +1716,7 @@
                     "covers": {
                         "description": "enqueue a 2-item batch update: disable one product, reduce_quantity with dimensions/condition on another; returns job_id 461 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-duplicate-id-in-payload",
@@ -1707,7 +1725,7 @@
                     "covers": {
                         "description": "validation: two payload items reuse the same id"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-id-pattern",
@@ -1716,7 +1734,7 @@
                     "covers": {
                         "description": "validation: id must match the numeric-string pattern"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-id",
@@ -1725,7 +1743,7 @@
                     "covers": {
                         "description": "validation: payload item missing required id"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-combo-conflict",
@@ -1734,7 +1752,7 @@
                     "covers": {
                         "description": "validation: quantity and increase_quantity are mutually exclusive"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "single-item-short-numeric-id",
@@ -1743,7 +1761,7 @@
                     "covers": {
                         "description": "enqueue a single-item batch update using a short numeric id instead of a full-length EBay item id; returns job_id 462 (enqueue only -- no result published)"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "two-items-price-and-quantity",
@@ -1752,7 +1770,7 @@
                     "covers": {
                         "description": "enqueue a 2-item batch update setting price on one product and quantity on another; returns job_id 456, whose processed result is batch/job.result/id-456-mixed-update-relisted"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1768,7 +1786,7 @@
                     "covers": {
                         "description": "add configurable-product variant by Color/Size attributes"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "color-red-size-l-with-identifiers",
@@ -1777,7 +1795,7 @@
                     "covers": {
                         "description": "add second variant with upc/ean/isbn"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-already-exists",
@@ -1786,7 +1804,7 @@
                     "covers": {
                         "description": "entity already exists: attribute combination already used by another variant"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-attributes",
@@ -1795,7 +1813,7 @@
                     "covers": {
                         "description": "validation: attributes must be an array"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1804,7 +1822,7 @@
                     "covers": {
                         "description": "validation: no params -> attributes required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1813,7 +1831,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1829,7 +1847,7 @@
                     "covers": {
                         "description": "validation: no params -> id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1838,7 +1856,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "first-variant",
@@ -1847,7 +1865,7 @@
                     "covers": {
                         "description": "delete first added variant"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "second-variant",
@@ -1856,7 +1874,7 @@
                     "covers": {
                         "description": "delete second added variant"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1872,7 +1890,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-option-conflict",
@@ -1881,7 +1899,7 @@
                     "covers": {
                         "description": "validation: images already assigned to a different variation option"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-not-found",
@@ -1890,7 +1908,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-variant-not-found",
@@ -1899,7 +1917,7 @@
                     "covers": {
                         "description": "not found: product_variant_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "image-scoped-to-option",
@@ -1908,7 +1926,7 @@
                     "covers": {
                         "description": "add an image scoped to a specific variation option"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "type-base",
@@ -1917,7 +1935,7 @@
                     "covers": {
                         "description": "add base image to a variant"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1933,7 +1951,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-not-found",
@@ -1942,7 +1960,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-variant-not-found",
@@ -1951,7 +1969,7 @@
                     "covers": {
                         "description": "not found: product_variant_id does not exist for this product"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "first-image",
@@ -1960,7 +1978,7 @@
                     "covers": {
                         "description": "delete first added variant image"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "second-image",
@@ -1969,7 +1987,7 @@
                     "covers": {
                         "description": "delete second added variant image"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -1985,7 +2003,7 @@
                     "covers": {
                         "description": "validation: no params -> id required"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1994,7 +2012,7 @@
                     "covers": {
                         "description": "not found: product_id does not exist"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-combo-conflict",
@@ -2003,7 +2021,7 @@
                     "covers": {
                         "description": "validation: quantity and increase_quantity are mutually exclusive"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-sku-already-used",
@@ -2012,7 +2030,7 @@
                     "covers": {
                         "description": "entity already exists: sku already used by another variant"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "price-increase-quantity",
@@ -2021,7 +2039,7 @@
                     "covers": {
                         "description": "update price and increase_quantity"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "sku-quantity",
@@ -2030,7 +2048,7 @@
                     "covers": {
                         "description": "update sku and quantity"
                     },
-                    "captured_at": "2026-08-11T07:14:47Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         }

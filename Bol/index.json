@@ -1,6 +1,6 @@
 {
     "integration": "Bol",
-    "generated_at": "2026-08-13T19:10:35Z",
+    "generated_at": "2026-08-18T07:33:30Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -88,13 +88,22 @@
                     "captured_at": "2026-08-13T12:00:00Z"
                 },
                 {
+                    "slug": "error-no-params",
+                    "request": "order/info/error-no-params.request.json",
+                    "response": "order/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
                     "slug": "error-not-found",
                     "request": "order/info/error-not-found.request.json",
                     "response": "order/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: well-formed but non-existent order_id -> 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no order with this order_id"
                     },
-                    "captured_at": "2026-08-13T12:00:00Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "rounding-precision-1",
@@ -129,6 +138,15 @@
                         "description": "happy path: default fields for all 7 orders currently on the store, all in shipped status"
                     },
                     "captured_at": "2026-08-13T12:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/list/error-invalid-param.request.json",
+                    "response": "order/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: page_cursor cannot be empty"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-modified-from-without-modified-to",
@@ -189,7 +207,7 @@
                     "covers": {
                         "description": "happy path: register an unannounced return for a shipped order line, received back in sellable state"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-already-returned",
@@ -198,7 +216,7 @@
                     "covers": {
                         "description": "the same order line cannot be registered as an unannounced return twice -- this one already has a return in return.info"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-handling-status-not-allowed",
@@ -207,7 +225,7 @@
                     "covers": {
                         "description": "validation: handling status outside the five bol.com settlement outcomes (note the error names the indexed parameter form)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-multiple-order-products",
@@ -216,7 +234,7 @@
                     "covers": {
                         "description": "bol.com registers one product per return -- multiple lines need one call each"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -225,7 +243,7 @@
                     "covers": {
                         "description": "validation: at least one order product must be named"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-yet-shipped",
@@ -234,7 +252,7 @@
                     "covers": {
                         "description": "an item can only be returned after it has shipped (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-order-product-not-found",
@@ -243,7 +261,7 @@
                     "covers": {
                         "description": "not found: the order_product_id does not belong to this order"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-over-available",
@@ -252,7 +270,7 @@
                     "covers": {
                         "description": "returning more units than were shipped on that order line"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "handling-status-customer-keeps-product-paid",
@@ -261,7 +279,7 @@
                     "covers": {
                         "description": "settle a return without the goods coming back: the customer keeps the item and is not refunded"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -277,7 +295,7 @@
                     "covers": {
                         "description": "happy path: ship every outstanding item of an order with one tracking number (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "check-process-status",
@@ -286,7 +304,7 @@
                     "covers": {
                         "description": "wait for bol.com to finish creating the shipment rather than returning once it is queued; the success body is byte-identical to basic -- this flag changes only latency, never the response (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-all-items-shipped",
@@ -295,7 +313,7 @@
                     "covers": {
                         "description": "nothing left to ship on an order that is already fully shipped -- checked before any per-item validation"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-multiple-tracking-numbers",
@@ -304,7 +322,7 @@
                     "covers": {
                         "description": "a bol.com shipment carries exactly one track and trace code (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -313,7 +331,7 @@
                     "covers": {
                         "description": "validation: order_id is required"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-order-item-not-found",
@@ -322,7 +340,7 @@
                     "covers": {
                         "description": "not found: the order_product_id does not belong to this order (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-over-available",
@@ -331,7 +349,7 @@
                     "covers": {
                         "description": "shipping more units than the order line still has outstanding (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tracking-number-format",
@@ -340,7 +358,7 @@
                     "covers": {
                         "description": "validation: track and trace codes are letters and digits only, no separators (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "items-subset",
@@ -349,7 +367,7 @@
                     "covers": {
                         "description": "partial shipment: name the order items and quantities instead of shipping the whole order (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -377,13 +395,22 @@
                     "captured_at": "2026-08-13T13:00:00Z"
                 },
                 {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.info/error-no-params.request.json",
+                    "response": "order/shipment.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
                     "slug": "error-not-found",
                     "request": "order/shipment.info/error-not-found.request.json",
                     "response": "order/shipment.info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: well-formed but non-existent shipment id -> 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no order with this id/order_id"
                     },
-                    "captured_at": "2026-08-13T18:28:43Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -418,6 +445,15 @@
                         "description": "error: order_id present but empty -> 109 PARAM_ERROR"
                     },
                     "captured_at": "2026-08-13T13:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -449,7 +485,7 @@
                     "covers": {
                         "description": "an order stops being cancellable once any item has shipped"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -458,7 +494,7 @@
                     "covers": {
                         "description": "validation: order_id is required"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-order-status-not-allowed",
@@ -467,7 +503,7 @@
                     "covers": {
                         "description": "validation: cancellation is the only order change bol.com accepts -- shipped/open cannot be set here"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-order-status-required",
@@ -476,7 +512,7 @@
                     "covers": {
                         "description": "validation: order_id alone is not enough, order_status must say what to do"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "order-status-cancelled",
@@ -485,7 +521,7 @@
                     "covers": {
                         "description": "happy path: cancel an order that has nothing shipped yet (placeholder order id in bol.com format, not a captured one)"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -501,7 +537,7 @@
                     "covers": {
                         "description": "happy path: create an offer against a bol.com catalog product. The EAN must already exist in bol.com's catalog and you must not already have an offer on it in this condition -- on Bol product.add creates an offer, never a catalog entry"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "condition-good",
@@ -510,7 +546,7 @@
                     "covers": {
                         "description": "used-condition offer: any condition other than NEW additionally requires condition_description"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-condition-description-on-new",
@@ -519,7 +555,7 @@
                     "covers": {
                         "description": "validation: the mirror case -- a description is rejected when the condition is NEW"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-condition-description-required",
@@ -528,7 +564,7 @@
                     "covers": {
                         "description": "validation: a non-NEW condition without the description that must accompany it"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-condition-not-allowed",
@@ -537,7 +573,7 @@
                     "covers": {
                         "description": "validation: condition outside the five grades bol.com recognises"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-delivery-code-not-allowed",
@@ -546,7 +582,7 @@
                     "covers": {
                         "description": "validation: delivery_code must be one of the published bol.com delivery promises"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-ean-not-found",
@@ -555,7 +591,7 @@
                     "covers": {
                         "description": "not found: the EAN has no product in the bol.com catalog to attach an offer to"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-price",
@@ -564,7 +600,7 @@
                     "covers": {
                         "description": "validation: an offer needs either price or tier_prices"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-over-limit",
@@ -573,7 +609,7 @@
                     "covers": {
                         "description": "validation: stock is capped at 999 units per offer"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-price-quantity-one",
@@ -582,7 +618,7 @@
                     "covers": {
                         "description": "validation: a single-unit tier belongs in price, not tier_prices"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-prices-not-decreasing",
@@ -591,7 +627,7 @@
                     "covers": {
                         "description": "validation: tier prices must fall as the quantity threshold rises"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "tier-prices",
@@ -600,7 +636,7 @@
                     "covers": {
                         "description": "bulk pricing instead of a flat price: quantity thresholds must decrease in price and none may be 1. Same EAN/condition caveat as basic -- one offer per EAN per condition"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -659,7 +695,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -668,7 +704,7 @@
                     "covers": {
                         "description": "not found: no offer with this id"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "id-b7f2c1d4-3e58-4a90-9c61-2f8ad05e7b13",
@@ -677,7 +713,7 @@
                     "covers": {
                         "description": "happy path: delete the offer created by product.add"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -705,13 +741,22 @@
                     "captured_at": "2026-08-13T11:00:00Z"
                 },
                 {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
                     "slug": "error-not-found",
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: well-formed but non-existent product id -> 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no product with this id"
                     },
-                    "captured_at": "2026-08-13T11:00:00Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -797,7 +842,7 @@
                     "covers": {
                         "description": "wait for bol.com to finish processing the change before answering, instead of returning as soon as it is queued; the success body is byte-identical to the other update cases -- this flag changes only latency, never the response"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-delivery-code-not-allowed",
@@ -806,7 +851,7 @@
                     "covers": {
                         "description": "validation: unknown delivery promise"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-name-already-known",
@@ -815,7 +860,7 @@
                     "covers": {
                         "description": "the title is fixed once bol.com has catalog content for the product; only offers on unknown products keep an editable title"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -824,7 +869,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -833,7 +878,7 @@
                     "covers": {
                         "description": "not found: no offer with this id"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-on-fbb-offer",
@@ -842,7 +887,7 @@
                     "covers": {
                         "description": "stock of a bol.com-fulfilled (FBB) offer is owned by bol.com and cannot be set through the API"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-quantity-over-limit",
@@ -851,7 +896,7 @@
                     "covers": {
                         "description": "validation: the 999-unit stock cap applies to updates as well as adds"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "no-changes",
@@ -860,7 +905,7 @@
                     "covers": {
                         "description": "submitting the offer's current values changes nothing and reports updated_items 0"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "price-and-quantity",
@@ -869,7 +914,7 @@
                     "covers": {
                         "description": "happy path: change price and stock on a retailer-fulfilled offer"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "status-disabled",
@@ -878,7 +923,7 @@
                     "covers": {
                         "description": "take an offer off sale without deleting it"
                     },
-                    "captured_at": "2026-08-13T19:09:29Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -906,13 +951,22 @@
                     "captured_at": "2026-08-13T14:00:00Z"
                 },
                 {
+                    "slug": "error-no-params",
+                    "request": "return/info/error-no-params.request.json",
+                    "response": "return/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
                     "slug": "error-not-found",
                     "request": "return/info/error-not-found.request.json",
                     "response": "return/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: well-formed but non-existent return id -> 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no return with this id"
                     },
-                    "captured_at": "2026-08-13T14:00:00Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -929,6 +983,15 @@
                         "description": "happy path: default fields (id + order_products) for the first page of return requests. Note total_count is the number of returns on THIS page, not the grand total -- page-2 carries 1 more"
                     },
                     "captured_at": "2026-08-13T14:00:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "return/list/error-invalid-param.request.json",
+                    "response": "return/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: page_cursor cannot be empty"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-status-not-found",

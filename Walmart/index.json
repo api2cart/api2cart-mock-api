@@ -1,0 +1,666 @@
+{
+    "integration": "Walmart",
+    "generated_at": "2026-08-18T07:33:31Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what is NOT here -- no carriers list (order.shipment.add's carrier_id vocabulary is fixed in the integration, not returned by this method) and shipping_zones is empty"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.count",
+            "path": "category/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/count/basic.request.json",
+                    "response": "category/count/basic.response.json",
+                    "covers": {
+                        "description": "Total category count for the store (no filters)."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/info/basic.request.json",
+                    "response": "category/info/basic.response.json",
+                    "covers": {
+                        "description": "Full single-category info shape (response_fields={*}) for a real category id harvested from category.list basic."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no category with this id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/list/basic.request.json",
+                    "response": "category/list/basic.response.json",
+                    "covers": {
+                        "description": "Full category entity shape (response_fields={*}), including the large category_properties schema block that marketplace_item_properties must be built from. Careful: categories_count here is the size of THIS page (3), while category.count returns the store total (80)"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "category/list/page-2.request.json",
+                    "response": "category/list/page-2.response.json",
+                    "covers": {
+                        "description": "Second page of categories reached via cursor-based pagination (page_cursor from the basic call's pagination.next, URL-decoded once)."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.count",
+            "path": "order/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/count/basic.request.json",
+                    "response": "order/count/basic.response.json",
+                    "covers": {
+                        "description": "Total order count for the store (no filters)."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "order-status-shipped",
+                    "request": "order/count/order-status-shipped.request.json",
+                    "response": "order/count/order-status-shipped.response.json",
+                    "covers": {
+                        "description": "Filter: order_status=Shipped, count of orders in the Shipped state."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/info/basic.request.json",
+                    "response": "order/info/basic.response.json",
+                    "covers": {
+                        "description": "Full single-order info shape (response_fields={*}) for a real order_id harvested from order.list basic."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/info/error-no-params.request.json",
+                    "response": "order/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/info/error-not-found.request.json",
+                    "response": "order/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no order with this order_id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "Full order entity shape (response_fields={*}) for 3 real orders, showing Cancelled and Created statuses."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/list/error-invalid-param.request.json",
+                    "response": "order/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "order-status-shipped",
+                    "request": "order/list/order-status-shipped.request.json",
+                    "response": "order/list/order-status-shipped.response.json",
+                    "covers": {
+                        "description": "Filter: order_status=Shipped, returning only orders in the Shipped state."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.add",
+            "path": "order/shipment.add",
+            "cases": [
+                {
+                    "slug": "all-open-lines",
+                    "request": "order/shipment.add/all-open-lines.request.json",
+                    "response": "order/shipment.add/all-open-lines.response.json",
+                    "covers": {
+                        "description": "omit items[] to ship every line of the order that is still unshipped, instead of listing them one by one"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.add/basic.request.json",
+                    "response": "order/shipment.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: ship one order line. order_product_id is the order LINE NUMBER as returned by order.info/order.list, not a long id, and carrier_id must be one of the integration's fixed carrier keys"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-all-items-already-shipped",
+                    "request": "order/shipment.add/error-all-items-already-shipped.request.json",
+                    "response": "order/shipment.add/error-all-items-already-shipped.response.json",
+                    "covers": {
+                        "description": "conflict: every line of this order is already shipped, so there is nothing left to ship"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-empty-tracking-number",
+                    "request": "order/shipment.add/error-empty-tracking-number.request.json",
+                    "response": "order/shipment.add/error-empty-tracking-number.response.json",
+                    "covers": {
+                        "description": "validation: a known carrier with an empty tracking number is still rejected"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-multiple-tracking-numbers",
+                    "request": "order/shipment.add/error-multiple-tracking-numbers.request.json",
+                    "response": "order/shipment.add/error-multiple-tracking-numbers.response.json",
+                    "covers": {
+                        "description": "validation: exactly one tracking number per call -- shipping lines with different carriers takes one call each"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.add/error-no-params.request.json",
+                    "response": "order/shipment.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-tracking-numbers",
+                    "request": "order/shipment.add/error-no-tracking-numbers.request.json",
+                    "response": "order/shipment.add/error-no-tracking-numbers.response.json",
+                    "covers": {
+                        "description": "validation: tracking_numbers is mandatory on Walmart even though openapi does not mark it required -- a shipment cannot be created without one"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-order-item-not-found",
+                    "request": "order/shipment.add/error-order-item-not-found.request.json",
+                    "response": "order/shipment.add/error-order-item-not-found.response.json",
+                    "covers": {
+                        "description": "not found: the line number does not exist on this order"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-quantity-exceeds-ordered",
+                    "request": "order/shipment.add/error-quantity-exceeds-ordered.request.json",
+                    "response": "order/shipment.add/error-quantity-exceeds-ordered.response.json",
+                    "covers": {
+                        "description": "conflict: shipping more units than the line actually has"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-unknown-carrier",
+                    "request": "order/shipment.add/error-unknown-carrier.request.json",
+                    "response": "order/shipment.add/error-unknown-carrier.response.json",
+                    "covers": {
+                        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- cart.info does not expose them on Walmart"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.list/basic.request.json",
+                    "response": "order/shipment.list/basic.response.json",
+                    "covers": {
+                        "description": "Full shipment entity shape (response_fields={*}) for a real shipped order, including tracking numbers and shipped items."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "Full list of the 5 native Walmart order statuses (Created, Acknowledged, Shipped, Cancelled, Delivered)."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: create an item. Beyond the three fields openapi marks required, Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-empty-name",
+                    "request": "product/add/error-empty-name.request.json",
+                    "response": "product/add/error-empty-name.response.json",
+                    "covers": {
+                        "description": "validation: a required parameter present but empty is rejected differently from a missing one -- 109, not 114"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-identifier-already-listed",
+                    "request": "product/add/error-identifier-already-listed.request.json",
+                    "response": "product/add/error-identifier-already-listed.response.json",
+                    "covers": {
+                        "description": "conflict: a new sku is not enough -- the same UPC/EAN/GTIN/ISBN may only be listed once per seller, and the error names the sku that already holds it"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/add/error-invalid-price.request.json",
+                    "response": "product/add/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: price must be decimal"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: name, description and price are the openapi-required trio; the first missing one is named"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-only-name",
+                    "request": "product/add/error-only-name.request.json",
+                    "response": "product/add/error-only-name.response.json",
+                    "covers": {
+                        "description": "validation: description still missing"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-only-name-and-description",
+                    "request": "product/add/error-only-name-and-description.request.json",
+                    "response": "product/add/error-only-name-and-description.response.json",
+                    "covers": {
+                        "description": "validation: price still missing"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-sku-already-exists",
+                    "request": "product/add/error-sku-already-exists.request.json",
+                    "response": "product/add/error-sku-already-exists.response.json",
+                    "covers": {
+                        "description": "conflict: the sku is the product id on Walmart, so re-using one that already exists in the store is rejected before the feed is submitted"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "scheduled-with-avail-from",
+                    "request": "product/add/scheduled-with-avail-from.request.json",
+                    "response": "product/add/scheduled-with-avail-from.response.json",
+                    "covers": {
+                        "description": "scheduled listing: avail_from sets Walmart's startDate, so the item goes live at a future moment instead of immediately (omitting it makes the integration send \"now\")"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "with-marketplace-item-properties",
+                    "request": "product/add/with-marketplace-item-properties.request.json",
+                    "response": "product/add/with-marketplace-item-properties.response.json",
+                    "covers": {
+                        "description": "category-specific attributes: marketplace_item_properties is a JSON-encoded string whose keys must come from that category's own schema, which category.info returns in additional_fields.category_properties (keys below are from category 559c5d924fff3d64de18bf45)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "Total product count for the store (no filters)."
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.delete",
+            "path": "product/delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/delete/by-id.request.json",
+                    "response": "product/delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: retire an item by its sku (Walmart retires rather than erases -- the item stays retrievable with lifecycleStatus RETIRED)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-already-retired",
+                    "request": "product/delete/error-already-retired.request.json",
+                    "response": "product/delete/error-already-retired.response.json",
+                    "covers": {
+                        "description": "conflict: deleting an item that is already retired is refused rather than treated as a no-op"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/delete/error-no-params.request.json",
+                    "response": "product/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/delete/error-not-found.request.json",
+                    "response": "product/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no item with this sku"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.find",
+            "path": "product/find",
+            "cases": [
+                {
+                    "slug": "error-empty-find-value",
+                    "request": "product/find/error-empty-find-value.request.json",
+                    "response": "product/find/error-empty-find-value.response.json",
+                    "covers": {
+                        "description": "validation: empty find_value"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/find/error-no-params.request.json",
+                    "response": "product/find/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: find_value is required"
+                    },
+                    "captured_at": "2026-08-17T18:45:55Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/find/error-not-found.request.json",
+                    "response": "product/find/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: searching for a brand that product.list shows on six items still returns not_found -- like product.info, product.find could not be made to succeed on this store; note the wording here is \"Entity not found\", not product.info's \"Item not found\""
+                    },
+                    "captured_at": "2026-08-17T18:45:55Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/info/error-empty-id.request.json",
+                    "response": "product/info/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-17T18:45:55Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: this id comes straight from product.list (a published, saleable item) and still resolves to not_found -- product.info could not be made to succeed for any id on this store, so this is the only observed behaviour of the method here, not a made-up id"
+                    },
+                    "captured_at": "2026-08-17T18:45:55Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "avail-view-true",
+                    "request": "product/list/avail-view-true.request.json",
+                    "response": "product/list/avail-view-true.response.json",
+                    "covers": {
+                        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count stays at the unfiltered store total of 20"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count is the STORE total, not the page size"
+                    },
+                    "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/update/error-empty-id.request.json",
+                    "response": "product/update/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/update/error-invalid-price.request.json",
+                    "response": "product/update/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: price must be decimal"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no item with this sku"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/update/update-price.request.json",
+                    "response": "product/update/update-price.response.json",
+                    "covers": {
+                        "description": "update the price of an existing item (id is the seller sku, taken from product.list)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-price-and-quantity",
+                    "request": "product/update/update-price-and-quantity.request.json",
+                    "response": "product/update/update-price-and-quantity.response.json",
+                    "covers": {
+                        "description": "price and quantity in one call -- they are two separate Walmart endpoints internally, and the response reports the combined outcome"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-quantity",
+                    "request": "product/update/update-quantity.request.json",
+                    "response": "product/update/update-quantity.response.json",
+                    "covers": {
+                        "description": "update seller-owned inventory; WFS (Walmart-fulfilled) inventory cannot be changed through this method"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        }
+    ]
+}

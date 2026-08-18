@@ -1,6 +1,6 @@
 {
     "integration": "AmazonSP",
-    "generated_at": "2026-08-12T13:56:22Z",
+    "generated_at": "2026-08-18T07:35:29Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -302,18 +302,18 @@
                     "request": "category/find/error-no-find-value.request.json",
                     "response": "category/find/error-no-find-value.response.json",
                     "covers": {
-                        "description": "error: missing find_value => 114 NO_PARAM"
+                        "description": "validation: find_value is required"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "category/find/error-not-found.request.json",
                     "response": "category/find/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no entity matches the searched value"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "find-name-2",
@@ -381,18 +381,18 @@
                     "request": "category/info/error-no-params.request.json",
                     "response": "category/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "category/info/error-not-found.request.json",
                     "response": "category/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no category with this id"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "full-properties",
@@ -487,9 +487,9 @@
                     "request": "category/list/error-invalid-param.request.json",
                     "response": "category/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "find-name",
@@ -724,6 +724,15 @@
                     "captured_at": "2026-08-06T13:17:48Z"
                 },
                 {
+                    "slug": "error-invalid-param",
+                    "request": "marketplace/product.find/error-invalid-param.request.json",
+                    "response": "marketplace/product.find/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
                     "slug": "error-no-identifier",
                     "request": "marketplace/product.find/error-no-identifier.request.json",
                     "response": "marketplace/product.find/error-no-identifier.response.json",
@@ -895,18 +904,18 @@
                     "request": "order/info/error-no-params.request.json",
                     "response": "order/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: order_id is required"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "order/info/error-not-found.request.json",
                     "response": "order/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no order with this order_id/store_id"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "order-id-111-2392565-0194613",
@@ -1019,9 +1028,9 @@
                     "request": "order/list/error-invalid-param.request.json",
                     "response": "order/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "fulfillment-channel-afn",
@@ -1172,7 +1181,7 @@
                     "covers": {
                         "description": "happy path: add order shipment with tracking number and shipped items"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1181,7 +1190,7 @@
                     "covers": {
                         "description": "validation: order_id required"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -1222,7 +1231,7 @@
                     "covers": {
                         "description": "add product with marketplace condition_type"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-parent-phone-json-properties",
@@ -1231,7 +1240,7 @@
                     "covers": {
                         "description": "add parent product with marketplace_item_properties as a pre-encoded JSON string (variation parent)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-sweater-variation-child",
@@ -1267,7 +1276,7 @@
                     "covers": {
                         "description": "entity already exists (sku duplicate)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-empty-sku",
@@ -1276,7 +1285,7 @@
                     "covers": {
                         "description": "validation: empty sku"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-invalid-asin",
@@ -1285,7 +1294,7 @@
                     "covers": {
                         "description": "validation: asin not matching the 10-char ASIN pattern"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-invalid-price",
@@ -1294,7 +1303,7 @@
                     "covers": {
                         "description": "validation: non-numeric price"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1303,7 +1312,7 @@
                     "covers": {
                         "description": "validation: no params -> required parameter missing"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-only-sku",
@@ -1312,7 +1321,7 @@
                     "covers": {
                         "description": "validation: sku alone -> price/quantity still required"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -1346,7 +1355,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch product add (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1355,7 +1364,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -1369,9 +1378,9 @@
                     "request": "product/child_item.list/error-invalid-param.request.json",
                     "response": "product/child_item.list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "page-2-feline-search",
@@ -1547,7 +1556,7 @@
                     "covers": {
                         "description": "happy path: delete product by id"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1556,7 +1565,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -1565,7 +1574,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -1581,7 +1590,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch product delete (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1590,7 +1599,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -1604,18 +1613,18 @@
                     "request": "product/find/error-no-find-value.request.json",
                     "response": "product/find/error-no-find-value.response.json",
                     "covers": {
-                        "description": "error: missing find_value => 114 NO_PARAM"
+                        "description": "validation: find_value is required"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "product/find/error-not-found.request.json",
                     "response": "product/find/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found by search => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no entity matches the searched value"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "find-params-case-sensitive",
@@ -1647,18 +1656,18 @@
                     "request": "product/info/error-no-params.request.json",
                     "response": "product/info/error-no-params.response.json",
                     "covers": {
-                        "description": "error: missing required id => 114 NO_PARAM"
+                        "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-not-found",
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "error: entity not found => 112 ENTITY_NOT_FOUND"
+                        "description": "not found: no product with this id"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "id-t3-az75-ldqb",
@@ -1762,9 +1771,9 @@
                     "request": "product/list/error-invalid-param.request.json",
                     "response": "product/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "error-report-not-ready",
@@ -1888,7 +1897,7 @@
                     "covers": {
                         "description": "update by sku-style id with no other field (no-op update)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-price",
@@ -1897,7 +1906,7 @@
                     "covers": {
                         "description": "update price by sku-style id"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-price-increase-quantity",
@@ -1906,7 +1915,7 @@
                     "covers": {
                         "description": "update price and increase_quantity"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-price-quantity",
@@ -1915,7 +1924,7 @@
                     "covers": {
                         "description": "update price and quantity together"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-quantity",
@@ -1924,7 +1933,7 @@
                     "covers": {
                         "description": "update quantity by sku-style id"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-special-price-window",
@@ -1933,7 +1942,7 @@
                     "covers": {
                         "description": "special_price with sprice_create/sprice_expire window"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-status-disable",
@@ -1942,7 +1951,7 @@
                     "covers": {
                         "description": "disable status with params selector"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-status-enable-with-price",
@@ -1951,7 +1960,7 @@
                     "covers": {
                         "description": "enable status together with price update and params selector"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-status-enabled-simple",
@@ -1960,7 +1969,7 @@
                     "covers": {
                         "description": "enable status by id (no fixture, generic result)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-empty-id",
@@ -1969,16 +1978,7 @@
                     "covers": {
                         "description": "validation: empty id"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
-                },
-                {
-                    "slug": "error-invalid-id",
-                    "request": "product/update/error-invalid-id.request.json",
-                    "response": "product/update/error-invalid-id.response.json",
-                    "covers": {
-                        "description": "validation: non-numeric id"
-                    },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-invalid-price",
@@ -1987,7 +1987,7 @@
                     "covers": {
                         "description": "validation: non-numeric price"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -1996,7 +1996,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -2005,7 +2005,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2021,7 +2021,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch product update (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -2030,7 +2030,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2064,7 +2064,7 @@
                     "covers": {
                         "description": "add child variant with size/color marketplace properties"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-size-color-graphite",
@@ -2073,7 +2073,7 @@
                     "covers": {
                         "description": "add second child variant (Graphite)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "amazonsp-size-color-sierra-blue",
@@ -2082,7 +2082,7 @@
                     "covers": {
                         "description": "add third child variant (Sierra Blue)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -2091,7 +2091,7 @@
                     "covers": {
                         "description": "validation: no params -> product_id/sku required"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -2100,7 +2100,7 @@
                     "covers": {
                         "description": "not found: parent product_id does not exist"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2125,7 +2125,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch variant add (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -2134,7 +2134,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2150,7 +2150,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch variant delete (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -2159,7 +2159,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2175,7 +2175,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -2184,7 +2184,7 @@
                     "covers": {
                         "description": "not found: variant id does not exist"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "update-price",
@@ -2193,7 +2193,7 @@
                     "covers": {
                         "description": "happy path: update variant price"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2209,7 +2209,7 @@
                     "covers": {
                         "description": "happy path: enqueue async batch variant update (returns job_id)"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -2218,7 +2218,7 @@
                     "covers": {
                         "description": "validation: no params"
                     },
-                    "captured_at": "2026-08-07T07:35:31Z"
+                    "captured_at": "2026-08-18T07:02:38Z"
                 }
             ]
         },
@@ -2248,9 +2248,9 @@
                     "request": "return/list/error-invalid-param.request.json",
                     "response": "return/list/error-invalid-param.response.json",
                     "covers": {
-                        "description": "error: invalid count value => 109 PARAM_ERROR"
+                        "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-07T06:57:14Z"
+                    "captured_at": "2026-08-18T07:18:43Z"
                 },
                 {
                     "slug": "page-2",

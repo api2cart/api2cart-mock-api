@@ -1,5 +1,5 @@
 {
     "return_code": 112,
     "return_message": "Order with id 99-99999-99999 not found",
-    "result": []
+    "result": {}
 }

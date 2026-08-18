@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": "108816631915371",
+        "shipping_method": "Standard",
+        "tracking_numbers": [
+            {
+                "carrier_id": "usps",
+                "tracking_number": ""
+            }
+        ]
+    }
+}

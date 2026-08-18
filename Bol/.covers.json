@@ -23,8 +23,11 @@
     "order/info/error-empty-order-id": {
         "description": "error: order_id present but empty -> 109 PARAM_ERROR"
     },
+    "order/info/error-no-params": {
+        "description": "validation: order_id is required"
+    },
     "order/info/error-not-found": {
-        "description": "error: well-formed but non-existent order_id -> 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this order_id"
     },
     "order/info/rounding-precision-1": {
         "description": "rounding_precision=1 visibly rounds the money fields: total 19.95 -> 20 and commision 3.47 -> 3.5 against the same order in basic"
@@ -34,6 +37,9 @@
     },
     "order/list/basic": {
         "description": "happy path: default fields for all 7 orders currently on the store, all in shipped status"
+    },
+    "order/list/error-invalid-param": {
+        "description": "validation: page_cursor cannot be empty"
     },
     "order/list/error-modified-from-without-modified-to": {
         "description": "error: modified_from without modified_to -> 109 PARAM_ERROR, Bol requires the pair together"
@@ -110,8 +116,11 @@
     "order/shipment.info/error-empty-id": {
         "description": "error: id present but empty -> 109 PARAM_ERROR"
     },
+    "order/shipment.info/error-no-params": {
+        "description": "validation: id is required"
+    },
     "order/shipment.info/error-not-found": {
-        "description": "error: well-formed but non-existent shipment id -> 112 ENTITY_NOT_FOUND"
+        "description": "not found: no order with this id/order_id"
     },
     "order/shipment.list/basic": {
         "description": "full response shape: the single TNT shipment for a shipped order, tracking number and recipient shipment_details"
@@ -121,6 +130,9 @@
     },
     "order/shipment.list/error-empty-order-id": {
         "description": "error: order_id present but empty -> 109 PARAM_ERROR"
+    },
+    "order/shipment.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
     },
     "order/status.list/basic": {
         "description": "the two Bol order statuses (open/shipped) -- order_status values order.list accepts. Carries a top-level pagination block, which return.status.list does not"
@@ -203,8 +215,11 @@
     "product/info/error-empty-id": {
         "description": "error: id present but empty -> 109 PARAM_ERROR"
     },
+    "product/info/error-no-params": {
+        "description": "validation: id is required"
+    },
     "product/info/error-not-found": {
-        "description": "error: well-formed but non-existent product id -> 112 ENTITY_NOT_FOUND"
+        "description": "not found: no product with this id"
     },
     "product/list/basic": {
         "description": "happy path: default fields, first page of 10 products from the live catalog"
@@ -263,11 +278,17 @@
     "return/info/error-empty-id": {
         "description": "error: id present but empty -> 109 PARAM_ERROR"
     },
+    "return/info/error-no-params": {
+        "description": "validation: id is required"
+    },
     "return/info/error-not-found": {
-        "description": "error: well-formed but non-existent return id -> 112 ENTITY_NOT_FOUND"
+        "description": "not found: no return with this id"
     },
     "return/list/basic": {
         "description": "happy path: default fields (id + order_products) for the first page of return requests. Note total_count is the number of returns on THIS page, not the grand total -- page-2 carries 1 more"
+    },
+    "return/list/error-invalid-param": {
+        "description": "validation: page_cursor cannot be empty"
     },
     "return/list/error-status-not-found": {
         "description": "error: status is validated against the live return-status list, not a static enum, so an unrecognized value is 112 not_found rather than 109 PARAM_ERROR"

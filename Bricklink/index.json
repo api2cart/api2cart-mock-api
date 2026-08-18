@@ -1,6 +1,6 @@
 {
     "integration": "Bricklink",
-    "generated_at": "2026-08-14T14:07:07Z",
+    "generated_at": "2026-08-18T07:33:31Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -15,7 +15,7 @@
                     "covers": {
                         "description": "validation: percent discount must be under 100"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-amount-too-large",
@@ -24,7 +24,7 @@
                     "covers": {
                         "description": "validation: action_amount must stay under 1,000,000 regardless of discount type"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-condition-value-not-allowed",
@@ -33,7 +33,7 @@
                     "covers": {
                         "description": "validation: action_condition_value must be one of Bricklink's product types"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-customer-not-found",
@@ -42,7 +42,7 @@
                     "covers": {
                         "description": "not found: customer_id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-date-end-in-past",
@@ -51,7 +51,7 @@
                     "covers": {
                         "description": "validation: date_end already in the past"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-date-end-too-far",
@@ -60,7 +60,7 @@
                     "covers": {
                         "description": "validation: date_end more than a year in the future"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-empty-customer-id",
@@ -69,7 +69,7 @@
                     "covers": {
                         "description": "validation: empty customer_id"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "fixed-off-order-total",
@@ -78,7 +78,7 @@
                     "covers": {
                         "description": "fixed-amount coupon applied to order total, restricted by a negated condition"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "percent-off-order-total",
@@ -87,7 +87,7 @@
                     "covers": {
                         "description": "happy path: percent-off coupon applied to order total, restricted to a product type"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -103,7 +103,7 @@
                     "covers": {
                         "description": "happy path: add a product_type condition to an existing coupon"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -112,7 +112,7 @@
                     "covers": {
                         "description": "validation: coupon_id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -121,7 +121,7 @@
                     "covers": {
                         "description": "not found: coupon_id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-value-not-allowed",
@@ -130,7 +130,7 @@
                     "covers": {
                         "description": "validation: value must be one of Bricklink's product types"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -146,7 +146,7 @@
                     "covers": {
                         "description": "happy path: delete coupon by id (note: API2Cart never verifies the coupon is actually gone -- see description)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -155,7 +155,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -164,7 +164,7 @@
                     "covers": {
                         "description": "not found: id does not exist (note: the error names coupon_id, not id)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -189,7 +189,7 @@
                     "covers": {
                         "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "page-2",
@@ -284,7 +284,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -293,7 +293,7 @@
                     "covers": {
                         "description": "not found: category id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "id-25",
@@ -318,7 +318,7 @@
                     "covers": {
                         "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "parent-id-0",
@@ -370,7 +370,7 @@
                     "covers": {
                         "description": "happy path: add product with tier prices, cost price and marketplace item properties"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-color-id-not-found",
@@ -379,7 +379,7 @@
                     "covers": {
                         "description": "not found: marketplace_item_properties.color_id does not exist in Bricklink's color list"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-color-id-not-integer",
@@ -388,7 +388,7 @@
                     "covers": {
                         "description": "validation: marketplace_item_properties.color_id must be an integer"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-condition-invalid",
@@ -397,7 +397,7 @@
                     "covers": {
                         "description": "validation: condition must be either 'new' or 'used'"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-description-too-long",
@@ -406,7 +406,7 @@
                     "covers": {
                         "description": "validation: description longer than 255 characters"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-marketplace-item-properties",
@@ -415,7 +415,7 @@
                     "covers": {
                         "description": "platform rejects a marketplace_item_properties value it cannot parse (API2Cart does not validate the embedded JSON itself; message text not verified)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-marketplace-item-properties-unknown-key",
@@ -424,7 +424,7 @@
                     "covers": {
                         "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is allowed here, unlike on update)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -433,7 +433,7 @@
                     "covers": {
                         "description": "validation: sku is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-prices-decreasing-quantity",
@@ -442,7 +442,7 @@
                     "covers": {
                         "description": "validation: each tier_prices quantity must be greater than the previous one"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-prices-wrong-count",
@@ -451,7 +451,7 @@
                     "covers": {
                         "description": "validation: tier_prices must contain exactly 3 entries, not fewer or more"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "minimal-fields",
@@ -460,7 +460,7 @@
                     "covers": {
                         "description": "add product with only description, price and sku (no tier prices or marketplace item properties)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "used-condition-gear",
@@ -469,7 +469,7 @@
                     "covers": {
                         "description": "add a used-condition GEAR product with a minimal marketplace item properties set"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -485,7 +485,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -494,7 +494,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "id-489921299",
@@ -503,7 +503,7 @@
                     "covers": {
                         "description": "happy path: delete the product created by product.add (sku 5580-1)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         },
@@ -519,7 +519,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -528,7 +528,7 @@
                     "covers": {
                         "description": "not found: product id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "id-486062118__rf-notexisting",
@@ -589,7 +589,7 @@
                     "covers": {
                         "description": "not found: categories_ids does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-param",
@@ -598,7 +598,7 @@
                     "covers": {
                         "description": "validation: count must be a non-negative integer"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-invalid-product-type-value",
@@ -607,7 +607,7 @@
                     "covers": {
                         "description": "validation: product_type value must be one of the allowed types"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-attributes-color-not-found",
@@ -616,7 +616,7 @@
                     "covers": {
                         "description": "not found: product_attributes color_id value does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-product-attributes-invalid-key",
@@ -625,7 +625,7 @@
                     "covers": {
                         "description": "validation: product_attributes.attribute_id only accepts color_id"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-type-and-product-type-conflict",
@@ -634,7 +634,7 @@
                     "covers": {
                         "description": "validation: type and product_type are mutually exclusive"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "product-attributes",
@@ -695,7 +695,7 @@
                     "covers": {
                         "description": "happy path: update description, price, quantity, cost price and tier prices"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-completeness-not-in-map",
@@ -704,7 +704,7 @@
                     "covers": {
                         "description": "validation: marketplace_item_properties.completeness must be Complete, Incomplete or Sealed"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-is-retain-not-bool",
@@ -713,7 +713,7 @@
                     "covers": {
                         "description": "validation: marketplace_item_properties.is_retain must be a boolean"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-marketplace-item-properties-unknown-key",
@@ -722,7 +722,7 @@
                     "covers": {
                         "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is NOT allowed here, unlike on add)"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-no-params",
@@ -731,7 +731,7 @@
                     "covers": {
                         "description": "validation: id is required"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-not-found",
@@ -740,7 +740,7 @@
                     "covers": {
                         "description": "not found: id does not exist"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-special-price-exceeds-price",
@@ -749,7 +749,7 @@
                     "covers": {
                         "description": "validation: special_price higher than the regular price"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-stock-room-id-not-found",
@@ -758,7 +758,7 @@
                     "covers": {
                         "description": "not found: stock_room_id only accepts a single letter A-Z, any other value 112s even if well-formed"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-prices-price-exceeds-current",
@@ -767,7 +767,7 @@
                     "covers": {
                         "description": "validation: a tier_prices price cannot exceed the product's current price"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "error-tier-prices-zero-quantity",
@@ -776,7 +776,7 @@
                     "covers": {
                         "description": "validation: a tier_prices quantity of 0 is not allowed"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "increase-quantity",
@@ -785,7 +785,7 @@
                     "covers": {
                         "description": "increase quantity by a relative amount"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "marketplace-item-properties-only",
@@ -794,7 +794,7 @@
                     "covers": {
                         "description": "update only the marketplace-specific stock room properties"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "reduce-quantity",
@@ -803,7 +803,7 @@
                     "covers": {
                         "description": "reduce quantity by a relative amount"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
                     "slug": "replace-tier-prices",
@@ -812,7 +812,7 @@
                     "covers": {
                         "description": "update quantity and replace the tier price ladder"
                     },
-                    "captured_at": "2026-08-13T11:37:54Z"
+                    "captured_at": "2026-08-18T07:02:39Z"
                 }
             ]
         }

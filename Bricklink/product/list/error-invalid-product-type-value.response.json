@@ -1,5 +1,5 @@
 {
     "return_code": 109,
     "return_message": "Parameter 'product_type' is not valid. The required type of parameter is string. The following values are allowed: MINIFIG, PART, SET, BOOK, GEAR, CATALOG, INSTRUCTION, UNSORTED_LOT, ORIGINAL_BOX.",
-    "result": null
+    "result": {}
 }

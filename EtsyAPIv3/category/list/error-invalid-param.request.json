@@ -1,8 +1,8 @@
 {
-    "captured_at": "2026-08-04T13:02:03Z",
+    "captured_at": "2026-08-18T07:02:39Z",
     "method": "GET",
     "endpoint": "category.list.json",
     "query": {
-        "count": "-1"
+        "count": -1
     }
 }
