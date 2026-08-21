@@ -1,0 +1,31 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "q6oqDjeP9DBO1%2FcLjCowNjUx1TfNyA%2FyTTIo8CguLXBJMjVPi3IJTs1NNCnz0TYwzInMSDR1DNM38wwqDY0sKfQ0LPdzKSwv0E8MLKpwc%2FIyqgwJyCx3yvcvNkp2c8z0DU4uDoqwNAkOyjSwBQA%3D"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "alcoholic_beverages",
+                "parent_id": "0",
+                "name": "Alcoholic Beverages",
+                "description": null
+            },
+            {
+                "id": "animal_accessories",
+                "parent_id": "0",
+                "name": "Animal Accessories",
+                "description": null
+            },
+            {
+                "id": "animal_food",
+                "parent_id": "0",
+                "name": "Animal Food",
+                "description": null
+            }
+        ]
+    }
+}

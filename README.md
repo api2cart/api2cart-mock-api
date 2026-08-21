@@ -73,7 +73,11 @@ requests would need to change to hit that error — only the connection would.
 
 ## File formats
 
-`{case}.request.json` — capture timestamp, HTTP method and endpoint. Parameters live in exactly
+`{case}.request.json` — capture timestamp, HTTP method and endpoint. `captured_at` marks when the
+generation script that produced the case ran; cases regenerated in the same batch (e.g. a
+re-verification pass after a code fix) share one timestamp rather than each call's own instant, so
+don't rely on it to reconstruct the exact order or spacing of individual live calls — only on the
+relative ordering between separate batches. Parameters live in exactly
 one of two keys: `query` (sent as a query string) or `body` (sent as a JSON body). GET and DELETE
 always use `query`, and POST/PUT normally use `body` — but **do not infer the container from the
 verb**: a few endpoints are genuine PUT-with-query methods (e.g. EBay's `order.update` and

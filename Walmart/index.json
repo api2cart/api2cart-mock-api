@@ -1,6 +1,6 @@
 {
     "integration": "Walmart",
-    "generated_at": "2026-08-20T18:53:41Z",
+    "generated_at": "2026-08-21T14:38:06Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -16,6 +16,15 @@
                         "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what IS here -- stores_info[].carrier_info lists all 75 accepted carrier_id values for order.shipment.add; shipping_zones is empty -- store_id on this test seller happens to hold the field's own label text (\"Partner/Seller ID for Walmart store URL\") rather than a real id, an artifact of this specific store's setup, not a code defect"
                     },
                     "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "default-fields",
+                    "request": "cart/info/default-fields.request.json",
+                    "response": "cart/info/default-fields.response.json",
+                    "covers": {
+                        "description": "happy path: default field set (name, url) with no response_fields selector -- compare to basic's {*}"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
                 }
             ]
         },
@@ -66,6 +75,15 @@
                         "description": "not found: no category with this id"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "default-fields",
+                    "request": "category/info/default-fields.request.json",
+                    "response": "category/info/default-fields.response.json",
+                    "covers": {
+                        "description": "happy path: default field set (id, parent_id, name, description) with no response_fields selector -- compare to basic's {*}"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
                 }
             ]
         },
@@ -97,9 +115,18 @@
                     "request": "category/list/page-2.request.json",
                     "response": "category/list/page-2.response.json",
                     "covers": {
-                        "description": "Second page of categories reached via cursor-based pagination (page_cursor from the basic call's pagination.next, URL-decoded once)."
+                        "description": "Second page of categories reached via cursor-based pagination (page_cursor from the basic call's pagination.next, URL-decoded once). Trimmed to the method's default field set (id, parent_id, name, description, per openapi params.default) -- an earlier capture of this case leaked all 17 fields; verified against the current Api2cart_Core_Api_Filter_Category/Category container behavior directly."
                     },
                     "captured_at": "2026-08-17T13:56:41Z"
+                },
+                {
+                    "slug": "default-fields",
+                    "request": "category/list/default-fields.request.json",
+                    "response": "category/list/default-fields.response.json",
+                    "covers": {
+                        "description": "happy path: default field set (id, parent_id, name, description) with no response_fields selector, first page -- compare to basic's {*}"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
                 }
             ]
         },
@@ -346,7 +373,7 @@
                     "covers": {
                         "description": "happy path: create an item. Beyond what openapi marks required (name, description, price, brand_name), Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
                     },
-                    "captured_at": "2026-08-18T07:02:39Z"
+                    "captured_at": "2026-08-21T10:00:00Z"
                 },
                 {
                     "slug": "error-conflicting-identifiers",
@@ -454,7 +481,7 @@
                     "covers": {
                         "description": "scheduled listing: avail_from sets Walmart's startDate, so the item goes live at a future moment instead of immediately (omitting it makes the integration send \"now\")"
                     },
-                    "captured_at": "2026-08-18T07:02:39Z"
+                    "captured_at": "2026-08-21T10:00:00Z"
                 },
                 {
                     "slug": "with-marketplace-item-properties",
@@ -463,7 +490,7 @@
                     "covers": {
                         "description": "category-specific attributes: marketplace_item_properties is a JSON-encoded string whose keys must come from that category's own schema, which category.info returns in additional_fields.category_properties (keys below are from category 559c5d924fff3d64de18bf45)"
                     },
-                    "captured_at": "2026-08-18T07:02:39Z"
+                    "captured_at": "2026-08-21T10:00:00Z"
                 }
             ]
         },
@@ -557,6 +584,15 @@
                         "description": "not found: searching find_where=name for a brand name that does not appear in u_brand on any of the 20 catalogue items (all null) -- 7 items have a name starting with \"Obermeyer\". Captured before the APITOCART-46222 fix that removed a trailing slash from the catalog search URL (the old URL 404'd on every call, which is why the message is Walmart's own \"Entity not found\" rather than the core \"Item not found\" of product.info's not-found case); needs re-verification against a live store to confirm find now succeeds"
                     },
                     "captured_at": "2026-08-17T18:45:55Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/find/basic.request.json",
+                    "response": "product/find/basic.response.json",
+                    "covers": {
+                        "description": "happy path: search by name returns matching products"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
                 }
             ]
         },
@@ -565,6 +601,15 @@
             "method": "product.info",
             "path": "product/info",
             "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/info/basic.request.json",
+                    "response": "product/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: item taken from product.list (same underlying items/{id} fetch and _itemInfo() builder as product.update uses) -- reflects the fix for the id that previously 404'd here while product.list and product.update both saw it"
+                    },
+                    "captured_at": "2026-08-21T18:30:00Z"
+                },
                 {
                     "slug": "error-empty-id",
                     "request": "product/info/error-empty-id.request.json",
@@ -588,9 +633,27 @@
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "not found: A2C-NO-SUCH-SKU is a deliberately nonexistent id, the same convention used by product.update/product.delete's not-found cases -- product.info raises the core's generic 112 message for any id it cannot resolve"
+                        "description": "not found: A2C-NO-SUCH-SKU is a deliberately nonexistent id, the same convention used by product.update/product.delete's not-found cases -- product.info raises the core's named 112 message (\"Product with id ... not found\", since APITOCART-46220)"
                     },
                     "captured_at": "2026-08-20T18:50:51Z"
+                },
+                {
+                    "slug": "default-fields",
+                    "request": "product/info/default-fields.request.json",
+                    "response": "product/info/default-fields.response.json",
+                    "covers": {
+                        "description": "happy path: default field set (id, name, description, price, categories_ids) with no response_fields selector -- compare to basic's {*}"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
+                },
+                {
+                    "slug": "rf-explicit",
+                    "request": "product/info/rf-explicit.request.json",
+                    "response": "product/info/rf-explicit.response.json",
+                    "covers": {
+                        "description": "field selection: explicit response_fields list (id, name, price, categories_ids)"
+                    },
+                    "captured_at": "2026-08-21T15:15:00Z"
                 }
             ]
         },
@@ -625,6 +688,15 @@
                         "description": "validation: count must be a non-negative integer"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "default-fields",
+                    "request": "product/list/default-fields.request.json",
+                    "response": "product/list/default-fields.response.json",
+                    "covers": {
+                        "description": "happy path: default field set (id, name, description, price, categories_ids) with no response_fields selector, first page -- compare to basic's {*}"
+                    },
+                    "captured_at": "2026-08-21T15:08:12Z"
                 }
             ]
         },
