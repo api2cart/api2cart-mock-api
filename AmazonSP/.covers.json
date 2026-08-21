@@ -78,10 +78,10 @@
         "description": "categories under a mid-tree electronics-accessories category: 18"
     },
     "category/count/product-type-bicycle": {
-        "description": "filter: product_type=BICYCLE"
+        "description": "count of categories under the Amazon browse-node product_type BICYCLE (32 categories)"
     },
     "category/count/product-type-consumer-electronics": {
-        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+        "description": "count of categories under the Amazon browse-node product_type CONSUMER_ELECTRONICS (137 categories)"
     },
     "category/count/report-request-id-105245017661": {
         "description": "async report_request_id reused to avoid starting a new report"
@@ -132,7 +132,7 @@
         "description": "info by id: \"Movies\""
     },
     "category/info/id-3009141__rf-all__schema-type-listing-offer-only": {
-        "description": "filter: schema_type=LISTING_OFFER_ONLY"
+        "description": "category attributes scoped to the LISTING_OFFER_ONLY requirements schema (schema_type), full field selection"
     },
     "category/info/id-7072561011__rf-notexisting": {
         "description": "field selection: notExisting"
@@ -186,7 +186,7 @@
         "description": "children of an accessories category, e.g. \"Headphones, Earbuds & Accessories\""
     },
     "category/list/product-type-bicycle": {
-        "description": "filter: product_type=BICYCLE"
+        "description": "categories under the Amazon browse-node product_type BICYCLE, 5 returned"
     },
     "category/list/product-type-consumer-electronics__count-15": {
         "description": "filter: product_type=CONSUMER_ELECTRONICS, count=15 (larger page)"
@@ -270,7 +270,7 @@
         "description": "filter: order_status_ids (multi-status)"
     },
     "order/count/order-status-shipped": {
-        "description": "filter: order_status=Shipped"
+        "description": "count of orders with order_status Shipped"
     },
     "order/count/store-id-atvpdkikx0der": {
         "description": "filter: store_id (multi-store account)"
@@ -312,7 +312,7 @@
         "description": "filter: matching customer_email"
     },
     "order/list/enable-cache-false": {
-        "description": "filter: enable_cache=false"
+        "description": "order list with enable_cache=false, forcing a fresh read from the store instead of API2Cart's cache"
     },
     "order/list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
@@ -447,10 +447,10 @@
         "description": "pagination: start/count offset within one parent (filter matches nothing in this store: empty result)"
     },
     "product/count/avail-view-false": {
-        "description": "filter: avail_view=false"
+        "description": "count of products hidden from the storefront (avail_view=false), 60 products"
     },
     "product/count/avail-view-true": {
-        "description": "filter: avail_view=true"
+        "description": "count of products visible on the storefront (avail_view=true), 62 products"
     },
     "product/count/basic": {
         "description": "happy path: no filters, large catalog"
@@ -519,7 +519,7 @@
         "description": "filter: store_id (multi-store account)"
     },
     "product/list/avail-view-true": {
-        "description": "filter: avail_view=true"
+        "description": "products visible on the storefront (avail_view=true), full field selection"
     },
     "product/list/basic": {
         "description": "happy path: no filters, first page (10 products, has a next cursor -- not itself used as a pagination source in this dataset)"

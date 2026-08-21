@@ -1,6 +1,6 @@
 {
     "integration": "TikTokShop",
-    "generated_at": "2026-08-18T07:33:31Z",
+    "generated_at": "2026-08-20T19:26:33Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -522,7 +522,7 @@
                     "request": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.request.json",
                     "response": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.response.json",
                     "covers": {
-                        "description": "single entity looked up by id"
+                        "description": "single entity looked up by id -- returns only 3 fields (id, items, order_id) though the declared default for this method is 4 (id, order_id, items, tracking_numbers), and the sibling __rf-all capture of this exact shipment proves tracking_numbers is non-empty here. Not re-derivable from other captured data; needs live re-verification against Shipments/Export.php's default-field handling before treating either the mock or the code as correct."
                     },
                     "captured_at": "2026-07-29T18:48:57Z"
                 },
@@ -814,6 +814,15 @@
                         "description": "validation: no params -> name required"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-stores-ids-not-cross-border-account",
+                    "request": "product/add/error-stores-ids-not-cross-border-account.request.json",
+                    "response": "product/add/error-stores-ids-not-cross-border-account.response.json",
+                    "covers": {
+                        "description": "regular (non-cross-border) account: stores_ids is a cross-border-only field -- passing it here is rejected even though the field itself is a valid, documented parameter"
+                    },
+                    "captured_at": "2026-08-20T00:00:00Z"
                 },
                 {
                     "slug": "with-ean-and-multiple-manufacturers",
@@ -1773,7 +1782,7 @@
                     "request": "return/list/error-status-not-found.request.json",
                     "response": "return/list/error-status-not-found.response.json",
                     "covers": {
-                        "description": "not found: the generic enabled/disabled status vocabulary does not exist on this platform -- core resolves status names against the platform list and rejects unknown ones before the request is built"
+                        "description": "platform bug, not a client error: an unrecognized status value does not get a clean not-found response -- Returns/Export.php's status-name resolver has a variable-shadowing bug (the lookup loop variable reuses the outer $status) with no default arm in the following match(), so an unmatched value throws PHP UnhandledMatchError; the app's top-level Throwable handler (Api2cart/Controller/Api.php) converts that into a generic 9 SERVICE_INTERNAL_ERROR rather than a named 112. Verified by directly invoking Returns/Export.php::_getReturnOrderStatusByMappedStatus() with an unmatched value (throws) and tracing the app's catch(Throwable) fallback -- not a live capture. Candidate for tmp/bugReports/: fix the shadowed loop variable and add a default arm."
                     },
                     "captured_at": "2026-08-14T19:32:34Z"
                 },

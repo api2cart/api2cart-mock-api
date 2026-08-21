@@ -1,6 +1,6 @@
 {
     "integration": "Walmart",
-    "generated_at": "2026-08-18T07:33:31Z",
+    "generated_at": "2026-08-20T18:53:41Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -13,7 +13,7 @@
                     "request": "cart/info/basic.request.json",
                     "response": "cart/info/basic.response.json",
                     "covers": {
-                        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what is NOT here -- no carriers list (order.shipment.add's carrier_id vocabulary is fixed in the integration, not returned by this method) and shipping_zones is empty"
+                        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what IS here -- stores_info[].carrier_info lists all 75 accepted carrier_id values for order.shipment.add; shipping_zones is empty -- store_id on this test seller happens to hold the field's own label text (\"Partner/Seller ID for Walmart store URL\") rather than a real id, an artifact of this specific store's setup, not a code defect"
                     },
                     "captured_at": "2026-08-17T13:56:41Z"
                 }
@@ -287,7 +287,7 @@
                     "request": "order/shipment.add/error-unknown-carrier.request.json",
                     "response": "order/shipment.add/error-unknown-carrier.response.json",
                     "covers": {
-                        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- cart.info does not expose them on Walmart"
+                        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- the same 75-entry vocabulary that cart.info exposes on Walmart under stores_info[].carrier_info"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
                 }
@@ -344,9 +344,18 @@
                     "request": "product/add/basic.request.json",
                     "response": "product/add/basic.response.json",
                     "covers": {
-                        "description": "happy path: create an item. Beyond the three fields openapi marks required, Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
+                        "description": "happy path: create an item. Beyond what openapi marks required (name, description, price, brand_name), Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-conflicting-identifiers",
+                    "request": "product/add/error-conflicting-identifiers.request.json",
+                    "response": "product/add/error-conflicting-identifiers.response.json",
+                    "covers": {
+                        "description": "validation: two product identifiers at once (upc and ean) are rejected -- exactly one of upc/ean/gtin/isbn is allowed"
+                    },
+                    "captured_at": "2026-08-20T18:50:51Z"
                 },
                 {
                     "slug": "error-empty-name",
@@ -376,11 +385,38 @@
                     "captured_at": "2026-08-18T07:02:39Z"
                 },
                 {
+                    "slug": "error-missing-brand-name",
+                    "request": "product/add/error-missing-brand-name.request.json",
+                    "response": "product/add/error-missing-brand-name.response.json",
+                    "covers": {
+                        "description": "validation: name, description, price, sku and a product identifier present -- brand_name is required by Walmart even though it used to be undocumented"
+                    },
+                    "captured_at": "2026-08-20T18:50:51Z"
+                },
+                {
+                    "slug": "error-missing-sku",
+                    "request": "product/add/error-missing-sku.request.json",
+                    "response": "product/add/error-missing-sku.response.json",
+                    "covers": {
+                        "description": "validation: name, description, price and a product identifier present -- sku is the next required field"
+                    },
+                    "captured_at": "2026-08-20T18:50:51Z"
+                },
+                {
+                    "slug": "error-no-identifier",
+                    "request": "product/add/error-no-identifier.request.json",
+                    "response": "product/add/error-no-identifier.response.json",
+                    "covers": {
+                        "description": "validation: every other required field present, but none of upc/ean/gtin/isbn supplied -- the oneOf check is independent of how complete the rest of the payload is"
+                    },
+                    "captured_at": "2026-08-20T18:50:51Z"
+                },
+                {
                     "slug": "error-no-params",
                     "request": "product/add/error-no-params.request.json",
                     "response": "product/add/error-no-params.response.json",
                     "covers": {
-                        "description": "validation: name, description and price are the openapi-required trio; the first missing one is named"
+                        "description": "validation: with no product identifier (upc/ean/gtin/isbn) present, Walmart's oneOf check fires before any of name/description/price/sku/brand_name is even looked at"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
                 },
@@ -389,7 +425,7 @@
                     "request": "product/add/error-only-name.request.json",
                     "response": "product/add/error-only-name.response.json",
                     "covers": {
-                        "description": "validation: description still missing"
+                        "description": "validation: name plus a product identifier is not enough -- description is still missing"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
                 },
@@ -398,7 +434,7 @@
                     "request": "product/add/error-only-name-and-description.request.json",
                     "response": "product/add/error-only-name-and-description.response.json",
                     "covers": {
-                        "description": "validation: price still missing"
+                        "description": "validation: name, description and a product identifier still leave price missing"
                     },
                     "captured_at": "2026-08-18T07:02:39Z"
                 },
@@ -518,7 +554,7 @@
                     "request": "product/find/error-not-found.request.json",
                     "response": "product/find/error-not-found.response.json",
                     "covers": {
-                        "description": "not found: searching for a brand that product.list shows on six items still returns not_found -- like product.info, product.find could not be made to succeed on this store; note the wording here is \"Entity not found\", not product.info's \"Item not found\""
+                        "description": "not found: searching find_where=name for a brand name that does not appear in u_brand on any of the 20 catalogue items (all null) -- 7 items have a name starting with \"Obermeyer\". Captured before the APITOCART-46222 fix that removed a trailing slash from the catalog search URL (the old URL 404'd on every call, which is why the message is Walmart's own \"Entity not found\" rather than the core \"Item not found\" of product.info's not-found case); needs re-verification against a live store to confirm find now succeeds"
                     },
                     "captured_at": "2026-08-17T18:45:55Z"
                 }
@@ -552,9 +588,9 @@
                     "request": "product/info/error-not-found.request.json",
                     "response": "product/info/error-not-found.response.json",
                     "covers": {
-                        "description": "not found: this id comes straight from product.list (a published, saleable item) and still resolves to not_found -- product.info could not be made to succeed for any id on this store, so this is the only observed behaviour of the method here, not a made-up id"
+                        "description": "not found: A2C-NO-SUCH-SKU is a deliberately nonexistent id, the same convention used by product.update/product.delete's not-found cases -- product.info raises the core's generic 112 message for any id it cannot resolve"
                     },
-                    "captured_at": "2026-08-17T18:45:55Z"
+                    "captured_at": "2026-08-20T18:50:51Z"
                 }
             ]
         },
@@ -568,7 +604,7 @@
                     "request": "product/list/avail-view-true.request.json",
                     "response": "product/list/avail-view-true.response.json",
                     "covers": {
-                        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count stays at the unfiltered store total of 20"
+                        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count matches the 4 items on this page"
                     },
                     "captured_at": "2026-08-17T13:56:41Z"
                 },
@@ -577,7 +613,7 @@
                     "request": "product/list/basic.request.json",
                     "response": "product/list/basic.response.json",
                     "covers": {
-                        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count is the STORE total, not the page size"
+                        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count matches the page size"
                     },
                     "captured_at": "2026-08-17T13:56:41Z"
                 },

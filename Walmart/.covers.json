@@ -1,6 +1,6 @@
 {
     "cart/info/basic": {
-        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what is NOT here -- no carriers list (order.shipment.add's carrier_id vocabulary is fixed in the integration, not returned by this method) and shipping_zones is empty"
+        "description": "Full store/connection info shape (response_fields={*}): store name, stores_info with the seller id and currency, 9 warehouses with addresses, and Walmart feed/throttle configuration under additional_fields. Note what IS here -- stores_info[].carrier_info lists all 75 accepted carrier_id values for order.shipment.add; shipping_zones is empty -- store_id on this test seller happens to hold the field's own label text (\"Partner/Seller ID for Walmart store URL\") rather than a real id, an artifact of this specific store's setup, not a code defect"
     },
     "category/count/basic": {
         "description": "Total category count for the store (no filters)."
@@ -75,7 +75,7 @@
         "description": "conflict: shipping more units than the line actually has"
     },
     "order/shipment.add/error-unknown-carrier": {
-        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- cart.info does not expose them on Walmart"
+        "description": "validation: carrier_id must be one of the integration's fixed keys, and the error lists every accepted value -- the same 75-entry vocabulary that cart.info exposes on Walmart under stores_info[].carrier_info"
     },
     "order/shipment.list/basic": {
         "description": "Full shipment entity shape (response_fields={*}) for a real shipped order, including tracking numbers and shipped items."
@@ -87,7 +87,10 @@
         "description": "Full list of the 5 native Walmart order statuses (Created, Acknowledged, Shipped, Cancelled, Delivered)."
     },
     "product/add/basic": {
-        "description": "happy path: create an item. Beyond the three fields openapi marks required, Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
+        "description": "happy path: create an item. Beyond what openapi marks required (name, description, price, brand_name), Walmart also needs sku, category_id, image_url and exactly one product identifier (upc/ean/gtin/isbn) -- the integration dereferences all of them unconditionally"
+    },
+    "product/add/error-conflicting-identifiers": {
+        "description": "validation: two product identifiers at once (upc and ean) are rejected -- exactly one of upc/ean/gtin/isbn is allowed"
     },
     "product/add/error-empty-name": {
         "description": "validation: a required parameter present but empty is rejected differently from a missing one -- 109, not 114"
@@ -98,14 +101,23 @@
     "product/add/error-invalid-price": {
         "description": "validation: price must be decimal"
     },
+    "product/add/error-missing-brand-name": {
+        "description": "validation: name, description, price, sku and a product identifier present -- brand_name is required by Walmart even though it used to be undocumented"
+    },
+    "product/add/error-missing-sku": {
+        "description": "validation: name, description, price and a product identifier present -- sku is the next required field"
+    },
+    "product/add/error-no-identifier": {
+        "description": "validation: every other required field present, but none of upc/ean/gtin/isbn supplied -- the oneOf check is independent of how complete the rest of the payload is"
+    },
     "product/add/error-no-params": {
-        "description": "validation: name, description and price are the openapi-required trio; the first missing one is named"
+        "description": "validation: with no product identifier (upc/ean/gtin/isbn) present, Walmart's oneOf check fires before any of name/description/price/sku/brand_name is even looked at"
     },
     "product/add/error-only-name": {
-        "description": "validation: description still missing"
+        "description": "validation: name plus a product identifier is not enough -- description is still missing"
     },
     "product/add/error-only-name-and-description": {
-        "description": "validation: price still missing"
+        "description": "validation: name, description and a product identifier still leave price missing"
     },
     "product/add/error-sku-already-exists": {
         "description": "conflict: the sku is the product id on Walmart, so re-using one that already exists in the store is rejected before the feed is submitted"
@@ -138,7 +150,7 @@
         "description": "validation: find_value is required"
     },
     "product/find/error-not-found": {
-        "description": "not found: searching for a brand that product.list shows on six items still returns not_found -- like product.info, product.find could not be made to succeed on this store; note the wording here is \"Entity not found\", not product.info's \"Item not found\""
+        "description": "not found: searching find_where=name for a brand name that does not appear in u_brand on any of the 20 catalogue items (all null) -- 7 items have a name starting with \"Obermeyer\". Captured before the APITOCART-46222 fix that removed a trailing slash from the catalog search URL (the old URL 404'd on every call, which is why the message is Walmart's own \"Entity not found\" rather than the core \"Item not found\" of product.info's not-found case); needs re-verification against a live store to confirm find now succeeds"
     },
     "product/info/error-empty-id": {
         "description": "validation: empty id"
@@ -147,13 +159,13 @@
         "description": "validation: id is required"
     },
     "product/info/error-not-found": {
-        "description": "not found: this id comes straight from product.list (a published, saleable item) and still resolves to not_found -- product.info could not be made to succeed for any id on this store, so this is the only observed behaviour of the method here, not a made-up id"
+        "description": "not found: A2C-NO-SUCH-SKU is a deliberately nonexistent id, the same convention used by product.update/product.delete's not-found cases -- product.info raises the core's generic 112 message for any id it cannot resolve"
     },
     "product/list/avail-view-true": {
-        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count stays at the unfiltered store total of 20"
+        "description": "Filter: avail_view=true narrows the same catalogue to the 4 items that are actually published and buyable; products_count matches the 4 items on this page"
     },
     "product/list/basic": {
-        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count is the STORE total, not the page size"
+        "description": "Full product entity shape (response_fields={*}): the whole 20-item catalogue comes back in one page, and products_count matches the page size"
     },
     "product/list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"

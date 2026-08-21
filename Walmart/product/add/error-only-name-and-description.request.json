@@ -4,6 +4,7 @@
     "endpoint": "product.add.json",
     "body": {
         "name": "Orthopedic Memory Foam Dog Bed, Medium",
-        "description": "Supportive memory foam pet bed."
+        "description": "Supportive memory foam pet bed.",
+        "upc": "012345678905"
     }
 }

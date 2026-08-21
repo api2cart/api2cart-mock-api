@@ -66,10 +66,10 @@ generator applies it, so the two cannot drift apart.
 
 Walmart connections carry a **region** (`us` or `ca`), and it is not visible in any request: the
 same call succeeds on a US connection and is refused on a CA one with `return_code: 3`
-("This method supported for Walmart CA region."). It gates `product.add`, `order.shipment.add` and
-all three `category.*` methods. Every Walmart case in this dataset was taken against a **US**
-connection; there are no CA cases, and none of the published requests would need to change to hit
-that error — only the connection would.
+("This method is not supported for Walmart CA region."). It gates `product.add`, `product.find`,
+`order.count`, `order.shipment.add` and all three `category.*` methods. Every Walmart case in this
+dataset was taken against a **US** connection; there are no CA cases, and none of the published
+requests would need to change to hit that error — only the connection would.
 
 ## File formats
 

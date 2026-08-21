@@ -283,9 +283,11 @@ function validateDataset(string $platDir): array
       //   '"result": ' . ($api->getResponseCode() == 0 ? $api->getResponse() : '{}')
       // so it holds for every method, platform and response_fields selector.
       // Raw text, like check 10, because json_decode() collapses [] and {} onto one PHP value --
-      // this defect is structurally invisible after decoding, which is exactly how 62 cases came
-      // to publish `[]`: scrape.php decodes with assoc=true and re-encodes, and the MCP transport
-      // does the same, so a live "confirmation" of `[]` is an artefact of the client, not the API.
+      // this defect is structurally invisible after decoding, which is exactly how dozens of cases
+      // came to publish `[]`: scrape.php decodes with assoc=true and re-encodes, and the MCP
+      // transport does the same, so a live "confirmation" of `[]` is an artefact of the client,
+      // not the API. (Historical count at the time this check was added: 41 cases had `[]`, not
+      // the 62 once claimed here -- see APITOCART-46057 review, 🔵 D.)
       if (($response['return_code'] ?? 0) !== 0
         && !preg_match('/"result"\s*:\s*\{\s*\}/', $rawResponse)) {
         $errors[] = "$platDir: error response must render \"result\": {} (not [] or null): $key";

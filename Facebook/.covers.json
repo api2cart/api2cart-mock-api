@@ -204,7 +204,7 @@
         "description": "pagination: start/count as the numeric alternative to page_cursor"
     },
     "product/child_item.list/product-id-28485509374366375__store-id-2008815096142395": {
-        "description": "filter: specific product id(s)"
+        "description": "filter: store_id (a different connected store than the other child_item.list cases)"
     },
     "product/child_item.list/product-id-28693865173549624__rf-all": {
         "description": "full response fields for a product's variants"

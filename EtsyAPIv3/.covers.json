@@ -66,19 +66,19 @@
         "description": "full response fields [id=5]"
     },
     "category/list/basic": {
-        "description": "happy path: first page"
+        "description": "happy path: first page. This is the one category.list case that keeps the full additional_fields.category_properties block (~50KB per category) -- every other category.list case below excludes it via an explicit response_fields list to stay readable"
     },
     "category/list/error-invalid-param": {
         "description": "validation: count must be a non-negative integer"
     },
     "category/list/find-name": {
-        "description": "search: matching name value [find_value=Accessories]"
+        "description": "search: matching name value [find_value=Accessories] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/find-name-2": {
-        "description": "search: matching name value [find_value=Belts & Suspenders]"
+        "description": "search: matching name value [find_value=Belts & Suspenders] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/find-name-3": {
-        "description": "search: matching name value [find_value=Belt Buckles]"
+        "description": "search: matching name value [find_value=Belt Buckles] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/page-2": {
         "description": "pagination: page 2 via page_cursor"
@@ -87,19 +87,19 @@
         "description": "pagination: cursor page"
     },
     "category/list/parent-id-0": {
-        "description": "categories under a parent [parent_id=0]"
+        "description": "categories under a parent [parent_id=0] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/parent-id-1": {
-        "description": "categories under a parent [parent_id=1]"
+        "description": "categories under a parent [parent_id=1] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/parent-id-2": {
-        "description": "categories under a parent [parent_id=2]"
+        "description": "categories under a parent [parent_id=2] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/start-10": {
-        "description": "pagination: offset start 10"
+        "description": "pagination: offset start 10 (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "category/list/start-2": {
-        "description": "pagination: start/count offset"
+        "description": "pagination: start/count offset (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
     },
     "order/count/basic": {
         "description": "happy path: total count"

@@ -233,6 +233,9 @@
     "product/add/error-no-params": {
         "description": "validation: no params -> name required"
     },
+    "product/add/error-stores-ids-not-cross-border-account": {
+        "description": "regular (non-cross-border) account: stores_ids is a cross-border-only field -- passing it here is rejected even though the field itself is a valid, documented parameter"
+    },
     "product/add/with-ean-and-multiple-manufacturers": {
         "description": "add product with ean, certification files, multiple specifics values, and comma-separated manufacturer_ids/responsible_person_ids"
     },
@@ -519,7 +522,7 @@
         "description": "validation: count must be a non-negative integer"
     },
     "return/list/error-status-not-found": {
-        "description": "not found: the generic enabled/disabled status vocabulary does not exist on this platform -- core resolves status names against the platform list and rejects unknown ones before the request is built"
+        "description": "platform bug, not a client error: an unrecognized status value does not get a clean not-found response -- Returns/Export.php's status-name resolver has a variable-shadowing bug (the lookup loop variable reuses the outer $status) with no default arm in the following match(), so an unmatched value throws PHP UnhandledMatchError; the app's top-level Throwable handler (Api2cart/Controller/Api.php) converts that into a generic 9 SERVICE_INTERNAL_ERROR rather than a named 112. Verified by directly invoking Returns/Export.php::_getReturnOrderStatusByMappedStatus() with an unmatched value (throws) and tracing the app's catch(Throwable) fallback -- not a live capture. Candidate for tmp/bugReports/: fix the shadowed loop variable and add a default arm."
     },
     "return/list/modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all": {
         "description": "filter: date range (created/modified from-to) [no created_from]"

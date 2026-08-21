@@ -7,6 +7,7 @@
         "description": "Breathable mesh pet cot that keeps pets cool in warm weather.",
         "price": 64.5,
         "sku": "A2C-PET-BED-002",
+        "brand_name": "Acme Pet",
         "category_id": "559c5d924fff3d64de18bf45",
         "gtin": "00012345678905",
         "image_url": "https://picsum.photos/seed/walmart-pet-cot/800",

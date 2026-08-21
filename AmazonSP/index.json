@@ -1,6 +1,6 @@
 {
     "integration": "AmazonSP",
-    "generated_at": "2026-08-18T07:35:29Z",
+    "generated_at": "2026-08-20T19:20:02Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -268,7 +268,7 @@
                     "request": "category/count/product-type-bicycle.request.json",
                     "response": "category/count/product-type-bicycle.response.json",
                     "covers": {
-                        "description": "filter: product_type=BICYCLE"
+                        "description": "count of categories under the Amazon browse-node product_type BICYCLE (32 categories)"
                     },
                     "captured_at": "2026-08-06T11:25:26Z"
                 },
@@ -277,7 +277,7 @@
                     "request": "category/count/product-type-consumer-electronics.request.json",
                     "response": "category/count/product-type-consumer-electronics.response.json",
                     "covers": {
-                        "description": "filter: product_type=CONSUMER_ELECTRONICS"
+                        "description": "count of categories under the Amazon browse-node product_type CONSUMER_ELECTRONICS (137 categories)"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -444,7 +444,7 @@
                     "request": "category/info/id-3009141__rf-all__schema-type-listing-offer-only.request.json",
                     "response": "category/info/id-3009141__rf-all__schema-type-listing-offer-only.response.json",
                     "covers": {
-                        "description": "filter: schema_type=LISTING_OFFER_ONLY"
+                        "description": "category attributes scoped to the LISTING_OFFER_ONLY requirements schema (schema_type), full field selection"
                     },
                     "captured_at": "2026-07-23T11:25:56Z"
                 },
@@ -613,7 +613,7 @@
                     "request": "category/list/product-type-bicycle.request.json",
                     "response": "category/list/product-type-bicycle.response.json",
                     "covers": {
-                        "description": "filter: product_type=BICYCLE"
+                        "description": "categories under the Amazon browse-node product_type BICYCLE, 5 returned"
                     },
                     "captured_at": "2026-08-06T11:25:26Z"
                 },
@@ -879,7 +879,7 @@
                     "request": "order/count/order-status-shipped.request.json",
                     "response": "order/count/order-status-shipped.response.json",
                     "covers": {
-                        "description": "filter: order_status=Shipped"
+                        "description": "count of orders with order_status Shipped"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -1019,7 +1019,7 @@
                     "request": "order/list/enable-cache-false.request.json",
                     "response": "order/list/enable-cache-false.response.json",
                     "covers": {
-                        "description": "filter: enable_cache=false"
+                        "description": "order list with enable_cache=false, forcing a fresh read from the store instead of API2Cart's cache"
                     },
                     "captured_at": "2026-08-07T11:49:40Z"
                 },
@@ -1466,7 +1466,7 @@
                     "request": "product/count/avail-view-false.request.json",
                     "response": "product/count/avail-view-false.response.json",
                     "covers": {
-                        "description": "filter: avail_view=false"
+                        "description": "count of products hidden from the storefront (avail_view=false), 60 products"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -1475,7 +1475,7 @@
                     "request": "product/count/avail-view-true.request.json",
                     "response": "product/count/avail-view-true.response.json",
                     "covers": {
-                        "description": "filter: avail_view=true"
+                        "description": "count of products visible on the storefront (avail_view=true), 62 products"
                     },
                     "captured_at": "2026-07-27T10:01:54Z"
                 },
@@ -1717,7 +1717,7 @@
                     "request": "product/list/avail-view-true.request.json",
                     "response": "product/list/avail-view-true.response.json",
                     "covers": {
-                        "description": "filter: avail_view=true"
+                        "description": "products visible on the storefront (avail_view=true), full field selection"
                     },
                     "captured_at": "2026-08-06T13:01:03Z"
                 },
