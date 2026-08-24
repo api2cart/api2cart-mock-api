@@ -144,7 +144,7 @@
         "description": "not found: no order with this id/order_id"
     },
     "order/shipment.info/id-1154261833533201176__order-id-576929338705943320": {
-        "description": "single entity looked up by id"
+        "description": "single shipment detail with the default field set (id, order_id, tracking_numbers, items) -- no response_fields selector; see the __rf-all sibling for the full shape"
     },
     "order/shipment.info/id-1154261833533201176__order-id-576929338705943320__rf-all": {
         "description": "single shipment detail: tracking, provider, delivery option and package status for one package taken from the order shipment list"

@@ -1,5 +1,5 @@
 {
     "return_code": 112,
-    "return_message": "Item not found (product, category, etc.)",
+    "return_message": "Product child item with id 7276741894313314410 not found",
     "result": {}
 }

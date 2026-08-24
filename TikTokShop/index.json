@@ -1,6 +1,6 @@
 {
     "integration": "TikTokShop",
-    "generated_at": "2026-08-20T19:26:33Z",
+    "generated_at": "2026-08-21T14:38:06Z",
     "source": "API2Cart REST responses",
     "methods": [
         {
@@ -522,7 +522,7 @@
                     "request": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.request.json",
                     "response": "order/shipment.info/id-1154261833533201176__order-id-576929338705943320.response.json",
                     "covers": {
-                        "description": "single entity looked up by id -- returns only 3 fields (id, items, order_id) though the declared default for this method is 4 (id, order_id, items, tracking_numbers), and the sibling __rf-all capture of this exact shipment proves tracking_numbers is non-empty here. Not re-derivable from other captured data; needs live re-verification against Shipments/Export.php's default-field handling before treating either the mock or the code as correct."
+                        "description": "single shipment detail with the default field set (id, order_id, tracking_numbers, items) -- no response_fields selector; see the __rf-all sibling for the full shape"
                     },
                     "captured_at": "2026-07-29T18:48:57Z"
                 },
