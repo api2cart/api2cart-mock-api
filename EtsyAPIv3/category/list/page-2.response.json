@@ -1,0 +1,25 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHdDoIgGADQB%2BJCdJF0SZA2%2FRbkT9NLBl2I2dQpqU%2FfOTEBlhkq00ogemQxfsWWXe6LVhQUQ3PLJ57a8mweu3dXmffJNkFJEiQKAqdI9yZoGvmsfS5%2FneBfBolnw4gLvbJ3p3izWMGhHnxQzWFU3Zze7eZWc3xGKMMF%2FwE%3D",
+        "next": "BcHBDoIgAADQD%2BKAhQgekQJGLHSmDW4kW2knLObs63uPYMP0RK28nQD9aVKMJLJafUNLTcvA6njiMvbVdN0xKdlcLbErUMZgKPp0pmhb0atTR09muGSgGm11Fs0gP2nLdidJvEdeiqeGTPFL%2FTBQMy99OHiHbLgn9wc%3D"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "3",
+                "parent_id": "2",
+                "name": "Belt Buckles",
+                "description": null
+            },
+            {
+                "id": "4",
+                "parent_id": "2",
+                "name": "Belts",
+                "description": null
+            }
+        ]
+    }
+}

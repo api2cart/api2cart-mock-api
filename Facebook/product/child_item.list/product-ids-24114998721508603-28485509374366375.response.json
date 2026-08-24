@@ -1,0 +1,37 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 4,
+        "children": [
+            {
+                "id": "28485509374366375",
+                "parent_id": "28485509374366375",
+                "sku": "mock-variant-parent-tee-red-m",
+                "name": "Mock Variant Parent Tee - Red / M"
+            },
+            {
+                "id": "28693865173549624",
+                "parent_id": "28485509374366375",
+                "sku": "mock-variant-parent-tee",
+                "name": "Mock Variant Parent Tee"
+            },
+            {
+                "id": "24114998721508603",
+                "parent_id": "24114998721508603",
+                "sku": "test_skuddddddd_777",
+                "name": "Test product6"
+            },
+            {
+                "id": "24834083912885195",
+                "parent_id": "24114998721508603",
+                "sku": "ddjtkwn5a5",
+                "name": "Test manual"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "order.shipment.add.json",
+    "body": {
+        "order_id": "C000CR1T09",
+        "items": [
+            {
+                "order_product_id": "3973898941",
+                "quantity": 1
+            }
+        ],
+        "tracking_numbers": [
+            {
+                "carrier_id": "DHL",
+                "tracking_number": "3SDFC0281746"
+            }
+        ]
+    }
+}

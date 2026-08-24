@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "return.list.json",
+    "query": {
+        "return_type": "MFN",
+        "created_from": "2026-06-10T00:00:00",
+        "created_to": "2026-08-06T00:00:00",
+        "start": 2,
+        "count": 2,
+        "response_fields": "{return_code,return_message,result{returns{id,order_id}}}"
+    }
+}

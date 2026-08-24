@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T11:24:18Z",
+    "method": "GET",
+    "endpoint": "marketplace.product.find.json",
+    "query": {
+        "isbn": "9781474837637",
+        "response_fields": "{*}"
+    }
+}

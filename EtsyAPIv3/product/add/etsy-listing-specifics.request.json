@@ -1,0 +1,47 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "UnittestProductAdd 4",
+        "description": "test heart ornament 4",
+        "price": 2,
+        "status": "disabled",
+        "categories_ids": "1857",
+        "is_virtual": false,
+        "downloadable": false,
+        "is_supply": true,
+        "available_for_view": false,
+        "quantity": 999,
+        "weight": 4,
+        "weight_unit": "oz",
+        "image_name": "logo.png",
+        "image_url": "https://picsum.photos/seed/etsy-add-4/800",
+        "tags": "ahmet,ahmet2",
+        "materials": [
+            "Aluminum"
+        ],
+        "shop_section_id": "35289963",
+        "specifics": [
+            {
+                "name": "Depth",
+                "values": [
+                    "120"
+                ],
+                "scale_id": "7"
+            }
+        ],
+        "auto_renew": false,
+        "when_made": "made_to_order",
+        "shipping_template_id": "150486311896",
+        "production_partner_ids": "1686933",
+        "return_policy_id": "1371644839750",
+        "processing_profile_id": "1402408090577",
+        "personalization_details": {
+            "is_personalizable": true,
+            "personalization_is_required": true,
+            "personalization_char_count_max": 22,
+            "personalization_instructions": "instructions"
+        }
+    }
+}

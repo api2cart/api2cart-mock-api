@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "order.return.update.json",
+    "body": {
+        "return_id": "4035298315864021784",
+        "return_status_id": "REJECTED",
+        "reject_reason": "change_of_mind_returns_are_not_applicable",
+        "staff_note": "Our return policy allows you to return items only for a valid reason."
+    }
+}

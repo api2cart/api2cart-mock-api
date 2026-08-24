@@ -1,0 +1,873 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "izD2SjV3D0wKqvAtC3FNNQqOLEh0DzZJDzR2Ks%2F2SHdyzAlKM9WvNC5x9zDT96wIyfbKqyrz9c0PTTEO8fIKNAUA"
+    },
+    "result": {
+        "products_count": 3,
+        "product": [
+            {
+                "id": "04-B6HK-NKTA",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "04-B6HK-NKTA",
+                "name": "Tee Time Troup Gnomes Golf Headcovers: USA-Made Driver, Fairway Wood, Hybrid Set by BeeJos Golf - Quality Craftsmanship & Whimsical Style (Hybrid)",
+                "description": "Introducing BeeJos Club Headcovers - the epitome of golfing style and functionality, now featuring the charming Tee Time Troup Gnomes print! Elevate your golf bag to new heights with these headcovers that seamlessly blend convenience, durability, and aesthetics.\nCrafted with a stretch-to-fit design and easy on-and-off feature, these headcovers ensure hassle-free protection for your beloved clubs. Each cover boasts composite polyester-knit fabrics and aerospace-grade foam, guaranteeing unmatched durability and cushioning for your clubs round after round.\nWhat truly sets these headcovers apart is their vibrant and captivating prints, meticulously printed and sewn in the USA. The Tee Time Troup Gnomes design adds a whimsical touch to your gear, instantly making your golf bag a conversation starter on the course.\nBut it's not just about looks - the 11mm thick proprietary foam interior is specifically engineered for unparalleled club protection, demonstrating BeeJos' unwavering commitment to safeguarding your equipment.\nEmbrace the fusion of style and function with BeeJos Club Headcovers. Elevate your game, showcase your personality, and let the Tee Time Troup Gnomes accompany you on every swing. Don't just settle for ordinary headcovers, make a statement with BeeJos and turn heads on the fairway. Get yours now and let your golf bag become a reflection of your unique style and passion for the game!",
+                "short_description": null,
+                "price": 22.95,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 90,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "BeeJos",
+                "categories_ids": [
+                    "3410981"
+                ],
+                "stores_ids": [],
+                "url": "https://store-1d9771a8.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": null,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": "True",
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-03-14T18:19:19+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "enabled",
+                    "landed_price": null,
+                    "asin1": "B0CY3PGCJS",
+                    "asin2": "",
+                    "asin3": "",
+                    "fulfillment_channel": "DEFAULT",
+                    "merchant_shipping_group": "Beejos Exp Template",
+                    "product_id": "051907005773",
+                    "listing_id": "0314BW8XSKQ",
+                    "condition_type": "new_new",
+                    "product_type": "GOLF_CLUB_COVER",
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Introducing BeeJos Club Headcovers - the epitome of golfing style and functionality, now featuring the charming Tee Time Troup Gnomes print! Elevate your golf bag to new heights with these headcovers that seamlessly blend convenience, durability, and aesthetics.\nCrafted with a stretch-to-fit design and easy on-and-off feature, these headcovers ensure hassle-free protection for your beloved clubs. Each cover boasts composite polyester-knit fabrics and aerospace-grade foam, guaranteeing unmatched durability and cushioning for your clubs round after round.\nWhat truly sets these headcovers apart is their vibrant and captivating prints, meticulously printed and sewn in the USA. The Tee Time Troup Gnomes design adds a whimsical touch to your gear, instantly making your golf bag a conversation starter on the course.\nBut it's not just about looks - the 11mm thick proprietary foam interior is specifically engineered for unparalleled club protection, demonstrating BeeJos' unwavering commitment to safeguarding your equipment.\nEmbrace the fusion of style and function with BeeJos Club Headcovers. Elevate your game, showcase your personality, and let the Tee Time Troup Gnomes accompany you on every swing. Don't just settle for ordinary headcovers, make a statement with BeeJos and turn heads on the fairway. Get yours now and let your golf bag become a reflection of your unique style and passion for the game!",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "ean": "0051907005773",
+                    "package_dimensions": null,
+                    "fee": {
+                        "currency_code": "USD",
+                        "total": 3.44,
+                        "details": [
+                            {
+                                "type": "ReferralFee",
+                                "amount": 3.44,
+                                "final_amount": 3.44,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "VariableClosingFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "PerItemFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            }
+                        ]
+                    }
+                },
+                "custom_fields": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Tee Time Troup Gnomes Edition: Make a statement with charming and whimsical gnome prints that add personality to your golf bag.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Ultimate Protection: Aerospace-grade foam interior provides unparalleled cushioning, ensuring your clubs stay in pristine condition round after round.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "USA-Made Craftsmanship: Each headcover is meticulously printed and sewn in the USA, guaranteeing exceptional quality and attention to detail.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Turn Heads on the Fairway: Stand out from the crowd and turn heads on the course with headcovers that demand attention and admiration.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Easy On-and-Off: Streamlined design allows for quick and easy application and removal, saving you time and frustration on the course.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Durable Construction: Crafted with composite polyester-knit fabrics for maximum durability, promising long-lasting performance on the fairway.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Vivid and Captivating Prints: Vibrant colors and intricate designs make your golf bag a standout on the course, sparking envy among fellow golfers.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "color": "Hybrid",
+                    "variation_theme": [
+                        {
+                            "name": "COLOR"
+                        }
+                    ],
+                    "included_components": "1",
+                    "pattern": "Cartoon",
+                    "externally_assigned_product_identifier": "0051907005773",
+                    "model_name": "Golf Gnomes",
+                    "department": "Unisex-Adult",
+                    "closure": [
+                        {
+                            "type": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "elastic"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "supplier_declared_dg_hz_regulation": "not_applicable",
+                    "unspsc_code": "49211600",
+                    "supplier_declared_has_product_identifier_exemption": true,
+                    "import_designation": "Made in the USA",
+                    "list_price": 29.95,
+                    "batteries_required": false,
+                    "item_type_keyword": "golf-club-head-covers",
+                    "product_site_launch_date": "2024-03-14T18:19:19.572Z",
+                    "size": "Hybrid",
+                    "material": "Polyester",
+                    "unit_count": 1,
+                    "item_type_name": "Golf Club Headcover",
+                    "fulfillment_availability": [
+                        {
+                            "fulfillment_channel_code": "DEFAULT",
+                            "quantity": 95,
+                            "lead_time_to_ship_max_days": 1
+                        }
+                    ],
+                    "country_of_origin": "US",
+                    "merchant_shipping_group": "1d2d84a4-c28c-4562-bac3-bf4248d63e50",
+                    "gift_options": [
+                        {
+                            "can_be_messaged": false,
+                            "can_be_wrapped": false,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "condition_type": "new_new",
+                    "warranty_description": "none",
+                    "other_product_image_locator_2": [
+                        {
+                            "media_location": "https://picsum.photos/seed/e94c7e92/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_1": [
+                        {
+                            "media_location": "https://picsum.photos/seed/d30492ac/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/62521216/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "purchasable_offer": [
+                        {
+                            "currency": "USD",
+                            "start_at": {
+                                "value": "2024-03-17T09:19:19.572Z"
+                            },
+                            "end_at": {
+                                "value": null
+                            },
+                            "audience": "ALL",
+                            "our_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "value_with_tax": 22.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "parentage_level": "child",
+                    "child_parent_sku_relationship": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "child_relationship_type": "variation",
+                            "parent_sku": "4H-VXBP-0K0V"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "0E-28CZ-WS7V",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "0E-28CZ-WS7V",
+                "name": "Natural Slice Blue Tie Dye Fairway Club Headcover Handmade by BeeJos",
+                "description": "BeeJos Club Headcovers offer a combination of functionality and style, making them an attractive choice for golfers. The stretch-to-fit feature and easy on-and-off design contribute to the convenience for users. The use of composite polyester-knit fabrics and aerospace-grade foam not only indicates a dedication to quality but also suggests durability and protection for your golf clubs. The 11mm thick proprietary foam interior specifically designed for excellent club protection is a notable feature, emphasizing the brand's commitment to safeguarding golf equipment. The fact that the designs are printed and sewn in the USA adds a touch of local craftsmanship and pride to the product. The vivid and bright prints, along with the soft-to-the-hand feel, contribute to the aesthetic appeal of the headcovers, allowing golfers to personalize their bags in a visually pleasing way. BeeJos has taken a thoughtful approach to both the design and manufacturing processes, creating headcovers that are not only functional but also visually appealing. This attention to detail is likely to make their headcovers stand out on the golf course and appeal to golfers looking for a high-quality and personalized accessory for their bags.",
+                "short_description": null,
+                "price": 24.95,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 84,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "BeeJo's",
+                "categories_ids": [
+                    "3410981"
+                ],
+                "stores_ids": [],
+                "url": "https://store-4d51e8f8.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.13007273458,
+                "weight_unit": "lb",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": "True",
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2022-03-13T04:37:43+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 24.95,
+                    "avail": true,
+                    "created_at": {
+                        "value": "2024-06-07T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "modified_at": null,
+                    "expired_at": {
+                        "value": "2024-06-24T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    }
+                },
+                "tier_price": [],
+                "group_price": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 4.3699999955,
+                "height": 3.6199999963,
+                "length": 9.9199999899,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "enabled",
+                    "landed_price": null,
+                    "asin1": "B09VF9ZQGH",
+                    "asin2": "",
+                    "asin3": "",
+                    "fulfillment_channel": "DEFAULT",
+                    "merchant_shipping_group": "Beejos Exp Template",
+                    "product_id": "B09VF9ZQGH",
+                    "listing_id": "0313Z6S2B4E",
+                    "condition_type": "new_new",
+                    "product_type": "GOLF_CLUB_COVER",
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "BeeJos Club Headcovers offer a combination of functionality and style, making them an attractive choice for golfers. The stretch-to-fit feature and easy on-and-off design contribute to the convenience for users. The use of composite polyester-knit fabrics and aerospace-grade foam not only indicates a dedication to quality but also suggests durability and protection for your golf clubs. The 11mm thick proprietary foam interior specifically designed for excellent club protection is a notable feature, emphasizing the brand's commitment to safeguarding golf equipment. The fact that the designs are printed and sewn in the USA adds a touch of local craftsmanship and pride to the product. The vivid and bright prints, along with the soft-to-the-hand feel, contribute to the aesthetic appeal of the headcovers, allowing golfers to personalize their bags in a visually pleasing way. BeeJos has taken a thoughtful approach to both the design and manufacturing processes, creating headcovers that are not only functional but also visually appealing. This attention to detail is likely to make their headcovers stand out on the golf course and appeal to golfers looking for a high-quality and personalized accessory for their bags.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "package_dimensions": {
+                        "height": 3,
+                        "length": 10,
+                        "width": 4,
+                        "weight": 0,
+                        "dimension_unit": "in"
+                    },
+                    "fee": {
+                        "currency_code": "USD",
+                        "total": 3.74,
+                        "details": [
+                            {
+                                "type": "ReferralFee",
+                                "amount": 3.74,
+                                "final_amount": 3.74,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "VariableClosingFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "PerItemFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            }
+                        ]
+                    }
+                },
+                "custom_fields": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Premium Protection: Crafted with aerospace-grade foam for ultimate durability and superior defense against wear and tear.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "USA Craftsmanship: Showcasing local pride with headcovers designed, printed, and sewn in the USA, ensuring quality craftsmanship.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Protective Club Armor: 11mm thick proprietary foam interior provides excellent protection, ensuring your clubs stay in top condition round after round.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Personalize and Customize your golf bag with vibrant designs and unique styling options to make a statement on the course.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "High-Performance Gear: Elevate your golf game with these high-performance headcovers, combining functionality with a touch of personalized style.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "included_components": "1 Headcover",
+                    "model_name": "Fore Right it’s Natural Slice Light Beer-Blue Tie Dye",
+                    "item_dimensions": [
+                        {
+                            "height": {
+                                "unit": "inches",
+                                "value": "10.00"
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": "4.00"
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": "3.00"
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "unspsc_code": "49211600",
+                    "closure": [
+                        {
+                            "type": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "Pull On"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "import_designation": "Made in the USA",
+                    "item_type_keyword": "golf-club-head-covers",
+                    "warranty_description": "30 Days",
+                    "style": "Fairway",
+                    "color": "Blue, White, Red,",
+                    "variation_theme": [
+                        {
+                            "name": "STYLE"
+                        }
+                    ],
+                    "pattern": "tie-dye",
+                    "item_package_weight": 2,
+                    "department": "Unisex-Adult",
+                    "supplier_declared_dg_hz_regulation": "not_applicable",
+                    "list_price": 31.18,
+                    "batteries_required": false,
+                    "product_site_launch_date": "2022-03-14T22:37:43.489Z",
+                    "material": "Polyester",
+                    "unit_count": 1,
+                    "batteries_included": false,
+                    "supplier_declared_material_regulation": "not_applicable",
+                    "contains_liquid_contents": "false",
+                    "fulfillment_availability": "",
+                    "number_of_boxes": "1",
+                    "item_weight": 3,
+                    "is_expiration_dated_product": "false",
+                    "generic_keyword": "Golf club headcover Stretch-fit durable USA-crafted Vibrant prints personalize with Bag Driver fairway Customization Sports Gift Hybrid Tournament Prize gift Enhance Golf Gear with Performance Soft Feel",
+                    "cpsia_cautionary_statement": "no_warning_applicable",
+                    "country_of_origin": "US",
+                    "merchant_shipping_group": "1d2d84a4-c28c-4562-bac3-bf4248d63e50",
+                    "condition_type": "new_new",
+                    "merchant_suggested_asin": "B09VF9ZQGH",
+                    "other_product_image_locator_7": [
+                        {
+                            "media_location": "https://picsum.photos/seed/390aee20/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_6": [
+                        {
+                            "media_location": "https://picsum.photos/seed/adc14ca4/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_5": [
+                        {
+                            "media_location": "https://picsum.photos/seed/27ea414/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_4": [
+                        {
+                            "media_location": "https://picsum.photos/seed/6bb277bf/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_3": [
+                        {
+                            "media_location": "https://picsum.photos/seed/44bd1dc0/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_2": [
+                        {
+                            "media_location": "https://picsum.photos/seed/aa20710d/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_1": [
+                        {
+                            "media_location": "https://picsum.photos/seed/ca5bf0f3/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/6109b385/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "purchasable_offer": [
+                        {
+                            "currency": "USD",
+                            "start_at": {
+                                "value": "2022-03-14T22:37:43.489Z"
+                            },
+                            "end_at": {
+                                "value": null
+                            },
+                            "audience": "ALL",
+                            "discounted_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "end_at": "2024-06-24T07:00:00.000Z",
+                                            "start_at": "2024-06-07T07:00:00.000Z",
+                                            "value_with_tax": 24.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "our_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "value_with_tax": 24.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "parentage_level": "child",
+                    "child_parent_sku_relationship": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "child_relationship_type": "variation",
+                            "parent_sku": "X1-2777-JGYG"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "0Q-0H5K-JPPG",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "0Q-0H5K-JPPG",
+                "name": "BeeJos Southwest Print Golf Towel 18\"x18\" Microfiber Pickleball Towel with Carabiner Clip - Handmade in USA (Saguaro Cacti)",
+                "description": "Introducing the BeeJos Southwest print golf towel, the perfect blend of functionality and style for both golf and pickleball enthusiasts. This beautifully printed golf towel features a vibrant Southwest design that adds a pop of personality to your sports gear. Whether you're hitting the greens or heading to the pickleball court, this multi-purpose BeeJos sports towel is built to meet your athletic needs. Made with high-quality microfiber material, this towel is lightweight, durable, and equipped with a convenient carabiner clip, making it easy to attach to your bag or gear.\n\nNot only does the BeeJos golf towel boast a stunning Southwest-inspired pattern, but it also stands out for its colorful and artistic prints, offering a unique design for players who value aesthetics. If you're looking for stylish golf towels with vibrant colors and a touch of elegance, this one is for you. The dual-sided prints showcase beautiful designs on both sides, making it a statement piece on the course or court. Whether you use it as a golf or pickleball towel, its eye-catching design is sure to turn heads and enhance your sports experience.\n\nThis athletic towel for golf and pickleball isn't just about looks—it's also incredibly practical. Its compact size makes it easy to fit in your golf bag or carry around during pickleball matches, while the microfiber material ensures that it's quick-drying and absorbent, perfect for wiping down your hands, clubs, or paddles. Eco-friendly and washable, this towel is designed with sustainability in mind, making it a smart choice for athletes who care about the environment. The carabiner clip provides added convenience, ensuring that your towel is always within reach.\n\nThe BeeJos golf towel also makes a fantastic gift for the athletes in your life. Whether you're looking for a unique sports towel gift for pickleball players or a Southwest-themed golf gift towel, this microfiber golf towel is a thoughtful and practical present. Its beautiful design and personalized touch make it a standout gift for any occasion, from birthdays to holidays. Combining both style and functionality, this towel is the ultimate accessory for any golfer or pickleball player looking to elevate their game.",
+                "short_description": null,
+                "price": 19.95,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 100,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "BeeJos",
+                "categories_ids": [
+                    "3411081"
+                ],
+                "stores_ids": [],
+                "url": "https://store-360c53fe.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.025,
+                "weight_unit": "lb",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": "True",
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2023-11-08T13:57:46+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 19.95,
+                    "avail": true,
+                    "created_at": {
+                        "value": "2024-08-02T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "modified_at": null,
+                    "expired_at": {
+                        "value": "2024-10-04T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    }
+                },
+                "tier_price": [],
+                "group_price": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 4,
+                "height": 0.5,
+                "length": 10,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "enabled",
+                    "landed_price": null,
+                    "asin1": "B09N4VGR43",
+                    "asin2": "",
+                    "asin3": "",
+                    "fulfillment_channel": "DEFAULT",
+                    "merchant_shipping_group": "Beejos Exp Template",
+                    "product_id": "B09N4VGR43",
+                    "listing_id": "1108ACP0B54",
+                    "condition_type": "new_new",
+                    "product_type": "TOWEL",
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Introducing the BeeJos Southwest print golf towel, the perfect blend of functionality and style for both golf and pickleball enthusiasts. This beautifully printed golf towel features a vibrant Southwest design that adds a pop of personality to your sports gear. Whether you're hitting the greens or heading to the pickleball court, this multi-purpose BeeJos sports towel is built to meet your athletic needs. Made with high-quality microfiber material, this towel is lightweight, durable, and equipped with a convenient carabiner clip, making it easy to attach to your bag or gear.\n\nNot only does the BeeJos golf towel boast a stunning Southwest-inspired pattern, but it also stands out for its colorful and artistic prints, offering a unique design for players who value aesthetics. If you're looking for stylish golf towels with vibrant colors and a touch of elegance, this one is for you. The dual-sided prints showcase beautiful designs on both sides, making it a statement piece on the course or court. Whether you use it as a golf or pickleball towel, its eye-catching design is sure to turn heads and enhance your sports experience.\n\nThis athletic towel for golf and pickleball isn't just about looks—it's also incredibly practical. Its compact size makes it easy to fit in your golf bag or carry around during pickleball matches, while the microfiber material ensures that it's quick-drying and absorbent, perfect for wiping down your hands, clubs, or paddles. Eco-friendly and washable, this towel is designed with sustainability in mind, making it a smart choice for athletes who care about the environment. The carabiner clip provides added convenience, ensuring that your towel is always within reach.\n\nThe BeeJos golf towel also makes a fantastic gift for the athletes in your life. Whether you're looking for a unique sports towel gift for pickleball players or a Southwest-themed golf gift towel, this microfiber golf towel is a thoughtful and practical present. Its beautiful design and personalized touch make it a standout gift for any occasion, from birthdays to holidays. Combining both style and functionality, this towel is the ultimate accessory for any golfer or pickleball player looking to elevate their game.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "package_dimensions": {
+                        "height": 10,
+                        "length": 4,
+                        "width": 0.5,
+                        "weight": 0,
+                        "dimension_unit": "in"
+                    },
+                    "fee": {
+                        "currency_code": "USD",
+                        "total": 2.99,
+                        "details": [
+                            {
+                                "type": "ReferralFee",
+                                "amount": 2.99,
+                                "final_amount": 2.99,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "VariableClosingFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "PerItemFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            }
+                        ]
+                    }
+                },
+                "custom_fields": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Versatile Use for Golf and Pickleball: The BeeJos Southwest print towel is perfect for both golf and pickleball enthusiasts, combining functionality with style for any sport. Equipped with a carabiner clip, it's easy to attach to your gear, ensuring convenience on the go.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Stunning Southwest Design: This beautifully printed golf towel features a vibrant Southwest-inspired pattern, making it a stylish and unique addition to your sports accessories. The dual-sided prints enhance the aesthetic appeal, perfect for players who value both function and design.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Compact and Lightweight: Designed for portability, this microfiber golf towel is compact enough to fit in your golf bag or carry easily to the pickleball court. Despite its lightweight feel, it’s made from durable microfiber material that ensures long-lasting use.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Quick-Drying and Eco-Friendly: The BeeJos towel is crafted from high-quality microfiber, offering quick-dry properties and excellent absorbency. It's also eco-friendly and washable, making it a sustainable choice for athletes who care about the environment.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Perfect Gift for Athletes: Whether you're shopping for a golf or pickleball player, this Southwest-themed towel makes a thoughtful and practical gift. Its unique design and high functionality make it the ideal gift for birthdays, holidays, or just because!",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "skip_offer": false,
+                    "item_dimensions": [
+                        {
+                            "width": {
+                                "unit": "inches",
+                                "value": 4
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": 9.5
+                            },
+                            "height": {
+                                "unit": "inches",
+                                "value": 0.2
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "unspsc_code": "52121700",
+                    "fabric_type": "Polyester nylon",
+                    "item_type_keyword": "golf-towels",
+                    "number_of_items": 1,
+                    "size": "Small",
+                    "style": "Southwest print",
+                    "item_display_dimensions": [
+                        {
+                            "width": {
+                                "unit": "inches",
+                                "value": 1
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": 4
+                            },
+                            "height": {
+                                "unit": "inches",
+                                "value": 10
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "color": "Saguaro Cacti",
+                    "variation_theme": [
+                        {
+                            "name": "COLOR"
+                        }
+                    ],
+                    "pattern": "Southwest",
+                    "item_package_weight": ".4",
+                    "item_length_width": [
+                        {
+                            "length": {
+                                "unit": "inches",
+                                "value": 9.5
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": 4
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_shape": "Rectangular",
+                    "supplier_declared_dg_hz_regulation": "not_applicable",
+                    "special_feature": "Carabiner Clip",
+                    "list_price": 24.95,
+                    "batteries_required": false,
+                    "product_site_launch_date": "2023-11-02T05:15:24.065Z",
+                    "material": "Microfiber",
+                    "care_instructions": "Machine Wash",
+                    "batteries_included": false,
+                    "fulfillment_availability": "",
+                    "required_product_compliance_certificate": "Not Applicable",
+                    "age_range_description": "Adult, Kid",
+                    "generic_keyword": "Southwest print golf towel BeeJos golf towel vibrant print stylish towels unique golf colorful microfiber towel Microfiber golf towel clip pickleball towel towel pickleball best golf towels unique Quick-drying microfiber sports lightweight pickleball players compact towel golf bag washable microfiber towel Eco-friendly towel durable microfiber athletic absorbent towel golf soft sports towel Golf towel gift athletes unique sports gift personalized golf towel gift gift for pickleball players",
+                    "merchant_shipping_group": "1d2d84a4-c28c-4562-bac3-bf4248d63e50",
+                    "merchant_suggested_asin": "B09N4VGR43",
+                    "condition_type": "new_new",
+                    "unit_count": 1,
+                    "other_product_image_locator_2": [
+                        {
+                            "media_location": "https://picsum.photos/seed/20f138b7/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_1": [
+                        {
+                            "media_location": "https://picsum.photos/seed/cc6888b6/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/dfda9767/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "swatch_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/dfda9767/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "purchasable_offer": [
+                        {
+                            "currency": "USD",
+                            "start_at": {
+                                "value": "2023-11-02T05:15:24.065Z"
+                            },
+                            "end_at": {
+                                "value": null
+                            },
+                            "audience": "ALL",
+                            "discounted_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "start_at": "2024-08-02T07:00:00.000Z",
+                                            "end_at": "2024-10-04T07:00:00.000Z",
+                                            "value_with_tax": 19.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "our_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "value_with_tax": 19.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "parentage_level": "child",
+                    "child_parent_sku_relationship": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "child_relationship_type": "variation",
+                            "parent_sku": "E3-L8YM-Q8NR"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

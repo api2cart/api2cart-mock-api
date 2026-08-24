@@ -1,0 +1,354 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "categories_count": 69,
+        "category": [
+            {
+                "id": "16386761",
+                "name": "Movies",
+                "description": "Movies"
+            },
+            {
+                "id": "16263051",
+                "name": "Classics",
+                "description": "Classic Action & Adventure Movies"
+            },
+            {
+                "id": "16263261",
+                "name": "Comic Action",
+                "description": "Comic Action & Adventure Movies"
+            },
+            {
+                "id": "16263471",
+                "name": "Crime",
+                "description": "Crime Action & Adventure Movies"
+            },
+            {
+                "id": "44067011",
+                "name": "Martial Arts",
+                "description": "Martial Arts Movies"
+            },
+            {
+                "id": "44070011",
+                "name": "Superheroes",
+                "description": "Superhero Movies"
+            },
+            {
+                "id": "16263941",
+                "name": "African American Comedy",
+                "description": "African American Comedy Movies"
+            },
+            {
+                "id": "16263731",
+                "name": "Animation",
+                "description": "Animated Comedy Movies"
+            },
+            {
+                "id": "16263521",
+                "name": "Black Comedy",
+                "description": "Black Comedy Movies"
+            },
+            {
+                "id": "16263311",
+                "name": "British",
+                "description": "British Comedy Movies"
+            },
+            {
+                "id": "16263101",
+                "name": "Campy",
+                "description": "Camp Comedy Movies"
+            },
+            {
+                "id": "44098011",
+                "name": "Classic Comedies",
+                "description": "Classic Comedy Movies"
+            },
+            {
+                "id": "44100011",
+                "name": "Domestic Comedies",
+                "description": "Domestic Comedy Movies"
+            },
+            {
+                "id": "44110011",
+                "name": "Sports",
+                "description": "Sports Comedy Movies"
+            },
+            {
+                "id": "44112011",
+                "name": "Teen",
+                "description": "Teen Comedy Movies"
+            },
+            {
+                "id": "16262921",
+                "name": "Documentary",
+                "description": "Documentary Movies"
+            },
+            {
+                "id": "16263541",
+                "name": "Biography",
+                "description": "Biographical Documentary Movies"
+            },
+            {
+                "id": "44120011",
+                "name": "Politics",
+                "description": "Political Documentary Movies"
+            },
+            {
+                "id": "16262951",
+                "name": "Gay & Lesbian",
+                "description": "Gay & Lesbian Movies"
+            },
+            {
+                "id": "16262961",
+                "name": "Horror",
+                "description": "Horror Movies"
+            },
+            {
+                "id": "51932011",
+                "name": "International",
+                "description": "International Movies"
+            },
+            {
+                "id": "16262971",
+                "name": "Kids & Family",
+                "description": "Kids & Family Movies"
+            },
+            {
+                "id": "16263381",
+                "name": "Adventure",
+                "description": "Kids & Family Adventure Movies"
+            },
+            {
+                "id": "16263801",
+                "name": "Animation",
+                "description": "Kids & Family Animated Movies"
+            },
+            {
+                "id": "44155011",
+                "name": "Military & War",
+                "description": "Military & War Movies"
+            },
+            {
+                "id": "44156011",
+                "name": "Action & Combat",
+                "description": "Military Action & Combat Movies"
+            },
+            {
+                "id": "16263001",
+                "name": "Mystery & Thrillers",
+                "description": "Mystery & Suspense Movies"
+            },
+            {
+                "id": "16263201",
+                "name": "Classics",
+                "description": "Classic Mystery & Suspense Movies"
+            },
+            {
+                "id": "16263411",
+                "name": "Crime",
+                "description": "Mystery & Suspense Crime Movies"
+            },
+            {
+                "id": "16263621",
+                "name": "Detectives",
+                "description": "Mystery & Suspense Detective Movies"
+            },
+            {
+                "id": "16264041",
+                "name": "Mystery",
+                "description": "Mystery Movies"
+            },
+            {
+                "id": "44168011",
+                "name": "Thrillers",
+                "description": "Suspense Movies"
+            },
+            {
+                "id": "16263031",
+                "name": "Sports",
+                "description": "Sports Movies"
+            },
+            {
+                "id": "51539011",
+                "name": "Biography",
+                "description": "Sports Biography Movies"
+            },
+            {
+                "id": "51540011",
+                "name": "Comedy",
+                "description": "Sports Comedy Movies"
+            },
+            {
+                "id": "51542011",
+                "name": "Documentary",
+                "description": "Sports Documentary Movies"
+            },
+            {
+                "id": "51541011",
+                "name": "Drama",
+                "description": "Sports Drama Movies"
+            },
+            {
+                "id": "51543011",
+                "name": "History",
+                "description": "Sports History Movies"
+            },
+            {
+                "id": "16263041",
+                "name": "Westerns",
+                "description": "Western Movies"
+            },
+            {
+                "id": "9408832011",
+                "name": "Movies & TV",
+                "description": "Movie & TV Magazines"
+            },
+            {
+                "id": "9408765011",
+                "name": "Movies & TV",
+                "description": "Movies & TV"
+            },
+            {
+                "id": "4484",
+                "name": "Movies",
+                "description": "Movies"
+            },
+            {
+                "id": "194809011",
+                "name": "Documentaries",
+                "description": "Documentary Movies"
+            },
+            {
+                "id": "4493",
+                "name": "General",
+                "description": "General Movies"
+            },
+            {
+                "id": "16926956011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Movies"
+            },
+            {
+                "id": "16926957011",
+                "name": "Animated",
+                "description": "Animated Movies"
+            },
+            {
+                "id": "16926958011",
+                "name": "Comedy",
+                "description": "Comedy Movies"
+            },
+            {
+                "id": "16926959011",
+                "name": "Crime",
+                "description": "Crime Movies"
+            },
+            {
+                "id": "16926960011",
+                "name": "Historical",
+                "description": "Historical Movies"
+            },
+            {
+                "id": "16926961011",
+                "name": "Horror",
+                "description": "Horror Movies"
+            },
+            {
+                "id": "16926962011",
+                "name": "Science Fiction & Fantasy",
+                "description": "Science Fiction & Fantasy Movies"
+            },
+            {
+                "id": "16926963011",
+                "name": "Westerns",
+                "description": "Western Genre Movies"
+            },
+            {
+                "id": "10394942011",
+                "name": "Movies & Music",
+                "description": "Entertainment Collectible Movies & Music"
+            },
+            {
+                "id": "156287011",
+                "name": "Movies & Video",
+                "description": "Movies"
+            },
+            {
+                "id": "16232491011",
+                "name": "Genres",
+                "description": "Movies & Video Genres"
+            },
+            {
+                "id": "16232493011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Movies & Video"
+            },
+            {
+                "id": "16232494011",
+                "name": "Animated",
+                "description": "Animated Movies & Video"
+            },
+            {
+                "id": "16232495011",
+                "name": "Comedy",
+                "description": "Comedy Movies & Video"
+            },
+            {
+                "id": "16232496011",
+                "name": "Crime",
+                "description": "Crime Movies & Video"
+            },
+            {
+                "id": "16232497011",
+                "name": "Documentary",
+                "description": "Documentary Movies & Video"
+            },
+            {
+                "id": "16232492011",
+                "name": "General",
+                "description": "Movies & Video Genres General"
+            },
+            {
+                "id": "16232498011",
+                "name": "Historical",
+                "description": "Historical Movies & Video"
+            },
+            {
+                "id": "16232499011",
+                "name": "Horror",
+                "description": "Horror Movies & Video"
+            },
+            {
+                "id": "16232500011",
+                "name": "Science Fiction & Fantasy",
+                "description": "Science Fiction & Fantasy Movies & Video"
+            },
+            {
+                "id": "16232501011",
+                "name": "Westerns",
+                "description": "Westerns Movies & Video"
+            },
+            {
+                "id": "206810176011",
+                "name": "Musicals",
+                "description": "Musical Movies & Video eBooks"
+            },
+            {
+                "id": "206810177011",
+                "name": "Superheroes",
+                "description": "Superhero Movies & Video eBooks"
+            },
+            {
+                "id": "2625374011",
+                "name": "Movies & TV",
+                "description": "Movies & TV"
+            },
+            {
+                "id": "2649512011",
+                "name": "Movies",
+                "description": "Movies & Films"
+            }
+        ]
+    }
+}

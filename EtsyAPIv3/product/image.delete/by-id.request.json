@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-04T17:49:31Z",
+    "method": "DELETE",
+    "endpoint": "product.image.delete.json",
+    "query": {
+        "product_id": 40,
+        "id": 5
+    }
+}

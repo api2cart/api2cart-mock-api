@@ -1,0 +1,2052 @@
+{
+    "integration": "EtsyAPIv3",
+    "generated_at": "2026-08-21T05:50:41Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: store information"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-all__exclude-name-stores-info",
+                    "request": "cart/info/rf-all__exclude-name-stores-info.request.json",
+                    "response": "cart/info/rf-all__exclude-name-stores-info.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-name",
+                    "request": "cart/info/rf-name.request.json",
+                    "response": "cart/info/rf-name.response.json",
+                    "covers": {
+                        "description": "field selection: name"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-stores-info",
+                    "request": "cart/info/rf-stores-info.request.json",
+                    "response": "cart/info/rf-stores-info.response.json",
+                    "covers": {
+                        "description": "field selection: stores_info"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-test",
+                    "request": "cart/info/rf-test.request.json",
+                    "response": "cart/info/rf-test.response.json",
+                    "covers": {
+                        "description": "field selection: test"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                },
+                {
+                    "slug": "rf-url",
+                    "request": "cart/info/rf-url.request.json",
+                    "response": "cart/info/rf-url.response.json",
+                    "covers": {
+                        "description": "field selection: url"
+                    },
+                    "captured_at": "2026-07-23T11:23:37Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.count",
+            "path": "category/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/count/basic.request.json",
+                    "response": "category/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-name",
+                    "request": "category/count/find-name.request.json",
+                    "response": "category/count/find-name.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Accessories]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-name-2",
+                    "request": "category/count/find-name-2.request.json",
+                    "response": "category/count/find-name-2.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Belts & Suspenders]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-name-3",
+                    "request": "category/count/find-name-3.request.json",
+                    "response": "category/count/find-name-3.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Belt Buckles]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-men",
+                    "request": "category/count/find-where-name__find-value-men.request.json",
+                    "response": "category/count/find-where-name__find-value-men.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=men]"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "parent-id-0",
+                    "request": "category/count/parent-id-0.request.json",
+                    "response": "category/count/parent-id-0.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=0]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "parent-id-1",
+                    "request": "category/count/parent-id-1.request.json",
+                    "response": "category/count/parent-id-1.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=1]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "parent-id-2",
+                    "request": "category/count/parent-id-2.request.json",
+                    "response": "category/count/parent-id-2.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=2]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no category with this id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-1",
+                    "request": "category/info/id-1.request.json",
+                    "response": "category/info/id-1.response.json",
+                    "covers": {
+                        "description": "info by id [id=1]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "id-2",
+                    "request": "category/info/id-2.request.json",
+                    "response": "category/info/id-2.response.json",
+                    "covers": {
+                        "description": "info by id [id=2]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "id-3",
+                    "request": "category/info/id-3.request.json",
+                    "response": "category/info/id-3.response.json",
+                    "covers": {
+                        "description": "info by id [id=3]"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "id-4",
+                    "request": "category/info/id-4.request.json",
+                    "response": "category/info/id-4.response.json",
+                    "covers": {
+                        "description": "full response fields [id=4]"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "id-5",
+                    "request": "category/info/id-5.request.json",
+                    "response": "category/info/id-5.response.json",
+                    "covers": {
+                        "description": "full response fields [id=5]"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/list/basic.request.json",
+                    "response": "category/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page. This is the one category.list case that keeps the full additional_fields.category_properties block (~50KB per category) -- every other category.list case below excludes it via an explicit response_fields list to stay readable"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "find-name",
+                    "request": "category/list/find-name.request.json",
+                    "response": "category/list/find-name.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Accessories] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-name-2",
+                    "request": "category/list/find-name-2.request.json",
+                    "response": "category/list/find-name-2.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Belts & Suspenders] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "find-name-3",
+                    "request": "category/list/find-name-3.request.json",
+                    "response": "category/list/find-name-3.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Belt Buckles] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "category/list/page-2.request.json",
+                    "response": "category/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "category/list/page-3.request.json",
+                    "response": "category/list/page-3.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page"
+                    },
+                    "captured_at": "2026-08-04T13:12:52Z"
+                },
+                {
+                    "slug": "parent-id-0",
+                    "request": "category/list/parent-id-0.request.json",
+                    "response": "category/list/parent-id-0.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=0] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "parent-id-1",
+                    "request": "category/list/parent-id-1.request.json",
+                    "response": "category/list/parent-id-1.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=1] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "parent-id-2",
+                    "request": "category/list/parent-id-2.request.json",
+                    "response": "category/list/parent-id-2.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=2] (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "category/list/start-10.request.json",
+                    "response": "category/list/start-10.response.json",
+                    "covers": {
+                        "description": "pagination: offset start 10 (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:31:13Z"
+                },
+                {
+                    "slug": "start-2",
+                    "request": "category/list/start-2.request.json",
+                    "response": "category/list/start-2.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset (response_fields lists fields explicitly, excluding additional_fields.category_properties -- see category/list/basic for the full shape)"
+                    },
+                    "captured_at": "2026-08-06T13:29:18Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.count",
+            "path": "order/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/count/basic.request.json",
+                    "response": "order/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "created-from-2010-07-29-13-45-52",
+                    "request": "order/count/created-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/count/created-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-to-2100-08-29-13-45-52",
+                    "request": "order/count/created-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/count/created-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_to (upper bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "financial-status-paid",
+                    "request": "order/count/financial-status-paid.request.json",
+                    "response": "order/count/financial-status-paid.response.json",
+                    "covers": {
+                        "description": "filtered total count"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-from-2010-07-29-13-45-52",
+                    "request": "order/count/modified-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/count/modified-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-to-2100-08-29-13-45-52",
+                    "request": "order/count/modified-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/count/modified-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_to (upper bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/info/error-no-params.request.json",
+                    "response": "order/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/info/error-not-found.request.json",
+                    "response": "order/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no order with this order_id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "order-id-2858445267",
+                    "request": "order/info/order-id-2858445267.request.json",
+                    "response": "order/info/order-id-2858445267.response.json",
+                    "covers": {
+                        "description": "info by order_id [order_id=2858445267]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4110804944",
+                    "request": "order/info/order-id-4110804944.request.json",
+                    "response": "order/info/order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by order_id [order_id=4110804944]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4127699155",
+                    "request": "order/info/order-id-4127699155.request.json",
+                    "response": "order/info/order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "full response fields [order_id=4127699155]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130358936",
+                    "request": "order/info/order-id-4130358936.request.json",
+                    "response": "order/info/order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "full response fields [order_id=4130358936]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130541658",
+                    "request": "order/info/order-id-4130541658.request.json",
+                    "response": "order/info/order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "full response fields [order_id=4130541658]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130825825",
+                    "request": "order/info/order-id-4130825825.request.json",
+                    "response": "order/info/order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "full response fields [order_id=4130825825]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4132060218",
+                    "request": "order/info/order-id-4132060218.request.json",
+                    "response": "order/info/order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "full response fields [order_id=4132060218]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "created-from-2010-07-29-13-45-52",
+                    "request": "order/list/created-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/list/created-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-modified-range",
+                    "request": "order/list/created-modified-range.request.json",
+                    "response": "order/list/created-modified-range.response.json",
+                    "covers": {
+                        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, modified_from=2010-07-29 13:45:52]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-range",
+                    "request": "order/list/created-range.request.json",
+                    "response": "order/list/created-range.response.json",
+                    "covers": {
+                        "description": "filter: date range (created/modified from-to) [created_from=2010-07-29 13:45:52, created_to=2100-08-29 13:45:52, no modified_from]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "created-to-2100-08-29-13-45-52",
+                    "request": "order/list/created-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/list/created-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: created_to (upper bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/list/error-invalid-param.request.json",
+                    "response": "order/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "financial-fulfillment-paid-not-shipped",
+                    "request": "order/list/financial-fulfillment-paid-not-shipped.request.json",
+                    "response": "order/list/financial-fulfillment-paid-not-shipped.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [financial_status=paid, fulfillment_status=not_shipped]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "financial-status-not-paid",
+                    "request": "order/list/financial-status-not-paid.request.json",
+                    "response": "order/list/financial-status-not-paid.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [financial_status=not_paid, no fulfillment_status]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "financial-status-paid",
+                    "request": "order/list/financial-status-paid.request.json",
+                    "response": "order/list/financial-status-paid.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [financial_status=paid, no fulfillment_status]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-delivered",
+                    "request": "order/list/fulfillment-status-delivered.request.json",
+                    "response": "order/list/fulfillment-status-delivered.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no financial_status, fulfillment_status=delivered]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-not-shipped",
+                    "request": "order/list/fulfillment-status-not-shipped.request.json",
+                    "response": "order/list/fulfillment-status-not-shipped.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no financial_status, fulfillment_status=not_shipped]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "fulfillment-status-shipped-and-not-delivered",
+                    "request": "order/list/fulfillment-status-shipped-and-not-delivered.request.json",
+                    "response": "order/list/fulfillment-status-shipped-and-not-delivered.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no financial_status, fulfillment_status=shipped_and_not_deliv...]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-from-2010-07-29-13-45-52",
+                    "request": "order/list/modified-from-2010-07-29-13-45-52.request.json",
+                    "response": "order/list/modified-from-2010-07-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "order/list/modified-range.request.json",
+                    "response": "order/list/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: date range (created/modified from-to) [no created_from, no created_to, modified_from=2010-07-29 13:45:52]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "modified-to-2100-08-29-13-45-52",
+                    "request": "order/list/modified-to-2100-08-29-13-45-52.request.json",
+                    "response": "order/list/modified-to-2100-08-29-13-45-52.response.json",
+                    "covers": {
+                        "description": "filter: modified_to (upper bound)"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-status-open",
+                    "request": "order/list/order-status-open.request.json",
+                    "response": "order/list/order-status-open.response.json",
+                    "covers": {
+                        "description": "filter: order_status=open [no financial_status]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "order/list/page-2.request.json",
+                    "response": "order/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "order/list/page-3.request.json",
+                    "response": "order/list/page-3.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "order/list/start-10.request.json",
+                    "response": "order/list/start-10.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no financial_status, no fulfillment_status]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "status-financial-open-paid",
+                    "request": "order/list/status-financial-open-paid.request.json",
+                    "response": "order/list/status-financial-open-paid.response.json",
+                    "covers": {
+                        "description": "filter: order_status=open [financial_status=paid]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.add",
+            "path": "order/shipment.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.add/basic.request.json",
+                    "response": "order/shipment.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add order shipment with tracking number and shipped items"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.add/error-no-params.request.json",
+                    "response": "order/shipment.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.info",
+            "path": "order/shipment.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.info/error-no-params.request.json",
+                    "response": "order/shipment.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.info/error-not-found.request.json",
+                    "response": "order/shipment.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no order with this id/order_id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-1501657741180-order-id-4110804944",
+                    "request": "order/shipment.info/id-1501657741180-order-id-4110804944.request.json",
+                    "response": "order/shipment.info/id-1501657741180-order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by id+order_id [id=1501657741180]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-1502849844791-order-id-4110804944",
+                    "request": "order/shipment.info/id-1502849844791-order-id-4110804944.request.json",
+                    "response": "order/shipment.info/id-1502849844791-order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "info by id+order_id [id=1502849844791]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "id-1503531248668-order-id-4130358936",
+                    "request": "order/shipment.info/id-1503531248668-order-id-4130358936.request.json",
+                    "response": "order/shipment.info/id-1503531248668-order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "full response fields [id=1503531248668]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503532257636-order-id-4130541658",
+                    "request": "order/shipment.info/id-1503532257636-order-id-4130541658.request.json",
+                    "response": "order/shipment.info/id-1503532257636-order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "full response fields [id=1503532257636]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503892164614-order-id-4132060218",
+                    "request": "order/shipment.info/id-1503892164614-order-id-4132060218.request.json",
+                    "response": "order/shipment.info/id-1503892164614-order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "full response fields [id=1503892164614]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1503989778593-order-id-4127699155",
+                    "request": "order/shipment.info/id-1503989778593-order-id-4127699155.request.json",
+                    "response": "order/shipment.info/id-1503989778593-order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "full response fields [id=1503989778593]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "id-1504715324125-order-id-4130825825",
+                    "request": "order/shipment.info/id-1504715324125-order-id-4130825825.request.json",
+                    "response": "order/shipment.info/id-1504715324125-order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "full response fields [id=1504715324125]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "order-id-2858445267",
+                    "request": "order/shipment.list/order-id-2858445267.request.json",
+                    "response": "order/shipment.list/order-id-2858445267.response.json",
+                    "covers": {
+                        "description": "sub-list first page for order_id [order_id=2858445267]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4110804944",
+                    "request": "order/shipment.list/order-id-4110804944.request.json",
+                    "response": "order/shipment.list/order-id-4110804944.response.json",
+                    "covers": {
+                        "description": "sub-list first page for order_id [order_id=4110804944]"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "order-id-4127699155",
+                    "request": "order/shipment.list/order-id-4127699155.request.json",
+                    "response": "order/shipment.list/order-id-4127699155.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [order_id=4127699155]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130358936",
+                    "request": "order/shipment.list/order-id-4130358936.request.json",
+                    "response": "order/shipment.list/order-id-4130358936.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [order_id=4130358936]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130541658",
+                    "request": "order/shipment.list/order-id-4130541658.request.json",
+                    "response": "order/shipment.list/order-id-4130541658.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [order_id=4130541658]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4130825825",
+                    "request": "order/shipment.list/order-id-4130825825.request.json",
+                    "response": "order/shipment.list/order-id-4130825825.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [order_id=4130825825]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                },
+                {
+                    "slug": "order-id-4132060218",
+                    "request": "order/shipment.list/order-id-4132060218.request.json",
+                    "response": "order/shipment.list/order-id-4132060218.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [order_id=4132060218]"
+                    },
+                    "captured_at": "2026-08-04T13:13:26Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.update",
+            "path": "order/update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/update/error-no-params.request.json",
+                    "response": "order/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/update/error-not-found.request.json",
+                    "response": "order/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: order_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "set-status",
+                    "request": "order/update/set-status.request.json",
+                    "response": "order/update/set-status.response.json",
+                    "covers": {
+                        "description": "happy path: update order status"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: create product (name, model, description, price)"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-already-exists",
+                    "request": "product/add/error-already-exists.request.json",
+                    "response": "product/add/error-already-exists.response.json",
+                    "covers": {
+                        "description": "entity already exists (duplicate)"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-empty-description",
+                    "request": "product/add/error-empty-description.request.json",
+                    "response": "product/add/error-empty-description.response.json",
+                    "covers": {
+                        "description": "validation: empty description"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-empty-model",
+                    "request": "product/add/error-empty-model.request.json",
+                    "response": "product/add/error-empty-model.response.json",
+                    "covers": {
+                        "description": "validation: empty model"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-empty-name",
+                    "request": "product/add/error-empty-name.request.json",
+                    "response": "product/add/error-empty-name.response.json",
+                    "covers": {
+                        "description": "validation: empty name"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/add/error-invalid-price.request.json",
+                    "response": "product/add/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> required parameter missing"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-only-name",
+                    "request": "product/add/error-only-name.request.json",
+                    "response": "product/add/error-only-name.response.json",
+                    "covers": {
+                        "description": "validation: only name -> model required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-enabled-status",
+                    "request": "product/add/etsy-enabled-status.request.json",
+                    "response": "product/add/etsy-enabled-status.response.json",
+                    "covers": {
+                        "description": "status with localized shipping and image fields"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-listing-specifics",
+                    "request": "product/add/etsy-listing-specifics.request.json",
+                    "response": "product/add/etsy-listing-specifics.response.json",
+                    "covers": {
+                        "description": "listing flags, materials, specifics and personalization details"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-personalization-question",
+                    "request": "product/add/etsy-personalization-question.request.json",
+                    "response": "product/add/etsy-personalization-question.response.json",
+                    "covers": {
+                        "description": "personalization question payload"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-polish-category",
+                    "request": "product/add/etsy-polish-category.request.json",
+                    "response": "product/add/etsy-polish-category.response.json",
+                    "covers": {
+                        "description": "localized category and shipping profile"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-shipping-tags",
+                    "request": "product/add/etsy-shipping-tags.request.json",
+                    "response": "product/add/etsy-shipping-tags.response.json",
+                    "covers": {
+                        "description": "shipping, tags, image and processing profile"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "with-special-price",
+                    "request": "product/add/with-special-price.request.json",
+                    "response": "product/add/with-special-price.response.json",
+                    "covers": {
+                        "description": "create product with special_price"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.info",
+            "path": "product/child_item.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/child_item.info/error-no-params.request.json",
+                    "response": "product/child_item.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: product_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/child_item.info/error-not-found.request.json",
+                    "response": "product/child_item.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no product with this product_id/id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "product-id-1360559503__id-12877039520",
+                    "request": "product/child_item.info/product-id-1360559503__id-12877039520.request.json",
+                    "response": "product/child_item.info/product-id-1360559503__id-12877039520.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=1360559503, id=12877039520]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip",
+                    "request": "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.request.json",
+                    "response": "product/child_item.info/product-id-1360559503__id-12877039522__rf-id-parent-id-name-full-descrip.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=1360559503, id=12877039522]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-888814018__id-18444733522__rf-all",
+                    "request": "product/child_item.info/product-id-888814018__id-18444733522__rf-all.request.json",
+                    "response": "product/child_item.info/product-id-888814018__id-18444733522__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=888814018, id=18444733522]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.list",
+            "path": "product/child_item.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/child_item.list/error-invalid-param.request.json",
+                    "response": "product/child_item.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/child_item.list/page-2.request.json",
+                    "response": "product/child_item.list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: second page"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-1360559503__count-2",
+                    "request": "product/child_item.list/product-id-1360559503__count-2.request.json",
+                    "response": "product/child_item.list/product-id-1360559503__count-2.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=1360559503, count=2]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-708818923__rf-all__find-where-sku__find-value-qaautotest",
+                    "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.request.json",
+                    "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-qaautotest.response.json",
+                    "covers": {
+                        "description": "search: matching sku value [find_value=QAautotest] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889",
+                    "request": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.request.json",
+                    "response": "product/child_item.list/product-id-708818923__rf-all__find-where-sku__find-value-test-variant8889.response.json",
+                    "covers": {
+                        "description": "search: matching sku value [find_value=test_variant8889] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-888814018",
+                    "request": "product/child_item.list/product-id-888814018.request.json",
+                    "response": "product/child_item.list/product-id-888814018.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=888814018, no count]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-id-888814018__rf-all__start-2__count-1",
+                    "request": "product/child_item.list/product-id-888814018__rf-all__start-2__count-1.request.json",
+                    "response": "product/child_item.list/product-id-888814018__rf-all__start-2__count-1.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [product_id=888814018, count=1]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin",
+                    "request": "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.request.json",
+                    "response": "product/child_item.list/product-ids-888814018-1360559503__rf-all__exclude-upc-ean-mpn-gtin.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                },
+                {
+                    "slug": "product-ids-888814018__rf-all__currency-id-usd",
+                    "request": "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd.request.json",
+                    "response": "product/child_item.list/product-ids-888814018__rf-all__currency-id-usd.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [no product_id, no count]"
+                    },
+                    "captured_at": "2026-07-23T11:23:40Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "avail-view-false",
+                    "request": "product/count/avail-view-false.request.json",
+                    "response": "product/count/avail-view-false.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=false"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "avail-view-true",
+                    "request": "product/count/avail-view-true.request.json",
+                    "response": "product/count/avail-view-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=true"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total count"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-qatestvariantprod__rf-all",
+                    "request": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/count/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-test3",
+                    "request": "product/count/find-where-name__find-value-test3.request.json",
+                    "response": "product/count/find-where-name__find-value-test3.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Test3] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.delete",
+            "path": "product/delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/delete/by-id.request.json",
+                    "response": "product/delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: delete product by id"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/delete/error-no-params.request.json",
+                    "response": "product/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/delete/error-not-found.request.json",
+                    "response": "product/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-123450101",
+                    "request": "product/delete/id-123450101.request.json",
+                    "response": "product/delete/id-123450101.response.json",
+                    "covers": {
+                        "description": "delete first added product"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-123450102",
+                    "request": "product/delete/id-123450102.request.json",
+                    "response": "product/delete/id-123450102.response.json",
+                    "covers": {
+                        "description": "delete second added product"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-123450103",
+                    "request": "product/delete/id-123450103.request.json",
+                    "response": "product/delete/id-123450103.response.json",
+                    "covers": {
+                        "description": "delete third added product"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.find",
+            "path": "product/find",
+            "cases": [
+                {
+                    "slug": "error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112",
+                    "request": "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112.request.json",
+                    "response": "product/find/error-find-name-test-listing-met-variaties-allemaal-gelijke-voorra-rc112.response.json",
+                    "covers": {
+                        "description": "error: find by real name=Test listing met variaties (allemaal gelijke voorraad) (return_code=112)"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-no-find-value",
+                    "request": "product/find/error-no-find-value.request.json",
+                    "response": "product/find/error-no-find-value.response.json",
+                    "covers": {
+                        "description": "validation: find_value is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/find/error-not-found.request.json",
+                    "response": "product/find/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no entity matches the searched value"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt",
+                    "request": "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.request.json",
+                    "response": "product/find/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel",
+                    "request": "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.request.json",
+                    "response": "product/find/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Rainbow Smiley Beaded...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas",
+                    "request": "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.request.json",
+                    "response": "product/find/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Yellow grunge resin y...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.add",
+            "path": "product/image.add",
+            "cases": [
+                {
+                    "slug": "by-url",
+                    "request": "product/image.add/by-url.request.json",
+                    "response": "product/image.add/by-url.response.json",
+                    "covers": {
+                        "description": "happy path: add product image by url"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.add/error-no-params.request.json",
+                    "response": "product/image.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-only-product-id",
+                    "request": "product/image.add/error-only-product-id.request.json",
+                    "response": "product/image.add/error-only-product-id.response.json",
+                    "covers": {
+                        "description": "validation: only product_id -> image source required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-content-upload",
+                    "request": "product/image.add/etsy-content-upload.request.json",
+                    "response": "product/image.add/etsy-content-upload.response.json",
+                    "covers": {
+                        "description": "add image by content upload"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-footer-image-url",
+                    "request": "product/image.add/etsy-footer-image-url.request.json",
+                    "response": "product/image.add/etsy-footer-image-url.response.json",
+                    "covers": {
+                        "description": "add image by url with first position"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-watch-image-url",
+                    "request": "product/image.add/etsy-watch-image-url.request.json",
+                    "response": "product/image.add/etsy-watch-image-url.response.json",
+                    "covers": {
+                        "description": "add image by url with second position"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.delete",
+            "path": "product/image.delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/image.delete/by-id.request.json",
+                    "response": "product/image.delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: delete product image"
+                    },
+                    "captured_at": "2026-08-04T17:49:31Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.delete/error-no-params.request.json",
+                    "response": "product/image.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/image.delete/error-not-found.request.json",
+                    "response": "product/image.delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: image id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "product-id-123450101__id-223450201",
+                    "request": "product/image.delete/product-id-123450101__id-223450201.request.json",
+                    "response": "product/image.delete/product-id-123450101__id-223450201.response.json",
+                    "covers": {
+                        "description": "delete first added image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "product-id-123450102__id-223450202",
+                    "request": "product/image.delete/product-id-123450102__id-223450202.request.json",
+                    "response": "product/image.delete/product-id-123450102__id-223450202.response.json",
+                    "covers": {
+                        "description": "delete second added image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "product-id-123450102__id-223450203",
+                    "request": "product/image.delete/product-id-123450102__id-223450203.request.json",
+                    "response": "product/image.delete/product-id-123450102__id-223450203.response.json",
+                    "covers": {
+                        "description": "delete content-uploaded image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no product with this id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-1227563359",
+                    "request": "product/info/id-1227563359.request.json",
+                    "response": "product/info/id-1227563359.response.json",
+                    "covers": {
+                        "description": "info by id"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "avail-view-true",
+                    "request": "product/list/avail-view-true.request.json",
+                    "response": "product/list/avail-view-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=true (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: first page"
+                    },
+                    "captured_at": "2026-08-04T13:02:04Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all",
+                    "request": "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-enchanted-garden-fairy-arm-cuff-handmade-flower-butt__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Enchanted Garden Fair...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-qatestpro",
+                    "request": "product/list/find-where-name__find-value-qatestpro.request.json",
+                    "response": "product/list/find-where-name__find-value-qatestpro.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=QAtestpro] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-qatestvariantprod__rf-all",
+                    "request": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-qatestvariantprod__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=QAtestvariantprod] (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all",
+                    "request": "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-rainbow-smiley-beaded-necklace-y2k-indie-kandi-jewel__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Rainbow Smiley Beaded...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all",
+                    "request": "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.request.json",
+                    "response": "product/list/find-where-name__find-value-yellow-grunge-resin-y2k-phone-case-apple-phone-cas__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching name value [find_value=Yellow grunge resin y...]"
+                    },
+                    "captured_at": "2026-08-04T17:44:16Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/list/page-2.request.json",
+                    "response": "product/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page [page_cursor=BcHbDoIgAADQD/KhTXHJI...]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "page-2-full-fields",
+                    "request": "product/list/page-2-full-fields.request.json",
+                    "response": "product/list/page-2-full-fields.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page with full response fields"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "page-3",
+                    "request": "product/list/page-3.request.json",
+                    "response": "product/list/page-3.response.json",
+                    "covers": {
+                        "description": "pagination: cursor page [page_cursor=BcHRDoIgFADQT9IprPmso...]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "rf-all__avail-view-false",
+                    "request": "product/list/rf-all__avail-view-false.request.json",
+                    "response": "product/list/rf-all__avail-view-false.response.json",
+                    "covers": {
+                        "description": "filter: avail_view=false"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__exclude-price-url-create-at-",
+                    "request": "product/list/rf-all__exclude-price-url-create-at-.request.json",
+                    "response": "product/list/rf-all__exclude-price-url-create-at-.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__product-ids-888814018-qqq-136055",
+                    "request": "product/list/rf-all__product-ids-888814018-qqq-136055.request.json",
+                    "response": "product/list/rf-all__product-ids-888814018-qqq-136055.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s)"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-all__sku-test-sku-2",
+                    "request": "product/list/rf-all__sku-test-sku-2.request.json",
+                    "response": "product/list/rf-all__sku-test-sku-2.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "rf-product-id-u-model-price",
+                    "request": "product/list/rf-product-id-u-model-price.request.json",
+                    "response": "product/list/rf-product-id-u-model-price.response.json",
+                    "covers": {
+                        "description": "field selection: product.id,product.u_model,product.price"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "sku-bag-01",
+                    "request": "product/list/sku-bag-01.request.json",
+                    "response": "product/list/sku-bag-01.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [sku=bag_01, count=10]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-by-modified-at__sort-direction-asc",
+                    "request": "product/list/sort-by-modified-at__sort-direction-asc.request.json",
+                    "response": "product/list/sort-by-modified-at__sort-direction-asc.response.json",
+                    "covers": {
+                        "description": "sorting: modified_at [sort_direction=asc]"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "sort-by-modified-at__sort-direction-desc",
+                    "request": "product/list/sort-by-modified-at__sort-direction-desc.request.json",
+                    "response": "product/list/sort-by-modified-at__sort-direction-desc.response.json",
+                    "covers": {
+                        "description": "sorting: modified_at [sort_direction=desc]"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort-by-price",
+                    "request": "product/list/sort-by-price.request.json",
+                    "response": "product/list/sort-by-price.response.json",
+                    "covers": {
+                        "description": "filtered export"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort-by-price__sort-direction-desc",
+                    "request": "product/list/sort-by-price__sort-direction-desc.request.json",
+                    "response": "product/list/sort-by-price__sort-direction-desc.response.json",
+                    "covers": {
+                        "description": "sorting: price [sort_direction=desc]"
+                    },
+                    "captured_at": "2026-07-27T10:01:56Z"
+                },
+                {
+                    "slug": "sort-create-at-asc",
+                    "request": "product/list/sort-create-at-asc.request.json",
+                    "response": "product/list/sort-create-at-asc.response.json",
+                    "covers": {
+                        "description": "sorting: create_at [sort_direction=asc]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-create-at-desc",
+                    "request": "product/list/sort-create-at-desc.request.json",
+                    "response": "product/list/sort-create-at-desc.response.json",
+                    "covers": {
+                        "description": "sorting: create_at [sort_direction=desc]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "sort-price-asc",
+                    "request": "product/list/sort-price-asc.request.json",
+                    "response": "product/list/sort-price-asc.response.json",
+                    "covers": {
+                        "description": "sorting: price [sort_direction=asc]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                },
+                {
+                    "slug": "start-0__count-6",
+                    "request": "product/list/start-0__count-6.request.json",
+                    "response": "product/list/start-0__count-6.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no sku, count=6]"
+                    },
+                    "captured_at": "2026-07-23T11:23:41Z"
+                },
+                {
+                    "slug": "start-10",
+                    "request": "product/list/start-10.request.json",
+                    "response": "product/list/start-10.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [no sku, count=10]"
+                    },
+                    "captured_at": "2026-08-04T13:14:09Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "product/update/by-id.request.json",
+                    "response": "product/update/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: update product by id"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "error-empty-id",
+                    "request": "product/update/error-empty-id.request.json",
+                    "response": "product/update/error-empty-id.response.json",
+                    "covers": {
+                        "description": "validation: empty id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-price",
+                    "request": "product/update/error-invalid-price.request.json",
+                    "response": "product/update/error-invalid-price.response.json",
+                    "covers": {
+                        "description": "validation: non-numeric price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-disable-status",
+                    "request": "product/update/etsy-disable-status.request.json",
+                    "response": "product/update/etsy-disable-status.response.json",
+                    "covers": {
+                        "description": "disable product status"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-increase-price-dimensions",
+                    "request": "product/update/etsy-increase-price-dimensions.request.json",
+                    "response": "product/update/etsy-increase-price-dimensions.response.json",
+                    "covers": {
+                        "description": "increase quantity with price and dimensions"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-name-question-update",
+                    "request": "product/update/etsy-name-question-update.request.json",
+                    "response": "product/update/etsy-name-question-update.response.json",
+                    "covers": {
+                        "description": "update Name personalization question with force_all"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-personalization-details-off",
+                    "request": "product/update/etsy-personalization-details-off.request.json",
+                    "response": "product/update/etsy-personalization-details-off.response.json",
+                    "covers": {
+                        "description": "quantity, specifics and personalization details"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-personalization-question-update",
+                    "request": "product/update/etsy-personalization-question-update.request.json",
+                    "response": "product/update/etsy-personalization-question-update.response.json",
+                    "covers": {
+                        "description": "update personalization question with force_all"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-polish-localized-update",
+                    "request": "product/update/etsy-polish-localized-update.request.json",
+                    "response": "product/update/etsy-polish-localized-update.response.json",
+                    "covers": {
+                        "description": "localized sku, description and category update"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-reduce-materials-renewal",
+                    "request": "product/update/etsy-reduce-materials-renewal.request.json",
+                    "response": "product/update/etsy-reduce-materials-renewal.response.json",
+                    "covers": {
+                        "description": "reduce quantity, materials and personalization update"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-sku-category-description",
+                    "request": "product/update/etsy-sku-category-description.request.json",
+                    "response": "product/update/etsy-sku-category-description.response.json",
+                    "covers": {
+                        "description": "sku, categories, description and processing profile"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-virtual-downloadable-tags",
+                    "request": "product/update/etsy-virtual-downloadable-tags.request.json",
+                    "response": "product/update/etsy-virtual-downloadable-tags.response.json",
+                    "covers": {
+                        "description": "virtual, downloadable and tags update"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/update/update-price.request.json",
+                    "response": "product/update/update-price.response.json",
+                    "covers": {
+                        "description": "update product price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-quantity",
+                    "request": "product/update/update-quantity.request.json",
+                    "response": "product/update/update-quantity.response.json",
+                    "covers": {
+                        "description": "update product quantity"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.add",
+            "path": "product/variant.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/variant.add/basic.request.json",
+                    "response": "product/variant.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add product variant"
+                    },
+                    "captured_at": "2026-08-04T13:18:49Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.add/error-no-params.request.json",
+                    "response": "product/variant.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.add/error-not-found.request.json",
+                    "response": "product/variant.add/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-06T13:30:48Z"
+                },
+                {
+                    "slug": "etsy-gold-aquamarine",
+                    "request": "product/variant.add/etsy-gold-aquamarine.request.json",
+                    "response": "product/variant.add/etsy-gold-aquamarine.response.json",
+                    "covers": {
+                        "description": "add variant with Gem color and Gemstone combination"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "etsy-gold-biotite",
+                    "request": "product/variant.add/etsy-gold-biotite.request.json",
+                    "response": "product/variant.add/etsy-gold-biotite.response.json",
+                    "covers": {
+                        "description": "add variant with second gemstone combination"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.add.batch",
+            "path": "product/variant.add.batch",
+            "cases": [
+                {
+                    "slug": "batch-combination-availability",
+                    "request": "product/variant.add.batch/batch-combination-availability.request.json",
+                    "response": "product/variant.add.batch/batch-combination-availability.response.json",
+                    "covers": {
+                        "description": "multiple products, combinations, prices and availability"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "batch-custom-occasion",
+                    "request": "product/variant.add.batch/batch-custom-occasion.request.json",
+                    "response": "product/variant.add.batch/batch-custom-occasion.response.json",
+                    "covers": {
+                        "description": "custom attributes and one-option combination"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "batch-single-option",
+                    "request": "product/variant.add.batch/batch-single-option.request.json",
+                    "response": "product/variant.add.batch/batch-single-option.response.json",
+                    "covers": {
+                        "description": "single product and single option"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "batch-three-options",
+                    "request": "product/variant.add.batch/batch-three-options.request.json",
+                    "response": "product/variant.add.batch/batch-three-options.response.json",
+                    "covers": {
+                        "description": "three gemstone combinations"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.add.batch/error-no-params.request.json",
+                    "response": "product/variant.add.batch/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.update",
+            "path": "product/variant.update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.update/error-no-params.request.json",
+                    "response": "product/variant.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.update/error-not-found.request.json",
+                    "response": "product/variant.update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: variant id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "update-price",
+                    "request": "product/variant.update/update-price.request.json",
+                    "response": "product/variant.update/update-price.response.json",
+                    "covers": {
+                        "description": "happy path: update variant price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        }
+    ]
+}

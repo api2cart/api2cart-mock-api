@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "order.update.json",
+    "query": {
+        "order_id": "C000CTW7TL",
+        "order_status": "shipped"
+    }
+}

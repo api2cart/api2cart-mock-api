@@ -1,0 +1,41 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.update.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": "110588001",
+                "name": "TestUpdateBatch1",
+                "sku": "test_batch_update_product1",
+                "description": "TestUpdateBatch1 description",
+                "price": 59.66,
+                "quantity": 8,
+                "warehouse_id": "US_95125"
+            },
+            {
+                "id": "110588002",
+                "increase_quantity": 3,
+                "weight": 13.54,
+                "width": 46,
+                "height": 47,
+                "length": 48,
+                "condition": "NEW_OTHER",
+                "condition_description": "Not bad!"
+            },
+            {
+                "id": "110588003",
+                "reduce_quantity": 2,
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-update-3/800"
+                    }
+                ]
+            },
+            {
+                "id": "110588004",
+                "status": "disabled"
+            }
+        ]
+    }
+}

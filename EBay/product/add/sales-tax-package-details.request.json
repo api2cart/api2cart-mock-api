@@ -1,0 +1,49 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test variation1",
+        "description": "Product description",
+        "price": 400,
+        "quantity": 1,
+        "categories_ids": "36147",
+        "condition": "Brand New",
+        "listing_duration": "GTC",
+        "listing_type": "FixedPrice",
+        "payment_methods": [
+            "CashOnPickup",
+            "PayPal"
+        ],
+        "return_accepted": true,
+        "shipping_details": [
+            {
+                "shipping_type": "Flat",
+                "shipping_service": "US_FedExIntlEconomy",
+                "shipping_cost": 10
+            }
+        ],
+        "paypal_email": "user9123@example.com",
+        "package_details": {
+            "measure_unit": "English",
+            "weight_major": 5,
+            "weight_minor": 2
+        },
+        "sales_tax": {
+            "tax_percent": 20,
+            "tax_state": "AL"
+        },
+        "specifics": [
+            {
+                "name": "Brand",
+                "value": "Abidas"
+            },
+            {
+                "name": "Custom",
+                "value": "Value1"
+            }
+        ],
+        "image_url": "https://picsum.photos/seed/ebay-live-variation1/800",
+        "image_name": "test.jpg"
+    }
+}

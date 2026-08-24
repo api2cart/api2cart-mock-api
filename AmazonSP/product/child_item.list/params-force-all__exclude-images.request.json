@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "product_id": "SWYTE-2-SWEATER-MASTER",
+        "params": "force_all",
+        "exclude": "images",
+        "report_request_id": "ATVPDKIKX0DER171122020671"
+    }
+}

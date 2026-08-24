@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Test product",
+        "description": "Test product",
+        "price": 12.12,
+        "listing_duration": "GTC",
+        "categories_ids": "105417",
+        "condition": "test"
+    }
+}

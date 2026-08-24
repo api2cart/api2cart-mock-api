@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "1771879805774587524",
+        "name": "Unbranded Big Vibrant Party Balloon Set - Multicolor Confetti and Solid Colors",
+        "responsible_person_ids": "69b3ffec0eba7ac01d19b1a3"
+    }
+}

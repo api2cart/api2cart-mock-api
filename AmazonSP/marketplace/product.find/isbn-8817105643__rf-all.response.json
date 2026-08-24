@@ -1,0 +1,221 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "8817105643",
+                "type": "simple",
+                "u_asin": "8817105643",
+                "u_ean": "9788817105644",
+                "u_gtin": "09788817105644",
+                "u_isbn": "8817105643",
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "Sicurezza è libertà. Terrorismo e immigrazione: contro la fabbrica della paura",
+                "description": "«La differenza tra la sinistra e il nazionalpopulismo consiste proprio in la sinistra ascolta, mentre i populisti fanno finta di ascoltare, quando invece il loro unico obiettivo è di tenere incatenata la gente alle proprie paure.» Parte da questa convinzione la riflessione di Marco Minniti, ex ministro dell'Interno e da oltre vent'anni ai vertici degli apparati di sicurezza e di intelligence del nostro Paese. Anni fondamentali e difficilissimi, in cui si è trovato a gestire, in particolare nei sedici mesi al Viminale, eventi epocali di portata internazionale, come la forte ondata migratoria successiva alle primavere arabe, il consolidamento dello Stato islamico e la stagione dei feroci attacchi terroristici in territorio europeo, la crisi libica con le sue ancora attuali conseguenze. E poi, sul versante interno, l'emergenza sicurezza nelle grandi città, la lotta alla criminalità organizzata, il caso emblematico di Ostia e di altri comuni sciolti per infiltrazioni mafiose. Non è possibile garantire la sicurezza rinunciando alla libertà: barattare la seconda in cambio della prima significa innalzare pericolose barriere, dimenticando che la connessione del mondo è ormai irrefrenabile. L'idea del confine come separazione dagli altri crea società chiuse. Sull'onda dei nazionalpopulismi, l'unità europea, che ci ha garantito settant'anni di pace, è a rischio di estinzione. E questo potrebbe essere l'inizio di molti drammatici danni. Un salto nel buio che non ci possiamo permettere.",
+                "url": "https://store-fbda60aa.example.com/",
+                "price": null,
+                "images": [
+                    {
+                        "id": "f5677a8ea54b4ed482156184106d92f8",
+                        "http_path": "https://picsum.photos/seed/64abec59/600/600",
+                        "file_name": "61PS1SbUJlL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "manufacturer": "Rizzoli",
+                "brand": "",
+                "weight": 0.7936641432,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 5.4330708606,
+                "height": 1.181102361,
+                "length": 8.3464566844,
+                "additional_fields": {
+                    "ean_identifiers": [
+                        "9788817105644"
+                    ],
+                    "gtin_identifiers": [
+                        "09788817105644"
+                    ],
+                    "isbn_identifiers": [
+                        "8817105643"
+                    ],
+                    "child_asins": [],
+                    "parent_asin": "",
+                    "model_number": "",
+                    "part_number": "",
+                    "product_type": "ABIS_BOOK",
+                    "raw_attributes": {
+                        "binding": [
+                            {
+                                "value": "hardcover",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "language": [
+                            {
+                                "type": "published",
+                                "value": "italian",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "type": "original",
+                                "value": "italian",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "type": "unknown",
+                                "value": "italian",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "pages": [
+                            {
+                                "value": 0,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_dimensions": [
+                            {
+                                "width": {
+                                    "unit": "millimeters",
+                                    "value": 23
+                                },
+                                "length": {
+                                    "unit": "millimeters",
+                                    "value": 147
+                                },
+                                "height": {
+                                    "unit": "millimeters",
+                                    "value": 222
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "subject_keyword": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "'world', 'general', 'terrorismo', 'history'",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "«La differenza tra la sinistra e il nazionalpopulismo consiste proprio in la sinistra ascolta, mentre i populisti fanno finta di ascoltare, quando invece il loro unico obiettivo è di tenere incatenata la gente alle proprie paure.» Parte da questa convinzione la riflessione di Marco Minniti, ex ministro dell'Interno e da oltre vent'anni ai vertici degli apparati di sicurezza e di intelligence del nostro Paese. Anni fondamentali e difficilissimi, in cui si è trovato a gestire, in particolare nei sedici mesi al Viminale, eventi epocali di portata internazionale, come la forte ondata migratoria successiva alle primavere arabe, il consolidamento dello Stato islamico e la stagione dei feroci attacchi terroristici in territorio europeo, la crisi libica con le sue ancora attuali conseguenze. E poi, sul versante interno, l'emergenza sicurezza nelle grandi città, la lotta alla criminalità organizzata, il caso emblematico di Ostia e di altri comuni sciolti per infiltrazioni mafiose. Non è possibile garantire la sicurezza rinunciando alla libertà: barattare la seconda in cambio della prima significa innalzare pericolose barriere, dimenticando che la connessione del mondo è ormai irrefrenabile. L'idea del confine come separazione dagli altri crea società chiuse. Sull'onda dei nazionalpopulismi, l'unità europea, che ci ha garantito settant'anni di pace, è a rischio di estinzione. E questo potrebbe essere l'inizio di molti drammatici danni. Un salto nel buio che non ci possiamo permettere.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "books",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 3
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 13.8
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 21.2
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 0.36,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "externally_assigned_product_identifier": [
+                            {
+                                "value": "8817105643",
+                                "type": "isbn",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "9788817105644",
+                                "type": "ean",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "09788817105644",
+                                "type": "gtin",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Rizzoli",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "author": [
+                            {
+                                "value": "Minniti, Marco",
+                                "language_tag": "en_US",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "publication_date": [
+                            {
+                                "value": "2018-10-30T00:00:01Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Sicurezza è libertà. Terrorismo e immigrazione: contro la fabbrica della paura",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_required": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "street_date": [
+                            {
+                                "value": "2018-10-30T00:00:01Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2018-10-23T11:08:27.929Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

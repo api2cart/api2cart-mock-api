@@ -1,0 +1,43 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+        "description": "<p>Introducing the <strong>CuddleBuddy Small Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p>",
+        "category_id": "700699",
+        "image_url": "https://app.api2cart.com/images/maintenance.png",
+        "quantity": 2,
+        "price": 11.11,
+        "weight": 2.95,
+        "height": 11,
+        "length": 12,
+        "width": 13,
+        "brand_name": "Handmade",
+        "sku": "test_sku",
+        "certifications": [
+            {
+                "id": "7365861733473027846",
+                "images": [
+                    {
+                        "url": "https://app.api2cart.com/images/maintenance.png"
+                    }
+                ]
+            }
+        ],
+        "specifics": [
+            {
+                "name": "Safety Warning Information",
+                "values": [
+                    "Only For Domestic Use."
+                ]
+            },
+            {
+                "name": "Age Suitability",
+                "values": [
+                    "Not Applicable"
+                ]
+            }
+        ]
+    }
+}

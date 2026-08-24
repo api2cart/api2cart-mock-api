@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Cannot update stock for Fulfilled by bol.com (FBB) offers. Stock levels are managed by bol.com and cannot be modified via the API.",
+    "result": {}
+}

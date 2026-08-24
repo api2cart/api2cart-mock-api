@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "store_id": "ATVPDKIKX0DER",
+        "count": 2,
+        "response_fields": "{return_code,return_message,result{category{id,name}}}"
+    }
+}

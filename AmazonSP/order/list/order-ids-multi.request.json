@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-07T11:49:40Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "order_ids": "111-2392565-0194613,111-7967140-8854642",
+        "response_fields": "{return_code,return_message,result{order{order_id}}}"
+    }
+}

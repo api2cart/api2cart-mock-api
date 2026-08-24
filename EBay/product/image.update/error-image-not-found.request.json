@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.image.update.json",
+    "query": {
+        "product_id": "from_addMediumTC3",
+        "id": "1",
+        "position": 1
+    }
+}

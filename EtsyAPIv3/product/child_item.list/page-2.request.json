@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-07-23T11:23:40Z",
+    "method": "GET",
+    "endpoint": "product.child_item.list.json",
+    "query": {
+        "page_cursor": "q0h3ivDxrwrxtCw3KnWzdEkKyTNxNExLCc5IyrGoiKwoyjFIyzNN9TLP1zbOdAs1NHN1NXa09MvKCHFySvOLMPC28AkJSDXy1DYKCPRM9o%2F0SbLIzHQN0q9wNNGucncvNw00ijBx1fcNyAq1BQA%3D"
+    }
+}

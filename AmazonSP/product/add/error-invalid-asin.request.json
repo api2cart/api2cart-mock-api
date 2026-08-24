@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "test_add_bad_asin",
+        "asin": "qwer",
+        "price": 99.9,
+        "quantity": 1
+    }
+}

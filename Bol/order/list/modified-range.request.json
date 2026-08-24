@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-13T12:00:00Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "modified_from": "2026-08-12",
+        "modified_to": "2026-08-13",
+        "response_fields": "{result{orders_count,order{order_id,modified_at}}}"
+    }
+}

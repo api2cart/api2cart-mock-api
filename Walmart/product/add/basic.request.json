@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-21T10:00:00Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Orthopedic Memory Foam Dog Bed, Medium",
+        "description": "Supportive memory foam pet bed with a removable, machine-washable cover.",
+        "price": 49.99,
+        "sku": "A2C-PET-BED-001",
+        "brand_name": "PetRest",
+        "category_id": "559c5d924fff3d64de18bf45",
+        "upc": "012345678905",
+        "image_url": "https://picsum.photos/seed/walmart-pet-bed/800"
+    }
+}

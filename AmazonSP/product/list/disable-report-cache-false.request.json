@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "disable_report_cache": false,
+        "count": 2,
+        "report_request_id": "ATVPDKIKX0DER171122020671",
+        "response_fields": "{return_code,return_message,result{product{id}}}"
+    }
+}

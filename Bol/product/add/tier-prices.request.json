@@ -1,0 +1,27 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Herbruikbare ijsblokjes - Duurzaam - Milieuvriendelijk - Stevig kunststof - Gekleurd - 20 stuks",
+        "sku": "A2C-ICE-003",
+        "ean": "4060411002822",
+        "quantity": 50,
+        "condition": "NEW",
+        "delivery_code": "2-3d",
+        "tier_prices": [
+            {
+                "quantity": 5,
+                "price": 27.95
+            },
+            {
+                "quantity": 10,
+                "price": 25.95
+            },
+            {
+                "quantity": 25,
+                "price": 23.95
+            }
+        ]
+    }
+}

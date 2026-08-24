@@ -1,0 +1,829 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 2,
+        "product": [
+            {
+                "id": "HUUUGE",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "HUUUGE",
+                "name": "Trump Golf Driver Headcover – Funny MAGA “HUUUGE Drive” USA Patriotic Club Cover – Thick Foam Protection – Easy On/Off – Great Golf Gift by BeeJos",
+                "description": "Make your golf game HUUUGE with this hilarious Trump Golf Driver Headcover! Featuring a bold MAGA design and “HUUUGE Drive” quote, this patriotic USA-themed headcover delivers laughs while protecting your favorite club. Built with thick foam padding and a snug, slip-resistant fit, it shields your driver from impact & wear, while still being easy to take on and off.\n\nPerfect for Trump fans, political golf gifts, tournaments, and conversation-starting rounds with friends. Show off your style and protect your gear — all while having fun on the course!",
+                "short_description": null,
+                "price": 39.9,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 96,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "BeeJo's",
+                "categories_ids": [
+                    "3410981"
+                ],
+                "stores_ids": [],
+                "url": "https://store-3f017ff0.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.24030386558,
+                "weight_unit": "lb",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": "True",
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2020-04-12T14:48:40+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 39.95,
+                    "avail": true,
+                    "created_at": {
+                        "value": "2024-06-07T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "modified_at": null,
+                    "expired_at": {
+                        "value": "2024-06-24T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    }
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "479d8ef0464ca2667cce72b3a110c3a0",
+                        "http_path": "https://picsum.photos/seed/60ad9bb0/600/600",
+                        "file_name": "81WPP2vAPoL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "a0f65f354522ae711c8c8a0138ab8775",
+                        "http_path": "https://picsum.photos/seed/106dd818/600/600",
+                        "file_name": "81KYnZMaXhL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6127f09896c8e3bff9266300a2bc60a9",
+                        "http_path": "https://picsum.photos/seed/a01d7028/600/600",
+                        "file_name": "61APbDSukIL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7c52a9553c1351be10aeec1e7eafc44d",
+                        "http_path": "https://picsum.photos/seed/4ef736d0/600/600",
+                        "file_name": "71VxdgxySIL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "87da21b18315106b15b22ce9f713cb17",
+                        "http_path": "https://picsum.photos/seed/32a8c300/600/600",
+                        "file_name": "71UfrC4Yn0L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "e5a1f0955c64f41cb14d23469ded5a84",
+                        "http_path": "https://picsum.photos/seed/7d5347dd/600/600",
+                        "file_name": "81Hv9FFv-LL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "58d8638f277b09b8dbc5abb02a16a1ff",
+                        "http_path": "https://picsum.photos/seed/749dd73c/600/600",
+                        "file_name": "81AKiEqrlaL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 5.7499999941,
+                "height": 4.4499999955,
+                "length": 12.559999987,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "enabled",
+                    "landed_price": null,
+                    "asin1": "B08714W67B",
+                    "asin2": "",
+                    "asin3": "",
+                    "fulfillment_channel": "DEFAULT",
+                    "merchant_shipping_group": "Beejos Exp Template",
+                    "product_id": "B08714W67B",
+                    "listing_id": "0412XH53A85",
+                    "condition_type": "new_new",
+                    "product_type": "GOLF_CLUB_COVER",
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Make your golf game HUUUGE with this hilarious Trump Golf Driver Headcover! Featuring a bold MAGA design and “HUUUGE Drive” quote, this patriotic USA-themed headcover delivers laughs while protecting your favorite club. Built with thick foam padding and a snug, slip-resistant fit, it shields your driver from impact & wear, while still being easy to take on and off.\n\nPerfect for Trump fans, political golf gifts, tournaments, and conversation-starting rounds with friends. Show off your style and protect your gear — all while having fun on the course!",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "package_dimensions": {
+                        "height": 3,
+                        "length": 12,
+                        "width": 5,
+                        "weight": 0,
+                        "dimension_unit": "in"
+                    },
+                    "fee": {
+                        "currency_code": "USD",
+                        "total": 5.99,
+                        "details": [
+                            {
+                                "type": "ReferralFee",
+                                "amount": 5.99,
+                                "final_amount": 5.99,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "VariableClosingFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "PerItemFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            }
+                        ]
+                    }
+                },
+                "custom_fields": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Funny Trump Golf Headcover\nBring laughs to the course! Features “HUUUGE Drive” MAGA design for golfers who like humor & personality in their gear.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Premium Driver Protection\nThick foam padding keeps your club safe from dings, scratches, and bag chatter — perfect for long-term club care.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Easy On/Off Fit\nDesigned for effortless removal & secure hold. Fits all standard golf driver heads without slipping.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Durable & High-Quality\nMade with sturdy materials & reinforced stitching for long-lasting use on the course or in your golf bag.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Perfect Gift for Trump Fans\nIdeal novelty golf gift for Trump supporters, golfers with humor, holidays, birthdays & Father's Day.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "skip_offer": false,
+                    "model_name": "Donald Trump golf club head cover",
+                    "item_dimensions": [
+                        {
+                            "height": {
+                                "unit": "inches",
+                                "value": "3.00"
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": "14.00"
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": "4.00"
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "unspsc_code": "49211600",
+                    "closure": [
+                        {
+                            "type": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "Pull On"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "item_type_keyword": "golf-club-head-covers",
+                    "number_of_items": 1,
+                    "color": "Red, White, Blue",
+                    "pattern": "American flag with Trump cartoon",
+                    "item_package_weight": 5,
+                    "item_length_width": [
+                        {
+                            "length": {
+                                "unit": "inches",
+                                "value": 12.5
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": 2.5
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "model_number": "Donald Trump golf",
+                    "supplier_declared_dg_hz_regulation": "not_applicable",
+                    "gpsr_safety_attestation": true,
+                    "list_price": 39.95,
+                    "batteries_required": false,
+                    "product_site_launch_date": "2020-04-12T14:48:40.323Z",
+                    "material": "composite",
+                    "unit_count": 1,
+                    "batteries_included": false,
+                    "contains_liquid_contents": "false",
+                    "fulfillment_availability": "",
+                    "item_weight": 5,
+                    "is_expiration_dated_product": "false",
+                    "specific_uses_keyword": "Golf Clubs",
+                    "generic_keyword": "trump golf headcover maga golf driver cover funny golf gift patriotic golf club cover novelty golf accessory usa driver protector political golf gift pro trump golf merch gag gift golf cover",
+                    "cpsia_cautionary_statement": "no_warning_applicable",
+                    "country_of_origin": "US",
+                    "merchant_shipping_group": "1d2d84a4-c28c-4562-bac3-bf4248d63e50",
+                    "gift_options": [
+                        {
+                            "can_be_messaged": false,
+                            "can_be_wrapped": false,
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "fabric_type": "polyester",
+                    "condition_type": "new_new",
+                    "merchant_suggested_asin": "B08714W67B",
+                    "target_audience_keyword": "adults,female,male,unisex",
+                    "merchant_release_date": "2020-04-10T07:00:00.000Z",
+                    "other_product_image_locator_7": [
+                        {
+                            "media_location": "https://picsum.photos/seed/749dd73c/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_6": [
+                        {
+                            "media_location": "https://picsum.photos/seed/7d5347dd/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_5": [
+                        {
+                            "media_location": "https://picsum.photos/seed/a01d7028/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_4": [
+                        {
+                            "media_location": "https://picsum.photos/seed/32a8c300/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_3": [
+                        {
+                            "media_location": "https://picsum.photos/seed/4ef736d0/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_2": [
+                        {
+                            "media_location": "https://picsum.photos/seed/a01d7028/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_1": [
+                        {
+                            "media_location": "https://picsum.photos/seed/106dd818/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/60ad9bb0/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "purchasable_offer": [
+                        {
+                            "currency": "USD",
+                            "start_at": {
+                                "value": "2020-04-12T14:48:40.323Z"
+                            },
+                            "end_at": {
+                                "value": null
+                            },
+                            "audience": "ALL",
+                            "discounted_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "end_at": "2024-06-24T07:00:00.000Z",
+                                            "start_at": "2024-06-07T07:00:00.000Z",
+                                            "value_with_tax": 39.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "our_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "value_with_tax": 39.9
+                                        }
+                                    ]
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "T3-AZ75-LDQB",
+                "type": "variant",
+                "u_model": null,
+                "u_sku": "T3-AZ75-LDQB",
+                "name": "Natural Slice Blue Tie Dye Driver 460cc Club Headcover Handmade by BeeJos",
+                "description": "BeeJos Club Headcovers offer a combination of functionality and style, making them an attractive choice for golfers. The stretch-to-fit feature and easy on-and-off design contribute to the convenience for users. The use of composite polyester-knit fabrics and aerospace-grade foam not only indicates a dedication to quality but also suggests durability and protection for your golf clubs. The 11mm thick proprietary foam interior specifically designed for excellent club protection is a notable feature, emphasizing the brand's commitment to safeguarding golf equipment. The fact that the designs are printed and sewn in the USA adds a touch of local craftsmanship and pride to the product. The vivid and bright prints, along with the soft-to-the-hand feel, contribute to the aesthetic appeal of the headcovers, allowing golfers to personalize their bags in a visually pleasing way. BeeJos has taken a thoughtful approach to both the design and manufacturing processes, creating headcovers that are not only functional but also visually appealing. This attention to detail is likely to make their headcovers stand out on the golf course and appeal to golfers looking for a high-quality and personalized accessory for their bags.",
+                "short_description": null,
+                "price": 39.95,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 81,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "BeeJo's",
+                "categories_ids": [
+                    "3410981"
+                ],
+                "stores_ids": [],
+                "url": "https://store-868ebcdf.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.20062065842,
+                "weight_unit": "lb",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": "True",
+                "is_stock_managed": true,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2022-03-13T04:37:43+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 29.95,
+                    "avail": true,
+                    "created_at": {
+                        "value": "2024-06-07T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "modified_at": null,
+                    "expired_at": {
+                        "value": "2024-06-24T07:00:00+0000",
+                        "format": "Y-m-d\\TH:i:sO"
+                    }
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "20bb29436e91ee47cc21df2223ace7e1",
+                        "http_path": "https://picsum.photos/seed/11a633da/600/600",
+                        "file_name": "81ky9U6QtWL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "e4fd7786a824f1882cf07af6acdc3465",
+                        "http_path": "https://picsum.photos/seed/6109b385/600/600",
+                        "file_name": "81ktw8owDwL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "aa429caaedba634a2e90bfacbb16c6e8",
+                        "http_path": "https://picsum.photos/seed/ca5bf0f3/600/600",
+                        "file_name": "71pRNmRxNHL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "1bfbd3043dade4c5d14a540614f8a0bb",
+                        "http_path": "https://picsum.photos/seed/aa20710d/600/600",
+                        "file_name": "81j6BHHX1pL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "eb4e7e46294b1f5d6b807e5ead5dc94b",
+                        "http_path": "https://picsum.photos/seed/44bd1dc0/600/600",
+                        "file_name": "718pT-zXqnL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "33dc3dfc5cdf8f39daf388b38ce56210",
+                        "http_path": "https://picsum.photos/seed/adc14ca4/600/600",
+                        "file_name": "714t1ZbqKSL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "b949f384437b0cfbf1954454a3e8bf2a",
+                        "http_path": "https://picsum.photos/seed/390aee20/600/600",
+                        "file_name": "91VOpHRLaTL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 5.9999999939,
+                "height": 2.9999999969,
+                "length": 13.749999986,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "enabled",
+                    "landed_price": null,
+                    "asin1": "B09VFF1WPD",
+                    "asin2": "",
+                    "asin3": "",
+                    "fulfillment_channel": "DEFAULT",
+                    "merchant_shipping_group": "Beejos Exp Template",
+                    "product_id": "B09VFF1WPD",
+                    "listing_id": "0313Z6R9NLC",
+                    "condition_type": "new_new",
+                    "product_type": "GOLF_CLUB_COVER",
+                    "product_description": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "BeeJos Club Headcovers offer a combination of functionality and style, making them an attractive choice for golfers. The stretch-to-fit feature and easy on-and-off design contribute to the convenience for users. The use of composite polyester-knit fabrics and aerospace-grade foam not only indicates a dedication to quality but also suggests durability and protection for your golf clubs. The 11mm thick proprietary foam interior specifically designed for excellent club protection is a notable feature, emphasizing the brand's commitment to safeguarding golf equipment. The fact that the designs are printed and sewn in the USA adds a touch of local craftsmanship and pride to the product. The vivid and bright prints, along with the soft-to-the-hand feel, contribute to the aesthetic appeal of the headcovers, allowing golfers to personalize their bags in a visually pleasing way. BeeJos has taken a thoughtful approach to both the design and manufacturing processes, creating headcovers that are not only functional but also visually appealing. This attention to detail is likely to make their headcovers stand out on the golf course and appeal to golfers looking for a high-quality and personalized accessory for their bags.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "package_dimensions": {
+                        "height": 4,
+                        "length": 12.2,
+                        "width": 6,
+                        "weight": 0,
+                        "dimension_unit": "in"
+                    },
+                    "fee": {
+                        "currency_code": "USD",
+                        "total": 5.99,
+                        "details": [
+                            {
+                                "type": "ReferralFee",
+                                "amount": 5.99,
+                                "final_amount": 5.99,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "VariableClosingFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            },
+                            {
+                                "type": "PerItemFee",
+                                "amount": 0,
+                                "final_amount": 0,
+                                "promotion_amount": 0
+                            }
+                        ]
+                    }
+                },
+                "custom_fields": {
+                    "bullet_point": [
+                        {
+                            "language_tag": "en_US",
+                            "value": "Premium Protection: Crafted with aerospace-grade foam for ultimate durability and superior defense against wear and tear.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "USA Craftsmanship: Showcasing local pride with headcovers designed, printed, and sewn in the USA, ensuring quality craftsmanship.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Protective Club Armor: 11mm thick proprietary foam interior provides excellent protection, ensuring your clubs stay in top condition round after round.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "Personalize and Customize your golf bag with vibrant designs and unique styling options to make a statement on the course.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        },
+                        {
+                            "language_tag": "en_US",
+                            "value": "High-Performance Gear: Elevate your golf game with these high-performance headcovers, combining functionality with a touch of personalized style.",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "included_components": "1 Headcover",
+                    "skip_offer": false,
+                    "model_name": "Fore Right it’s Natural Slice Light Beer-Blue Tie Dye",
+                    "item_dimensions": [
+                        {
+                            "height": {
+                                "unit": "inches",
+                                "value": "14.00"
+                            },
+                            "length": {
+                                "unit": "inches",
+                                "value": "4.00"
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": "3.00"
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "unspsc_code": "49211600",
+                    "closure": [
+                        {
+                            "type": [
+                                {
+                                    "language_tag": "en_US",
+                                    "value": "Pull On"
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "import_designation": "Made in the USA",
+                    "item_type_keyword": "golf-club-head-covers",
+                    "warranty_description": "30 Days",
+                    "style": "Driver",
+                    "color": "Blue, White, Red,",
+                    "variation_theme": [
+                        {
+                            "name": "STYLE"
+                        }
+                    ],
+                    "pattern": "Cartoon",
+                    "item_package_weight": 0.22,
+                    "item_length_width": [
+                        {
+                            "length": {
+                                "unit": "inches",
+                                "value": 12.5
+                            },
+                            "width": {
+                                "unit": "inches",
+                                "value": 2.5
+                            },
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "department": "Unisex-Adult",
+                    "supplier_declared_dg_hz_regulation": "not_applicable",
+                    "list_price": 37.43,
+                    "batteries_required": false,
+                    "product_site_launch_date": "2022-03-14T22:37:43.489Z",
+                    "material": "Polyester",
+                    "unit_count": 1,
+                    "batteries_included": false,
+                    "supplier_declared_material_regulation": "not_applicable",
+                    "contains_liquid_contents": "false",
+                    "fulfillment_availability": "",
+                    "number_of_boxes": "1",
+                    "item_weight": 5,
+                    "is_expiration_dated_product": "false",
+                    "generic_keyword": "Golf club headcover Stretch-fit durable USA-crafted Vibrant prints personalize with Bag Driver fairway Customization Sports Gift Hybrid Tournament Prize gift Enhance Golf Gear with Performance Soft Feel",
+                    "cpsia_cautionary_statement": "no_warning_applicable",
+                    "country_of_origin": "US",
+                    "merchant_shipping_group": "1d2d84a4-c28c-4562-bac3-bf4248d63e50",
+                    "condition_type": "new_new",
+                    "merchant_suggested_asin": "B09VFF1WPD",
+                    "other_product_image_locator_7": [
+                        {
+                            "media_location": "https://picsum.photos/seed/390aee20/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_6": [
+                        {
+                            "media_location": "https://picsum.photos/seed/adc14ca4/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_5": [
+                        {
+                            "media_location": "https://picsum.photos/seed/44bd1dc0/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_3": [
+                        {
+                            "media_location": "https://picsum.photos/seed/aa20710d/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_2": [
+                        {
+                            "media_location": "https://picsum.photos/seed/ca5bf0f3/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "other_product_image_locator_1": [
+                        {
+                            "media_location": "https://picsum.photos/seed/6109b385/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "main_product_image_locator": [
+                        {
+                            "media_location": "https://picsum.photos/seed/11a633da/600/600",
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "purchasable_offer": [
+                        {
+                            "currency": "USD",
+                            "start_at": {
+                                "value": "2022-03-14T22:37:43.489Z"
+                            },
+                            "end_at": {
+                                "value": null
+                            },
+                            "audience": "ALL",
+                            "discounted_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "end_at": "2024-06-24T07:00:00.000Z",
+                                            "start_at": "2024-06-07T07:00:00.000Z",
+                                            "value_with_tax": 29.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "our_price": [
+                                {
+                                    "schedule": [
+                                        {
+                                            "value_with_tax": 39.95
+                                        }
+                                    ]
+                                }
+                            ],
+                            "marketplace_id": "ATVPDKIKX0DER"
+                        }
+                    ],
+                    "parentage_level": "child",
+                    "child_parent_sku_relationship": [
+                        {
+                            "marketplace_id": "ATVPDKIKX0DER",
+                            "child_relationship_type": "variation",
+                            "parent_sku": "X1-2777-JGYG"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,475 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "4426801840",
+                "type": "configurable",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Enchanted Garden Fairy Arm Cuff, Handmade Flower & Butterfly Beaded Arm Jewelry, Elven Festival Armlet, Whimsical Cottagecore Jewelry",
+                "description": "🌺 Dreamy Fantasy Princess Gold Floral Arm Cuff– Handmade Beaded Jewelry\n\nAdd a touch of magic to your style with this handcrafted butterfly wing arm cuff. Each piece is carefully shaped from durable copper wire and adorned with sparkling crystal beads in shades of pink, yellow, and green. The unique soft feminine godness inspired design wraps gracefully around your arm, making it the perfect statement accessory for prom party, festivals, photoshoots, cosplay, or everyday boho fashion.\n\n💎 Details\n\nMaterial: Solid aluminium wire + aluminium / copper strands options, premium Czech & Korean crystal glass beads mixed with acrylic beads\n\nStyle: Adjustable arm cuff (fits most sizes)\n\nFinish: Bright silver copper with soft pink and green fairycore bead accents\n\nHandmade with love in Jakarta\n\n\n❣️ Why You&#39;ll Love It\n\n– Lightweight yet durable for comfortable wear\n\n– Unique artisanal design, no two cuffs are ever exactly alike\n\n– Complements bohemian, festival, and everyday outfits\n\n– Makes a thoughtful gift for free spirits, travelers, and jewelry lovers\n\n\n📐 Size :\n\nS : 11 inches\nM : 12 inches\n\nThe cuffs are adjustable, so you don&#39;t need to worry too much about the fit babes 🤗💞. In the photos, I&#39;m wearing Size S (for your preferance I&#39;m 157cm & 54kg weight). Choose what feels best for you! 💕\n\n\n✨ Material Care\nEach arm cuff is carefully handwoven with a sturdy aluminum wire base, with cooper strand for weaving the beads:\n\n\nAluminum (main frame) + Copper (strand) → Beautiful warm tone and slightly lower cost, but copper may naturally dull or darken over time.\n\n\n⚠️ Both aluminum and copper are common jewelry materials, but please note they are not pure gold or stainless steel. Some oxidation is normal to every jewelry material made from l aluminium and copper no matter the seller who sells it. To keep your cuff looking its best, store it in a dry place, avoid prolonged water exposure, and you may apply a thin coat of clear jewelry safe lacquer spray for added protection.\n\n\n🛠 Care Instructions (Copper & Beads)\nCopper naturally develops a patina over time, giving it a vintage look. If you prefer to keep its shine:\n1. Store in a dry place, away from moisture and direct sunlight.\n2. Wipe gently with a soft dry cloth after wearing.\n3. Store it in a soft pouch or jewelry box, away from sunlight and humidity.\n4. Do not bend or reshape the wire repeatedly, it could weaken over time.\n5. Avoid prolonged contact with water, lotions, and perfumes to preserve the beads and copper finish.\n\n🎁 Perfect For :\n– Cosplayer / festival outfits & boho styling\n– Renaissance fairs or costumes\n– Unique handmade jewelry gifts\n– Everyday statement accessory\n\n🧚🏻‍♀️ Please note, due to the delicate handwoven process, slight variations or tiny imperfections may appear, that&#39;s part of charm of a truly handcrafted artisan piece making!\n\n♡ ̆̈ processing time \n– all of our products are made to order, please allow 4-10 days for this product before shipping\n\n♡ ̆̈ shipping\n– I ship worldwide from Jakarta, Indonesia and it may take 1-3 weeks to arrive\n\n♡ ̆̈ policies\n– no cancellations accepted\n– refund, return & exchanges are not accepted \n– no address changes via chat, please make sure your address is correct\n– please provide me your phone number for the shimpent process\n– please note that any lost packages, damage, or delays are beyond my control and capacity as a seller\n\n♡ ̆̈ freebie\n– choose your freebie! now you&#39;ll get one unique and collectible free Indonesian traditional magnetic trinket / keychain / postcard in every purchase! If you like journaling you can choose postcard or if you want to know what Indonesian trinket look like you can choose either it&#39;s traditional keychain / magnetic trinket as your freebie to put on your fridge or use it as your new favorite keychain that you can&#39;t never find in other shops! 😉🫶✨",
+                "short_description": "",
+                "price": 885000,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 3,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": [
+                    "1198"
+                ],
+                "stores_ids": [
+                    "54397694"
+                ],
+                "url": "https://store-27e8335b.example.com/",
+                "seo_url": "https://store-27e8335b.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-12-18T05:52:22+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-08-02T03:20:47+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7520829626",
+                        "http_path": "https://picsum.photos/seed/ec68676c/600/600",
+                        "file_name": "il_fullxfull.7520829626_73n8.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T05:52:46+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Handmade fairy arm cuff featuring delicate butterfly and flower bead details, crafted with gold wire and pastel crystal beads. This whimsical arm jewelry wraps gracefully around the arm, inspired by enchanted gardens, woodland fairies, and elven fantasy aesthetics. Perfect for fairycore outfits, festivals, renaissance fairs, photoshoots, and magical costume styling.",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "7568766871",
+                        "http_path": "https://picsum.photos/seed/d2cb2096/600/600",
+                        "file_name": "il_fullxfull.7568766871_gbit.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T05:52:45+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Floral butterfly arm cuff handmade with glass beads, leaf details, and gold wire accents. This fantasy-inspired armlet curves organically around the arm, creating an ethereal fairy look. Ideal for cottagecore lovers, woodland fairy costumes, festival wear, and anyone who loves whimsical, nature-inspired jewelry with an elegant magical touch.",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7568819407",
+                        "http_path": "https://picsum.photos/seed/3da2ab3b/600/600",
+                        "file_name": "il_fullxfull.7568819407_t0sg.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:21:49+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Enchanted garden arm cuff featuring butterfly charms, translucent flower beads, and green leaf accents. Carefully handcrafted to resemble a vine wrapping the arm, this beaded arm jewelry is perfect for fairycore fashion, elven cosplay, renaissance outfits, and fantasy-inspired photoshoots or special occasions.",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520881842",
+                        "http_path": "https://picsum.photos/seed/e307d6b7/600/600",
+                        "file_name": "il_fullxfull.7520881842_p6cq.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:21:55+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Fantasy fairy arm cuff jewelry made with pastel crystal beads, floral elements, and butterfly details on a gold wire base. This statement armlet is lightweight yet eye-catching, inspired by forest fairies, magical gardens, and cottagecore aesthetics. Ideal for festivals, cosplay, weddings, or unique boho styling.",
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7568801753",
+                        "http_path": "https://picsum.photos/seed/ae17211c/600/600",
+                        "file_name": "il_fullxfull.7568801753_ofv9.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:11:54+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Handcrafted butterfly and flower arm cuff designed for fairycore and woodland-inspired fashion. Featuring soft green, pink, and clear beads with gold wire structure, this whimsical arm jewelry wraps elegantly around the arm, making it a perfect accessory for fantasy lovers, elven costumes, and enchanted forest themes.",
+                        "avail": true,
+                        "sort_order": 5,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7578185108",
+                        "http_path": "https://picsum.photos/seed/773e877d/600/600",
+                        "file_name": "il_fullxfull.7578185108_a85z.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-01-07T20:13:33+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 6,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7578185106",
+                        "http_path": "https://picsum.photos/seed/72aa77d2/600/600",
+                        "file_name": "il_fullxfull.7578185106_hsu8.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-01-07T20:13:32+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 7,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7578185112",
+                        "http_path": "https://picsum.photos/seed/57daf3fe/600/600",
+                        "file_name": "il_fullxfull.7578185112_tcm3.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-01-07T20:13:34+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 8,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7626129823",
+                        "http_path": "https://picsum.photos/seed/e62368cc/600/600",
+                        "file_name": "il_fullxfull.7626129823_4m16.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2026-01-07T20:13:33+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "",
+                        "avail": true,
+                        "sort_order": 9,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520864046",
+                        "http_path": "https://picsum.photos/seed/c90b2522/600/600",
+                        "file_name": "il_fullxfull.7520864046_9iy2.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:11:52+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Beaded fairy arm cuff with floral and butterfly motifs, created using gold wire and delicate glass beads. Inspired by nature, magic, and enchanted forests, this armlet adds a dreamy, ethereal touch to any outfit. Perfect for renaissance fairs, fairy festivals, cottagecore outfits, and fantasy jewelry collectors.",
+                        "avail": true,
+                        "sort_order": 10,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520864440",
+                        "http_path": "https://picsum.photos/seed/ad370f59/600/600",
+                        "file_name": "il_fullxfull.7520864440_j3uh.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:11:57+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Whimsical flower and butterfly arm cuff handcrafted with crystal beads, leaf details, and gold wire. This fairy-inspired arm jewelry curves naturally around the arm, evoking an enchanted garden aesthetic. Ideal for fairycore styling, bohemian looks, cosplay, and artistic photoshoots.",
+                        "avail": true,
+                        "sort_order": 11,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520829628",
+                        "http_path": "https://picsum.photos/seed/fc802475/600/600",
+                        "file_name": "il_fullxfull.7520829628_ly2t.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T05:52:47+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Elven-style arm cuff featuring butterfly accents, floral beads, and nature-inspired details. Handmade with care, this fantasy armlet is designed to resemble vines and blossoms growing along the arm. A perfect statement piece for woodland fairy outfits, festivals, and magical-themed events.",
+                        "avail": true,
+                        "sort_order": 12,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520888586",
+                        "http_path": "https://picsum.photos/seed/85f4d30b/600/600",
+                        "file_name": "il_fullxfull.7520888586_2svx.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:25:32+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Nature-inspired fairy arm cuff with butterfly and flower beadwork, wrapped in gold wire for an elegant enchanted look. This handmade arm jewelry is lightweight and artistic, perfect for fantasy fashion lovers, cottagecore aesthetics, and whimsical costume accessories.",
+                        "avail": true,
+                        "sort_order": 13,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7568826153",
+                        "http_path": "https://picsum.photos/seed/243ac39f/600/600",
+                        "file_name": "il_fullxfull.7568826153_n8rg.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:25:34+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Magical garden arm cuff featuring butterflies, flowers, and leafy bead details. Handcrafted with gold wire and pastel beads, this fantasy arm jewelry creates a fairy-like silhouette on the arm. Ideal for fairycore outfits, elven cosplay, festivals, and unique handmade jewelry collections.",
+                        "avail": true,
+                        "sort_order": 14,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "7520888592",
+                        "http_path": "https://picsum.photos/seed/32d13be9/600/600",
+                        "file_name": "il_fullxfull.7520888592_1thi.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2025-12-18T06:25:35+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Floral pink and green themed butterfly arm cuff handmade with glass beads, leaf details, and gold wire accents. This fantasy-inspired armlet curves organically around the arm, creating an ethereal fairy look. Ideal for party, birthday, cottagecore lovers, woodland fairy costumes, festival wear, and anyone who loves whimsical, nature-inspired jewelry with an elegant magical touch.",
+                        "avail": true,
+                        "sort_order": 15,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "513",
+                        "product_option_id": null,
+                        "name": "size",
+                        "description": null,
+                        "sort_order": 513,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "880083014365",
+                                "product_option_item_id": null,
+                                "name": "12 inch silver",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "110302331755",
+                                "product_option_item_id": null,
+                                "name": "11 inch gold",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1505142937559",
+                                "product_option_item_id": null,
+                                "name": "11 inch silver",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "110302331711",
+                                "product_option_item_id": null,
+                                "name": "12 inch gold",
+                                "sort_order": 3,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "514",
+                        "product_option_id": null,
+                        "name": "freebies (pick yours! 🩷)",
+                        "description": null,
+                        "sort_order": 514,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "1495351264244",
+                                "product_option_item_id": null,
+                                "name": "trinket keychain",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1495351264282",
+                                "product_option_item_id": null,
+                                "name": "magnetic keychain",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1495351264314",
+                                "product_option_item_id": null,
+                                "name": "Indonesian post card",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "IDR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "en-US",
+                    "materials": [],
+                    "non_taxable": false,
+                    "num_favorers": "331",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "21",
+                    "processing_min": "7",
+                    "production_partners": [],
+                    "readiness_state_id": "",
+                    "return_policy_id": "1296166927203",
+                    "shipping_profile_id": "280283622632",
+                    "shop_section_id": "55248618",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "Crystal arm cuff",
+                        "Beaded wire cuff",
+                        "statement jewelry",
+                        "Spiral cuff bracelet",
+                        "Boho arm jewelry",
+                        "Crystal godness cuff",
+                        "Wire bracelet",
+                        "Bold boho cuff",
+                        "festival jewelry",
+                        "fairycore jewelry",
+                        "bohemian bracelet",
+                        "whimsical jewelry",
+                        "elven armlet"
+                    ],
+                    "when_made": "made_to_order",
+                    "product_properties": [],
+                    "personalization_questions": []
+                }
+            }
+        ]
+    }
+}

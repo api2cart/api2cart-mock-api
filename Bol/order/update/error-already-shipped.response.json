@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Unable to cancel the order id = 'C000CTW7TL', because some items in the order are already shipped.",
+    "result": {}
+}

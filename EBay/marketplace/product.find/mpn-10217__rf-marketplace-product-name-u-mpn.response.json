@@ -1,0 +1,17 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "u_mpn": "10217",
+                "name": "LEGO 10217 Harry Potter Diagon Alley"
+            }
+        ]
+    }
+}

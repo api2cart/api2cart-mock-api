@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "iyhLyg3WT88rDyxydjYxKvFPcjI0yjAKSksuLXaPdDGr8gnJizI3sfDzcLQsdvMML%2FN0TswurnAKN47I9fLMCzYvM0kPz7O0SPFLjKgIzKsoTQ40cwq0tQUA"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "600009",
+                "parent_id": "852488",
+                "name": "Festive Decorations",
+                "description": null
+            },
+            {
+                "id": "600017",
+                "parent_id": "852488",
+                "name": "Balloons",
+                "description": null
+            },
+            {
+                "id": "600019",
+                "parent_id": "852488",
+                "name": "Sprays, Confetti & Streamers",
+                "description": null
+            },
+            {
+                "id": "600029",
+                "parent_id": "859528",
+                "name": "Preserving Containers",
+                "description": null
+            },
+            {
+                "id": "600032",
+                "parent_id": "859400",
+                "name": "Vacuum Flasks",
+                "description": null
+            },
+            {
+                "id": "600033",
+                "parent_id": "859272",
+                "name": "Placemats & Coasters",
+                "description": null
+            },
+            {
+                "id": "600036",
+                "parent_id": "859400",
+                "name": "Glasses",
+                "description": null
+            },
+            {
+                "id": "600042",
+                "parent_id": "859400",
+                "name": "Mugs",
+                "description": null
+            },
+            {
+                "id": "600047",
+                "parent_id": "859400",
+                "name": "Drinkware Accessories",
+                "description": null
+            },
+            {
+                "id": "600048",
+                "parent_id": "859400",
+                "name": "Water Bottles",
+                "description": null
+            }
+        ]
+    }
+}

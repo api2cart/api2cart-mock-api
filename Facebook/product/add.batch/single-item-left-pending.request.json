@@ -1,0 +1,22 @@
+{
+    "captured_at": "2026-08-11T12:22:20Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "Mock Batch Item Zeta",
+                "sku": "mock-batch-zeta-1",
+                "description": "Left pending on purpose for the not-processed-yet mock",
+                "price": 5,
+                "quantity": 1,
+                "external_product_link": "https://example.com/mock-batch-zeta",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/fb-batch-zeta/800"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-04T13:02:04Z",
+    "method": "GET",
+    "endpoint": "product.find.json",
+    "query": {
+        "find_value": "Test listing met variaties (allemaal gelijke voorraad)",
+        "find_where": "name"
+    }
+}

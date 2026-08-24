@@ -1,0 +1,33 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 1142144705,
+        "job_name": "product.add.batch",
+        "items_processed": 3,
+        "items_succeed": 3,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "A2C-BATCH-SWEATER-MASTER",
+                "errors": [],
+                "warnings": []
+            },
+            {
+                "id": 1,
+                "status": "success",
+                "entity_id": "A2C-BATCH-SWEATER-CHILD-M-YELLOW",
+                "errors": [],
+                "warnings": []
+            },
+            {
+                "id": 2,
+                "status": "success",
+                "entity_id": "A2C-BATCH-SWEATER-CHILD-L-BLACK",
+                "errors": [],
+                "warnings": []
+            }
+        ]
+    }
+}

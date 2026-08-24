@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'additional_image_urls' must not contain more than 20 items.",
+    "result": {}
+}

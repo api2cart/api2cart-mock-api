@@ -1,0 +1,42 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Luxury Wooden Sunglasses with Polarized Lenses",
+        "description": "Handcrafted sunglasses made from sustainable wood with UV400 polarized lenses. Perfect for summer, lightweight and durable with a stylish design.",
+        "short_description": "Eco-friendly wooden sunglasses with polarized lenses.",
+        "category_id": "383",
+        "image_url": "https://picsum.photos/seed/fb-wooden-sunglasses/800",
+        "additional_image_urls": [
+            "https://picsum.photos/seed/fb-side-view/800",
+            "https://picsum.photos/seed/fb-packaging/800"
+        ],
+        "sku": "wood_sunglasses_from_tests",
+        "price": 79.9,
+        "special_price": 69.9,
+        "sprice_create": "2025-01-01 00:00:00",
+        "sprice_expire": "2025-03-01 23:59:59",
+        "quantity": 50,
+        "brand_name": "EcoVision",
+        "product_type": "ACCESSORIES",
+        "gtin": "4006381333931",
+        "store_id": "1732577937418943",
+        "external_product_link": "https://example.com/eco-sunglasses",
+        "specifics": [
+            {
+                "name": "frame_material",
+                "value": "Wood"
+            },
+            {
+                "name": "lens_material",
+                "value": "Polycarbonate"
+            },
+            {
+                "name": "uv_protection",
+                "value": "UV400"
+            }
+        ],
+        "status": "enabled"
+    }
+}

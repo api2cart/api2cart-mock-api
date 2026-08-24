@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "8%2FJwqXJN8zLTrvT1igwxK48oqvTIjCqLSjMvTEnL9NfONA3Kdqz0LcvMcQ7xdUl1ivQNDQ%2FNMnCKytXOSPZy8i%2FLc8r0q%2FI0dMlwNtFPCUrzNXMtC7IwcQswT64w8ggJ84oyz3DPLSj1KzGxBQA%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "28",
+                "parent_id": "0",
+                "name": "food & beverages",
+                "description": null
+            },
+            {
+                "id": "50",
+                "parent_id": "0",
+                "name": "toys & games",
+                "description": null
+            },
+            {
+                "id": "61",
+                "parent_id": "0",
+                "name": "home improvement",
+                "description": null
+            },
+            {
+                "id": "92",
+                "parent_id": "0",
+                "name": "sporting goods",
+                "description": null
+            },
+            {
+                "id": "106",
+                "parent_id": "0",
+                "name": "pet supplies",
+                "description": null
+            },
+            {
+                "id": "118",
+                "parent_id": "0",
+                "name": "patio & garden",
+                "description": null
+            },
+            {
+                "id": "132",
+                "parent_id": "0",
+                "name": "office supplies",
+                "description": null
+            },
+            {
+                "id": "141",
+                "parent_id": "0",
+                "name": "musical instruments",
+                "description": null
+            },
+            {
+                "id": "147",
+                "parent_id": "0",
+                "name": "media",
+                "description": null
+            },
+            {
+                "id": "163",
+                "parent_id": "0",
+                "name": "travel & luggage",
+                "description": null
+            }
+        ]
+    }
+}

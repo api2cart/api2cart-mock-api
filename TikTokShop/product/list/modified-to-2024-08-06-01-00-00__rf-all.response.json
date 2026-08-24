@@ -1,0 +1,1485 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHLloIgAADQD5qFj8jctMDCRg1UNNSWhYoT1bHikV8%2F96JrsW6Lqdk1EIGjuaP%2BdVaL2m2m5w1oqX5%2BvWuClf8XODNsjFOVruDDfsqWbkXdMEUJ3JQsiy84AvXJiy7MjskoSKfLsflEB%2Bj52otOuCptSsI3L5X%2FkdSvsRbSBMwdoqKbz21sLBjj%2FMG%2F6R7mirA3LTBxq8XU62zm1gjQH%2FJ5FdJcC%2BKi4NU%2FpGgD%2Fn3Wx4HSRFocY8MYdUzXwu32Hw%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "1729423515158482824",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "test product",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 2,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 2,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-a70a7e78.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-05T13:45:47+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-05T13:47:35+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "60b17bf08e0226d206ef20e77206c8a5",
+                        "http_path": "https://picsum.photos/seed/ae136b90/600/600",
+                        "file_name": "507142367409497195e9164469481d65~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "FAILED",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "Not Suitable Under 36 Months"
+                        },
+                        {
+                            "name": "Age Warning",
+                            "value": ""
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": ""
+                        },
+                        {
+                            "name": "Cartoon Characters",
+                            "value": ""
+                        },
+                        {
+                            "name": "Child Gender",
+                            "value": ""
+                        },
+                        {
+                            "name": "Interest",
+                            "value": ""
+                        },
+                        {
+                            "name": "Manufacturer",
+                            "value": ""
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": ""
+                        },
+                        {
+                            "name": "Model",
+                            "value": ""
+                        },
+                        {
+                            "name": "Quantity Per Pack",
+                            "value": ""
+                        },
+                        {
+                            "name": "Recommended Age",
+                            "value": ""
+                        },
+                        {
+                            "name": "Region Of Origin",
+                            "value": ""
+                        },
+                        {
+                            "name": "Safety Warning Information",
+                            "value": "Only For Domestic Use."
+                        },
+                        {
+                            "name": "Warranty Duration",
+                            "value": ""
+                        },
+                        {
+                            "name": "Warranty Type",
+                            "value": ""
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/o4AAjEeA7eqEND1fwAoYCa4PKZFDXIFGeybGTs",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-821870a7.example.com/",
+                                        "https://store-c97ec74.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729423515631390600",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-8085692f.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-05T13:18:17+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-05T13:18:36+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "175a755732559c8e42f574f7b62d4923",
+                        "http_path": "https://picsum.photos/seed/a029830e/600/600",
+                        "file_name": "80cd3a7e3f674db2bbaa8883d6339cc8~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/ocwNeeILADA5A7v8jQLgYReGneiu6EaIGXILDA",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-4050816d.example.com/",
+                                        "https://store-43a687f1.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729423512137731976",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 1,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-f52e5073.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-08-05T13:10:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-05T13:10:23+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "0cf2a5fb1e00852e6f078cca57a4e316",
+                        "http_path": "https://picsum.photos/seed/3fa9ef4a/600/600",
+                        "file_name": "054a615f72ba4a9e80584aa698d9fb99~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/o8yrDsQPMAhMDAivYJzewfAEmRi99CBCmEG9Ai",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-bd18a9fd.example.com/",
+                                        "https://store-74b6ab10.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729423050807807880",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 2,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 2,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-1b66748d.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-31T15:58:08+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-31T16:56:28+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "9a6c069d7ba88bec412b4c9951e42f75",
+                        "http_path": "https://picsum.photos/seed/e6598be2/600/600",
+                        "file_name": "af1c80a81d92436e8c0cdfb145aac374~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "de87af761357c36973ce09201cbcbf4a",
+                        "http_path": "https://picsum.photos/seed/3fce074d/600/600",
+                        "file_name": "d9679e37ab2d4d9e84790b52669010d7~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/oo9U8mJmEcflhFlFUAPIARDvrLAqCoDxrAhf94",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-be4993cb.example.com/",
+                                        "https://store-f6115e3f.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729423023899185032",
+                "type": "simple",
+                "u_model": "qasku_889",
+                "u_sku": "qasku_889",
+                "name": "Unbranded Hoodie Red Green Blue with a lot of sizes",
+                "description": "<p>test</p>",
+                "short_description": null,
+                "price": 235.77,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 11,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "824328",
+                    "839944",
+                    "601213"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-ff8a8ec9.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 3.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-31T09:21:08+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-31T13:38:58+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "bff215e8db87d53670f6c365d2f77c98",
+                        "http_path": "https://picsum.photos/seed/28ef346f/600/600",
+                        "file_name": "195af1f1213b4ddfb3df9d61089fc8ea~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 55,
+                "height": 25,
+                "length": 11,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 235.77,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729422996727500680",
+                "type": "simple",
+                "u_model": "qasku_890",
+                "u_sku": "qasku_890",
+                "name": "Handmade CuddleBuddy Small Bee2 - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Bee</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Bee:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Bee?</p><p>This giant Bee is not just a toy but a lifelong companion that helps foster a child's affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Bee is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It's the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 11,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-34518069.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-31T08:52:09+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-08-01T13:07:40+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "b962fe0d9c4d11a2848060f8adf4889a",
+                        "http_path": "https://picsum.photos/seed/94548af1/600/600",
+                        "file_name": "66d0bd35cade43458dc0f4521251e22d~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "b8c0f5a5f5dd8c3250133d347c73e395",
+                        "http_path": "https://picsum.photos/seed/de50b76e/600/600",
+                        "file_name": "461d9c21e40e4f8089b02f5069252a2f~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "13e488f68c31b8e5cfddfcd925a6c1a2",
+                        "http_path": "https://picsum.photos/seed/c4549ee3/600/600",
+                        "file_name": "5a1cb76c73dc4f2b87c7f58637f091ba~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 3,
+                "length": 8,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 15.33,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "xs"
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": "Nitrosamine Free,PVC Free"
+                        },
+                        {
+                            "name": "Safety Warning Information",
+                            "value": "Not Suitable For Children Under 36 Months."
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 435,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/7031d71b/600/600",
+                                        "https://picsum.photos/seed/a24ed585/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/86f90ecf2a4043bba7d3f96298e7f618",
+                                    "urls": [
+                                        "https://picsum.photos/seed/2974e654/600/600",
+                                        "https://picsum.photos/seed/b7e4407c/600/600"
+                                    ],
+                                    "width": 580
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/ow1fzFjWVEAXPAJND8AxAeITfsXFlIGecDi7UF",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-884f0c3f.example.com/",
+                                        "https://store-1b6e9e4c.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729422957596086152",
+                "type": "simple",
+                "u_model": "upd2_qasku_889",
+                "u_sku": "upd2_qasku_889",
+                "name": "Handmade CuddleBuddy Small Bee Upd - Soft and Huggable Plush Toy",
+                "description": "<p>Update Descr Introducing the CuddleBuddy Giant Bee</p>",
+                "short_description": null,
+                "price": 235.77,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-f921bae4.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 3.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-30T15:54:52+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-31T12:19:21+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "d4cf8715ac3b8f22bb90f5f7a8f87e14",
+                        "http_path": "https://picsum.photos/seed/1adc057d/600/600",
+                        "file_name": "4ac554e921044950a8742ecc1419fcbc~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": "0714532191586",
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 55,
+                "height": 25,
+                "length": 11,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 235.77,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "xs"
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": "Nitrosamine Free,PVC Free"
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 435,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/ed783115/600/600",
+                                        "https://picsum.photos/seed/6dc9c503/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/98a2bd4cb63b45f39a998e6b3bf88fd6",
+                                    "urls": [
+                                        "https://picsum.photos/seed/f65ba081/600/600",
+                                        "https://picsum.photos/seed/f5cc17b9/600/600"
+                                    ],
+                                    "width": 580
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/owIXSWNfhIAUGeMeA8hoAeAjQsG9cUcPwFmD7Y",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-178bef87.example.com/",
+                                        "https://store-ab23ae67.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729422957587763080",
+                "type": "simple",
+                "u_model": "qasku_889",
+                "u_sku": "qasku_889",
+                "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+                "description": "<p>test</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": "handmade all",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-72050df8.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-30T15:54:02+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-30T15:54:27+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7e87bfdc2e2008b29bfe6c4faba44392",
+                        "http_path": "https://picsum.photos/seed/f995c872/600/600",
+                        "file_name": "d104c53472554b37882b81a590aec949~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": "0714532191586",
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 3,
+                "length": 8,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 15.33,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "xs"
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": "Nitrosamine Free,PVC Free"
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 435,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/4271030a/600/600",
+                                        "https://picsum.photos/seed/3bc57421/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/e049a9e0d83d4f4d8307351357a8c85e",
+                                    "urls": [
+                                        "https://picsum.photos/seed/e1bf673c/600/600",
+                                        "https://picsum.photos/seed/bd9a1853/600/600"
+                                    ],
+                                    "width": 580
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/okuNAIPeArlIQCBGDARiFVI0EfDhzEiCZAZ4ph",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-3400090b.example.com/",
+                                        "https://store-5e86c86c.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729422957432573832",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-78659383.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-30T15:49:38+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-30T15:49:58+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "a505d408d1ab779495b6119e16b1b2ef",
+                        "http_path": "https://picsum.photos/seed/d5769f4b/600/600",
+                        "file_name": "993c897353314216b0b119ffdc70bddd~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "s"
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": "Nitrosamine Free,PVC Free"
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 435,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/c7e79bcf/600/600",
+                                        "https://picsum.photos/seed/bc442b8e/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/b0fe147e70ba463088ad414cc8f43156",
+                                    "urls": [
+                                        "https://picsum.photos/seed/92897c8e/600/600",
+                                        "https://picsum.photos/seed/d636c0d2/600/600"
+                                    ],
+                                    "width": 580
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/o40BiCpAIr8A3CXpEAA4if0GPCVZzAhXVDNeRx",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-8fdd0829.example.com/",
+                                        "https://store-7bfb3ca1.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729422873031839624",
+                "type": "simple",
+                "u_model": "test_sku",
+                "u_sku": "test_sku",
+                "name": "Handmade CuddleBuddy Small Teddy Bear - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Teddy Bear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><p>Features of the CuddleBuddy Giant Teddy Bear:</p><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><p>Why Choose CuddleBuddy Giant Teddy Bear?</p><p>This giant teddy bear is not just a toy but a lifelong companion that helps foster a child’s affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><p>Bringing Joy and Comfort:</p><p>The CuddleBuddy Giant Teddy Bear is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It’s the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 17.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 0,
+                        "in_stock": false,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7181749527794452229",
+                "u_brand": "Handmade",
+                "categories_ids": [
+                    "604206",
+                    "859656",
+                    "700699"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-eca702a1.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 2.95,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-29T14:19:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-29T14:19:24+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "872fb6c4018545e5602eeb625eec1634",
+                        "http_path": "https://picsum.photos/seed/572d236/600/600",
+                        "file_name": "61444b1cf3f84858b3e6854faaa76808~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "11111111111111",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 1,
+                "height": 1,
+                "length": 1,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 17.99,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Age Suitability",
+                            "value": "s"
+                        },
+                        {
+                            "name": "Battery In Product",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Material Feature",
+                            "value": "Nitrosamine Free,PVC Free"
+                        }
+                    ],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 435,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/4425d37e/600/600",
+                                        "https://picsum.photos/seed/36c92818/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/12d617c31a1c42929cb103ab6ef0aa13",
+                                    "urls": [
+                                        "https://picsum.photos/seed/7685bb1e/600/600",
+                                        "https://picsum.photos/seed/bf64ce6d/600/600"
+                                    ],
+                                    "width": 580
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/o8KvDCLnREGRfEAGMBAGeeI1anA82qfN8AMppI",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-2224d5f3.example.com/",
+                                        "https://store-f9c40801.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

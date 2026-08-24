@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-04T17:49:31Z",
+    "method": "POST",
+    "endpoint": "product.image.add.json",
+    "body": {
+        "product_id": 40,
+        "image_name": "test_image.png",
+        "type": "base",
+        "url": "https://picsum.photos/seed/img/800"
+    }
+}

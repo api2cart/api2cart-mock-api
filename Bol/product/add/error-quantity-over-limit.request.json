@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Dutchmarketeer Mini LED lampjes - fiets - wandelen - met elastiek",
+        "ean": "8718964007189",
+        "price": 29.95,
+        "quantity": 1500,
+        "condition": "NEW",
+        "delivery_code": "2-3d"
+    }
+}

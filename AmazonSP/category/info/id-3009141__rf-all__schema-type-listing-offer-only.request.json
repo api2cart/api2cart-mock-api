@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-07-23T11:25:56Z",
+    "method": "GET",
+    "endpoint": "category.info.json",
+    "query": {
+        "id": 3009141,
+        "response_fields": "{*}",
+        "schema_type": "LISTING_OFFER_ONLY"
+    }
+}

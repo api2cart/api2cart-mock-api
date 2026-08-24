@@ -1,0 +1,284 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHBekMwAADgB%2Bqhio867IBkQiJIdCs3dCorIzqd5On3%2F8AY98y4nkM72XitTchroAdy5x32JTo0qN9P8XgaTEZkOOOAcDb4pAHjnHsErTZ%2FETd4xlbxFKdH2aTZ6jClQGDks%2F4LX3u7vBKXRERraLb54ys4%2Fkmg4W2MeKocClz1iJQxHDlG2V2XiyeMnVZ0hrIfZTl18Xs0YVlEPqdw%2ByS2IwUTuzNtPg2vDia%2FTj4xYqPLksT5T%2B9heD2ge65AjKPnZk1uVnD3o6HH7yRvkbswStpbMaVLKc5eSmq9KWbNFeiglXXEvPgSQOWtaoVVW4lhHutG3kRtbP357R8%3D"
+    },
+    "result": {
+        "total_count": 27,
+        "returns": [
+            {
+                "id": "4035254090697051928",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584155928",
+                        "sku": "hoodie_red_xl",
+                        "name": "Standard Product 68",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_reason_none",
+                            "name": "No reason"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254418003562264",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584090392",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    },
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584024856",
+                        "sku": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_multiple_sizes_ordered",
+                            "name": "Multiple sizes ordered"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254418003758872",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576682638584221464",
+                        "sku": "qasku_889",
+                        "name": "Classic Accessory Set 568",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_reason_not_received_uk",
+                            "name": "Package wasn't received"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254414774865688",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576684909811896088",
+                        "sku": "",
+                        "name": "Classic Tool Kit 8",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_and_return_reason_not_match_description_uk",
+                            "name": "Product doesn't match description"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254447649230616",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685227647602456",
+                        "sku": "upd2_qasku_889",
+                        "name": "Premium Component 473",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    },
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685227647667992",
+                        "sku": "upd2_qasku_889",
+                        "name": "Premium Component 473",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    },
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685227647733528",
+                        "sku": "test_sku",
+                        "name": "Classic Product 296",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254467378646808",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685379440054040",
+                        "sku": "",
+                        "name": "Classic Tool Kit 8",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "seller_ecom_delivered_return_refund_reason1_uk",
+                            "name": "No longer needed"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254471830638360",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685382577262360",
+                        "sku": "test_sku",
+                        "name": "Universal Component 23",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "seller_ecom_delivered_return_refund_reason1_uk",
+                            "name": "No longer needed"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254468662759192",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685382577327896",
+                        "sku": "test_sku",
+                        "name": "Classic Tool Kit 8",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254467714715416",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685397613252376",
+                        "sku": "cuddlebuddy_fiant_teddy_bear",
+                        "name": "Heavy-Duty Sample Item 230",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "ecom_order_delivered_refund_and_return_reason_no_need_uk",
+                            "name": "No longer needed"
+                        },
+                        "action": {
+                            "id": "RETURN_AND_REFUND",
+                            "name": "Return and refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            },
+            {
+                "id": "4035254471304122136",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "576685382577393432",
+                        "sku": "test_sku",
+                        "name": "Classic Product 296",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+                            "name": "Suspected Counterfeit"
+                        },
+                        "action": {
+                            "id": "REFUND",
+                            "name": "Refund"
+                        },
+                        "condition": null,
+                        "customer_comment": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "C9KuSsxyCvA0L85MMU2vzMs1TwxNK3GNyvYLc4%2BoKEhOLTAJDc0sTynycA5NzXG09EqLSCs3KkjVTzcvyanwynQPNTbyMsoKz%2FTLME1xcQ%2F08QlMCTZxCywv8U4KCM7P8ksp83M2Sw0OK3O0BQA%3D"
+    },
+    "result": {
+        "total_count": 5,
+        "children": [
+            {
+                "id": "19d4eb5a6353f2894895a34bc41cb9e7",
+                "parent_id": "110588487260",
+                "sku": null,
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": 0,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Product with variations451211",
+                "short_description": null,
+                "full_description": "",
+                "images": [],
+                "combination": [
+                    {
+                        "option_id": "color",
+                        "option_value_id": "red"
+                    },
+                    {
+                        "option_id": "size",
+                        "option_value_id": "l"
+                    }
+                ],
+                "default_price": 2,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": true,
+                "allow_backorders": null,
+                "in_stock": null,
+                "on_sale": null,
+                "manage_stock": null,
+                "inventory_level": 1,
+                "inventory": [],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "quantity_sold": 0
+                }
+            },
+            {
+                "id": "16584726f46ac4fed27f92af291abff4",
+                "parent_id": "110588487260",
+                "sku": null,
+                "upc": null,
+                "ean": null,
+                "mpn": null,
+                "gtin": null,
+                "isbn": null,
+                "url": null,
+                "seo_url": null,
+                "sort_order": 0,
+                "created_time": null,
+                "modified_time": null,
+                "name": "Product with variations451211",
+                "short_description": null,
+                "full_description": "",
+                "images": [],
+                "combination": [
+                    {
+                        "option_id": "color",
+                        "option_value_id": "red"
+                    },
+                    {
+                        "option_id": "size",
+                        "option_value_id": "xl"
+                    }
+                ],
+                "default_price": 7.5,
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "list_price": null,
+                "wholesale_price": null,
+                "advanced_price": [],
+                "tax_class_id": null,
+                "avail_for_sale": true,
+                "allow_backorders": null,
+                "in_stock": null,
+                "on_sale": null,
+                "manage_stock": null,
+                "inventory_level": 3,
+                "inventory": [],
+                "min_quantity": null,
+                "low_stock_threshold": null,
+                "default_qty_in_pack": null,
+                "is_qty_in_pack_fixed": null,
+                "weight_unit": null,
+                "weight": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "meta_title": null,
+                "meta_description": null,
+                "meta_keywords": null,
+                "discounts": [],
+                "is_virtual": null,
+                "additional_fields": {
+                    "quantity_sold": 0
+                }
+            }
+        ]
+    }
+}

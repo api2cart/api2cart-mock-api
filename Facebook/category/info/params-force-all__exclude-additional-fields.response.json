@@ -1,0 +1,22 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "3",
+        "parent_id": "18",
+        "created_at": null,
+        "modified_at": null,
+        "name": "snacks & chips",
+        "short_description": null,
+        "description": null,
+        "stores_ids": [],
+        "keywords": null,
+        "meta_description": null,
+        "meta_title": null,
+        "avail": true,
+        "path": null,
+        "seo_url": null,
+        "sort_order": null,
+        "images": []
+    }
+}

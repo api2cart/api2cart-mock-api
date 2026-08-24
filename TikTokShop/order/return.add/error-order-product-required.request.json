@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "order.return.add.json",
+    "body": {
+        "order_id": "576929338705943320",
+        "return_status_id": "PENDING",
+        "return_reason_id": "buyer_return_and_refund_suspected_counterfeit_seller_uk",
+        "return_action_id": "REFUND"
+    }
+}

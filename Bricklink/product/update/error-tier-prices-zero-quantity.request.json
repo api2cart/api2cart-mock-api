@@ -1,0 +1,23 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "486062118",
+        "price": 150,
+        "tier_prices": [
+            {
+                "quantity": 0,
+                "price": 90
+            },
+            {
+                "quantity": 3,
+                "price": 80
+            },
+            {
+                "quantity": 5,
+                "price": 70
+            }
+        ]
+    }
+}

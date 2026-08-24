@@ -1,0 +1,24 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "24324124957193011",
+        "store_id": "1732577937418943",
+        "sku": "fit_watch_from_tests_variants_1",
+        "attributes": [
+            {
+                "attribute_name": "battery_life",
+                "attribute_value": "9"
+            },
+            {
+                "attribute_name": "watch_movement_type",
+                "attribute_value": "Automatic"
+            },
+            {
+                "attribute_name": "watch_case_thickness",
+                "attribute_value": "15"
+            }
+        ]
+    }
+}

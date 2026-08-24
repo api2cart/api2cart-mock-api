@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-27T10:02:02Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "created_to": "2024-08-06 01:00:00",
+        "response_fields": "{*}"
+    }
+}

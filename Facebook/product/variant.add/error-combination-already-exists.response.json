@@ -1,0 +1,5 @@
+{
+    "return_code": 113,
+    "return_message": "Variant with combination `battery_life=10; watch_movement_type=Mechanic; watch_case_thickness=16` already exists.",
+    "result": {}
+}

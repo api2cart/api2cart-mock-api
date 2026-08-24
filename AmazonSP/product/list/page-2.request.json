@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-06T13:01:03Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "page_cursor": "izD2SjV3D0wKqvAtC3FNNQqOLEh0Dw0KzbXUr6gwM4uyTPX1zTJ2dfdySSt2T8usNKzUr3IJdA0rMbcIMyg2LAAA"
+    }
+}

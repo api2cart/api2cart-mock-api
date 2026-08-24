@@ -1,0 +1,63 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcFHgoIwAADAB3FAWkiOobihiKFEVm4gIp01qERevzMhHvpd1dWoXFzZBMoB5%2B9GZXCU1IRURxOdYe%2FpCMYuzLXslkLmRR5ukRsT38BhLwmrPyGjhbmA2NpKmb4co9BLv7t8dxqqlHdtqmE19%2BI6Wn31URSSvv7MhEEx0aEe2O3lJ%2BC5TmJlFLwVzz7NPYv%2BvltR%2B3PmuqIdD3vFgxqYtt6z4bi5zeKw0G4Yf6ZbZozk%2BkFYTGCeZo3H6bKEXGhwN6m8Fg2rWuIkpEObVveW%2FLtnQXespKmcSDA%2Bwvsg8Xk8L%2BhdLQrH%2FPRaOGh8mFKMLfkqzMTXwc0EzwHvl2gIPpVyTwLdsYn3cPk3%2Fgc%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "28216894311330623",
+                "u_sku": "mock-fresh-probe-product",
+                "name": "Mock Fresh Probe Product"
+            },
+            {
+                "id": "27790856980525066",
+                "u_sku": "mock-smart-watch-parent",
+                "name": "Mock Smart Watch Parent"
+            },
+            {
+                "id": "28070725622546516",
+                "u_sku": "mock-fitness-watch-parent",
+                "name": "Mock Fitness Watch Parent"
+            },
+            {
+                "id": "28485509374366375",
+                "u_sku": "mock-variant-parent-tee-red-m",
+                "name": "Mock Variant Parent Tee - Red / M"
+            },
+            {
+                "id": "28693865173549624",
+                "u_sku": "mock-variant-parent-tee",
+                "name": "Mock Variant Parent Tee"
+            },
+            {
+                "id": "37977798001833654",
+                "u_sku": "mock-batch-delta-1",
+                "name": "Mock Batch Item Delta"
+            },
+            {
+                "id": "27518977131138080",
+                "u_sku": "mock-batch-gamma-1",
+                "name": "Mock Batch Item Gamma"
+            },
+            {
+                "id": "37531440613166489",
+                "u_sku": "mock-batch-alpha-1",
+                "name": "Mock Batch Item Alpha"
+            },
+            {
+                "id": "28316592841267330",
+                "u_sku": "mock-batch-beta-1",
+                "name": "Mock Batch Item Beta"
+            },
+            {
+                "id": "24701226909579587",
+                "u_sku": "pesk565dvb",
+                "name": "Smart Fitness Tracker Waterproof Watch"
+            }
+        ]
+    }
+}

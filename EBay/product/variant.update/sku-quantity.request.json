@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "product_id": "110588641178",
+        "id": "from_addMediumTC1",
+        "sku": "updated_sku",
+        "quantity": 5
+    }
+}

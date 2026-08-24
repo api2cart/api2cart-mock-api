@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "integrations": [
+        {
+            "integration": "AmazonSP",
+            "index": "AmazonSP/index.json"
+        },
+        {
+            "integration": "Bol",
+            "index": "Bol/index.json"
+        },
+        {
+            "integration": "Bricklink",
+            "index": "Bricklink/index.json"
+        },
+        {
+            "integration": "EBay",
+            "index": "EBay/index.json"
+        },
+        {
+            "integration": "EtsyAPIv3",
+            "index": "EtsyAPIv3/index.json"
+        },
+        {
+            "integration": "Facebook",
+            "index": "Facebook/index.json"
+        },
+        {
+            "integration": "TikTokShop",
+            "index": "TikTokShop/index.json"
+        },
+        {
+            "integration": "Walmart",
+            "index": "Walmart/index.json"
+        }
+    ]
+}

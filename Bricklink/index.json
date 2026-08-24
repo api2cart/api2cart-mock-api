@@ -1,0 +1,820 @@
+{
+    "integration": "Bricklink",
+    "generated_at": "2026-08-20T19:24:18Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "cart",
+            "method": "cart.coupon.add",
+            "path": "cart/coupon.add",
+            "cases": [
+                {
+                    "slug": "error-amount-over-100-percent",
+                    "request": "cart/coupon.add/error-amount-over-100-percent.request.json",
+                    "response": "cart/coupon.add/error-amount-over-100-percent.response.json",
+                    "covers": {
+                        "description": "validation: percent discount must be under 100"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-amount-too-large",
+                    "request": "cart/coupon.add/error-amount-too-large.request.json",
+                    "response": "cart/coupon.add/error-amount-too-large.response.json",
+                    "covers": {
+                        "description": "validation: action_amount must stay under 1,000,000 regardless of discount type"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-condition-value-not-allowed",
+                    "request": "cart/coupon.add/error-condition-value-not-allowed.request.json",
+                    "response": "cart/coupon.add/error-condition-value-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: action_condition_value must be one of Bricklink's product types"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-customer-not-found",
+                    "request": "cart/coupon.add/error-customer-not-found.request.json",
+                    "response": "cart/coupon.add/error-customer-not-found.response.json",
+                    "covers": {
+                        "description": "not found: customer_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-date-end-in-past",
+                    "request": "cart/coupon.add/error-date-end-in-past.request.json",
+                    "response": "cart/coupon.add/error-date-end-in-past.response.json",
+                    "covers": {
+                        "description": "validation: date_end already in the past"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-date-end-too-far",
+                    "request": "cart/coupon.add/error-date-end-too-far.request.json",
+                    "response": "cart/coupon.add/error-date-end-too-far.response.json",
+                    "covers": {
+                        "description": "validation: date_end more than a year in the future"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-empty-customer-id",
+                    "request": "cart/coupon.add/error-empty-customer-id.request.json",
+                    "response": "cart/coupon.add/error-empty-customer-id.response.json",
+                    "covers": {
+                        "description": "validation: empty customer_id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "fixed-off-order-total",
+                    "request": "cart/coupon.add/fixed-off-order-total.request.json",
+                    "response": "cart/coupon.add/fixed-off-order-total.response.json",
+                    "covers": {
+                        "description": "fixed-amount coupon applied to order total, restricted by a negated condition"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "percent-off-order-total",
+                    "request": "cart/coupon.add/percent-off-order-total.request.json",
+                    "response": "cart/coupon.add/percent-off-order-total.response.json",
+                    "covers": {
+                        "description": "happy path: percent-off coupon applied to order total, restricted to a product type"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.coupon.condition.add",
+            "path": "cart/coupon.condition.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/coupon.condition.add/basic.request.json",
+                    "response": "cart/coupon.condition.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add a product_type condition to an existing coupon"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "cart/coupon.condition.add/error-no-params.request.json",
+                    "response": "cart/coupon.condition.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: coupon_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "cart/coupon.condition.add/error-not-found.request.json",
+                    "response": "cart/coupon.condition.add/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: coupon_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-value-not-allowed",
+                    "request": "cart/coupon.condition.add/error-value-not-allowed.request.json",
+                    "response": "cart/coupon.condition.add/error-value-not-allowed.response.json",
+                    "covers": {
+                        "description": "validation: value must be one of Bricklink's product types"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.coupon.delete",
+            "path": "cart/coupon.delete",
+            "cases": [
+                {
+                    "slug": "by-id",
+                    "request": "cart/coupon.delete/by-id.request.json",
+                    "response": "cart/coupon.delete/by-id.response.json",
+                    "covers": {
+                        "description": "happy path: delete coupon by id (note: API2Cart never verifies the coupon is actually gone -- see description)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "cart/coupon.delete/error-no-params.request.json",
+                    "response": "cart/coupon.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "cart/coupon.delete/error-not-found.request.json",
+                    "response": "cart/coupon.delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist (note: the error names coupon_id, not id)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.coupon.list",
+            "path": "cart/coupon.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/coupon.list/basic.request.json",
+                    "response": "cart/coupon.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: no filter -> BrickLink's own default coupon set (only 2 of the 4 status=enabled coupons; see status-enabled)"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "cart/coupon.list/error-invalid-param.request.json",
+                    "response": "cart/coupon.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "cart/coupon.list/page-2.request.json",
+                    "response": "cart/coupon.list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor from rf-all__count-1"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "rf-all__count-1",
+                    "request": "cart/coupon.list/rf-all__count-1.request.json",
+                    "response": "cart/coupon.list/rf-all__count-1.response.json",
+                    "covers": {
+                        "description": "pagination: page 1 (response_fields={*}, count=1); continues via page_cursor in page-2"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "start-1__count-2",
+                    "request": "cart/coupon.list/start-1__count-2.request.json",
+                    "response": "cart/coupon.list/start-1__count-2.response.json",
+                    "covers": {
+                        "description": "pagination: offset into the same coupon set as basic (start=1, count=2)"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "start-2",
+                    "request": "cart/coupon.list/start-2.request.json",
+                    "response": "cart/coupon.list/start-2.response.json",
+                    "covers": {
+                        "description": "pagination: start=2 is past the end of the 2-coupon set; pagination.next is null on every start-based (non-cursor) page regardless, by design (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "status-enabled",
+                    "request": "cart/coupon.list/status-enabled.request.json",
+                    "response": "cart/coupon.list/status-enabled.response.json",
+                    "covers": {
+                        "description": "happy path: status=enabled sends status=O to BrickLink explicitly; returns more coupons than no filter at all (see basic) because omitting status sends nothing to the platform -- not a superset relationship"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "rf-all__exclude-stores-info",
+                    "request": "cart/info/rf-all__exclude-stores-info.request.json",
+                    "response": "cart/info/rf-all__exclude-stores-info.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                },
+                {
+                    "slug": "rf-name-url-stores-info",
+                    "request": "cart/info/rf-name-url-stores-info.request.json",
+                    "response": "cart/info/rf-name-url-stores-info.response.json",
+                    "covers": {
+                        "description": "field selection: name,url,stores_info"
+                    },
+                    "captured_at": "2026-08-12T18:19:14Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: category id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-25",
+                    "request": "category/info/id-25.request.json",
+                    "response": "category/info/id-25.response.json",
+                    "covers": {
+                        "description": "happy path: entity information by id"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "parent-id-0",
+                    "request": "category/list/parent-id-0.request.json",
+                    "response": "category/list/parent-id-0.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=0, no count, no start]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "parent-id-0__count-2",
+                    "request": "category/list/parent-id-0__count-2.request.json",
+                    "response": "category/list/parent-id-0__count-2.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=0, count=2, no start]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "parent-id-0__start-2__count-2",
+                    "request": "category/list/parent-id-0__start-2__count-2.request.json",
+                    "response": "category/list/parent-id-0__start-2__count-2.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=0, count=2, start=2]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "parent-id-179",
+                    "request": "category/list/parent-id-179.request.json",
+                    "response": "category/list/parent-id-179.response.json",
+                    "covers": {
+                        "description": "categories under a parent [parent_id=179, no count, no start]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/add/basic.request.json",
+                    "response": "product/add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add product with tier prices, cost price and marketplace item properties"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-color-id-not-found",
+                    "request": "product/add/error-color-id-not-found.request.json",
+                    "response": "product/add/error-color-id-not-found.response.json",
+                    "covers": {
+                        "description": "not found: marketplace_item_properties.color_id does not exist in Bricklink's color list"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-color-id-not-integer",
+                    "request": "product/add/error-color-id-not-integer.request.json",
+                    "response": "product/add/error-color-id-not-integer.response.json",
+                    "covers": {
+                        "description": "validation: marketplace_item_properties.color_id must be an integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-condition-invalid",
+                    "request": "product/add/error-condition-invalid.request.json",
+                    "response": "product/add/error-condition-invalid.response.json",
+                    "covers": {
+                        "description": "validation: condition must be either 'new' or 'used'"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-description-too-long",
+                    "request": "product/add/error-description-too-long.request.json",
+                    "response": "product/add/error-description-too-long.response.json",
+                    "covers": {
+                        "description": "validation: description longer than 255 characters"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-marketplace-item-properties",
+                    "request": "product/add/error-invalid-marketplace-item-properties.request.json",
+                    "response": "product/add/error-invalid-marketplace-item-properties.response.json",
+                    "covers": {
+                        "description": "platform rejects a marketplace_item_properties value it cannot parse (API2Cart does not validate the embedded JSON itself; message text not verified)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-marketplace-item-properties-unknown-key",
+                    "request": "product/add/error-marketplace-item-properties-unknown-key.request.json",
+                    "response": "product/add/error-marketplace-item-properties-unknown-key.response.json",
+                    "covers": {
+                        "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is allowed here, unlike on update)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: sku is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-tier-prices-decreasing-quantity",
+                    "request": "product/add/error-tier-prices-decreasing-quantity.request.json",
+                    "response": "product/add/error-tier-prices-decreasing-quantity.response.json",
+                    "covers": {
+                        "description": "validation: each tier_prices quantity must be greater than the previous one"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-tier-prices-wrong-count",
+                    "request": "product/add/error-tier-prices-wrong-count.request.json",
+                    "response": "product/add/error-tier-prices-wrong-count.response.json",
+                    "covers": {
+                        "description": "validation: tier_prices must contain exactly 3 entries, not fewer or more"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "minimal-fields",
+                    "request": "product/add/minimal-fields.request.json",
+                    "response": "product/add/minimal-fields.response.json",
+                    "covers": {
+                        "description": "add product with only description, price and sku (no tier prices or marketplace item properties)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "used-condition-gear",
+                    "request": "product/add/used-condition-gear.request.json",
+                    "response": "product/add/used-condition-gear.response.json",
+                    "covers": {
+                        "description": "add a used-condition GEAR product with a minimal marketplace item properties set"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.delete",
+            "path": "product/delete",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/delete/error-no-params.request.json",
+                    "response": "product/delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/delete/error-not-found.request.json",
+                    "response": "product/delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-489921299",
+                    "request": "product/delete/id-489921299.request.json",
+                    "response": "product/delete/id-489921299.response.json",
+                    "covers": {
+                        "description": "happy path: delete the product created by product.add (sku 5580-1)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "id-486062118__rf-notexisting",
+                    "request": "product/info/id-486062118__rf-notexisting.request.json",
+                    "response": "product/info/id-486062118__rf-notexisting.response.json",
+                    "covers": {
+                        "description": "field selection: notExisting"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "id-486063055__rf-id-name-images-type",
+                    "request": "product/info/id-486063055__rf-id-name-images-type.request.json",
+                    "response": "product/info/id-486063055__rf-id-name-images-type.response.json",
+                    "covers": {
+                        "description": "entity info: id/name/images/type via response_fields selector -- single base image with avail flag [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "id-486063123__rf-all",
+                    "request": "product/info/id-486063123__rf-all.request.json",
+                    "response": "product/info/id-486063123__rf-all.response.json",
+                    "covers": {
+                        "description": "full product payload: grouped product, minimal price/quantity, category-only classification [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "id-486599379__params-force-all__exclude-images",
+                    "request": "product/info/id-486599379__params-force-all__exclude-images.request.json",
+                    "response": "product/info/id-486599379__params-force-all__exclude-images.response.json",
+                    "covers": {
+                        "description": "full product payload via params=force_all with images excluded -- special_price and tier_price populated [схемна конвертація 1.0->1.1: джерело — PHPUnit-фікстура, коректно позначена 1.0 після фіксу резолвера (APITOCART-46056); avail_sale/avail_view/in_stock/images[].avail/special_price[].avail -> bool, create_at -> {value,format} за декларацією полів у Container/Product.php та живим прикладом того самого image id=1 у product/list/rf-all; НЕ верифіковано живим викликом product.info — позначити для звірки]"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "categories-ids-27",
+                    "request": "product/list/categories-ids-27.request.json",
+                    "response": "product/list/categories-ids-27.response.json",
+                    "covers": {
+                        "description": "filter: products in category 27 (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "error-category-not-found",
+                    "request": "product/list/error-category-not-found.request.json",
+                    "response": "product/list/error-category-not-found.response.json",
+                    "covers": {
+                        "description": "not found: categories_ids does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-product-type-value",
+                    "request": "product/list/error-invalid-product-type-value.request.json",
+                    "response": "product/list/error-invalid-product-type-value.response.json",
+                    "covers": {
+                        "description": "validation: product_type value must be one of the allowed types"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-attributes-color-not-found",
+                    "request": "product/list/error-product-attributes-color-not-found.request.json",
+                    "response": "product/list/error-product-attributes-color-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_attributes color_id value does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-attributes-invalid-key",
+                    "request": "product/list/error-product-attributes-invalid-key.request.json",
+                    "response": "product/list/error-product-attributes-invalid-key.response.json",
+                    "covers": {
+                        "description": "validation: product_attributes.attribute_id only accepts color_id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-type-and-product-type-conflict",
+                    "request": "product/list/error-type-and-product-type-conflict.request.json",
+                    "response": "product/list/error-type-and-product-type-conflict.response.json",
+                    "covers": {
+                        "description": "validation: type and product_type are mutually exclusive"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "product-attributes",
+                    "request": "product/list/product-attributes.request.json",
+                    "response": "product/list/product-attributes.response.json",
+                    "covers": {
+                        "description": "filter: by product attribute value (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "product-type-minifig-part",
+                    "request": "product/list/product-type-minifig-part.request.json",
+                    "response": "product/list/product-type-minifig-part.response.json",
+                    "covers": {
+                        "description": "filter: product_type=MINIFIG,PART"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "product/list/rf-all.request.json",
+                    "response": "product/list/rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "status-enabled",
+                    "request": "product/list/status-enabled.request.json",
+                    "response": "product/list/status-enabled.response.json",
+                    "covers": {
+                        "description": "filter: status=enabled (filter matches nothing in this store: empty result)"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                },
+                {
+                    "slug": "type-simple",
+                    "request": "product/list/type-simple.request.json",
+                    "response": "product/list/type-simple.response.json",
+                    "covers": {
+                        "description": "filter: type=simple"
+                    },
+                    "captured_at": "2026-08-12T18:19:15Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/update/basic.request.json",
+                    "response": "product/update/basic.response.json",
+                    "covers": {
+                        "description": "happy path: update description, price, quantity, cost price and tier prices"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-completeness-not-in-map",
+                    "request": "product/update/error-completeness-not-in-map.request.json",
+                    "response": "product/update/error-completeness-not-in-map.response.json",
+                    "covers": {
+                        "description": "validation: marketplace_item_properties.completeness must be Complete, Incomplete or Sealed"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-is-retain-not-bool",
+                    "request": "product/update/error-is-retain-not-bool.request.json",
+                    "response": "product/update/error-is-retain-not-bool.response.json",
+                    "covers": {
+                        "description": "validation: marketplace_item_properties.is_retain must be a boolean"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-marketplace-item-properties-unknown-key",
+                    "request": "product/update/error-marketplace-item-properties-unknown-key.request.json",
+                    "response": "product/update/error-marketplace-item-properties-unknown-key.response.json",
+                    "covers": {
+                        "description": "validation: marketplace_item_properties only accepts a fixed set of keys (color_id is NOT allowed here, unlike on add)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-special-price-exceeds-price",
+                    "request": "product/update/error-special-price-exceeds-price.request.json",
+                    "response": "product/update/error-special-price-exceeds-price.response.json",
+                    "covers": {
+                        "description": "validation: special_price higher than the regular price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-stock-room-id-not-found",
+                    "request": "product/update/error-stock-room-id-not-found.request.json",
+                    "response": "product/update/error-stock-room-id-not-found.response.json",
+                    "covers": {
+                        "description": "not found: stock_room_id only accepts a single letter A-Z, any other value 112s even if well-formed"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-tier-prices-price-exceeds-current",
+                    "request": "product/update/error-tier-prices-price-exceeds-current.request.json",
+                    "response": "product/update/error-tier-prices-price-exceeds-current.response.json",
+                    "covers": {
+                        "description": "validation: a tier_prices price cannot exceed the product's current price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-tier-prices-zero-quantity",
+                    "request": "product/update/error-tier-prices-zero-quantity.request.json",
+                    "response": "product/update/error-tier-prices-zero-quantity.response.json",
+                    "covers": {
+                        "description": "validation: a tier_prices quantity of 0 is not allowed"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "increase-quantity",
+                    "request": "product/update/increase-quantity.request.json",
+                    "response": "product/update/increase-quantity.response.json",
+                    "covers": {
+                        "description": "increase quantity by a relative amount"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "marketplace-item-properties-only",
+                    "request": "product/update/marketplace-item-properties-only.request.json",
+                    "response": "product/update/marketplace-item-properties-only.response.json",
+                    "covers": {
+                        "description": "update only the marketplace-specific stock room properties"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "reduce-quantity",
+                    "request": "product/update/reduce-quantity.request.json",
+                    "response": "product/update/reduce-quantity.response.json",
+                    "covers": {
+                        "description": "reduce quantity by a relative amount"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "replace-tier-prices",
+                    "request": "product/update/replace-tier-prices.request.json",
+                    "response": "product/update/replace-tier-prices.response.json",
+                    "covers": {
+                        "description": "update quantity and replace the tier price ladder"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        }
+    ]
+}

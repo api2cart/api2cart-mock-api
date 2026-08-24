@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "24324124957193011",
+        "store_id": "1732577937418943",
+        "gtin": "50000000"
+    }
+}

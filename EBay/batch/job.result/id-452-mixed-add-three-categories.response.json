@@ -1,0 +1,42 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "job_id": 452,
+        "job_name": "product.add.batch",
+        "items_processed": 3,
+        "items_succeed": 2,
+        "items": [
+            {
+                "id": 0,
+                "status": "success",
+                "entity_id": "110590173974",
+                "errors": [],
+                "warnings": [
+                    "System warning. Your selected payment policy had deprecated information. A new or different policy eBay Managed Payments - CashOnPickup (6210972000) was mapped in its place.",
+                    "This selling account is enabled for payments managed by eBay. VisaMC is not currently accepted as a payment method and has been removed from the listing."
+                ]
+            },
+            {
+                "id": 1,
+                "status": "failed",
+                "entity_id": null,
+                "errors": [
+                    "Parameter condition 'USED_GOOD' for category with id = '183050' isn\\'t valid. Allowed values is: 'LIKE_NEW', 'USED_EXCELLENT', 'USED_VERY_GOOD'"
+                ],
+                "warnings": []
+            },
+            {
+                "id": 2,
+                "status": "success",
+                "entity_id": "110590173973",
+                "errors": [],
+                "warnings": [
+                    "System warning. Your selected payment policy had deprecated information. A new or different policy eBay Managed Payments - CashOnPickup (6210972000) was mapped in its place.",
+                    "This selling account is enabled for payments managed by eBay. VisaMC is not currently accepted as a payment method and has been removed from the listing.",
+                    "Invalid listing option(s) removed. Condition is not applicable for this category. The condition value submitted has been dropped."
+                ]
+            }
+        ]
+    }
+}

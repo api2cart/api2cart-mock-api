@@ -1,0 +1,203 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "111-2392565-0194613",
+        "order_id": "111-2392565-0194613",
+        "basket_id": null,
+        "channel_id": null,
+        "customer": {
+            "id": "",
+            "email": "",
+            "first_name": "",
+            "last_name": null,
+            "phone": null,
+            "additional_fields": {
+                "company_legal_name": null
+            }
+        },
+        "create_at": {
+            "value": "2024-08-01T02:18:42+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "currency": {
+            "id": "USD",
+            "name": "US Dollar",
+            "iso3": "USD",
+            "symbol_left": "$",
+            "symbol_right": "",
+            "rate": 1,
+            "avail": true,
+            "default": false
+        },
+        "shipping_address": {
+            "id": 1,
+            "type": "shipping",
+            "first_name": "",
+            "last_name": null,
+            "postcode": "",
+            "address1": "",
+            "address2": "",
+            "phone": "",
+            "phone_mobile": "",
+            "city": "Springfield",
+            "country": {
+                "code2": "US",
+                "code3": "USA",
+                "name": "United States of America"
+            },
+            "state": {
+                "code": "NY",
+                "name": "New York"
+            },
+            "company": null,
+            "fax": null,
+            "website": null,
+            "gender": null,
+            "region": null,
+            "default": true,
+            "tax_id": null,
+            "identification_number": null,
+            "alias": null,
+            "additional_fields": {
+                "is_residential": false,
+                "municipality": null
+            }
+        },
+        "billing_address": null,
+        "payment_method": {
+            "name": "Other"
+        },
+        "shipping_method": {
+            "name": "",
+            "additional_fields": {
+                "carrier": ""
+            }
+        },
+        "shipping_methods": [
+            {
+                "name": "",
+                "additional_fields": {
+                    "carrier": ""
+                }
+            }
+        ],
+        "status": {
+            "id": "Shipped",
+            "name": "Shipped",
+            "history": [],
+            "refund_info": null
+        },
+        "totals": null,
+        "total": {
+            "subtotal_ex_tax": 39.9,
+            "wrapping_ex_tax": 0,
+            "shipping_ex_tax": 0,
+            "total_discount": 0,
+            "total_tax": 3.09,
+            "total": 42.99,
+            "total_paid": null,
+            "additional_fields": {
+                "shipping_discount_ex_tax": 0,
+                "subtotal_discount_ex_tax": 0,
+                "tax_discount": null,
+                "subtotal_tax": 3.09,
+                "wrapping_tax": 0,
+                "shipping_tax": 0
+            }
+        },
+        "discounts": [],
+        "order_products": [
+            {
+                "product_id": "HUUUGE",
+                "order_product_id": "106151335804001",
+                "model": "HUUUGE",
+                "name": "Compact Gadget 322",
+                "price": 39.9,
+                "price_inc_tax": 39.9,
+                "quantity": 1,
+                "discount_amount": 0,
+                "total_price": 39.9,
+                "tax_percent": null,
+                "tax_value": 3.09,
+                "tax_value_after_discount": null,
+                "options": [],
+                "variant_id": null,
+                "weight_unit": "lb",
+                "weight": 0.24030386558,
+                "barcode": null,
+                "parent_order_product_id": null,
+                "additional_fields": {
+                    "asin": "B08714W67B",
+                    "gift_message_text": null,
+                    "gift_wrap_level": null,
+                    "condition": null,
+                    "condition_subtype_id": null,
+                    "condition_note": null,
+                    "price_designation": null,
+                    "height": 4.4499999955,
+                    "length": 12.559999987,
+                    "width": 5.7499999941,
+                    "dimmension_unit": "in",
+                    "is_gift": false,
+                    "gift_wrap_price": null,
+                    "cod_fee_price": null,
+                    "cod_fee_discount": null,
+                    "quantity_shipped": 1,
+                    "buyer_requested_cancel": {
+                        "is_buyer_requested_cancel": null,
+                        "buyer_cancel_reason": null
+                    },
+                    "scheduled_delivery_start_date": null,
+                    "scheduled_delivery_end_date": null,
+                    "shipping_price": null,
+                    "shipping_tax": null,
+                    "shipping_discount": null,
+                    "shipping_discount_tax": null,
+                    "promotion_discount": 0,
+                    "promotion_discount_tax": 0,
+                    "amazon_programs": []
+                }
+            }
+        ],
+        "bundles": [],
+        "modified_at": {
+            "value": "2024-08-01T14:19:54+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "finished_time": null,
+        "comment": null,
+        "store_id": "ATVPDKIKX0DER",
+        "warehouses_ids": [],
+        "refunds": [],
+        "gift_message": null,
+        "order_details_url": null,
+        "additional_fields": {
+            "order_type": "StandardOrder",
+            "shipment_service_level_category": "Expedited",
+            "fulfillment_channel": "AFN",
+            "sales_channel": "Amazon.com",
+            "ship_service_level": "Expedited",
+            "cba_displayable_shipping_label": null,
+            "replace_order_id": null,
+            "payment_method_details": "Standard",
+            "earliest_delivery_date": null,
+            "earliest_ship_date": {
+                "value": "2024-08-02T06:59:59+0000",
+                "format": "Y-m-d\\TH:i:sO"
+            },
+            "latest_delivery_date": null,
+            "latest_ship_date": {
+                "value": "2024-08-02T06:59:59+0000",
+                "format": "Y-m-d\\TH:i:sO"
+            },
+            "is_business_order": false,
+            "is_premium_order": false,
+            "is_prime": false,
+            "is_sold_by_a_b": false,
+            "is_replacements_order": false,
+            "is_global_express_enabled": false,
+            "has_regulated_items": false
+        }
+    }
+}

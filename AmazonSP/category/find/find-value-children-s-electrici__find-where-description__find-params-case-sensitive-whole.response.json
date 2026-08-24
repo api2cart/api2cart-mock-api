@@ -1,0 +1,14 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "categories_count": 1,
+        "category": [
+            {
+                "id": "3220",
+                "name": "Electricity & Electronics",
+                "description": "Children's Electricity Books"
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "q8gp8IwIN3Y3Ly13MnYq8AmqSvYOzUgvMS8s8M2vCsg0NjcLKQ3zdS5Lz3Q38zesSs6sLDcw9dCOyjUPdCtMKwAA"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "110588417416",
+                "name": "System test, please don't place an order）222 MY repayment goods for atome43243",
+                "description": "<p>PC_TEST_DESC#2023-0</p>",
+                "price": 666,
+                "categories_ids": [
+                    "105417"
+                ]
+            },
+            {
+                "id": "110588418325",
+                "name": "changed from inventory item for non unique sku test123 new value",
+                "description": "Lumia phone with a stunning 5.7 inch Quad HD display and a powerful octa-core processor.",
+                "price": 272.17,
+                "categories_ids": [
+                    "30120"
+                ]
+            },
+            {
+                "id": "110588418328",
+                "name": "System test, please don't place an order）222 MY repayment goods Not Unique Sku",
+                "description": "<p>PC_TEST_DESC#2023-0</p>",
+                "price": 777,
+                "categories_ids": [
+                    "105417"
+                ]
+            },
+            {
+                "id": "110588419419",
+                "name": "changed from inventory item",
+                "description": "description form inventory item string new value",
+                "price": 450,
+                "categories_ids": [
+                    "105417"
+                ]
+            },
+            {
+                "id": "110588423029",
+                "name": "changed from inventory item for non unique sku test123 777",
+                "description": "description 888",
+                "price": 1500,
+                "categories_ids": [
+                    "30120"
+                ]
+            },
+            {
+                "id": "110588426006",
+                "name": "changed from inventory item",
+                "description": "new_desc",
+                "price": 950,
+                "categories_ids": [
+                    "105417"
+                ]
+            },
+            {
+                "id": "110588426660",
+                "name": "Upd Test productTest111",
+                "description": "test description",
+                "price": 900,
+                "categories_ids": [
+                    "105417"
+                ]
+            },
+            {
+                "id": "110588426719",
+                "name": "Wireless Bluetooth Headphones",
+                "description": "High-quality wireless Bluetooth headphones with noise cancellation, 20 hours battery life, and ergonomic design.",
+                "price": 19.99,
+                "categories_ids": [
+                    "9355"
+                ]
+            },
+            {
+                "id": "110588427023",
+                "name": "Wireless Bluetooth Headphones",
+                "description": "High-quality wireless Bluetooth headphones with noise cancellation, 20 hours battery life, and ergonomic design.",
+                "price": 19.99,
+                "categories_ids": [
+                    "9355"
+                ]
+            },
+            {
+                "id": "110588427025",
+                "name": "System test, 5555555-newskufor-category183050 description",
+                "description": "5555555-newskufor-category183050 description",
+                "price": 99.99,
+                "categories_ids": [
+                    "9355"
+                ]
+            }
+        ]
+    }
+}

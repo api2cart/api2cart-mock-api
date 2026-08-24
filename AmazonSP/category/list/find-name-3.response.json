@@ -1,0 +1,195 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJdoIwFADQD2JBNQktiy4QlEFkMEgJO0gegp6WIUjAr%2B%2B9FAKF%2BntMDEjeGlkEfj%2BugRFuN%2BDRIZ3XE7doNReTyKkVd1%2FrGbJ9M5Tjn9MRz4E2uuINi0rPZaRtOuHGDmNdmiSFy9Sz4rFAZs3lS2ZLaAYusct8x%2Ba8dJ%2BZLwoTkpdanPpSr40CxFGXp03X6uhDpT%2FFjBzPqytKC6pVvvClIKFn%2Bxm3n8s5ThU%2BCjiOEqmQMHbyo%2F7TFQdb%2FraJwYc96xUermy4jxM4N5Go738%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16262851",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Action & Adventure",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a1c4feeb.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851"
+                    ],
+                    "children_ids": [
+                        "16263051",
+                        "16263261",
+                        "16263471",
+                        "44067011",
+                        "44069011",
+                        "44070011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "45980011",
+                "parent_id": "16262841",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Action & Adventure TV",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-cd4df887.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,TV,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16262841,45980011"
+                    ],
+                    "children_ids": [
+                        "45981011",
+                        "45983011"
+                    ],
+                    "parent_ids": [
+                        "16262841"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "2967",
+                "parent_id": "4",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Children's Action & Adventure Books",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-e25f4229.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "juv001000"
+                    ],
+                    "browse_path_by_name": [
+                        "Books,Children's Books,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,4,2967"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "4"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            },
+            {
+                "id": "16926943011",
+                "parent_id": "3014",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Children's Action & Adventure Comics & Graphic Novels",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-514d48da.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "juv008040"
+                    ],
+                    "browse_path_by_name": [
+                        "Books,Children's Books,Comics & Graphic Novels,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,4,3014,16926943011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3014"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            },
+            {
+                "id": "8944269011",
+                "parent_id": "3114",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Action & Adventure",
+                "short_description": null,
+                "description": "Children's Christian Action & Adventure Fiction",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-b7add6d4.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "juv033040"
+                    ],
+                    "browse_path_by_name": [
+                        "Books,Children's Books,Literature & Fiction,Religious Fiction,Christian,Action & Adventure",
+                        "Books,Children's Books,Religions,Christianity,Fiction,Action & Adventure",
+                        "Books,Children's Books,Religions,Religious Fiction,Christian,Action & Adventure",
+                        "Books,Religion & Spirituality,Christian Books & Bibles,Children's & Teens,Children's,Fiction,Action & Adventure"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,4,2966,3113,3114,8944269011",
+                        "283155,1000,4,3101,172820,3114,8944269011",
+                        "283155,1000,4,3101,3113,3114,8944269011",
+                        "283155,1000,22,12290,5412659011,172820,3114,8944269011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "3114"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            }
+        ]
+    }
+}

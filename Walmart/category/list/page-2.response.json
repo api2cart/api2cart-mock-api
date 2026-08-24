@@ -1,0 +1,31 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "c49MDwjO13b3MktODwnzN9BOyS72MXR2s%2FTLyw0oS0wrjUw1cwn3czI390ozyC0Nz%2FN1dUq0zI3KySsJqDRNdNGOTHUJLy8PSUlOqkoMjAjOD0sp88x1Mo8sC4nI8%2FAyCzcrNHXTzvfOiCq3BQA%3D",
+        "next": "c49MDwjO13b3MktODwnzN9BOyS72MXR2s%2FTLyw0oS0wrjUw1cwn3czI39%2FQpyc4JiEx0DPFKCi%2F09KjKzww0CvT0sAw19CmNDDdNzvV2CXQ2CDN1MnYKdPFwMjEsLjNItixwMjD2dcxxqnK0BQA%3D"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "56f2eb66208f9a06158f1748",
+                "parent_id": "0",
+                "name": "Animal Other",
+                "description": null
+            },
+            {
+                "id": "571fdff7208f9a0cdb760a7f",
+                "parent_id": "0",
+                "name": "Art & Craft",
+                "description": null
+            },
+            {
+                "id": "559cdf7e208f9a58e140ee8d",
+                "parent_id": "0",
+                "name": "Baby Clothing",
+                "description": null
+            }
+        ]
+    }
+}

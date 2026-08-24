@@ -1,0 +1,94 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "S43ULisoCC43SY3SDsxOzXYPTAp0MQs3zawqqNDOLk7JsygqNXUPCqxwDTQtNw3JS0w1SCsN9C4vq0jyrTJLDQUA"
+    },
+    "result": {
+        "coupon_count": 1,
+        "coupon": [
+            {
+                "id": "5060902",
+                "code": null,
+                "codes": [],
+                "name": "test",
+                "description": null,
+                "actions": [
+                    {
+                        "scope": "order",
+                        "apply_to": "item_price",
+                        "amount": 10,
+                        "currency_code": "USD",
+                        "include_tax": "False",
+                        "type": "fixed",
+                        "discounted_quantity": null,
+                        "discount_quantity_step": null,
+                        "logic_operator": "AND",
+                        "conditions": [],
+                        "additional_attributes": [
+                            {
+                                "max_discount_amount": null,
+                                "tier_price1": null,
+                                "disp_tier_price1": null,
+                                "tier_discount_rate1": null,
+                                "tier_price2": null,
+                                "disp_tier_price2": null,
+                                "tier_discount_rate2": null,
+                                "tier_price3": null,
+                                "disp_tier_price3": null,
+                                "tier_discount_rate3": null
+                            }
+                        ]
+                    }
+                ],
+                "date_start": "2025-08-07 14:50:24",
+                "date_end": "2026-08-07 04:00:00",
+                "avail": "True",
+                "priority": 0,
+                "used_times": null,
+                "usage_limit": null,
+                "usage_limit_per_customer": null,
+                "logic_operator": null,
+                "conditions": [
+                    {
+                        "id": "1",
+                        "entity": "product",
+                        "match_items": "any_item",
+                        "key": "item_type",
+                        "operator": "==",
+                        "value": "all",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    },
+                    {
+                        "id": "2",
+                        "entity": "customer",
+                        "match_items": "any_item",
+                        "key": "buyer_name",
+                        "operator": "==",
+                        "value": "bb2286604",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    },
+                    {
+                        "id": "3",
+                        "entity": "product",
+                        "match_items": "any_item",
+                        "key": "on_sale",
+                        "operator": "!=",
+                        "value": "1",
+                        "logic_operator": null,
+                        "sub-conditions": []
+                    }
+                ],
+                "usage_history": [],
+                "additional_attributes": [
+                    {
+                        "status": "Open"
+                    }
+                ]
+            }
+        ]
+    }
+}

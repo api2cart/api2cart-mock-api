@@ -1,0 +1,247 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHBDoIgAADQD%2BIQkDg7ZmYpmJaIg2NTUcqVLnHy9b1Xtum6%2F%2Bic%2BG3hALGN58yDCrzA4iS%2FWuL4im5h8ASBgbwTOoRp5hBLNpV16ufWw2456nr0%2B%2FNYcXrhi8h79B5iSoCtjDWynFjLaqgojuYtAsHUJPZusUDzSw6J9wc%3D"
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16261641",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Amazon Instant Video",
+                "short_description": null,
+                "description": "",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a0f44d4e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video"
+                    ],
+                    "browse_path_by_id": [
+                        "16261641"
+                    ],
+                    "children_ids": [
+                        "16386761",
+                        "16262841"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "2619526011",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Appliances",
+                "short_description": null,
+                "description": "Large Appliances",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-e6e76046.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Appliances"
+                    ],
+                    "browse_path_by_id": [
+                        "2619526011"
+                    ],
+                    "children_ids": [
+                        "3741271",
+                        "18116205011",
+                        "18116199011",
+                        "18116194011",
+                        "289935",
+                        "3741181",
+                        "18116197011",
+                        "17921061011",
+                        "289913",
+                        "18116203011"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": "POTABLE_WATER_FILTER,JUICER,ELECTRIC_LIGHT,COUNTERTOP_GRIDDLE_APPLIANCE,ELECTRONIC_COMPONENT_FAN,LAUNDRY_HAMPER,PITCHER,POPCORN_POPPER,SODA_MAKER,BOTTLE_OPENER,ELECTRIC_FOOD_MILL_GRINDER,FOOD_OR_BEVERAGE_WARMER,VACUUM_FILTER,FOOD_MIXER,DRYER,BASKET,REFRIGERATOR,REFRIGERATION_APPLIANCE,ITEM_STAND,COFFEE_FILTER,ICE_CREAM_MAKER,WATER_PUMP,FOOD_SLICER,ICE_MAKER,SLOW_COOKER,HUMIDITY_METER,LAUNDRY_APPLIANCE,HOME_LIGHTING_ACCESSORY,VACUUM_SEALER_MACHINE,SMALL_HOME_APPLIANCES,WASHER_DRYER_COMBINATION,HVAC_AIR_FILTER,STORAGE_DRAWER,HARDWARE_CLAMP_VISE,FOOD_BLENDER,APPLIANCE_ACCESSORY,ELECTRONIC_KNOB,WASHER,SEASONING_MILL,ELECTRIC_WATER_BOILER,REMOTE_CONTROL,RANGE,KITCHEN,KNIFE,PRESSURE_COOKER,HARDWARE_TUBING,FOOD_MILL_GRINDER,PLUMBING_FIXTURE,MOUNT_BRACKET,VACUUM_CLEANER_BAG,BEVERAGE_DISPENSING_APPLIANCE,HANGING_ORNAMENT,MICROWAVE_OVEN,DEEP_FRYER,COUNTERTOP_FOOD_STEAMER,POWER_CORD,FREEZER,BREAD_MAKING_MACHINE,IRONING_BOARD_COVER,BUILDING_MATERIAL,ELECTRIC_MOTOR,AIR_FRYER,ELECTRONIC_SWITCH,FOOD_DEHYDRATOR,SOUS_VIDE_MACHINE,DISHWASHER,COOKING_OVEN,COOKTOP,TOASTER,MAJOR_HOME_APPLIANCES,COFFEE_MAKER,COUNTERTOP_BURNER,HOSE_PIPE_FITTING,COUNTERTOP_OVEN,TIMER,TRASH_COMPACTOR,FOOD_PROCESSOR,VENT_HOOD,HARDWARE_HANDLE,MECHANICAL_BELT,THERMOMETER,RICE_COOKERS,O_RINGS,HOME,TOOLS"
+                }
+            },
+            {
+                "id": "9209898011",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Apps & Games",
+                "short_description": null,
+                "description": "Apps & Games",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-a4d09fdf.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "mobile-software-applications"
+                    ],
+                    "browse_path_by_name": [
+                        "Apps & Games"
+                    ],
+                    "browse_path_by_id": [
+                        "9209898011"
+                    ],
+                    "children_ids": [
+                        "9408444011",
+                        "10298305011",
+                        "9408466011",
+                        "9408481011",
+                        "9408490011",
+                        "9408433011",
+                        "9408523011",
+                        "9209902011",
+                        "9408749011",
+                        "9408582011",
+                        "9408710011",
+                        "10298309011",
+                        "9408805011",
+                        "10298306011",
+                        "9408765011",
+                        "9408771011",
+                        "9408802011",
+                        "9408852011",
+                        "9408874011",
+                        "9408449011",
+                        "9408491011",
+                        "9408875011",
+                        "9408464011",
+                        "9408876011",
+                        "10298308011",
+                        "9408785011",
+                        "9408914011",
+                        "9408850011"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": "MOBILE_APPLICATION,MOBILE_APPLICATION_ADD_ON"
+                }
+            },
+            {
+                "id": "2617942011",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Arts, Crafts & Sewing",
+                "short_description": null,
+                "description": "Arts & Crafts",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-c138b997.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Arts, Crafts & Sewing"
+                    ],
+                    "browse_path_by_id": [
+                        "2617942011"
+                    ],
+                    "children_ids": [
+                        "12896081",
+                        "378733011",
+                        "12899121",
+                        "12896841",
+                        "723452011",
+                        "12897221",
+                        "23539912011",
+                        "2237329011",
+                        "2237594011",
+                        "2747968011",
+                        "723469011",
+                        "12898451",
+                        "12898821",
+                        "12899091"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": "CRAFT_HOOP_FRAME,MAGNIFIER,ADHESIVE_TAPES,MANNEQUIN_CLOTHING_FORM,CLEANING_AGENT,TABLE,TASK_TRAY,ART_SUPPLIES,SEWING_TOOL_SET,PICTURE_HANGER,HAND_SEWING_NEEDLE,PRESSER_FOOT,ZIPPER_FASTENER,GIFT_WRAP,SNAP_FASTENER,TAPE_MEASURE,KNITTING_NEEDLE,HOT_GLUE_GUN,ART_EASEL,OFFICE_PRODUCTS,FABRIC_APPLIQUE_PATCH,MINIATURE_TOY_BUILDING,LIQUID_INK,WHEEL_CUTTER,STICKER_DECAL,DRYING_RACK,PILLOW,HANGING_ORNAMENT,IRON_ON_TRANSFER_DESIGN,DYE,UTILITY_SPONGE,NON_RIDING_TOY_VEHICLE,CHISEL,RUG,CHARM,DOLL_CLOTHING,YARN,SEWING_BUTTON,HEAT_PRESS,CRAFT_BEAD,UTILITY_KNIFE,SHEET_PAPER,CRAFT_WOOD,PAINT_BRUSH,BANNER,CADDY,CORD_ROPE,RULER,TABLECLOTH,CRAFT_WRAPPING_TISSUE_PAPER,HOBBIES,CRAFT_MOLD,FABRIC,CROCHET_HOOK,DESK,JEWELRY_FINDING,GLITTER,DECORATIVE_RIBBON_TRIM,HOOK_LOOP_FASTENER,TILE,CARRIER_BAG_CASE,PLIERS,ART_MEDIA_PAPER,MACHINE_LUBRICANT,CUTTING_BOARD,FLAME_WICK,BALLOON,HOLE_PUNCH,CONFETTI,LABEL,DISPLAY_ALBUM,SCISSORS,THREAD_CORD,SCULPTING_MATERIAL,BASKET,WORKBENCH,GAMES,MARKING_PEN,HAMMER_MALLET,TEMPLATE_STENCIL,GREETING_CARD,DIE_CUT_MACHINE,FIGURINE,AIR_COMPRESSOR,WIRE,CARD_STOCK,SEALANT,WRITING_INSTRUMENT,PAINT,REINFORCED_ART_SURFACE,CABINET,TOY_MODEL_VEHICLE_TRACK,DECORATIVE_POM_POM,DECORATIVE_CUTOUT,ART_CRAFT_KIT,BONDING_ADHESIVES,GARLAND,SEWING_PATTERN,STORAGE_BOX,BUCKLE,SEWING_MACHINE_NEEDLE,SQUEEGEE,TOY_VEHICLE_SET,LIGHT_BOX,HEALTH_PERSONAL_CARE,ERASER,PALETTE_PUTTY_KNIFE,SCULPTURE,SEWING_MACHINE,BLANK_BOOK,PENCIL_SHARPENER,SHARP_PIN,LAMP,RUBBER_STAMP,HOME"
+                }
+            },
+            {
+                "id": "15690151",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Automotive",
+                "short_description": null,
+                "description": "Automotive",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-2c35c2b5.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Automotive"
+                    ],
+                    "browse_path_by_id": [
+                        "15690151"
+                    ],
+                    "children_ids": [
+                        "15718271",
+                        "2230642011",
+                        "15857511",
+                        "15857501",
+                        "15736321",
+                        "346333011",
+                        "15718791",
+                        "13591416011",
+                        "15710351",
+                        "15719731",
+                        "2258019011",
+                        "15706571",
+                        "15706941"
+                    ],
+                    "parent_ids": [
+                        0
+                    ],
+                    "product_types": "AUTO_PART"
+                }
+            }
+        ]
+    }
+}

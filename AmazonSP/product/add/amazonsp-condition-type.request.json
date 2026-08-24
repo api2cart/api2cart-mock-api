@@ -1,0 +1,26 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "test_add1_B0BGYBX3LK",
+        "asin": "B0BGYBX3LK",
+        "price": 366,
+        "quantity": 1,
+        "marketplace_item_properties": {
+            "condition_type": [
+                {
+                    "value": "used_like_new",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ],
+            "item_name": [
+                {
+                    "language_tag": "en_US",
+                    "value": "iPhone 13 Pro, 256GB, Graphite - Unlocked (Renewed Premium)",
+                    "marketplace_id": "ATVPDKIKX0DER"
+                }
+            ]
+        }
+    }
+}

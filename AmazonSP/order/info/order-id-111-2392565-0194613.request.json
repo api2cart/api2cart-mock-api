@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-06T12:29:14Z",
+    "method": "GET",
+    "endpoint": "order.info.json",
+    "query": {
+        "order_id": "111-2392565-0194613",
+        "response_fields": "{*}"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "category": [
+            {
+                "id": "3",
+                "name": "snacks & chips"
+            },
+            {
+                "id": "4",
+                "name": "meat substitutes"
+            }
+        ]
+    }
+}

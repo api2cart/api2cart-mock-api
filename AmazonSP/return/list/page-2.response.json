@@ -1,0 +1,63 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHLloIgAADQD3Kh%2BYhatDDlaNBUmDrJTp18AD5K0%2BDr595ic69XbTfs0ZS4VyKy8hbWceVx8e7TIImR7TF%2BmaMqtLmbzZlmQhj3e2fbKtAqcRq5fs7B4rthyYBIkN4ag1dYvzLhWlsRxxDAGp0HXkaST7Yb0OP6KICflay5G1YihfwuK2DvClOTDFEKyW1NkUKisMxGYK4WR99i%2FPliCnWQGsN7Dht9%2FfSQeYq9nnJ8%2Bg2PlIJC4I7a40tHftfR8CzZyCRt8%2BlFhoAVjTTJR%2Fx5P0NwDb4nNNHyzFY%2F3qV5e3SiCc7m5tJLpKkurw%2BHfw%3D%3D",
+        "next": "BcFfg0IwAADwD3QPSyIeetC0iLrl32xvZi6kQ2Rnn%2F5%2BP67FD%2Fll9fZlSp3ve0dL7D3ibJYbkrRe1cBSeL%2BLj42t61NXBQmpoH4HCBO008UxDzE8sRjgnzFcDBm4%2BzoNinoL8jE2MVrn93kwzIj3usXoLWhQey3ERXP%2FsmW%2FKHc38P7k3I6scyT8PEGLrJyOfnrvOx4c31cZ%2BimGWVO8JoQVNWduz9a5fBJvQsMr7HXRXBZR2ECqJrLr4jOta0LFGCvG7HKFfbxlcI%2FNKDLfhAyynqqc1lWgMtYRubaKK98YARy6KWnA5mxpFReR8zgc%2FgE%3D"
+    },
+    "result": {
+        "total_count": 20,
+        "returns": [
+            {
+                "id": "068866a223a869b3b440cb6870e4d8da",
+                "order_products": [
+                    {
+                        "product_id": "60_DRIVER",
+                        "order_product_id": "165536153682641",
+                        "sku": "60_DRIVER",
+                        "name": "Heavy-Duty Device 830",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "CR-ORDERED_WRONG_ITEM",
+                            "name": "CR-ORDERED_WRONG_ITEM"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "asin": "B0H8XGBKB3",
+                            "in_policy": "Y",
+                            "resolution": "StandardRefund",
+                            "refund_amount": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "a66e0838858abfa7327bfbbe51c3ef39",
+                "order_products": [
+                    {
+                        "product_id": "HC-STF-IN-HY",
+                        "order_product_id": "163989086562761",
+                        "sku": "HC-STF-IN-HY",
+                        "name": "Premium Accessory Set 129",
+                        "quantity": 1,
+                        "reason": {
+                            "id": "AMZ-PG-BAD-DESC",
+                            "name": "AMZ-PG-BAD-DESC"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": null,
+                        "additional_fields": {
+                            "asin": "B09LCFHKWV",
+                            "in_policy": "Y",
+                            "resolution": "RefundAtFirstScan",
+                            "refund_amount": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

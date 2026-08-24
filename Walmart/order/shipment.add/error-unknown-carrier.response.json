@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Carrier Id = dhl_express not found! You can use carrier ids: ups,usps,fedex,airborne,ontrac,dhl_ecommerce_us,dhl,ls,uds,upsmi,fdx,pilot,estes,saia,fds_express,seko_worldwide,hit_delivery,fedexsp,rl_carriers,metropolitan_warehouse_delivery,china_post,yunexpress,yellow_freight_sys,ait_worldwide_logistics,chukou1,sendle,landmark_global,sunyou,yanwen,4px,gls,osm_worldwide,first_mile,am_trucking,ceva,india_post,sf_express,cne,tforce_freight,axlehire,lso,royal_mail,abf_freight_system,wanb,roadrunner_freight,meyer_distribution,aaa_cooper,canada_post,southeastern_freight_lines,japan_post,correos_de_mexico,xpo_logistics,jd_logistics,ydh,jcex,flyt,deutsche_post,better_trucks,asendia,sfc,ubi,epost_global,yf_logistics,rxo,estes_express,shypmax,win_it_america,pitt_ohio,postnord_sweden,equick,whistl,tusou,shiprocket,dtdc,pts",
+    "result": {}
+}

@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-04T13:13:26Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "fulfillment_status": "shipped_and_not_delivered",
+        "count": 10
+    }
+}

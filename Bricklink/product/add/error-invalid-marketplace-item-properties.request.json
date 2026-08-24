@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "1435-1",
+        "product_type": "SET",
+        "description": "Test part description",
+        "price": 25.5,
+        "quantity": 5,
+        "min_order_quantity": 2,
+        "condition": "used",
+        "marketplace_item_properties": "{\"color_id\":asdasd,\"completeness\":\"Incomplete\",\"is_retain\":false,\"is_stock_room\":false,\"remarks\":\"Test remark\"}"
+    }
+}

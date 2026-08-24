@@ -1,0 +1,27 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "K/NyLy52rSqMMEosKHDxcPYrdwk0yMv0jgqvCowqNDH39TAqyXZOzDJ3q8z0DDAwcclxSor0L8z08Svzc9VPKTbI9sz09bHQNzKLMvILTrL0TSoxt3C0tQUA"
+    },
+    "result": {
+        "category": [
+            {
+                "id": "1",
+                "parent_id": "18",
+                "name": "soups & broths"
+            },
+            {
+                "id": "2",
+                "parent_id": "18",
+                "name": "nuts & seeds"
+            },
+            {
+                "id": "3",
+                "parent_id": "18",
+                "name": "snacks & chips"
+            }
+        ]
+    }
+}

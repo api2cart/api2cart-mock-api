@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "CURTAIN327duo10",
+        "status": "enabled",
+        "report_request_id": "ATVPDKIKX0DER51885019798"
+    }
+}

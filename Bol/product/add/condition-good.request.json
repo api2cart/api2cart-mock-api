@@ -1,0 +1,15 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Waterfles met Uitneembaar Pillendoosje - 600 ml - Blauw - Vaatwasser bestendig",
+        "sku": "A2C-BOTTLE-002-USED",
+        "ean": "8719748312673",
+        "price": 11.99,
+        "quantity": 3,
+        "condition": "GOOD",
+        "condition_description": "Lightly used, no scratches, original cap included.",
+        "delivery_code": "2-3d"
+    }
+}

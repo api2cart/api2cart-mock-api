@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-10T11:24:18Z",
+    "method": "GET",
+    "endpoint": "order.count.json",
+    "query": {
+        "modified_from": "2025-12-25"
+    }
+}

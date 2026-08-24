@@ -1,0 +1,127 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "1729779448494136200",
+        "type": "simple",
+        "u_sku": "big_vibrant_baloon",
+        "name": "test",
+        "description": "<p>Bring your celebrations to life with our Vibrant Party Balloon Set! Perfect for any occasion, from birthday bashes to graduation parties, this set includes a mix of colorful confetti-filled balloons and solid-colored balloons in vibrant shades of red, blue, yellow, and green.</p><p><strong>Features:</strong></p><ul><li><strong>Premium Quality:</strong> Made from high-quality latex, these balloons are durable and designed to last throughout your event.</li><li><strong>Colorful Variety:</strong> Each set contains 20 balloons - 10 confetti-filled and 10 solid color, providing a festive variety that brightens any room.</li><li><strong>Perfect Size:</strong> Each balloon inflates up to 12 inches, making them the ideal size for both indoor and outdoor decorations.</li><li><strong>Easy to Use:</strong> Balloons are easy to inflate and set up. They can be filled with air or helium depending on your decoration needs.</li></ul><p>Add a splash of color and excitement to your next event with our Vibrant Party Balloon Set. Ideal for decorators, party planners, or anyone looking to add a festive touch to their gatherings!</p>",
+        "short_description": null,
+        "price": 17.66,
+        "advanced_price": [],
+        "cost_price": null,
+        "unit_price": null,
+        "measure_unit": null,
+        "quantity": 7,
+        "inventory": [
+            {
+                "warehouse_id": "7381927049415739168",
+                "quantity": 7,
+                "in_stock": true,
+                "priority": null
+            }
+        ],
+        "group_items": [],
+        "u_brand_id": "7032167956327073537",
+        "u_brand": "unbranded、",
+        "categories_ids": [
+            "600001",
+            "852488",
+            "600017"
+        ],
+        "stores_ids": [
+            "7495811849164131208"
+        ],
+        "seo_url": null,
+        "meta_title": null,
+        "meta_keywords": null,
+        "meta_description": null,
+        "avail_sale": true,
+        "avail_view": true,
+        "is_virtual": null,
+        "is_downloadable": null,
+        "weight": 6.99,
+        "weight_unit": "kg",
+        "sort_order": null,
+        "in_stock": true,
+        "backorders": null,
+        "manage_stock": null,
+        "is_stock_managed": null,
+        "on_sale": null,
+        "create_at": {
+            "value": "2026-03-13T12:26:10+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_at": {
+            "value": "2026-03-13T14:46:01+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "tax_class_id": null,
+        "special_price": null,
+        "tier_price": [],
+        "group_price": [],
+        "images": [
+            {
+                "id": "ed6299b2ef841a17c6ed71cf3b9660a9",
+                "http_path": "https://picsum.photos/seed/c79bfec5/600/600",
+                "file_name": "20ce1e572d3141618884333d0ed255b4~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 0,
+                "type": "IMAGE_TYPE_BASE"
+            },
+            {
+                "id": "ed6299b2ef841a17c6ed71cf3b9660a9",
+                "http_path": "https://picsum.photos/seed/c79bfec5/600/600",
+                "file_name": "20ce1e572d3141618884333d0ed255b4~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 1,
+                "type": "IMAGE_TYPE_ADDITIONAL"
+            }
+        ],
+        "product_options": [],
+        "u_upc": "036000291452",
+        "u_mpn": null,
+        "u_gtin": null,
+        "u_isbn": null,
+        "u_ean": null,
+        "related_products_ids": [],
+        "up_sell_products_ids": [],
+        "cross_sell_products_ids": [],
+        "dimensions_unit": "cm",
+        "width": 14,
+        "height": 12,
+        "length": 13,
+        "discounts": [],
+        "additional_fields": {
+            "status": "ACTIVATE",
+            "is_cod_allowed": false,
+            "is_not_for_sale": false,
+            "sale_price": 17.66,
+            "is_global_product": false,
+            "local_products": [],
+            "specifics": [],
+            "certifications": [],
+            "size_chart": {
+                "image": null,
+                "template": null
+            },
+            "manufacturer_ids": [
+                "69b400878c0aa58af419c2e0"
+            ],
+            "responsible_person_ids": [
+                "69b3ffec0eba7ac01d19b1a3"
+            ]
+        }
+    }
+}

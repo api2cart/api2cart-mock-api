@@ -1,0 +1,72 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "sku": "mock-batch-multi-1",
+                "name": "Mock Batch Multi Item Sneakers",
+                "description": "Batch item 1 - sneakers with brand specific",
+                "categories_ids": [
+                    "105417"
+                ],
+                "price": 39.99,
+                "quantity": 4,
+                "condition": "NEW",
+                "specifics": [
+                    {
+                        "name": "Brand",
+                        "value": "Unbranded"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-multi-1/800"
+                    }
+                ]
+            },
+            {
+                "sku": "mock-batch-multi-2",
+                "name": "Mock Batch Multi Item Jacket",
+                "description": "Batch item 2 - jacket, different category",
+                "categories_ids": [
+                    "183050"
+                ],
+                "price": 55,
+                "quantity": 2,
+                "condition": "USED_GOOD",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-multi-2/800"
+                    }
+                ]
+            },
+            {
+                "sku": "mock-batch-multi-3",
+                "name": "Mock Batch Multi Item Vintage Toy",
+                "description": "Batch item 3 - collectible with material specifics",
+                "categories_ids": [
+                    "162925"
+                ],
+                "price": 15.5,
+                "quantity": 1,
+                "condition": "USED_ACCEPTABLE",
+                "specifics": [
+                    {
+                        "name": "Material",
+                        "values": [
+                            "Plastic",
+                            "Metal"
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-multi-3/800"
+                    }
+                ]
+            }
+        ]
+    }
+}

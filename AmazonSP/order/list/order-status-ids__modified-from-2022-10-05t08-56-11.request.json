@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-07T11:49:40Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "order_status_ids": [
+            "Shipped",
+            "Unshipped"
+        ],
+        "modified_from": "2022-10-05T08:56:11"
+    }
+}

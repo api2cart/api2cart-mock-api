@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-04T13:14:09Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "sku": "bag_01",
+        "count": 10
+    }
+}

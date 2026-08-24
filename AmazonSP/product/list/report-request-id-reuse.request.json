@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-06T16:27:39Z",
+    "method": "GET",
+    "endpoint": "product.list.json",
+    "query": {
+        "count": 3,
+        "response_fields": "{return_code,return_message,result{product{id,u_asin}}}",
+        "report_request_id": "ATVPDKIKX0DER171122020671"
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": "Initech",
+        "url": null,
+        "version": null,
+        "bridge_version": null,
+        "default_rounding_precision": 4,
+        "db_prefix": null,
+        "stores_info": [
+            {
+                "store_id": "7495811849164131208",
+                "name": "Initech",
+                "language": "en",
+                "store_languages": [
+                    {
+                        "id": "en-US",
+                        "iso_code": "en",
+                        "name": "English"
+                    },
+                    {
+                        "id": "en-GB",
+                        "iso_code": "en",
+                        "name": "English"
+                    },
+                    {
+                        "id": "id-ID",
+                        "iso_code": "id",
+                        "name": "Bahasa Indonesia"
+                    },
+                    {
+                        "id": "ms-MY",
+                        "iso_code": "ms",
+                        "name": "Bahasa Melayu"
+                    },
+                    {
+                        "id": "th-TH",
+                        "iso_code": "th",
+                        "name": "ไทย"
+                    },
+                    {
+                        "id": "vi-VN",
+                        "iso_code": "vi",
+                        "name": "Tiếng Việt"
+                    },
+                    {
+                        "id": "zh-CN",
+                        "iso_code": "zh",
+                        "name": "中文"
+                    }
+                ],
+                "currency": {
+                    "id": "GBP",
+                    "name": "British Pound Sterling",
+                    "iso3": "GBP",
+                    "symbol_left": "£",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                },
+                "store_currencies": [
+                    {
+                        "id": "GBP",
+                        "name": "British Pound Sterling",
+                        "iso3": "GBP",
+                        "symbol_left": "£",
+                        "symbol_right": "",
+                        "rate": 1,
+                        "avail": true,
+                        "default": true
+                    }
+                ],
+                "timezone": "UTC",
+                "country": "United Kingdom",
+                "root_category_id": null,
+                "multi_store_url": null,
+                "active": true,
+                "weight_unit": null,
+                "dimension_unit": null,
+                "prices_include_tax": null,
+                "carrier_info": [
+                    {
+                        "id": "7021769596919088897",
+                        "name": "TT Virtual# Evri",
+                        "active": true,
+                        "shipping_methods": []
+                    }
+                ],
+                "store_owner_info": {
+                    "owner": "Jordan Brown",
+                    "country": "United Kingdom",
+                    "state": null,
+                    "state_code": null,
+                    "city": "Riverton",
+                    "street_address": "111 Example St",
+                    "street_address_line_2": null,
+                    "zip_code": "96717",
+                    "email": null,
+                    "phone": "+12705089965"
+                },
+                "default_warehouse_id": "7381927049415739168",
+                "channels": [],
+                "pickup_locations": [],
+                "additional_fields": {
+                    "cipher": "GCP_SdQ_igAAAAD31BLcFEJ_VzYUpbTSkBZm",
+                    "code": "GBLCXA7WJW",
+                    "seller_type": "LOCAL",
+                    "region": "NY"
+                }
+            }
+        ],
+        "warehouses": [
+            {
+                "id": "7381926642169890592",
+                "name": "Sandbox GB Local Return warehouse",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "96717",
+                    "address1": "111 Example St",
+                    "address2": "",
+                    "phone": "+12705089965",
+                    "phone_mobile": "",
+                    "city": "Bristol",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "additional_fields": {
+                    "delivery_options": []
+                }
+            },
+            {
+                "id": "7381927049415739168",
+                "name": "Sandbox GB Local Sales warehouse",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "96717",
+                    "address1": "111 Example St",
+                    "address2": "",
+                    "phone": "+12705089965",
+                    "phone_mobile": "",
+                    "city": "Riverton",
+                    "country": {
+                        "code2": "GB",
+                        "code3": "GBR",
+                        "name": "United Kingdom"
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [
+                    "7021769596919088897"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "additional_fields": {
+                    "delivery_options": [
+                        {
+                            "description": "TT-Virtual-Hermes-GB-DS-sta",
+                            "dimension_limit": {
+                                "max_height": 80,
+                                "max_length": 120,
+                                "max_width": 100,
+                                "unit": "CM"
+                            },
+                            "id": "7031156220157232897",
+                            "name": "ecom_logistics_type_Standard",
+                            "platform": [
+                                "TIKTOK_SHOP"
+                            ],
+                            "type": "STANDARD",
+                            "weight_limit": {
+                                "max_weight": 50000,
+                                "min_weight": 10,
+                                "unit": "GRAM"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "shipping_zones": [],
+        "additional_fields": {
+            "manufacturers": [
+                {
+                    "id": "69b400878c0aa58af419c2e0",
+                    "regional_profiles": [
+                        {
+                            "email": "user10150@example.com",
+                            "name": "John Doe",
+                            "address": "599 Example St",
+                            "locale": "en-IE",
+                            "phone": "+12715803590",
+                            "registered_trade_name": "TikTok Shop"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b400a85d03ba20204d7d50",
+                    "regional_profiles": [
+                        {
+                            "email": "user10150@example.com",
+                            "name": "Janeth Johnson",
+                            "address": "282 Example St",
+                            "locale": "en-IE",
+                            "phone": "+10650234844",
+                            "registered_trade_name": ""
+                        }
+                    ]
+                }
+            ],
+            "responsible_persons": [
+                {
+                    "id": "69b3ffec0eba7ac01d19b1a3",
+                    "regional_profiles": [
+                        {
+                            "email": "user3923@example.com",
+                            "name": "John Doe",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "807 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+11783910046"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b4001b896a070e8b9f7117",
+                    "regional_profiles": [
+                        {
+                            "email": "user21226@example.com",
+                            "name": "Meggy Baker",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "941 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+11594947467"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b4003fd461ea676edeffae",
+                    "regional_profiles": [
+                        {
+                            "email": "user66864@example.com",
+                            "name": "Jack Johnson",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "112 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+12643906680"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

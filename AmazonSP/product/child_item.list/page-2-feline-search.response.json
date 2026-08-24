@@ -1,0 +1,20 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "DcLLlkMwAADQD5oFrYhaIt5G0fHcaWg8gjMY0nx959wrupnMt%2FNXHYjwHmNJ%2BYoSgXudZT%2BhjdHITMKnLQ74BRIdyyfWpnfoldXW8yhmDSqrUKxViA3p8WIJLHqxL22Ii8Y2haWas731HFbf0siZoTmjA6xThE4Aa4IC4YKB1TYLdWiOdUo1788aQGrPMvwxm%2BP2Xl%2FhN9jO3kt1hfpWXHa%2BCp%2FDYqgRF62JRHKya%2F3hlA%2BMhCosaD7%2Bw6TW3UnbQZ1LrdAaRewU2WpcO8Z2XzHX6z2QRBW4aWrc5Q8%3D",
+        "next": null
+    },
+    "result": {
+        "total_count": 1,
+        "children": [
+            {
+                "id": "test-var-QA05",
+                "parent_id": "B000JOE224-PARENT-APP",
+                "sku": "test-var-QA05",
+                "url": "https://store-ddb037b0.example.com/",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsGiant - Flavour (Coconut)"
+            }
+        ]
+    }
+}

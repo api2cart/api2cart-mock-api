@@ -1,0 +1,36 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "2126191616",
+                "type": null,
+                "u_asin": null,
+                "u_ean": "0711719504351",
+                "u_gtin": "0711719504351",
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": "0711719504351",
+                "name": "Sony Dualshock 4 Controller for PlayStation 4 Green Camo",
+                "description": null,
+                "url": null,
+                "price": null,
+                "product_options": [],
+                "manufacturer": null,
+                "brand": "Sony",
+                "weight": null,
+                "weight_unit": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null
+            }
+        ]
+    }
+}

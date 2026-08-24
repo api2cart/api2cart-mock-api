@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-17T18:45:55Z",
+    "method": "GET",
+    "endpoint": "product.find.json",
+    "query": {
+        "find_value": "Obermeyer",
+        "find_where": "name"
+    }
+}

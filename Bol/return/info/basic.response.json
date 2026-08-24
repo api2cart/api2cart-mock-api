@@ -1,0 +1,50 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "109653544",
+        "name": null,
+        "order_id": null,
+        "customer_id": null,
+        "store_id": null,
+        "created_at": {
+            "value": "2026-08-11T10:42:52+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_at": null,
+        "status": {
+            "id": "unhandled",
+            "name": "Unhandled"
+        },
+        "order_products": [
+            {
+                "product_id": "fa08e68c-896a-496d-9eb2-ebd6a957bc34",
+                "order_product_id": "3972096396",
+                "sku": "581004",
+                "name": "Universal Gadget 127",
+                "quantity": 1,
+                "reason": {
+                    "id": "",
+                    "name": "Anders"
+                },
+                "action": null,
+                "condition": null,
+                "customer_comment": "Ordered the wrong size by mistake.",
+                "additional_fields": {
+                    "rma_id": "147680496",
+                    "order_id": "C000CMNMDK",
+                    "ean": "8719638581004",
+                    "handled": false,
+                    "processing_status": "",
+                    "handling_status": "",
+                    "customer_email": "user91558@example.com"
+                }
+            }
+        ],
+        "comment": null,
+        "staff_note": null,
+        "additional_fields": {
+            "fulfilment_method": "FBR"
+        }
+    }
+}

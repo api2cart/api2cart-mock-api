@@ -1,0 +1,10 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "alcoholic_beverages",
+        "parent_id": "0",
+        "name": "Alcoholic Beverages",
+        "description": null
+    }
+}

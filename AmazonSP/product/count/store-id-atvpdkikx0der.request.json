@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-07T14:53:56Z",
+    "method": "GET",
+    "endpoint": "product.count.json",
+    "query": {
+        "store_id": "ATVPDKIKX0DER"
+    }
+}

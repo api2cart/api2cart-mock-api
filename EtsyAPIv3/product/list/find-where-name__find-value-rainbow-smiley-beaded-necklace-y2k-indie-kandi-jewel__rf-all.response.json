@@ -1,0 +1,234 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "products_count": 1,
+        "product": [
+            {
+                "id": "1791262713",
+                "type": "configurable",
+                "u_model": null,
+                "u_sku": null,
+                "name": "Rainbow Smiley Beaded Necklace: Y2K Indie Kandi Jewelry",
+                "description": "Handmade colorful rainbow y2k beaded necklace by beadsandbeauty ଘo(∗ ❛ั ᵕ ❛ั )੭່\n\n♡ ̆̈ size\n– length : 35cm (+ 10cm extension chain), adjustable to 45cm\n\n♡ ̆̈ how to take care\n– avoid all contact with all types of liquids, chemicals (perfume, lotion, water, etc) \n– store in dry air temperatures when not in use\n– remove jewelry when bathing, swimming, exercising, and any sweaty activities\n\n♡ ̆̈colors\n– the color of the beads on this necklace adjusts to availability of the available bead colors so it will not be 100% the same which makes each necklace made have different color details, unique and one of a kind. But we ensure that the design style and quailty of this item will not change and remain the same\n\n♡ ̆̈ processing time \n– all of our products are made to order, please allow 3-7 days for this priduct before shipping\n\n♡ ̆̈ shipping\n– I ship worldwide from Jakarta, Indonesia and it may take 1-3 weeks to arrive\n\n♡ ̆̈ policies\n– no cancellations accepted\n– refund, return & exchanges are not accepted \n– no address changes via chat, please make sure your address is correct\n– please provide me your phone number for the shimpent process\n– please note that any lost packages, damage, or delays are beyond my control and capacity as a seller\n\n♡ ̆̈ freebie\n– choose your freebie! now you&#39;ll get one unique and collectible free Indonesian traditional magnetic trinket / keychain / postcard in every purchase! If you like journaling you can choose postcard or if you want to know what Indonesian trinket look like you can choose either it&#39;s traditional keychain / magnetic trinket as your freebie to put on your fridge or use it as your new favorite keychain that you can&#39;t never find in other shops! 😉🫶✨",
+                "short_description": "",
+                "price": 350000,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 6,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "collective",
+                "categories_ids": [
+                    "1218"
+                ],
+                "stores_ids": [
+                    "54397694"
+                ],
+                "url": "https://store-dd45fdc2.example.com/",
+                "seo_url": "https://store-dd45fdc2.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": false,
+                "is_downloadable": false,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-09T02:36:28+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-04-14T07:40:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "6260358294",
+                        "http_path": "https://picsum.photos/seed/87f2e728/600/600",
+                        "file_name": "il_fullxfull.6260358294_emk1.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-09-09T14:37:24+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Colorful twisted beaded necklace with cute smiley face charms. A fun, retro-inspired Y2K accessory perfect for summer outfits.",
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "6308408587",
+                        "http_path": "https://picsum.photos/seed/3e3c62c/600/600",
+                        "file_name": "il_fullxfull.6308408587_avqe.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-09-09T14:37:24+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Handmade Y2K-style beaded necklace with smiley face charms, twisted colorful beads, and playful energy. Aesthetic fashion jewelry.",
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "6260562226",
+                        "http_path": "https://picsum.photos/seed/32fd483b/600/600",
+                        "file_name": "il_fullxfull.6260562226_seju.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": {
+                            "value": "2024-09-09T16:01:54+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "modified_at": null,
+                        "alt": "Trendy hippie twisted beaded necklace featuring happy smiley charms, bright beads, and a nostalgic 2000s aesthetic. Bringing kidcore and indie vibes aesthetic.",
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "513",
+                        "product_option_id": null,
+                        "name": "freebie (pick yours!)",
+                        "description": null,
+                        "sort_order": 513,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "1358290271306",
+                                "product_option_item_id": null,
+                                "name": "magnetic trinket",
+                                "sort_order": 0,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1358290271426",
+                                "product_option_item_id": null,
+                                "name": "keychain trinket",
+                                "sort_order": 1,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "1358213430899",
+                                "product_option_item_id": null,
+                                "name": "Indonesian post card",
+                                "sort_order": 2,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    }
+                ],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "currency_code": "IDR",
+                    "file_data": "",
+                    "is_customizable": false,
+                    "is_personalizable": false,
+                    "is_private": false,
+                    "is_supply": false,
+                    "language": "en-US",
+                    "materials": [
+                        "Glass",
+                        "Plastic & resin"
+                    ],
+                    "non_taxable": false,
+                    "num_favorers": "16",
+                    "personalization_instructions": "",
+                    "personalization_is_required": "",
+                    "processing_max": "14",
+                    "processing_min": "7",
+                    "production_partners": [],
+                    "readiness_state_id": "",
+                    "return_policy_id": "1296166927203",
+                    "shipping_profile_id": "242370823804",
+                    "shop_section_id": "50635365",
+                    "should_auto_renew": true,
+                    "style": [],
+                    "tags": [
+                        "Beaded necklace",
+                        "smiley necklace",
+                        "funky necklace",
+                        "rainbow jewelry",
+                        "festival jewelry",
+                        "y2k necklace",
+                        "indie aesthetic",
+                        "indie necklace",
+                        "roomate gifts cute",
+                        "gifts for teen",
+                        "colorful necklace",
+                        "layered necklace",
+                        "twisted necklace"
+                    ],
+                    "when_made": "made_to_order",
+                    "product_properties": {
+                        "occasion": "Birthday",
+                        "length": "35 Centimeters",
+                        "jewelry_theme": "Floral",
+                        "adjustable": "Yes",
+                        "recycled": "No",
+                        "recipient": "Unisex adults, Women, Unisex kids, Girls",
+                        "material_multi": "Glass",
+                        "jewelry_style": "Boho & hippie"
+                    },
+                    "personalization_questions": []
+                }
+            }
+        ]
+    }
+}

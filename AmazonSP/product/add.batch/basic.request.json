@@ -1,0 +1,23 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "Test name_1",
+                "sku": "BATCH-SKU-1",
+                "description": "Test description",
+                "price": 19.9,
+                "quantity": 5
+            },
+            {
+                "name": "Test name_2",
+                "sku": "BATCH-SKU-2",
+                "description": "Test description",
+                "price": 29.9,
+                "quantity": 3
+            }
+        ]
+    }
+}

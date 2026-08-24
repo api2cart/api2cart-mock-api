@@ -1,0 +1,197 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.batch.json",
+    "body": {
+        "payload": [
+            {
+                "name": "TestBatchAddProduct153111",
+                "sku": "test_batch_add_product153111",
+                "description": "TestBatchAddProduct1 description",
+                "price": 2.55,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "NEW_WITH_DEFECTS",
+                "specifics": [
+                    {
+                        "name": "Brand",
+                        "value": "Cherokee"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-1/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct253111",
+                "sku": "test_batch_add_product253111",
+                "description": "TestBatchAddProduct2 description",
+                "price": 2.55,
+                "listing_duration": "DAYS_1",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "PRE_OWNED_FAIR",
+                "buyitnow_price": 3.4,
+                "reserve_price": 3.05,
+                "quantity": 1,
+                "upc": "711719709893",
+                "ean": "0711719709893",
+                "isbn": "9781474837637",
+                "listing_type": "AUCTION",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-2/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct353111",
+                "sku": "test_batch_add_product353111",
+                "description": "TestBatchAddProduct2 description",
+                "price": 2.55,
+                "listing_duration": "DAYS_1",
+                "categories_ids": [
+                    "105417"
+                ],
+                "condition": "PRE_OWNED_FAIR",
+                "buyitnow_price": 3.4,
+                "reserve_price": 3.05,
+                "quantity": 1,
+                "upc": "711719709893",
+                "ean": "0711719709893",
+                "isbn": "9781474837637",
+                "listing_type": "AUCTION",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-3/800"
+                    }
+                ]
+            },
+            {
+                "name": "TestBatchAddProduct753111",
+                "sku": "test_batch_add_product25111",
+                "description": "TestBatchAddProduct6 description",
+                "price": 2.55,
+                "quantity": 10,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "162925"
+                ],
+                "condition": "USED_ACCEPTABLE",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-4/800"
+                    }
+                ],
+                "sales_tax": {
+                    "tax_percent": 2,
+                    "taxable": true
+                },
+                "condition_description": "Like New"
+            },
+            {
+                "name": "TestBatchAddProduct753111",
+                "sku": "test_batch_add_product753111",
+                "description": "TestBatchAddProduct6 description",
+                "price": 2.55,
+                "quantity": 10,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "162925",
+                    "105417"
+                ],
+                "condition": "USED_ACCEPTABLE",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-5/800"
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "Material",
+                        "values": [
+                            "Alabaster",
+                            "Brass",
+                            "Bronze"
+                        ]
+                    }
+                ],
+                "sales_tax": {
+                    "tax_percent": 2,
+                    "taxable": true
+                },
+                "condition_description": "Like New"
+            },
+            {
+                "name": "TestBatchAddProduct75311",
+                "sku": "test_batch_add_product251",
+                "description": "TestBatchAddProduct6 description",
+                "price": 2.55,
+                "quantity": 10,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "1"
+                ],
+                "condition": "USED_ACCEPTABLE",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-6/800"
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "Material",
+                        "values": [
+                            "Alabaster",
+                            "Brass",
+                            "Bronze"
+                        ]
+                    }
+                ],
+                "sales_tax": {
+                    "tax_percent": 2,
+                    "taxable": true
+                },
+                "condition_description": "Like New"
+            },
+            {
+                "name": "TestBatchAddProduct75311",
+                "sku": "test_batch_add_product75311",
+                "description": "TestBatchAddProduct6 description",
+                "price": 2.55,
+                "quantity": 10,
+                "listing_duration": "GTC",
+                "categories_ids": [
+                    "162925",
+                    "1"
+                ],
+                "condition": "USED_ACCEPTABLE",
+                "images": [
+                    {
+                        "url": "https://picsum.photos/seed/ebay-batch-tc2-7/800"
+                    }
+                ],
+                "specifics": [
+                    {
+                        "name": "Material",
+                        "values": [
+                            "Alabaster",
+                            "Brass",
+                            "Bronze"
+                        ]
+                    }
+                ],
+                "sales_tax": {
+                    "tax_percent": 2,
+                    "taxable": true
+                },
+                "condition_description": "Like New"
+            }
+        ]
+    }
+}

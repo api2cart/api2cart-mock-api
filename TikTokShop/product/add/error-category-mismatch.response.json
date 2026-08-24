@@ -1,0 +1,5 @@
+{
+    "return_code": 107,
+    "return_message": "Unable to create product. The name, description, features or brand of the product does not match the specified category. Recommended categories ids for the specified parameters: \"604206,860296,869256\".",
+    "result": {}
+}

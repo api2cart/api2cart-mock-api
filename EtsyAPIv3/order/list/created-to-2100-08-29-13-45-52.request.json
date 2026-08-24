@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-04T13:13:26Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "response_fields": "{*}",
+        "created_to": "2100-08-29 13:45:52",
+        "count": 10
+    }
+}

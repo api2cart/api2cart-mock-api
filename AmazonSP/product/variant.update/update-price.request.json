@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "PUT",
+    "endpoint": "product.variant.update.json",
+    "body": {
+        "id": 100,
+        "price": 15
+    }
+}

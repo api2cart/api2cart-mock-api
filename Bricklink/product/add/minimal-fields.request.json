@@ -1,0 +1,14 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "5833-1",
+        "product_type": "ORIGINAL_BOX",
+        "description": "Test description",
+        "price": 175,
+        "special_price": 99.99,
+        "cost_price": 80,
+        "quantity": 10
+    }
+}

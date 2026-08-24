@@ -1,0 +1,14 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "test_add_Parent_PHONE",
+        "quantity": 0,
+        "price": 370,
+        "sku": "test_add_Child_iPHONE-Sierra-Blue-1TB",
+        "name": "iPhone 13 Pro, 1TB, Sierra Blue - Unlocked (Renewed Premium)",
+        "description": "iPhone 13 Pro, 1TB, Sierra Blue - Unlocked (Renewed Premium)",
+        "marketplace_item_properties": "{\"size\":[{\"language_tag\":\"en_US\",\"value\":\"1TB\",\"marketplace_id\":\"ATVPDKIKX0DER\",\"used_for_variations\":\"True\"}],\"color\":[{\"language_tag\":\"en_US\",\"value\":\"Sierra-Blue\",\"marketplace_id\":\"ATVPDKIKX0DER\",\"used_for_variations\":true}],\"main_product_image_locator\":[{\"marketplace_id\":\"ATVPDKIKX0DER\",\"media_location\":\"https:\\/\\/picsum.photos\\/seed\\/amazonsp-variant-sierra-blue\\/800\"}],\"country_of_origin\":[{\"value\":\"US\",\"marketplace_id\":\"ATVPDKIKX0DER\"}]}"
+    }
+}

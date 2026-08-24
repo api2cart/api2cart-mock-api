@@ -1,0 +1,194 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "16263471",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Crime",
+                "short_description": null,
+                "description": "Crime Action & Adventure Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-22540268.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Crime"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,16263471"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "44067011",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Martial Arts",
+                "short_description": null,
+                "description": "Martial Arts Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-6ed22423.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Martial Arts"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,44067011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "44069011",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Science Fiction",
+                "short_description": null,
+                "description": "Science Fiction Action & Adventure",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-8e0d5310.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Science Fiction"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,44069011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "44070011",
+                "parent_id": "16262851",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Superheroes",
+                "short_description": null,
+                "description": "Superhero Movies",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-ce65352a.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Action & Adventure,Superheroes"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262851,44070011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "16262851"
+                    ],
+                    "product_types": ""
+                }
+            },
+            {
+                "id": "16262901",
+                "parent_id": "16386761",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Comedy",
+                "short_description": null,
+                "description": "Comedy",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-dd716099.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Amazon Instant Video,Movies,Comedy"
+                    ],
+                    "browse_path_by_id": [
+                        "16261631,16261641,16386761,16262901"
+                    ],
+                    "children_ids": [
+                        "16263941",
+                        "16263731",
+                        "16263521",
+                        "16263311",
+                        "16263101",
+                        "44098011",
+                        "44099011",
+                        "44100011",
+                        "44101011",
+                        "44102011",
+                        "44103011",
+                        "44104011",
+                        "44105011",
+                        "44106011",
+                        "44107011",
+                        "44108011",
+                        "44109011",
+                        "44110011",
+                        "44111011",
+                        "44112011"
+                    ],
+                    "parent_ids": [
+                        "16386761"
+                    ],
+                    "product_types": ""
+                }
+            }
+        ]
+    }
+}

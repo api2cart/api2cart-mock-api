@@ -1,0 +1,93 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 4,
+        "category": [
+            {
+                "id": "407",
+                "parent_id": "529",
+                "created_at": null,
+                "modified_at": null,
+                "name": "clothing accessories",
+                "short_description": null,
+                "description": null,
+                "stores_ids": "",
+                "stores_info": null,
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": "True",
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": null,
+                "category_path": "clothing & accessories > clothing accessories"
+            },
+            {
+                "id": "429",
+                "parent_id": "529",
+                "created_at": null,
+                "modified_at": null,
+                "name": "shoes & footwear",
+                "short_description": null,
+                "description": null,
+                "stores_ids": "",
+                "stores_info": null,
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": "True",
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": null,
+                "category_path": "clothing & accessories > shoes & footwear"
+            },
+            {
+                "id": "528",
+                "parent_id": "529",
+                "created_at": null,
+                "modified_at": null,
+                "name": "clothing",
+                "short_description": null,
+                "description": null,
+                "stores_ids": "",
+                "stores_info": null,
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": "True",
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": null,
+                "category_path": "clothing & accessories > clothing"
+            },
+            {
+                "id": "696",
+                "parent_id": "529",
+                "created_at": null,
+                "modified_at": null,
+                "name": "costumes",
+                "short_description": null,
+                "description": null,
+                "stores_ids": "",
+                "stores_info": null,
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": "True",
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": null,
+                "category_path": "clothing & accessories > costumes"
+            }
+        ]
+    }
+}

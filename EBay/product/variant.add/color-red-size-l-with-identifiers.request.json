@@ -1,0 +1,24 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "110552914804",
+        "model": "variable-red-l",
+        "quantity": 10,
+        "price": 45,
+        "upc": "711719709893",
+        "ean": "0711719709893",
+        "isbn": "9781474837637",
+        "attributes": [
+            {
+                "attribute_name": "Color",
+                "attribute_value": "Red"
+            },
+            {
+                "attribute_name": "Size",
+                "attribute_value": "L"
+            }
+        ]
+    }
+}

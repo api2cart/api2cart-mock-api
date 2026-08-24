@@ -1,0 +1,22 @@
+{
+    "captured_at": "2026-08-11T11:16:34Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "28693865173549624",
+        "sku": "mock-variant-parent-tee-red-m",
+        "price": 22.5,
+        "quantity": 4,
+        "gtin": "4006381333931",
+        "attributes": [
+            {
+                "attribute_name": "Color",
+                "attribute_value": "Red"
+            },
+            {
+                "attribute_name": "Size",
+                "attribute_value": "M"
+            }
+        ]
+    }
+}

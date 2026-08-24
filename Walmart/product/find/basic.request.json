@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-21T15:08:12Z",
+    "method": "GET",
+    "endpoint": "product.find.json",
+    "query": {
+        "find_value": "Halo Collar 3 - Wireless GPS Dog Fence & Training Collar with Real-Time Tracking, Waterproof",
+        "find_where": "name"
+    }
+}

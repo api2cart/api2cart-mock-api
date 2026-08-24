@@ -1,0 +1,43 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "categories_count": 5,
+        "category": [
+            {
+                "id": "6133996011",
+                "parent_id": "377557011",
+                "name": "E-Readers",
+                "description": "E-Reader Guides"
+            },
+            {
+                "id": "6133995011",
+                "parent_id": "377557011",
+                "name": "General",
+                "description": "General Mobile Tablets & E-Readers"
+            },
+            {
+                "id": "3833",
+                "parent_id": "377557011",
+                "name": "Handheld & Mobile Devices",
+                "description": "Handheld & Mobile Devices"
+            },
+            {
+                "id": "377559011",
+                "parent_id": "3839",
+                "name": "Mobile Apps",
+                "description": "Mobile App Development & Programming"
+            },
+            {
+                "id": "10806611011",
+                "parent_id": "377557011",
+                "name": "Tablets",
+                "description": "Computer Tablet Books"
+            }
+        ]
+    }
+}

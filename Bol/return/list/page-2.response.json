@@ -1,0 +1,41 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": "BcHRDoIgFADQT7oz18xHI+fCQtKy5qNXQkUSYYv06zsH9PxqmZ42Gam3/7FajqYEzhD3wQaDSwTtMn5be5JAM4vPg/uLi5ZiZVU1pCcuREAQcp07L01njukaxmxUFt3TlPdD09LrFGPG6wJlFJ6Xsvd5J77WZgCSEvUH",
+        "next": null
+    },
+    "result": {
+        "total_count": 1,
+        "returns": [
+            {
+                "id": "98277068",
+                "order_products": [
+                    {
+                        "product_id": null,
+                        "order_product_id": "",
+                        "sku": null,
+                        "name": null,
+                        "quantity": 1,
+                        "reason": {
+                            "id": "",
+                            "name": "Verkeerde maat of afmeting"
+                        },
+                        "action": null,
+                        "condition": null,
+                        "customer_comment": "Item arrived damaged.",
+                        "additional_fields": {
+                            "rma_id": "135376002",
+                            "order_id": "A000841A1P",
+                            "ean": "8719638588799",
+                            "handled": true,
+                            "processing_status": "ACCEPTED",
+                            "handling_status": "RETURN_RECEIVED",
+                            "customer_email": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

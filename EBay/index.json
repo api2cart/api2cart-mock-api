@@ -1,0 +1,2056 @@
+{
+    "integration": "EBay",
+    "generated_at": "2026-08-20T19:25:29Z",
+    "source": "API2Cart REST responses",
+    "methods": [
+        {
+            "entity": "batch",
+            "method": "batch.job.list",
+            "path": "batch/job.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "batch/job.list/basic.request.json",
+                    "response": "batch/job.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: list batch jobs -- the discovery path from a job_id to its result. Mixes product.add.batch and product.update.batch, processed and pending; job 457 here is the one enqueued by product/add.batch/basic"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "batch/job.list/error-invalid-param.request.json",
+                    "response": "batch/job.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "error: invalid count value -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "batch",
+            "method": "batch.job.result",
+            "path": "batch/job.result",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "batch/job.result/error-no-params.request.json",
+                    "response": "batch/job.result/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required id -> 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "batch/job.result/error-not-found.request.json",
+                    "response": "batch/job.result/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: job id does not exist -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "error-not-processed-yet",
+                    "request": "batch/job.result/error-not-processed-yet.request.json",
+                    "response": "batch/job.result/error-not-processed-yet.response.json",
+                    "covers": {
+                        "description": "job 457 accepted but not processed yet -> 12; this is the job enqueued by product/add.batch/basic"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "id-448-failed-missing-specifics",
+                    "request": "batch/job.result/id-448-failed-missing-specifics.request.json",
+                    "response": "batch/job.result/id-448-failed-missing-specifics.response.json",
+                    "covers": {
+                        "description": "batch job result: item fails because the category requires a specific (Brand) the payload didn't include"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "id-449-success-with-warnings",
+                    "request": "batch/job.result/id-449-success-with-warnings.request.json",
+                    "response": "batch/job.result/id-449-success-with-warnings.response.json",
+                    "covers": {
+                        "description": "happy path: item succeeds but returns eBay Managed Payments migration warnings (submitted payment policy/method were auto-remapped)"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "id-450-mixed-update",
+                    "request": "batch/job.result/id-450-mixed-update.request.json",
+                    "response": "batch/job.result/id-450-mixed-update.response.json",
+                    "covers": {
+                        "description": "batch job result: update batch with one product updated and one unknown id failing"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "id-452-mixed-add-three-categories",
+                    "request": "batch/job.result/id-452-mixed-add-three-categories.request.json",
+                    "response": "batch/job.result/id-452-mixed-add-three-categories.response.json",
+                    "covers": {
+                        "description": "batch job result for job 452, enqueued by product/add.batch/three-products-mixed-categories: 3-category batch where one item fails because its condition value is not in the allowed enum for that specific category (the allowed set differs per category)"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                },
+                {
+                    "slug": "id-456-mixed-update-relisted",
+                    "request": "batch/job.result/id-456-mixed-update-relisted.request.json",
+                    "response": "batch/job.result/id-456-mixed-update-relisted.response.json",
+                    "covers": {
+                        "description": "batch job result for job 456, enqueued by product/update.batch/two-items-price-and-quantity: update fails on an item that eBay auto-relisted under a different id (a disable/re-enable cycle can retire the original id) -- distinct from a plain not-found failure"
+                    },
+                    "captured_at": "2026-08-10T07:11:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "cart",
+            "method": "cart.info",
+            "path": "cart/info",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "cart/info/basic.request.json",
+                    "response": "cart/info/basic.response.json",
+                    "covers": {
+                        "description": "happy path: entity information without filters"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "params-force-all__exclude-name-stores-info",
+                    "request": "cart/info/params-force-all__exclude-name-stores-info.request.json",
+                    "response": "cart/info/params-force-all__exclude-name-stores-info.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "cart/info/rf-all.request.json",
+                    "response": "cart/info/rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-db-prefix",
+                    "request": "cart/info/rf-db-prefix.request.json",
+                    "response": "cart/info/rf-db-prefix.response.json",
+                    "covers": {
+                        "description": "field selection: db_prefix"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-name",
+                    "request": "cart/info/rf-name.request.json",
+                    "response": "cart/info/rf-name.response.json",
+                    "covers": {
+                        "description": "field selection: name"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-stores-info",
+                    "request": "cart/info/rf-stores-info.request.json",
+                    "response": "cart/info/rf-stores-info.response.json",
+                    "covers": {
+                        "description": "field selection: stores_info"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-test",
+                    "request": "cart/info/rf-test.request.json",
+                    "response": "cart/info/rf-test.response.json",
+                    "covers": {
+                        "description": "field selection: test"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-url",
+                    "request": "cart/info/rf-url.request.json",
+                    "response": "cart/info/rf-url.response.json",
+                    "covers": {
+                        "description": "field selection: url"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                },
+                {
+                    "slug": "rf-version",
+                    "request": "cart/info/rf-version.request.json",
+                    "response": "cart/info/rf-version.response.json",
+                    "covers": {
+                        "description": "field selection: version"
+                    },
+                    "captured_at": "2026-08-10T11:24:02Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.count",
+            "path": "category/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/count/basic.request.json",
+                    "response": "category/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                },
+                {
+                    "slug": "error-invalid-find-where",
+                    "request": "category/count/error-invalid-find-where.request.json",
+                    "response": "category/count/error-invalid-find-where.response.json",
+                    "covers": {
+                        "description": "validation: find_where accepts only 'name' -- other values rejected with the allowed-value list"
+                    },
+                    "captured_at": "2026-08-10T18:20:00Z"
+                },
+                {
+                    "slug": "find-value-phone__find-where-name",
+                    "request": "category/count/find-value-phone__find-where-name.request.json",
+                    "response": "category/count/find-value-phone__find-where-name.response.json",
+                    "covers": {
+                        "description": "search: matching name value"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                },
+                {
+                    "slug": "parent-id-20081",
+                    "request": "category/count/parent-id-20081.request.json",
+                    "response": "category/count/parent-id-20081.response.json",
+                    "covers": {
+                        "description": "categories under a parent"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.info",
+            "path": "category/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "category/info/error-no-params.request.json",
+                    "response": "category/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "category/info/error-not-found.request.json",
+                    "response": "category/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no category with this id"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "id-20081__params-force-all__exclude-short-description-pa",
+                    "request": "category/info/id-20081__params-force-all__exclude-short-description-pa.request.json",
+                    "response": "category/info/id-20081__params-force-all__exclude-short-description-pa.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "id-4707",
+                    "request": "category/info/id-4707.request.json",
+                    "response": "category/info/id-4707.response.json",
+                    "covers": {
+                        "description": "happy path: entity information by id"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                }
+            ]
+        },
+        {
+            "entity": "category",
+            "method": "category.list",
+            "path": "category/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "category/list/basic.request.json",
+                    "response": "category/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                },
+                {
+                    "slug": "count-1__rf-categories-count-category-id-n",
+                    "request": "category/list/count-1__rf-categories-count-category-id-n.request.json",
+                    "response": "category/list/count-1__rf-categories-count-category-id-n.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [count=1]"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "count-2__parent-id-113__rf-categories-count-category",
+                    "request": "category/list/count-2__parent-id-113__rf-categories-count-category.request.json",
+                    "response": "category/list/count-2__parent-id-113__rf-categories-count-category.response.json",
+                    "covers": {
+                        "description": "categories under a parent [count=2]"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "count-3__rf-all",
+                    "request": "category/list/count-3__rf-all.request.json",
+                    "response": "category/list/count-3__rf-all.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset [count=3]"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "category/list/error-invalid-param.request.json",
+                    "response": "category/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "full-properties",
+                    "request": "category/list/full-properties.request.json",
+                    "response": "category/list/full-properties.response.json",
+                    "covers": {
+                        "description": "reference: full integration-specific properties, all additional_fields (response_fields={*}); its pagination.next is the page_cursor consumed by page-2"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "category/list/page-2.request.json",
+                    "response": "category/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor from full-properties (the count=2 full-shape capture -- that case is the cursor source)"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "start-2__parent-id-20081__rf-all",
+                    "request": "category/list/start-2__parent-id-20081__rf-all.request.json",
+                    "response": "category/list/start-2__parent-id-20081__rf-all.response.json",
+                    "covers": {
+                        "description": "categories under a parent [no count]"
+                    },
+                    "captured_at": "2026-08-10T11:24:17Z"
+                }
+            ]
+        },
+        {
+            "entity": "marketplace",
+            "method": "marketplace.product.find",
+            "path": "marketplace/product.find",
+            "cases": [
+                {
+                    "slug": "ean-0885909950805__categories-ids-167101355-162925__count-200",
+                    "request": "marketplace/product.find/ean-0885909950805__categories-ids-167101355-162925__count-200.request.json",
+                    "response": "marketplace/product.find/ean-0885909950805__categories-ids-167101355-162925__count-200.response.json",
+                    "covers": {
+                        "description": "search: matching ean identifier"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "error-conflicting-identifiers",
+                    "request": "marketplace/product.find/error-conflicting-identifiers.request.json",
+                    "response": "marketplace/product.find/error-conflicting-identifiers.response.json",
+                    "covers": {
+                        "description": "validation: keyword can't be combined with an identifier param (ean here) -- exactly one is allowed"
+                    },
+                    "captured_at": "2026-08-10T18:20:00Z"
+                },
+                {
+                    "slug": "error-invalid-count",
+                    "request": "marketplace/product.find/error-invalid-count.request.json",
+                    "response": "marketplace/product.find/error-invalid-count.response.json",
+                    "covers": {
+                        "description": "validation: count must be an unsigned integer"
+                    },
+                    "captured_at": "2026-08-10T18:20:00Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "marketplace/product.find/error-invalid-param.request.json",
+                    "response": "marketplace/product.find/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-no-identifier",
+                    "request": "marketplace/product.find/error-no-identifier.request.json",
+                    "response": "marketplace/product.find/error-no-identifier.response.json",
+                    "covers": {
+                        "description": "validation: exactly one of keyword/asin/ean/gtin/upc/isbn/mpn is required"
+                    },
+                    "captured_at": "2026-08-10T18:20:00Z"
+                },
+                {
+                    "slug": "gtin-0711719504351__params-force-all__exclude-images-custom-fields",
+                    "request": "marketplace/product.find/gtin-0711719504351__params-force-all__exclude-images-custom-fields.request.json",
+                    "response": "marketplace/product.find/gtin-0711719504351__params-force-all__exclude-images-custom-fields.response.json",
+                    "covers": {
+                        "description": "search: matching gtin identifier"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "isbn-9781474837637__rf-all",
+                    "request": "marketplace/product.find/isbn-9781474837637__rf-all.request.json",
+                    "response": "marketplace/product.find/isbn-9781474837637__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching isbn identifier"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "keyword-apple__rf-all",
+                    "request": "marketplace/product.find/keyword-apple__rf-all.request.json",
+                    "response": "marketplace/product.find/keyword-apple__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching keyword"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "mpn-10217__rf-marketplace-product-name-u-mpn",
+                    "request": "marketplace/product.find/mpn-10217__rf-marketplace-product-name-u-mpn.request.json",
+                    "response": "marketplace/product.find/mpn-10217__rf-marketplace-product-name-u-mpn.response.json",
+                    "covers": {
+                        "description": "search: matching mpn identifier"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "upc-0047406134908__rf-return-code-return-message-pag",
+                    "request": "marketplace/product.find/upc-0047406134908__rf-return-code-return-message-pag.request.json",
+                    "response": "marketplace/product.find/upc-0047406134908__rf-return-code-return-message-pag.response.json",
+                    "covers": {
+                        "description": "search: matching upc identifier"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.count",
+            "path": "order/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/count/basic.request.json",
+                    "response": "order/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total order count, no filters"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "created-range",
+                    "request": "order/count/created-range.request.json",
+                    "response": "order/count/created-range.response.json",
+                    "covers": {
+                        "description": "filter: created_from/created_to date range"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "ebay-order-status-cancelled",
+                    "request": "order/count/ebay-order-status-cancelled.request.json",
+                    "response": "order/count/ebay-order-status-cancelled.response.json",
+                    "covers": {
+                        "description": "filter: ebay_order_status=Cancelled"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "ebay-order-status-completed",
+                    "request": "order/count/ebay-order-status-completed.request.json",
+                    "response": "order/count/ebay-order-status-completed.response.json",
+                    "covers": {
+                        "description": "filter: ebay_order_status=Completed"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-created-from-older-than-90-days",
+                    "request": "order/count/error-created-from-older-than-90-days.request.json",
+                    "response": "order/count/error-created-from-older-than-90-days.response.json",
+                    "covers": {
+                        "description": "error: created_from older than 90 days -- EBay rejects the date range -> 107 STORE_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-invalid-order-status",
+                    "request": "order/count/error-invalid-order-status.request.json",
+                    "response": "order/count/error-invalid-order-status.response.json",
+                    "covers": {
+                        "description": "error: ebay_order_status value not in the allowed enum (Active, Completed, Cancelled) -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-modified-from-older-than-90-days",
+                    "request": "order/count/error-modified-from-older-than-90-days.request.json",
+                    "response": "order/count/error-modified-from-older-than-90-days.response.json",
+                    "covers": {
+                        "description": "error: modified_from older than 90 days -> 107 STORE_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-modified-range-too-wide",
+                    "request": "order/count/error-modified-range-too-wide.request.json",
+                    "response": "order/count/error-modified-range-too-wide.response.json",
+                    "covers": {
+                        "description": "error: modified_from/modified_to span more than 30 days -- a tighter limit than the 90-day age rule -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "modified-from-2025-12-25",
+                    "request": "order/count/modified-from-2025-12-25.request.json",
+                    "response": "order/count/modified-from-2025-12-25.response.json",
+                    "covers": {
+                        "description": "filter: modified_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-10T11:24:18Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "order/count/modified-range.request.json",
+                    "response": "order/count/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: modified_from/modified_to date range (max 30 days apart -- see error-modified-range-too-wide)"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.financial_status.list",
+            "path": "order/financial_status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/financial_status.list/basic.request.json",
+                    "response": "order/financial_status.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: financial statuses supported by the store"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.info",
+            "path": "order/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/info/error-no-params.request.json",
+                    "response": "order/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/info/error-not-found.request.json",
+                    "response": "order/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no order with this order_id"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "order-id-02-00000-38996__rf-all",
+                    "request": "order/info/order-id-02-00000-38996__rf-all.request.json",
+                    "response": "order/info/order-id-02-00000-38996__rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.list",
+            "path": "order/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/list/basic.request.json",
+                    "response": "order/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path: total order list, no filters; its pagination.next is the page_cursor consumed by page-2"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "created-range",
+                    "request": "order/list/created-range.request.json",
+                    "response": "order/list/created-range.response.json",
+                    "covers": {
+                        "description": "filter: created_from/created_to date range"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "ebay-order-status-completed",
+                    "request": "order/list/ebay-order-status-completed.request.json",
+                    "response": "order/list/ebay-order-status-completed.response.json",
+                    "covers": {
+                        "description": "filter: ebay_order_status=Completed"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-created-from-older-than-90-days",
+                    "request": "order/list/error-created-from-older-than-90-days.request.json",
+                    "response": "order/list/error-created-from-older-than-90-days.response.json",
+                    "covers": {
+                        "description": "error: created_from older than 90 days -- EBay rejects the date range -> 107 STORE_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-invalid-count",
+                    "request": "order/list/error-invalid-count.request.json",
+                    "response": "order/list/error-invalid-count.response.json",
+                    "covers": {
+                        "description": "error: negative count -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-invalid-date-format",
+                    "request": "order/list/error-invalid-date-format.request.json",
+                    "response": "order/list/error-invalid-date-format.response.json",
+                    "covers": {
+                        "description": "error: created_from not in ISO_8601 'Y-m-d\\TH:i:sO' format -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-invalid-order-status",
+                    "request": "order/list/error-invalid-order-status.request.json",
+                    "response": "order/list/error-invalid-order-status.response.json",
+                    "covers": {
+                        "description": "error: ebay_order_status value not in the allowed enum -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-invalid-start",
+                    "request": "order/list/error-invalid-start.request.json",
+                    "response": "order/list/error-invalid-start.response.json",
+                    "covers": {
+                        "description": "error: negative start -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-modified-from-older-than-90-days",
+                    "request": "order/list/error-modified-from-older-than-90-days.request.json",
+                    "response": "order/list/error-modified-from-older-than-90-days.response.json",
+                    "covers": {
+                        "description": "error: modified_from older than 90 days -> 107 STORE_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "error-modified-range-too-wide",
+                    "request": "order/list/error-modified-range-too-wide.request.json",
+                    "response": "order/list/error-modified-range-too-wide.response.json",
+                    "covers": {
+                        "description": "error: modified_from/modified_to span more than 30 days -- a tighter limit than the 90-day age rule -> 109 PARAM_ERROR"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "modified-range",
+                    "request": "order/list/modified-range.request.json",
+                    "response": "order/list/modified-range.response.json",
+                    "covers": {
+                        "description": "filter: modified_from/modified_to date range (max 30 days apart)"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "order-ids-multi",
+                    "request": "order/list/order-ids-multi.request.json",
+                    "response": "order/list/order-ids-multi.response.json",
+                    "covers": {
+                        "description": "filter: specific order_ids (comma-separated, multiple)"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "order/list/page-2.request.json",
+                    "response": "order/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor from order/list/basic"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "rf-all",
+                    "request": "order/list/rf-all.request.json",
+                    "response": "order/list/rf-all.response.json",
+                    "covers": {
+                        "description": "field selection: {*} (full response shape)"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                },
+                {
+                    "slug": "start-5",
+                    "request": "order/list/start-5.request.json",
+                    "response": "order/list/start-5.response.json",
+                    "covers": {
+                        "description": "pagination: start/count offset"
+                    },
+                    "captured_at": "2026-08-10T11:28:52Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.add",
+            "path": "order/shipment.add",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/shipment.add/basic.request.json",
+                    "response": "order/shipment.add/basic.response.json",
+                    "covers": {
+                        "description": "happy path: add order shipment with tracking number and shipped items"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.add/error-no-params.request.json",
+                    "response": "order/shipment.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: order_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.info",
+            "path": "order/shipment.info",
+            "cases": [
+                {
+                    "slug": "error-missing-order-id",
+                    "request": "order/shipment.info/error-missing-order-id.request.json",
+                    "response": "order/shipment.info/error-missing-order-id.response.json",
+                    "covers": {
+                        "description": "error: missing required order_id -> 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.info/error-no-params.request.json",
+                    "response": "order/shipment.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.info/error-not-found.request.json",
+                    "response": "order/shipment.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no order with this id/order_id"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "order-id",
+                    "request": "order/shipment.info/order-id.request.json",
+                    "response": "order/shipment.info/order-id.response.json",
+                    "covers": {
+                        "description": "happy path: a single shipment by id, with tracking number and shipped items"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.shipment.list",
+            "path": "order/shipment.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "order/shipment.list/error-invalid-param.request.json",
+                    "response": "order/shipment.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "order/shipment.list/error-no-params.request.json",
+                    "response": "order/shipment.list/error-no-params.response.json",
+                    "covers": {
+                        "description": "error: missing required order_id -> 114 NO_PARAM"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/shipment.list/error-not-found.request.json",
+                    "response": "order/shipment.list/error-not-found.response.json",
+                    "covers": {
+                        "description": "error: order_id does not exist -> 112 ENTITY_NOT_FOUND"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                },
+                {
+                    "slug": "order-id",
+                    "request": "order/shipment.list/order-id.request.json",
+                    "response": "order/shipment.list/order-id.response.json",
+                    "covers": {
+                        "description": "happy path: shipments for a specific order, with tracking numbers and shipped items"
+                    },
+                    "captured_at": "2026-08-10T12:43:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.status.list",
+            "path": "order/status.list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "order/status.list/basic.request.json",
+                    "response": "order/status.list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "rf-id-only",
+                    "request": "order/status.list/rf-id-only.request.json",
+                    "response": "order/status.list/rf-id-only.response.json",
+                    "covers": {
+                        "description": "field selection: cart_order_statuses.id -- narrows to just the enum values order.update's ebay_order_status accepts"
+                    },
+                    "captured_at": "2026-08-10T18:20:00Z"
+                }
+            ]
+        },
+        {
+            "entity": "order",
+            "method": "order.update",
+            "path": "order/update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "order/update/error-no-params.request.json",
+                    "response": "order/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> order_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "order/update/error-not-found.request.json",
+                    "response": "order/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: order_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "set-financial-status",
+                    "request": "order/update/set-financial-status.request.json",
+                    "response": "order/update/set-financial-status.response.json",
+                    "covers": {
+                        "description": "happy path: update financial_status"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "set-order-status",
+                    "request": "order/update/set-order-status.request.json",
+                    "response": "order/update/set-order-status.response.json",
+                    "covers": {
+                        "description": "happy path: update order_status"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add",
+            "path": "product/add",
+            "cases": [
+                {
+                    "slug": "auction-confidentiality-avail-from",
+                    "request": "product/add/auction-confidentiality-avail-from.request.json",
+                    "response": "product/add/auction-confidentiality-avail-from.response.json",
+                    "covers": {
+                        "description": "private Auction with multiple categories and a scheduled start date"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "auction-upc-ean-isbn",
+                    "request": "product/add/auction-upc-ean-isbn.request.json",
+                    "response": "product/add/auction-upc-ean-isbn.response.json",
+                    "covers": {
+                        "description": "Auction listing with sku, buyitnow/reserve price and product identifiers"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "condition-good",
+                    "request": "product/add/condition-good.request.json",
+                    "response": "product/add/condition-good.response.json",
+                    "covers": {
+                        "description": "condition value 'Good' with a larger quantity"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "condition-graded",
+                    "request": "product/add/condition-graded.request.json",
+                    "response": "product/add/condition-graded.response.json",
+                    "covers": {
+                        "description": "condition value 'Graded' (collectibles/trading-card grading), not covered by the other condition examples"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "configurable-dress-size-variations",
+                    "request": "product/add/configurable-dress-size-variations.request.json",
+                    "response": "product/add/configurable-dress-size-variations.response.json",
+                    "covers": {
+                        "description": "configurable product with two used_for_variations specifics (Size, Dress Length) defining the variation axes"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "configurable-package-details",
+                    "request": "product/add/configurable-package-details.request.json",
+                    "response": "product/add/configurable-package-details.response.json",
+                    "covers": {
+                        "description": "configurable product with specifics, package_details, seller_profiles and best_offer"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "configurable-seller-profiles-cn-description",
+                    "request": "product/add/configurable-seller-profiles-cn-description.request.json",
+                    "response": "product/add/configurable-seller-profiles-cn-description.response.json",
+                    "covers": {
+                        "description": "configurable product using seller_profiles (business policies) instead of payment_methods/shipping_details, with sku and a non-Latin (Chinese) description"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-category-not-found",
+                    "request": "product/add/error-category-not-found.request.json",
+                    "response": "product/add/error-category-not-found.response.json",
+                    "covers": {
+                        "description": "not found: categories_ids does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-empty-price",
+                    "request": "product/add/error-empty-price.request.json",
+                    "response": "product/add/error-empty-price.response.json",
+                    "covers": {
+                        "description": "validation: empty price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-condition",
+                    "request": "product/add/error-invalid-condition.request.json",
+                    "response": "product/add/error-invalid-condition.response.json",
+                    "covers": {
+                        "description": "validation: condition value not in the allowed enum"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/add/error-no-params.request.json",
+                    "response": "product/add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> name required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "multi-category-full-specifics",
+                    "request": "product/add/multi-category-full-specifics.request.json",
+                    "response": "product/add/multi-category-full-specifics.response.json",
+                    "covers": {
+                        "description": "multi-category listing (two categories_ids) with condition_description and a 16-entry specifics list -- the richest real specifics set captured"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "plain-specifics-quantity-100",
+                    "request": "product/add/plain-specifics-quantity-100.request.json",
+                    "response": "product/add/plain-specifics-quantity-100.response.json",
+                    "covers": {
+                        "description": "plain specifics (no used_for_variations) with sku, seller_profiles and a high quantity (100)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "preowned-basic",
+                    "request": "product/add/preowned-basic.request.json",
+                    "response": "product/add/preowned-basic.response.json",
+                    "covers": {
+                        "description": "minimal FixedPrice/GTC listing with condition"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "sales-tax-package-details",
+                    "request": "product/add/sales-tax-package-details.request.json",
+                    "response": "product/add/sales-tax-package-details.response.json",
+                    "covers": {
+                        "description": "sales_tax and package_details together with multiple payment_methods (CashOnPickup, PayPal)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.add.batch",
+            "path": "product/add.batch",
+            "cases": [
+                {
+                    "slug": "auction-multi-category-values-array",
+                    "request": "product/add.batch/auction-multi-category-values-array.request.json",
+                    "response": "product/add.batch/auction-multi-category-values-array.response.json",
+                    "covers": {
+                        "description": "enqueue a 7-product batch covering AUCTION with buyitnow/reserve price, a two-category item, and specifics using \"values\" (list) instead of a single \"value\"; returns job_id 458 (enqueue only -- no result published)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "basic",
+                    "request": "product/add.batch/basic.request.json",
+                    "response": "product/add.batch/basic.response.json",
+                    "covers": {
+                        "description": "enqueue a 5-product batch add covering GTC/Days_1/Auction listings, specifics, sales_tax and package dimensions; returns job_id 457, which is still pending -- its result is batch/job.result/error-not-processed-yet"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-best-offer-not-available-fixed-price",
+                    "request": "product/add.batch/error-best-offer-not-available-fixed-price.request.json",
+                    "response": "product/add.batch/error-best-offer-not-available-fixed-price.response.json",
+                    "covers": {
+                        "description": "validation: best_offer is not available for FIXED_PRICE listings"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-duplicate-sku-in-payload",
+                    "request": "product/add.batch/error-duplicate-sku-in-payload.request.json",
+                    "response": "product/add.batch/error-duplicate-sku-in-payload.response.json",
+                    "covers": {
+                        "description": "validation: two payload items reuse the same sku"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-categories-ids",
+                    "request": "product/add.batch/error-invalid-categories-ids.request.json",
+                    "response": "product/add.batch/error-invalid-categories-ids.response.json",
+                    "covers": {
+                        "description": "validation: categories_ids entry not numeric (pattern ^\\d+$)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-sku",
+                    "request": "product/add.batch/error-no-sku.request.json",
+                    "response": "product/add.batch/error-no-sku.response.json",
+                    "covers": {
+                        "description": "validation: payload item missing required sku"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "three-products-mixed-categories",
+                    "request": "product/add.batch/three-products-mixed-categories.request.json",
+                    "response": "product/add.batch/three-products-mixed-categories.response.json",
+                    "covers": {
+                        "description": "enqueue a 3-product batch spanning three different categories and conditions in one call; returns job_id 452, whose processed result is batch/job.result/id-452-mixed-add-three-categories"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.info",
+            "path": "product/child_item.info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/child_item.info/error-no-params.request.json",
+                    "response": "product/child_item.info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: product_id is required"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/child_item.info/error-not-found.request.json",
+                    "response": "product/child_item.info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no product with this product_id/id"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "product-id-110588487260__id-19d4eb5a6353f2894895",
+                    "request": "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895.request.json",
+                    "response": "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., no response_fields]"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-id-110588487260__id-19d4eb5a6353f2894895__rf-id-parent-id-name-full-descrip",
+                    "request": "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895__rf-id-parent-id-name-full-descrip.request.json",
+                    "response": "product/child_item.info/product-id-110588487260__id-19d4eb5a6353f2894895__rf-id-parent-id-name-full-descrip.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [id=19d4eb5a6353f2894895a..., response_fields={result{id;parent_id;...]"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-id-110588487260__id-945104ef13697b8b1351__rf-all",
+                    "request": "product/child_item.info/product-id-110588487260__id-945104ef13697b8b1351__rf-all.request.json",
+                    "response": "product/child_item.info/product-id-110588487260__id-945104ef13697b8b1351__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [id=945104ef13697b8b13516..., response_fields={*}]"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.child_item.list",
+            "path": "product/child_item.list",
+            "cases": [
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/child_item.list/error-invalid-param.request.json",
+                    "response": "product/child_item.list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/child_item.list/page-2.request.json",
+                    "response": "product/child_item.list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor from product-id-110588487260__count-2__rf-all"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-id-110588487260",
+                    "request": "product/child_item.list/product-id-110588487260.request.json",
+                    "response": "product/child_item.list/product-id-110588487260.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-id-110588487260__count-2__rf-all",
+                    "request": "product/child_item.list/product-id-110588487260__count-2__rf-all.request.json",
+                    "response": "product/child_item.list/product-id-110588487260__count-2__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s) [count=2]; its pagination.next is the page_cursor consumed by page-2"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-id-110588487260__rf-all__find-value-variant__find-where-sku",
+                    "request": "product/child_item.list/product-id-110588487260__rf-all__find-value-variant__find-where-sku.request.json",
+                    "response": "product/child_item.list/product-id-110588487260__rf-all__find-value-variant__find-where-sku.response.json",
+                    "covers": {
+                        "description": "search: matching sku value"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.count",
+            "path": "product/count",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/count/basic.request.json",
+                    "response": "product/count/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__avail-sale-false",
+                    "request": "product/count/created-from-2025-06-26__avail-sale-false.request.json",
+                    "response": "product/count/created-from-2025-06-26__avail-sale-false.response.json",
+                    "covers": {
+                        "description": "filter: avail_sale=false"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__avail-sale-true",
+                    "request": "product/count/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true.request.json",
+                    "response": "product/count/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_sale=true"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku",
+                    "request": "product/count/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku.request.json",
+                    "response": "product/count/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku.response.json",
+                    "covers": {
+                        "description": "search: matching sku value"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "created-to-2025-09-24__category-id-30120",
+                    "request": "product/count/created-to-2025-09-24__category-id-30120.request.json",
+                    "response": "product/count/created-to-2025-09-24__category-id-30120.response.json",
+                    "covers": {
+                        "description": "filter: category_id=30120"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.add",
+            "path": "product/image.add",
+            "cases": [
+                {
+                    "slug": "error-invalid-type",
+                    "request": "product/image.add/error-invalid-type.request.json",
+                    "response": "product/image.add/error-invalid-type.response.json",
+                    "covers": {
+                        "description": "validation: type value not in the allowed enum (base, additional)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-missing-image-name",
+                    "request": "product/image.add/error-missing-image-name.request.json",
+                    "response": "product/image.add/error-missing-image-name.response.json",
+                    "covers": {
+                        "description": "validation: product_id alone -> image_name required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.add/error-no-params.request.json",
+                    "response": "product/image.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/image.add/error-not-found.request.json",
+                    "response": "product/image.add/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "type-additional",
+                    "request": "product/image.add/type-additional.request.json",
+                    "response": "product/image.add/type-additional.response.json",
+                    "covers": {
+                        "description": "add an additional (non-base) image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "type-base-position-0",
+                    "request": "product/image.add/type-base-position-0.request.json",
+                    "response": "product/image.add/type-base-position-0.response.json",
+                    "covers": {
+                        "description": "add base image by url with explicit position"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.delete",
+            "path": "product/image.delete",
+            "cases": [
+                {
+                    "slug": "error-image-not-found",
+                    "request": "product/image.delete/error-image-not-found.request.json",
+                    "response": "product/image.delete/error-image-not-found.response.json",
+                    "covers": {
+                        "description": "not found: image id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.delete/error-no-params.request.json",
+                    "response": "product/image.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-not-found",
+                    "request": "product/image.delete/error-product-not-found.request.json",
+                    "response": "product/image.delete/error-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "first-image",
+                    "request": "product/image.delete/first-image.request.json",
+                    "response": "product/image.delete/first-image.response.json",
+                    "covers": {
+                        "description": "delete the first added image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "second-image",
+                    "request": "product/image.delete/second-image.request.json",
+                    "response": "product/image.delete/second-image.response.json",
+                    "covers": {
+                        "description": "delete the second added image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.image.update",
+            "path": "product/image.update",
+            "cases": [
+                {
+                    "slug": "error-image-not-found",
+                    "request": "product/image.update/error-image-not-found.request.json",
+                    "response": "product/image.update/error-image-not-found.response.json",
+                    "covers": {
+                        "description": "not found: image id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/image.update/error-no-params.request.json",
+                    "response": "product/image.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-not-found",
+                    "request": "product/image.update/error-product-not-found.request.json",
+                    "response": "product/image.update/error-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "reposition",
+                    "request": "product/image.update/reposition.request.json",
+                    "response": "product/image.update/reposition.response.json",
+                    "covers": {
+                        "description": "move an image to a new position"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.info",
+            "path": "product/info",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/info/error-no-params.request.json",
+                    "response": "product/info/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: id is required"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/info/error-not-found.request.json",
+                    "response": "product/info/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: no product with this id"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "id-110588487260__rf-all",
+                    "request": "product/info/id-110588487260__rf-all.request.json",
+                    "response": "product/info/id-110588487260__rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields [id=110588487260]"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "id-110588487292__params-force-all__exclude-u-model-url",
+                    "request": "product/info/id-110588487292__params-force-all__exclude-u-model-url.request.json",
+                    "response": "product/info/id-110588487292__params-force-all__exclude-u-model-url.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                },
+                {
+                    "slug": "id-110588487293__rf-all",
+                    "request": "product/info/id-110588487293__rf-all.request.json",
+                    "response": "product/info/id-110588487293__rf-all.response.json",
+                    "covers": {
+                        "description": "full response fields [id=110588487293]"
+                    },
+                    "captured_at": "2026-08-10T11:24:20Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.list",
+            "path": "product/list",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/list/basic.request.json",
+                    "response": "product/list/basic.response.json",
+                    "covers": {
+                        "description": "happy path (no filters)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all",
+                    "request": "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all.request.json",
+                    "response": "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: avail_sale=false [created_from=2025-06-26]; its pagination.next is the page_cursor consumed by page-2"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__avail-sale-true__params-force-all__exclude-additional-fields",
+                    "request": "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true__params-force-all__exclude-additional-fields.request.json",
+                    "response": "product/list/created-from-2025-06-26__created-to-2025-09-24__avail-sale-true__params-force-all__exclude-additional-fields.response.json",
+                    "covers": {
+                        "description": "params=force_all combined with exclude (deprecated selector pair)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__category-id-30120__count-2__rf-all",
+                    "request": "product/list/created-from-2025-06-26__created-to-2025-09-24__category-id-30120__count-2__rf-all.request.json",
+                    "response": "product/list/created-from-2025-06-26__created-to-2025-09-24__category-id-30120__count-2__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: category_id=30120"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku__rf-all",
+                    "request": "product/list/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku__rf-all.request.json",
+                    "response": "product/list/created-from-2025-06-26__created-to-2025-09-24__find-value-test123__find-where-sku__rf-all.response.json",
+                    "covers": {
+                        "description": "search: matching sku value [created_from=2025-06-26]"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "created-from-2025-10-24__rf-all",
+                    "request": "product/list/created-from-2025-10-24__rf-all.request.json",
+                    "response": "product/list/created-from-2025-10-24__rf-all.response.json",
+                    "covers": {
+                        "description": "filter: created_from (lower bound)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "error-invalid-param",
+                    "request": "product/list/error-invalid-param.request.json",
+                    "response": "product/list/error-invalid-param.response.json",
+                    "covers": {
+                        "description": "validation: count must be a non-negative integer"
+                    },
+                    "captured_at": "2026-08-18T07:18:43Z"
+                },
+                {
+                    "slug": "page-2",
+                    "request": "product/list/page-2.request.json",
+                    "response": "product/list/page-2.response.json",
+                    "covers": {
+                        "description": "pagination: page 2 via page_cursor from created-from-2025-06-26__created-to-2025-09-24__avail-sale-false__rf-all"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-ids-110588417416-1105884__rf-all__category-id-105417",
+                    "request": "product/list/product-ids-110588417416-1105884__rf-all__category-id-105417.request.json",
+                    "response": "product/list/product-ids-110588417416-1105884__rf-all__category-id-105417.response.json",
+                    "covers": {
+                        "description": "filter: category_id=105417"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-ids-110588417416-1105884__rf-all__count-2",
+                    "request": "product/list/product-ids-110588417416-1105884__rf-all__count-2.request.json",
+                    "response": "product/list/product-ids-110588417416-1105884__rf-all__count-2.response.json",
+                    "covers": {
+                        "description": "filter: specific product id(s)"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-ids-110588417416-1105884__rf-all__created-from-2025-09-05__avail-sale-true",
+                    "request": "product/list/product-ids-110588417416-1105884__rf-all__created-from-2025-09-05__avail-sale-true.request.json",
+                    "response": "product/list/product-ids-110588417416-1105884__rf-all__created-from-2025-09-05__avail-sale-true.response.json",
+                    "covers": {
+                        "description": "filter: avail_sale=true"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-ids-110588417416-1105884__rf-all__created-to-2025-10-25__avail-sale-false",
+                    "request": "product/list/product-ids-110588417416-1105884__rf-all__created-to-2025-10-25__avail-sale-false.request.json",
+                    "response": "product/list/product-ids-110588417416-1105884__rf-all__created-to-2025-10-25__avail-sale-false.response.json",
+                    "covers": {
+                        "description": "filter: avail_sale=false"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                },
+                {
+                    "slug": "product-ids-110588417416-1105884__rf-all__find-value-test__find-where-sku",
+                    "request": "product/list/product-ids-110588417416-1105884__rf-all__find-value-test__find-where-sku.request.json",
+                    "response": "product/list/product-ids-110588417416-1105884__rf-all__find-value-test__find-where-sku.response.json",
+                    "covers": {
+                        "description": "search: matching sku value [no created_from]"
+                    },
+                    "captured_at": "2026-08-10T11:24:19Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update",
+            "path": "product/update",
+            "cases": [
+                {
+                    "slug": "disable-status",
+                    "request": "product/update/disable-status.request.json",
+                    "response": "product/update/disable-status.response.json",
+                    "covers": {
+                        "description": "disable product status"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-status",
+                    "request": "product/update/error-invalid-status.request.json",
+                    "response": "product/update/error-invalid-status.response.json",
+                    "covers": {
+                        "description": "validation: status value not in the allowed enum"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/update/error-no-params.request.json",
+                    "response": "product/update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/update/error-not-found.request.json",
+                    "response": "product/update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-reserve-price-not-auction",
+                    "request": "product/update/error-reserve-price-not-auction.request.json",
+                    "response": "product/update/error-reserve-price-not-auction.response.json",
+                    "covers": {
+                        "description": "validation: reserve_price only allowed when the listing type is Auction"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "price-reserve-buyitnow",
+                    "request": "product/update/price-reserve-buyitnow.request.json",
+                    "response": "product/update/price-reserve-buyitnow.response.json",
+                    "covers": {
+                        "description": "update price together with reserve_price and buyitnow_price"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "sku-name-description",
+                    "request": "product/update/sku-name-description.request.json",
+                    "response": "product/update/sku-name-description.response.json",
+                    "covers": {
+                        "description": "update sku, name and description"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.update.batch",
+            "path": "product/update.batch",
+            "cases": [
+                {
+                    "slug": "basic",
+                    "request": "product/update.batch/basic.request.json",
+                    "response": "product/update.batch/basic.response.json",
+                    "covers": {
+                        "description": "enqueue a 4-item batch update covering rename/price, increase_quantity+dimensions, reduce_quantity+images and status change; returns job_id 460 (enqueue only -- no result published)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "disable-and-reduce-quantity",
+                    "request": "product/update.batch/disable-and-reduce-quantity.request.json",
+                    "response": "product/update.batch/disable-and-reduce-quantity.response.json",
+                    "covers": {
+                        "description": "enqueue a 2-item batch update: disable one product, reduce_quantity with dimensions/condition on another; returns job_id 461 (enqueue only -- no result published)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-duplicate-id-in-payload",
+                    "request": "product/update.batch/error-duplicate-id-in-payload.request.json",
+                    "response": "product/update.batch/error-duplicate-id-in-payload.response.json",
+                    "covers": {
+                        "description": "validation: two payload items reuse the same id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-id-pattern",
+                    "request": "product/update.batch/error-invalid-id-pattern.request.json",
+                    "response": "product/update.batch/error-invalid-id-pattern.response.json",
+                    "covers": {
+                        "description": "validation: id must match the numeric-string pattern"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-id",
+                    "request": "product/update.batch/error-no-id.request.json",
+                    "response": "product/update.batch/error-no-id.response.json",
+                    "covers": {
+                        "description": "validation: payload item missing required id"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-quantity-combo-conflict",
+                    "request": "product/update.batch/error-quantity-combo-conflict.request.json",
+                    "response": "product/update.batch/error-quantity-combo-conflict.response.json",
+                    "covers": {
+                        "description": "validation: quantity and increase_quantity are mutually exclusive"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "single-item-short-numeric-id",
+                    "request": "product/update.batch/single-item-short-numeric-id.request.json",
+                    "response": "product/update.batch/single-item-short-numeric-id.response.json",
+                    "covers": {
+                        "description": "enqueue a single-item batch update using a short numeric id instead of a full-length EBay item id; returns job_id 462 (enqueue only -- no result published)"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "two-items-price-and-quantity",
+                    "request": "product/update.batch/two-items-price-and-quantity.request.json",
+                    "response": "product/update.batch/two-items-price-and-quantity.response.json",
+                    "covers": {
+                        "description": "enqueue a 2-item batch update setting price on one product and quantity on another; returns job_id 456, whose processed result is batch/job.result/id-456-mixed-update-relisted"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.add",
+            "path": "product/variant.add",
+            "cases": [
+                {
+                    "slug": "color-blue-size-m",
+                    "request": "product/variant.add/color-blue-size-m.request.json",
+                    "response": "product/variant.add/color-blue-size-m.response.json",
+                    "covers": {
+                        "description": "add configurable-product variant by Color/Size attributes"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "color-red-size-l-with-identifiers",
+                    "request": "product/variant.add/color-red-size-l-with-identifiers.request.json",
+                    "response": "product/variant.add/color-red-size-l-with-identifiers.response.json",
+                    "covers": {
+                        "description": "add second variant with upc/ean/isbn"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-already-exists",
+                    "request": "product/variant.add/error-already-exists.request.json",
+                    "response": "product/variant.add/error-already-exists.response.json",
+                    "covers": {
+                        "description": "entity already exists: attribute combination already used by another variant"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-invalid-attributes",
+                    "request": "product/variant.add/error-invalid-attributes.request.json",
+                    "response": "product/variant.add/error-invalid-attributes.response.json",
+                    "covers": {
+                        "description": "validation: attributes must be an array"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.add/error-no-params.request.json",
+                    "response": "product/variant.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> attributes required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.add/error-not-found.request.json",
+                    "response": "product/variant.add/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.delete",
+            "path": "product/variant.delete",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.delete/error-no-params.request.json",
+                    "response": "product/variant.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.delete/error-not-found.request.json",
+                    "response": "product/variant.delete/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "first-variant",
+                    "request": "product/variant.delete/first-variant.request.json",
+                    "response": "product/variant.delete/first-variant.response.json",
+                    "covers": {
+                        "description": "delete first added variant"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "second-variant",
+                    "request": "product/variant.delete/second-variant.request.json",
+                    "response": "product/variant.delete/second-variant.response.json",
+                    "covers": {
+                        "description": "delete second added variant"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.image.add",
+            "path": "product/variant.image.add",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.image.add/error-no-params.request.json",
+                    "response": "product/variant.image.add/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-option-conflict",
+                    "request": "product/variant.image.add/error-option-conflict.request.json",
+                    "response": "product/variant.image.add/error-option-conflict.response.json",
+                    "covers": {
+                        "description": "validation: images already assigned to a different variation option"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-not-found",
+                    "request": "product/variant.image.add/error-product-not-found.request.json",
+                    "response": "product/variant.image.add/error-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-variant-not-found",
+                    "request": "product/variant.image.add/error-variant-not-found.request.json",
+                    "response": "product/variant.image.add/error-variant-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_variant_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "image-scoped-to-option",
+                    "request": "product/variant.image.add/image-scoped-to-option.request.json",
+                    "response": "product/variant.image.add/image-scoped-to-option.response.json",
+                    "covers": {
+                        "description": "add an image scoped to a specific variation option"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "type-base",
+                    "request": "product/variant.image.add/type-base.request.json",
+                    "response": "product/variant.image.add/type-base.response.json",
+                    "covers": {
+                        "description": "add base image to a variant"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.image.delete",
+            "path": "product/variant.image.delete",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.image.delete/error-no-params.request.json",
+                    "response": "product/variant.image.delete/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> product_id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-product-not-found",
+                    "request": "product/variant.image.delete/error-product-not-found.request.json",
+                    "response": "product/variant.image.delete/error-product-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-variant-not-found",
+                    "request": "product/variant.image.delete/error-variant-not-found.request.json",
+                    "response": "product/variant.image.delete/error-variant-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_variant_id does not exist for this product"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "first-image",
+                    "request": "product/variant.image.delete/first-image.request.json",
+                    "response": "product/variant.image.delete/first-image.response.json",
+                    "covers": {
+                        "description": "delete first added variant image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "second-image",
+                    "request": "product/variant.image.delete/second-image.request.json",
+                    "response": "product/variant.image.delete/second-image.response.json",
+                    "covers": {
+                        "description": "delete second added variant image"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        },
+        {
+            "entity": "product",
+            "method": "product.variant.update",
+            "path": "product/variant.update",
+            "cases": [
+                {
+                    "slug": "error-no-params",
+                    "request": "product/variant.update/error-no-params.request.json",
+                    "response": "product/variant.update/error-no-params.response.json",
+                    "covers": {
+                        "description": "validation: no params -> id required"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-not-found",
+                    "request": "product/variant.update/error-not-found.request.json",
+                    "response": "product/variant.update/error-not-found.response.json",
+                    "covers": {
+                        "description": "not found: product_id does not exist"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-quantity-combo-conflict",
+                    "request": "product/variant.update/error-quantity-combo-conflict.request.json",
+                    "response": "product/variant.update/error-quantity-combo-conflict.response.json",
+                    "covers": {
+                        "description": "validation: quantity and increase_quantity are mutually exclusive"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "error-sku-already-used",
+                    "request": "product/variant.update/error-sku-already-used.request.json",
+                    "response": "product/variant.update/error-sku-already-used.response.json",
+                    "covers": {
+                        "description": "entity already exists: sku already used by another variant"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "price-increase-quantity",
+                    "request": "product/variant.update/price-increase-quantity.request.json",
+                    "response": "product/variant.update/price-increase-quantity.response.json",
+                    "covers": {
+                        "description": "update price and increase_quantity"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                },
+                {
+                    "slug": "sku-quantity",
+                    "request": "product/variant.update/sku-quantity.request.json",
+                    "response": "product/variant.update/sku-quantity.response.json",
+                    "covers": {
+                        "description": "update sku and quantity"
+                    },
+                    "captured_at": "2026-08-18T07:02:39Z"
+                }
+            ]
+        }
+    ]
+}

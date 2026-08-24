@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-17T13:56:41Z",
+    "method": "GET",
+    "endpoint": "order.shipment.list.json",
+    "query": {
+        "order_id": "3796050123784",
+        "count": 3,
+        "response_fields": "{*}"
+    }
+}

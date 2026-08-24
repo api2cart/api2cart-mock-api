@@ -1,0 +1,346 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "Dc7JmkMwAADgB8phxO7Qg3UoxUeGckvVNLZYK%2BXpZ%2F4n%2BOErWYzYhaLOehR9qSA%2FiNfQaOI9rvwNilo%2BQxizdXtmSdFrvrqjT6SfY%2Bm5q0Swg6tCeYYlr9xz1rsJZ%2BS7IUrVkdeTwDnjJN5B7aSQCPTMaDeciw2Zv6PNFLdWaWKEMUxXTDAKODDf1C0fvo3PDF5G5z5I6YD5AWSprZGVOammd%2Fz0kx3VSA%2F%2F8N4KZ1PEt2wfGrNd0ltiASnU6iw8MaarK3bNBDwNdVcymE5kz4lSdLpXHcRcKQI245tSfv%2FvyEexMvHKzVMdhCcv5Oxy%2BQM%3D"
+    },
+    "result": {
+        "products_count": 3,
+        "product": [
+            {
+                "id": "1729507098781324693",
+                "type": "simple",
+                "u_model": "",
+                "u_sku": "",
+                "name": "Toilet Brush",
+                "description": "<p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet BrushToilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet BrushToilet BrushToilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p><p>Toilet Brush</p>",
+                "short_description": null,
+                "price": 12.12,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 21,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7417026736480880390",
+                "u_brand": null,
+                "categories_ids": [
+                    "600405"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-ae7d36c9.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.233,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2026-03-11T10:49:17+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2026-03-11T10:49:20+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "10fe2fdc8b45596bc6d4566365544a1a",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 11,
+                "height": 7,
+                "length": 23,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 12.12,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729507097613931925",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730872009940896149",
+                "type": "simple",
+                "u_model": "upd_qasku_889",
+                "u_sku": "upd_qasku_889",
+                "name": "Handmade CuddleBuddy Small Bee Upd - Soft and Huggable Plush Toy",
+                "description": "<p>Update Descr Introducing the CuddleBuddy Giant Bee</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": null,
+                "categories_ids": [
+                    "700665"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-e1dd3983.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.009,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-09T10:42:17+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-20T13:27:44+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7195fbb43022439873dfbcec48e31045",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "7133a3a010aaf7728253586b8ffa3675",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 55,
+                "height": 25,
+                "length": 11,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 15.33,
+                    "is_global_product": true,
+                    "local_products": [],
+                    "specifics": [
+                        {
+                            "name": "Carcinogen",
+                            "value": "Alachlor"
+                        },
+                        {
+                            "name": "Shelf Life",
+                            "value": "Disposable"
+                        },
+                        {
+                            "name": "Style",
+                            "value": "Vintage"
+                        }
+                    ],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1730871958091434389",
+                "type": "simple",
+                "u_model": "qasku_890",
+                "u_sku": "qasku_890",
+                "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant Bee</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling, playtime, and comfort during naps and bedtime.</p><h3>Features of the CuddleBuddy Giant Bee:</h3><ul><li><strong>Super Soft Material:</strong> Made with ultra-soft plush fabric, perfect for hugs and snuggles.</li><li><strong>Large Size:</strong> Measures an impressive 36 inches in height, making it a big, friendly presence in any child's room.</li><li><strong>Safety First:</strong> Constructed with child-safe materials and rigorously tested to meet high safety standards.</li><li><strong>Durable and Washable:</strong> Built to withstand countless playtimes and is machine washable for easy cleaning.</li></ul><h3>Why Choose CuddleBuddy Giant Bee?</h3><p>This giant Bee is not just a toy but a lifelong companion that helps foster a child's affection and comfort. Its charming design and soothing texture make it an ideal gift for birthdays, holidays, or any occasion to express love and care.</p><h3>Bringing Joy and Comfort:</h3><p>The CuddleBuddy Giant Bee is designed to be more than a stuffed toy; it's a source of comfort and joy for children of all ages. It's the perfect bedtime companion, a fantastic listener, and a soft shoulder to lean on.</p>",
+                "short_description": null,
+                "price": 15.33,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "7215802402681702149",
+                "u_brand": null,
+                "categories_ids": [
+                    "700665"
+                ],
+                "stores_ids": [
+                    "7495835829029079445"
+                ],
+                "url": "https://store-84e4bf46.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.33,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-09-09T10:33:22+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-09-09T10:33:26+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "7195fbb43022439873dfbcec48e31045",
+                        "http_path": "",
+                        "file_name": null,
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 3,
+                "length": 8,
+                "discounts": [],
+                "additional_fields": {
+                    "status": null,
+                    "is_cod_allowed": null,
+                    "is_not_for_sale": null,
+                    "sale_price": 15.33,
+                    "is_global_product": true,
+                    "local_products": [
+                        {
+                            "id": "1729631735935963541",
+                            "region": "CA"
+                        }
+                    ],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

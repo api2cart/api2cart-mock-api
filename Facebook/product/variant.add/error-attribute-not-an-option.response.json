@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "The attribute named 'Color' doesn't belong to the options available for the product. Available options: 'battery_life','watch_movement_type','watch_case_thickness'.",
+    "result": {}
+}

@@ -1,0 +1,21 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "110552914804",
+        "model": "variable-blue-m",
+        "quantity": 10,
+        "price": 45,
+        "attributes": [
+            {
+                "attribute_name": "Color",
+                "attribute_value": "Blue"
+            },
+            {
+                "attribute_name": "Size",
+                "attribute_value": "M"
+            }
+        ]
+    }
+}

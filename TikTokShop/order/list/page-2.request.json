@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-14T08:12:44Z",
+    "method": "GET",
+    "endpoint": "order.list.json",
+    "query": {
+        "page_cursor": "BcHNYkMwAADgB9pBaix26EGJmlY6o0VukiZ%2BYtN0I%2BTp930hGNcLqLzASeacGBvlJDRdsb2t%2Fe0viRO0UYOeIcE3C2G%2FFy9prR27GNsJKgswVXvaqa%2FLt3DEA8MYv1csWyRsVaOg2UrqEzw1XPWB7f7%2BMPBVRmc4p82z5CwH7kxaIu%2FT57F4sN2IJhwHCEQmug4hT%2ByU0uTU8Ux%2FaNplkt53LKYXnPuvqCmrgzwtx%2BEAhOvw4awE9q3Fk%2FMqMqz3%2B38%3D"
+    }
+}

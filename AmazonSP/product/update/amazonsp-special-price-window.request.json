@@ -1,0 +1,13 @@
+{
+    "captured_at": "2026-08-18T07:02:38Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "8L-IAZE-42MI",
+        "special_price": 0.24,
+        "increase_quantity": 1,
+        "sprice_create": "2028-07-13",
+        "sprice_expire": "2028-08-13",
+        "report_request_id": "ATVPDKIKX0DER52672020649"
+    }
+}

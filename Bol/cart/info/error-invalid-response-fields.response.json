@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "The value of parameter 'response_fields' contains unacceptable characters; The value must match the pattern '/^({)([a-zA-Z0-9{},_*\\-\\s])+(})$/'",
+    "result": {}
+}

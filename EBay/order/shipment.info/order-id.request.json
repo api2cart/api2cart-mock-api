@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-10T12:43:19Z",
+    "method": "GET",
+    "endpoint": "order.shipment.info.json",
+    "query": {
+        "id": "EE199738891DS",
+        "order_id": "01-14759-05993"
+    }
+}

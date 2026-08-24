@@ -1,0 +1,580 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "559c5d924fff3d64de18bf45",
+        "parent_id": "0",
+        "created_at": null,
+        "modified_at": null,
+        "name": "Animal Accessories",
+        "short_description": null,
+        "description": null,
+        "stores_ids": [],
+        "keywords": null,
+        "meta_description": null,
+        "meta_title": null,
+        "avail": true,
+        "path": null,
+        "seo_url": null,
+        "sort_order": null,
+        "images": [],
+        "additional_fields": {
+            "category_properties": {
+                "productSecondaryImageURL": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "maxLength": 2000,
+                        "format": "uri"
+                    },
+                    "minItems": 1
+                },
+                "prop65WarningText": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                },
+                "countryOfOriginTextiles": {
+                    "type": "string",
+                    "enum": [
+                        "USA and Imported",
+                        "Imported",
+                        "USA",
+                        "USA or Imported"
+                    ]
+                },
+                "keyFeatures": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4000
+                    },
+                    "minItems": 1
+                },
+                "msrp": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100000000,
+                    "exclusiveMaximum": false,
+                    "multipleOf": 0.01
+                },
+                "manufacturer": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 60
+                },
+                "manufacturerPartNumber": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 60
+                },
+                "modelNumber": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 60
+                },
+                "countPerPack": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 10000000000,
+                    "exclusiveMaximum": false
+                },
+                "pieceCount": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 10000000000,
+                    "exclusiveMaximum": false
+                },
+                "count": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 50
+                },
+                "color": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 600
+                    },
+                    "minItems": 1
+                },
+                "colorCategory": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Blue",
+                            "Brown",
+                            "Gold",
+                            "Gray",
+                            "Purple",
+                            "Clear",
+                            "Yellow",
+                            "Multi-color",
+                            "Black",
+                            "Beige",
+                            "Pink",
+                            "Orange",
+                            "Green",
+                            "White",
+                            "Red",
+                            "Off-White",
+                            "Silver",
+                            "Bronze"
+                        ]
+                    },
+                    "minItems": 1
+                },
+                "size": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                },
+                "animalType": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                },
+                "animalBreed": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                },
+                "petSize": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                },
+                "animalLifestage": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                },
+                "minimumWeight": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "kg",
+                                "lb",
+                                "oz",
+                                "g"
+                            ]
+                        }
+                    }
+                },
+                "maximumWeight": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "kg",
+                                "mg",
+                                "lb",
+                                "oz",
+                                "g"
+                            ]
+                        }
+                    }
+                },
+                "capacity": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                },
+                "shape": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                },
+                "assembledProductLength": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "ft",
+                                "in"
+                            ]
+                        }
+                    }
+                },
+                "assembledProductWidth": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "ft",
+                                "in"
+                            ]
+                        }
+                    }
+                },
+                "assembledProductHeight": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "ft",
+                                "in"
+                            ]
+                        }
+                    }
+                },
+                "assembledProductWeight": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "kg",
+                                "lb",
+                                "oz",
+                                "g"
+                            ]
+                        }
+                    }
+                },
+                "material": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 1000
+                    },
+                    "minItems": 1
+                },
+                "fabricContent": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "materialName": {
+                                "type": "string",
+                                "title": "Fabric Material Name",
+                                "minLength": 1,
+                                "maxLength": 4000
+                            },
+                            "materialPercentage": {
+                                "type": "number",
+                                "title": "Fabric Material Percentage",
+                                "minimum": 0,
+                                "maximum": 10000000000000000,
+                                "exclusiveMaximum": false,
+                                "multipleOf": 0.001
+                            }
+                        }
+                    },
+                    "minItems": 1
+                },
+                "fabricCareInstructions": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4000
+                    },
+                    "minItems": 1
+                },
+                "globalBrandLicense": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4000
+                    },
+                    "minItems": 1
+                },
+                "instructions": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                },
+                "batteriesRequired": {
+                    "type": "string",
+                    "enum": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                "batterySize": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                },
+                "isFoldable": {
+                    "type": "string",
+                    "enum": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                "isReflective": {
+                    "type": "string",
+                    "enum": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                "isRetractable": {
+                    "type": "string",
+                    "enum": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                "maximumTemperature": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "ºF",
+                                "ºK",
+                                "ºC"
+                            ]
+                        }
+                    }
+                },
+                "minimumTemperature": {
+                    "type": "object",
+                    "properties": {
+                        "measure": {
+                            "type": "number",
+                            "title": "Measure",
+                            "minimum": 0,
+                            "maximum": 10000000000000000,
+                            "exclusiveMaximum": false,
+                            "multipleOf": 0.001
+                        },
+                        "unit": {
+                            "type": "string",
+                            "title": "Unit",
+                            "enum": [
+                                "ºF",
+                                "ºK",
+                                "ºC"
+                            ]
+                        }
+                    }
+                },
+                "numberOfSteps": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1.0e+40,
+                    "exclusiveMaximum": false,
+                    "multipleOf": 0.001
+                },
+                "pattern": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 400
+                    },
+                    "minItems": 1
+                },
+                "character": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 400
+                    },
+                    "minItems": 1
+                },
+                "sportsLeague": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                    },
+                    "minItems": 1
+                },
+                "sportsTeam": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 200
+                    },
+                    "minItems": 1
+                },
+                "features": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4000
+                    },
+                    "minItems": 1
+                },
+                "warrantyText": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1000
+                },
+                "warrantyURL": {
+                    "type": "string",
+                    "minLength": 1,
+                    "format": "uri"
+                },
+                "additionalProductAttributes": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "productAttributeName": {
+                                "type": "string",
+                                "title": "Additional Product Attribute Name",
+                                "minLength": 1,
+                                "maxLength": 100
+                            },
+                            "productAttributeValue": {
+                                "type": "string",
+                                "title": "Additional Product Attribute Value",
+                                "minLength": 1,
+                                "maxLength": 4000
+                            }
+                        }
+                    },
+                    "minItems": 1
+                },
+                "variantGroupId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 300
+                },
+                "variantAttributeNames": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "count",
+                            "assembledProductHeight",
+                            "capacity",
+                            "color",
+                            "sportsTeam",
+                            "character",
+                            "assembledProductWidth",
+                            "countPerPack",
+                            "shape",
+                            "size",
+                            "assembledProductLength"
+                        ]
+                    },
+                    "minItems": 1
+                },
+                "isPrimaryVariant": {
+                    "type": "string",
+                    "enum": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                "swatchImages": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "swatchVariantAttribute": {
+                                "type": "string",
+                                "title": "Swatch Variant Attribute",
+                                "enum": [
+                                    "count",
+                                    "assembledProductHeight",
+                                    "capacity",
+                                    "color",
+                                    "sportsTeam",
+                                    "character",
+                                    "assembledProductWidth",
+                                    "countPerPack",
+                                    "shape",
+                                    "size",
+                                    "assembledProductLength"
+                                ]
+                            },
+                            "swatchImageUrl": {
+                                "type": "string",
+                                "title": "Swatch Image URL",
+                                "minLength": 1,
+                                "format": "uri"
+                            }
+                        }
+                    },
+                    "minItems": 1
+                }
+            }
+        }
+    }
+}

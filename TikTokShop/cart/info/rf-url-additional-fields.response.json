@@ -1,0 +1,87 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "url": null,
+        "additional_fields": {
+            "manufacturers": [
+                {
+                    "id": "69b400878c0aa58af419c2e0",
+                    "regional_profiles": [
+                        {
+                            "email": "user10150@example.com",
+                            "name": "John Doe",
+                            "address": "599 Example St",
+                            "locale": "en-IE",
+                            "phone": "+12715803590",
+                            "registered_trade_name": "TikTok Shop"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b400a85d03ba20204d7d50",
+                    "regional_profiles": [
+                        {
+                            "email": "user10150@example.com",
+                            "name": "Janeth Johnson",
+                            "address": "282 Example St",
+                            "locale": "en-IE",
+                            "phone": "+10650234844",
+                            "registered_trade_name": ""
+                        }
+                    ]
+                }
+            ],
+            "responsible_persons": [
+                {
+                    "id": "69b3ffec0eba7ac01d19b1a3",
+                    "regional_profiles": [
+                        {
+                            "email": "user3923@example.com",
+                            "name": "John Doe",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "807 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+11783910046"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b4001b896a070e8b9f7117",
+                    "regional_profiles": [
+                        {
+                            "email": "user21226@example.com",
+                            "name": "Meggy Baker",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "941 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+11594947467"
+                        }
+                    ]
+                },
+                {
+                    "id": "69b4003fd461ea676edeffae",
+                    "regional_profiles": [
+                        {
+                            "email": "user66864@example.com",
+                            "name": "Jack Johnson",
+                            "address": {
+                                "country": "Ireland",
+                                "postal_code": "08359",
+                                "address": "112 Example St"
+                            },
+                            "locale": "en-IE",
+                            "phone": "+12643906680"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

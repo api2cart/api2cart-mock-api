@@ -1,0 +1,6 @@
+{
+    "captured_at": "2026-08-13T10:00:00Z",
+    "method": "GET",
+    "endpoint": "order.status.list.json",
+    "query": {}
+}

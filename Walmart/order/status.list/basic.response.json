@@ -1,0 +1,32 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "cart_order_statuses": [
+            {
+                "id": "created",
+                "name": "Created"
+            },
+            {
+                "id": "acknowledged",
+                "name": "Acknowledged"
+            },
+            {
+                "id": "shipped",
+                "name": "Shipped"
+            },
+            {
+                "id": "cancelled",
+                "name": "Cancelled"
+            },
+            {
+                "id": "delivered",
+                "name": "Delivered"
+            }
+        ]
+    }
+}

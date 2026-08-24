@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-07-23T11:25:13Z",
+    "method": "GET",
+    "endpoint": "cart.info.json",
+    "query": {
+        "params": "force_all",
+        "exclude": "warehouses,db_prefix,version"
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "25092705136993397",
+        "type": "simple",
+        "u_model": null,
+        "u_sku": "qasku_777",
+        "name": "Handmade CuddleBuddy Small Bee - Soft and Huggable Plush Toy",
+        "description": "description Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+        "short_description": null,
+        "price": 15,
+        "advanced_price": [],
+        "cost_price": null,
+        "unit_price": null,
+        "measure_unit": null,
+        "quantity": 100,
+        "inventory": [],
+        "group_items": [],
+        "u_brand_id": null,
+        "u_brand": null,
+        "categories_ids": [],
+        "stores_ids": [],
+        "url": "https://store-e2844786.example.com/",
+        "seo_url": "https://store-e2844786.example.com/",
+        "meta_title": null,
+        "meta_keywords": null,
+        "meta_description": null,
+        "avail_sale": true,
+        "avail_view": true,
+        "is_virtual": null,
+        "is_downloadable": null,
+        "weight": 0,
+        "weight_unit": null,
+        "sort_order": null,
+        "in_stock": true,
+        "backorders": false,
+        "manage_stock": true,
+        "is_stock_managed": true,
+        "on_sale": null,
+        "create_at": null,
+        "modified_at": null,
+        "tax_class_id": null,
+        "special_price": {
+            "value": 9,
+            "avail": true,
+            "created_at": null,
+            "modified_at": null,
+            "expired_at": null
+        },
+        "tier_price": [],
+        "group_price": [],
+        "images": [
+            {
+                "id": "1971fcf798021640d86d225140ee77c8",
+                "http_path": "https://picsum.photos/seed/d44b35bf/600/600",
+                "file_name": "00-2236_large.jpg",
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 0,
+                "type": "IMAGE_TYPE_BASE"
+            }
+        ],
+        "product_options": [],
+        "u_upc": null,
+        "u_mpn": null,
+        "u_gtin": null,
+        "u_isbn": null,
+        "u_ean": null,
+        "related_products_ids": [],
+        "up_sell_products_ids": [],
+        "cross_sell_products_ids": [],
+        "dimensions_unit": null,
+        "width": null,
+        "height": null,
+        "length": null,
+        "discounts": [],
+        "additional_fields": {
+            "age_group": "",
+            "availability": "in stock",
+            "condition": "new",
+            "currency": "USD",
+            "custom_number_0": "0",
+            "custom_number_1": "0",
+            "custom_number_2": "0",
+            "custom_number_3": "0",
+            "custom_number_4": "0",
+            "gender": "",
+            "image_fetch_status": "FETCHED",
+            "mobile_link": "",
+            "ordering_index": 0,
+            "post_conversion_signal_based_enforcement_appeal_eligibility": false,
+            "product_relationship": "child",
+            "quantity_to_sell_on_facebook": 11,
+            "retailer_id": "qasku_777",
+            "retailer_product_group_id": "group_696106408782905_qasku_777",
+            "fb_product_category": "home improvement > home heating & cooling",
+            "review_status": "",
+            "link": "",
+            "additional_image_cdn_urls": [],
+            "additional_variant_attributes": [
+                {
+                    "key": "height",
+                    "value": "mm"
+                },
+                {
+                    "key": "length",
+                    "value": "mm"
+                }
+            ],
+            "applinks": [
+                {
+                    "should_fallback": true
+                }
+            ],
+            "capability_to_review_status": [
+                {
+                    "key": "DA",
+                    "value": "NO_REVIEW"
+                },
+                {
+                    "key": "MINI_SHOPS",
+                    "value": "APPROVED"
+                }
+            ],
+            "commerce_insights": [
+                0,
+                0,
+                0
+            ],
+            "custom_data": [
+                {
+                    "key": "height",
+                    "value": "mm"
+                },
+                {
+                    "key": "length",
+                    "value": "mm"
+                }
+            ],
+            "product_catalog": [
+                "696106408782905",
+                "Items for Test Shop API (105527999320126)"
+            ],
+            "product_sets": [
+                [
+                    {
+                        "id": "750220227617103",
+                        "name": "product_level_return_policy_30_days",
+                        "filter": "{\"tags.disc_plat\":{\"eq\":\"product_level_return_policy_30_days\"}}"
+                    },
+                    {
+                        "id": "908547517441484",
+                        "name": "sale",
+                        "filter": "{\"tags.disc_plat\":{\"eq\":\"sale\"}}"
+                    },
+                    {
+                        "id": "1594493287986610",
+                        "name": "Store collection Усі товари"
+                    }
+                ],
+                {
+                    "cursors": {
+                        "before": "NzUwMjIwMjI3NjE3MTAz",
+                        "after": "MTU5NDQ5MzI4Nzk4NjYxMAZDZD"
+                    }
+                }
+            ],
+            "category_specific_fields": []
+        }
+    }
+}

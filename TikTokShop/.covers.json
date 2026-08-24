@@ -1,0 +1,548 @@
+{
+    "cart/coupon.count/basic": {
+        "description": "happy path: count available coupons"
+    },
+    "cart/coupon.list/rf-all__count-3": {
+        "description": "full coupon shape via response_fields={*}: percent-off action scoped to specific product ids, min-spend order condition"
+    },
+    "cart/info/basic": {
+        "description": "happy path: entity information without filters"
+    },
+    "cart/info/params-force-all__exclude-stores-info": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "cart/info/rf-all": {
+        "description": "full response fields"
+    },
+    "cart/info/rf-name": {
+        "description": "field selection: name"
+    },
+    "cart/info/rf-url-additional-fields": {
+        "description": "field selection: url,additional_fields"
+    },
+    "category/count/avail-false": {
+        "description": "filter: unavailable categories"
+    },
+    "category/count/basic": {
+        "description": "happy path: count all available categories"
+    },
+    "category/count/parent-id-859400": {
+        "description": "count: number of subcategories under a single branch of the catalogue tree"
+    },
+    "category/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "category/info/error-not-found": {
+        "description": "not found: no category with this id"
+    },
+    "category/info/id-600009__rf-all": {
+        "description": "full category shape incl. certification/manufacturer/size_chart rules and product_specifics enums required by this category for product.add"
+    },
+    "category/list/basic": {
+        "description": "happy path: default category list (narrow default fields)"
+    },
+    "category/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "category/list/find-where-name__find-value-mugs": {
+        "description": "search: categories matched by a term in their name"
+    },
+    "category/list/parent-id-859400": {
+        "description": "hierarchy: immediate child categories of one branch of the catalogue tree"
+    },
+    "category/list/rf-all__count-2": {
+        "description": "full category shape via response_fields={*}"
+    },
+    "order/count/basic": {
+        "description": "happy path: count all orders"
+    },
+    "order/info/error-no-params": {
+        "description": "validation: order_id is required"
+    },
+    "order/info/error-not-found": {
+        "description": "not found: no order with this order_id/store_id"
+    },
+    "order/info/order-id-576929338705943320__rf-all": {
+        "description": "full order payload: delivered order with five line items, masked buyer/address data, currency block, totals breakdown and platform-specific fulfilment timestamps"
+    },
+    "order/info/order-id-576929338705943320__rounding-precision-2": {
+        "description": "numeric formatting: rounding_precision=2 is accepted but is a no-op for this order -- its amounts already carry at most two decimals, so the body is identical to the case without the parameter; the difference only shows on amounts with more decimals (try precision=1)"
+    },
+    "order/list/basic": {
+        "description": "baseline: default order list page with no filters applied"
+    },
+    "order/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "order/list/order-ids-576929332424383256-576929338705943320": {
+        "description": "filter: multiple specific order ids in one call -- closes the id chain from order.count/order.list into order.info/order.shipment.* (both ids are addressed individually by those methods)"
+    },
+    "order/list/page-2": {
+        "description": "pagination: the following page of orders, reached with the cursor returned by the previous page"
+    },
+    "order/list/rf-all__count-2": {
+        "description": "order payload: full field set of a small two-order page, with totals, refunds, line items and platform-specific extras"
+    },
+    "order/return.add/basic": {
+        "description": "happy path: create a refund return request for one order product"
+    },
+    "order/return.add/error-already-returned": {
+        "description": "store rule: order product has already been returned"
+    },
+    "order/return.add/error-exchange-not-supported": {
+        "description": "store rule: return_action_id=EXCHANGE is not supported by this integration"
+    },
+    "order/return.add/error-no-params": {
+        "description": "validation: no params -> order_id required"
+    },
+    "order/return.add/error-order-product-not-found": {
+        "description": "not found: order_product_id_1 does not exist on this order"
+    },
+    "order/return.add/error-order-product-required": {
+        "description": "validation: valid status/reason/action but no order_product_id_{x} -> required"
+    },
+    "order/return.add/error-return-action-not-found": {
+        "description": "not found: return_action_id value does not exist"
+    },
+    "order/return.add/error-return-reason-not-found": {
+        "description": "not found: return_reason_id value does not exist"
+    },
+    "order/return.add/error-return-status-required": {
+        "description": "validation: order_id only -> return_status_id required"
+    },
+    "order/return.update/approve": {
+        "description": "happy path: approve a pending return"
+    },
+    "order/return.update/error-empty-return-id": {
+        "description": "validation: empty return_id"
+    },
+    "order/return.update/error-empty-staff-note": {
+        "description": "validation: empty staff_note"
+    },
+    "order/return.update/error-invalid-status-transition": {
+        "description": "store rule: return in status 'Approved' can only move to COMPLETED"
+    },
+    "order/return.update/error-no-params": {
+        "description": "validation: no params -> return_id required"
+    },
+    "order/return.update/error-reject-reason-requires-rejected": {
+        "description": "validation: reject_reason sent without return_status_id=REJECTED"
+    },
+    "order/return.update/error-return-status-not-found": {
+        "description": "not found: return_status_id value does not exist"
+    },
+    "order/return.update/error-terminal-status-cannot-change": {
+        "description": "store rule: a return already in a terminal status (Completed) cannot be transitioned further"
+    },
+    "order/return.update/reject-with-reason": {
+        "description": "reject a return with reject_reason and staff_note"
+    },
+    "order/shipment.info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "order/shipment.info/error-not-found": {
+        "description": "not found: no order with this id/order_id"
+    },
+    "order/shipment.info/id-1154261833533201176__order-id-576929338705943320": {
+        "description": "single entity looked up by id"
+    },
+    "order/shipment.info/id-1154261833533201176__order-id-576929338705943320__rf-all": {
+        "description": "single shipment detail: tracking, provider, delivery option and package status for one package taken from the order shipment list"
+    },
+    "order/shipment.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "order/shipment.list/order-id-576929332424383256__params-force-all__exclude-delivered-at": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "order/shipment.list/order-id-576929338705943320": {
+        "description": "filtered export"
+    },
+    "order/shipment.list/order-id-576929338705943320__rf-all": {
+        "description": "shipments of a fulfilled order: single shipped package with carrier tracking number, warehouse and the order line items it contains"
+    },
+    "order/status.list/basic": {
+        "description": "the nine order statuses this store accepts, as order.list/order.update expect them"
+    },
+    "order/update/error-cancellation-reason-required": {
+        "description": "validation: order_status=UNPAID -> cancellation_reason required"
+    },
+    "order/update/error-empty-order-id": {
+        "description": "validation: empty order_id"
+    },
+    "order/update/error-invalid-cancellation-reason": {
+        "description": "validation: cancellation_reason not one of the allowed enum values"
+    },
+    "order/update/error-no-params": {
+        "description": "validation: no params -> order_id required"
+    },
+    "order/update/error-not-cancellable-status": {
+        "description": "store rule: order is no longer in a cancellable status (ON_HOLD / UNPAID / AWAITING_SHIPMENT) -- this order was already cancelled"
+    },
+    "order/update/error-only-cancelled-supported": {
+        "description": "validation: order_status other than CANCELLED is rejected even with a valid cancellation_reason"
+    },
+    "order/update/error-order-status-not-found": {
+        "description": "not found: order_status value does not exist"
+    },
+    "product/add/basic": {
+        "description": "happy path: add product with certifications and specifics required by its category"
+    },
+    "product/add/cross-border-basic": {
+        "description": "cross-border account: creates a GLOBAL product by default (no stores_ids)"
+    },
+    "product/add/cross-border-publish-to-store": {
+        "description": "cross-border account: create a global product and immediately publish it to a specific region store via stores_ids"
+    },
+    "product/add/error-brand-not-found": {
+        "description": "not found: brand_name does not exist"
+    },
+    "product/add/error-category-mismatch": {
+        "description": "store rule: name/description/specifics do not match the specified category"
+    },
+    "product/add/error-category-not-found": {
+        "description": "not found: category_id does not exist"
+    },
+    "product/add/error-certifications-empty": {
+        "description": "validation: empty certifications array"
+    },
+    "product/add/error-certifications-missing-media": {
+        "description": "validation: certification without images or files"
+    },
+    "product/add/error-certifications-required": {
+        "description": "store rule: category requires certifications the request omitted"
+    },
+    "product/add/error-cross-border-delivery-option-ids-not-supported": {
+        "description": "cross-border account: delivery_option_ids is a local-account-only field"
+    },
+    "product/add/error-cross-border-empty-stores-ids": {
+        "description": "cross-border account: validation: empty stores_ids"
+    },
+    "product/add/error-cross-border-status-not-supported": {
+        "description": "cross-border account: status is a local-account-only field"
+    },
+    "product/add/error-cross-border-store-not-found": {
+        "description": "cross-border account: not found: stores_ids store does not exist"
+    },
+    "product/add/error-empty-name": {
+        "description": "validation: empty name"
+    },
+    "product/add/error-no-description": {
+        "description": "validation: name only -> description required"
+    },
+    "product/add/error-no-params": {
+        "description": "validation: no params -> name required"
+    },
+    "product/add/error-stores-ids-not-cross-border-account": {
+        "description": "regular (non-cross-border) account: stores_ids is a cross-border-only field -- passing it here is rejected even though the field itself is a valid, documented parameter"
+    },
+    "product/add/with-ean-and-multiple-manufacturers": {
+        "description": "add product with ean, certification files, multiple specifics values, and comma-separated manufacturer_ids/responsible_person_ids"
+    },
+    "product/add/with-manufacturer-ids": {
+        "description": "add product without certifications (not required by this category), with manufacturer_ids"
+    },
+    "product/brand.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "product/brand.list/rf-all__count-5": {
+        "description": "happy path: full brand shape via response_fields={*}"
+    },
+    "product/child_item.info/error-no-params": {
+        "description": "validation: product_id is required"
+    },
+    "product/child_item.info/error-not-found": {
+        "description": "not found: no product with this product_id/id"
+    },
+    "product/child_item.info/product-id-1729421158695407496__id-1729421251089502088": {
+        "description": "one variant addressed by parent product_id + its own id, showing the ean-vs-gtin split across siblings"
+    },
+    "product/child_item.list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "product/child_item.list/page-2": {
+        "description": "pagination: next variant page; the cursor must be sent alone -- it conflicts even with product_id, which is otherwise required for this method"
+    },
+    "product/child_item.list/product-id-1729421158695407496__rf-all__count-2": {
+        "description": "full variant shape: page 1 of a 9-variant hoodie, per-warehouse inventory and option combinations"
+    },
+    "product/count/basic": {
+        "description": "happy path: every local product in the store"
+    },
+    "product/count/created-from-2024-08-06-01-00-00": {
+        "description": "filter: only products created on or after the given date (43 of 93). Note the created_* halves do NOT add up to the unfiltered 93 (43 + 46 = 89, re-verified in a single run): both bounds are inclusive (create_time_ge / create_time_le), so overlap could only push the sum above the total, never below. Four products match neither bound, i.e. they carry no create_time at all. The modified_* pair over the same store does add up exactly (44 + 49 = 93)."
+    },
+    "product/count/created-to-2024-08-06-01-00-00": {
+        "description": "filter: only products created on or before the given date (46 of 93). Note the created_* halves do NOT add up to the unfiltered 93 (43 + 46 = 89, re-verified in a single run): both bounds are inclusive (create_time_ge / create_time_le), so overlap could only push the sum above the total, never below. Four products match neither bound, i.e. they carry no create_time at all. The modified_* pair over the same store does add up exactly (44 + 49 = 93)."
+    },
+    "product/count/modified-from-2024-08-06-01-00-00": {
+        "description": "filter: only products modified on or after the given date"
+    },
+    "product/count/modified-to-2024-08-06-01-00-00": {
+        "description": "filter: only products modified on or before the given date"
+    },
+    "product/count/return-global-true": {
+        "description": "filter: return_global is accepted on a non-cross-border account and returns 0 rather than erroring -- this account has no global products by definition (filter matches nothing in this store: empty result)"
+    },
+    "product/image.add/basic": {
+        "description": "happy path: add product image by url"
+    },
+    "product/image.add/cross-border-basic": {
+        "description": "cross-border account: add image to a global product"
+    },
+    "product/image.add/error-cross-border-not-supported-for-local-product": {
+        "description": "cross-border account: product.image.add is not supported for local products"
+    },
+    "product/image.add/error-empty-url": {
+        "description": "validation: empty url"
+    },
+    "product/image.add/error-invalid-url": {
+        "description": "validation: url is not a valid URL"
+    },
+    "product/image.add/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/image.add/error-product-id-without-url": {
+        "description": "validation: product_id without url"
+    },
+    "product/image.add/error-product-not-found": {
+        "description": "not found: product_id does not exist"
+    },
+    "product/image.delete/basic": {
+        "description": "happy path: delete one of several images, addressed by the 32-char hex id the product listing carries under images[]"
+    },
+    "product/image.delete/error-cannot-delete-last-image": {
+        "description": "store rule: a product must keep at least one image, so deleting its only image is refused"
+    },
+    "product/image.delete/error-cross-border-not-supported-for-local-product": {
+        "description": "cross-border account: product.image.delete is not supported for local products"
+    },
+    "product/image.delete/error-no-id": {
+        "description": "validation: product_id only -> id required"
+    },
+    "product/image.delete/error-no-params": {
+        "description": "validation: no params -> product_id required"
+    },
+    "product/image.delete/error-not-found": {
+        "description": "not found: image id is well-formed but not present on this product"
+    },
+    "product/info/cross-border-id-1729623101520515477__rf-all": {
+        "description": "cross-border account: full response fields [id=1729623101520515477]"
+    },
+    "product/info/cross-border-id-1730833319262849429__rf-all": {
+        "description": "cross-border account: full response fields [id=1730833319262849429]"
+    },
+    "product/info/cross-border-id-1730851646624663957__params-force-all__exclude-u-model-url": {
+        "description": "cross-border account: params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "product/info/error-not-found": {
+        "description": "not found: no product with this id"
+    },
+    "product/info/id-1729421158695407496__rf-all": {
+        "description": "full response fields [id=1729421158695407496]"
+    },
+    "product/info/id-1729779434174126984__rf-all": {
+        "description": "full response fields [id=1729779434174126984]"
+    },
+    "product/info/id-1729779448494136200__params-force-all__exclude-u-model-url": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "product/list/created-from-2024-08-06-01-00-00__rf-all": {
+        "description": "filter: created_from (lower bound)"
+    },
+    "product/list/created-to-2024-08-06-01-00-00__rf-all": {
+        "description": "filter: created_to (upper bound)"
+    },
+    "product/list/cross-border-rf-all": {
+        "description": "cross-border account: full response fields"
+    },
+    "product/list/cross-border-rf-all__product-ids-1730833319262849429": {
+        "description": "cross-border account: filter: specific product id(s) [no return_global] (filter matches nothing in this store: empty result)"
+    },
+    "product/list/cross-border-rf-all__return-global-true__count-3": {
+        "description": "cross-border account: pagination: start/count offset"
+    },
+    "product/list/cross-border-rf-all__return-global-true__created-from-2024-09-05-00-00-00": {
+        "description": "cross-border account: filter: created_from (lower bound)"
+    },
+    "product/list/cross-border-rf-all__return-global-true__modified-to-2024-09-05-00-00-00": {
+        "description": "cross-border account: filter: modified_to (upper bound)"
+    },
+    "product/list/cross-border-rf-all__return-global-true__product-ids-1730833319262849429": {
+        "description": "cross-border account: filter: specific product id(s) [return_global=true]"
+    },
+    "product/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "product/list/modified-from-2024-08-06-01-00-00__rf-all": {
+        "description": "filter: modified_from (lower bound)"
+    },
+    "product/list/modified-to-2024-08-06-01-00-00__rf-all": {
+        "description": "filter: modified_to (upper bound)"
+    },
+    "product/list/page-2": {
+        "description": "pagination: cursor page"
+    },
+    "product/list/params-force-all__exclude-u-model-url__count-3": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "product/list/product-ids-1729421158695407496__rf-all": {
+        "description": "filter: specific product id(s)"
+    },
+    "product/list/sku-test-product__rf-all": {
+        "description": "full response fields"
+    },
+    "product/update/cross-border-publish-global-to-store": {
+        "description": "cross-border account: publish an existing global product to a region store while also updating description/sku"
+    },
+    "product/update/cross-border-update-global-fields": {
+        "description": "cross-border account: update global product fields (name/dimensions) -- propagates to all its local products"
+    },
+    "product/update/dimensions": {
+        "description": "update weight, height, length and width together"
+    },
+    "product/update/error-cross-border-already-published": {
+        "description": "cross-border account: publishing a global product to a region store it is already published at"
+    },
+    "product/update/error-cross-border-height-must-be-positive": {
+        "description": "cross-border account: validation: height must be greater than 0"
+    },
+    "product/update/error-cross-border-identifier-already-set": {
+        "description": "cross-border account: identifier code (upc/ean/gtin/isbn) cannot be changed once set"
+    },
+    "product/update/error-cross-border-local-product-field-not-supported": {
+        "description": "cross-border account: local products only support price/quantity/status updates -- every other field is rejected"
+    },
+    "product/update/error-cross-border-local-product-quantity-only-simple": {
+        "description": "cross-border account: quantity is not updatable on a CONFIGURABLE local product (simple products only)"
+    },
+    "product/update/error-cross-border-price-on-global": {
+        "description": "cross-border account: price is not updatable on a global product"
+    },
+    "product/update/error-cross-border-quantity-on-global": {
+        "description": "cross-border account: quantity is not updatable on a global product"
+    },
+    "product/update/error-cross-border-sku-only-simple-products": {
+        "description": "cross-border account: sku is not updatable on a CONFIGURABLE global product (simple products only)"
+    },
+    "product/update/error-cross-border-status-on-global": {
+        "description": "cross-border account: status is not updatable on a global product"
+    },
+    "product/update/error-deleted-cannot-update": {
+        "description": "store rule: a product with status 'deleted' cannot be updated further"
+    },
+    "product/update/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/update/error-empty-sku": {
+        "description": "validation: empty sku"
+    },
+    "product/update/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/update/error-no-params": {
+        "description": "validation: no params -> id required"
+    },
+    "product/update/error-store-not-found": {
+        "description": "not found: store_id does not exist"
+    },
+    "product/update/error-warehouse-not-found": {
+        "description": "not found: warehouse_id does not exist"
+    },
+    "product/update/quantity-and-price": {
+        "description": "update quantity and price together"
+    },
+    "product/update/rename-with-responsible-person-ids": {
+        "description": "rename product and attach responsible_person_ids"
+    },
+    "product/update/sku-and-upc": {
+        "description": "update sku and set upc (identifier not yet set on this product)"
+    },
+    "product/update/status-deleted-with-manufacturer-ids": {
+        "description": "set product status to deleted and attach manufacturer_ids"
+    },
+    "product/variant.update/error-empty-id": {
+        "description": "validation: empty id"
+    },
+    "product/variant.update/error-invalid-price": {
+        "description": "validation: non-numeric price"
+    },
+    "product/variant.update/error-no-params": {
+        "description": "validation: no params -> id required"
+    },
+    "product/variant.update/error-no-product-id": {
+        "description": "validation: id only -> product_id required"
+    },
+    "product/variant.update/error-store-not-found": {
+        "description": "not found: store_id does not exist"
+    },
+    "product/variant.update/error-warehouse-not-found": {
+        "description": "not found: warehouse_id does not exist"
+    },
+    "product/variant.update/update-price": {
+        "description": "happy path: update variant price"
+    },
+    "product/variant.update/update-quantity": {
+        "description": "update variant quantity"
+    },
+    "return/action.list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "return/count/basic": {
+        "description": "happy path: count all returns"
+    },
+    "return/info/error-no-params": {
+        "description": "validation: id is required"
+    },
+    "return/info/error-not-found": {
+        "description": "not found: no return with this id"
+    },
+    "return/info/id-4035254467378646808": {
+        "description": "happy path: entity information by id"
+    },
+    "return/info/id-4035254467378646808__params-force-all__exclude-order-products": {
+        "description": "params=force_all combined with exclude (deprecated selector pair)"
+    },
+    "return/info/id-4035254467378646808__rf-id-order-products-order-produc": {
+        "description": "field selection: id,order_products.order_product_id,order_products.quantity,order_products.reason"
+    },
+    "return/list/basic": {
+        "description": "happy path: default page of the return list -- 10 of 27, default field set (id + order_products), cursor open"
+    },
+    "return/list/created-from-2024-08-27-00-00-00__created-to-2024-08-28-23-59-00__rf-returns-id-name-customer-id-or": {
+        "description": "filter: date range (created/modified from-to) [created_from=2024-08-27 00:00:00]"
+    },
+    "return/list/error-invalid-param": {
+        "description": "validation: count must be a non-negative integer"
+    },
+    "return/list/error-status-not-found": {
+        "description": "platform bug, not a client error: an unrecognized status value does not get a clean not-found response -- Returns/Export.php's status-name resolver has a variable-shadowing bug (the lookup loop variable reuses the outer $status) with no default arm in the following match(), so an unmatched value throws PHP UnhandledMatchError; the app's top-level Throwable handler (Api2cart/Controller/Api.php) converts that into a generic 9 SERVICE_INTERNAL_ERROR rather than a named 112. Verified by directly invoking Returns/Export.php::_getReturnOrderStatusByMappedStatus() with an unmatched value (throws) and tracing the app's catch(Throwable) fallback -- not a live capture. Candidate for tmp/bugReports/: fix the shadowed loop variable and add a default arm."
+    },
+    "return/list/modified-from-2024-08-26-00-00-00__modified-to-2024-08-27-23-59-00__rf-all": {
+        "description": "filter: date range (created/modified from-to) [no created_from]"
+    },
+    "return/list/order-ids-576682638583893784": {
+        "description": "filtered export"
+    },
+    "return/list/page-2": {
+        "description": "pagination: the following page of return requests reached via the cursor"
+    },
+    "return/list/rf-all__count-2": {
+        "description": "full return-request payload shape for a small page of return requests, with nested status, line items and platform-specific extras"
+    },
+    "return/list/status-approved__rf-all__count-2": {
+        "description": "filter: status=APPROVED"
+    },
+    "return/reason.list/basic": {
+        "description": "happy path (no filters)"
+    },
+    "return/status.list/basic": {
+        "description": "happy path (no filters)"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_product": [
+            {
+                "u_upc": "0047406134908",
+                "name": "Graco 4Ever 4-In-1 Convertible Car Seat",
+                "brand": "Graco"
+            }
+        ]
+    }
+}

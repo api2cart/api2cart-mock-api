@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-10T11:24:19Z",
+    "method": "GET",
+    "endpoint": "product.child_item.info.json",
+    "query": {
+        "product_id": "110588487260",
+        "id": "945104ef13697b8b135161aebbd2ca8f",
+        "response_fields": "{*}"
+    }
+}

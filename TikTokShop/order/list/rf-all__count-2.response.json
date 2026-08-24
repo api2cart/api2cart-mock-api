@@ -1,0 +1,553 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHNYkMwAADgB9pBaix26EGJmlY6o0VukiZ%2BYtN0I%2BTp930hGNcLqLzASeacGBvlJDRdsb2t%2Fe0viRO0UYOeIcE3C2G%2FFy9prR27GNsJKgswVXvaqa%2FLt3DEA8MYv1csWyRsVaOg2UrqEzw1XPWB7f7%2BMPBVRmc4p82z5CwH7kxaIu%2FT57F4sN2IJhwHCEQmug4hT%2ByU0uTU8Ux%2FaNplkt53LKYXnPuvqCmrgzwtx%2BEAhOvw4awE9q3Fk%2FMqMqz3%2B38%3D"
+    },
+    "result": {
+        "orders_count": 2,
+        "order": [
+            {
+                "id": "576673320131923736",
+                "order_id": "576673320131923736",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "7495466881884850968",
+                    "email": "user31883@example.com",
+                    "first_name": null,
+                    "last_name": null,
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2024-06-19T12:02:04+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "GBP",
+                    "name": "British Pound Sterling",
+                    "iso3": "GBP",
+                    "symbol_left": "£",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "",
+                    "address1": "",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "",
+                    "country": {
+                        "code2": "",
+                        "code3": "",
+                        "name": ""
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null,
+                    "additional_fields": {
+                        "address3": "",
+                        "address4": ""
+                    }
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "Credit/debit card"
+                },
+                "shipping_method": {
+                    "name": "Standard shipping"
+                },
+                "shipping_methods": [
+                    {
+                        "name": "Standard shipping"
+                    }
+                ],
+                "status": {
+                    "id": "CANCELLED",
+                    "name": "Cancelled",
+                    "history": [],
+                    "refund_info": {
+                        "shipping": 3.09,
+                        "fee": null,
+                        "tax": 0,
+                        "total_refunded": 18.09,
+                        "time": {
+                            "value": "2024-06-28T23:13:27+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "comment": "Automatically canceled due to collection time out",
+                        "refunded_items": [
+                            {
+                                "product_id": "1729411290512854920",
+                                "variant_id": null,
+                                "order_product_id": "576673320132054808",
+                                "qty": 1,
+                                "refund": 15
+                            }
+                        ]
+                    }
+                },
+                "totals": {
+                    "total": 18.09,
+                    "subtotal": 15,
+                    "shipping": 3.09,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 15,
+                    "wrapping_ex_tax": null,
+                    "shipping_ex_tax": 3.09,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 18.09,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": 0,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": 0,
+                        "wrapping_tax": null,
+                        "shipping_tax": 0,
+                        "seller_discount": 0,
+                        "platform_discount": 0,
+                        "shipping_fee_seller_discount": 0,
+                        "shipping_fee_platform_discount": 0,
+                        "buyer_service_fee": 0,
+                        "retail_delivery_fee": 0,
+                        "small_order_fee": 0
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1729411290512854920",
+                        "order_product_id": "576673320132054808",
+                        "model": "test product",
+                        "name": "Heavy-Duty Widget 750",
+                        "price": 15,
+                        "price_inc_tax": 15,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 15,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": 0,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_gift": false,
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2024-06-28T23:13:27+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": "7495811849164131208",
+                "warehouses_ids": [
+                    "7381927049415739168"
+                ],
+                "refunds": [
+                    {
+                        "id": "4035253183644077848",
+                        "shipping": 3.09,
+                        "fee": null,
+                        "tax": 0,
+                        "total": 18.09,
+                        "modified_time": {
+                            "value": "2024-06-28T23:13:27+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "comment": "Automatically canceled due to collection time out",
+                        "items": [
+                            {
+                                "product_id": "1729411290512854920",
+                                "variant_id": null,
+                                "order_product_id": "576673320132054808",
+                                "qty": 1,
+                                "refund": 15
+                            }
+                        ]
+                    }
+                ],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "fulfillment_type": "FULFILLMENT_BY_SELLER",
+                    "delivery_type": "HOME_DELIVERY",
+                    "split_or_combine_tag": "",
+                    "shipping_type": "TIKTOK",
+                    "seller_note": "",
+                    "is_cod": false,
+                    "need_upload_invoice": "",
+                    "cpf": "",
+                    "is_sample_order": false,
+                    "is_on_hold_order": false,
+                    "is_replacement_order": false,
+                    "is_buyer_request_cancel": false,
+                    "replaced_order_id": "",
+                    "delivery_due_time": null,
+                    "shipping_due_time": null,
+                    "collection_due_time": "2024-06-28 22:59:59",
+                    "delivery_option_required_delivery_time": null,
+                    "pick_up_cut_off_time": null,
+                    "paid_time": "2024-06-19 12:02:05",
+                    "cancel_time": "2024-06-28 23:13:27",
+                    "delivery_time": null,
+                    "collection_time": null
+                }
+            },
+            {
+                "id": "576682637452545816",
+                "order_id": "576682637452545816",
+                "basket_id": null,
+                "channel_id": null,
+                "customer": {
+                    "id": "7495466881884850968",
+                    "email": "user31883@example.com",
+                    "first_name": null,
+                    "last_name": null,
+                    "phone": null
+                },
+                "create_at": {
+                    "value": "2024-08-06T07:35:38+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "currency": {
+                    "id": "GBP",
+                    "name": "British Pound Sterling",
+                    "iso3": "GBP",
+                    "symbol_left": "£",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": false
+                },
+                "shipping_address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "",
+                    "address1": "",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "",
+                    "country": {
+                        "code2": "",
+                        "code3": "",
+                        "name": ""
+                    },
+                    "state": null,
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null,
+                    "additional_fields": {
+                        "address3": "",
+                        "address4": ""
+                    }
+                },
+                "billing_address": null,
+                "payment_method": {
+                    "name": "Credit/debit card"
+                },
+                "shipping_method": {
+                    "name": "Standard shipping"
+                },
+                "shipping_methods": [
+                    {
+                        "name": "Standard shipping"
+                    }
+                ],
+                "status": {
+                    "id": "CANCELLED",
+                    "name": "Cancelled",
+                    "history": [],
+                    "refund_info": {
+                        "shipping": 6.07,
+                        "fee": null,
+                        "tax": 0,
+                        "total_refunded": 75.37,
+                        "time": {
+                            "value": "2024-08-07T08:00:19+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "comment": "Discount not as expected",
+                        "refunded_items": [
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089502088",
+                                "order_product_id": "576682637452807960",
+                                "qty": 1,
+                                "refund": 17.99
+                            },
+                            {
+                                "product_id": "1729422957587763080",
+                                "variant_id": null,
+                                "order_product_id": "576682637452873496",
+                                "qty": 1,
+                                "refund": 15.33
+                            },
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089960840",
+                                "order_product_id": "576682637452676888",
+                                "qty": 1,
+                                "refund": 17.99
+                            },
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089960840",
+                                "order_product_id": "576682637452742424",
+                                "qty": 1,
+                                "refund": 17.99
+                            }
+                        ]
+                    }
+                },
+                "totals": {
+                    "total": 75.37,
+                    "subtotal": 69.3,
+                    "shipping": 6.07,
+                    "tax": 0,
+                    "discount": 0
+                },
+                "total": {
+                    "subtotal_ex_tax": 69.3,
+                    "wrapping_ex_tax": null,
+                    "shipping_ex_tax": 6.07,
+                    "total_discount": 0,
+                    "total_tax": 0,
+                    "total": 75.37,
+                    "total_paid": null,
+                    "additional_fields": {
+                        "shipping_discount_ex_tax": 0,
+                        "subtotal_discount_ex_tax": null,
+                        "tax_discount": null,
+                        "subtotal_tax": 0,
+                        "wrapping_tax": null,
+                        "shipping_tax": 0,
+                        "seller_discount": 0,
+                        "platform_discount": 0,
+                        "shipping_fee_seller_discount": 0,
+                        "shipping_fee_platform_discount": 0,
+                        "buyer_service_fee": 0,
+                        "retail_delivery_fee": 0,
+                        "small_order_fee": 0
+                    }
+                },
+                "discounts": [],
+                "order_products": [
+                    {
+                        "product_id": "1729421158695407496",
+                        "order_product_id": "576682637452676888",
+                        "model": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "price": 17.99,
+                        "price_inc_tax": 17.99,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 17.99,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": 0,
+                        "options": [],
+                        "variant_id": "1729421251089960840",
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_gift": false,
+                            "combined_skus": []
+                        }
+                    },
+                    {
+                        "product_id": "1729421158695407496",
+                        "order_product_id": "576682637452742424",
+                        "model": "hoodie_green_xxl",
+                        "name": "Heavy-Duty Tool Kit 470",
+                        "price": 17.99,
+                        "price_inc_tax": 17.99,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 17.99,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": 0,
+                        "options": [],
+                        "variant_id": "1729421251089960840",
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_gift": false,
+                            "combined_skus": []
+                        }
+                    },
+                    {
+                        "product_id": "1729421158695407496",
+                        "order_product_id": "576682637452807960",
+                        "model": "hoodie_red_xl",
+                        "name": "Standard Product 68",
+                        "price": 17.99,
+                        "price_inc_tax": 17.99,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 17.99,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": 0,
+                        "options": [],
+                        "variant_id": "1729421251089502088",
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_gift": false,
+                            "combined_skus": []
+                        }
+                    },
+                    {
+                        "product_id": "1729422957587763080",
+                        "order_product_id": "576682637452873496",
+                        "model": "qasku_889",
+                        "name": "Classic Accessory Set 568",
+                        "price": 15.33,
+                        "price_inc_tax": 15.33,
+                        "quantity": 1,
+                        "discount_amount": 0,
+                        "total_price": 15.33,
+                        "tax_percent": 0,
+                        "tax_value": 0,
+                        "tax_value_after_discount": 0,
+                        "options": [],
+                        "variant_id": null,
+                        "weight_unit": null,
+                        "weight": null,
+                        "barcode": null,
+                        "parent_order_product_id": null,
+                        "additional_fields": {
+                            "is_gift": false,
+                            "combined_skus": []
+                        }
+                    }
+                ],
+                "bundles": [],
+                "modified_at": {
+                    "value": "2024-08-08T08:00:21+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "finished_time": null,
+                "comment": null,
+                "store_id": "7495811849164131208",
+                "warehouses_ids": [
+                    "7381927049415739168"
+                ],
+                "refunds": [
+                    {
+                        "id": "4035254093000052504",
+                        "shipping": 6.07,
+                        "fee": null,
+                        "tax": 0,
+                        "total": 75.37,
+                        "modified_time": {
+                            "value": "2024-08-07T08:00:19+0000",
+                            "format": "Y-m-d\\TH:i:sO"
+                        },
+                        "comment": "Discount not as expected",
+                        "items": [
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089502088",
+                                "order_product_id": "576682637452807960",
+                                "qty": 1,
+                                "refund": 17.99
+                            },
+                            {
+                                "product_id": "1729422957587763080",
+                                "variant_id": null,
+                                "order_product_id": "576682637452873496",
+                                "qty": 1,
+                                "refund": 15.33
+                            },
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089960840",
+                                "order_product_id": "576682637452676888",
+                                "qty": 1,
+                                "refund": 17.99
+                            },
+                            {
+                                "product_id": "1729421158695407496",
+                                "variant_id": "1729421251089960840",
+                                "order_product_id": "576682637452742424",
+                                "qty": 1,
+                                "refund": 17.99
+                            }
+                        ]
+                    }
+                ],
+                "gift_message": null,
+                "order_details_url": null,
+                "additional_fields": {
+                    "fulfillment_type": "FULFILLMENT_BY_SELLER",
+                    "delivery_type": "HOME_DELIVERY",
+                    "split_or_combine_tag": "",
+                    "shipping_type": "TIKTOK",
+                    "seller_note": "",
+                    "is_cod": false,
+                    "need_upload_invoice": "",
+                    "cpf": "",
+                    "is_sample_order": false,
+                    "is_on_hold_order": false,
+                    "is_replacement_order": false,
+                    "is_buyer_request_cancel": false,
+                    "replaced_order_id": "",
+                    "delivery_due_time": null,
+                    "shipping_due_time": null,
+                    "collection_due_time": "2024-08-15 22:59:59",
+                    "delivery_option_required_delivery_time": null,
+                    "pick_up_cut_off_time": null,
+                    "paid_time": "2024-08-06 07:35:38",
+                    "cancel_time": "2024-08-08 08:00:21",
+                    "delivery_time": null,
+                    "collection_time": null
+                }
+            }
+        ]
+    }
+}

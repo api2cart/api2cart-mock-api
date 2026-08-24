@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "GET",
+    "endpoint": "order.info.json",
+    "query": {
+        "order_id": "997888"
+    }
+}

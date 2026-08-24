@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "DELETE",
+    "endpoint": "product.variant.delete.json",
+    "query": {
+        "id": "from_addMediumTC1",
+        "product_id": "110588641178"
+    }
+}

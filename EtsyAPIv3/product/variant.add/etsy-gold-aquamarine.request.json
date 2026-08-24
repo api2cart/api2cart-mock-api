@@ -1,0 +1,18 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "123450003",
+        "attributes": {
+            "Gem color": {
+                "Gold": 0
+            },
+            "Gemstone": {
+                "Aquamarine": 0
+            }
+        },
+        "sku": "SKUaddGoldAquamarine",
+        "quantity": 1
+    }
+}

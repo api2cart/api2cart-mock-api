@@ -1,0 +1,103 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "S43ULisoCC43SY3SDsxOzXYPTAp0Mc8scw3xys%2FP8zfydU8rDQ8qSykLDHGrqvLyLSksyApOKw2KcMvMy3bMNAEA"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "486063055",
+                "name": "Rosita's Wonderful Stable",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "48"
+                ]
+            },
+            {
+                "id": "486062118",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "380"
+                ]
+            },
+            {
+                "id": "486599379",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "price": 99.9,
+                "categories_ids": [
+                    "380"
+                ]
+            },
+            {
+                "id": "486599476",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "price": 99.9,
+                "categories_ids": [
+                    "380"
+                ]
+            },
+            {
+                "id": "486599485",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "price": 99.9,
+                "categories_ids": [
+                    "380"
+                ]
+            },
+            {
+                "id": "486054067",
+                "name": "Aircraft Fuselage Aft Section Angular Bottom 6 x 10 x 5",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "93"
+                ]
+            },
+            {
+                "id": "486072983",
+                "name": "Bone, Long",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "86"
+                ]
+            },
+            {
+                "id": "486062124",
+                "name": "1959 Dutch Prijslijst Yellow &#40;price list&#41;",
+                "description": "",
+                "price": 11,
+                "categories_ids": [
+                    "557"
+                ]
+            },
+            {
+                "id": "485712171",
+                "name": "2013 Dealer Large Trade UK (6043424-AEM/EN)",
+                "description": "",
+                "price": 10,
+                "categories_ids": [
+                    "786"
+                ]
+            },
+            {
+                "id": "487882314",
+                "name": "LEGO Magazine 2025 Issue 2 April - June &#40;German&#41;",
+                "description": "<p>Introducing the <strong>CuddleBuddy Giant TeddyBear</strong>, your child's new best friend! This adorable, oversized plush toy is perfect for cuddling %df,</p>",
+                "price": 15.33,
+                "categories_ids": [
+                    "1323"
+                ]
+            }
+        ]
+    }
+}

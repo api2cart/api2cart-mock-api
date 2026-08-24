@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "PUT",
+    "endpoint": "product.update.json",
+    "body": {
+        "id": "7c83eda4-5e90-48fe-a634-8ac43a588a71",
+        "name": "A different product title"
+    }
+}

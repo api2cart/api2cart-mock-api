@@ -1,0 +1,21 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "products_count": 2,
+        "product": [
+            {
+                "id": "7c83eda4-5e90-48fe-a634-8ac43a588a71",
+                "u_sku": "586368",
+                "name": "Valenta - Book Case - Bruin - Apple iPhone 13 Pro - Leer",
+                "price": 29.95
+            },
+            {
+                "id": "a751476f-8665-4163-ad2e-fba22e11ed2c",
+                "u_sku": "589055",
+                "name": "Valenta - Bumper Hoesje - iPhone 16e - Full Cover - Tempered Glass - Zwart",
+                "price": 24.95
+            }
+        ]
+    }
+}

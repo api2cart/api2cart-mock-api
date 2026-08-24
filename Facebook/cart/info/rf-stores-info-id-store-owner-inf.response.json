@@ -1,0 +1,80 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "stores_info": [
+            {
+                "store_id": "2008815096142395",
+                "store_owner_info": {
+                    "owner": "Riley Smith",
+                    "country": null,
+                    "state": null,
+                    "state_code": null,
+                    "city": null,
+                    "street_address": null,
+                    "street_address_line_2": null,
+                    "zip_code": null,
+                    "email": "user62588@example.com",
+                    "phone": null,
+                    "additional_fields": {
+                        "role": "ADMIN"
+                    }
+                }
+            },
+            {
+                "store_id": "334537149122992",
+                "store_owner_info": {
+                    "owner": "Riley Smith",
+                    "country": null,
+                    "state": null,
+                    "state_code": null,
+                    "city": null,
+                    "street_address": null,
+                    "street_address_line_2": null,
+                    "zip_code": null,
+                    "email": "user62588@example.com",
+                    "phone": null,
+                    "additional_fields": {
+                        "role": "ADMIN"
+                    }
+                }
+            },
+            {
+                "store_id": "1732577937418943",
+                "store_owner_info": {
+                    "owner": "Riley Smith",
+                    "country": null,
+                    "state": null,
+                    "state_code": null,
+                    "city": null,
+                    "street_address": null,
+                    "street_address_line_2": null,
+                    "zip_code": null,
+                    "email": "user62588@example.com",
+                    "phone": null,
+                    "additional_fields": {
+                        "role": "ADMIN"
+                    }
+                }
+            },
+            {
+                "store_id": "849571166567909",
+                "store_owner_info": {
+                    "owner": "Riley Smith",
+                    "country": null,
+                    "state": null,
+                    "state_code": null,
+                    "city": null,
+                    "street_address": null,
+                    "street_address_line_2": null,
+                    "zip_code": null,
+                    "email": "user62588@example.com",
+                    "phone": null,
+                    "additional_fields": {
+                        "role": "ADMIN"
+                    }
+                }
+            }
+        ]
+    }
+}

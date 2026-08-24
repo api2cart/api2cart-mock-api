@@ -1,0 +1,73 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHJomswAADQD7IgqobFW0RRRVVjtkNRwzVGUr7%2BnaMBbob2znDbM%2FpTj29jSRcr7Ju8PgTz0tYg0BNWnIUHh9WOwO6YEy9hQjpIv0W1pA%2BVAjZ2x5I12iXwNykpLDCCIu9jz3FlWvHS4Vg%2F3zPp%2FMCFJh0obLIXlnHff7j2m9yfcxUBXwVuM4%2B7NEM8B4gDbmcfYlYEfmuyUPWuK519O57Q66rwVkQOtPjIMVeiy9h4FUuu6Y8Mj3QirEF1kpRCmo0gY4Rq573nDdGbWhmp8THYqAqMu%2BNXricD0qIBit4%2BXDQVQtKV9XXxkKIX3brHUWx4ex3tzNG%2F3BJomXoeObttPrMir4tkMdj4sF%2FaAWOq6IO0p28tvNMsqmtf49K%2F4rqQCthy24yhcs4qgBq%2B9ELVLdYvLtpD2Rh%2BA6f92uMLm8P1iyywQ%2FJ2yu4OrSPPllzUMTPQ6dReyg%2FdhG3iKt3KGTYhqggSlpijWaHU7WA23qdzQqUHTlwat01OW7Gh5pSqDFwHIV8PqovkSZgsc631N0opDVAbf9HKtWv3voRs%2BonZTzdSQRcS23m2DT9SIuqNo5l27t6wnKflv%2F8%3D"
+    },
+    "result": {
+        "marketplace_products_count": 20,
+        "marketplace_product": [
+            {
+                "id": "B0BG6JSY7X"
+            },
+            {
+                "id": "B0BG6PP61T"
+            },
+            {
+                "id": "B0BG6MMJ99"
+            },
+            {
+                "id": "B0BG6PZGQN"
+            },
+            {
+                "id": "B0BG6LMHGS"
+            },
+            {
+                "id": "B0BTGDC2M5"
+            },
+            {
+                "id": "B09D8RPYKJ"
+            },
+            {
+                "id": "B07YXMKHBX"
+            },
+            {
+                "id": "B083ZHGXTF"
+            },
+            {
+                "id": "B0BG6PJGBW"
+            },
+            {
+                "id": "B07G3P9SJM"
+            },
+            {
+                "id": "B0CQKKRG98"
+            },
+            {
+                "id": "B0BNLZC7L9"
+            },
+            {
+                "id": "B0CQKL1YBL"
+            },
+            {
+                "id": "B097CY2TYX"
+            },
+            {
+                "id": "B09D8RTD17"
+            },
+            {
+                "id": "B01GW2GNH8"
+            },
+            {
+                "id": "B09D8SSSW2"
+            },
+            {
+                "id": "B09D8RY8SB"
+            },
+            {
+                "id": "B077D6JSJT"
+            }
+        ]
+    }
+}

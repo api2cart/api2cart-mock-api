@@ -1,0 +1,34 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.variant.add.json",
+    "body": {
+        "product_id": "24324124957193011",
+        "store_id": "1732577937418943",
+        "sku": "fit_watch_from_tests_variants_2",
+        "name": "Test test test",
+        "description": "Test Desc.",
+        "short_description": "Test Desc Variant.",
+        "price": 49.99,
+        "special_price": 39.99,
+        "sprice_create": "2025-10-01 00:00:00",
+        "sprice_expire": "2025-12-01 23:59:59",
+        "quantity": 120,
+        "available_for_sale": true,
+        "status": "enabled",
+        "attributes": [
+            {
+                "attribute_name": "battery_life",
+                "attribute_value": "7"
+            },
+            {
+                "attribute_name": "watch_movement_type",
+                "attribute_value": "Automatic"
+            },
+            {
+                "attribute_name": "watch_case_thickness",
+                "attribute_value": "16"
+            }
+        ]
+    }
+}

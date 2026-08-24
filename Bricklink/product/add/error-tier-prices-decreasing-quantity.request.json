@@ -1,0 +1,25 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "sku": "5580-1",
+        "description": "Test description",
+        "price": 175,
+        "product_type": "ORIGINAL_BOX",
+        "tier_prices": [
+            {
+                "quantity": 5,
+                "price": 90
+            },
+            {
+                "quantity": 3,
+                "price": 80
+            },
+            {
+                "quantity": 4,
+                "price": 70
+            }
+        ]
+    }
+}

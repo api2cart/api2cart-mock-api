@@ -1,0 +1,2214 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2FIJpksflRRWmeIFR4%2ByTCd5QVLh6ztH%2BRafepiOQrK8fzby5Q4maux26oBPC4A4CH%2BE3I3KzLuG3adYeZi4HgstvWivBeXWampHJuyyZCkiogap8yXVDG9J1I3gOjt%2Bjg6276fEJcyEIivh%2FYNW8Zii%2BA8%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "888814018",
+                "u_model": "test_skuuuuu",
+                "u_sku": "test_skuuuuu",
+                "name": "Test product",
+                "description": "test description",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 48,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "1062",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2026-02-23 20:48:54",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4575542046",
+                                "http_path": "https://picsum.photos/seed/14b15f6f/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4575542046_g5vd.jpg",
+                                "create_at": "2023-01-30 14:27:09",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            },
+                            {
+                                "id": "4531827008",
+                                "http_path": "https://picsum.photos/seed/db6297a7/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4531827008_g6v0.jpg",
+                                "create_at": "2023-01-17 14:11:54",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 2
+                            },
+                            {
+                                "id": "2654787164",
+                                "http_path": "https://picsum.photos/seed/20ac216b/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.2654787164_obbh.jpg",
+                                "create_at": "2020-11-12 10:59:09",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 3
+                            },
+                            {
+                                "id": "2653364052",
+                                "http_path": "https://picsum.photos/seed/acde384/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.2653364052_64wz.jpg",
+                                "create_at": "2020-11-11 20:28:17",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 4
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "200",
+                                "product_option_id": null,
+                                "name": "Primary color",
+                                "sort_order": 200,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "51991371529",
+                                                "product_option_value_id": null,
+                                                "name": "Blue",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1109098633738",
+                                                "product_option_value_id": null,
+                                                "name": "QWERTY",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "54179769226",
+                                                "product_option_value_id": null,
+                                                "name": "Custom Option",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "64549332491",
+                                                "product_option_value_id": null,
+                                                "name": "d",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "51991371509",
+                                                "product_option_value_id": null,
+                                                "name": "Black",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392817501833",
+                                                "product_option_value_id": null,
+                                                "name": "NewCustom23",
+                                                "sort_order": 5,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "True",
+                "is_private": "False",
+                "is_supply": "False",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "155784447487",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "",
+                "when_made": "made_to_order",
+                "personalization_questions": [
+                    {
+                        "question_text": "Personalization",
+                        "instructions": "Updated instructions2",
+                        "question_id": 1463012538679,
+                        "question_type": "text_input",
+                        "required": false,
+                        "max_allowed_characters": 45,
+                        "max_allowed_files": null
+                    }
+                ]
+            },
+            {
+                "id": "1346608500",
+                "u_model": "sku_sku",
+                "u_sku": "sku_sku",
+                "name": "QAtestvariantprod",
+                "description": "QAtestprod%for%variantmethod",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 87,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-09 08:33:54",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4532898214",
+                                "http_path": "https://picsum.photos/seed/622566b0/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "test5",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4532898214_1jux.jpg",
+                                "create_at": "2023-01-17 19:54:05",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            },
+                            {
+                                "id": "6622475576",
+                                "http_path": "https://picsum.photos/seed/d76fba55/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "test6kjbhhjhjvhjbvhjbhkjhkjhjkhkjkjbkbbbkbkjbkjbkjbkjbkjhhiohkljjhkjhjhkjhkjhkjhkjhkjhgA8Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gMTAwCv/bAEMAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.6622475576_j1dg.jpg",
+                                "create_at": "2025-02-05 14:41:42",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 2
+                            },
+                            {
+                                "id": "4531742750",
+                                "http_path": "https://picsum.photos/seed/ca915d28/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "test",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4531742750_kro8.jpg",
+                                "create_at": "2023-01-17 13:36:02",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 3
+                            },
+                            {
+                                "id": "4579130623",
+                                "http_path": "https://picsum.photos/seed/a0a741f3/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "test",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4579130623_602m.jpg",
+                                "create_at": "2023-01-17 13:38:53",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 4
+                            },
+                            {
+                                "id": "4531751146",
+                                "http_path": "https://picsum.photos/seed/e54c2653/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "test3",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4531751146_291o.jpg",
+                                "create_at": "2023-01-17 13:39:56",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 5
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "570246211881",
+                                "product_option_id": null,
+                                "name": "Style",
+                                "sort_order": 570246211881,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1091221771299",
+                                                "product_option_value_id": null,
+                                                "name": "Art deco",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1083680045408",
+                                                "product_option_value_id": null,
+                                                "name": "Mid-century",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1091221771391",
+                                                "product_option_value_id": null,
+                                                "name": "Boho & hippie",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1391673507029",
+                                                "product_option_value_id": null,
+                                                "name": "New Style",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392818876467",
+                                                "product_option_value_id": null,
+                                                "name": "CustomStyle",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "200",
+                                "product_option_id": null,
+                                "name": "Primary color",
+                                "sort_order": 200,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "51991371509",
+                                                "product_option_value_id": null,
+                                                "name": "Black",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "52041490705",
+                                                "product_option_value_id": null,
+                                                "name": "Red",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "50235153282",
+                                                "product_option_value_id": null,
+                                                "name": "Brown",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "52015917113",
+                                                "product_option_value_id": null,
+                                                "name": "White",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "49974761678",
+                                                "product_option_value_id": null,
+                                                "name": "Clear",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392622411414",
+                                                "product_option_value_id": null,
+                                                "name": "CustomBrown",
+                                                "sort_order": 5,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "True",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "155784447487",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "color,size,style",
+                "when_made": "made_to_order",
+                "personalization_questions": [
+                    {
+                        "question_text": "Name",
+                        "instructions": "Enter name to engrave",
+                        "question_id": 1463012538683,
+                        "question_type": "text_input",
+                        "required": true,
+                        "max_allowed_characters": 20,
+                        "max_allowed_files": null
+                    }
+                ]
+            },
+            {
+                "id": "1131260945",
+                "u_model": "QAautotest variant",
+                "u_sku": "QAautotest variant",
+                "name": "QAtestpro",
+                "description": "Desc QAprod",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 15,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 23,
+                "weight_unit": "oz",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2024-02-12 15:29:18",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": null,
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "570246211881",
+                                "product_option_id": null,
+                                "name": "Style",
+                                "sort_order": 570246211881,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1112598165408",
+                                                "product_option_value_id": null,
+                                                "name": "Celtic",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "200",
+                                "product_option_id": null,
+                                "name": "Primary color",
+                                "sort_order": 200,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "68691937831",
+                                                "product_option_value_id": null,
+                                                "name": "Rainbow",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "50831750264",
+                                                "product_option_value_id": null,
+                                                "name": "Beige",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "",
+                "processing_min": "",
+                "production_partners": [],
+                "readiness_state_id": "",
+                "return_policy_id": "",
+                "shipping_profile_id": "155784447487",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "рускийтег8,руссикйтег9",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            },
+            {
+                "id": "1131865629",
+                "u_model": "new_variant_1",
+                "u_sku": "new_variant_1",
+                "name": "QAtestprod",
+                "description": "QAtestprod%for­dmethod",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 8,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 20.3,
+                "weight_unit": "oz",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-09 09:13:37",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": null,
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "New Custom Attribute",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1391479474278",
+                                                "product_option_value_id": null,
+                                                "name": "New Value",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1391483382174",
+                                                "product_option_value_id": null,
+                                                "name": "New Value 2",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "53557181371",
+                                                "product_option_value_id": null,
+                                                "name": "Green",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392823368503",
+                                                "product_option_value_id": null,
+                                                "name": "New Value2",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "46803063641",
+                                "product_option_id": null,
+                                "name": "Occasion",
+                                "sort_order": 46803063641,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "998785461492",
+                                                "product_option_value_id": null,
+                                                "name": "1st birthday",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1391498904282",
+                                                "product_option_value_id": null,
+                                                "name": "Custom value",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392823368385",
+                                                "product_option_value_id": null,
+                                                "name": "Custom value2",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "235698276702",
+                                                "product_option_value_id": null,
+                                                "name": "Bachelor party",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "155784447487",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "color,size,style",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            },
+            {
+                "id": "1476216040",
+                "u_model": "test_variant_add_batch3",
+                "u_sku": "test_variant_add_batch3",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 15,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-04 11:34:30",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4943302582",
+                                "http_path": "https://picsum.photos/seed/ddbf2808/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4943302582_g956.jpg",
+                                "create_at": "2023-05-26 11:38:17",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "514",
+                                "product_option_id": null,
+                                "name": "Style",
+                                "sort_order": 514,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "2957839832",
+                                                "product_option_value_id": null,
+                                                "name": "Athletic",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "Custom",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "109482655839",
+                                                "product_option_value_id": null,
+                                                "name": "Test",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "150486311896",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "add1,add2,add3",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            },
+            {
+                "id": "1490409345",
+                "u_model": "batch5",
+                "u_sku": "batch5",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 3,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 15,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-08 09:28:43",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4943313522",
+                                "http_path": "https://picsum.photos/seed/d11653ec/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4943313522_i9eq.jpg",
+                                "create_at": "2023-05-26 11:43:58",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "514",
+                                "product_option_id": null,
+                                "name": "Style",
+                                "sort_order": 514,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "105571102628",
+                                                "product_option_value_id": null,
+                                                "name": "Athletic",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1066192796491",
+                                                "product_option_value_id": null,
+                                                "name": "Boho & hippie",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "155898885537",
+                                                "product_option_value_id": null,
+                                                "name": "Minimalist",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1392588873043",
+                                                "product_option_value_id": null,
+                                                "name": "Custom value",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "112260697252",
+                                                "product_option_value_id": null,
+                                                "name": "Mod",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "Custom",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1391693264111",
+                                                "product_option_value_id": null,
+                                                "name": "CustomNew",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "53557181371",
+                                                "product_option_value_id": null,
+                                                "name": "Green",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "150486311896",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "add1,add2,add3",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            },
+            {
+                "id": "1525591589",
+                "u_model": "batch5",
+                "u_sku": "batch5",
+                "name": "UnittestProductAdd",
+                "description": "Unittest Product Add",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "someone_else",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 15,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-08 07:31:58",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "5147959909",
+                                "http_path": "https://picsum.photos/seed/fa84df93/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.5147959909_m1ad.jpg",
+                                "create_at": "2023-07-18 06:07:25",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "514",
+                                "product_option_id": null,
+                                "name": "Style",
+                                "sort_order": 514,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1392377022170",
+                                                "product_option_value_id": null,
+                                                "name": "Athletic",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "Custom",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1391693264111",
+                                                "product_option_value_id": null,
+                                                "name": "CustomNew",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "150486311896",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "add1,add2,add3",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            },
+            {
+                "id": "708818923",
+                "u_model": "new_test_profile",
+                "u_sku": "new_test_profile",
+                "name": "test3",
+                "description": "QAsupertest",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 550,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "15",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 75,
+                "weight_unit": "g",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2026-05-21 14:19:38",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4527933666",
+                                "http_path": "https://picsum.photos/seed/1565d972/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527933666_1jc3.jpg",
+                                "create_at": "2023-01-16 12:42:24",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            },
+                            {
+                                "id": "4527928980",
+                                "http_path": "https://picsum.photos/seed/28d15bd2/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527928980_bz1k.jpg",
+                                "create_at": "2023-01-16 12:39:49",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 2
+                            },
+                            {
+                                "id": "4527832038",
+                                "http_path": "https://picsum.photos/seed/6f743aa3/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527832038_qjlx.jpg",
+                                "create_at": "2023-01-16 11:46:11",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 3
+                            },
+                            {
+                                "id": "4527829986",
+                                "http_path": "https://picsum.photos/seed/cadc49cb/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527829986_i0zy.jpg",
+                                "create_at": "2023-01-16 11:45:05",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 4
+                            },
+                            {
+                                "id": "4527799528",
+                                "http_path": "https://picsum.photos/seed/faf42e04/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "qwerty",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527799528_b0t6.jpg",
+                                "create_at": "2023-01-16 11:28:41",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 5
+                            },
+                            {
+                                "id": "4527796276",
+                                "http_path": "https://picsum.photos/seed/15a3a41e/600/600",
+                                "type": "IMAGE_TYPE_ADDITIONAL",
+                                "mime-type": "image/jpeg",
+                                "alt": "qwerty",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4527796276_n417.jpg",
+                                "create_at": "2023-01-16 11:26:38",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 6
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "color",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "54856931161",
+                                                "product_option_value_id": null,
+                                                "name": "green",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "386405428001",
+                                                "product_option_value_id": null,
+                                                "name": "green2",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "56874485160",
+                                                "product_option_value_id": null,
+                                                "name": "Rainbow",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "50135267836",
+                                                "product_option_value_id": null,
+                                                "name": "Black",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "51473709002",
+                                                "product_option_value_id": null,
+                                                "name": "Red",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "386405428085",
+                                                "product_option_value_id": null,
+                                                "name": "green3",
+                                                "sort_order": 5,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1293451789419",
+                                                "product_option_value_id": null,
+                                                "name": "green5",
+                                                "sort_order": 6,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1438671164448",
+                                                "product_option_value_id": null,
+                                                "name": "Beige311",
+                                                "sort_order": 7,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "514",
+                                "product_option_id": null,
+                                "name": "size",
+                                "sort_order": 514,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "66839616732",
+                                                "product_option_value_id": null,
+                                                "name": "medium",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1312387502679",
+                                                "product_option_value_id": null,
+                                                "name": "medium2",
+                                                "sort_order": 1,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "52760375822",
+                                                "product_option_value_id": null,
+                                                "name": "10",
+                                                "sort_order": 2,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "71931465715",
+                                                "product_option_value_id": null,
+                                                "name": "XL",
+                                                "sort_order": 3,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "86170078980",
+                                                "product_option_value_id": null,
+                                                "name": "XXL",
+                                                "sort_order": 4,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1438759644673",
+                                                "product_option_value_id": null,
+                                                "name": "medium3",
+                                                "sort_order": 5,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "1438879623843",
+                                                "product_option_value_id": null,
+                                                "name": "medium5",
+                                                "sort_order": 6,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "105882573727",
+                                                "product_option_value_id": null,
+                                                "name": "xxl",
+                                                "sort_order": 7,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            },
+                                            {
+                                                "id": "54869062451",
+                                                "product_option_value_id": null,
+                                                "name": "11",
+                                                "sort_order": 8,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "mm",
+                "width": 3,
+                "height": 25,
+                "length": 77.889,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "True",
+                "is_private": "False",
+                "is_supply": "False",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "150486311896",
+                "shop_section_id": "35289963",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "tag1,tag5,tag2",
+                "when_made": "2010_2019",
+                "personalization_questions": [
+                    {
+                        "question_text": "Personalization",
+                        "instructions": "Personalization info for byers",
+                        "question_id": 1384653597125,
+                        "question_type": "text_input",
+                        "required": false,
+                        "max_allowed_characters": 256,
+                        "max_allowed_files": null
+                    }
+                ]
+            },
+            {
+                "id": "1449128771",
+                "u_model": "batch7",
+                "u_sku": "batch7",
+                "name": "just test,please don&#39;t order3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜3D眼镜",
+                "description": "QAtestprod for variantmethod",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "collective",
+                "categories_ids": "1",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "True",
+                "is_downloadable": "True",
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-08 08:00:08",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "4765572826",
+                                "http_path": "https://picsum.photos/seed/7ecded60/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.4765572826_8bn4.jpg",
+                                "create_at": "2023-03-28 14:48:41",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "46803063659",
+                                "product_option_id": null,
+                                "name": "Holiday",
+                                "sort_order": 46803063659,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "450728143174",
+                                                "product_option_value_id": null,
+                                                "name": "Easter",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "Custom",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1391693264111",
+                                                "product_option_value_id": null,
+                                                "name": "CustomNew",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": null,
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "",
+                "processing_min": "",
+                "production_partners": [
+                    {
+                        "production_partner_id": 1686933,
+                        "partner_name": "Production partner",
+                        "location": "NY, United States"
+                    }
+                ],
+                "readiness_state_id": "",
+                "return_policy_id": "1",
+                "shipping_profile_id": "",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "color,size,style",
+                "when_made": "2007_2009",
+                "personalization_questions": []
+            },
+            {
+                "id": "1821465159",
+                "u_model": "batch7",
+                "u_sku": "batch7",
+                "name": "Women&#39;s frock",
+                "description": "Full frill, designer one piece elegant frock",
+                "short_description": "",
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": "i_did",
+                "categories_ids": "504",
+                "stores_ids": "20286310",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": "False",
+                "avail_view": "False",
+                "is_virtual": "False",
+                "is_downloadable": "False",
+                "weight": 2,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": null,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "modified_at": "2025-07-08 08:34:11",
+                "tax_class_id": null,
+                "tier_price": null,
+                "group_price": null,
+                "images": [
+                    {
+                        "item": [
+                            {
+                                "id": "6455773693",
+                                "http_path": "https://picsum.photos/seed/15c7dd7e/600/600",
+                                "type": "IMAGE_TYPE_BASE",
+                                "mime-type": "image/jpeg",
+                                "alt": "",
+                                "avail": "True",
+                                "file_name": "il_fullxfull.6455773693_csxg.jpg",
+                                "create_at": "2024-11-06 12:53:06",
+                                "modified_at": null,
+                                "size": null,
+                                "sort_order": 1
+                            }
+                        ]
+                    }
+                ],
+                "product_options": [
+                    {
+                        "option": [
+                            {
+                                "id": "46803063659",
+                                "product_option_id": null,
+                                "name": "Holiday",
+                                "sort_order": 46803063659,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "450728143174",
+                                                "product_option_value_id": null,
+                                                "name": "Easter",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "513",
+                                "product_option_id": null,
+                                "name": "Custom",
+                                "sort_order": 513,
+                                "type": "select",
+                                "required": "True",
+                                "available": "True",
+                                "option_value": [
+                                    {
+                                        "value": [
+                                            {
+                                                "id": "1391693264111",
+                                                "product_option_value_id": null,
+                                                "name": "CustomNew",
+                                                "sort_order": 0,
+                                                "price": 0,
+                                                "type_price": "value",
+                                                "weight": 0,
+                                                "quantity": null,
+                                                "sku": null,
+                                                "is_default": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "product_variants": null,
+                "stores_info": null,
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "categories": null,
+                "related_products_ids": "",
+                "up_sell_products_ids": "",
+                "cross_sell_products_ids": "",
+                "dimensions_unit": "in",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": null,
+                "currency_code": "USD",
+                "file_data": "",
+                "is_customizable": "False",
+                "is_personalizable": "False",
+                "is_private": "False",
+                "is_supply": "True",
+                "language": "en-US",
+                "materials": [],
+                "non_taxable": "False",
+                "num_favorers": "0",
+                "personalization_instructions": "",
+                "personalization_is_required": "False",
+                "processing_max": "1",
+                "processing_min": "1",
+                "production_partners": [],
+                "readiness_state_id": "1402408090577",
+                "return_policy_id": "",
+                "shipping_profile_id": "150486311896",
+                "shop_section_id": "",
+                "should_auto_renew": "False",
+                "style": [],
+                "tags": "Dress",
+                "when_made": "made_to_order",
+                "personalization_questions": []
+            }
+        ]
+    }
+}

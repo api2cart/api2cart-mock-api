@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'stores_ids' is only supported for cross-border accounts.",
+    "result": {}
+}

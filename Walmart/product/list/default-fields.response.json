@@ -1,0 +1,52 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcFLEoIgAADQA7GoAKOWiqakU0aOYjsVkZpkErWPp%2B%2B9Tj8zTvxSEtAntd%2B0L30cW7DOMU1CbVAfIQJuZ%2BiAk0vhoiXbrH4OKFHqzbjZ5sJNbR2KYVSjFVD2VwLvAcWfw8KrHF0mMvHe5oFnwTfVUe3TmLHThX1m7u7ucr1UangEPynYLjYVbezw%2FuJ0kXOsiuCVQTtGk%2BJeEaJboiQvxNVjOANGOGZLY9Pt%2Fw%3D%3D"
+    },
+    "result": {
+        "products_count": 3,
+        "product": [
+            {
+                "id": "850035906460",
+                "name": "Halo Collar 3 - Wireless GPS Dog Fence & Training Collar with Real-Time Tracking, Waterproof",
+                "description": null,
+                "price": 699,
+                "categories_ids": [
+                    "Home Page",
+                    "Pets",
+                    "Dogs",
+                    "Dog Collars, Leashes, and Harnesses",
+                    "All Dog Collars & Leashes"
+                ]
+            },
+            {
+                "id": "850035906170",
+                "name": "Halo Collar GPS Wireless Dog Fence, Activity Tracking & Training, Graphite, Medium",
+                "description": null,
+                "price": 649,
+                "categories_ids": [
+                    "Home Page",
+                    "Pets",
+                    "Dogs",
+                    "Dog Collars, Leashes, and Harnesses",
+                    "All Dog Collars & Leashes"
+                ]
+            },
+            {
+                "id": "850035906255",
+                "name": "Halo Collar 3, Multifunctional GPS Wireless Dog Fence & Dog Training Collar with GPS Tracker, Subscription Required, Waterproof, Orchid (Medium/Large)",
+                "description": null,
+                "price": 399,
+                "categories_ids": [
+                    "Home Page",
+                    "Pets",
+                    "Dogs",
+                    "Dog Collars, Leashes, and Harnesses",
+                    "All Dog Collars & Leashes"
+                ]
+            }
+        ]
+    }
+}

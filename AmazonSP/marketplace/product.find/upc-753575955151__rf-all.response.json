@@ -1,0 +1,881 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B08PNM1LNZ",
+                "type": "simple",
+                "u_asin": "B08PNM1LNZ",
+                "u_ean": "0753575955151",
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": "753575955151",
+                "name": "Apple iPhone 12, 64GB, Blue - Fully Unlocked (Renewed)",
+                "description": "",
+                "url": "https://store-3cbb1798.example.com/",
+                "price": 397.76,
+                "images": [
+                    {
+                        "id": "a90f3f90bc9dc2526ba84f81644632a2",
+                        "http_path": "https://picsum.photos/seed/c457dab0/600/600",
+                        "file_name": "513NI5xpYjL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "c6147588f56897c9ee265a4eddfafe14",
+                        "http_path": "https://picsum.photos/seed/db758b1/600/600",
+                        "file_name": "51ERFKUcVlL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "3d0107d9d1de6d3bde8276fad9993fec",
+                        "http_path": "https://picsum.photos/seed/1bc5d394/600/600",
+                        "file_name": "51yHm-RlBbL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "4dd9e3d92276be40ff53e472df0bf8a5",
+                        "http_path": "https://picsum.photos/seed/a1f2704/600/600",
+                        "file_name": "618Qjqls8NL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "b5808d6bdc778014e495823caa6ede0c",
+                        "http_path": "https://picsum.photos/seed/d586d2bb/600/600",
+                        "file_name": "41A3TcAX6KL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "dd7c79cd18f7a391044dcf4fea12167e",
+                        "http_path": "https://picsum.photos/seed/9de90f9/600/600",
+                        "file_name": "41xrOzoHI8L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "a90f3f90bc9dc2526ba84f81644632a2",
+                        "http_path": "https://picsum.photos/seed/c457dab0/600/600",
+                        "file_name": "513NI5xpYjL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "c6147588f56897c9ee265a4eddfafe14",
+                        "http_path": "https://picsum.photos/seed/db758b1/600/600",
+                        "file_name": "51ERFKUcVlL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "3d0107d9d1de6d3bde8276fad9993fec",
+                        "http_path": "https://picsum.photos/seed/1bc5d394/600/600",
+                        "file_name": "51yHm-RlBbL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "manufacturer": "Apple Computer",
+                "brand": "Apple",
+                "weight": 0.6834330122,
+                "weight_unit": "lb",
+                "dimensions_unit": "in",
+                "width": 4.0551181061,
+                "height": 2.4409448794,
+                "length": 7.8346456613,
+                "additional_fields": {
+                    "ean_identifiers": [
+                        "0753575955151"
+                    ],
+                    "upc_identifiers": [
+                        "753575955151"
+                    ],
+                    "child_asins": [],
+                    "parent_asin": "B09KW9M48M",
+                    "model_number": "iPhone 12",
+                    "part_number": "MGH93LL/A",
+                    "product_type": "CELLULAR_PHONE",
+                    "raw_attributes": {
+                        "cellular_technology": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "5G, 4G LTE",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 0.16,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Please check with your carrier to verify compatibility.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "When you receive the phone, insert a SIM card from a compatible carrier. Then, turn it on, connect to Wi-Fi, and follow the on screen prompts to activate service.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "hazmat": [
+                            {
+                                "aspect": "proper_shipping_name",
+                                "value": "LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT *REFURBISHED*",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "united_nations_regulatory_id",
+                                "value": "UN3481",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "regulatory_packing_group",
+                                "value": "II",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "transportation_regulatory_class",
+                                "value": "9",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "AE_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "AU_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "BE_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "BR_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "CA_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "CN_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "DE_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "EG_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "ES_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "FR_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "GB_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "IN_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "IT_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "JP_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "MX_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "NL_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "PL_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "SA_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "SE_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "SG_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "TR_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "US_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "aspect": "exception",
+                                "value": "ZA_SmallLithiumIonBatteryStandalone",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_quantity": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_dimensions": [
+                            {
+                                "width": {
+                                    "unit": "inches",
+                                    "value": 4
+                                },
+                                "length": {
+                                    "unit": "inches",
+                                    "value": 7
+                                },
+                                "height": {
+                                    "unit": "inches",
+                                    "value": 5
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Apple",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "camera_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Front, Rear",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "biometric_security_feature": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Face Recognition",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "externally_assigned_product_identifier": [
+                            {
+                                "value": "753575955151",
+                                "type": "upc",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "0753575955151",
+                                "type": "ean",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "service_provider": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Unlocked",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "package_level": [
+                            {
+                                "value": "unit",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_dimensions": [
+                            {
+                                "length": {
+                                    "unit": "centimeters",
+                                    "value": 6.2
+                                },
+                                "width": {
+                                    "unit": "centimeters",
+                                    "value": 10.3
+                                },
+                                "height": {
+                                    "unit": "centimeters",
+                                    "value": 19.9
+                                },
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "telephone_type": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "SIM",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "size": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "64GB",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "supported_satellite_navigation_system": [
+                            {
+                                "value": "galileo",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "part_number": [
+                            {
+                                "value": "MGH93LL/A",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "number_of_lithium_ion_cells": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "water_resistance_level": [
+                            {
+                                "value": "water_resistant",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "shooting_modes": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "High Dynamic Range",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "battery": [
+                            {
+                                "cell_composition": [
+                                    {
+                                        "value": "lithium_ion"
+                                    }
+                                ],
+                                "weight": [
+                                    {
+                                        "unit": "grams",
+                                        "value": 47
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language_tag": "en_US",
+                                        "value": "Lithium-Ion"
+                                    }
+                                ],
+                                "average_life": [
+                                    {
+                                        "unit": "hours",
+                                        "value": 10
+                                    }
+                                ],
+                                "power": [
+                                    {
+                                        "unit": "watts",
+                                        "value": 10
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "manufacturer": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Apple Computer",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "digital_storage_capacity": [
+                            {
+                                "unit": "GB",
+                                "value": 64,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "number_of_lithium_metal_cells": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "operating_system": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "iOS 16",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "lithium_battery": [
+                            {
+                                "energy_content": [
+                                    {
+                                        "unit": "watt_hours",
+                                        "value": 10.78
+                                    }
+                                ],
+                                "weight": [
+                                    {
+                                        "unit": "grams",
+                                        "value": 29
+                                    }
+                                ],
+                                "packaging": [
+                                    {
+                                        "value": "batteries_packed_with_equipment"
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "model_number": [
+                            {
+                                "value": "iPhone 12",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "memory_storage_capacity": [
+                            {
+                                "unit": "GB",
+                                "value": 64,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "sim_card_slot_count": [
+                            {
+                                "value": "single_sim",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "supplier_declared_dg_hz_regulation": [
+                            {
+                                "value": "not_applicable",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "num_batteries": [
+                            {
+                                "quantity": 1,
+                                "type": "lithium_ion",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "wireless_network_technology": [
+                            {
+                                "value": "CDMA",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "wifi",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "value": "GSM",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "display": [
+                            {
+                                "size": [
+                                    {
+                                        "unit": "inches",
+                                        "value": 6.1
+                                    }
+                                ],
+                                "type": [
+                                    {
+                                        "language_tag": "en_US",
+                                        "value": "OLED"
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "computer_memory": [
+                            {
+                                "size": [
+                                    {
+                                        "unit": "GB",
+                                        "value": 4
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Apple iPhone 12, 64GB, Blue - Fully Unlocked (Renewed)",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "list_price": [
+                            {
+                                "currency": "USD",
+                                "value": 397.76,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "effective_still_resolution": [
+                            {
+                                "unit": "megapixels",
+                                "value": 12,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "optical_sensor": [
+                            {
+                                "resolution": [
+                                    {
+                                        "unit": "megapixels",
+                                        "value": 12
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_required": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_site_launch_date": [
+                            {
+                                "value": "2020-12-03T22:00:37.470Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_grade": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Renewed",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "form_factor": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Bar",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "batteries_included": [
+                            {
+                                "value": false,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "connectivity_technology": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Wi-Fi",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "NFC",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "USB",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Bluetooth",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "included_components": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Adapter",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "USB Cable",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "gps_navigation": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "True",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "fcc_radio_frequency_emission_compliance": [
+                            {
+                                "identification_number": "ID-30502816",
+                                "registration_status": "has_fcc_id",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "model_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "iPhone 12",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "connector_type": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Lightning",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "target_region": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Global",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "cell-phones",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "flash_memory": [
+                            {
+                                "installed_size": [
+                                    {
+                                        "unit": "GB",
+                                        "value": 64
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "number_of_items": [
+                            {
+                                "value": 1,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "warranty_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "1 Year",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "pesticide_marking": [
+                            {
+                                "marking_type": "epa_registration_number",
+                                "registration_status": "fifra_not_considered_pesticide",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Blue",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "variation_theme": [
+                            {
+                                "name": "SIZE_NAME/COLOR_NAME/SERVICE_PROVIDER/PRODUCT_GRADE",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_package_weight": [
+                            {
+                                "unit": "kilograms",
+                                "value": 0.31,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "wireless_provider": [
+                            {
+                                "value": "unlocked",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "video_capture_resolution": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "4k",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "sim_card_size": [
+                            {
+                                "value": "nano",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "special_feature": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Built-In GPS",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "human_interface_input": [
+                            {
+                                "value": "touch_screen",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "model_year": [
+                            {
+                                "value": 2020,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "street_date": [
+                            {
+                                "value": "2020-01-01T00:00:01Z",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "ram_memory": [
+                            {
+                                "installed_size": [
+                                    {
+                                        "unit": "GB",
+                                        "value": 4
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "completeness Mint is not supported. Allowed only: Complete,Incomplete,Sealed",
+    "result": {}
+}

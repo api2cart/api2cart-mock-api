@@ -1,0 +1,8 @@
+{
+    "captured_at": "2026-08-14T08:11:23Z",
+    "method": "GET",
+    "endpoint": "category.count.json",
+    "query": {
+        "parent_id": "859400"
+    }
+}

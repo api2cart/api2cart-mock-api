@@ -1,0 +1,24 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "2335753011",
+                "name": "Cell Phones & Accessories",
+                "description": "Cell Phones & Accessories"
+            },
+            {
+                "id": "7072561011",
+                "name": "Cell Phones",
+                "description": "Cell Phones"
+            },
+            {
+                "id": "2811119011",
+                "name": "Cell Phones & Accessories",
+                "description": "Cell Phones & Accessories"
+            }
+        ]
+    }
+}

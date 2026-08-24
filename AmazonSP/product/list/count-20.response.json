@@ -1,0 +1,83 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "88p1yqpwNi1OqorMKMnNdsqzMDJJzHHUTywJCEosLQwwyY8s8LB0i8gpyjLJKs53NspKcTUxMcsyM3R0C852swQA"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "CURTAIN327duo10",
+                "name": "CURTAIN327duo10",
+                "description": "CURTAIN327duo10",
+                "price": 1,
+                "categories_ids": ""
+            },
+            {
+                "id": "p_69b52ea559329",
+                "name": "Four seasons universal Warm Cute Cat Houses",
+                "description": "Introducing the Four Seasons Universal Warm Cute Cat Houses by Bergan! \nThis cozy Cave Bed is perfect for your furry friend to snuggle up in. \nThis bed is made from high-quality cotton material that guarantees comfort and warmth for your beloved pet. ",
+                "price": 30.22,
+                "categories_ids": "2975246011"
+            },
+            {
+                "id": "8L-IAZE-42MI",
+                "name": "Abuff 8 OZ Claw Hammer, Solid Steel Straight Claw Hammers with Mirror Polished Bright Hammers Head & Long Non-slip Handle for Household Maintenance Tools Test Update",
+                "description": "Abuff 8 OZ Claw Hammer, Solid Steel Straight Claw Hammers with Mirror Polished Bright Hammers Head & Long Non-slip Handle for Household Maintenance Tools",
+                "price": 0.28,
+                "categories_ids": "553194"
+            },
+            {
+                "id": "9M-MDSD-BEDX",
+                "name": "DKKPIA AC/DC Adapter for ZURN AP3477ZR 63259001 AP34772R XD0608B XD-0608B UD-0608B UD0608B APX Plug in Power Converter Touchless Faucets Faucet 6VDC 800mA 6V 0.8A Class 2 Power Supply",
+                "description": "DKKPIA AC/DC Adapter For ZURN AP3477ZR 63259001 AP34772R XD0608B XD-0608B UD-0608B UD0608B APX Plug in Power Converter Touchless Faucets Faucet 6VDC 800mA 6V 0.8A Class 2 Power Supply",
+                "price": 0.35,
+                "categories_ids": ""
+            },
+            {
+                "id": "A2C-B0BX59ZCKX",
+                "name": "USB B to USB C Printer Cable 4 Feet (3 Pack), USB C to USB B Printer Cable, Flexible Cord for MacBook Pro/Air, USB C MIDI Cable Compatible with Yamaha Piano MIDI Keyboard, DAC, DJ Controller and More",
+                "description": "USB C to USB B Printer Cable",
+                "price": 8,
+                "categories_ids": "464394"
+            },
+            {
+                "id": "A2C-B0BX5BZMX7",
+                "name": "USB B to USB C Printer Cable 10 Feet, USB C to USB B Printer Cable, Flexible Cord for MacBook Pro/Air, USB C MIDI Cable Compatible with Yamaha Piano MIDI Keyboard, DAC, DJ Controller and More",
+                "description": "USB C to USB B Printer Cable",
+                "price": 0.35,
+                "categories_ids": "464394"
+            },
+            {
+                "id": "API2CART-001_Navy",
+                "name": " name22 Smead Colored File Folder, 1/3-Cut Tab, Letter Size, Navy, 100 per Box (13193) (Pack of 1)",
+                "description": " Product Description22",
+                "price": 8,
+                "categories_ids": "705333011"
+            },
+            {
+                "id": "B000JOE224-CHILD-001",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat TreatsLarge - Flavour (Mango)",
+                "description": "Feline Pill Pockets for Cats Natural Soft Cat TreatsLarge - Flavour (Mango)",
+                "price": 10,
+                "categories_ids": ""
+            },
+            {
+                "id": "B000JOE224-PARENT-APP",
+                "name": "Feline Pill Pockets for Cats Natural Soft Cat Treats",
+                "description": "Take the stress and the mess out of giving your cat medicine: Vet-recommended FELINE Pill Pockets Treats for Cats in Salmon Flavor easily hide tablets from your cat in a tasty little pill pouch treat. With fewer calories and less fat and sodium, these cat treats are made with natural ingredients plus trace nutrients, which make them a healthier alternative to using human foods to disguise your kitty’s meds. The delectable salmon flavor masks the taste and smell-your furball will never know the difference. Just drop your cat’s pill or liquid medicine into the pouch, pinch it closed, and share with your cat. Just like that, the treat (and medicine) disappears. When it comes to taking meds, your cat is smart. But you’re smarter because you’ve got FELINE Pill Pockets. * Data on file at Mars Petcare US, 2017",
+                "price": 11,
+                "categories_ids": ""
+            },
+            {
+                "id": "BEAUTY-CHILD",
+                "name": "Precision Weave Removal Tool (Teal)",
+                "description": "Now, no more jamming over-sized scissors under tightly sewed weaving thread. brings RazorMax precision weave removal tool for women who love to wear hair weaves but face difficulties in the process of removing them. This extension removal tool eliminates the anxiety of removing weaves while saving you both time and money. Razor weave remover allows quick, easy and damage-free removal of weaves, wigs, hair extensions and braids. Highly refined structure of the blade is designed to fit perfectly in your hand for an accurate cut. The pointed end of the hair removal tool can be used to undo braids. Not only that RazorMax tool is brilliantly crafted with durable material that’s made to last.",
+                "price": 12.99,
+                "categories_ids": "10676489011"
+            }
+        ]
+    }
+}

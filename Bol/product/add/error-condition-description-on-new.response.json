@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "condition_description is only allowed in combination with condition: AS_NEW, GOOD, REASONABLE, MODERATE.",
+    "result": {}
+}

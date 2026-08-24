@@ -1,0 +1,1170 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "name": "Umbrella Co",
+        "url": null,
+        "version": null,
+        "bridge_version": null,
+        "default_rounding_precision": null,
+        "db_prefix": null,
+        "stores_info": [
+            {
+                "store_id": "Partner/Seller ID for Walmart store URL ",
+                "name": "Initech",
+                "language": null,
+                "store_languages": [],
+                "currency": {
+                    "id": "USD",
+                    "name": "US Dollar",
+                    "iso3": "USD",
+                    "symbol_left": "$",
+                    "symbol_right": "",
+                    "rate": 1,
+                    "avail": true,
+                    "default": true
+                },
+                "store_currencies": [
+                    {
+                        "id": "USD",
+                        "name": "US Dollar",
+                        "iso3": "USD",
+                        "symbol_left": "$",
+                        "symbol_right": "",
+                        "rate": 1,
+                        "avail": true,
+                        "default": true
+                    }
+                ],
+                "timezone": "America/Chicago",
+                "country": null,
+                "root_category_id": null,
+                "multi_store_url": null,
+                "active": true,
+                "weight_unit": null,
+                "dimension_unit": null,
+                "prices_include_tax": null,
+                "carrier_info": [
+                    {
+                        "id": "ups",
+                        "name": "UPS",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "usps",
+                        "name": "USPS",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "fedex",
+                        "name": "FedEx",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "airborne",
+                        "name": "Airborne",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ontrac",
+                        "name": "OnTrac",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "dhl_ecommerce_us",
+                        "name": "DHL Ecommerce - US",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "dhl",
+                        "name": "DHL",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ls",
+                        "name": "LS",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "uds",
+                        "name": "UDS",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "upsmi",
+                        "name": "UPSMI",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "fdx",
+                        "name": "FDX",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "pilot",
+                        "name": "PILOT",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "estes",
+                        "name": "ESTES",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "saia",
+                        "name": "SAIA",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "fds_express",
+                        "name": "FDS Express",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "seko_worldwide",
+                        "name": "Seko Worldwide",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "hit_delivery",
+                        "name": "HIT Delivery",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "fedexsp",
+                        "name": "FEDEXSP",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "rl_carriers",
+                        "name": "RL Carriers",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "metropolitan_warehouse_delivery",
+                        "name": "Metropolitan Warehouse & Delivery",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "china_post",
+                        "name": "China Post",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "yunexpress",
+                        "name": "YunExpress",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "yellow_freight_sys",
+                        "name": "Yellow Freight Sys",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ait_worldwide_logistics",
+                        "name": "AIT Worldwide Logistics",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "chukou1",
+                        "name": "Chukou1",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "sendle",
+                        "name": "Sendle",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "landmark_global",
+                        "name": "Landmark Global",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "sunyou",
+                        "name": "Sunyou",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "yanwen",
+                        "name": "Yanwen",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "4px",
+                        "name": "4PX",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "gls",
+                        "name": "GLS",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "osm_worldwide",
+                        "name": "OSM Worldwide",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "first_mile",
+                        "name": "FIRST MILE",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "am_trucking",
+                        "name": "AM Trucking",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ceva",
+                        "name": "CEVA",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "india_post",
+                        "name": "India Post",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "sf_express",
+                        "name": "SF Express",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "cne",
+                        "name": "CNE",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "tforce_freight",
+                        "name": "TForce Freight",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "axlehire",
+                        "name": "AxleHire",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "lso",
+                        "name": "LSO",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "royal_mail",
+                        "name": "Royal Mail",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "abf_freight_system",
+                        "name": "ABF Freight System",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "wanb",
+                        "name": "WanB",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "roadrunner_freight",
+                        "name": "Roadrunner Freight",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "meyer_distribution",
+                        "name": "Meyer Distribution",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "aaa_cooper",
+                        "name": "AAA Cooper",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "canada_post",
+                        "name": "Canada Post",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "southeastern_freight_lines",
+                        "name": "Southeastern Freight Lines",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "japan_post",
+                        "name": "Japan Post",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "correos_de_mexico",
+                        "name": "Correos de Mexico",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "xpo_logistics",
+                        "name": "XPO Logistics",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "jd_logistics",
+                        "name": "JD Logistics",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ydh",
+                        "name": "YDH",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "jcex",
+                        "name": "JCEX",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "flyt",
+                        "name": "Flyt",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "deutsche_post",
+                        "name": "Deutsche Post",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "better_trucks",
+                        "name": "Better Trucks",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "asendia",
+                        "name": "Asendia",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "sfc",
+                        "name": "SFC",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "ubi",
+                        "name": "UBI",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "epost_global",
+                        "name": "ePost Global",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "yf_logistics",
+                        "name": "YF Logistics",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "rxo",
+                        "name": "RXO",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "estes_express",
+                        "name": "Estes Express",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "shypmax",
+                        "name": "Shypmax",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "win_it_america",
+                        "name": "WIN.IT America",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "pitt_ohio",
+                        "name": "PITT OHIO",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "postnord_sweden",
+                        "name": "PostNord Sweden",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "equick",
+                        "name": "Equick",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "whistl",
+                        "name": "Whistl",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "tusou",
+                        "name": "Tusou",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "shiprocket",
+                        "name": "Shiprocket",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "dtdc",
+                        "name": "DTDC",
+                        "active": true,
+                        "shipping_methods": []
+                    },
+                    {
+                        "id": "pts",
+                        "name": "PTS",
+                        "active": true,
+                        "shipping_methods": []
+                    }
+                ],
+                "store_owner_info": null,
+                "default_warehouse_id": null,
+                "channels": [],
+                "pickup_locations": [],
+                "additional_fields": {
+                    "shipping_templates": [
+                        {
+                            "id": "322824717865754625",
+                            "name": "Template 2",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1654804211628,
+                            "modifiedDate": 1654804211628
+                        },
+                        {
+                            "id": "372610656066920449",
+                            "name": "AutoST Test 9404311",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666674100557,
+                            "modifiedDate": 1666674100557
+                        },
+                        {
+                            "id": "370570187548082177",
+                            "name": "AutoST Test AK2 9404311",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666187614285,
+                            "modifiedDate": 1666187614285
+                        },
+                        {
+                            "id": "385742572727099393",
+                            "name": "AutoST Test Walmart",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1669804982024,
+                            "modifiedDate": 1669804982024
+                        },
+                        {
+                            "id": "370519539771039745",
+                            "name": "AutoST Test AK2 94043",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666175541407,
+                            "modifiedDate": 1666175541407
+                        },
+                        {
+                            "id": "370569803920105473",
+                            "name": "AutoST Test AK2 94050",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666187525266,
+                            "modifiedDate": 1666187525266
+                        },
+                        {
+                            "id": "370494775585357825",
+                            "name": "AutoST Test AK1 94043",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666169634798,
+                            "modifiedDate": 1666169634798
+                        },
+                        {
+                            "id": "368665658468392961",
+                            "name": "Template 277",
+                            "type": "CUSTOM",
+                            "rateModelType": "TIERED_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1665733525645,
+                            "modifiedDate": 1665733606786
+                        },
+                        {
+                            "id": "442164609732993025",
+                            "name": "Test Template SC SP",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1683257057987,
+                            "modifiedDate": 1683257057987
+                        },
+                        {
+                            "id": "470108618127974401",
+                            "name": "Next Day service",
+                            "type": "CUSTOM",
+                            "rateModelType": "TIERED_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1689919428772,
+                            "modifiedDate": 1689919428772
+                        },
+                        {
+                            "id": "470138206325448705",
+                            "name": "Next Day",
+                            "type": "CUSTOM",
+                            "rateModelType": "TIERED_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1689926483157,
+                            "modifiedDate": 1689926483157
+                        },
+                        {
+                            "id": "370537465601540097",
+                            "name": "AutoST Test AK2 94048",
+                            "type": "CUSTOM",
+                            "rateModelType": "PER_SHIPMENT_PRICING",
+                            "status": "ACTIVE",
+                            "createdDate": 1666179812824,
+                            "modifiedDate": 1666179812824
+                        },
+                        {
+                            "id": "470111751029792769",
+                            "name": "Next Day service 3",
+                            "type": "CUSTOM",
+                            "rateModelType": "TIERED_PRICING",
+                            "status": "INACTIVE",
+                            "createdDate": 1689920175721,
+                            "modifiedDate": 1689920175721
+                        }
+                    ]
+                }
+            }
+        ],
+        "warehouses": [
+            {
+                "id": "448811766934069249",
+                "name": "my distrubutor78",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "46044",
+                    "address1": "431 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "USPS",
+                                    "carrierMethodType": "GROUND"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "400778146885521409",
+                "name": "my distrubut10",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "46355",
+                    "address1": "421 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "Not",
+                                    "carrierMethodType": "Found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "400758796929585153",
+                "name": "my distrubutor7",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "46355",
+                    "address1": "731 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Springfield",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "Not",
+                                    "carrierMethodType": "Found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "351034727510831105",
+                "name": "PHYSICAL",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "18100",
+                    "address1": "573 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Bristol",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "Not",
+                                    "carrierMethodType": "Found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "80991834993020929",
+                "name": "MP_Deliverr",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "16562",
+                    "address1": "846 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Bristol",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "3PL",
+                    "time_zone": "EST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "3PL_CARRIER",
+                                    "carrierMethodType": "GROUND"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "436081950820782081",
+                "name": "test",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "34695",
+                    "address1": "596 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Springfield",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "USPS",
+                                    "carrierMethodType": "GROUND"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "400710535963332609",
+                "name": "my distrubutor787",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "46355",
+                    "address1": "329 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "Not",
+                                    "carrierMethodType": "Found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "10000000359",
+                "name": "USA Dawgs, Inc - 10000000359 - MP",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "35822",
+                    "address1": "103 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Franklin",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "TX",
+                        "name": "Texas"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "VIRTUAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [],
+                    "shipping_details": []
+                }
+            },
+            {
+                "id": "426703669472391169",
+                "name": "my distrubutor786",
+                "description": null,
+                "avail": true,
+                "address": {
+                    "id": "1",
+                    "type": "shipping",
+                    "first_name": null,
+                    "last_name": null,
+                    "postcode": "46355",
+                    "address1": "665 Example St",
+                    "address2": "",
+                    "phone": "",
+                    "phone_mobile": "",
+                    "city": "Greenville",
+                    "country": {
+                        "code2": "US",
+                        "code3": "USA",
+                        "name": "United States of America"
+                    },
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    },
+                    "company": null,
+                    "fax": null,
+                    "website": null,
+                    "gender": null,
+                    "region": null,
+                    "default": true,
+                    "tax_id": null,
+                    "identification_number": null,
+                    "alias": null
+                },
+                "carriers_ids": [],
+                "stores_ids": [],
+                "additional_fields": {
+                    "node_type": "PHYSICAL",
+                    "time_zone": "PST",
+                    "distributor_supported_services": [
+                        "TWO_DAY_DELIVERY"
+                    ],
+                    "shipping_details": [
+                        {
+                            "twoDayShipping": [
+                                {
+                                    "carrierMethodName": "Not",
+                                    "carrierMethodType": "Found"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "shipping_zones": [],
+        "additional_fields": {
+            "partner_id": "100009",
+            "configurations": [
+                {
+                    "configurationName": "ACCOUNT",
+                    "configuration": {
+                        "status": "ACTIVE"
+                    }
+                },
+                {
+                    "configurationName": "FEED",
+                    "configuration": {
+                        "values": [
+                            {
+                                "feedType": "inventory",
+                                "throttleConfigurations": [
+                                    {
+                                        "type": "SELLER",
+                                        "rate": {
+                                            "count": 6,
+                                            "replenishTimeWindow": {
+                                                "value": "3600",
+                                                "unitOfMeasurement": "SECOND"
+                                            }
+                                        },
+                                        "fileSize": {
+                                            "value": 26214400,
+                                            "unitOfMeasurement": "BYTES"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "feedType": "MP_ITEM",
+                                "throttleConfigurations": [
+                                    {
+                                        "type": "SELLER",
+                                        "rate": {
+                                            "count": 6,
+                                            "replenishTimeWindow": {
+                                                "value": "3600",
+                                                "unitOfMeasurement": "SECOND"
+                                            }
+                                        },
+                                        "fileSize": {
+                                            "value": 26214400,
+                                            "unitOfMeasurement": "BYTES"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

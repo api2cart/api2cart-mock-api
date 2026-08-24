@@ -1,0 +1,70 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "228894192",
+                "type": null,
+                "u_asin": null,
+                "u_ean": "9781474837637",
+                "u_gtin": "9781474837637",
+                "u_isbn": "9781474837637",
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "Jumbo Coloring Book: Disney Princess Jumbo Coloring by Parragon Books Ltd (Paperback, 2016)",
+                "description": null,
+                "url": null,
+                "price": null,
+                "images": [
+                    {
+                        "id": "9cbc9a2c6afeb3dde5712c2659bcad50",
+                        "http_path": "https://picsum.photos/seed/7f9bfa9/600/600",
+                        "file_name": "$_57.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "manufacturer": null,
+                "brand": "",
+                "weight": null,
+                "weight_unit": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "custom_fields": {
+                    "Publication Year": "2016",
+                    "Language": "English",
+                    "Subject": "Activity & Coloring Books",
+                    "Topic": "Coloring Books",
+                    "Special Attributes": "Illustrated",
+                    "Format": "Paperback",
+                    "eans": [
+                        "9781474837637"
+                    ],
+                    "gtins": [
+                        "9781474837637"
+                    ],
+                    "isbns": [
+                        "9781474837637"
+                    ],
+                    "mpns": [],
+                    "upcs": []
+                }
+            }
+        ]
+    }
+}

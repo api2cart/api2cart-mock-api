@@ -1,0 +1,2453 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHbDoIgAADQD%2BpBbDLwkTKlzSKGueAt8hLMjZmg0dd3DvlRnoKKLwGZQOO1I3K8oGyobCr6%2B%2Bu2THmWTEi7ctuKGohAc4%2F7gq9DM8cyKMKOtQzv72gPLOmCY50Zojr5Fe4WCeaWeOElis%2FPSs5qbDFs8AOmRkO9t9RZ%2FAc%3D"
+    },
+    "result": {
+        "categories_count": 3,
+        "category": [
+            {
+                "id": "0",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Root",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "best_offer_enabled": false,
+                    "leaf_category": false,
+                    "category_level": 0,
+                    "child_categories": [
+                        "1",
+                        "99",
+                        "220",
+                        "237",
+                        "260",
+                        "267",
+                        "281",
+                        "293",
+                        "316",
+                        "550",
+                        "619",
+                        "625",
+                        "870",
+                        "888",
+                        "1249",
+                        "1281",
+                        "1305",
+                        "2984",
+                        "3252",
+                        "10542",
+                        "11116",
+                        "11232",
+                        "11233",
+                        "11450",
+                        "11700",
+                        "12576",
+                        "14339",
+                        "15032",
+                        "20081",
+                        "26395",
+                        "45100",
+                        "58058",
+                        "64482",
+                        "172008"
+                    ],
+                    "product_specifics": [],
+                    "product_features": [],
+                    "conditions": []
+                }
+            },
+            {
+                "id": "1",
+                "parent_id": "0",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Collectibles",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "best_offer_enabled": false,
+                    "leaf_category": false,
+                    "category_level": 1,
+                    "child_categories": [
+                        "34",
+                        "63",
+                        "113",
+                        "124",
+                        "137",
+                        "152",
+                        "412",
+                        "417",
+                        "562",
+                        "593",
+                        "597",
+                        "898",
+                        "907",
+                        "914",
+                        "966",
+                        "1335",
+                        "1401",
+                        "1404",
+                        "1430",
+                        "1446",
+                        "1462",
+                        "3213",
+                        "3913",
+                        "10860",
+                        "13658",
+                        "13777",
+                        "13849",
+                        "13905",
+                        "13956",
+                        "14005",
+                        "14429",
+                        "29797",
+                        "29832",
+                        "39507",
+                        "45058",
+                        "60811",
+                        "66502",
+                        "66503",
+                        "69851",
+                        "156277",
+                        "165800",
+                        "182982",
+                        "258032",
+                        "259135",
+                        "261595",
+                        "261650",
+                        "261716",
+                        "262050",
+                        "262344",
+                        "262413",
+                        "263076"
+                    ],
+                    "product_specifics": [],
+                    "product_features": [],
+                    "conditions": []
+                }
+            },
+            {
+                "id": "12",
+                "parent_id": "20081",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Other Antiques",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "best_offer_enabled": true,
+                    "leaf_category": true,
+                    "category_level": 2,
+                    "child_categories": [],
+                    "product_specifics": [
+                        {
+                            "localizedAspectName": "Maker",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": false
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Blitz"
+                                },
+                                {
+                                    "localizedValue": "Lachen"
+                                },
+                                {
+                                    "localizedValue": "Levede"
+                                },
+                                {
+                                    "localizedValue": "Maude"
+                                },
+                                {
+                                    "localizedValue": "Millers Oils"
+                                },
+                                {
+                                    "localizedValue": "Precision Blade"
+                                },
+                                {
+                                    "localizedValue": "Robin Wood"
+                                },
+                                {
+                                    "localizedValue": "Steppan"
+                                },
+                                {
+                                    "localizedValue": "Timink"
+                                },
+                                {
+                                    "localizedValue": "Tittle"
+                                },
+                                {
+                                    "localizedValue": "Tognar"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Age",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Pre-1800"
+                                },
+                                {
+                                    "localizedValue": "1800-1849"
+                                },
+                                {
+                                    "localizedValue": "1850-1899"
+                                },
+                                {
+                                    "localizedValue": "1900-1940"
+                                },
+                                {
+                                    "localizedValue": "Post-1940"
+                                },
+                                {
+                                    "localizedValue": "Unknown"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Original/Reproduction",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Original"
+                                },
+                                {
+                                    "localizedValue": "Vintage Reproduction"
+                                },
+                                {
+                                    "localizedValue": "Modern Reproduction"
+                                },
+                                {
+                                    "localizedValue": "Unknown"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Color",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Beige"
+                                },
+                                {
+                                    "localizedValue": "Black"
+                                },
+                                {
+                                    "localizedValue": "Blue"
+                                },
+                                {
+                                    "localizedValue": "Brown"
+                                },
+                                {
+                                    "localizedValue": "Clear"
+                                },
+                                {
+                                    "localizedValue": "Dark Wood Tone"
+                                },
+                                {
+                                    "localizedValue": "Gold"
+                                },
+                                {
+                                    "localizedValue": "Gray"
+                                },
+                                {
+                                    "localizedValue": "Green"
+                                },
+                                {
+                                    "localizedValue": "Ivory"
+                                },
+                                {
+                                    "localizedValue": "Light Wood Tone"
+                                },
+                                {
+                                    "localizedValue": "Medium Wood Tone"
+                                },
+                                {
+                                    "localizedValue": "Multi-Color"
+                                },
+                                {
+                                    "localizedValue": "Orange"
+                                },
+                                {
+                                    "localizedValue": "Pink"
+                                },
+                                {
+                                    "localizedValue": "Purple"
+                                },
+                                {
+                                    "localizedValue": "Red"
+                                },
+                                {
+                                    "localizedValue": "Silver"
+                                },
+                                {
+                                    "localizedValue": "White"
+                                },
+                                {
+                                    "localizedValue": "Yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Material",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Aluminum"
+                                },
+                                {
+                                    "localizedValue": "Bakelite"
+                                },
+                                {
+                                    "localizedValue": "Bamboo"
+                                },
+                                {
+                                    "localizedValue": "Birch"
+                                },
+                                {
+                                    "localizedValue": "Brass"
+                                },
+                                {
+                                    "localizedValue": "Bronze"
+                                },
+                                {
+                                    "localizedValue": "Cherry"
+                                },
+                                {
+                                    "localizedValue": "Chrome"
+                                },
+                                {
+                                    "localizedValue": "Copper"
+                                },
+                                {
+                                    "localizedValue": "Glass"
+                                },
+                                {
+                                    "localizedValue": "Iron"
+                                },
+                                {
+                                    "localizedValue": "Mahogany"
+                                },
+                                {
+                                    "localizedValue": "Maple"
+                                },
+                                {
+                                    "localizedValue": "Metal & Fabric"
+                                },
+                                {
+                                    "localizedValue": "Oak"
+                                },
+                                {
+                                    "localizedValue": "Pine"
+                                },
+                                {
+                                    "localizedValue": "Steel"
+                                },
+                                {
+                                    "localizedValue": "Teak"
+                                },
+                                {
+                                    "localizedValue": "Tin"
+                                },
+                                {
+                                    "localizedValue": "Walnut"
+                                },
+                                {
+                                    "localizedValue": "Wicker"
+                                },
+                                {
+                                    "localizedValue": "Wood & Fabric"
+                                },
+                                {
+                                    "localizedValue": "Wood & Glass"
+                                },
+                                {
+                                    "localizedValue": "Wood & Metal"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Style",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "2nd Empire"
+                                },
+                                {
+                                    "localizedValue": "3rd Republic"
+                                },
+                                {
+                                    "localizedValue": "Adams"
+                                },
+                                {
+                                    "localizedValue": "Aesthetic Movement"
+                                },
+                                {
+                                    "localizedValue": "Americana"
+                                },
+                                {
+                                    "localizedValue": "American Directoire"
+                                },
+                                {
+                                    "localizedValue": "American Empire"
+                                },
+                                {
+                                    "localizedValue": "Antique"
+                                },
+                                {
+                                    "localizedValue": "Art Deco"
+                                },
+                                {
+                                    "localizedValue": "Art Moderne"
+                                },
+                                {
+                                    "localizedValue": "Art Nouveau"
+                                },
+                                {
+                                    "localizedValue": "Arts & Crafts/Mission"
+                                },
+                                {
+                                    "localizedValue": "Asian"
+                                },
+                                {
+                                    "localizedValue": "Baroque & Rococo"
+                                },
+                                {
+                                    "localizedValue": "Bauhaus"
+                                },
+                                {
+                                    "localizedValue": "Biedermayer"
+                                },
+                                {
+                                    "localizedValue": "Black Forest"
+                                },
+                                {
+                                    "localizedValue": "British Colonial"
+                                },
+                                {
+                                    "localizedValue": "Carolean"
+                                },
+                                {
+                                    "localizedValue": "Chippendale"
+                                },
+                                {
+                                    "localizedValue": "Directoire"
+                                },
+                                {
+                                    "localizedValue": "Dutch Colonial"
+                                },
+                                {
+                                    "localizedValue": "Early Colonial"
+                                },
+                                {
+                                    "localizedValue": "Early Federal"
+                                },
+                                {
+                                    "localizedValue": "Early Georgian"
+                                },
+                                {
+                                    "localizedValue": "Eclectic"
+                                },
+                                {
+                                    "localizedValue": "Edwardian"
+                                },
+                                {
+                                    "localizedValue": "Elizabethan"
+                                },
+                                {
+                                    "localizedValue": "Empire & Biedermeier"
+                                },
+                                {
+                                    "localizedValue": "Etruscan"
+                                },
+                                {
+                                    "localizedValue": "Federal"
+                                },
+                                {
+                                    "localizedValue": "French"
+                                },
+                                {
+                                    "localizedValue": "French Country, Provincial"
+                                },
+                                {
+                                    "localizedValue": "Georgian"
+                                },
+                                {
+                                    "localizedValue": "Gothic"
+                                },
+                                {
+                                    "localizedValue": "Grecian"
+                                },
+                                {
+                                    "localizedValue": "Hagenauer"
+                                },
+                                {
+                                    "localizedValue": "Han"
+                                },
+                                {
+                                    "localizedValue": "Hollywood Regency"
+                                },
+                                {
+                                    "localizedValue": "Italian"
+                                },
+                                {
+                                    "localizedValue": "Jacobean"
+                                },
+                                {
+                                    "localizedValue": "Kanxi"
+                                },
+                                {
+                                    "localizedValue": "Late Georgian"
+                                },
+                                {
+                                    "localizedValue": "Later Federal"
+                                },
+                                {
+                                    "localizedValue": "Lodge"
+                                },
+                                {
+                                    "localizedValue": "Louis Philippe"
+                                },
+                                {
+                                    "localizedValue": "Louis XIII"
+                                },
+                                {
+                                    "localizedValue": "Louis XIV"
+                                },
+                                {
+                                    "localizedValue": "Louis XV"
+                                },
+                                {
+                                    "localizedValue": "Louis XVI"
+                                },
+                                {
+                                    "localizedValue": "Mediterranean"
+                                },
+                                {
+                                    "localizedValue": "Meiji"
+                                },
+                                {
+                                    "localizedValue": "Mexican"
+                                },
+                                {
+                                    "localizedValue": "Mid-Century Modern"
+                                },
+                                {
+                                    "localizedValue": "Ming Dynasty"
+                                },
+                                {
+                                    "localizedValue": "Modernist"
+                                },
+                                {
+                                    "localizedValue": "Moroccan"
+                                },
+                                {
+                                    "localizedValue": "Napoleon I"
+                                },
+                                {
+                                    "localizedValue": "Napoleon II"
+                                },
+                                {
+                                    "localizedValue": "Napoleon III"
+                                },
+                                {
+                                    "localizedValue": "Nautical"
+                                },
+                                {
+                                    "localizedValue": "Neo-Classical"
+                                },
+                                {
+                                    "localizedValue": "Novelty"
+                                },
+                                {
+                                    "localizedValue": "Queen Anne"
+                                },
+                                {
+                                    "localizedValue": "Regency"
+                                },
+                                {
+                                    "localizedValue": "Renaissance"
+                                },
+                                {
+                                    "localizedValue": "Restoration"
+                                },
+                                {
+                                    "localizedValue": "Rococo"
+                                },
+                                {
+                                    "localizedValue": "Rustic/Primitive"
+                                },
+                                {
+                                    "localizedValue": "Scandinavian"
+                                },
+                                {
+                                    "localizedValue": "Shaker"
+                                },
+                                {
+                                    "localizedValue": "Sheraton"
+                                },
+                                {
+                                    "localizedValue": "Southwestern"
+                                },
+                                {
+                                    "localizedValue": "Spanish"
+                                },
+                                {
+                                    "localizedValue": "Tang Dynasty"
+                                },
+                                {
+                                    "localizedValue": "Turkish"
+                                },
+                                {
+                                    "localizedValue": "Tuscan"
+                                },
+                                {
+                                    "localizedValue": "Venetian"
+                                },
+                                {
+                                    "localizedValue": "Victorian"
+                                },
+                                {
+                                    "localizedValue": "Vienna"
+                                },
+                                {
+                                    "localizedValue": "William & Mary"
+                                },
+                                {
+                                    "localizedValue": "William III"
+                                },
+                                {
+                                    "localizedValue": "William IV"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Country/Region of Origin",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Unknown"
+                                },
+                                {
+                                    "localizedValue": "Afghanistan"
+                                },
+                                {
+                                    "localizedValue": "Albania"
+                                },
+                                {
+                                    "localizedValue": "Algeria"
+                                },
+                                {
+                                    "localizedValue": "American Samoa"
+                                },
+                                {
+                                    "localizedValue": "Andorra"
+                                },
+                                {
+                                    "localizedValue": "Angola"
+                                },
+                                {
+                                    "localizedValue": "Anguilla"
+                                },
+                                {
+                                    "localizedValue": "Antarctica"
+                                },
+                                {
+                                    "localizedValue": "Antigua and Barbuda"
+                                },
+                                {
+                                    "localizedValue": "Argentina"
+                                },
+                                {
+                                    "localizedValue": "Armenia"
+                                },
+                                {
+                                    "localizedValue": "Aruba"
+                                },
+                                {
+                                    "localizedValue": "Australia"
+                                },
+                                {
+                                    "localizedValue": "Austria"
+                                },
+                                {
+                                    "localizedValue": "Azerbaijan"
+                                },
+                                {
+                                    "localizedValue": "Bahamas"
+                                },
+                                {
+                                    "localizedValue": "Bahrain"
+                                },
+                                {
+                                    "localizedValue": "Bangladesh"
+                                },
+                                {
+                                    "localizedValue": "Barbados"
+                                },
+                                {
+                                    "localizedValue": "Belarus"
+                                },
+                                {
+                                    "localizedValue": "Belgium"
+                                },
+                                {
+                                    "localizedValue": "Belize"
+                                },
+                                {
+                                    "localizedValue": "Benin"
+                                },
+                                {
+                                    "localizedValue": "Bermuda"
+                                },
+                                {
+                                    "localizedValue": "Bhutan"
+                                },
+                                {
+                                    "localizedValue": "Bolivia"
+                                },
+                                {
+                                    "localizedValue": "Bosnia and Herzegovina"
+                                },
+                                {
+                                    "localizedValue": "Botswana"
+                                },
+                                {
+                                    "localizedValue": "Bouvet Island"
+                                },
+                                {
+                                    "localizedValue": "Brazil"
+                                },
+                                {
+                                    "localizedValue": "British Indian Ocean Territory"
+                                },
+                                {
+                                    "localizedValue": "Brunei Darussalam"
+                                },
+                                {
+                                    "localizedValue": "Bulgaria"
+                                },
+                                {
+                                    "localizedValue": "Burkina Faso"
+                                },
+                                {
+                                    "localizedValue": "Burundi"
+                                },
+                                {
+                                    "localizedValue": "Cambodia"
+                                },
+                                {
+                                    "localizedValue": "Cameroon"
+                                },
+                                {
+                                    "localizedValue": "Canada"
+                                },
+                                {
+                                    "localizedValue": "Cape Verde"
+                                },
+                                {
+                                    "localizedValue": "Cayman Islands"
+                                },
+                                {
+                                    "localizedValue": "Central African Republic"
+                                },
+                                {
+                                    "localizedValue": "Chad"
+                                },
+                                {
+                                    "localizedValue": "Chile"
+                                },
+                                {
+                                    "localizedValue": "China"
+                                },
+                                {
+                                    "localizedValue": "Christmas Island"
+                                },
+                                {
+                                    "localizedValue": "Cocos (Keeling) Islands"
+                                },
+                                {
+                                    "localizedValue": "Colombia"
+                                },
+                                {
+                                    "localizedValue": "Comoros"
+                                },
+                                {
+                                    "localizedValue": "Congo"
+                                },
+                                {
+                                    "localizedValue": "Democratic Republic of the Congo"
+                                },
+                                {
+                                    "localizedValue": "Cook Islands"
+                                },
+                                {
+                                    "localizedValue": "Costa Rica"
+                                },
+                                {
+                                    "localizedValue": "Cote d'Ivoire"
+                                },
+                                {
+                                    "localizedValue": "Croatia"
+                                },
+                                {
+                                    "localizedValue": "Cuba"
+                                },
+                                {
+                                    "localizedValue": "Cyprus"
+                                },
+                                {
+                                    "localizedValue": "Czech Republic"
+                                },
+                                {
+                                    "localizedValue": "Denmark"
+                                },
+                                {
+                                    "localizedValue": "Djibouti"
+                                },
+                                {
+                                    "localizedValue": "Dominica"
+                                },
+                                {
+                                    "localizedValue": "Dominican Republic"
+                                },
+                                {
+                                    "localizedValue": "Ecuador"
+                                },
+                                {
+                                    "localizedValue": "Egypt"
+                                },
+                                {
+                                    "localizedValue": "El Salvador"
+                                },
+                                {
+                                    "localizedValue": "Equatorial Guinea"
+                                },
+                                {
+                                    "localizedValue": "Eritrea"
+                                },
+                                {
+                                    "localizedValue": "Estonia"
+                                },
+                                {
+                                    "localizedValue": "Ethiopia"
+                                },
+                                {
+                                    "localizedValue": "Falkland Islands (Malvinas)"
+                                },
+                                {
+                                    "localizedValue": "Faroe Islands"
+                                },
+                                {
+                                    "localizedValue": "Fiji"
+                                },
+                                {
+                                    "localizedValue": "Finland"
+                                },
+                                {
+                                    "localizedValue": "France"
+                                },
+                                {
+                                    "localizedValue": "French Guiana"
+                                },
+                                {
+                                    "localizedValue": "French Polynesia Includes Tahiti"
+                                },
+                                {
+                                    "localizedValue": "French Southern Territories"
+                                },
+                                {
+                                    "localizedValue": "Gabon"
+                                },
+                                {
+                                    "localizedValue": "Gambia"
+                                },
+                                {
+                                    "localizedValue": "Georgia"
+                                },
+                                {
+                                    "localizedValue": "Germany"
+                                },
+                                {
+                                    "localizedValue": "Ghana"
+                                },
+                                {
+                                    "localizedValue": "Gibraltar"
+                                },
+                                {
+                                    "localizedValue": "Greece"
+                                },
+                                {
+                                    "localizedValue": "Greenland"
+                                },
+                                {
+                                    "localizedValue": "Grenada"
+                                },
+                                {
+                                    "localizedValue": "Guadeloupe"
+                                },
+                                {
+                                    "localizedValue": "Guam"
+                                },
+                                {
+                                    "localizedValue": "Guatemala"
+                                },
+                                {
+                                    "localizedValue": "Guernsey"
+                                },
+                                {
+                                    "localizedValue": "Guinea"
+                                },
+                                {
+                                    "localizedValue": "Guinea-Bissau"
+                                },
+                                {
+                                    "localizedValue": "Guyana"
+                                },
+                                {
+                                    "localizedValue": "Haiti"
+                                },
+                                {
+                                    "localizedValue": "Heard Island and McDonald Islands"
+                                },
+                                {
+                                    "localizedValue": "Holy See (Vatican City State)"
+                                },
+                                {
+                                    "localizedValue": "Honduras"
+                                },
+                                {
+                                    "localizedValue": "Hong Kong"
+                                },
+                                {
+                                    "localizedValue": "Hungary"
+                                },
+                                {
+                                    "localizedValue": "Iceland"
+                                },
+                                {
+                                    "localizedValue": "India"
+                                },
+                                {
+                                    "localizedValue": "Indonesia"
+                                },
+                                {
+                                    "localizedValue": "Iran, Islamic Republic of"
+                                },
+                                {
+                                    "localizedValue": "Iraq"
+                                },
+                                {
+                                    "localizedValue": "Ireland"
+                                },
+                                {
+                                    "localizedValue": "Israel"
+                                },
+                                {
+                                    "localizedValue": "Italy"
+                                },
+                                {
+                                    "localizedValue": "Jamaica"
+                                },
+                                {
+                                    "localizedValue": "Japan"
+                                },
+                                {
+                                    "localizedValue": "Jersey"
+                                },
+                                {
+                                    "localizedValue": "Jordan"
+                                },
+                                {
+                                    "localizedValue": "Kazakhstan"
+                                },
+                                {
+                                    "localizedValue": "Kenya"
+                                },
+                                {
+                                    "localizedValue": "Kiribati"
+                                },
+                                {
+                                    "localizedValue": "Korea, Democratic People's Republic of"
+                                },
+                                {
+                                    "localizedValue": "Korea, Republic of"
+                                },
+                                {
+                                    "localizedValue": "Kuwait"
+                                },
+                                {
+                                    "localizedValue": "Kyrgyzstan"
+                                },
+                                {
+                                    "localizedValue": "Lao People's Democratic Republic"
+                                },
+                                {
+                                    "localizedValue": "Latvia"
+                                },
+                                {
+                                    "localizedValue": "Lebanon"
+                                },
+                                {
+                                    "localizedValue": "Lesotho"
+                                },
+                                {
+                                    "localizedValue": "Liberia"
+                                },
+                                {
+                                    "localizedValue": "Libyan Arab Jamahiriya"
+                                },
+                                {
+                                    "localizedValue": "Liechtenstein"
+                                },
+                                {
+                                    "localizedValue": "Lithuania"
+                                },
+                                {
+                                    "localizedValue": "Luxembourg"
+                                },
+                                {
+                                    "localizedValue": "Macao"
+                                },
+                                {
+                                    "localizedValue": "Macedonia, the Former Yugoslav Republic of"
+                                },
+                                {
+                                    "localizedValue": "Madagascar"
+                                },
+                                {
+                                    "localizedValue": "Malawi"
+                                },
+                                {
+                                    "localizedValue": "Malaysia"
+                                },
+                                {
+                                    "localizedValue": "Maldives"
+                                },
+                                {
+                                    "localizedValue": "Mali"
+                                },
+                                {
+                                    "localizedValue": "Malta"
+                                },
+                                {
+                                    "localizedValue": "Marshall Islands"
+                                },
+                                {
+                                    "localizedValue": "Martinique"
+                                },
+                                {
+                                    "localizedValue": "Mauritania"
+                                },
+                                {
+                                    "localizedValue": "Mauritius"
+                                },
+                                {
+                                    "localizedValue": "Mayotte"
+                                },
+                                {
+                                    "localizedValue": "Mexico"
+                                },
+                                {
+                                    "localizedValue": "Micronesia, Federated States of"
+                                },
+                                {
+                                    "localizedValue": "Moldova, Republic of"
+                                },
+                                {
+                                    "localizedValue": "Monaco"
+                                },
+                                {
+                                    "localizedValue": "Mongolia"
+                                },
+                                {
+                                    "localizedValue": "Montenegro"
+                                },
+                                {
+                                    "localizedValue": "Montserrat"
+                                },
+                                {
+                                    "localizedValue": "Morocco"
+                                },
+                                {
+                                    "localizedValue": "Mozambique"
+                                },
+                                {
+                                    "localizedValue": "Myanmar"
+                                },
+                                {
+                                    "localizedValue": "Namibia"
+                                },
+                                {
+                                    "localizedValue": "Nauru"
+                                },
+                                {
+                                    "localizedValue": "Nepal"
+                                },
+                                {
+                                    "localizedValue": "Netherlands"
+                                },
+                                {
+                                    "localizedValue": "Netherlands Antilles"
+                                },
+                                {
+                                    "localizedValue": "New Caledonia"
+                                },
+                                {
+                                    "localizedValue": "New Zealand"
+                                },
+                                {
+                                    "localizedValue": "Nicaragua"
+                                },
+                                {
+                                    "localizedValue": "Niger"
+                                },
+                                {
+                                    "localizedValue": "Nigeria"
+                                },
+                                {
+                                    "localizedValue": "Niue"
+                                },
+                                {
+                                    "localizedValue": "Norfolk Island"
+                                },
+                                {
+                                    "localizedValue": "Northern Mariana Islands"
+                                },
+                                {
+                                    "localizedValue": "Norway"
+                                },
+                                {
+                                    "localizedValue": "Oman"
+                                },
+                                {
+                                    "localizedValue": "Pakistan"
+                                },
+                                {
+                                    "localizedValue": "Palau"
+                                },
+                                {
+                                    "localizedValue": "Palestinian Territories"
+                                },
+                                {
+                                    "localizedValue": "Panama"
+                                },
+                                {
+                                    "localizedValue": "Papua New Guinea"
+                                },
+                                {
+                                    "localizedValue": "Paraguay"
+                                },
+                                {
+                                    "localizedValue": "Peru"
+                                },
+                                {
+                                    "localizedValue": "Philippines"
+                                },
+                                {
+                                    "localizedValue": "Pitcairn"
+                                },
+                                {
+                                    "localizedValue": "Poland"
+                                },
+                                {
+                                    "localizedValue": "Portugal"
+                                },
+                                {
+                                    "localizedValue": "Puerto Rico"
+                                },
+                                {
+                                    "localizedValue": "Qatar"
+                                },
+                                {
+                                    "localizedValue": "Reunion"
+                                },
+                                {
+                                    "localizedValue": "Romania"
+                                },
+                                {
+                                    "localizedValue": "Russian Federation"
+                                },
+                                {
+                                    "localizedValue": "Rwanda"
+                                },
+                                {
+                                    "localizedValue": "Saint Helena"
+                                },
+                                {
+                                    "localizedValue": "Saint Kitts and Nevis"
+                                },
+                                {
+                                    "localizedValue": "Saint Lucia"
+                                },
+                                {
+                                    "localizedValue": "Saint Pierre and Miquelon"
+                                },
+                                {
+                                    "localizedValue": "Saint Vincent and the Grenadines"
+                                },
+                                {
+                                    "localizedValue": "Samoa"
+                                },
+                                {
+                                    "localizedValue": "San Marino"
+                                },
+                                {
+                                    "localizedValue": "Sao Tome and Principe"
+                                },
+                                {
+                                    "localizedValue": "Saudi Arabia"
+                                },
+                                {
+                                    "localizedValue": "Senegal"
+                                },
+                                {
+                                    "localizedValue": "Serbia"
+                                },
+                                {
+                                    "localizedValue": "Seychelles"
+                                },
+                                {
+                                    "localizedValue": "Sierra Leone"
+                                },
+                                {
+                                    "localizedValue": "Singapore"
+                                },
+                                {
+                                    "localizedValue": "Slovakia"
+                                },
+                                {
+                                    "localizedValue": "Slovenia"
+                                },
+                                {
+                                    "localizedValue": "Solomon Islands"
+                                },
+                                {
+                                    "localizedValue": "Somalia"
+                                },
+                                {
+                                    "localizedValue": "South Africa"
+                                },
+                                {
+                                    "localizedValue": "South Georgia and the South Sandwich Islands"
+                                },
+                                {
+                                    "localizedValue": "Spain"
+                                },
+                                {
+                                    "localizedValue": "Sri Lanka"
+                                },
+                                {
+                                    "localizedValue": "Sudan"
+                                },
+                                {
+                                    "localizedValue": "Suriname"
+                                },
+                                {
+                                    "localizedValue": "Svalbard and Jan Mayen"
+                                },
+                                {
+                                    "localizedValue": "Swaziland"
+                                },
+                                {
+                                    "localizedValue": "Sweden"
+                                },
+                                {
+                                    "localizedValue": "Switzerland"
+                                },
+                                {
+                                    "localizedValue": "Syrian Arab Republic"
+                                },
+                                {
+                                    "localizedValue": "Taiwan"
+                                },
+                                {
+                                    "localizedValue": "Tajikistan"
+                                },
+                                {
+                                    "localizedValue": "Tanzania, United Republic of"
+                                },
+                                {
+                                    "localizedValue": "Thailand"
+                                },
+                                {
+                                    "localizedValue": "Togo"
+                                },
+                                {
+                                    "localizedValue": "Tokelau"
+                                },
+                                {
+                                    "localizedValue": "Tonga"
+                                },
+                                {
+                                    "localizedValue": "Trinidad and Tobago"
+                                },
+                                {
+                                    "localizedValue": "Tunisia"
+                                },
+                                {
+                                    "localizedValue": "Turkey"
+                                },
+                                {
+                                    "localizedValue": "Turkmenistan"
+                                },
+                                {
+                                    "localizedValue": "Turks and Caicos Islands"
+                                },
+                                {
+                                    "localizedValue": "Tuvalu"
+                                },
+                                {
+                                    "localizedValue": "Uganda"
+                                },
+                                {
+                                    "localizedValue": "Ukraine"
+                                },
+                                {
+                                    "localizedValue": "United Arab Emirates"
+                                },
+                                {
+                                    "localizedValue": "United Kingdom"
+                                },
+                                {
+                                    "localizedValue": "United States"
+                                },
+                                {
+                                    "localizedValue": "Uruguay"
+                                },
+                                {
+                                    "localizedValue": "Uzbekistan"
+                                },
+                                {
+                                    "localizedValue": "Vanuatu"
+                                },
+                                {
+                                    "localizedValue": "Venezuela"
+                                },
+                                {
+                                    "localizedValue": "Vietnam"
+                                },
+                                {
+                                    "localizedValue": "Virgin Islands, British"
+                                },
+                                {
+                                    "localizedValue": "Virgin Islands, US"
+                                },
+                                {
+                                    "localizedValue": "Wallis and Futuna"
+                                },
+                                {
+                                    "localizedValue": "Western Sahara"
+                                },
+                                {
+                                    "localizedValue": "Yemen"
+                                },
+                                {
+                                    "localizedValue": "Zambia"
+                                },
+                                {
+                                    "localizedValue": "Zimbabwe"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "California Prop 65 Warning",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": false,
+                                "aspectMaxLength": 800,
+                                "aspectApplicableTo": [
+                                    "PRODUCT"
+                                ]
+                            }
+                        },
+                        {
+                            "localizedAspectName": "Country of Origin",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "SELECTION_ONLY",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": true
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Afghanistan"
+                                },
+                                {
+                                    "localizedValue": "Albania"
+                                },
+                                {
+                                    "localizedValue": "Algeria"
+                                },
+                                {
+                                    "localizedValue": "Andorra"
+                                },
+                                {
+                                    "localizedValue": "Angola"
+                                },
+                                {
+                                    "localizedValue": "Anguilla"
+                                },
+                                {
+                                    "localizedValue": "Antigua and Barbuda"
+                                },
+                                {
+                                    "localizedValue": "Argentina"
+                                },
+                                {
+                                    "localizedValue": "Armenia"
+                                },
+                                {
+                                    "localizedValue": "Aruba"
+                                },
+                                {
+                                    "localizedValue": "Australia"
+                                },
+                                {
+                                    "localizedValue": "Austria"
+                                },
+                                {
+                                    "localizedValue": "Azerbaijan"
+                                },
+                                {
+                                    "localizedValue": "Bahamas"
+                                },
+                                {
+                                    "localizedValue": "Bahrain"
+                                },
+                                {
+                                    "localizedValue": "Bangladesh"
+                                },
+                                {
+                                    "localizedValue": "Barbados"
+                                },
+                                {
+                                    "localizedValue": "Belarus"
+                                },
+                                {
+                                    "localizedValue": "Belgium"
+                                },
+                                {
+                                    "localizedValue": "Belize"
+                                },
+                                {
+                                    "localizedValue": "Benin"
+                                },
+                                {
+                                    "localizedValue": "Bermuda"
+                                },
+                                {
+                                    "localizedValue": "Bhutan"
+                                },
+                                {
+                                    "localizedValue": "Bolivia"
+                                },
+                                {
+                                    "localizedValue": "Bosnia and Herzegovina"
+                                },
+                                {
+                                    "localizedValue": "Botswana"
+                                },
+                                {
+                                    "localizedValue": "Brazil"
+                                },
+                                {
+                                    "localizedValue": "British Indian Ocean Territory"
+                                },
+                                {
+                                    "localizedValue": "British Virgin Islands"
+                                },
+                                {
+                                    "localizedValue": "Brunei Darussalam"
+                                },
+                                {
+                                    "localizedValue": "Bulgaria"
+                                },
+                                {
+                                    "localizedValue": "Burkina Faso"
+                                },
+                                {
+                                    "localizedValue": "Burundi"
+                                },
+                                {
+                                    "localizedValue": "Cambodia"
+                                },
+                                {
+                                    "localizedValue": "Cameroon"
+                                },
+                                {
+                                    "localizedValue": "Canada"
+                                },
+                                {
+                                    "localizedValue": "Canary Islands"
+                                },
+                                {
+                                    "localizedValue": "Cape Verde"
+                                },
+                                {
+                                    "localizedValue": "Cayman Islands"
+                                },
+                                {
+                                    "localizedValue": "Central African Republic"
+                                },
+                                {
+                                    "localizedValue": "Chad"
+                                },
+                                {
+                                    "localizedValue": "Chile"
+                                },
+                                {
+                                    "localizedValue": "China"
+                                },
+                                {
+                                    "localizedValue": "Christmas Islands"
+                                },
+                                {
+                                    "localizedValue": "Cocos (Keeling) Islands"
+                                },
+                                {
+                                    "localizedValue": "Colombia"
+                                },
+                                {
+                                    "localizedValue": "Comoros"
+                                },
+                                {
+                                    "localizedValue": "Congo, Republic of the"
+                                },
+                                {
+                                    "localizedValue": "Congo, The Democratic Republic of the"
+                                },
+                                {
+                                    "localizedValue": "Cook Islands"
+                                },
+                                {
+                                    "localizedValue": "Costa Rica"
+                                },
+                                {
+                                    "localizedValue": "Côte d'Ivoire"
+                                },
+                                {
+                                    "localizedValue": "Croatia"
+                                },
+                                {
+                                    "localizedValue": "Cuba"
+                                },
+                                {
+                                    "localizedValue": "Curacao"
+                                },
+                                {
+                                    "localizedValue": "Cyprus"
+                                },
+                                {
+                                    "localizedValue": "Czech Republic"
+                                },
+                                {
+                                    "localizedValue": "Denmark"
+                                },
+                                {
+                                    "localizedValue": "Djibouti"
+                                },
+                                {
+                                    "localizedValue": "Dominica"
+                                },
+                                {
+                                    "localizedValue": "Dominican Republic"
+                                },
+                                {
+                                    "localizedValue": "Ecuador"
+                                },
+                                {
+                                    "localizedValue": "Egypt"
+                                },
+                                {
+                                    "localizedValue": "El Salvador"
+                                },
+                                {
+                                    "localizedValue": "Equatorial Guinea"
+                                },
+                                {
+                                    "localizedValue": "Eritrea"
+                                },
+                                {
+                                    "localizedValue": "Estonia"
+                                },
+                                {
+                                    "localizedValue": "Eswatini"
+                                },
+                                {
+                                    "localizedValue": "Ethiopia"
+                                },
+                                {
+                                    "localizedValue": "Falkland Islands"
+                                },
+                                {
+                                    "localizedValue": "Faroe Islands"
+                                },
+                                {
+                                    "localizedValue": "Fiji"
+                                },
+                                {
+                                    "localizedValue": "Finland"
+                                },
+                                {
+                                    "localizedValue": "France"
+                                },
+                                {
+                                    "localizedValue": "French Guiana"
+                                },
+                                {
+                                    "localizedValue": "French Polynesia Includes Tahiti"
+                                },
+                                {
+                                    "localizedValue": "French Southern Territories and Antartic Lands"
+                                },
+                                {
+                                    "localizedValue": "Gabon"
+                                },
+                                {
+                                    "localizedValue": "Gambia"
+                                },
+                                {
+                                    "localizedValue": "Gaza Strip"
+                                },
+                                {
+                                    "localizedValue": "Georgia"
+                                },
+                                {
+                                    "localizedValue": "Germany"
+                                },
+                                {
+                                    "localizedValue": "Ghana"
+                                },
+                                {
+                                    "localizedValue": "Gibraltar"
+                                },
+                                {
+                                    "localizedValue": "Greece"
+                                },
+                                {
+                                    "localizedValue": "Greenland"
+                                },
+                                {
+                                    "localizedValue": "Grenada"
+                                },
+                                {
+                                    "localizedValue": "Guadeloupe"
+                                },
+                                {
+                                    "localizedValue": "Guam"
+                                },
+                                {
+                                    "localizedValue": "Guatemala"
+                                },
+                                {
+                                    "localizedValue": "Guernsey"
+                                },
+                                {
+                                    "localizedValue": "Guinea"
+                                },
+                                {
+                                    "localizedValue": "Guinea-Bissau"
+                                },
+                                {
+                                    "localizedValue": "Guyana"
+                                },
+                                {
+                                    "localizedValue": "Haiti"
+                                },
+                                {
+                                    "localizedValue": "Heard Island and Mcdonald Islands"
+                                },
+                                {
+                                    "localizedValue": "Honduras"
+                                },
+                                {
+                                    "localizedValue": "Hong Kong"
+                                },
+                                {
+                                    "localizedValue": "Hungary"
+                                },
+                                {
+                                    "localizedValue": "Iceland"
+                                },
+                                {
+                                    "localizedValue": "India"
+                                },
+                                {
+                                    "localizedValue": "Indonesia"
+                                },
+                                {
+                                    "localizedValue": "Iran, Islamic Republic of"
+                                },
+                                {
+                                    "localizedValue": "Iraq"
+                                },
+                                {
+                                    "localizedValue": "Ireland"
+                                },
+                                {
+                                    "localizedValue": "Israel"
+                                },
+                                {
+                                    "localizedValue": "Italy"
+                                },
+                                {
+                                    "localizedValue": "Jamaica"
+                                },
+                                {
+                                    "localizedValue": "Japan"
+                                },
+                                {
+                                    "localizedValue": "Jersey"
+                                },
+                                {
+                                    "localizedValue": "Jordan"
+                                },
+                                {
+                                    "localizedValue": "Kazakhstan"
+                                },
+                                {
+                                    "localizedValue": "Kenya"
+                                },
+                                {
+                                    "localizedValue": "Kiribati"
+                                },
+                                {
+                                    "localizedValue": "Kosovo"
+                                },
+                                {
+                                    "localizedValue": "Kuwait"
+                                },
+                                {
+                                    "localizedValue": "Kyrgyzstan"
+                                },
+                                {
+                                    "localizedValue": "Lao People's Democratic Republic"
+                                },
+                                {
+                                    "localizedValue": "Latvia"
+                                },
+                                {
+                                    "localizedValue": "Lebanon"
+                                },
+                                {
+                                    "localizedValue": "Lesotho"
+                                },
+                                {
+                                    "localizedValue": "Liberia"
+                                },
+                                {
+                                    "localizedValue": "Libya"
+                                },
+                                {
+                                    "localizedValue": "Liechtenstein"
+                                },
+                                {
+                                    "localizedValue": "Lithuania"
+                                },
+                                {
+                                    "localizedValue": "Luxembourg"
+                                },
+                                {
+                                    "localizedValue": "Macau"
+                                },
+                                {
+                                    "localizedValue": "Madagascar"
+                                },
+                                {
+                                    "localizedValue": "Madeira Island"
+                                },
+                                {
+                                    "localizedValue": "Malawi"
+                                },
+                                {
+                                    "localizedValue": "Malaysia"
+                                },
+                                {
+                                    "localizedValue": "Maldives"
+                                },
+                                {
+                                    "localizedValue": "Mali"
+                                },
+                                {
+                                    "localizedValue": "Malta"
+                                },
+                                {
+                                    "localizedValue": "Marshall Islands"
+                                },
+                                {
+                                    "localizedValue": "Martinique"
+                                },
+                                {
+                                    "localizedValue": "Mauritania"
+                                },
+                                {
+                                    "localizedValue": "Mauritius"
+                                },
+                                {
+                                    "localizedValue": "Mayotte"
+                                },
+                                {
+                                    "localizedValue": "Mexico"
+                                },
+                                {
+                                    "localizedValue": "Micronesia, Federated States of"
+                                },
+                                {
+                                    "localizedValue": "Moldova, Republic of"
+                                },
+                                {
+                                    "localizedValue": "Monaco"
+                                },
+                                {
+                                    "localizedValue": "Mongolia"
+                                },
+                                {
+                                    "localizedValue": "Montenegro"
+                                },
+                                {
+                                    "localizedValue": "Montserrat"
+                                },
+                                {
+                                    "localizedValue": "Morocco"
+                                },
+                                {
+                                    "localizedValue": "Mozambique"
+                                },
+                                {
+                                    "localizedValue": "Myanmar / Burma"
+                                },
+                                {
+                                    "localizedValue": "Namibia"
+                                },
+                                {
+                                    "localizedValue": "Nauru"
+                                },
+                                {
+                                    "localizedValue": "Nepal"
+                                },
+                                {
+                                    "localizedValue": "Netherlands"
+                                },
+                                {
+                                    "localizedValue": "New Caledonia"
+                                },
+                                {
+                                    "localizedValue": "New Zealand"
+                                },
+                                {
+                                    "localizedValue": "Nicaragua"
+                                },
+                                {
+                                    "localizedValue": "Niger"
+                                },
+                                {
+                                    "localizedValue": "Nigeria"
+                                },
+                                {
+                                    "localizedValue": "Niue"
+                                },
+                                {
+                                    "localizedValue": "Norfolk Island"
+                                },
+                                {
+                                    "localizedValue": "Northern Mariana Islands"
+                                },
+                                {
+                                    "localizedValue": "North Korea (Democratic People's Republic of Korea)"
+                                },
+                                {
+                                    "localizedValue": "North Macedonia"
+                                },
+                                {
+                                    "localizedValue": "Norway"
+                                },
+                                {
+                                    "localizedValue": "Oman"
+                                },
+                                {
+                                    "localizedValue": "Pakistan"
+                                },
+                                {
+                                    "localizedValue": "Palau"
+                                },
+                                {
+                                    "localizedValue": "Panama"
+                                },
+                                {
+                                    "localizedValue": "Papua New Guinea"
+                                },
+                                {
+                                    "localizedValue": "Paraguay"
+                                },
+                                {
+                                    "localizedValue": "Peru"
+                                },
+                                {
+                                    "localizedValue": "Philippines"
+                                },
+                                {
+                                    "localizedValue": "Poland"
+                                },
+                                {
+                                    "localizedValue": "Portugal"
+                                },
+                                {
+                                    "localizedValue": "Puerto Rico"
+                                },
+                                {
+                                    "localizedValue": "Qatar"
+                                },
+                                {
+                                    "localizedValue": "Reunion"
+                                },
+                                {
+                                    "localizedValue": "Romania"
+                                },
+                                {
+                                    "localizedValue": "Russian Federation"
+                                },
+                                {
+                                    "localizedValue": "Rwanda"
+                                },
+                                {
+                                    "localizedValue": "Saint Barthélemy"
+                                },
+                                {
+                                    "localizedValue": "Saint Helena"
+                                },
+                                {
+                                    "localizedValue": "Saint Kitts and Nevis"
+                                },
+                                {
+                                    "localizedValue": "Saint Lucia"
+                                },
+                                {
+                                    "localizedValue": "Saint-Martin"
+                                },
+                                {
+                                    "localizedValue": "Saint Pierre and Miquelon"
+                                },
+                                {
+                                    "localizedValue": "Saint Vincent and the Grenadines"
+                                },
+                                {
+                                    "localizedValue": "Samoa"
+                                },
+                                {
+                                    "localizedValue": "San Marino"
+                                },
+                                {
+                                    "localizedValue": "Sao Tome and Principe"
+                                },
+                                {
+                                    "localizedValue": "Saudi Arabia"
+                                },
+                                {
+                                    "localizedValue": "Senegal"
+                                },
+                                {
+                                    "localizedValue": "Serbia"
+                                },
+                                {
+                                    "localizedValue": "Seychelles"
+                                },
+                                {
+                                    "localizedValue": "Sierra Leone"
+                                },
+                                {
+                                    "localizedValue": "Singapore"
+                                },
+                                {
+                                    "localizedValue": "Sint Eustatius"
+                                },
+                                {
+                                    "localizedValue": "Sint Maarten"
+                                },
+                                {
+                                    "localizedValue": "Slovakia"
+                                },
+                                {
+                                    "localizedValue": "Slovenia"
+                                },
+                                {
+                                    "localizedValue": "Solomon Islands"
+                                },
+                                {
+                                    "localizedValue": "Somalia"
+                                },
+                                {
+                                    "localizedValue": "South Africa"
+                                },
+                                {
+                                    "localizedValue": "South Georgia and the South Sandwich Islands"
+                                },
+                                {
+                                    "localizedValue": "South Korea (Republic of Korea)"
+                                },
+                                {
+                                    "localizedValue": "Spain"
+                                },
+                                {
+                                    "localizedValue": "Sri Lanka"
+                                },
+                                {
+                                    "localizedValue": "Sudan"
+                                },
+                                {
+                                    "localizedValue": "Suriname"
+                                },
+                                {
+                                    "localizedValue": "Svalbard and Jan Mayen"
+                                },
+                                {
+                                    "localizedValue": "Sweden"
+                                },
+                                {
+                                    "localizedValue": "Switzerland"
+                                },
+                                {
+                                    "localizedValue": "Syria"
+                                },
+                                {
+                                    "localizedValue": "Taiwan"
+                                },
+                                {
+                                    "localizedValue": "Tajikistan"
+                                },
+                                {
+                                    "localizedValue": "Tanzania, United Republic of"
+                                },
+                                {
+                                    "localizedValue": "Thailand"
+                                },
+                                {
+                                    "localizedValue": "Togo"
+                                },
+                                {
+                                    "localizedValue": "Tokelau"
+                                },
+                                {
+                                    "localizedValue": "Tonga"
+                                },
+                                {
+                                    "localizedValue": "Trinidad and Tobago"
+                                },
+                                {
+                                    "localizedValue": "Tristan da Cunha"
+                                },
+                                {
+                                    "localizedValue": "Tunisia"
+                                },
+                                {
+                                    "localizedValue": "Türkiye"
+                                },
+                                {
+                                    "localizedValue": "Turkmenistan"
+                                },
+                                {
+                                    "localizedValue": "Turks and Caicos Islands"
+                                },
+                                {
+                                    "localizedValue": "Tuvalu"
+                                },
+                                {
+                                    "localizedValue": "Uganda"
+                                },
+                                {
+                                    "localizedValue": "Ukraine"
+                                },
+                                {
+                                    "localizedValue": "United Arab Emirates"
+                                },
+                                {
+                                    "localizedValue": "United Kingdom"
+                                },
+                                {
+                                    "localizedValue": "United States"
+                                },
+                                {
+                                    "localizedValue": "Uruguay"
+                                },
+                                {
+                                    "localizedValue": "Uzbekistan"
+                                },
+                                {
+                                    "localizedValue": "Vanuatu"
+                                },
+                                {
+                                    "localizedValue": "Vatican City"
+                                },
+                                {
+                                    "localizedValue": "Venezuela"
+                                },
+                                {
+                                    "localizedValue": "Vietnam"
+                                },
+                                {
+                                    "localizedValue": "Virgin Islands"
+                                },
+                                {
+                                    "localizedValue": "Wallis and Futuna"
+                                },
+                                {
+                                    "localizedValue": "West Bank"
+                                },
+                                {
+                                    "localizedValue": "Yemen"
+                                },
+                                {
+                                    "localizedValue": "Zambia"
+                                },
+                                {
+                                    "localizedValue": "Zimbabwe"
+                                }
+                            ]
+                        },
+                        {
+                            "localizedAspectName": "Unit Quantity",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "FREE_TEXT",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": false,
+                                "aspectApplicableTo": [
+                                    "ITEM"
+                                ]
+                            }
+                        },
+                        {
+                            "localizedAspectName": "Unit Type",
+                            "aspectConstraint": {
+                                "aspectDataType": "STRING",
+                                "itemToAspectCardinality": "SINGLE",
+                                "aspectMode": "SELECTION_ONLY",
+                                "aspectRequired": false,
+                                "aspectUsage": "OPTIONAL",
+                                "aspectEnabledForVariations": false,
+                                "aspectApplicableTo": [
+                                    "PRODUCT"
+                                ]
+                            },
+                            "aspectValues": [
+                                {
+                                    "localizedValue": "Unit"
+                                },
+                                {
+                                    "localizedValue": "oz"
+                                },
+                                {
+                                    "localizedValue": "lb"
+                                },
+                                {
+                                    "localizedValue": "fl oz"
+                                },
+                                {
+                                    "localizedValue": "gal"
+                                },
+                                {
+                                    "localizedValue": "ft"
+                                },
+                                {
+                                    "localizedValue": "ft²"
+                                },
+                                {
+                                    "localizedValue": "ft³"
+                                }
+                            ]
+                        }
+                    ],
+                    "product_features": {
+                        "categoryTreeId": "0",
+                        "categoryId": "12",
+                        "listingDurations": [
+                            {
+                                "listingType": "AUCTION",
+                                "durationValues": [
+                                    "DAYS_3",
+                                    "DAYS_5",
+                                    "DAYS_7",
+                                    "DAYS_10"
+                                ]
+                            },
+                            {
+                                "listingType": "PERSONAL_OFFER",
+                                "durationValues": [
+                                    "DAYS_3",
+                                    "DAYS_5",
+                                    "DAYS_7",
+                                    "DAYS_10"
+                                ]
+                            },
+                            {
+                                "listingType": "FIXED_PRICE_ITEM",
+                                "durationValues": [
+                                    "GTC"
+                                ]
+                            },
+                            {
+                                "listingType": "LEAD_GENERATION",
+                                "durationValues": [
+                                    "DAYS_30",
+                                    "DAYS_90"
+                                ]
+                            }
+                        ],
+                        "pickupDropOffEnabled": false,
+                        "digitalGoodDeliveryEnabled": false,
+                        "ebayMotorsProAdFormatEnabled": "Disabled",
+                        "ebayMotorsProContactByEmailEnabled": false,
+                        "ebayMotorsProBestOfferEnabled": "Disabled",
+                        "ebayMotorsProAutoAcceptEnabled": false,
+                        "ebayMotorsProAutoDeclineEnabled": false,
+                        "ebayMotorsProPaymentMethodCheckOutEnabled": "NotSupported",
+                        "ebayMotorsProShippingMethodEnabled": false,
+                        "ebayMotorsProCounterOfferEnabled": false,
+                        "ebayMotorsProSellerContactDetailsEnabled": false,
+                        "localMarketAdFormatEnabled": "Disabled",
+                        "localMarketAutoAcceptEnabled": false,
+                        "localMarketAutoDeclineEnabled": false,
+                        "localMarketContactByEmailEnabled": false,
+                        "localMarketBestOfferEnabled": "Disabled",
+                        "localMarketPaymentMethodCheckOutEnabled": "NotSupported",
+                        "localMarketShippingMethodEnabled": false,
+                        "localMarketCounterOfferEnabled": false,
+                        "localMarketSellerContactDetailsEnabled": false,
+                        "minItemCompatibility": 0,
+                        "maxItemCompatibility": 0,
+                        "localMarketSpecialitySubscription": false,
+                        "specialitySubscription": "National",
+                        "localMarketRegularSubscription": false,
+                        "regularSubscription": "National",
+                        "localMarketPremiumSubscription": false,
+                        "premiumSubscription": "National",
+                        "localMarketNonSubscription": false,
+                        "nonSubscription": "National",
+                        "sellerProvidedTitleSupported": false,
+                        "ebayMotorsProContactByPhoneEnabled": false,
+                        "ebayMotorsProContactByAddressEnabled": false,
+                        "ebayMotorsProCompanyNameEnabled": false,
+                        "localMarketContactByPhoneEnabled": false,
+                        "localMarketContactByAddressEnabled": false,
+                        "localMarketCompanyNameEnabled": false,
+                        "kTypeSupported": false,
+                        "epidSupported": false,
+                        "depositSupported": false,
+                        "maxGranularFitmentCount": -1,
+                        "vinSupported": false,
+                        "vrmSupported": false,
+                        "adFormatEnabled": "Disabled",
+                        "sellerContactDetailsEnabled": false,
+                        "classifiedAdPaymentMethodEnabled": "NotSupported",
+                        "classifiedAdShippingMethodEnabled": false,
+                        "classifiedAdBestOfferEnabled": "Disabled",
+                        "classifiedAdCounterOfferEnabled": false,
+                        "classifiedAdContactByPhoneEnabled": false,
+                        "classifiedAdContactByEmailEnabled": false,
+                        "classifiedAdAutoAcceptEnabled": false,
+                        "classifiedAdAutoDeclineEnabled": false,
+                        "classifiedAdContactByAddressEnabled": false,
+                        "classifiedAdCompanyNameEnabled": false,
+                        "bestOfferAutoAcceptEnabled": true,
+                        "bestOfferAutoDeclineEnabled": true,
+                        "bestOfferCounterEnabled": true,
+                        "domestic": {
+                            "returnsAcceptanceEnabled": true,
+                            "policyDescriptionEnabled": false,
+                            "returnShippingCostPayers": [
+                                "SELLER",
+                                "BUYER"
+                            ],
+                            "refundMethods": [
+                                "MONEY_BACK"
+                            ],
+                            "returnMethods": [
+                                "REPLACEMENT"
+                            ],
+                            "returnPeriods": [
+                                {
+                                    "value": 14,
+                                    "unit": "CALENDAR_DAY"
+                                },
+                                {
+                                    "value": 30,
+                                    "unit": "CALENDAR_DAY"
+                                },
+                                {
+                                    "value": 60,
+                                    "unit": "CALENDAR_DAY"
+                                }
+                            ]
+                        },
+                        "international": {
+                            "returnsAcceptanceEnabled": true,
+                            "policyDescriptionEnabled": false,
+                            "returnShippingCostPayers": [
+                                "SELLER",
+                                "BUYER"
+                            ],
+                            "refundMethods": [
+                                "MONEY_BACK"
+                            ],
+                            "returnMethods": [
+                                "REPLACEMENT"
+                            ],
+                            "returnPeriods": [
+                                {
+                                    "value": 14,
+                                    "unit": "CALENDAR_DAY"
+                                },
+                                {
+                                    "value": 30,
+                                    "unit": "CALENDAR_DAY"
+                                },
+                                {
+                                    "value": 60,
+                                    "unit": "CALENDAR_DAY"
+                                }
+                            ]
+                        },
+                        "shippingTermsRequired": true,
+                        "handlingTimeEnabled": false,
+                        "globalShippingEnabled": true
+                    },
+                    "conditions": {
+                        "categoryTreeId": "0",
+                        "categoryId": "12",
+                        "itemConditionRequired": false,
+                        "itemConditions": [
+                            {
+                                "conditionId": "1000",
+                                "conditionDescription": "New"
+                            },
+                            {
+                                "conditionId": "1500",
+                                "conditionDescription": "New other (see details)"
+                            },
+                            {
+                                "conditionId": "1750",
+                                "conditionDescription": "New with defects"
+                            },
+                            {
+                                "conditionId": "2500",
+                                "conditionDescription": "Seller refurbished"
+                            },
+                            {
+                                "conditionId": "2750",
+                                "conditionDescription": "Like New"
+                            },
+                            {
+                                "conditionId": "3000",
+                                "conditionDescription": "Used"
+                            },
+                            {
+                                "conditionId": "4000",
+                                "conditionDescription": "Very Good"
+                            },
+                            {
+                                "conditionId": "5000",
+                                "conditionDescription": "Good"
+                            },
+                            {
+                                "conditionId": "6000",
+                                "conditionDescription": "Acceptable"
+                            },
+                            {
+                                "conditionId": "7000",
+                                "conditionDescription": "For parts or not working"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

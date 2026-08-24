@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "params": "force_all",
+        "exclude": "images",
+        "count": 2
+    }
+}

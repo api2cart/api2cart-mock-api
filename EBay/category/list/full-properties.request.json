@@ -1,0 +1,11 @@
+{
+    "captured_at": "2026-08-10T11:24:18Z",
+    "method": "GET",
+    "endpoint": "category.list.json",
+    "query": {
+        "find_value": "phone",
+        "find_where": "name",
+        "response_fields": "{*}",
+        "count": 2
+    }
+}

@@ -1,0 +1,312 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHRFkIwAADQD%2Bphxpp6RKuhdShFe2vEFO1Qa%2FL13UvKZFkkbR7kHkF705P7yPWsA7dVT%2FTt9ILCMmTafmAweLkBp9SSVb1p4%2FnqHK1VRELPTS%2FxVjAfZWfoi8vUhJ3D6eAGKNMAbxScrL6%2FgWcE0%2BIjDVT97teVOUv9kNbETJQMlTSFoogviDV%2FDWvM8ZXhpt7L7exMLj%2BI5YmPWCUiGhzxkWNsMAvA%2Bv2y%2Fw%3D%3D"
+    },
+    "result": {
+        "products_count": 2,
+        "product": [
+            {
+                "id": "1729411290512854920",
+                "type": "simple",
+                "u_model": "test product",
+                "u_sku": "test product",
+                "name": "Joystick",
+                "description": "<p>This is test product</p>",
+                "short_description": null,
+                "price": 15,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 2,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 2,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7046971362036090626",
+                "u_brand": "Unbranded & Handmade",
+                "categories_ids": [
+                    "601739",
+                    "909448",
+                    "913928"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-d6769d84.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.564,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-06-19T11:57:59+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-24T14:09:01+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "db7fad53529d73e4dfa076ef74d9e0ea",
+                        "http_path": "https://picsum.photos/seed/58d1ca1a/600/600",
+                        "file_name": "e7e8a597692e4b069b2f578deca5e5e6~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "5d067bd19294443c2ce78c424a094f24",
+                        "http_path": "https://picsum.photos/seed/90e65734/600/600",
+                        "file_name": "f1aa5ef0eed64d4cae0f109ce53adfb0~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "2b8fb651f87faf7c3320b75e90811728",
+                        "http_path": "https://picsum.photos/seed/32d0d94e/600/600",
+                        "file_name": "3873c6098e8a47738cb0f82e316876d4~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "ad7dbdad5c4116e69027db6a250cd899",
+                        "http_path": "https://picsum.photos/seed/e91e47ca/600/600",
+                        "file_name": "43225487e14a458eb0d7da1f2792d393~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 3,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "e09a6f1b4c720d537c634feaf32b6e23",
+                        "http_path": "https://picsum.photos/seed/5dadd18c/600/600",
+                        "file_name": "7579d3bd91984610805e9608df238ecb~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 4,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": "11111111111111",
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 0,
+                "height": 0,
+                "length": 0,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "ACTIVATE",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 15,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [
+                        {
+                            "id": "7080055018992862981",
+                            "title": "UKCA/CE mark",
+                            "images": [
+                                {
+                                    "height": 801,
+                                    "thumb_urls": [
+                                        "https://picsum.photos/seed/598cc381/600/600",
+                                        "https://picsum.photos/seed/e27f4680/600/600"
+                                    ],
+                                    "uri": "tos-useast2a-i-tulkllf4y5-euttp/0651f1f0da90483ab86362cb83e17c9a",
+                                    "urls": [
+                                        "https://picsum.photos/seed/ae9dd269/600/600",
+                                        "https://picsum.photos/seed/8b38a679/600/600"
+                                    ],
+                                    "width": 801
+                                }
+                            ],
+                            "files": [
+                                {
+                                    "format": "PDF",
+                                    "id": "tos-useast2a-v-100031-euttp/ogADLVzcACeOiaBriIhCDEABhRlPUAjCCWfCr6",
+                                    "name": "sample.pdf",
+                                    "urls": [
+                                        "https://store-1fd7a5cb.example.com/",
+                                        "https://store-1c79bf2f.example.com/"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            },
+            {
+                "id": "1729421260245798792",
+                "type": "simple",
+                "u_model": "test product",
+                "u_sku": "test product",
+                "name": "test product 2",
+                "description": "<p>Introducing our Test Product 2, a must-have addition to your wardrobe for the upcoming season.</p><ul><li>Comfortable and stylish</li><li>Hooded design for added warmth</li><li>Made with high-quality materials for durability</li></ul><p>This hoodie is perfect for any casual occasion, whether you're running errands or meeting friends. Its comfortable design will keep you feeling cozy all day long, while the hooded feature adds an extra layer of protection from the elements.</p><p>The Test Product 2 is made with high-quality materials to ensure its durability and longevity. It's easy to care for and can withstand regular wear and tear without losing its shape or color.</p><ul><li>Available in multiple sizes to ensure a perfect fit A versatile addition that can be paired with various outfits</li></ul><p>This versatile hoodie comes in multiple sizes so that you can find your perfect fit comfortably. It pairs well with various outfits, making it a must-have item in any man's wardrobe.</p>",
+                "short_description": null,
+                "price": 12,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 3,
+                "inventory": [
+                    {
+                        "warehouse_id": "7381927049415739168",
+                        "quantity": 3,
+                        "in_stock": true,
+                        "priority": null
+                    }
+                ],
+                "group_items": [],
+                "u_brand_id": "7046971362036090626",
+                "u_brand": "Unbranded & Handmade",
+                "categories_ids": [
+                    "824328",
+                    "839944",
+                    "601213"
+                ],
+                "stores_ids": [
+                    "7495811849164131208"
+                ],
+                "url": "https://store-ea1f1e05.example.com/",
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0.012,
+                "weight_unit": "kg",
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2024-07-10T13:56:54+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": {
+                    "value": "2024-07-10T13:57:54+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "f7a8bd8a5f5a9021b88f875062248df7",
+                        "http_path": "https://picsum.photos/seed/6e64941c/600/600",
+                        "file_name": "6f55c3811b144c519331a75745c80441~tplv-tulkllf4y5-origin-jpeg.jpeg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "cm",
+                "width": 12,
+                "height": 12,
+                "length": 12,
+                "discounts": [],
+                "additional_fields": {
+                    "status": "DRAFT",
+                    "is_cod_allowed": false,
+                    "is_not_for_sale": false,
+                    "sale_price": 12,
+                    "is_global_product": false,
+                    "local_products": [],
+                    "specifics": [],
+                    "certifications": [],
+                    "size_chart": {
+                        "image": null,
+                        "template": null
+                    },
+                    "manufacturer_ids": [],
+                    "responsible_person_ids": []
+                }
+            }
+        ]
+    }
+}

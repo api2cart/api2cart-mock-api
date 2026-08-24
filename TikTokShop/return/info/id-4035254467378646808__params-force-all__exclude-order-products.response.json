@@ -1,0 +1,40 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "4035254467378646808",
+        "name": null,
+        "order_id": "576685379439922968",
+        "customer_id": null,
+        "store_id": "7495811849164131208",
+        "created_at": {
+            "value": "2024-08-23T10:55:38+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_at": {
+            "value": "2024-08-23T10:55:38+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "status": {
+            "id": "COMPLETED",
+            "name": "Completed",
+            "additional_fields": {
+                "return_order_status": "RETURN_OR_REFUND_REQUEST_COMPLETE"
+            }
+        },
+        "comment": null,
+        "staff_note": null,
+        "additional_fields": {
+            "arbitration_status": null,
+            "role": "SELLER",
+            "shipment_type": null,
+            "handover_method": null,
+            "return_tracking_number": null,
+            "return_provider_name": null,
+            "return_provider_id": null,
+            "can_buyer_keep_item": false,
+            "return_method": null,
+            "reject_reasons": []
+        }
+    }
+}

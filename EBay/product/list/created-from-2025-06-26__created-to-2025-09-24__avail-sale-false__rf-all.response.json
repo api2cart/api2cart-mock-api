@@ -1,0 +1,1742 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHdFkIwAADgB9qFScYuK53KSDOOo7vNv4OottHT930sfBZ94vamJMnLsdHknIhesJ3KiaoS8k%2FrImIYKfdVLXDo04g4JZJWmt8jXHm7IySLAOu1GWyJsJUp0y%2BqZk0IvM3mtmXgJ4ahjtlB51vRPC5p9QjgXjXhlXmeeIO4HXRBJSkR%2B8I85BxtVJuB6Lpx6lc1Az2N9MTd3o%2FPRsLa2hO7DFjHGkIHQ9n%2BAQ%3D%3D"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "110588418325",
+                "type": "simple",
+                "u_model": "test123",
+                "u_sku": "test123",
+                "name": "changed from inventory item for non unique sku test123 new value",
+                "description": "Lumia phone with a stunning 5.7 inch Quad HD display and a powerful octa-core processor.",
+                "short_description": "",
+                "price": 272.17,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 97,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "30120"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-1bbbc8a6.example.com/",
+                "seo_url": "https://store-1bbbc8a6.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.0625,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-04T12:41:22+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 15.74,
+                "height": 7.87,
+                "length": 11.81,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588423029",
+                    "specifics": [],
+                    "start_time": {
+                        "value": "2025-09-04T04:41:22-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": null,
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "getitfast": "false",
+                    "endtime": "2025-09-08T07:09:00.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.87",
+                    "packagedetails_packagelength": "11.81",
+                    "packagedetails_packagewidth": "15.74",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "1"
+                }
+            },
+            {
+                "id": "110588426006",
+                "type": "simple",
+                "u_model": "newtest123-newsku",
+                "u_sku": "newtest123-newsku",
+                "name": "changed from inventory item",
+                "description": "new_desc",
+                "short_description": "",
+                "price": 950,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 50,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "105417"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-63bf9033.example.com/",
+                "seo_url": "https://store-63bf9033.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": "oz",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-09T13:03:33+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "f9a3eb64cd013bf3b549085dc98a80a5",
+                        "http_path": "https://picsum.photos/seed/51be0424/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 6,
+                "height": 7,
+                "length": 5,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588426660",
+                    "specifics": [],
+                    "start_time": {
+                        "value": "2025-09-09T05:03:33-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": null,
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New with tags",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-10T06:28:38.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.00",
+                    "packagedetails_packagelength": "5.00",
+                    "packagedetails_packagewidth": "6.00",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "",
+                    "packagedetails_weightminor": ""
+                }
+            },
+            {
+                "id": "110588426719",
+                "type": "simple",
+                "u_model": "newtest123-newskufor-category183050",
+                "u_sku": "newtest123-newskufor-category183050",
+                "name": "Wireless Bluetooth Headphones",
+                "description": "High-quality wireless Bluetooth headphones with noise cancellation, 20 hours battery life, and ergonomic design.",
+                "short_description": "",
+                "price": 19.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 150,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-6136153e.example.com/",
+                "seo_url": "https://store-6136153e.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 555.5625,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-10T07:33:34+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "43bdffc9c9414174537c212bf1152dcc",
+                        "http_path": "https://picsum.photos/seed/9dd2019a/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "021d2ff80cc7483601ea3d27aa3df353",
+                        "http_path": "https://picsum.photos/seed/ffc6c1f7/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 5.9,
+                "height": 7.87,
+                "length": 3.14,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588427023",
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "A Game of Thrones CCG",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-09T23:33:34-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSParcel",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSParcel",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-10T11:20:46.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.87",
+                    "packagedetails_packagelength": "3.14",
+                    "packagedetails_packagewidth": "5.90",
+                    "packagedetails_shippingpackage": "Letter",
+                    "packagedetails_weightmajor": "555",
+                    "packagedetails_weightminor": "9"
+                }
+            },
+            {
+                "id": "110588427170",
+                "type": "simple",
+                "u_model": "5555555-newskufor-category183050",
+                "u_sku": "5555555-newskufor-category183050",
+                "name": "Test123",
+                "description": "Test 123.",
+                "short_description": "",
+                "price": 21.19,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 115,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-5c2501ba.example.com/",
+                "seo_url": "https://store-5c2501ba.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": null,
+                "weight_unit": null,
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-10T13:11:22+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "43bdffc9c9414174537c212bf1152dcc",
+                        "http_path": "https://picsum.photos/seed/9dd2019a/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "021d2ff80cc7483601ea3d27aa3df353",
+                        "http_path": "https://picsum.photos/seed/ffc6c1f7/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "A Game of Thrones CCG",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-10T05:11:22-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5570815000",
+                            "shipping_profile_name": "minimal Fulfillment Policy",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "5575459000",
+                            "return_profile_name": "No returns accepted"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "95125",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-10T13:19:41.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible"
+                }
+            },
+            {
+                "id": "110588427241",
+                "type": "simple",
+                "u_model": "SKU_3",
+                "u_sku": "SKU_3",
+                "name": "System test, SKU_3",
+                "description": "SKU_2 description",
+                "short_description": "",
+                "price": 17,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 100,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-26e3444c.example.com/",
+                "seo_url": "https://store-26e3444c.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.125,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-10T14:41:33+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "a54f0c12b1e58f36e53fde6d4a52f956",
+                        "http_path": "https://picsum.photos/seed/77c8092f/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 6,
+                "height": 7,
+                "length": 5,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588427392",
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "A Game of Thrones CCG",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-10T06:41:33-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "10.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "10.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620255000",
+                            "shipping_profile_name": "Flat:USPS Priority($10.00),UPS Ground,Same bu",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "98102",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-10T15:34:22.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "7.00",
+                    "packagedetails_packagelength": "5.00",
+                    "packagedetails_packagewidth": "6.00",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "2"
+                }
+            },
+            {
+                "id": "110588427780",
+                "type": "simple",
+                "u_model": "SKU_7",
+                "u_sku": "SKU_7",
+                "name": "Superupdate SKU_7",
+                "description": "Test 123 SKU_47upd.",
+                "short_description": "",
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 50,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-2bfc5680.example.com/",
+                "seo_url": "https://store-2bfc5680.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 252,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-11T06:58:30+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "43bdffc9c9414174537c212bf1152dcc",
+                        "http_path": "https://picsum.photos/seed/9dd2019a/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "021d2ff80cc7483601ea3d27aa3df353",
+                        "http_path": "https://picsum.photos/seed/ffc6c1f7/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 15,
+                "height": 20,
+                "length": 9999,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "A Game of Thrones CCG",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-10T22:58:30-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "10.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "10.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620255000",
+                            "shipping_profile_name": "Flat:USPS Priority($10.00),UPS Ground,Same bu",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "95125",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-11T07:25:04.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "20.00",
+                    "packagedetails_packagelength": "9999.00",
+                    "packagedetails_packagewidth": "15.00",
+                    "packagedetails_shippingpackage": "PackageThickEnvelope",
+                    "packagedetails_weightmajor": "252",
+                    "packagedetails_weightminor": ""
+                }
+            },
+            {
+                "id": "110588427897",
+                "type": "simple",
+                "u_model": "SKU_10",
+                "u_sku": "SKU_10",
+                "name": "Superupdate SKU_10",
+                "description": "Test 123 SKU_10 upd.",
+                "short_description": "",
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 150,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-1d6d9117.example.com/",
+                "seo_url": "https://store-1d6d9117.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 252,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-11T09:39:16+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "43bdffc9c9414174537c212bf1152dcc",
+                        "http_path": "https://picsum.photos/seed/9dd2019a/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "021d2ff80cc7483601ea3d27aa3df353",
+                        "http_path": "https://picsum.photos/seed/ffc6c1f7/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 15,
+                "height": 20,
+                "length": 9999,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588428050",
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "A Game of Thrones CCG",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-11T01:39:16-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "10.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "10.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620255000",
+                            "shipping_profile_name": "Flat:USPS Priority($10.00),UPS Ground,Same bu",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "Used",
+                    "conditiondescription": "USED_EXCELLENT condition_description",
+                    "conditionid": "3000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-11T10:06:14.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "20.00",
+                    "packagedetails_packagelength": "9999.00",
+                    "packagedetails_packagewidth": "15.00",
+                    "packagedetails_shippingpackage": "PackageThickEnvelope",
+                    "packagedetails_weightmajor": "252",
+                    "packagedetails_weightminor": ""
+                }
+            },
+            {
+                "id": "110588428177",
+                "type": "simple",
+                "u_model": "SKU_11",
+                "u_sku": "SKU_11",
+                "name": "Upd Test productTest111",
+                "description": "test description",
+                "short_description": "",
+                "price": 13.61,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 180,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-18f85a00.example.com/",
+                "seo_url": "https://store-18f85a00.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 1.5,
+                "weight_unit": "lb",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-11T12:42:23+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "df8eb43cb4ccc713fdd79b02bcf53333",
+                        "http_path": "https://picsum.photos/seed/97a77d74/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "e26279b1a485a4dae7e4398c325c1b41",
+                        "http_path": "https://picsum.photos/seed/1168b5/600/600",
+                        "file_name": null,
+                        "mime-type": "image/png",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "408dedb21ac83d36d24d8f2f729cf5cc",
+                        "http_path": "https://picsum.photos/seed/3c875f05/600/600",
+                        "file_name": null,
+                        "mime-type": "image/gif",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 2,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": "in",
+                "width": 111.11,
+                "height": 222.22,
+                "length": 333.33,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": "110588429302",
+                    "specifics": [
+                        {
+                            "Name": "Model",
+                            "Value": "fsdgsdrgd",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Brand",
+                            "Value": "Iqwer",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Red",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "10 Gb",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-11T04:42:23-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Iqwer",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Ended",
+                    "reserve_price": "0.0",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "10.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "10.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620255000",
+                            "shipping_profile_name": "Flat:USPS Priority($10.00),UPS Ground,Same bu",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "GTC",
+                    "listingtype": "FixedPrice",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "95125",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "Used",
+                    "conditiondescription": "test upd condition_description",
+                    "conditionid": "3000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-12T15:51:48.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": null,
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_packagedepth": "222.22",
+                    "packagedetails_packagelength": "333.33",
+                    "packagedetails_packagewidth": "111.11",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "1",
+                    "packagedetails_weightminor": "8"
+                }
+            },
+            {
+                "id": "110588432297",
+                "type": "simple",
+                "u_model": "1002",
+                "u_sku": "1002",
+                "name": "Apple iPhone 12 Pro Max 128GB",
+                "description": "Used iPhone 12 Pro Max, fully functional, minor scratches on the back.",
+                "short_description": "",
+                "price": 399.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "9355"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-982293bd.example.com/",
+                "seo_url": "https://store-982293bd.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": null,
+                "weight_unit": null,
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-17T09:15:25+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "700691a741ae89f8f41a6251f71339b2",
+                        "http_path": "https://picsum.photos/seed/9b793fbf/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "110ccc6bff25b248dbcb3eca0ff31b6c",
+                        "http_path": "https://picsum.photos/seed/dcd9456f/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Apple",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "iPhone 12 Pro Max",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Storage Capacity",
+                            "Value": "128GB",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Pacific Blue",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-17T01:15:25-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Apple",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "410.0",
+                    "quantity_sold": 0,
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5570815000",
+                            "shipping_profile_name": "minimal Fulfillment Policy",
+                            "payment_profile_id": "6210972000",
+                            "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                            "return_profile_id": "5575459000",
+                            "return_profile_name": "No returns accepted"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "paymentmethods": "CashOnPickup",
+                    "buyerresponsibleforshipping": "false",
+                    "postalcode": "95125",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "Open box",
+                    "conditiondescription": "Used but in good condition. Fully unlocked, battery health 85%.",
+                    "conditionid": "1500",
+                    "getitfast": "false",
+                    "endtime": "2025-09-24T09:15:25.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "580.0",
+                    "buyerprotection": "ItemIneligible"
+                }
+            },
+            {
+                "id": "110588432660",
+                "type": "simple",
+                "u_model": "PICUN-B8-120H",
+                "u_sku": "PICUN-B8-120H",
+                "name": "Picun B8 Bluetooth Headphones 120H Playtime",
+                "description": "Picun B8 Wireless Bluetooth Headphones with 120 Hours Playtime, 3 EQ Modes, Low Latency, Hands-Free Calls — Black over-ear design for home & office.",
+                "short_description": "",
+                "price": 39.99,
+                "advanced_price": [],
+                "cost_price": null,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": null,
+                "u_brand": null,
+                "categories_ids": [
+                    "15053"
+                ],
+                "stores_ids": [
+                    "testuser_sandboxaaaaaaa"
+                ],
+                "url": "https://store-b8181277.example.com/",
+                "seo_url": "https://store-b8181277.example.com/",
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": "oz",
+                "sort_order": 0,
+                "in_stock": null,
+                "backorders": "False",
+                "manage_stock": false,
+                "is_stock_managed": false,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-09-17T13:14:07+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 0,
+                    "avail": false,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "80e74fb1ec7cc5e527ee6356c0fd769b",
+                        "http_path": "https://picsum.photos/seed/8a88945f/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "50662b4dfcc00fd0cab797fca60d602c",
+                        "http_path": "https://picsum.photos/seed/4dd1d7df/600/600",
+                        "file_name": null,
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 1,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "RelistedItemID": null,
+                    "specifics": [
+                        {
+                            "Name": "Brand",
+                            "Value": "Picun",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Color",
+                            "Value": "Black",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Model",
+                            "Value": "B8",
+                            "Source": "ItemSpecific"
+                        },
+                        {
+                            "Name": "Playtime",
+                            "Value": "120H",
+                            "Source": "ItemSpecific"
+                        }
+                    ],
+                    "start_time": {
+                        "value": "2025-09-17T05:14:07-0800",
+                        "format": "Y-m-d\\TH:i:sO"
+                    },
+                    "confidentiality_level": "public",
+                    "isbn": null,
+                    "ean": null,
+                    "brand": "Picun",
+                    "salestax_salestaxpercent": "0.0",
+                    "salestax_salestaxstate": null,
+                    "salestax_shippingincludedintax": "false",
+                    "country": "US",
+                    "city": "Fairview",
+                    "listing_status": "Active",
+                    "reserve_price": "50.99",
+                    "quantity_sold": 0,
+                    "shippingservice": "USPSPriority",
+                    "shippingservicecost": "5.0",
+                    "shipping_services": [
+                        {
+                            "shipping_service": "USPSPriority",
+                            "shipping_service_cost": "5.0"
+                        },
+                        {
+                            "shipping_service": "UPSGround",
+                            "shipping_service_cost": "5.0"
+                        }
+                    ],
+                    "seller_profiles": [
+                        {
+                            "shipping_profile_id": "5620276000",
+                            "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                            "payment_profile_id": "6210971000",
+                            "payment_profile_name": "eBay Managed Payments (6210971000)",
+                            "return_profile_id": "6042112000",
+                            "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back,Int"
+                        }
+                    ],
+                    "currency": "USD",
+                    "listingduration": "Days_7",
+                    "listingtype": "Auction",
+                    "buyerresponsibleforshipping": "false",
+                    "ebayplus": "false",
+                    "adult": "false",
+                    "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+                    "ebaypluseligible": "false",
+                    "hidefromsearch": "false",
+                    "conditiondisplayname": "New",
+                    "conditionid": "1000",
+                    "getitfast": "false",
+                    "endtime": "2025-09-24T13:14:07.000Z",
+                    "checkoutenabled": "true",
+                    "haspublicmessages": "false",
+                    "applyshippingdiscount": "false",
+                    "shippingtype": "Flat",
+                    "thirdpartycheckout": "false",
+                    "buyitnowprice": "70.99",
+                    "buyerprotection": "ItemIneligible",
+                    "packagedetails_shippingpackage": "None",
+                    "packagedetails_weightmajor": "",
+                    "packagedetails_weightminor": ""
+                }
+            }
+        ]
+    }
+}

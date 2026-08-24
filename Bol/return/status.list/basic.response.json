@@ -1,0 +1,16 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "return_statuses": [
+            {
+                "id": "handled",
+                "name": "Handled"
+            },
+            {
+                "id": "unhandled",
+                "name": "Unhandled"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "GET",
+    "endpoint": "product.find.json",
+    "query": {
+        "find_value": "nonexistent_zzz_366750",
+        "find_where": "name"
+    }
+}

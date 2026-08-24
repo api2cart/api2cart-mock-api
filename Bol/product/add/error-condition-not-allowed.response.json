@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'condition' is not valid. Allowed values: 'NEW','AS_NEW','GOOD','REASONABLE','MODERATE'.",
+    "result": {}
+}

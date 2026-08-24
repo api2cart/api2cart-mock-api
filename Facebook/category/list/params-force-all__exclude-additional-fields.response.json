@@ -1,0 +1,49 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "K%2FNyLy52rSqMMEosKHDxcPYrdwk0yE8J903xNsp3zHL0DLOocsr38smwcC0tTPQ1yLUICs83zqsKN9T3TXTPNQk20TasKjXMCjNySi8xDCyvLEz1SEq3tQUA"
+    },
+    "result": {
+        "categories_count": 2,
+        "category": [
+            {
+                "id": "1",
+                "parent_id": "18",
+                "created_at": null,
+                "modified_at": null,
+                "name": "soups & broths",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": []
+            },
+            {
+                "id": "2",
+                "parent_id": "18",
+                "created_at": null,
+                "modified_at": null,
+                "name": "nuts & seeds",
+                "short_description": null,
+                "description": null,
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": null,
+                "sort_order": null,
+                "images": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "id": "110588487293",
+        "type": "simple",
+        "u_model": "product_with_variant451212",
+        "u_sku": "product_with_variant451212",
+        "name": "Product with variations451211",
+        "description": "Blue jeens44445411",
+        "short_description": "",
+        "price": 2,
+        "advanced_price": [],
+        "cost_price": null,
+        "unit_price": null,
+        "measure_unit": null,
+        "quantity": 17,
+        "inventory": [],
+        "group_items": [],
+        "u_brand_id": null,
+        "u_brand": null,
+        "categories_ids": [
+            "105417"
+        ],
+        "stores_ids": [
+            "testuser_sandboxaaaaaaa"
+        ],
+        "url": "https://store-f6b8eb00.example.com/",
+        "seo_url": "https://store-f6b8eb00.example.com/",
+        "meta_title": null,
+        "meta_keywords": null,
+        "meta_description": null,
+        "avail_sale": true,
+        "avail_view": true,
+        "is_virtual": null,
+        "is_downloadable": null,
+        "weight": 2,
+        "weight_unit": "lb",
+        "sort_order": 0,
+        "in_stock": null,
+        "backorders": "False",
+        "manage_stock": false,
+        "is_stock_managed": false,
+        "on_sale": null,
+        "create_at": {
+            "value": "2025-10-24T15:05:04+0000",
+            "format": "Y-m-d\\TH:i:sO"
+        },
+        "modified_at": null,
+        "tax_class_id": null,
+        "special_price": {
+            "value": 0,
+            "avail": false,
+            "created_at": null,
+            "modified_at": null,
+            "expired_at": null
+        },
+        "tier_price": [],
+        "group_price": [],
+        "images": [
+            {
+                "id": "77c45f38fa745bd91b0d0081e2d9d2dc",
+                "http_path": "https://picsum.photos/seed/d1db6830/600/600",
+                "file_name": null,
+                "mime-type": "image/jpeg",
+                "size": null,
+                "create_at": null,
+                "modified_at": null,
+                "alt": null,
+                "avail": true,
+                "sort_order": 0,
+                "type": "IMAGE_TYPE_BASE"
+            }
+        ],
+        "product_options": [],
+        "u_upc": null,
+        "u_mpn": null,
+        "u_gtin": null,
+        "u_isbn": null,
+        "u_ean": null,
+        "related_products_ids": [],
+        "up_sell_products_ids": [],
+        "cross_sell_products_ids": [],
+        "dimensions_unit": null,
+        "width": null,
+        "height": null,
+        "length": null,
+        "discounts": [],
+        "additional_fields": {
+            "RelistedItemID": null,
+            "specifics": [],
+            "start_time": {
+                "value": "2025-10-24T07:05:04-0800",
+                "format": "Y-m-d\\TH:i:sO"
+            },
+            "confidentiality_level": "public",
+            "isbn": null,
+            "ean": null,
+            "brand": null,
+            "salestax_salestaxpercent": "0.0",
+            "salestax_salestaxstate": null,
+            "salestax_shippingincludedintax": "false",
+            "country": "US",
+            "city": "Fairview",
+            "listing_status": "Active",
+            "reserve_price": "0.0",
+            "quantity_sold": 0,
+            "shippingservice": "USPSPriority",
+            "shippingservicecost": "5.0",
+            "shipping_services": [
+                {
+                    "shipping_service": "USPSPriority",
+                    "shipping_service_cost": "5.0"
+                },
+                {
+                    "shipping_service": "UPSGround",
+                    "shipping_service_cost": "5.0"
+                }
+            ],
+            "seller_profiles": [
+                {
+                    "shipping_profile_id": "5620276000",
+                    "shipping_profile_name": "Flat:USPS Priority($5.00),UPS Ground,Same bus",
+                    "payment_profile_id": "6210972000",
+                    "payment_profile_name": "eBay Managed Payments - CashOnPickup (6210972000)",
+                    "return_profile_id": "6036530000",
+                    "return_profile_name": "Returns Accepted,Buyer,30 Days,Money Back#1"
+                }
+            ],
+            "currency": "USD",
+            "listingduration": "GTC",
+            "listingtype": "FixedPrice",
+            "paymentmethods": "CashOnPickup",
+            "buyerresponsibleforshipping": "false",
+            "postalcode": "98102",
+            "ebayplus": "false",
+            "adult": "false",
+            "paymentallowedsite": "Canada,CanadaFrench,eBayMotors,US",
+            "ebaypluseligible": "false",
+            "hidefromsearch": "false",
+            "conditiondisplayname": "Pre-owned",
+            "conditionid": "3000",
+            "getitfast": "false",
+            "endtime": "2025-11-24T16:05:04.000Z",
+            "checkoutenabled": "true",
+            "haspublicmessages": "false",
+            "applyshippingdiscount": "false",
+            "shippingtype": "Flat",
+            "thirdpartycheckout": "false",
+            "buyitnowprice": null,
+            "buyerprotection": "ItemIneligible",
+            "packagedetails_shippingpackage": "None",
+            "packagedetails_weightmajor": "2",
+            "packagedetails_weightminor": ""
+        }
+    }
+}

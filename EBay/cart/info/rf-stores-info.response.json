@@ -1,0 +1,55 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "stores_info": [
+            {
+                "store_info": [
+                    {
+                        "additional_fields": null,
+                        "store_id": "testuser_sandboxaaaaaaa",
+                        "name": "",
+                        "language": "en",
+                        "store_languages": [
+                            {
+                                "id": 1,
+                                "iso_code": "en",
+                                "name": "English"
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "name": "US Dollar",
+                                "iso3": "USD",
+                                "symbol": "$"
+                            }
+                        ],
+                        "timezone": "PST",
+                        "country": "US",
+                        "root_category_id": null,
+                        "multi_store_url": null,
+                        "active": "True",
+                        "weight_unit": null,
+                        "dimension_unit": null,
+                        "prices_include_tax": "False",
+                        "store_owner_info": [
+                            {
+                                "owner": "Roma Babyak",
+                                "country": "US",
+                                "state": "FL",
+                                "state_code": null,
+                                "city": null,
+                                "street_address": "161 Example St",
+                                "street_address_line_2": "address",
+                                "zip_code": "18512",
+                                "email": "user95922@example.com",
+                                "phone": "+12820488381"
+                            }
+                        ],
+                        "default_warehouse_id": "US_95125"
+                    }
+                ]
+            }
+        ]
+    }
+}

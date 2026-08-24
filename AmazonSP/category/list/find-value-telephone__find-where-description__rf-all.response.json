@@ -1,0 +1,398 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "BcHLloIgAADQD3KRJlIuZoFOIajN6MkEdr7GfJWWI8rXd28bUgCrZ667tAyamKGwKLo2sojS9lS4Z30OsM5%2BxZlm9GW0GTdX%2Fs56EifYzDxFGMbxt%2BeHYY7vttGTC7Sgt0wxeNGfWdarnI0LZssouqJ3djR93g7ITf2IrJJfO4DCXKvzuHkbesUqL4ForBy1Uw%2B2l3DIFPJA%2BZhSJLVIu%2BWTz8mwlf%2B2MYqyw8uAOIRHuzm1dmOpHv6JTSRmzRWYnUodNP1amAE%2BiRkDtMmvDw%3D%3D"
+    },
+    "result": {
+        "categories_count": 10,
+        "category": [
+            {
+                "id": "13820",
+                "parent_id": "13809",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Systems",
+                "short_description": null,
+                "description": "Telephone Systems Engineering",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-e97f5bf4.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "tec041000",
+                        "telephone_systems"
+                    ],
+                    "browse_path_by_name": [
+                        "Books,Engineering & Transportation,Engineering,Telecommunications & Sensors,Telephone Systems"
+                    ],
+                    "browse_path_by_id": [
+                        "283155,1000,173507,173515,13809,13820"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "13809"
+                    ],
+                    "product_types": "ABIS_BOOK"
+                }
+            },
+            {
+                "id": "172607",
+                "parent_id": "172606",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Accessories",
+                "short_description": null,
+                "description": "Telephone Accessories",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-4db2eda4.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607",
+                        "172282,493964,172574,172606,172607",
+                        "1064954,1084128,172574,172606,172607"
+                    ],
+                    "children_ids": [
+                        "172608",
+                        "172612",
+                        "229193",
+                        "172622",
+                        "689974011",
+                        "281505"
+                    ],
+                    "parent_ids": [
+                        "281407",
+                        "172606"
+                    ],
+                    "product_types": "CONSUMER_ELECTRONICS"
+                }
+            },
+            {
+                "id": "172608",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Batteries",
+                "short_description": null,
+                "description": "Cordless Telephone Batteries",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-dd0df035.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "cordless-telephone-batteries"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Batteries",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Batteries",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Batteries"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,172608",
+                        "172282,493964,172574,172606,172607,172608",
+                        "1064954,1084128,172574,172606,172607,172608"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "BATTERY"
+                }
+            },
+            {
+                "id": "172612",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Caller ID Displays",
+                "short_description": null,
+                "description": "Telephone Caller ID Displays",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-24c3286a.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "caller-id-displays"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Caller ID Displays",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Caller ID Displays",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Caller ID Displays"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,172612",
+                        "172282,493964,172574,172606,172607,172612",
+                        "1064954,1084128,172574,172606,172607,172612"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "PHONE"
+                }
+            },
+            {
+                "id": "229193",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Headsets",
+                "short_description": null,
+                "description": "Telephone Headsets",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-727feae.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-headsets"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Headsets",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Headsets",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Headsets"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,229193",
+                        "172282,493964,172574,172606,172607,229193",
+                        "1064954,1084128,172574,172606,172607,229193"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "HEADPHONES"
+                }
+            },
+            {
+                "id": "689974011",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephone Cords",
+                "short_description": null,
+                "description": "Telephone Wires",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-b2e27b4e.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-wires"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Telephone Cords",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Telephone Cords",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Telephone Cords"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,689974011",
+                        "172282,493964,172574,172606,172607,689974011",
+                        "1064954,1084128,172574,172606,172607,689974011"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "ELECTRONIC_CABLE"
+                }
+            },
+            {
+                "id": "281505",
+                "parent_id": "172607",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Wireless Jack Systems",
+                "short_description": null,
+                "description": "Telephone Wireless Jack Systems",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-b78b7840.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephone-wireless-jack-systems"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Accessories & Supplies,Telephone Accessories,Wireless Jack Systems",
+                        "Electronics,Office Electronics,Telephones & Accessories,Telephone Accessories,Wireless Jack Systems",
+                        "Office Products,Office Electronics,Telephones & Accessories,Telephone Accessories,Wireless Jack Systems"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,281407,172607,281505",
+                        "172282,493964,172574,172606,172607,281505",
+                        "1064954,1084128,172574,172606,172607,281505"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172607"
+                    ],
+                    "product_types": "ELECTRONIC_ADAPTER"
+                }
+            },
+            {
+                "id": "172606",
+                "parent_id": "172574",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Telephones & Accessories",
+                "short_description": null,
+                "description": "Telephones",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-3ab5dd32.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "telephones"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Office Electronics,Telephones & Accessories",
+                        "Office Products,Office Electronics,Telephones & Accessories"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,172574,172606",
+                        "1064954,1084128,172574,172606"
+                    ],
+                    "children_ids": [
+                        "172611",
+                        "11038701",
+                        "5728050011",
+                        "172621",
+                        "11038691",
+                        "172607",
+                        "13431611"
+                    ],
+                    "parent_ids": [
+                        "172574"
+                    ],
+                    "product_types": "PHONE"
+                }
+            },
+            {
+                "id": "172611",
+                "parent_id": "172606",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Answering Devices",
+                "short_description": null,
+                "description": "Telephone Answering Devices",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-bdca79d0.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "answering-devices"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Office Electronics,Telephones & Accessories,Answering Devices",
+                        "Office Products,Office Electronics,Telephones & Accessories,Answering Devices"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,172574,172606,172611",
+                        "1064954,1084128,172574,172606,172611"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172606"
+                    ],
+                    "product_types": "PHONE"
+                }
+            },
+            {
+                "id": "11038701",
+                "parent_id": "172606",
+                "created_at": null,
+                "modified_at": null,
+                "name": "Audio Conferencing",
+                "short_description": null,
+                "description": "Telephone Audio Conferencing Products",
+                "stores_ids": [],
+                "keywords": null,
+                "meta_description": null,
+                "meta_title": null,
+                "avail": true,
+                "path": null,
+                "seo_url": "https://store-f8ddbd02.example.com/",
+                "sort_order": null,
+                "images": [],
+                "additional_fields": {
+                    "browse_node_attributes": [
+                        "audio-conferencing-equipment"
+                    ],
+                    "browse_path_by_name": [
+                        "Electronics,Office Electronics,Telephones & Accessories,Audio Conferencing",
+                        "Office Products,Office Electronics,Telephones & Accessories,Audio Conferencing"
+                    ],
+                    "browse_path_by_id": [
+                        "172282,493964,172574,172606,11038701",
+                        "1064954,1084128,172574,172606,11038701"
+                    ],
+                    "children_ids": [],
+                    "parent_ids": [
+                        "172606"
+                    ],
+                    "product_types": "PHONE"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "total_count": 3,
+        "children": [
+            {
+                "id": "SWYTE-2-SWEATER-CHILD2-RRIGHT-YELLOW",
+                "parent_id": "SWYTE-2-SWEATER-MASTER",
+                "sku": "SWYTE-2-SWEATER-CHILD2-RRIGHT-YELLOW",
+                "url": "https://store-878c0f8e.example.com/",
+                "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops Bright Yellow"
+            },
+            {
+                "id": "SWYTE-2-SWEATER-CHILD2-BLACK",
+                "parent_id": "SWYTE-2-SWEATER-MASTER",
+                "sku": "SWYTE-2-SWEATER-CHILD2-BLACK",
+                "url": "https://store-b3fd2c2b.example.com/",
+                "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops"
+            },
+            {
+                "id": "SWYTE-2-SWEATER-CHILD1",
+                "parent_id": "SWYTE-2-SWEATER-MASTER",
+                "sku": "SWYTE-2-SWEATER-CHILD1",
+                "url": "https://store-bb9c5594.example.com/",
+                "name": "Women's Crewneck Batwing Long Sleeve Sweaters 2023 Fall Oversized Ribbed Knit Side Slit Pullover Tops"
+            }
+        ]
+    }
+}

@@ -1,0 +1,670 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": null
+    },
+    "result": {
+        "marketplace_products_count": 1,
+        "marketplace_product": [
+            {
+                "id": "B0CKHYC1N2",
+                "type": "configurable",
+                "u_asin": "B0CKHYC1N2",
+                "u_ean": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_mpn": null,
+                "u_upc": null,
+                "name": "adidas Men's Cushioned Quarter Socks (3-pair)",
+                "description": "Adidas mens Cushioned Quarter Socks (3-pair)",
+                "url": "https://store-3517fa4b.example.com/",
+                "price": 0,
+                "images": [
+                    {
+                        "id": "f3711bb195e34d0ce51151eb6d67dd81",
+                        "http_path": "https://picsum.photos/seed/34d36e29/600/600",
+                        "file_name": "81wajemnudL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_BASE"
+                    },
+                    {
+                        "id": "7a87b58dd282fb11ccc7d8a9100719d1",
+                        "http_path": "https://picsum.photos/seed/f671d1b4/600/600",
+                        "file_name": "8191FNF8C2L.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "e0acdfbe77f7c2c3dc00c7f87302fbb4",
+                        "http_path": "https://picsum.photos/seed/587274fc/600/600",
+                        "file_name": "81C6LwmRyIL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "04b2891cbbc2e5ad01008b8d8b53cb48",
+                        "http_path": "https://picsum.photos/seed/cfb69f7/600/600",
+                        "file_name": "71uCuw4TyLL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "2f1e4782b29a74f5b99cd405314b3cc2",
+                        "http_path": "https://picsum.photos/seed/d5ec72a4/600/600",
+                        "file_name": "81lFR1RWWUL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "a504236ef5198fbd1a973d6913045d97",
+                        "http_path": "https://picsum.photos/seed/ad6be611/600/600",
+                        "file_name": "81da9EVInTL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    },
+                    {
+                        "id": "539952ffd8ca1ac2edb4bae00e0bf6e9",
+                        "http_path": "https://picsum.photos/seed/ef6b3ae0/600/600",
+                        "file_name": "910j6IgOBzL.jpg",
+                        "mime-type": "image/jpeg",
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": null,
+                        "type": "IMAGE_TYPE_ADDITIONAL"
+                    }
+                ],
+                "product_options": [
+                    {
+                        "id": "70dda5dfb8053dc6d1c492574bce9bfd",
+                        "product_option_id": null,
+                        "name": "color",
+                        "description": null,
+                        "sort_order": null,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "c475aa2ded007b1e14ab7be303b36c16",
+                                "product_option_item_id": null,
+                                "name": "Alumina Beige/White/Black",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "46cc39a912f88e0d7ff31a0030376dd0",
+                                "product_option_item_id": null,
+                                "name": "Beige Tone/Blanch Cargo/Black/Quarter/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "321213fb016525ca668cd6386fbfcf33",
+                                "product_option_item_id": null,
+                                "name": "Black - Onix Marl/ Active Red/ True Orange/ True Blue/ O",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "20162de34ae9cc6dd1d2b307fa8f11d9",
+                                "product_option_item_id": null,
+                                "name": "Black/Onix Grey/Better Scarlet/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "c96c85dd0e6d6ec91b838aa2e9efbd3b",
+                                "product_option_item_id": null,
+                                "name": "Black/Onix Grey/Grey/Quarter/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "f45aa5e57b6508f2cc61316ea1983567",
+                                "product_option_item_id": null,
+                                "name": "Black/Onix Grey/Semi Blue Burst/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6aa6a9e6f30888e16efb503836b3300c",
+                                "product_option_item_id": null,
+                                "name": "Black/Onix Grey/Sonic Ink Blue",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "6d2086f0fe739a2d58e3ac643374ebf9",
+                                "product_option_item_id": null,
+                                "name": "Black/Onix Grey/White/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "d183eeb27c824f1fafec355633279fba",
+                                "product_option_item_id": null,
+                                "name": "Black/White/Onix Grey",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "7cac964e2823db57e7330ccc92789dd6",
+                                "product_option_item_id": null,
+                                "name": "Blue Dawn/White/Silver Green/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "8cbdb8c13df9d54e2a3e117328cab4b0",
+                                "product_option_item_id": null,
+                                "name": "Collegiate Burgundy/ Onix Heather Grey/ Collegiate B",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "7037d9c8ae138b3cddcbcdf27091cf3d",
+                                "product_option_item_id": null,
+                                "name": "Cool Light Heather/Grey/Black/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "92ee1842fb3629d972917374101051bb",
+                                "product_option_item_id": null,
+                                "name": "Grey/Black",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "5f384a3d195367d22826d9dbff245a96",
+                                "product_option_item_id": null,
+                                "name": "Legend Ink Blue - Raw White Marl White Legend Ink Bl",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "29d9f6183e2a94a15860100965b3ba00",
+                                "product_option_item_id": null,
+                                "name": "Legend Ink Blue/Tech Indigo Blue/Clear Onix Grey",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "e9de5fdcdbef9a2f5bb810c243b51c17",
+                                "product_option_item_id": null,
+                                "name": "Legend Ink Blue/White/Grey/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "d2197cee83aaceb5ec5eff82874b837c",
+                                "product_option_item_id": null,
+                                "name": "Night Marine Blue/Legend Ink Blue/Grey/Quarter/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "76efbd06a3d5752db2b817ec1a2a01fb",
+                                "product_option_item_id": null,
+                                "name": "Off White/Preloved Ink Blue/Legend Ivy Green/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "f61d4ccd9e7a2652b8b20d57b59c9d86",
+                                "product_option_item_id": null,
+                                "name": "Onix - Light Onix Marl/ Collegiate Green Black - Onix M",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "f9e33c25ac8d4815ad0c834c834db623",
+                                "product_option_item_id": null,
+                                "name": "Onix Grey/Grey/Solar Slime/Quarter/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "b5abbd5f9a825fc9d5a8c1108e0d7a0f",
+                                "product_option_item_id": null,
+                                "name": "Onix Grey/Light Onix Grey/Legend Ink Blue",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "c3063fc26bdffe876e78d1f21d519540",
+                                "product_option_item_id": null,
+                                "name": "White/Black/Clear Onix Grey",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "5dd6cd1f36dfbb3dce4b0c470d9a521d",
+                                "product_option_item_id": null,
+                                "name": "White/Grey/Onix Grey/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "2624a8429d710ad2158076925d84283f",
+                                "product_option_item_id": null,
+                                "name": "White/Grey/Orbit Indigo Blue/Quarter/3",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "4515eae500d82d58e07ad842bb7b2025",
+                                "product_option_item_id": null,
+                                "name": "Wonder Silver/Black/Wonder Beige/3/Color",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "f7bd60b75b29d79b660a2859395c1a24",
+                        "product_option_id": null,
+                        "name": "size",
+                        "description": null,
+                        "sort_order": null,
+                        "type": "select",
+                        "required": true,
+                        "available": true,
+                        "used_in_combination": true,
+                        "option_items": [
+                            {
+                                "id": "3a69b34ce86dacb205936a8094f6c743",
+                                "product_option_item_id": null,
+                                "name": "Large",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            },
+                            {
+                                "id": "94224d5dd8fe6f9bab12d457ee780546",
+                                "product_option_item_id": null,
+                                "name": "X-Large",
+                                "sort_order": null,
+                                "price": 0,
+                                "weight": 0,
+                                "quantity": null,
+                                "type_price": "value",
+                                "sku": null,
+                                "is_default": null
+                            }
+                        ]
+                    }
+                ],
+                "manufacturer": "",
+                "brand": "adidas",
+                "weight": null,
+                "weight_unit": null,
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "additional_fields": {
+                    "child_asins": [
+                        "B09FQD1TFG",
+                        "B08L3ZV5BH",
+                        "B07D9H2NJQ",
+                        "B09YBYDTKN",
+                        "B08L43RZT2",
+                        "B0BZR35YKR",
+                        "B08L42YXKW",
+                        "B09XN65QH5",
+                        "B07KZXH5S3",
+                        "B09YCGZMZC",
+                        "B01JHL6AIS",
+                        "B09YBY9B2H",
+                        "B07KZX24LR",
+                        "B07D9J9PRD",
+                        "B08L45NQH4",
+                        "B09YC93FSR",
+                        "B08L44TP4Y",
+                        "B0BZR2JC4H",
+                        "B01NBAMBJR",
+                        "B08L478DML",
+                        "B081R356ZL",
+                        "B07KZW1LB9",
+                        "B09XN47CJ6",
+                        "B08L47BZY3",
+                        "B0B9CJ6LK2",
+                        "B09XN5SCX8",
+                        "B07KZY2HHZ",
+                        "B07KZHPBXF",
+                        "B09XN6MT11"
+                    ],
+                    "parent_asin": "",
+                    "model_number": "",
+                    "part_number": "",
+                    "product_type": "SOCKS",
+                    "raw_attributes": {
+                        "variation_theme": [
+                            {
+                                "name": "SIZE/COLOR",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "occasion_type": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Halloween",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Christmas",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            },
+                            {
+                                "language_tag": "en_US",
+                                "value": "Birthday",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "age_range_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Adult",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "bullet_point": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Adidas mens Cushioned Quarter Socks (3-pair)",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "product_description": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Adidas mens Cushioned Quarter Socks (3-pair)",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "department": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "mens",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "toe_style": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Reinforced Toe",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "closure": [
+                            {
+                                "type": [
+                                    {
+                                        "language_tag": "en_US",
+                                        "value": "Pull On"
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "adidas",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "height_map": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Quarter",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_name": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "adidas Men's Cushioned Quarter Socks (3-pair)",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "list_price": [
+                            {
+                                "currency": "USD",
+                                "value": 0,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "lifestyle": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "athletic",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "item_type_keyword": [
+                            {
+                                "value": "athletic-socks",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "socks_form": [
+                            {
+                                "value": "athletic_socks",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "style": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Modern",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "care_instructions": [
+                            {
+                                "language_tag": "en_US",
+                                "value": "Machine Wash",
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "rise": [
+                            {
+                                "style": [
+                                    {
+                                        "language_tag": "en_US",
+                                        "value": "Quarter Length"
+                                    }
+                                ],
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ],
+                        "unit_count": [
+                            {
+                                "type": {
+                                    "language_tag": "en_US",
+                                    "value": "Count"
+                                },
+                                "value": 3,
+                                "marketplace_id": "ATVPDKIKX0DER"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

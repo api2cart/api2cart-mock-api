@@ -1,0 +1,16 @@
+{
+    "captured_at": "2026-08-21T10:00:00Z",
+    "method": "POST",
+    "endpoint": "product.add.json",
+    "body": {
+        "name": "Winter Pet Jacket, Small",
+        "description": "Water-resistant insulated jacket for small dogs.",
+        "price": 27,
+        "sku": "A2C-PET-BED-003",
+        "brand_name": "PawGuard",
+        "category_id": "559c5d924fff3d64de18bf45",
+        "ean": "5901234123457",
+        "image_url": "https://picsum.photos/seed/walmart-pet-jacket/800",
+        "avail_from": "2029-10-25T15:54:37-0500"
+    }
+}

@@ -1,0 +1,1240 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "pagination": {
+        "previous": null,
+        "next": "S43ULisoCC43SY3SDsxOzXYPTAp0Mc8scw3xys%2FP8zfydU8rDQ8qSykLDHGrqvLyLSksyApOKw2KcMvMy3bMNAEA"
+    },
+    "result": {
+        "products_count": 10,
+        "product": [
+            {
+                "id": "486063123",
+                "type": "grouped",
+                "u_model": null,
+                "u_sku": "U*143",
+                "name": "",
+                "description": "test",
+                "short_description": null,
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "143"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "UNSORTED_LOT",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": false
+                }
+            },
+            {
+                "id": "486063055",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "5833-1",
+                "name": "Rosita's Wonderful Stable",
+                "description": "",
+                "short_description": null,
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "48"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/d7a15f6/600/600",
+                        "file_name": "5833-1.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "ORIGINAL_BOX",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": false
+                }
+            },
+            {
+                "id": "486062118",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "nbacard05",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "",
+                "short_description": null,
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 11,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "380"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/dae4f8fc/600/600",
+                        "file_name": "nbacard05.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "GEAR",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": false
+                }
+            },
+            {
+                "id": "486599379",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "nbacard05",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "short_description": null,
+                "price": 99.9,
+                "advanced_price": [],
+                "cost_price": 65.9,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "380"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-21T14:39:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 40.96,
+                    "avail": true,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [
+                    {
+                        "qty": 3,
+                        "price": 15
+                    },
+                    {
+                        "qty": 5,
+                        "price": 13
+                    },
+                    {
+                        "qty": 6,
+                        "price": 12
+                    }
+                ],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/7587400c/600/600",
+                        "file_name": "nbacard05.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "GEAR",
+                    "color_id": 123,
+                    "color_name": "Mx White",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": true,
+                    "is_stock_room": true
+                }
+            },
+            {
+                "id": "486599476",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "nbacard05",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "short_description": null,
+                "price": 99.9,
+                "advanced_price": [],
+                "cost_price": 65.9,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "380"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-21T14:40:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 40.96,
+                    "avail": true,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [
+                    {
+                        "qty": 3,
+                        "price": 15
+                    },
+                    {
+                        "qty": 5,
+                        "price": 13
+                    },
+                    {
+                        "qty": 6,
+                        "price": 12
+                    }
+                ],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/7587400c/600/600",
+                        "file_name": "nbacard05.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "GEAR",
+                    "color_id": 123,
+                    "color_name": "Mx White",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": true,
+                    "is_stock_room": true
+                }
+            },
+            {
+                "id": "486599485",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "nbacard05",
+                "name": "Antoine Walker, Boston Celtics #8",
+                "description": "Product description",
+                "short_description": null,
+                "price": 99.9,
+                "advanced_price": [],
+                "cost_price": 65.9,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 0,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "380"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-21T14:40:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 40.96,
+                    "avail": true,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [
+                    {
+                        "qty": 3,
+                        "price": 15
+                    },
+                    {
+                        "qty": 5,
+                        "price": 13
+                    },
+                    {
+                        "qty": 6,
+                        "price": 12
+                    }
+                ],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/7587400c/600/600",
+                        "file_name": "nbacard05.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "GEAR",
+                    "color_id": 123,
+                    "color_name": "Mx White",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": true,
+                    "is_stock_room": true
+                }
+            },
+            {
+                "id": "486054067",
+                "type": "simple",
+                "u_model": null,
+                "u_sku": "42601c01",
+                "name": "Aircraft Fuselage Aft Section Angular Bottom 6 x 10 x 5",
+                "description": "",
+                "short_description": null,
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "93"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/fed86cba/600/600",
+                        "file_name": "42601c01.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "PART",
+                    "color_id": 237,
+                    "color_name": "Bionicle Copper",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": false
+                }
+            },
+            {
+                "id": "483701018",
+                "type": "grouped",
+                "u_model": null,
+                "u_sku": "1435-1",
+                "name": "Super Glider",
+                "description": "",
+                "short_description": null,
+                "price": 10,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 2,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "3039",
+                            "color_id": 4,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "30390",
+                            "color_id": 9,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "4617",
+                            "color_id": 11,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "3839b",
+                            "color_id": 1,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "multippr05",
+                            "color_id": 0,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "js026",
+                            "color_id": 0,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    }
+                ],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "516"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": false,
+                "avail_view": false,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": false,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-04T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 9,
+                    "avail": true,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/80e24509/600/600",
+                        "file_name": "1435-1.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "SET",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": "Complete",
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": true
+                }
+            },
+            {
+                "id": "486041611",
+                "type": "grouped",
+                "u_model": null,
+                "u_sku": "1436-1",
+                "name": "Ultralight Flyer",
+                "description": "New product description2",
+                "short_description": null,
+                "price": 99.9,
+                "advanced_price": [],
+                "cost_price": 65.9,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 6,
+                "inventory": [],
+                "group_items": [
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "3034",
+                            "color_id": 1,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 2,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "30407",
+                            "color_id": 1,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "3795",
+                            "color_id": 4,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "4617",
+                            "color_id": 11,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "6232",
+                            "color_id": 1,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "6239",
+                            "color_id": 1,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 2,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "2415c01",
+                            "color_id": 9,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 2,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "30389b",
+                            "color_id": 9,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "js008",
+                            "color_id": 0,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 2,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "3464c01",
+                            "color_id": 12,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": true
+                        }
+                    }
+                ],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "516"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": {
+                    "value": 56.94,
+                    "avail": true,
+                    "created_at": null,
+                    "modified_at": null,
+                    "expired_at": null
+                },
+                "tier_price": [
+                    {
+                        "qty": 1,
+                        "price": 10
+                    },
+                    {
+                        "qty": 2,
+                        "price": 9
+                    },
+                    {
+                        "qty": 3,
+                        "price": 8
+                    }
+                ],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/b10a5f94/600/600",
+                        "file_name": "1436-1.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "SET",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": "Sealed",
+                    "remarks": "",
+                    "min_order_quantity": 2,
+                    "is_retain": true,
+                    "is_stock_room": false
+                }
+            },
+            {
+                "id": "486062094",
+                "type": "grouped",
+                "u_model": null,
+                "u_sku": "agt028",
+                "name": "Magma Drone",
+                "description": "",
+                "short_description": null,
+                "price": 11,
+                "advanced_price": [],
+                "cost_price": 0,
+                "unit_price": null,
+                "measure_unit": null,
+                "quantity": 1,
+                "inventory": [],
+                "group_items": [
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "4592c02",
+                            "color_id": 11,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "970c86",
+                            "color_id": 4,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    },
+                    {
+                        "child_item_id": null,
+                        "product_id": "0",
+                        "default_qty_in_pack": 1,
+                        "is_qty_in_pack_fixed": true,
+                        "price": null,
+                        "additional_fields": {
+                            "sku": "973pb0577c02",
+                            "color_id": 86,
+                            "extra_quantity": 0,
+                            "is_alternate": false,
+                            "is_counterpart": false
+                        }
+                    }
+                ],
+                "u_brand_id": "0",
+                "u_brand": null,
+                "categories_ids": [
+                    "609"
+                ],
+                "stores_ids": [],
+                "url": null,
+                "seo_url": null,
+                "meta_title": null,
+                "meta_keywords": null,
+                "meta_description": null,
+                "avail_sale": true,
+                "avail_view": true,
+                "is_virtual": null,
+                "is_downloadable": null,
+                "weight": 0,
+                "weight_unit": null,
+                "sort_order": null,
+                "in_stock": true,
+                "backorders": null,
+                "manage_stock": null,
+                "is_stock_managed": null,
+                "on_sale": null,
+                "create_at": {
+                    "value": "2025-07-18T04:00:00+0000",
+                    "format": "Y-m-d\\TH:i:sO"
+                },
+                "modified_at": null,
+                "tax_class_id": null,
+                "special_price": null,
+                "tier_price": [],
+                "group_price": [],
+                "images": [
+                    {
+                        "id": "1",
+                        "http_path": "https://picsum.photos/seed/55c80fa4/600/600",
+                        "file_name": "agt028.png",
+                        "mime-type": null,
+                        "size": null,
+                        "create_at": null,
+                        "modified_at": null,
+                        "alt": null,
+                        "avail": true,
+                        "sort_order": 0,
+                        "type": "IMAGE_TYPE_BASE"
+                    }
+                ],
+                "product_options": [],
+                "u_upc": null,
+                "u_mpn": null,
+                "u_gtin": null,
+                "u_isbn": null,
+                "u_ean": null,
+                "related_products_ids": [],
+                "up_sell_products_ids": [],
+                "cross_sell_products_ids": [],
+                "dimensions_unit": null,
+                "width": null,
+                "height": null,
+                "length": null,
+                "discounts": [],
+                "additional_fields": {
+                    "product_type": "MINIFIG",
+                    "color_id": 0,
+                    "color_name": "(Not Applicable)",
+                    "condition": "new",
+                    "completeness": null,
+                    "remarks": "",
+                    "min_order_quantity": 1,
+                    "is_retain": false,
+                    "is_stock_room": false
+                }
+            }
+        ]
+    }
+}

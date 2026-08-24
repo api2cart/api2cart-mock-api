@@ -1,0 +1,5 @@
+{
+    "return_code": 109,
+    "return_message": "Parameter 'cancellation_reason' is not valid. The required type of parameter is enum. One of the following values are allowed: seller_cancel_unpaid_reason_out_of_stock_uk, seller_cancel_unpaid_reason_wrong_price_uk, seller_cancel_unpaid_reason_buyer_hasnt_paid_within_time_allowed_uk, seller_cancel_reason_wrong_price_uk, seller_cancel_paid_reason_address_not_deliver_uk, seller_cancel_reason_out_of_stock_uk.",
+    "result": {}
+}

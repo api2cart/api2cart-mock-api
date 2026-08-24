@@ -1,0 +1,294 @@
+{
+    "return_code": 0,
+    "return_message": "",
+    "result": {
+        "categories_count": 57,
+        "category": [
+            {
+                "id": "16262851",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure"
+            },
+            {
+                "id": "16263051",
+                "name": "Classics",
+                "description": "Classic Action & Adventure Movies"
+            },
+            {
+                "id": "16263261",
+                "name": "Comic Action",
+                "description": "Comic Action & Adventure Movies"
+            },
+            {
+                "id": "16263471",
+                "name": "Crime",
+                "description": "Crime Action & Adventure Movies"
+            },
+            {
+                "id": "44069011",
+                "name": "Science Fiction",
+                "description": "Science Fiction Action & Adventure"
+            },
+            {
+                "id": "45980011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure TV"
+            },
+            {
+                "id": "2967",
+                "name": "Action & Adventure",
+                "description": "Children's Action & Adventure Books"
+            },
+            {
+                "id": "16926943011",
+                "name": "Action & Adventure",
+                "description": "Children's Action & Adventure Comics & Graphic Novels"
+            },
+            {
+                "id": "8944269011",
+                "name": "Action & Adventure",
+                "description": "Children's Christian Action & Adventure Fiction"
+            },
+            {
+                "id": "7421474011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Manga"
+            },
+            {
+                "id": "16926956011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Movies"
+            },
+            {
+                "id": "17861268011",
+                "name": "Action & Adventure Fiction",
+                "description": "LGBTQ+ Action & Adventure Fiction"
+            },
+            {
+                "id": "720360",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Fiction"
+            },
+            {
+                "id": "10192708011",
+                "name": "Classics",
+                "description": "Classic Action & Adventure"
+            },
+            {
+                "id": "10159265011",
+                "name": "Fantasy",
+                "description": "Fantasy Action & Adventure"
+            },
+            {
+                "id": "10159266011",
+                "name": "General",
+                "description": "General Action & Adventure Literature & Fiction"
+            },
+            {
+                "id": "10159269011",
+                "name": "Crime",
+                "description": "Crime Action & Adventure"
+            },
+            {
+                "id": "10159270011",
+                "name": "Mystery",
+                "description": "Mystery Action & Adventure"
+            },
+            {
+                "id": "10159272011",
+                "name": "Romance",
+                "description": "Romantic Action & Adventure"
+            },
+            {
+                "id": "10159274011",
+                "name": "Short Stories",
+                "description": "Action & Adventure Short Stories"
+            },
+            {
+                "id": "10159290011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Erotica"
+            },
+            {
+                "id": "11764651011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Romance"
+            },
+            {
+                "id": "202437562011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Fantasy"
+            },
+            {
+                "id": "10368508011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Action & Adventure"
+            },
+            {
+                "id": "10368509011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Fantasy Action & Adventure"
+            },
+            {
+                "id": "10368510011",
+                "name": "General",
+                "description": "YA Action & Adventure Literature"
+            },
+            {
+                "id": "10368511011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Mystery & Thriller Action & Adventure"
+            },
+            {
+                "id": "10368512011",
+                "name": "Pirates",
+                "description": "Teen & Young Adult Pirate Action & Adventure"
+            },
+            {
+                "id": "10368513011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Science Fiction Action & Adventure"
+            },
+            {
+                "id": "16926977011",
+                "name": "Action & Adventure",
+                "description": "Young Adult Action & Adventure Comics & Graphic Novels"
+            },
+            {
+                "id": "10368528011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Christian Action & Adventure"
+            },
+            {
+                "id": "155190011",
+                "name": "Action & Adventure",
+                "description": "Children's Action & Adventure Literature"
+            },
+            {
+                "id": "10124607011",
+                "name": "Animals",
+                "description": "Children's Animal Action & Adventure"
+            },
+            {
+                "id": "10124609011",
+                "name": "Action & Adventure",
+                "description": "Children's Fantasy & Magic Adventure"
+            },
+            {
+                "id": "10124610011",
+                "name": "Historical",
+                "description": "Children's Historical Action & Adventure"
+            },
+            {
+                "id": "10124611011",
+                "name": "Humorous",
+                "description": "Children's Humorous Action & Adventure"
+            },
+            {
+                "id": "10124612011",
+                "name": "Action & Adventure",
+                "description": "Children's Mystery & Detective Adventure"
+            },
+            {
+                "id": "10124613011",
+                "name": "Pirates",
+                "description": "Children's Pirate Action & Adventure"
+            },
+            {
+                "id": "7006701011",
+                "name": "Action & Adventure",
+                "description": "Children's Action & Adventure Sci-Fi Books"
+            },
+            {
+                "id": "10124614011",
+                "name": "Superheroes",
+                "description": "Children's Superhero Action & Adventure"
+            },
+            {
+                "id": "16232478011",
+                "name": "Action & Adventure",
+                "description": "Children’s Action & Adventure Comics & Graphic Novels"
+            },
+            {
+                "id": "155753011",
+                "name": "Action & Adventure",
+                "description": "Children's Action & Adventure Books"
+            },
+            {
+                "id": "17744502011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Manga"
+            },
+            {
+                "id": "16232519011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Action & Adventure Comics & Graphic Novels"
+            },
+            {
+                "id": "16232493011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Movies & Video"
+            },
+            {
+                "id": "7588729011",
+                "name": "Action & Adventure",
+                "description": "LGBTQ+ Action & Adventure"
+            },
+            {
+                "id": "157055011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Fiction"
+            },
+            {
+                "id": "7588736011",
+                "name": "Romance",
+                "description": "Action & Adventure Romance Fiction"
+            },
+            {
+                "id": "7588738011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Short Stories"
+            },
+            {
+                "id": "7620210011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Erotica"
+            },
+            {
+                "id": "7588843011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Literary Fiction"
+            },
+            {
+                "id": "7588885011",
+                "name": "Action & Adventure",
+                "description": "Women's Action & Adventure Fiction"
+            },
+            {
+                "id": "11650866011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Romance"
+            },
+            {
+                "id": "16232448011",
+                "name": "Action & Adventure",
+                "description": "Action & Adventure Fantasy"
+            },
+            {
+                "id": "7006622011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Action & Adventure eBooks"
+            },
+            {
+                "id": "15249066011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Christian Action & Adventure eBooks"
+            },
+            {
+                "id": "7006664011",
+                "name": "Action & Adventure",
+                "description": "Teen & Young Adult Sci-Fi Action & Adventure eBooks"
+            }
+        ]
+    }
+}

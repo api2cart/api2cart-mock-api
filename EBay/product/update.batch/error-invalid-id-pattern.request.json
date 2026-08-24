@@ -1,0 +1,12 @@
+{
+    "captured_at": "2026-08-18T07:02:39Z",
+    "method": "POST",
+    "endpoint": "product.update.batch.json",
+    "body": {
+        "payload": [
+            {
+                "id": ""
+            }
+        ]
+    }
+}

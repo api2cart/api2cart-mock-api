@@ -1,0 +1,10 @@
+{
+    "captured_at": "2026-08-07T07:00:03Z",
+    "method": "GET",
+    "endpoint": "order.info.json",
+    "query": {
+        "order_id": "111-2392565-0194613",
+        "rounding_precision": 2,
+        "response_fields": "{return_code,return_message,result{order_id,totals}}"
+    }
+}
